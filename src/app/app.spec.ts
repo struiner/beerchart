@@ -39,7 +39,7 @@ describe('Beer Taxonomy Atlas', () => {
     expect(new Set(options.map((option) => option.id)).size).toBe(options.length);
   });
   it('links imported PDF brands only to current taxonomy entry ids', () => {
-    const entryIds = new Set(beerTaxonomyEntries.map((entry) => entry.id));
+    const entryIds = new Set<string>(beerTaxonomyEntries.map((entry) => entry.id));
     expect(beerBrands.length).toBeGreaterThan(2000);
     expect(beerBrands.flatMap((brand) => brand.taxonomyEntryIds).every((id) => entryIds.has(id))).toBe(true);
     expect(brandsForEntry('style:american-style-india-pale-ale').length).toBeGreaterThan(100);
