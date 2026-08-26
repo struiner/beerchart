@@ -1,0 +1,1480 @@
+{
+  "schemaVersion": 1,
+  "classification": "168 named entries · Brewers Association 2026 classification map",
+  "updated": "2026-08-26",
+  "nodes": [
+    {
+      "id": "beer",
+      "parentId": null,
+      "title": "Beer",
+      "type": "root",
+      "order": 0,
+      "family": "root",
+      "description": "The central interchange for the published beer-style map."
+    },
+    {
+      "id": "ale",
+      "parentId": "beer",
+      "title": "Ale",
+      "type": "ale",
+      "order": 1,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin",
+      "parentId": "ale",
+      "title": "British origin",
+      "type": "category",
+      "order": 1,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-ordinary-bitter",
+      "parentId": "ale-british-origin",
+      "title": "Ordinary Bitter",
+      "type": "style",
+      "order": 1,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-special-bitter-or-best-bitter",
+      "parentId": "ale-british-origin",
+      "title": "Special Bitter or Best Bitter",
+      "type": "style",
+      "order": 2,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-extra-special-bitter",
+      "parentId": "ale-british-origin",
+      "title": "Extra Special Bitter",
+      "type": "style",
+      "order": 3,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-english-style-summer-ale",
+      "parentId": "ale-british-origin",
+      "title": "English-Style Summer Ale",
+      "type": "style",
+      "order": 4,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-classic-english-style-pale-ale",
+      "parentId": "ale-british-origin",
+      "title": "Classic English-Style Pale Ale",
+      "type": "style",
+      "order": 5,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-british-style-india-pale-ale",
+      "parentId": "ale-british-origin",
+      "title": "British-Style India Pale Ale",
+      "type": "style",
+      "order": 6,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-strong-ale",
+      "parentId": "ale-british-origin",
+      "title": "Strong Ale",
+      "type": "style",
+      "order": 7,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-old-ale",
+      "parentId": "ale-british-origin",
+      "title": "Old Ale",
+      "type": "style",
+      "order": 8,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-english-style-pale-mild-ale",
+      "parentId": "ale-british-origin",
+      "title": "English-Style Pale Mild Ale",
+      "type": "style",
+      "order": 9,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-english-style-dark-mild-ale",
+      "parentId": "ale-british-origin",
+      "title": "English-Style Dark Mild Ale",
+      "type": "style",
+      "order": 10,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-english-style-brown-ale",
+      "parentId": "ale-british-origin",
+      "title": "English-Style Brown Ale",
+      "type": "style",
+      "order": 11,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-brown-porter",
+      "parentId": "ale-british-origin",
+      "title": "Brown Porter",
+      "type": "style",
+      "order": 12,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-robust-porter",
+      "parentId": "ale-british-origin",
+      "title": "Robust Porter",
+      "type": "style",
+      "order": 13,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-sweet-stout-or-cream-stout",
+      "parentId": "ale-british-origin",
+      "title": "Sweet Stout or Cream Stout",
+      "type": "style",
+      "order": 14,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-oatmeal-stout",
+      "parentId": "ale-british-origin",
+      "title": "Oatmeal Stout",
+      "type": "style",
+      "order": 15,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-british-style-imperial-stout",
+      "parentId": "ale-british-origin",
+      "title": "British-Style Imperial Stout",
+      "type": "style",
+      "order": 16,
+      "family": "ale"
+    },
+    {
+      "id": "ale-british-origin-british-style-barley-wine-ale",
+      "parentId": "ale-british-origin",
+      "title": "British-Style Barley Wine Ale",
+      "type": "style",
+      "order": 17,
+      "family": "ale"
+    },
+    {
+      "id": "ale-irish-origin",
+      "parentId": "ale",
+      "title": "Irish origin",
+      "type": "category",
+      "order": 2,
+      "family": "ale"
+    },
+    {
+      "id": "ale-irish-origin-irish-style-red-ale",
+      "parentId": "ale-irish-origin",
+      "title": "Irish-Style Red Ale",
+      "type": "style",
+      "order": 1,
+      "family": "ale"
+    },
+    {
+      "id": "ale-irish-origin-classic-irish-style-dry-stout",
+      "parentId": "ale-irish-origin",
+      "title": "Classic Irish-Style Dry Stout",
+      "type": "style",
+      "order": 2,
+      "family": "ale"
+    },
+    {
+      "id": "ale-irish-origin-export-style-stout",
+      "parentId": "ale-irish-origin",
+      "title": "Export-Style Stout",
+      "type": "style",
+      "order": 3,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin",
+      "parentId": "ale",
+      "title": "North American origin",
+      "type": "category",
+      "order": 3,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-golden-or-blonde-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "Golden or Blonde Ale",
+      "type": "style",
+      "order": 1,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-session-india-pale-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "Session India Pale Ale",
+      "type": "style",
+      "order": 2,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-amber-red-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Amber/Red Ale",
+      "type": "style",
+      "order": 3,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-pale-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Pale Ale",
+      "type": "style",
+      "order": 4,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-juicy-or-hazy-pale-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "Juicy or Hazy Pale Ale",
+      "type": "style",
+      "order": 5,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-strong-pale-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Strong Pale Ale",
+      "type": "style",
+      "order": 6,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-juicy-or-hazy-strong-pale-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "Juicy or Hazy Strong Pale Ale",
+      "type": "style",
+      "order": 7,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-india-pale-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style India Pale Ale",
+      "type": "style",
+      "order": 8,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-juicy-or-hazy-india-pale-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "Juicy or Hazy India Pale Ale",
+      "type": "style",
+      "order": 9,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-belgo-style-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Belgo-Style Ale",
+      "type": "style",
+      "order": 10,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-brown-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Brown Ale",
+      "type": "style",
+      "order": 11,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-black-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Black Ale",
+      "type": "style",
+      "order": 12,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-stout",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Stout",
+      "type": "style",
+      "order": 13,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-imperial-porter",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Imperial Porter",
+      "type": "style",
+      "order": 14,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-imperial-stout",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Imperial Stout",
+      "type": "style",
+      "order": 15,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-double-hoppy-red-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "Double Hoppy Red Ale",
+      "type": "style",
+      "order": 16,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-imperial-red-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "Imperial Red Ale",
+      "type": "style",
+      "order": 17,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-imperial-or-double-india-pale-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Imperial or Double India Pale Ale",
+      "type": "style",
+      "order": 18,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-juicy-or-hazy-imperial-or-double-india-pale-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "Juicy or Hazy Imperial or Double India Pale Ale",
+      "type": "style",
+      "order": 19,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-barley-wine-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Barley Wine Ale",
+      "type": "style",
+      "order": 20,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-wheat-wine-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Wheat Wine Ale",
+      "type": "style",
+      "order": 21,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-smoke-porter",
+      "parentId": "ale-north-american-origin",
+      "title": "Smoke Porter",
+      "type": "style",
+      "order": 22,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-sour-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Sour Ale",
+      "type": "style",
+      "order": 23,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-fruited-sour-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Fruited Sour Ale",
+      "type": "style",
+      "order": 24,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-kentucky-common-beer",
+      "parentId": "ale-north-american-origin",
+      "title": "Kentucky Common Beer",
+      "type": "style",
+      "order": 25,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-american-style-fruit-beer",
+      "parentId": "ale-north-american-origin",
+      "title": "American-Style Fruit Beer",
+      "type": "style",
+      "order": 26,
+      "family": "ale"
+    },
+    {
+      "id": "ale-north-american-origin-west-coast-style-india-pale-ale",
+      "parentId": "ale-north-american-origin",
+      "title": "West Coast-Style India Pale Ale",
+      "type": "style",
+      "order": 27,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin",
+      "parentId": "ale",
+      "title": "German origin",
+      "type": "category",
+      "order": 4,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-german-style-koelsch",
+      "parentId": "ale-german-origin",
+      "title": "German-Style Koelsch",
+      "type": "style",
+      "order": 1,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-german-style-altbier",
+      "parentId": "ale-german-origin",
+      "title": "German-Style Altbier",
+      "type": "style",
+      "order": 2,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-berliner-style-weisse",
+      "parentId": "ale-german-origin",
+      "title": "Berliner-Style Weisse",
+      "type": "style",
+      "order": 3,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-leipzig-style-gose",
+      "parentId": "ale-german-origin",
+      "title": "Leipzig-Style Gose",
+      "type": "style",
+      "order": 4,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-contemporary-style-gose",
+      "parentId": "ale-german-origin",
+      "title": "Contemporary-Style Gose",
+      "type": "style",
+      "order": 5,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-south-german-style-hefeweizen",
+      "parentId": "ale-german-origin",
+      "title": "South German-Style Hefeweizen",
+      "type": "style",
+      "order": 6,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-south-german-style-kristal-weizen",
+      "parentId": "ale-german-origin",
+      "title": "South German-Style Kristal Weizen",
+      "type": "style",
+      "order": 7,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-german-style-leichtes-weizen",
+      "parentId": "ale-german-origin",
+      "title": "German-Style Leichtes Weizen",
+      "type": "style",
+      "order": 8,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-south-german-style-bernsteinfarbenes-weizen",
+      "parentId": "ale-german-origin",
+      "title": "South German-Style Bernsteinfarbenes Weizen",
+      "type": "style",
+      "order": 9,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-south-german-style-dunkel-weizen",
+      "parentId": "ale-german-origin",
+      "title": "South German-Style Dunkel Weizen",
+      "type": "style",
+      "order": 10,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-south-german-style-weizenbock",
+      "parentId": "ale-german-origin",
+      "title": "South German-Style Weizenbock",
+      "type": "style",
+      "order": 11,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-german-style-rye-ale",
+      "parentId": "ale-german-origin",
+      "title": "German-Style Rye Ale",
+      "type": "style",
+      "order": 12,
+      "family": "ale"
+    },
+    {
+      "id": "ale-german-origin-bamberg-style-weiss-rauchbier",
+      "parentId": "ale-german-origin",
+      "title": "Bamberg-Style Weiss Rauchbier",
+      "type": "style",
+      "order": 13,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin",
+      "parentId": "ale",
+      "title": "Belgian and French origin",
+      "type": "category",
+      "order": 5,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-table-beer",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Table Beer",
+      "type": "style",
+      "order": 1,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-session-ale",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Session Ale",
+      "type": "style",
+      "order": 2,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-speciale-belge",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Speciale Belge",
+      "type": "style",
+      "order": 3,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-blonde-ale",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Blonde Ale",
+      "type": "style",
+      "order": 4,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-strong-blonde-ale",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Strong Blonde Ale",
+      "type": "style",
+      "order": 5,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-strong-dark-ale",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Strong Dark Ale",
+      "type": "style",
+      "order": 6,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-dubbel",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Dubbel",
+      "type": "style",
+      "order": 7,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-tripel",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Tripel",
+      "type": "style",
+      "order": 8,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-quadrupel",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Quadrupel",
+      "type": "style",
+      "order": 9,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-witbier",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Witbier",
+      "type": "style",
+      "order": 10,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-classic-french-and-belgian-style-saison",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Classic French & Belgian-Style Saison",
+      "type": "style",
+      "order": 11,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-specialty-saison",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Specialty Saison",
+      "type": "style",
+      "order": 12,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-french-style-biere-de-garde",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "French-Style Bière de Garde",
+      "type": "style",
+      "order": 13,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-flanders-oud-bruin-or-oud-red-ale",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Flanders Oud Bruin or Oud Red Ale",
+      "type": "style",
+      "order": 14,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-lambic",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Lambic",
+      "type": "style",
+      "order": 15,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-traditional-belgian-style-gueuze",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Traditional Belgian-Style Gueuze",
+      "type": "style",
+      "order": 16,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-contemporary-belgian-style-spontaneous-fermented-ale",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Contemporary Belgian-Style Spontaneous Fermented Ale",
+      "type": "style",
+      "order": 17,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-other-belgian-style-ale",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Other Belgian-Style Ale",
+      "type": "style",
+      "order": 18,
+      "family": "ale"
+    },
+    {
+      "id": "ale-belgian-and-french-origin-belgian-style-fruit-beer",
+      "parentId": "ale-belgian-and-french-origin",
+      "title": "Belgian-Style Fruit Beer",
+      "type": "style",
+      "order": 19,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin",
+      "parentId": "ale",
+      "title": "Other origin",
+      "type": "category",
+      "order": 6,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-grodziskie",
+      "parentId": "ale-other-origin",
+      "title": "Grodziskie",
+      "type": "style",
+      "order": 1,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-adambier",
+      "parentId": "ale-other-origin",
+      "title": "Adambier",
+      "type": "style",
+      "order": 2,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-dutch-style-kuit-kuyt-or-koyt",
+      "parentId": "ale-other-origin",
+      "title": "Dutch-Style Kuit, Kuyt or Koyt",
+      "type": "style",
+      "order": 3,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-international-style-pale-ale",
+      "parentId": "ale-other-origin",
+      "title": "International-Style Pale Ale",
+      "type": "style",
+      "order": 4,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-classic-australian-style-pale-ale",
+      "parentId": "ale-other-origin",
+      "title": "Classic Australian-Style Pale Ale",
+      "type": "style",
+      "order": 5,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-australian-style-pale-ale",
+      "parentId": "ale-other-origin",
+      "title": "Australian-Style Pale Ale",
+      "type": "style",
+      "order": 6,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-new-zealand-style-pale-ale",
+      "parentId": "ale-other-origin",
+      "title": "New Zealand-Style Pale Ale",
+      "type": "style",
+      "order": 7,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-new-zealand-style-india-pale-ale",
+      "parentId": "ale-other-origin",
+      "title": "New Zealand-Style India Pale Ale",
+      "type": "style",
+      "order": 8,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-finnish-style-sahti",
+      "parentId": "ale-other-origin",
+      "title": "Finnish-Style Sahti",
+      "type": "style",
+      "order": 9,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-swedish-style-gotlandsdricke",
+      "parentId": "ale-other-origin",
+      "title": "Swedish-Style Gotlandsdricke",
+      "type": "style",
+      "order": 10,
+      "family": "ale"
+    },
+    {
+      "id": "ale-other-origin-breslau-style-schoeps",
+      "parentId": "ale-other-origin",
+      "title": "Breslau-Style Schoeps",
+      "type": "style",
+      "order": 11,
+      "family": "ale"
+    },
+    {
+      "id": "ale-scottish-origin",
+      "parentId": "ale",
+      "title": "Scottish origin",
+      "type": "category",
+      "order": 7,
+      "family": "ale"
+    },
+    {
+      "id": "ale-scottish-origin-scottish-style-light-ale",
+      "parentId": "ale-scottish-origin",
+      "title": "Scottish-Style Light Ale",
+      "type": "style",
+      "order": 1,
+      "family": "ale"
+    },
+    {
+      "id": "ale-scottish-origin-scottish-style-heavy-ale",
+      "parentId": "ale-scottish-origin",
+      "title": "Scottish-Style Heavy Ale",
+      "type": "style",
+      "order": 2,
+      "family": "ale"
+    },
+    {
+      "id": "ale-scottish-origin-scottish-style-export-ale",
+      "parentId": "ale-scottish-origin",
+      "title": "Scottish-Style Export Ale",
+      "type": "style",
+      "order": 3,
+      "family": "ale"
+    },
+    {
+      "id": "ale-scottish-origin-scotch-ale-or-wee-heavy",
+      "parentId": "ale-scottish-origin",
+      "title": "Scotch Ale or Wee Heavy",
+      "type": "style",
+      "order": 4,
+      "family": "ale"
+    },
+    {
+      "id": "lager",
+      "parentId": "beer",
+      "title": "Lager",
+      "type": "lager",
+      "order": 2,
+      "family": "lager"
+    },
+    {
+      "id": "lager-european-origin",
+      "parentId": "lager",
+      "title": "European origin",
+      "type": "category",
+      "order": 1,
+      "family": "lager"
+    },
+    {
+      "id": "lager-european-origin-czech-style-pale-lager",
+      "parentId": "lager-european-origin",
+      "title": "Czech-Style Pale Lager",
+      "type": "style",
+      "order": 1,
+      "family": "lager"
+    },
+    {
+      "id": "lager-european-origin-vienna-style-lager",
+      "parentId": "lager-european-origin",
+      "title": "Vienna-Style Lager",
+      "type": "style",
+      "order": 2,
+      "family": "lager"
+    },
+    {
+      "id": "lager-european-origin-baltic-style-porter",
+      "parentId": "lager-european-origin",
+      "title": "Baltic-Style Porter",
+      "type": "style",
+      "order": 3,
+      "family": "lager"
+    },
+    {
+      "id": "lager-european-origin-czech-style-amber-lager",
+      "parentId": "lager-european-origin",
+      "title": "Czech-Style Amber Lager",
+      "type": "style",
+      "order": 4,
+      "family": "lager"
+    },
+    {
+      "id": "lager-european-origin-czech-style-dark-lager",
+      "parentId": "lager-european-origin",
+      "title": "Czech-Style Dark Lager",
+      "type": "style",
+      "order": 5,
+      "family": "lager"
+    },
+    {
+      "id": "lager-european-origin-italian-style-pilsener",
+      "parentId": "lager-european-origin",
+      "title": "Italian-Style Pilsener",
+      "type": "style",
+      "order": 6,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin",
+      "parentId": "lager",
+      "title": "North American origin",
+      "type": "category",
+      "order": 2,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-american-style-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "American-Style Lager",
+      "type": "style",
+      "order": 1,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-contemporary-american-style-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "Contemporary American-Style Lager",
+      "type": "style",
+      "order": 2,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-american-style-light-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "American-Style Light Lager",
+      "type": "style",
+      "order": 3,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-contemporary-american-style-light-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "Contemporary American-Style Light Lager",
+      "type": "style",
+      "order": 4,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-american-style-pilsener",
+      "parentId": "lager-north-american-origin",
+      "title": "American-Style Pilsener",
+      "type": "style",
+      "order": 5,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-contemporary-american-style-pilsener",
+      "parentId": "lager-north-american-origin",
+      "title": "Contemporary American-Style Pilsener",
+      "type": "style",
+      "order": 6,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-american-style-india-pale-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "American-Style India Pale Lager",
+      "type": "style",
+      "order": 7,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-american-style-malt-liquor",
+      "parentId": "lager-north-american-origin",
+      "title": "American-Style Malt Liquor",
+      "type": "style",
+      "order": 8,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-american-style-amber-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "American-Style Amber Lager",
+      "type": "style",
+      "order": 9,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-american-style-maerzen-oktoberfest",
+      "parentId": "lager-north-american-origin",
+      "title": "American-Style Maerzen/Oktoberfest",
+      "type": "style",
+      "order": 10,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-american-style-dark-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "American-Style Dark Lager",
+      "type": "style",
+      "order": 11,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-mexican-style-light-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "Mexican-Style Light Lager",
+      "type": "style",
+      "order": 12,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-mexican-style-pale-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "Mexican-Style Pale Lager",
+      "type": "style",
+      "order": 13,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-mexican-style-amber-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "Mexican-Style Amber Lager",
+      "type": "style",
+      "order": 14,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-mexican-style-dark-lager",
+      "parentId": "lager-north-american-origin",
+      "title": "Mexican-Style Dark Lager",
+      "type": "style",
+      "order": 15,
+      "family": "lager"
+    },
+    {
+      "id": "lager-north-american-origin-west-coast-style-pilsener",
+      "parentId": "lager-north-american-origin",
+      "title": "West Coast-Style Pilsener",
+      "type": "style",
+      "order": 16,
+      "family": "lager"
+    },
+    {
+      "id": "lager-other-origin",
+      "parentId": "lager",
+      "title": "Other origin",
+      "type": "category",
+      "order": 3,
+      "family": "lager"
+    },
+    {
+      "id": "lager-other-origin-international-light-lager",
+      "parentId": "lager-other-origin",
+      "title": "International Light Lager",
+      "type": "style",
+      "order": 1,
+      "family": "lager"
+    },
+    {
+      "id": "lager-other-origin-international-style-pilsener",
+      "parentId": "lager-other-origin",
+      "title": "International-Style Pilsener",
+      "type": "style",
+      "order": 2,
+      "family": "lager"
+    },
+    {
+      "id": "lager-other-origin-rice-lager",
+      "parentId": "lager-other-origin",
+      "title": "Rice Lager",
+      "type": "style",
+      "order": 3,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin",
+      "parentId": "lager",
+      "title": "German origin",
+      "type": "category",
+      "order": 4,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-german-style-leichtbier",
+      "parentId": "lager-german-origin",
+      "title": "German-Style Leichtbier",
+      "type": "style",
+      "order": 1,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-german-style-pilsener",
+      "parentId": "lager-german-origin",
+      "title": "German-Style Pilsener",
+      "type": "style",
+      "order": 2,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-munich-style-helles",
+      "parentId": "lager-german-origin",
+      "title": "Munich-Style Helles",
+      "type": "style",
+      "order": 3,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-dortmunder-european-style-export",
+      "parentId": "lager-german-origin",
+      "title": "Dortmunder/European-Style Export",
+      "type": "style",
+      "order": 4,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-franconian-style-rotbier",
+      "parentId": "lager-german-origin",
+      "title": "Franconian-Style Rotbier",
+      "type": "style",
+      "order": 5,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-german-style-maerzen",
+      "parentId": "lager-german-origin",
+      "title": "German-Style Maerzen",
+      "type": "style",
+      "order": 6,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-german-style-oktoberfest-festbier",
+      "parentId": "lager-german-origin",
+      "title": "German-Style Oktoberfest/Festbier",
+      "type": "style",
+      "order": 7,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-munich-style-dunkel",
+      "parentId": "lager-german-origin",
+      "title": "Munich-Style Dunkel",
+      "type": "style",
+      "order": 8,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-european-style-dark-lager",
+      "parentId": "lager-german-origin",
+      "title": "European-Style Dark Lager",
+      "type": "style",
+      "order": 9,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-german-style-schwarzbier",
+      "parentId": "lager-german-origin",
+      "title": "German-Style Schwarzbier",
+      "type": "style",
+      "order": 10,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-bamberg-style-helles-rauchbier",
+      "parentId": "lager-german-origin",
+      "title": "Bamberg-Style Helles Rauchbier",
+      "type": "style",
+      "order": 11,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-bamberg-style-maerzen-rauchbier",
+      "parentId": "lager-german-origin",
+      "title": "Bamberg-Style Maerzen Rauchbier",
+      "type": "style",
+      "order": 12,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-bamberg-style-bock-rauchbier",
+      "parentId": "lager-german-origin",
+      "title": "Bamberg-Style Bock Rauchbier",
+      "type": "style",
+      "order": 13,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-german-style-heller-bock-maibock",
+      "parentId": "lager-german-origin",
+      "title": "German-Style Heller Bock/Maibock",
+      "type": "style",
+      "order": 14,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-traditional-german-style-bock",
+      "parentId": "lager-german-origin",
+      "title": "Traditional German-Style Bock",
+      "type": "style",
+      "order": 15,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-german-style-doppelbock",
+      "parentId": "lager-german-origin",
+      "title": "German-Style Doppelbock",
+      "type": "style",
+      "order": 16,
+      "family": "lager"
+    },
+    {
+      "id": "lager-german-origin-german-style-eisbock",
+      "parentId": "lager-german-origin",
+      "title": "German-Style Eisbock",
+      "type": "style",
+      "order": 17,
+      "family": "lager"
+    },
+    {
+      "id": "hybrid-mixed",
+      "parentId": "beer",
+      "title": "Hybrid / Mixed",
+      "type": "fermentation-method",
+      "order": 3,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins",
+      "parentId": "hybrid-mixed",
+      "title": "All origins",
+      "type": "category",
+      "order": 1,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-belgian-style-fruit-lambic",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Belgian-Style Fruit Lambic",
+      "type": "style",
+      "order": 1,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-session-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Session Beer",
+      "type": "style",
+      "order": 2,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-american-style-cream-ale",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "American-Style Cream Ale",
+      "type": "style",
+      "order": 3,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-california-common-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "California Common Beer",
+      "type": "style",
+      "order": 4,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-american-style-wheat-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "American-Style Wheat Beer",
+      "type": "style",
+      "order": 5,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-kellerbier-or-zwickelbier",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Kellerbier or Zwickelbier",
+      "type": "style",
+      "order": 6,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-fruit-wheat-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Fruit Wheat Beer",
+      "type": "style",
+      "order": 7,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-field-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Field Beer",
+      "type": "style",
+      "order": 8,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-pumpkin-spice-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Pumpkin Spice Beer",
+      "type": "style",
+      "order": 9,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-pumpkin-squash-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Pumpkin/Squash Beer",
+      "type": "style",
+      "order": 10,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-chocolate-or-cocoa-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Chocolate or Cocoa Beer",
+      "type": "style",
+      "order": 11,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-coffee-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Coffee Beer",
+      "type": "style",
+      "order": 12,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-chili-pepper-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Chili Pepper Beer",
+      "type": "style",
+      "order": 13,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-herb-and-spice-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Herb and Spice Beer",
+      "type": "style",
+      "order": 14,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-specialty-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Specialty Beer",
+      "type": "style",
+      "order": 15,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-specialty-honey-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Specialty Honey Beer",
+      "type": "style",
+      "order": 16,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-rye-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Rye Beer",
+      "type": "style",
+      "order": 17,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-brett-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Brett Beer",
+      "type": "style",
+      "order": 18,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-mixed-culture-brett-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Mixed-Culture Brett Beer",
+      "type": "style",
+      "order": 19,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-ginjo-beer-or-sake-yeast-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Ginjo Beer or Sake-Yeast Beer",
+      "type": "style",
+      "order": 20,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-fresh-hop-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Fresh Hop Beer",
+      "type": "style",
+      "order": 21,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-wood-and-barrel-aged-sour-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Wood- and Barrel-Aged Sour Beer",
+      "type": "style",
+      "order": 22,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-aged-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Aged Beer",
+      "type": "style",
+      "order": 23,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-experimental-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Experimental Beer",
+      "type": "style",
+      "order": 24,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-experimental-india-pale-ale",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Experimental India Pale Ale",
+      "type": "style",
+      "order": 25,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-historical-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Historical Beer",
+      "type": "style",
+      "order": 26,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-wild-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Wild Beer",
+      "type": "style",
+      "order": 27,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-smoke-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Smoke Beer",
+      "type": "style",
+      "order": 28,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-other-strong-ale-or-lager",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Other Strong Ale or Lager",
+      "type": "style",
+      "order": 29,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-gluten-free-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Gluten-Free Beer",
+      "type": "style",
+      "order": 30,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-non-alcohol-malt-beverage",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Non-Alcohol Malt Beverage",
+      "type": "style",
+      "order": 31,
+      "family": "hybrid"
+    },
+    {
+      "id": "hybrid-mixed-all-origins-dessert-or-pastry-beer",
+      "parentId": "hybrid-mixed-all-origins",
+      "title": "Dessert or Pastry Beer",
+      "type": "style",
+      "order": 32,
+      "family": "hybrid"
+    }
+  ]
+}

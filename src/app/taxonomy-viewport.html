@@ -1,0 +1,144 @@
+<section
+  #viewport
+  class="viewport"
+  [class.focus-mode]="focusMode()"
+  aria-label="Interactive circular beer taxonomy metro map"
+  tabindex="0"
+  (pointerdown)="pointerDown($event)"
+  (pointermove)="pointerMove($event)"
+  (pointerup)="pointerUp()"
+  (pointercancel)="pointerUp()"
+  (wheel)="wheel($event)"
+>
+  <div class="scene-label" [class.focused-label]="focusMode()">
+    <strong>{{ store.document().classification }}</strong
+    ><span>Drag to pan · Ctrl + scroll to zoom · select a station for details</span>
+  </div>
+  <svg class="scene" aria-labelledby="diagram-title">
+    <title id="diagram-title">Circular beer style family metro map with 168 style stations</title>
+    <g [attr.transform]="transform()">
+      <g class="orbit-guides">
+        @for (orbit of store.scene().orbits; track orbit.kind) {
+          <circle
+            [attr.cx]="store.scene().centerX"
+            [attr.cy]="store.scene().centerY"
+            [attr.r]="orbit.radius"
+          />
+        }
+      </g>
+      @if (store.settings().connectors) {
+        <g class="connectors">
+          @for (c of store.scene().connectors; track c.id) {
+            <path
+              [attr.d]="c.path"
+              [class]="'route-' + c.family"
+              [class.active]="
+                store.selectedPath().has(c.parentId) && store.selectedPath().has(c.childId)
+              "
+            />
+          }
+        </g>
+      }
+      <g class="nodes">
+        @for (n of store.scene().nodes; track n.id) {
+          <g
+            class="node"
+            [class]="familyClass(n)"
+            [class.active]="store.selectedPath().has(n.id)"
+            [class.selected]="store.selectedId() === n.id"
+            tabindex="0"
+            role="button"
+            [attr.aria-label]="n.title + ', ' + n.type"
+            (click)="store.selectedId.set(n.id)"
+            [class.focused]="focusMode() && store.selectedId() === n.id"
+            (dblclick)="immersiveFocus(n)"
+            (keydown.enter)="focus(n)"
+          >
+            @if (n.depth === 0) {
+              <circle class="root-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="58" />
+              <text class="root-title" [attr.x]="n.centerX" [attr.y]="n.centerY + 7" text-anchor="middle">
+                Beer
+              </text>
+              <text class="root-count" [attr.x]="n.centerX" [attr.y]="n.centerY + 92" text-anchor="middle">
+                168 stations
+              </text>
+            } @else if (n.depth === 1) {
+              <circle class="family-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="38" />
+              <text
+                class="family-title"
+                [attr.x]="n.labelX"
+                [attr.y]="n.labelY"
+                text-anchor="middle"
+              >
+                {{ n.title }}
+              </text>
+            } @else if (n.depth === 2) {
+              <circle class="group-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="21" />
+              <text
+                class="group-title"
+                [attr.x]="n.labelX"
+                [attr.y]="n.labelY"
+                [attr.text-anchor]="n.labelAnchor"
+                [attr.transform]="
+                  'rotate(' + n.labelRotation + ' ' + n.labelX + ' ' + n.labelY + ')'
+                "
+              >
+                {{ n.title }}
+              </text>
+            } @else {
+              <circle class="station-hit" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="25" />
+              <circle class="style-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="11" />
+              <text
+                class="station-title"
+                [attr.x]="n.labelX"
+                [attr.y]="n.labelY + 5"
+                [attr.text-anchor]="n.labelAnchor"
+                [attr.transform]="
+                  'rotate(' + n.labelRotation + ' ' + n.labelX + ' ' + n.labelY + ')'
+                "
+              >
+                {{ n.title }}
+              </text>
+            }
+          </g>
+        }
+      </g>
+    </g>
+  </svg>
+  @if (store.settings().minimap) {
+    <button class="minimap" type="button" aria-label="Fit entire taxonomy" (click)="fit()">
+      <svg [attr.viewBox]="'0 0 ' + store.scene().width + ' ' + store.scene().height">
+        <circle [attr.cx]="store.scene().centerX" [attr.cy]="store.scene().centerY" r="2050" />
+        @for (n of store.scene().nodes; track n.id) {
+          @if (n.depth === 3) {
+            <circle [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="18" [class]="familyClass(n)" />
+          }
+        }</svg
+      ><span>168 station overview</span>
+    </button>
+  }
+  @if (store.selected(); as n) {
+    <aside class="popover" [class.focus-popover]="focusMode()">
+      @if (focusMode()) {
+        <button class="focus-back" type="button" (click)="backFromFocus()">Back to atlas</button>
+      } @else {
+        <button type="button" aria-label="Close details" (click)="store.selectedId.set(null)">
+          ×</button>
+      }
+      <span class="eyebrow">{{ n.type }} · {{ n.family }}</span>
+      <h2>{{ n.title }}</h2>
+      @if (n.type === 'style') {
+        @for (fact of profile(n).facts; track fact.icon) {
+          <div class="fact" [attr.aria-label]="fact.label + ': ' + fact.value">
+            <app-metadata-icon [name]="fact.icon" /><span
+              ><small>{{ fact.label }}</small
+              ><strong>{{ fact.value }}</strong></span
+            >
+          </div>
+        }
+      } @else {
+        <p>{{ n.description || 'Select an outer station to inspect its style profile.' }}</p>
+      }
+    </aside>
+  }
+</section>
