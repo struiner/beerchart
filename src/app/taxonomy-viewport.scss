@@ -319,6 +319,19 @@
     600 16px/1.2 Georgia,
     serif;
 }
+.title-with-indicators {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+.title-with-indicators span {
+  margin-right: 3px;
+}
+.focus-description .title-with-indicators {
+  --atlas-icon-size: 30px;
+  gap: 8px;
+}
 .popover p {
   margin: 0;
   color: #a9b1ac;
@@ -404,7 +417,11 @@
   font-size: 12px !important;
   font-style: italic;
 }
-.brand-count{margin:0 0 10px!important;color:#89938d!important;font-size:10px!important}
+.brand-count {
+  margin: 0 0 10px !important;
+  color: #89938d !important;
+  font-size: 10px !important;
+}
 .focus-popover {
   inset: 18px;
   width: auto;

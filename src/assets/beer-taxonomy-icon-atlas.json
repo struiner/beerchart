@@ -1,0 +1,5282 @@
+{
+  "schemaVersion": "beer-taxonomy-icon-atlas/v1",
+  "atlasId": "beer-taxonomy-icons",
+  "name": "Beer Taxonomy Pixel Icon Atlas",
+  "coordinateConvention": {
+    "origin": "top-left",
+    "rectangle": "x/y origin with positive w/h extents; right and bottom are exclusive",
+    "gridIndices": "row and column are 1-based; index is 0-based",
+    "pivot": "normalized 0..1"
+  },
+  "notes": [
+    "The two source sheets were measured at 1254x1254 pixels.",
+    "Because 1254 is not divisible by nine, cell boundaries use round(i * 1254 / 9). Frames are therefore 139 or 140 pixels wide and high.",
+    "Use the frame rectangle supplied for each sprite; do not calculate a fixed cell size.",
+    "The generated artwork is concept-quality pixel art. Inspect critical icons at runtime scale before treating the images as final production assets."
+  ],
+  "sheets": [
+    {
+      "id": "beer-taxonomy-icons-core",
+      "name": "Glassware, fermentation, ingredients and maturation",
+      "image": "beer-taxonomy-icons-core.png",
+      "sourceImage": "exec-5fa6a0a8-de61-4c9d-9dad-707718d81aa3.png",
+      "size": {
+        "w": 1254,
+        "h": 1254
+      },
+      "grid": {
+        "columns": 9,
+        "rows": 9,
+        "xBoundaries": [
+          0,
+          139,
+          279,
+          418,
+          557,
+          697,
+          836,
+          975,
+          1115,
+          1254
+        ],
+        "yBoundaries": [
+          0,
+          139,
+          279,
+          418,
+          557,
+          697,
+          836,
+          975,
+          1115,
+          1254
+        ]
+      }
+    },
+    {
+      "id": "beer-taxonomy-icons-properties",
+      "name": "Appearance, sensory, process, tradition and evidence",
+      "image": "beer-taxonomy-icons-properties.png",
+      "sourceImage": "exec-b93c4bbb-32c5-4efb-aed8-7f5799ae2798.png",
+      "size": {
+        "w": 1254,
+        "h": 1254
+      },
+      "grid": {
+        "columns": 9,
+        "rows": 9,
+        "xBoundaries": [
+          0,
+          139,
+          279,
+          418,
+          557,
+          697,
+          836,
+          975,
+          1115,
+          1254
+        ],
+        "yBoundaries": [
+          0,
+          139,
+          279,
+          418,
+          557,
+          697,
+          836,
+          975,
+          1115,
+          1254
+        ]
+      }
+    }
+  ],
+  "sprites": [
+    {
+      "id": "glassware.nonic-pint",
+      "name": "Nonic pint",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 1,
+        "column": 1,
+        "index": 0
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "glassware.shaker-pint",
+      "name": "Shaker pint",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 1,
+        "column": 2,
+        "index": 1
+      },
+      "frame": {
+        "x": 139,
+        "y": 0,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "glassware.tulip",
+      "name": "Tulip glass",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 1,
+        "column": 3,
+        "index": 2
+      },
+      "frame": {
+        "x": 279,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "glassware.snifter",
+      "name": "Snifter",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 1,
+        "column": 4,
+        "index": 3
+      },
+      "frame": {
+        "x": 418,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "glassware.goblet",
+      "name": "Goblet or chalice",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 1,
+        "column": 5,
+        "index": 4
+      },
+      "frame": {
+        "x": 557,
+        "y": 0,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "glassware.pilsner-glass",
+      "name": "Pilsner glass",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 1,
+        "column": 6,
+        "index": 5
+      },
+      "frame": {
+        "x": 697,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "glassware.mug",
+      "name": "Beer mug or stein",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 1,
+        "column": 7,
+        "index": 6
+      },
+      "frame": {
+        "x": 836,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "glassware.stange",
+      "name": "Stange",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 1,
+        "column": 8,
+        "index": 7
+      },
+      "frame": {
+        "x": 975,
+        "y": 0,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "glassware.weizen-glass",
+      "name": "Weizen glass",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 1,
+        "column": 9,
+        "index": 8
+      },
+      "frame": {
+        "x": 1115,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "glassware.flute",
+      "name": "Flute",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 2,
+        "column": 1,
+        "index": 9
+      },
+      "frame": {
+        "x": 0,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "glassware.tasting-glass",
+      "name": "Tasting glass",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 2,
+        "column": 2,
+        "index": 10
+      },
+      "frame": {
+        "x": 139,
+        "y": 139,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "glassware",
+        "dataPaths": [
+          "preferredGlassware.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "glassware-filter",
+          "submission-editor",
+          "detail-panel"
+        ],
+        "description": "Represents a sourced preferred serving-glass value."
+      }
+    },
+    {
+      "id": "service.beer-bottle",
+      "name": "Beer bottle",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 2,
+        "column": 3,
+        "index": 11
+      },
+      "frame": {
+        "x": 279,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "service-vessel",
+        "dataPaths": [
+          "servingTradition.value[]",
+          "packagingCarbonation.value[]"
+        ],
+        "surfaces": [
+          "serving-tradition",
+          "packaging-detail",
+          "detail-panel"
+        ],
+        "description": "Represents a serving, dispense, or packaging vessel."
+      }
+    },
+    {
+      "id": "service.crown-cap",
+      "name": "Crown cap",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 2,
+        "column": 4,
+        "index": 12
+      },
+      "frame": {
+        "x": 418,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "service-vessel",
+        "dataPaths": [
+          "packagingCarbonation.value[]"
+        ],
+        "surfaces": [
+          "serving-tradition",
+          "packaging-detail",
+          "detail-panel"
+        ],
+        "description": "Represents a serving, dispense, or packaging vessel."
+      }
+    },
+    {
+      "id": "service.beer-can",
+      "name": "Beer can",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 2,
+        "column": 5,
+        "index": 13
+      },
+      "frame": {
+        "x": 557,
+        "y": 139,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "service-vessel",
+        "dataPaths": [
+          "servingTradition.value[]",
+          "packagingCarbonation.value[]"
+        ],
+        "surfaces": [
+          "serving-tradition",
+          "packaging-detail",
+          "detail-panel"
+        ],
+        "description": "Represents a serving, dispense, or packaging vessel."
+      }
+    },
+    {
+      "id": "service.wooden-cask",
+      "name": "Wooden cask",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 2,
+        "column": 6,
+        "index": 14
+      },
+      "frame": {
+        "x": 697,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "service-vessel",
+        "dataPaths": [
+          "servingTradition.value[]",
+          "core.maturationMethod.value[]"
+        ],
+        "surfaces": [
+          "serving-tradition",
+          "packaging-detail",
+          "detail-panel"
+        ],
+        "description": "Represents a serving, dispense, or packaging vessel."
+      }
+    },
+    {
+      "id": "service.metal-keg",
+      "name": "Metal keg",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 2,
+        "column": 7,
+        "index": 15
+      },
+      "frame": {
+        "x": 836,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "service-vessel",
+        "dataPaths": [
+          "servingTradition.value[]",
+          "packagingCarbonation.value[]"
+        ],
+        "surfaces": [
+          "serving-tradition",
+          "packaging-detail",
+          "detail-panel"
+        ],
+        "description": "Represents a serving, dispense, or packaging vessel."
+      }
+    },
+    {
+      "id": "service.draft-tap",
+      "name": "Draft tap",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 2,
+        "column": 8,
+        "index": 16
+      },
+      "frame": {
+        "x": 975,
+        "y": 139,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "service-vessel",
+        "dataPaths": [
+          "servingTradition.value[]"
+        ],
+        "surfaces": [
+          "serving-tradition",
+          "packaging-detail",
+          "detail-panel"
+        ],
+        "description": "Represents a serving, dispense, or packaging vessel."
+      }
+    },
+    {
+      "id": "service.tasting-flight",
+      "name": "Tasting-flight paddle",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 2,
+        "column": 9,
+        "index": 17
+      },
+      "frame": {
+        "x": 1115,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "service-vessel",
+        "dataPaths": [
+          "servingTradition.value[]",
+          "drinkingPurpose.value[]"
+        ],
+        "surfaces": [
+          "serving-tradition",
+          "packaging-detail",
+          "detail-panel"
+        ],
+        "description": "Represents a serving, dispense, or packaging vessel."
+      }
+    },
+    {
+      "id": "family.ale",
+      "name": "Ale family",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 3,
+        "column": 1,
+        "index": 18
+      },
+      "frame": {
+        "x": 0,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "family",
+        "dataPaths": [
+          "fermentationFamily"
+        ],
+        "surfaces": [
+          "family-interchange",
+          "taxonomy-route",
+          "family-filter"
+        ],
+        "description": "Identifies the beer's primary fermentation family."
+      }
+    },
+    {
+      "id": "family.lager",
+      "name": "Lager family",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 3,
+        "column": 2,
+        "index": 19
+      },
+      "frame": {
+        "x": 139,
+        "y": 279,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "family",
+        "dataPaths": [
+          "fermentationFamily"
+        ],
+        "surfaces": [
+          "family-interchange",
+          "taxonomy-route",
+          "family-filter"
+        ],
+        "description": "Identifies the beer's primary fermentation family."
+      }
+    },
+    {
+      "id": "family.mixed",
+      "name": "Mixed family",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 3,
+        "column": 3,
+        "index": 20
+      },
+      "frame": {
+        "x": 279,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "family",
+        "dataPaths": [
+          "fermentationFamily"
+        ],
+        "surfaces": [
+          "family-interchange",
+          "taxonomy-route",
+          "family-filter"
+        ],
+        "description": "Identifies the beer's primary fermentation family."
+      }
+    },
+    {
+      "id": "fermentation-method.top-fermented",
+      "name": "Top-fermented",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 3,
+        "column": 4,
+        "index": 21
+      },
+      "frame": {
+        "x": 418,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-method",
+        "dataPaths": [
+          "fermentationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "fermentation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented fermentation method or program."
+      }
+    },
+    {
+      "id": "fermentation-method.bottom-fermented",
+      "name": "Bottom-fermented",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 3,
+        "column": 5,
+        "index": 22
+      },
+      "frame": {
+        "x": 557,
+        "y": 279,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-method",
+        "dataPaths": [
+          "fermentationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "fermentation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented fermentation method or program."
+      }
+    },
+    {
+      "id": "fermentation-method.warm-fermented-lager-yeast",
+      "name": "Warm-fermented lager yeast",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 3,
+        "column": 6,
+        "index": 23
+      },
+      "frame": {
+        "x": 697,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-method",
+        "dataPaths": [
+          "fermentationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "fermentation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented fermentation method or program."
+      }
+    },
+    {
+      "id": "fermentation-method.mixed-fermentation",
+      "name": "Mixed fermentation",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 3,
+        "column": 7,
+        "index": 24
+      },
+      "frame": {
+        "x": 836,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-method",
+        "dataPaths": [
+          "fermentationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "fermentation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented fermentation method or program."
+      }
+    },
+    {
+      "id": "fermentation-method.spontaneous-fermentation",
+      "name": "Spontaneous fermentation",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 3,
+        "column": 8,
+        "index": 25
+      },
+      "frame": {
+        "x": 975,
+        "y": 279,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-method",
+        "dataPaths": [
+          "fermentationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "fermentation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented fermentation method or program."
+      }
+    },
+    {
+      "id": "fermentation-method.sequential-fermentation",
+      "name": "Sequential fermentation",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 3,
+        "column": 9,
+        "index": 26
+      },
+      "frame": {
+        "x": 1115,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-method",
+        "dataPaths": [
+          "fermentationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "fermentation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented fermentation method or program."
+      }
+    },
+    {
+      "id": "fermentation-method.refermented",
+      "name": "Refermented",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 4,
+        "column": 1,
+        "index": 27
+      },
+      "frame": {
+        "x": 0,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-method",
+        "dataPaths": [
+          "fermentationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "fermentation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented fermentation method or program."
+      }
+    },
+    {
+      "id": "fermentation-method.variable",
+      "name": "Variable fermentation method",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 4,
+        "column": 2,
+        "index": 28
+      },
+      "frame": {
+        "x": 139,
+        "y": 418,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-method",
+        "dataPaths": [
+          "fermentationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "fermentation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented fermentation method or program."
+      }
+    },
+    {
+      "id": "fermentation-culture.saccharomyces-ale",
+      "name": "Saccharomyces ale culture",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 4,
+        "column": 3,
+        "index": 29
+      },
+      "frame": {
+        "x": 279,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-culture",
+        "dataPaths": [
+          "core.fermentationCulture.value[]",
+          "yeastFamily.value[]"
+        ],
+        "surfaces": [
+          "core-axis",
+          "culture-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
+      }
+    },
+    {
+      "id": "fermentation-culture.saccharomyces-lager",
+      "name": "Saccharomyces lager culture",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 4,
+        "column": 4,
+        "index": 30
+      },
+      "frame": {
+        "x": 418,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-culture",
+        "dataPaths": [
+          "core.fermentationCulture.value[]",
+          "yeastFamily.value[]"
+        ],
+        "surfaces": [
+          "core-axis",
+          "culture-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
+      }
+    },
+    {
+      "id": "fermentation-culture.brettanomyces",
+      "name": "Brettanomyces",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 4,
+        "column": 5,
+        "index": 31
+      },
+      "frame": {
+        "x": 557,
+        "y": 418,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-culture",
+        "dataPaths": [
+          "core.fermentationCulture.value[]",
+          "yeastFamily.value[]"
+        ],
+        "surfaces": [
+          "core-axis",
+          "culture-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
+      }
+    },
+    {
+      "id": "fermentation-culture.lactic-bacteria",
+      "name": "Lactic-acid bacteria",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 4,
+        "column": 6,
+        "index": 32
+      },
+      "frame": {
+        "x": 697,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-culture",
+        "dataPaths": [
+          "core.fermentationCulture.value[]"
+        ],
+        "surfaces": [
+          "core-axis",
+          "culture-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
+      }
+    },
+    {
+      "id": "fermentation-culture.mixed-culture",
+      "name": "Mixed culture",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 4,
+        "column": 7,
+        "index": 33
+      },
+      "frame": {
+        "x": 836,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-culture",
+        "dataPaths": [
+          "core.fermentationCulture.value[]"
+        ],
+        "surfaces": [
+          "core-axis",
+          "culture-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
+      }
+    },
+    {
+      "id": "fermentation-culture.spontaneous-culture",
+      "name": "Spontaneous culture",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 4,
+        "column": 8,
+        "index": 34
+      },
+      "frame": {
+        "x": 975,
+        "y": 418,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fermentation-culture",
+        "dataPaths": [
+          "core.fermentationCulture.value[]"
+        ],
+        "surfaces": [
+          "core-axis",
+          "culture-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
+      }
+    },
+    {
+      "id": "metric.fermentation-temperature",
+      "name": "Fermentation temperature",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 4,
+        "column": 9,
+        "index": 35
+      },
+      "frame": {
+        "x": 1115,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "metric",
+        "dataPaths": [
+          "fermentationTemperature.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "filter-option"
+        ],
+        "description": "Labels a measurable or declared property."
+      }
+    },
+    {
+      "id": "axis.color",
+      "name": "Color axis",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 5,
+        "column": 1,
+        "index": 36
+      },
+      "frame": {
+        "x": 0,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "axis",
+        "dataPaths": [
+          "core.color"
+        ],
+        "surfaces": [
+          "ring-axis-selector",
+          "filter-toolbar",
+          "station-summary"
+        ],
+        "description": "Labels an objective taxonomy axis used to organize or filter styles."
+      }
+    },
+    {
+      "id": "axis.strength",
+      "name": "Strength axis",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 5,
+        "column": 2,
+        "index": 37
+      },
+      "frame": {
+        "x": 139,
+        "y": 557,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "axis",
+        "dataPaths": [
+          "core.strength"
+        ],
+        "surfaces": [
+          "ring-axis-selector",
+          "filter-toolbar",
+          "station-summary"
+        ],
+        "description": "Labels an objective taxonomy axis used to organize or filter styles."
+      }
+    },
+    {
+      "id": "axis.bitterness",
+      "name": "Bitterness axis",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 5,
+        "column": 3,
+        "index": 38
+      },
+      "frame": {
+        "x": 279,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "axis",
+        "dataPaths": [
+          "core.bitterness"
+        ],
+        "surfaces": [
+          "ring-axis-selector",
+          "filter-toolbar",
+          "station-summary"
+        ],
+        "description": "Labels an objective taxonomy axis used to organize or filter styles."
+      }
+    },
+    {
+      "id": "axis.grain",
+      "name": "Grain axis",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 5,
+        "column": 4,
+        "index": 39
+      },
+      "frame": {
+        "x": 418,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "axis",
+        "dataPaths": [
+          "core.grain"
+        ],
+        "surfaces": [
+          "ring-axis-selector",
+          "filter-toolbar",
+          "station-summary"
+        ],
+        "description": "Labels an objective taxonomy axis used to organize or filter styles."
+      }
+    },
+    {
+      "id": "axis.fermentation-culture",
+      "name": "Fermentation-culture axis",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 5,
+        "column": 5,
+        "index": 40
+      },
+      "frame": {
+        "x": 557,
+        "y": 557,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "axis",
+        "dataPaths": [
+          "core.fermentationCulture"
+        ],
+        "surfaces": [
+          "ring-axis-selector",
+          "filter-toolbar",
+          "station-summary"
+        ],
+        "description": "Labels an objective taxonomy axis used to organize or filter styles."
+      }
+    },
+    {
+      "id": "axis.acidity",
+      "name": "Acidity axis",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 5,
+        "column": 6,
+        "index": 41
+      },
+      "frame": {
+        "x": 697,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "axis",
+        "dataPaths": [
+          "core.acidity"
+        ],
+        "surfaces": [
+          "ring-axis-selector",
+          "filter-toolbar",
+          "station-summary"
+        ],
+        "description": "Labels an objective taxonomy axis used to organize or filter styles."
+      }
+    },
+    {
+      "id": "axis.dominant-character",
+      "name": "Dominant-character axis",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 5,
+        "column": 7,
+        "index": 42
+      },
+      "frame": {
+        "x": 836,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "axis",
+        "dataPaths": [
+          "core.dominantCharacter"
+        ],
+        "surfaces": [
+          "ring-axis-selector",
+          "filter-toolbar",
+          "station-summary"
+        ],
+        "description": "Labels an objective taxonomy axis used to organize or filter styles."
+      }
+    },
+    {
+      "id": "axis.maturation-method",
+      "name": "Maturation-method axis",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 5,
+        "column": 8,
+        "index": 43
+      },
+      "frame": {
+        "x": 975,
+        "y": 557,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "axis",
+        "dataPaths": [
+          "core.maturationMethod"
+        ],
+        "surfaces": [
+          "ring-axis-selector",
+          "filter-toolbar",
+          "station-summary"
+        ],
+        "description": "Labels an objective taxonomy axis used to organize or filter styles."
+      }
+    },
+    {
+      "id": "axis.conditioning-age",
+      "name": "Conditioning-age axis",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 5,
+        "column": 9,
+        "index": 44
+      },
+      "frame": {
+        "x": 1115,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "axis",
+        "dataPaths": [
+          "age"
+        ],
+        "surfaces": [
+          "ring-axis-selector",
+          "filter-toolbar",
+          "station-summary"
+        ],
+        "description": "Labels an objective taxonomy axis used to organize or filter styles."
+      }
+    },
+    {
+      "id": "grain.barley",
+      "name": "Barley",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 6,
+        "column": 1,
+        "index": 45
+      },
+      "frame": {
+        "x": 0,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "grain",
+        "dataPaths": [
+          "core.grain.value[].grain"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "grain-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named cereal grain used in the beer."
+      }
+    },
+    {
+      "id": "grain.wheat",
+      "name": "Wheat",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 6,
+        "column": 2,
+        "index": 46
+      },
+      "frame": {
+        "x": 139,
+        "y": 697,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "grain",
+        "dataPaths": [
+          "core.grain.value[].grain"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "grain-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named cereal grain used in the beer."
+      }
+    },
+    {
+      "id": "grain.rye",
+      "name": "Rye",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 6,
+        "column": 3,
+        "index": 47
+      },
+      "frame": {
+        "x": 279,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "grain",
+        "dataPaths": [
+          "core.grain.value[].grain"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "grain-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named cereal grain used in the beer."
+      }
+    },
+    {
+      "id": "grain.oats",
+      "name": "Oats",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 6,
+        "column": 4,
+        "index": 48
+      },
+      "frame": {
+        "x": 418,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "grain",
+        "dataPaths": [
+          "core.grain.value[].grain"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "grain-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named cereal grain used in the beer."
+      }
+    },
+    {
+      "id": "grain.rice",
+      "name": "Rice",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 6,
+        "column": 5,
+        "index": 49
+      },
+      "frame": {
+        "x": 557,
+        "y": 697,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "grain",
+        "dataPaths": [
+          "core.grain.value[].grain"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "grain-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named cereal grain used in the beer."
+      }
+    },
+    {
+      "id": "grain.maize",
+      "name": "Maize",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 6,
+        "column": 6,
+        "index": 50
+      },
+      "frame": {
+        "x": 697,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "grain",
+        "dataPaths": [
+          "core.grain.value[].grain"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "grain-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named cereal grain used in the beer."
+      }
+    },
+    {
+      "id": "grain.sorghum",
+      "name": "Sorghum",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 6,
+        "column": 7,
+        "index": 51
+      },
+      "frame": {
+        "x": 836,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "grain",
+        "dataPaths": [
+          "core.grain.value[].grain"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "grain-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named cereal grain used in the beer."
+      }
+    },
+    {
+      "id": "grain-form.malted",
+      "name": "Malted grain",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 6,
+        "column": 8,
+        "index": 52
+      },
+      "frame": {
+        "x": 975,
+        "y": 697,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "grain-form",
+        "dataPaths": [
+          "core.grain.value[].form"
+        ],
+        "surfaces": [
+          "ingredient-detail",
+          "grain-filter"
+        ],
+        "description": "Represents the documented physical or malting form of a grain."
+      }
+    },
+    {
+      "id": "grain-form.unmalted",
+      "name": "Unmalted grain",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 6,
+        "column": 9,
+        "index": 53
+      },
+      "frame": {
+        "x": 1115,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "grain-form",
+        "dataPaths": [
+          "core.grain.value[].form"
+        ],
+        "surfaces": [
+          "ingredient-detail",
+          "grain-filter"
+        ],
+        "description": "Represents the documented physical or malting form of a grain."
+      }
+    },
+    {
+      "id": "ingredient.hops",
+      "name": "Hops",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 7,
+        "column": 1,
+        "index": 54
+      },
+      "frame": {
+        "x": 0,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]",
+          "hopUse.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.fruit",
+      "name": "Fruit",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 7,
+        "column": 2,
+        "index": 55
+      },
+      "frame": {
+        "x": 139,
+        "y": 836,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]",
+          "definingAdditions.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.herb",
+      "name": "Herb",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 7,
+        "column": 3,
+        "index": 56
+      },
+      "frame": {
+        "x": 279,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]",
+          "definingAdditions.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.spice",
+      "name": "Spice",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 7,
+        "column": 4,
+        "index": 57
+      },
+      "frame": {
+        "x": 418,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]",
+          "definingAdditions.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.sugar",
+      "name": "Sugar",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 7,
+        "column": 5,
+        "index": 58
+      },
+      "frame": {
+        "x": 557,
+        "y": 836,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]",
+          "alternativeFermentables.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.honey",
+      "name": "Honey",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 7,
+        "column": 6,
+        "index": 59
+      },
+      "frame": {
+        "x": 697,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]",
+          "alternativeFermentables.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.coffee",
+      "name": "Coffee",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 7,
+        "column": 7,
+        "index": 60
+      },
+      "frame": {
+        "x": 836,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]",
+          "definingAdditions.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.cocoa",
+      "name": "Cocoa",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 7,
+        "column": 8,
+        "index": 61
+      },
+      "frame": {
+        "x": 975,
+        "y": 836,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]",
+          "definingAdditions.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.water",
+      "name": "Water",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 7,
+        "column": 9,
+        "index": 62
+      },
+      "frame": {
+        "x": 1115,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.malt",
+      "name": "Malt",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 8,
+        "column": 1,
+        "index": 63
+      },
+      "frame": {
+        "x": 0,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]",
+          "maltTreatment.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.roasted-malt",
+      "name": "Roasted malt",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 8,
+        "column": 2,
+        "index": 64
+      },
+      "frame": {
+        "x": 139,
+        "y": 975,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient-treatment",
+        "dataPaths": [
+          "ingredients.value[]",
+          "maltTreatment.value[]",
+          "roastIntensity.value"
+        ],
+        "surfaces": [
+          "ingredient-detail",
+          "process-detail"
+        ],
+        "description": "Represents a documented treatment applied to an ingredient."
+      }
+    },
+    {
+      "id": "ingredient.smoked-malt",
+      "name": "Smoked malt",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 8,
+        "column": 3,
+        "index": 65
+      },
+      "frame": {
+        "x": 279,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient-treatment",
+        "dataPaths": [
+          "ingredients.value[]",
+          "maltTreatment.value[]",
+          "smokeCharacter.value[]"
+        ],
+        "surfaces": [
+          "ingredient-detail",
+          "process-detail"
+        ],
+        "description": "Represents a documented treatment applied to an ingredient."
+      }
+    },
+    {
+      "id": "grain-form.flaked",
+      "name": "Flaked grain",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 8,
+        "column": 4,
+        "index": 66
+      },
+      "frame": {
+        "x": 418,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "grain-form",
+        "dataPaths": [
+          "core.grain.value[].form"
+        ],
+        "surfaces": [
+          "ingredient-detail",
+          "grain-filter"
+        ],
+        "description": "Represents the documented physical or malting form of a grain."
+      }
+    },
+    {
+      "id": "ingredient-role.defining-addition",
+      "name": "Defining addition",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 8,
+        "column": 5,
+        "index": 67
+      },
+      "frame": {
+        "x": 557,
+        "y": 975,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient-role",
+        "dataPaths": [
+          "definingAdditions.value[]"
+        ],
+        "surfaces": [
+          "ingredient-detail",
+          "submission-editor"
+        ],
+        "description": "Represents the functional role of an ingredient in a style."
+      }
+    },
+    {
+      "id": "ingredient-role.alternative-fermentable",
+      "name": "Alternative fermentable",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 8,
+        "column": 6,
+        "index": 68
+      },
+      "frame": {
+        "x": 697,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient-role",
+        "dataPaths": [
+          "alternativeFermentables.value[]"
+        ],
+        "surfaces": [
+          "ingredient-detail",
+          "submission-editor"
+        ],
+        "description": "Represents the functional role of an ingredient in a style."
+      }
+    },
+    {
+      "id": "metric.dietary-composition",
+      "name": "Dietary composition",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 8,
+        "column": 7,
+        "index": 69
+      },
+      "frame": {
+        "x": 836,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "metric",
+        "dataPaths": [
+          "dietaryComposition.value[]"
+        ],
+        "surfaces": [
+          "station-detail",
+          "filter-option"
+        ],
+        "description": "Labels a measurable or declared property."
+      }
+    },
+    {
+      "id": "ingredient.other",
+      "name": "Other ingredient",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 8,
+        "column": 8,
+        "index": 70
+      },
+      "frame": {
+        "x": 975,
+        "y": 975,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "ingredient.variable",
+      "name": "Variable ingredients",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 8,
+        "column": 9,
+        "index": 71
+      },
+      "frame": {
+        "x": 1115,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "ingredient",
+        "dataPaths": [
+          "ingredients.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "ingredient-filter",
+          "ingredient-detail"
+        ],
+        "description": "Represents a named ingredient or an explicit variable/other ingredient state."
+      }
+    },
+    {
+      "id": "maturation.fresh",
+      "name": "Fresh or unconditioned",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 9,
+        "column": 1,
+        "index": 72
+      },
+      "frame": {
+        "x": 0,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "maturation",
+        "dataPaths": [
+          "core.maturationMethod.value[]",
+          "age.value"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "maturation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented conditioning, maturation, or age treatment."
+      }
+    },
+    {
+      "id": "maturation.warm-conditioned",
+      "name": "Warm-conditioned",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 9,
+        "column": 2,
+        "index": 73
+      },
+      "frame": {
+        "x": 139,
+        "y": 1115,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "maturation",
+        "dataPaths": [
+          "core.maturationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "maturation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented conditioning, maturation, or age treatment."
+      }
+    },
+    {
+      "id": "maturation.cold-conditioned",
+      "name": "Cold-conditioned",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 9,
+        "column": 3,
+        "index": 74
+      },
+      "frame": {
+        "x": 279,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "maturation",
+        "dataPaths": [
+          "core.maturationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "maturation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented conditioning, maturation, or age treatment."
+      }
+    },
+    {
+      "id": "maturation.bottle-conditioned",
+      "name": "Bottle-conditioned",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 9,
+        "column": 4,
+        "index": 75
+      },
+      "frame": {
+        "x": 418,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "maturation",
+        "dataPaths": [
+          "core.maturationMethod.value[]",
+          "packagingCarbonation.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "maturation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented conditioning, maturation, or age treatment."
+      }
+    },
+    {
+      "id": "maturation.cask-conditioned",
+      "name": "Cask-conditioned",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 9,
+        "column": 5,
+        "index": 76
+      },
+      "frame": {
+        "x": 557,
+        "y": 1115,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "maturation",
+        "dataPaths": [
+          "core.maturationMethod.value[]",
+          "packagingCarbonation.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "maturation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented conditioning, maturation, or age treatment."
+      }
+    },
+    {
+      "id": "maturation.tank-conditioned",
+      "name": "Tank-conditioned",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 9,
+        "column": 6,
+        "index": 77
+      },
+      "frame": {
+        "x": 697,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "maturation",
+        "dataPaths": [
+          "core.maturationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "maturation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented conditioning, maturation, or age treatment."
+      }
+    },
+    {
+      "id": "maturation.wood-matured",
+      "name": "Wood-matured",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 9,
+        "column": 7,
+        "index": 78
+      },
+      "frame": {
+        "x": 836,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "maturation",
+        "dataPaths": [
+          "core.maturationMethod.value[]",
+          "barrelHistory.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "maturation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented conditioning, maturation, or age treatment."
+      }
+    },
+    {
+      "id": "maturation.barrel-aged",
+      "name": "Barrel-aged",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 9,
+        "column": 8,
+        "index": 79
+      },
+      "frame": {
+        "x": 975,
+        "y": 1115,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "maturation",
+        "dataPaths": [
+          "core.maturationMethod.value[]",
+          "barrelHistory.value[]",
+          "age.value"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "maturation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented conditioning, maturation, or age treatment."
+      }
+    },
+    {
+      "id": "maturation.blended-age",
+      "name": "Blended age",
+      "sheetId": "beer-taxonomy-icons-core",
+      "grid": {
+        "row": 9,
+        "column": 9,
+        "index": 80
+      },
+      "frame": {
+        "x": 1115,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "maturation",
+        "dataPaths": [
+          "core.maturationMethod.value[]",
+          "blending.value[]",
+          "age.value"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "maturation-filter",
+          "detail-panel"
+        ],
+        "description": "Represents a documented conditioning, maturation, or age treatment."
+      }
+    },
+    {
+      "id": "color.very-light",
+      "name": "Very light",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 1,
+        "column": 1,
+        "index": 0
+      },
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "color",
+        "dataPaths": [
+          "core.color.value.descriptors[]"
+        ],
+        "surfaces": [
+          "station-color-icon",
+          "color-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented color descriptor, not a tasting judgment."
+      }
+    },
+    {
+      "id": "color.straw",
+      "name": "Straw",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 1,
+        "column": 2,
+        "index": 1
+      },
+      "frame": {
+        "x": 139,
+        "y": 0,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "color",
+        "dataPaths": [
+          "core.color.value.descriptors[]"
+        ],
+        "surfaces": [
+          "station-color-icon",
+          "color-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented color descriptor, not a tasting judgment."
+      }
+    },
+    {
+      "id": "color.pale",
+      "name": "Pale",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 1,
+        "column": 3,
+        "index": 2
+      },
+      "frame": {
+        "x": 279,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "color",
+        "dataPaths": [
+          "core.color.value.descriptors[]"
+        ],
+        "surfaces": [
+          "station-color-icon",
+          "color-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented color descriptor, not a tasting judgment."
+      }
+    },
+    {
+      "id": "color.gold",
+      "name": "Gold",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 1,
+        "column": 4,
+        "index": 3
+      },
+      "frame": {
+        "x": 418,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "color",
+        "dataPaths": [
+          "core.color.value.descriptors[]"
+        ],
+        "surfaces": [
+          "station-color-icon",
+          "color-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented color descriptor, not a tasting judgment."
+      }
+    },
+    {
+      "id": "color.amber",
+      "name": "Amber",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 1,
+        "column": 5,
+        "index": 4
+      },
+      "frame": {
+        "x": 557,
+        "y": 0,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "color",
+        "dataPaths": [
+          "core.color.value.descriptors[]"
+        ],
+        "surfaces": [
+          "station-color-icon",
+          "color-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented color descriptor, not a tasting judgment."
+      }
+    },
+    {
+      "id": "color.copper",
+      "name": "Copper",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 1,
+        "column": 6,
+        "index": 5
+      },
+      "frame": {
+        "x": 697,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "color",
+        "dataPaths": [
+          "core.color.value.descriptors[]"
+        ],
+        "surfaces": [
+          "station-color-icon",
+          "color-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented color descriptor, not a tasting judgment."
+      }
+    },
+    {
+      "id": "color.brown",
+      "name": "Brown",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 1,
+        "column": 7,
+        "index": 6
+      },
+      "frame": {
+        "x": 836,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "color",
+        "dataPaths": [
+          "core.color.value.descriptors[]"
+        ],
+        "surfaces": [
+          "station-color-icon",
+          "color-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented color descriptor, not a tasting judgment."
+      }
+    },
+    {
+      "id": "color.very-dark",
+      "name": "Very dark",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 1,
+        "column": 8,
+        "index": 7
+      },
+      "frame": {
+        "x": 975,
+        "y": 0,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "color",
+        "dataPaths": [
+          "core.color.value.descriptors[]"
+        ],
+        "surfaces": [
+          "station-color-icon",
+          "color-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented color descriptor, not a tasting judgment."
+      }
+    },
+    {
+      "id": "color.black",
+      "name": "Black",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 1,
+        "column": 9,
+        "index": 8
+      },
+      "frame": {
+        "x": 1115,
+        "y": 0,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "color",
+        "dataPaths": [
+          "core.color.value.descriptors[]"
+        ],
+        "surfaces": [
+          "station-color-icon",
+          "color-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented color descriptor, not a tasting judgment."
+      }
+    },
+    {
+      "id": "color.variable",
+      "name": "Variable color",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 2,
+        "column": 1,
+        "index": 9
+      },
+      "frame": {
+        "x": 0,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "color",
+        "dataPaths": [
+          "core.color.value.descriptors[]"
+        ],
+        "surfaces": [
+          "station-color-icon",
+          "color-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented color descriptor, not a tasting judgment."
+      }
+    },
+    {
+      "id": "strength.non-alcoholic",
+      "name": "Non-alcoholic",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 2,
+        "column": 2,
+        "index": 10
+      },
+      "frame": {
+        "x": 139,
+        "y": 139,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "strength",
+        "dataPaths": [
+          "core.strength.value.band"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "strength-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared alcohol-strength band."
+      }
+    },
+    {
+      "id": "strength.low",
+      "name": "Low strength",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 2,
+        "column": 3,
+        "index": 11
+      },
+      "frame": {
+        "x": 279,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "strength",
+        "dataPaths": [
+          "core.strength.value.band"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "strength-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared alcohol-strength band."
+      }
+    },
+    {
+      "id": "strength.session",
+      "name": "Session strength",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 2,
+        "column": 4,
+        "index": 12
+      },
+      "frame": {
+        "x": 418,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "strength",
+        "dataPaths": [
+          "core.strength.value.band"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "strength-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared alcohol-strength band."
+      }
+    },
+    {
+      "id": "strength.standard",
+      "name": "Standard strength",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 2,
+        "column": 5,
+        "index": 13
+      },
+      "frame": {
+        "x": 557,
+        "y": 139,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "strength",
+        "dataPaths": [
+          "core.strength.value.band"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "strength-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared alcohol-strength band."
+      }
+    },
+    {
+      "id": "strength.strong",
+      "name": "Strong",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 2,
+        "column": 6,
+        "index": 14
+      },
+      "frame": {
+        "x": 697,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "strength",
+        "dataPaths": [
+          "core.strength.value.band"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "strength-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared alcohol-strength band."
+      }
+    },
+    {
+      "id": "strength.very-strong",
+      "name": "Very strong",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 2,
+        "column": 7,
+        "index": 15
+      },
+      "frame": {
+        "x": 836,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "strength",
+        "dataPaths": [
+          "core.strength.value.band"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "strength-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared alcohol-strength band."
+      }
+    },
+    {
+      "id": "bitterness.low",
+      "name": "Low bitterness",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 2,
+        "column": 8,
+        "index": 16
+      },
+      "frame": {
+        "x": 975,
+        "y": 139,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "bitterness",
+        "dataPaths": [
+          "core.bitterness.value.perceived",
+          "core.bitterness.value.ibu"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "bitterness-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared perceived-bitterness or IBU range endpoint."
+      }
+    },
+    {
+      "id": "bitterness.high",
+      "name": "High bitterness",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 2,
+        "column": 9,
+        "index": 17
+      },
+      "frame": {
+        "x": 1115,
+        "y": 139,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "bitterness",
+        "dataPaths": [
+          "core.bitterness.value.perceived",
+          "core.bitterness.value.ibu"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "bitterness-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared perceived-bitterness or IBU range endpoint."
+      }
+    },
+    {
+      "id": "acidity.none",
+      "name": "No defining acidity",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 3,
+        "column": 1,
+        "index": 18
+      },
+      "frame": {
+        "x": 0,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "acidity",
+        "dataPaths": [
+          "core.acidity.value"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "acidity-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared acidity band."
+      }
+    },
+    {
+      "id": "acidity.tart",
+      "name": "Tart",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 3,
+        "column": 2,
+        "index": 19
+      },
+      "frame": {
+        "x": 139,
+        "y": 279,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "acidity",
+        "dataPaths": [
+          "core.acidity.value"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "acidity-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared acidity band."
+      }
+    },
+    {
+      "id": "acidity.sour",
+      "name": "Sour",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 3,
+        "column": 3,
+        "index": 20
+      },
+      "frame": {
+        "x": 279,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "acidity",
+        "dataPaths": [
+          "core.acidity.value"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "acidity-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a declared acidity band."
+      }
+    },
+    {
+      "id": "body.light",
+      "name": "Light body",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 3,
+        "column": 4,
+        "index": 21
+      },
+      "frame": {
+        "x": 418,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "body",
+        "dataPaths": [
+          "body.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "body-filter"
+        ],
+        "description": "Represents a declared body range endpoint."
+      }
+    },
+    {
+      "id": "body.full",
+      "name": "Full body",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 3,
+        "column": 5,
+        "index": 22
+      },
+      "frame": {
+        "x": 557,
+        "y": 279,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "body",
+        "dataPaths": [
+          "body.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "body-filter"
+        ],
+        "description": "Represents a declared body range endpoint."
+      }
+    },
+    {
+      "id": "carbonation.still",
+      "name": "Still",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 3,
+        "column": 6,
+        "index": 23
+      },
+      "frame": {
+        "x": 697,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "carbonation",
+        "dataPaths": [
+          "carbonation.value",
+          "packagingCarbonation.value[]"
+        ],
+        "surfaces": [
+          "station-detail",
+          "carbonation-filter"
+        ],
+        "description": "Represents a declared carbonation level."
+      }
+    },
+    {
+      "id": "carbonation.moderate",
+      "name": "Moderate carbonation",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 3,
+        "column": 7,
+        "index": 24
+      },
+      "frame": {
+        "x": 836,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "carbonation",
+        "dataPaths": [
+          "carbonation.value",
+          "packagingCarbonation.value[]"
+        ],
+        "surfaces": [
+          "station-detail",
+          "carbonation-filter"
+        ],
+        "description": "Represents a declared carbonation level."
+      }
+    },
+    {
+      "id": "carbonation.effervescent",
+      "name": "Effervescent",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 3,
+        "column": 8,
+        "index": 25
+      },
+      "frame": {
+        "x": 975,
+        "y": 279,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "carbonation",
+        "dataPaths": [
+          "carbonation.value",
+          "packagingCarbonation.value[]"
+        ],
+        "surfaces": [
+          "station-detail",
+          "carbonation-filter"
+        ],
+        "description": "Represents a declared carbonation level."
+      }
+    },
+    {
+      "id": "clarity.brilliant",
+      "name": "Brilliant clarity",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 3,
+        "column": 9,
+        "index": 26
+      },
+      "frame": {
+        "x": 1115,
+        "y": 279,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "clarity",
+        "dataPaths": [
+          "clarity.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "clarity-filter"
+        ],
+        "description": "Represents a declared clarity state."
+      }
+    },
+    {
+      "id": "clarity.hazy",
+      "name": "Hazy",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 4,
+        "column": 1,
+        "index": 27
+      },
+      "frame": {
+        "x": 0,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "clarity",
+        "dataPaths": [
+          "clarity.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "clarity-filter"
+        ],
+        "description": "Represents a declared clarity state."
+      }
+    },
+    {
+      "id": "clarity.cloudy",
+      "name": "Cloudy",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 4,
+        "column": 2,
+        "index": 28
+      },
+      "frame": {
+        "x": 139,
+        "y": 418,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "clarity",
+        "dataPaths": [
+          "clarity.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "clarity-filter"
+        ],
+        "description": "Represents a declared clarity state."
+      }
+    },
+    {
+      "id": "clarity.opaque",
+      "name": "Opaque",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 4,
+        "column": 3,
+        "index": 29
+      },
+      "frame": {
+        "x": 279,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "clarity",
+        "dataPaths": [
+          "clarity.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "clarity-filter"
+        ],
+        "description": "Represents a declared clarity state."
+      }
+    },
+    {
+      "id": "character.malt-led",
+      "name": "Malt-led",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 4,
+        "column": 4,
+        "index": 30
+      },
+      "frame": {
+        "x": 418,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "character.hop-led",
+      "name": "Hop-led",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 4,
+        "column": 5,
+        "index": 31
+      },
+      "frame": {
+        "x": 557,
+        "y": 418,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "character.yeast-led",
+      "name": "Yeast-led",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 4,
+        "column": 6,
+        "index": 32
+      },
+      "frame": {
+        "x": 697,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "character.acidity-led",
+      "name": "Acidity-led",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 4,
+        "column": 7,
+        "index": 33
+      },
+      "frame": {
+        "x": 836,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "character.roast-led",
+      "name": "Roast-led",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 4,
+        "column": 8,
+        "index": 34
+      },
+      "frame": {
+        "x": 975,
+        "y": 418,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "character.smoke-led",
+      "name": "Smoke-led",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 4,
+        "column": 9,
+        "index": 35
+      },
+      "frame": {
+        "x": 1115,
+        "y": 418,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "character.fruit-led",
+      "name": "Fruit-led",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 5,
+        "column": 1,
+        "index": 36
+      },
+      "frame": {
+        "x": 0,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "character.spice-led",
+      "name": "Spice-led",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 5,
+        "column": 2,
+        "index": 37
+      },
+      "frame": {
+        "x": 139,
+        "y": 557,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "character.wood-led",
+      "name": "Wood-led",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 5,
+        "column": 3,
+        "index": 38
+      },
+      "frame": {
+        "x": 279,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "character.addition-led",
+      "name": "Addition-led",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 5,
+        "column": 4,
+        "index": 39
+      },
+      "frame": {
+        "x": 418,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "character.balanced",
+      "name": "Balanced",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 5,
+        "column": 5,
+        "index": 40
+      },
+      "frame": {
+        "x": 557,
+        "y": 557,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "dominant-character",
+        "dataPaths": [
+          "core.dominantCharacter.value[]"
+        ],
+        "surfaces": [
+          "station-metadata",
+          "character-filter",
+          "ring-axis"
+        ],
+        "description": "Represents a documented dominant character category."
+      }
+    },
+    {
+      "id": "complexity.focused",
+      "name": "Focused complexity",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 5,
+        "column": 6,
+        "index": 41
+      },
+      "frame": {
+        "x": 697,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "complexity",
+        "dataPaths": [
+          "complexity.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "complexity-filter"
+        ],
+        "description": "Represents a declared structural complexity category."
+      }
+    },
+    {
+      "id": "complexity.layered",
+      "name": "Layered complexity",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 5,
+        "column": 7,
+        "index": 42
+      },
+      "frame": {
+        "x": 836,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "complexity",
+        "dataPaths": [
+          "complexity.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "complexity-filter"
+        ],
+        "description": "Represents a declared structural complexity category."
+      }
+    },
+    {
+      "id": "complexity.fermentation-complex",
+      "name": "Fermentation-complex",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 5,
+        "column": 8,
+        "index": 43
+      },
+      "frame": {
+        "x": 975,
+        "y": 557,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "complexity",
+        "dataPaths": [
+          "complexity.value",
+          "fermentationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-detail",
+          "complexity-filter"
+        ],
+        "description": "Represents a declared structural complexity category."
+      }
+    },
+    {
+      "id": "complexity.maturation-complex",
+      "name": "Maturation-complex",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 5,
+        "column": 9,
+        "index": 44
+      },
+      "frame": {
+        "x": 1115,
+        "y": 557,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "complexity",
+        "dataPaths": [
+          "complexity.value",
+          "core.maturationMethod.value[]"
+        ],
+        "surfaces": [
+          "station-detail",
+          "complexity-filter"
+        ],
+        "description": "Represents a declared structural complexity category."
+      }
+    },
+    {
+      "id": "process.fermentation-program",
+      "name": "Fermentation program",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 6,
+        "column": 1,
+        "index": 45
+      },
+      "frame": {
+        "x": 0,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "fermentationMethod.value[]"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.acidification-method",
+      "name": "Acidification method",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 6,
+        "column": 2,
+        "index": 46
+      },
+      "frame": {
+        "x": 139,
+        "y": 697,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "acidificationMethod.value[]"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.malt-treatment",
+      "name": "Malt treatment",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 6,
+        "column": 3,
+        "index": 47
+      },
+      "frame": {
+        "x": 279,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "maltTreatment.value[]"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.hop-use",
+      "name": "Hop use",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 6,
+        "column": 4,
+        "index": 48
+      },
+      "frame": {
+        "x": 418,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "hopUse.value[]"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.mash-method",
+      "name": "Mash method",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 6,
+        "column": 5,
+        "index": 49
+      },
+      "frame": {
+        "x": 557,
+        "y": 697,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "mashMethod.value[]"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.boil-treatment",
+      "name": "Boil treatment",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 6,
+        "column": 6,
+        "index": 50
+      },
+      "frame": {
+        "x": 697,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "boilTreatment.value[]"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.conditioning-temperature",
+      "name": "Conditioning temperature",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 6,
+        "column": 7,
+        "index": 51
+      },
+      "frame": {
+        "x": 836,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "conditioningTemperature.value"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.conditioning-duration",
+      "name": "Conditioning duration",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 6,
+        "column": 8,
+        "index": 52
+      },
+      "frame": {
+        "x": 975,
+        "y": 697,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "conditioningDuration.value"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.barrel-history",
+      "name": "Barrel history",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 6,
+        "column": 9,
+        "index": 53
+      },
+      "frame": {
+        "x": 1115,
+        "y": 697,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "barrelHistory.value[]"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.packaging-carbonation",
+      "name": "Packaging carbonation",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 7,
+        "column": 1,
+        "index": 54
+      },
+      "frame": {
+        "x": 0,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "packagingCarbonation.value[]"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.stabilization",
+      "name": "Stabilization",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 7,
+        "column": 2,
+        "index": 55
+      },
+      "frame": {
+        "x": 139,
+        "y": 836,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "stabilization.value[]"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "process.blending",
+      "name": "Blending",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 7,
+        "column": 3,
+        "index": 56
+      },
+      "frame": {
+        "x": 279,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "process",
+        "dataPaths": [
+          "blending.value[]"
+        ],
+        "surfaces": [
+          "process-detail",
+          "advanced-filter"
+        ],
+        "description": "Represents a documented brewing, conditioning, packaging, or blending process."
+      }
+    },
+    {
+      "id": "measurement.original-gravity",
+      "name": "Original gravity",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 7,
+        "column": 4,
+        "index": 57
+      },
+      "frame": {
+        "x": 418,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "measurement",
+        "dataPaths": [
+          "originalGravity.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "range-legend"
+        ],
+        "description": "Labels an objective numeric measurement or range."
+      }
+    },
+    {
+      "id": "measurement.final-sweetness",
+      "name": "Final sweetness",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 7,
+        "column": 5,
+        "index": 58
+      },
+      "frame": {
+        "x": 557,
+        "y": 836,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "measurement",
+        "dataPaths": [
+          "finalSweetness.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "range-legend"
+        ],
+        "description": "Labels an objective numeric measurement or range."
+      }
+    },
+    {
+      "id": "measurement.attenuation",
+      "name": "Attenuation",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 7,
+        "column": 6,
+        "index": 59
+      },
+      "frame": {
+        "x": 697,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "measurement",
+        "dataPaths": [
+          "attenuation.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "range-legend"
+        ],
+        "description": "Labels an objective numeric measurement or range."
+      }
+    },
+    {
+      "id": "measurement.acidity",
+      "name": "Measured acidity",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 7,
+        "column": 7,
+        "index": 60
+      },
+      "frame": {
+        "x": 836,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "measurement",
+        "dataPaths": [
+          "measuredAcidity.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "range-legend"
+        ],
+        "description": "Labels an objective numeric measurement or range."
+      }
+    },
+    {
+      "id": "measurement.color",
+      "name": "Measured color",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 7,
+        "column": 8,
+        "index": 61
+      },
+      "frame": {
+        "x": 975,
+        "y": 836,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "measurement",
+        "dataPaths": [
+          "core.color.value.srm",
+          "core.color.value.ebc"
+        ],
+        "surfaces": [
+          "station-detail",
+          "range-legend"
+        ],
+        "description": "Labels an objective numeric measurement or range."
+      }
+    },
+    {
+      "id": "measurement.alcohol-strength",
+      "name": "Measured alcohol strength",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 7,
+        "column": 9,
+        "index": 62
+      },
+      "frame": {
+        "x": 1115,
+        "y": 836,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "measurement",
+        "dataPaths": [
+          "core.strength.value.abv"
+        ],
+        "surfaces": [
+          "station-detail",
+          "range-legend"
+        ],
+        "description": "Labels an objective numeric measurement or range."
+      }
+    },
+    {
+      "id": "tradition.drinking-purpose",
+      "name": "Drinking purpose",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 8,
+        "column": 1,
+        "index": 63
+      },
+      "frame": {
+        "x": 0,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "tradition",
+        "dataPaths": [
+          "drinkingPurpose.value[]"
+        ],
+        "surfaces": [
+          "station-detail",
+          "cultural-filter"
+        ],
+        "description": "Represents documented service, purpose, seasonality, production, or historical context."
+      }
+    },
+    {
+      "id": "tradition.serving",
+      "name": "Serving tradition",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 8,
+        "column": 2,
+        "index": 64
+      },
+      "frame": {
+        "x": 139,
+        "y": 975,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "tradition",
+        "dataPaths": [
+          "servingTradition.value[]"
+        ],
+        "surfaces": [
+          "station-detail",
+          "cultural-filter"
+        ],
+        "description": "Represents documented service, purpose, seasonality, production, or historical context."
+      }
+    },
+    {
+      "id": "tradition.seasonality",
+      "name": "Seasonality",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 8,
+        "column": 3,
+        "index": 65
+      },
+      "frame": {
+        "x": 279,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "tradition",
+        "dataPaths": [
+          "seasonality.value[]"
+        ],
+        "surfaces": [
+          "station-detail",
+          "cultural-filter"
+        ],
+        "description": "Represents documented service, purpose, seasonality, production, or historical context."
+      }
+    },
+    {
+      "id": "tradition.production",
+      "name": "Production tradition",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 8,
+        "column": 4,
+        "index": 66
+      },
+      "frame": {
+        "x": 418,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "tradition",
+        "dataPaths": [
+          "productionTradition.value[]"
+        ],
+        "surfaces": [
+          "station-detail",
+          "cultural-filter"
+        ],
+        "description": "Represents documented service, purpose, seasonality, production, or historical context."
+      }
+    },
+    {
+      "id": "tradition.historical-continuity",
+      "name": "Historical continuity",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 8,
+        "column": 5,
+        "index": 67
+      },
+      "frame": {
+        "x": 557,
+        "y": 975,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "tradition",
+        "dataPaths": [
+          "historicalContinuity.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "cultural-filter"
+        ],
+        "description": "Represents documented service, purpose, seasonality, production, or historical context."
+      }
+    },
+    {
+      "id": "tradition.standardization",
+      "name": "Standardization",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 8,
+        "column": 6,
+        "index": 68
+      },
+      "frame": {
+        "x": 697,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "tradition",
+        "dataPaths": [
+          "standardization.value"
+        ],
+        "surfaces": [
+          "station-detail",
+          "cultural-filter"
+        ],
+        "description": "Represents documented service, purpose, seasonality, production, or historical context."
+      }
+    },
+    {
+      "id": "base-style.self-contained",
+      "name": "Self-contained style",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 8,
+        "column": 7,
+        "index": 69
+      },
+      "frame": {
+        "x": 836,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "base-style",
+        "dataPaths": [
+          "baseStyle.relationship"
+        ],
+        "surfaces": [
+          "taxonomy-relationship",
+          "detail-panel"
+        ],
+        "description": "Represents the relationship between an entry and a base style."
+      }
+    },
+    {
+      "id": "base-style.variation",
+      "name": "Style variation",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 8,
+        "column": 8,
+        "index": 70
+      },
+      "frame": {
+        "x": 975,
+        "y": 975,
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "base-style",
+        "dataPaths": [
+          "baseStyle.relationship"
+        ],
+        "surfaces": [
+          "taxonomy-relationship",
+          "detail-panel"
+        ],
+        "description": "Represents the relationship between an entry and a base style."
+      }
+    },
+    {
+      "id": "base-style.open-speciality",
+      "name": "Open speciality",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 8,
+        "column": 9,
+        "index": 71
+      },
+      "frame": {
+        "x": 1115,
+        "y": 975,
+        "w": 139,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "base-style",
+        "dataPaths": [
+          "baseStyle.relationship"
+        ],
+        "surfaces": [
+          "taxonomy-relationship",
+          "detail-panel"
+        ],
+        "description": "Represents the relationship between an entry and a base style."
+      }
+    },
+    {
+      "id": "base-style.blend",
+      "name": "Style blend",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 9,
+        "column": 1,
+        "index": 72
+      },
+      "frame": {
+        "x": 0,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "base-style",
+        "dataPaths": [
+          "baseStyle.relationship"
+        ],
+        "surfaces": [
+          "taxonomy-relationship",
+          "detail-panel"
+        ],
+        "description": "Represents the relationship between an entry and a base style."
+      }
+    },
+    {
+      "id": "base-style.variable",
+      "name": "Variable base style",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 9,
+        "column": 2,
+        "index": 73
+      },
+      "frame": {
+        "x": 139,
+        "y": 1115,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "base-style",
+        "dataPaths": [
+          "baseStyle.relationship"
+        ],
+        "surfaces": [
+          "taxonomy-relationship",
+          "detail-panel"
+        ],
+        "description": "Represents the relationship between an entry and a base style."
+      }
+    },
+    {
+      "id": "fact-status.documented",
+      "name": "Documented fact",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 9,
+        "column": 3,
+        "index": 74
+      },
+      "frame": {
+        "x": 279,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fact-status",
+        "dataPaths": [
+          "facts[].status"
+        ],
+        "surfaces": [
+          "evidence-badge",
+          "fact-tooltip",
+          "data-review"
+        ],
+        "description": "Communicates the evidence status assigned to a factual claim."
+      }
+    },
+    {
+      "id": "fact-status.derived",
+      "name": "Derived fact",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 9,
+        "column": 4,
+        "index": 75
+      },
+      "frame": {
+        "x": 418,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fact-status",
+        "dataPaths": [
+          "facts[].status"
+        ],
+        "surfaces": [
+          "evidence-badge",
+          "fact-tooltip",
+          "data-review"
+        ],
+        "description": "Communicates the evidence status assigned to a factual claim."
+      }
+    },
+    {
+      "id": "fact-status.variable",
+      "name": "Variable fact",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 9,
+        "column": 5,
+        "index": 76
+      },
+      "frame": {
+        "x": 557,
+        "y": 1115,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fact-status",
+        "dataPaths": [
+          "facts[].status"
+        ],
+        "surfaces": [
+          "evidence-badge",
+          "fact-tooltip",
+          "data-review"
+        ],
+        "description": "Communicates the evidence status assigned to a factual claim."
+      }
+    },
+    {
+      "id": "fact-status.disputed",
+      "name": "Disputed fact",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 9,
+        "column": 6,
+        "index": 77
+      },
+      "frame": {
+        "x": 697,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fact-status",
+        "dataPaths": [
+          "facts[].status"
+        ],
+        "surfaces": [
+          "evidence-badge",
+          "fact-tooltip",
+          "data-review"
+        ],
+        "description": "Communicates the evidence status assigned to a factual claim."
+      }
+    },
+    {
+      "id": "fact-status.unknown",
+      "name": "Unknown fact",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 9,
+        "column": 7,
+        "index": 78
+      },
+      "frame": {
+        "x": 836,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "fact-status",
+        "dataPaths": [
+          "facts[].status"
+        ],
+        "surfaces": [
+          "evidence-badge",
+          "fact-tooltip",
+          "data-review"
+        ],
+        "description": "Communicates the evidence status assigned to a factual claim."
+      }
+    },
+    {
+      "id": "provenance.source",
+      "name": "Source provenance",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 9,
+        "column": 8,
+        "index": 79
+      },
+      "frame": {
+        "x": 975,
+        "y": 1115,
+        "w": 140,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "provenance",
+        "dataPaths": [
+          "facts[].sources[]",
+          "sources[]"
+        ],
+        "surfaces": [
+          "source-link",
+          "fact-tooltip",
+          "data-review"
+        ],
+        "description": "Indicates that source or provenance information is available."
+      }
+    },
+    {
+      "id": "taxonomy.placement",
+      "name": "Taxonomy placement",
+      "sheetId": "beer-taxonomy-icons-properties",
+      "grid": {
+        "row": 9,
+        "column": 9,
+        "index": 80
+      },
+      "frame": {
+        "x": 1115,
+        "y": 1115,
+        "w": 139,
+        "h": 139
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contextUsage": {
+        "category": "taxonomy",
+        "dataPaths": [
+          "placement",
+          "parentId",
+          "path"
+        ],
+        "surfaces": [
+          "taxonomy-tree",
+          "placement-picker",
+          "route-highlight"
+        ],
+        "description": "Represents an entry's placement within the taxonomy."
+      }
+    }
+  ]
+}
+

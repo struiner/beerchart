@@ -14,9 +14,11 @@ import { profileFor, profileFromEntry } from './core/beer-profile';
 import { SceneNode } from './core/layout';
 import { MetadataIcon } from './metadata-icon';
 import { BeerBrand, brandsForEntry } from './core/data/brand-data';
+import { indicatorsForEntry } from './core/data/icon-atlas';
+import { AtlasIcon } from './atlas-icon';
 @Component({
   selector: 'app-taxonomy-viewport',
-  imports: [MetadataIcon],
+  imports: [MetadataIcon, AtlasIcon],
   templateUrl: './taxonomy-viewport.html',
   styleUrl: './taxonomy-viewport.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -82,6 +84,10 @@ export class TaxonomyViewport {
   }
   visibleBrands(n: SceneNode) {
     return this.brands(n).slice(0, 30);
+  }
+  indicators(n: SceneNode) {
+    const entry = this.store.entriesById.get(n.id);
+    return entry ? indicatorsForEntry(entry) : [];
   }
   brandUrl(brand: BeerBrand) {
     return brand.websiteUrl ?? `https://www.google.com/search?q=${encodeURIComponent(brand.name)}`;

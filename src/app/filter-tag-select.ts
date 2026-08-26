@@ -1,7 +1,10 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { AppStore } from './core/app.store';
+import { AtlasIcon } from './atlas-icon';
+import { indicatorForFilter } from './core/data/icon-atlas';
 @Component({
   selector: 'app-filter-tag-select',
+  imports: [AtlasIcon],
   template: ` <div class="dropdown">
     <button
       type="button"
@@ -34,8 +37,20 @@ import { AppStore } from './core/app.store';
         </header>
         <div class="tag-input">
           @for (id of store.selectedFilters(); track id) {
-            <button type="button" class="tag" (click)="store.toggleFilter(id)">
-              {{ option(id)?.label }} <span aria-hidden="true">×</span>
+            <button
+              type="button"
+              class="tag"
+              [class.icon-tag]="indicator(option(id))"
+              [title]="'Remove filter: ' + option(id)?.label"
+              [attr.aria-label]="'Remove filter: ' + option(id)?.label"
+              (click)="store.toggleFilter(id)"
+            >
+              @if (indicator(option(id)); as icon) {
+                <app-atlas-icon [sprite]="icon.sprite" [title]="icon.title" />
+              } @else {
+                {{ option(id)?.label }}
+              }
+              <span aria-hidden="true">×</span>
             </button>
           }
           <input
@@ -55,6 +70,9 @@ import { AppStore } from './core/app.store';
               role="option"
               (click)="store.toggleFilter(item.id); query.set('')"
             >
+              @if (indicator(item); as icon) {
+                <app-atlas-icon [sprite]="icon.sprite" [title]="icon.title" />
+              }
               <span
                 ><small>{{ item.kind }}</small
                 >{{ item.label }}</span
@@ -87,4 +105,5 @@ export class FilterTagSelect {
   option(id: string) {
     return this.store.filterOptions.find((option) => option.id === id);
   }
+  indicator = indicatorForFilter;
 }

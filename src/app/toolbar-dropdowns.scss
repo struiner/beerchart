@@ -132,12 +132,19 @@
   font-size: 12px;
 }
 .tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   padding: 4px 7px;
   border: 1px solid #8f6a2c;
   border-radius: 5px;
   background: #40321d;
   color: #f3d28e;
   font-size: 10px;
+}
+.tag.icon-tag {
+  --atlas-icon-size: 25px;
+  padding: 2px 5px;
 }
 .suggestions {
   display: grid;
@@ -159,6 +166,10 @@
   color: #dce1dd;
   text-align: left;
   font-size: 11px;
+  gap: 8px;
+}
+.suggestions app-atlas-icon {
+  --atlas-icon-size: 27px;
 }
 .suggestions button:hover,
 .suggestions button:focus-visible {

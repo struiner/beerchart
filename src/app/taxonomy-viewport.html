@@ -126,14 +126,24 @@
       }
       <div class="selection-title">
         <span class="eyebrow">Selected station</span>
-        <h2>{{ n.title }}</h2>
+        <h2 class="title-with-indicators">
+          <span>{{ n.title }}</span>
+          @for (indicator of indicators(n); track indicator.sprite.id) {
+            <app-atlas-icon [sprite]="indicator.sprite" [title]="indicator.title" />
+          }
+        </h2>
       </div>
       <div class="focus-columns">
         <div class="popover-list">
           @for (routeNode of selectedRoute(); track routeNode.id) {
             <aside class="popover" [class.current-station]="routeNode.id === n.id">
               <span class="eyebrow">{{ routeNode.type }} · {{ routeNode.family }}</span>
-              <h3>{{ routeNode.title }}</h3>
+              <h3 class="title-with-indicators">
+                <span>{{ routeNode.title }}</span>
+                @for (indicator of indicators(routeNode); track indicator.sprite.id) {
+                  <app-atlas-icon [sprite]="indicator.sprite" [title]="indicator.title" />
+                }
+              </h3>
               @if (routeNode.type === 'style') {
                 @for (fact of profile(routeNode).facts; track fact.icon) {
                   <div class="fact" [attr.aria-label]="fact.label + ': ' + fact.value">
@@ -154,7 +164,12 @@
         @if (focusMode()) {
           <div class="focus-description">
             <span class="eyebrow">{{ n.type }} profile</span>
-            <h3>{{ n.title }}</h3>
+            <h3 class="title-with-indicators">
+              <span>{{ n.title }}</span>
+              @for (indicator of indicators(n); track indicator.sprite.id) {
+                <app-atlas-icon [sprite]="indicator.sprite" [title]="indicator.title" />
+              }
+            </h3>
             <p>{{ profile(n).description }}</p>
             <p class="author">Written by <strong>Beer Taxonomy Atlas editorial</strong></p>
             <h4>Potential brands</h4>

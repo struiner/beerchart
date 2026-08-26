@@ -5,6 +5,7 @@ import { validateTaxonomy } from './core/taxonomy.model';
 import seed from '../assets/taxonomy.json';
 import { beerTaxonomyEntries } from './core/data/beer-taxonomy-entries';
 import { beerBrands, brandsForEntry } from './core/data/brand-data';
+import { indicatorForFilter, indicatorsForEntry } from './core/data/icon-atlas';
 import {
   createFilterOptions,
   createTaxonomyDocument,
@@ -38,10 +39,28 @@ describe('Beer Taxonomy Atlas', () => {
     expect(options.some((option) => option.id === 'glassware:tulip')).toBe(true);
     expect(new Set(options.map((option) => option.id)).size).toBe(options.length);
   });
+  it('maps taxonomy facts and filter values to valid atlas sprites', () => {
+    const indicators = beerTaxonomyEntries.flatMap((entry) => [...indicatorsForEntry(entry)]);
+    expect(indicators.length).toBeGreaterThan(beerTaxonomyEntries.length);
+    expect(
+      indicators.every(
+        ({ sprite }) =>
+          sprite.frame.x >= 0 &&
+          sprite.frame.y >= 0 &&
+          sprite.frame.x + sprite.frame.w <= 1254 &&
+          sprite.frame.y + sprite.frame.h <= 1254,
+      ),
+    ).toBe(true);
+
+    const ale = createFilterOptions(beerTaxonomyEntries).find(({ id }) => id === 'family:ale');
+    expect(indicatorForFilter(ale)?.sprite.id).toBe('family.ale');
+  });
   it('links imported PDF brands only to current taxonomy entry ids', () => {
     const entryIds = new Set<string>(beerTaxonomyEntries.map((entry) => entry.id));
     expect(beerBrands.length).toBeGreaterThan(2000);
-    expect(beerBrands.flatMap((brand) => brand.taxonomyEntryIds).every((id) => entryIds.has(id))).toBe(true);
+    expect(
+      beerBrands.flatMap((brand) => brand.taxonomyEntryIds).every((id) => entryIds.has(id)),
+    ).toBe(true);
     expect(brandsForEntry('style:american-style-india-pale-ale').length).toBeGreaterThan(100);
   });
   it('validates the seed and reaches one root', () => {
