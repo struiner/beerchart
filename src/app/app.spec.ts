@@ -3,6 +3,13 @@ import { App } from './app';
 import { layoutTaxonomy } from './core/layout';
 import { validateTaxonomy } from './core/taxonomy.model';
 import seed from '../assets/taxonomy.json';
+import { beerTaxonomyEntries } from './core/data/beer-taxonomy-entries';
+import { beerBrands, brandsForEntry } from './core/data/brand-data';
+import {
+  createFilterOptions,
+  createTaxonomyDocument,
+  DEFAULT_RINGS,
+} from './core/data/taxonomy-data';
 describe('Beer Taxonomy Atlas', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({ imports: [App] }).compileComponents();
@@ -13,8 +20,29 @@ describe('Beer Taxonomy Atlas', () => {
     const el = fixture.nativeElement as HTMLElement;
     expect(el.querySelector('.brand')?.textContent).toContain('Beer Taxonomy');
     expect(el.querySelector('app-taxonomy-viewport')).toBeTruthy();
-    expect(el.querySelectorAll('.toolbar button').length).toBe(6);
+    expect(el.querySelector('app-ring-separation-menu')).toBeTruthy();
+    expect(el.querySelector('app-filter-tag-select')).toBeTruthy();
+    expect(el.querySelector('.minimap')).toBeFalsy();
     expect(el.querySelector('.entry-search input')).toBeTruthy();
+  });
+  it('builds three configurable rings from all typed entries', () => {
+    const document = createTaxonomyDocument(beerTaxonomyEntries, DEFAULT_RINGS);
+    expect(document.nodes.filter((node) => node.type === 'style')).toHaveLength(168);
+    expect(document.nodes.some((node) => node.id.startsWith('ring-1:'))).toBe(true);
+    expect(document.nodes.some((node) => node.id.startsWith('ring-2:'))).toBe(true);
+    expect(document.nodes.some((node) => node.id.startsWith('ring-3:'))).toBe(true);
+  });
+  it('derives category-qualified filter options from values in the dataset', () => {
+    const options = createFilterOptions(beerTaxonomyEntries);
+    expect(options.some((option) => option.id === 'family:ale')).toBe(true);
+    expect(options.some((option) => option.id === 'glassware:tulip')).toBe(true);
+    expect(new Set(options.map((option) => option.id)).size).toBe(options.length);
+  });
+  it('links imported PDF brands only to current taxonomy entry ids', () => {
+    const entryIds = new Set(beerTaxonomyEntries.map((entry) => entry.id));
+    expect(beerBrands.length).toBeGreaterThan(2000);
+    expect(beerBrands.flatMap((brand) => brand.taxonomyEntryIds).every((id) => entryIds.has(id))).toBe(true);
+    expect(brandsForEntry('style:american-style-india-pale-ale').length).toBeGreaterThan(100);
   });
   it('validates the seed and reaches one root', () => {
     const doc = validateTaxonomy(seed);

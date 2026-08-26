@@ -137,7 +137,9 @@
   gap: 4px;
   pointer-events: none;
   color: #eef1e9;
-  transition: opacity 220ms ease, filter 220ms ease;
+  transition:
+    opacity 220ms ease,
+    filter 220ms ease;
 }
 .scene-label.focused-label {
   opacity: 0.14;
@@ -178,7 +180,9 @@
 .focus-mode .orbit-guides {
   opacity: 0.18;
   filter: drop-shadow(0 0 14px #000);
-  transition: opacity 280ms ease, filter 280ms ease;
+  transition:
+    opacity 280ms ease,
+    filter 280ms ease;
 }
 .node rect {
   fill: #141917;
@@ -264,10 +268,10 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.popover {
+.selection-details {
   position: absolute;
   left: 22px;
-  bottom: 22px;
+  top: 22px;
   width: min(340px, calc(100% - 44px));
   padding: 20px;
   border: 1px solid #ffffff1c;
@@ -275,23 +279,166 @@
   background: #171c19ed;
   box-shadow: 0 15px 50px #0009;
   color: #e8ece7;
-  transition: inset 420ms ease, width 420ms ease, height 420ms ease, opacity 300ms ease;
+  transition:
+    inset 420ms ease,
+    width 420ms ease,
+    height 420ms ease,
+    opacity 300ms ease;
 }
+.selection-title h2 {
+  margin: 4px 0 14px;
+  font:
+    600 26px/1.2 Georgia,
+    serif;
+  color: #f5eee2;
+}
+.popover-list {
+  display: grid;
+  gap: 8px;
+  width: 100%;
+  max-height: calc(100dvh - 150px);
+  overflow: auto;
+  padding-right: 4px;
+}
+.popover {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ffffff1c;
+  border-radius: 10px;
+  background: #202722e8;
+}
+.popover.current-station {
+  border-color: #d7a34d;
+  box-shadow: 0 0 0 1px #d7a34d44;
+}
+.popover h3 {
+  margin: 3px 0 6px;
+  color: #f0f2ed;
+  font:
+    600 16px/1.2 Georgia,
+    serif;
+}
+.popover p {
+  margin: 0;
+  color: #a9b1ac;
+  font-size: 12px;
+  line-height: 1.45;
+}
+.focus-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 72px);
+  min-height: 0;
+}
+.focus-description {
+  min-width: 0;
+  padding-top: 4px;
+}
+.focus-description h3 {
+  margin: 8px 0 14px;
+  color: #f5eee2;
+  font:
+    600 clamp(24px, 3vw, 42px)/1.1 Georgia,
+    serif;
+}
+.focus-description p {
+  max-width: 620px;
+  margin: 0;
+  color: #c1c9c3;
+  font-size: 15px;
+  line-height: 1.65;
+}
+.focus-description .author {
+  margin-top: 18px;
+  color: #89938d;
+  font-size: 11px;
+}
+.focus-description .author strong {
+  color: #e0b45d;
+  font-weight: 600;
+}
+.focus-description h4 {
+  margin: 34px 0 10px;
+  color: #d7a34d;
+  font: 600 11px system-ui;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(80px, 1fr));
+  gap: 8px;
+}
+.brand-tile {
+  display: grid;
+  align-content: space-between;
+  min-height: 92px;
+  padding: 10px;
+  border: 1px solid #ffffff20;
+  border-radius: 8px;
+  background: #202722;
+  color: #e8ece7;
+  text-decoration: none;
+  font-size: 11px;
+}
+.brand-tile:hover,
+.brand-tile:focus-visible {
+  border-color: #d7a34d;
+  background: #2b332d;
+  outline: 0;
+}
+.brand-tile small {
+  color: #89938d;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.brand-tile img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.brand-empty {
+  color: #89938d !important;
+  font-size: 12px !important;
+  font-style: italic;
+}
+.brand-count{margin:0 0 10px!important;color:#89938d!important;font-size:10px!important}
 .focus-popover {
   inset: 18px;
   width: auto;
   box-sizing: border-box;
   padding: clamp(28px, 6vw, 84px);
   background: #101512e8;
-  box-shadow: inset 0 0 120px #0008, 0 15px 50px #0009;
+  box-shadow:
+    inset 0 0 120px #0008,
+    0 15px 50px #0009;
   overflow: auto;
+}
+.focus-popover .focus-columns {
+  width: 100%;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+.focus-popover .popover-list {
+  width: 100%;
 }
 .focus-popover h2 {
   max-width: 900px;
   font-size: clamp(32px, 6vw, 76px);
   text-shadow: 0 5px 24px #000;
 }
+.selection-details > button {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  border: 0;
+  background: none;
+  color: #8f9993;
+  font-size: 25px;
+}
 .focus-popover .focus-back {
+  position: absolute;
   top: clamp(18px, 3vw, 36px);
   right: clamp(18px, 3vw, 36px);
   padding: 10px 14px;
@@ -308,26 +455,14 @@
   background: #354238;
   color: #fff;
 }
-.popover button {
-  position: absolute;
-  right: 10px;
-  top: 8px;
-  border: 0;
-  background: none;
-  color: #8f9993;
-  font-size: 25px;
-}
-.popover h2 {
+.selection-details h2 {
   margin: 4px 0 8px;
   font:
     600 22px/1.2 Georgia,
     serif;
 }
-.popover p {
-  margin: 0;
-  color: #a9b1ac;
-  font-size: 13px;
-  line-height: 1.5;
+.focus-popover h2 {
+  font-size: clamp(32px, 6vw, 76px);
 }
 .eyebrow {
   color: #d7a34d;
@@ -383,10 +518,23 @@
   .minimap svg {
     height: 52px;
   }
-  .popover {
-    bottom: 12px;
+  .selection-details {
+    top: 12px;
     left: 12px;
     width: calc(100% - 24px);
     box-sizing: border-box;
+  }
+  .focus-columns {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .popover-list {
+    max-height: 42dvh;
+  }
+  .focus-description p {
+    font-size: 13px;
+  }
+  .brand-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

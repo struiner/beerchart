@@ -1,0 +1,1919 @@
+<!doctype html>
+<html lang="en" data-visualize-standalone>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Beer Taxonomy Metro Map</title>
+<style>:root {
+  color-scheme: light dark;
+  background-color: transparent !important;
+
+  /* Agent-facing contract; keep in sync with SKILL.md. */
+  --background: var(
+    --main-surface-primary,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --foreground: light-dark(rgb(26 28 31), rgb(255 255 255));
+  --card: color-mix(in oklab, var(--foreground) 5%, transparent);
+  --card-foreground: var(--foreground);
+  --popover: light-dark(rgb(255 255 255), rgb(45 45 45));
+  --popover-foreground: var(--foreground);
+  --primary: light-dark(rgb(51 156 255), rgb(131 195 255));
+  --primary-foreground: light-dark(rgb(255 255 255), rgb(13 13 13));
+  --secondary: light-dark(rgb(255 255 255 / 96%), rgb(54 54 54 / 96%));
+  --secondary-foreground: var(--foreground);
+  --muted: color-mix(in srgb, var(--foreground) 10%, transparent);
+  --muted-foreground: light-dark(
+    rgb(26 28 31 / 49.4%),
+    rgb(255 255 255 / 49.8%)
+  );
+  --accent: light-dark(rgb(229 242 255), rgb(13 39 63));
+  --accent-foreground: var(--primary);
+  --destructive: light-dark(rgb(226 85 7), rgb(255 133 73));
+  --border: light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%));
+  --input: light-dark(
+    rgb(26 28 31 / 11.8%),
+    color-mix(in oklab, rgb(0 0 0) 10%, transparent)
+  );
+  --ring: light-dark(rgb(51 156 255), rgb(131 195 255 / 76%));
+  --font-size-base: 14px;
+  --red: light-dark(rgb(186 38 35), rgb(250 66 62));
+  --green: light-dark(rgb(0 162 64), rgb(64 201 119));
+
+  /* Internal implementation variables; not part of the agent contract. */
+  --font-sans: -apple-system, system-ui, "Segoe UI", sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",
+    monospace;
+  --font-size-normal: max(11px, var(--font-size-base));
+  --font-size-tooltip: calc(var(--font-size-base) - 1px);
+  --font-size-small: max(11px, calc(var(--font-size-base) - 2px));
+  --font-size-h1: calc(var(--font-size-normal) * 1.7142857143);
+  --font-size-h2: calc(var(--font-size-normal) * 1.4285714286);
+  --font-size-h3: calc(var(--font-size-normal) * 1.2857142857);
+  --font-weight-normal: 430;
+  --font-weight-medium: 500;
+  --line-height-normal: calc(var(--font-size-normal) * 1.5);
+  --line-height-tooltip: calc(var(--font-size-tooltip) * 1.4285714286);
+  --line-height-small: calc(var(--font-size-small) + 4px);
+  --radius: 10px;
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-2xl: calc(var(--radius) * 1.6);
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px -1px rgb(0 0 0 / 8%);
+  --checkmark-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 17'%3E%3Cpath d='M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z'/%3E%3C/svg%3E");
+
+  /* Legacy aliases; not part of the current agent contract. */
+  --viz-bg: transparent;
+  --viz-panel: var(--card);
+  --viz-border: var(--border);
+  --viz-text: var(--foreground);
+  --viz-muted: var(--muted-foreground);
+  --viz-accent: var(--primary);
+  --viz-accent-text: var(--primary-foreground);
+  --viz-accent-bg: var(--accent);
+  --viz-font-size: var(--font-size-base);
+  --viz-warning: var(--destructive);
+  --color-background-primary: var(--background);
+  --color-text-primary: var(--foreground);
+  --color-border-secondary: var(--border);
+}
+
+:root[data-visualize-standalone] {
+  background-color: var(--background) !important;
+}
+
+/* Generic mobile code-block hosts provide light/dark mode but no series palette.
+   AppBlock hosts set all six variables themselves. */
+:root:not([data-app-block-surface]) {
+  --viz-series-1: var(--primary);
+  --viz-series-2: light-dark(#f3883b, #f59a56);
+  --viz-series-3: light-dark(#5dc977, #74d58b);
+  --viz-series-4: light-dark(#eb77b1, #f08fc0);
+  --viz-series-5: light-dark(#9b79ec, #aa91ef);
+  --viz-series-6: light-dark(#3ab9b1, #5acbc2);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html > body {
+  margin: 0;
+  padding: 5px;
+  color: var(--foreground);
+  background: transparent !important;
+  font-family: var(--font-sans);
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+}
+
+:root:not([data-app-block-surface]) > body {
+  padding: 12px;
+}
+
+a {
+  color: color-mix(in srgb, var(--viz-accent) 80%, var(--viz-text) 20%);
+  cursor: pointer;
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+a:is(:hover, :focus-visible) {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.3;
+}
+
+b,
+strong,
+th {
+  font-weight: var(--font-weight-medium);
+}
+
+code:not(pre code) {
+  display: inline;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  background: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  overflow-wrap: anywhere;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  word-break: break-word;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--foreground);
+  font: inherit;
+  text-align: start;
+}
+
+.table :is(th, td) {
+  padding-block: 10px;
+  padding-inline: 0 24px;
+  overflow-wrap: anywhere;
+  border-bottom: 1px solid var(--border);
+  text-align: start;
+  vertical-align: top;
+}
+
+.table-responsive > .table :is(th, td) {
+  overflow-wrap: break-word;
+}
+
+.table :is(th, td):last-child {
+  padding-inline-end: 0;
+}
+
+.table :is(caption, thead th) {
+  font-weight: 600;
+}
+
+.table thead th {
+  padding-block: 8px;
+  border-bottom-color: color-mix(in srgb, var(--foreground) 16%, transparent);
+}
+
+.table tbody tr:last-child :is(th, td) {
+  border-bottom: 0;
+}
+
+.table.table-sm :is(th, td) {
+  padding-block: 6px;
+}
+
+.table.table-sm :is(th, td):not(:last-child) {
+  padding-inline-end: 16px;
+}
+
+.table :is(.text-end, [align="right"]) {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+
+.table :is(.text-center, [align="center"]) {
+  text-align: center;
+}
+
+.table .text-nowrap {
+  white-space: nowrap;
+}
+
+#widget {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0;
+  background: transparent !important;
+}
+
+.card {
+  min-width: 0;
+  padding: 12px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  border-radius: var(--radius-2xl);
+  color: var(--card-foreground);
+  background: var(--card);
+}
+
+#widget > :not(.card) {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: max-content;
+  max-width: min(
+    20rem,
+    var(--tooltip-available-width, calc(100vw - 10px)),
+    calc(100vw - 10px)
+  );
+  max-height: min(
+    var(--tooltip-available-height, calc(100vh - 10px)),
+    calc(100vh - 10px)
+  );
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  color: var(--popover-foreground);
+  background: var(--popover);
+  box-shadow: none;
+  font-size: var(--font-size-tooltip);
+  line-height: var(--line-height-tooltip);
+  overflow-wrap: break-word;
+  white-space: normal;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* The bundled tooltip runtime owns [data-tooltip]. AppBlock's CSS-only
+   pseudo-tooltip can widen dense grids even while hidden. */
+main [data-tooltip]::after {
+  content: none;
+}
+
+.viz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(180px, 24%), 1fr));
+  gap: 10px;
+}
+
+.viz-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.viz-stat-value {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+.viz-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.viz-badge {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  color: var(--accent-foreground);
+  background: var(--accent);
+  font-weight: var(--font-weight-medium);
+}
+
+small,
+.text-small,
+.viz-badge {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.text-muted {
+  color: var(--muted-foreground);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.viz-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.viz-controls > .form-label {
+  display: grid;
+  min-width: min(100%, 260px);
+  flex: 1 1 280px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 2px 12px;
+  margin-bottom: 0;
+}
+
+.viz-controls > .form-label > :is(.form-control, .form-range, .form-select) {
+  grid-column: 1 / -1;
+}
+
+.btn,
+.form-check-input,
+.form-control,
+.form-range,
+.form-select {
+  font: inherit;
+}
+
+.btn {
+  appearance: button;
+  display: inline-flex;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-app-region: no-drag;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: var(--cursor-interaction, pointer);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn:is(.btn-block, .viz-tile) {
+  inline-size: 100%;
+}
+
+.btn.viz-tile {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+a.btn {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.btn-primary {
+  border-color: transparent;
+  color: var(--interactive-label-primary-default, var(--primary-foreground));
+  background: var(--interactive-bg-primary-default, var(--foreground));
+  background-clip: padding-box;
+}
+
+.btn-primary .text-muted {
+  color: color-mix(
+    in srgb,
+    var(--interactive-label-primary-default, var(--primary-foreground)) 50%,
+    transparent
+  );
+}
+
+.btn-primary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 80%, transparent);
+  background-clip: padding-box;
+}
+
+.btn-ghost {
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.btn-ghost:not(:disabled):hover {
+  color: var(--foreground);
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+[data-lucide] {
+  stroke-width: 1.6;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--foreground);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  padding: 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  color: var(--foreground);
+  background: var(--secondary);
+}
+
+.form-control::placeholder {
+  color: var(--muted-foreground);
+}
+
+.form-control[type="file"] {
+  padding: 0;
+  overflow: hidden;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control[type="file"]::file-selector-button {
+  min-height: 26px;
+  margin-right: 8px;
+  padding: 0 8px;
+  border: 0;
+  border-right: 1px solid var(--input);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: inherit;
+  font: inherit;
+}
+
+.form-control[type="file"]:not(:disabled):hover::file-selector-button {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-control-color[type="color"] {
+  width: 40px;
+  height: 28px;
+  padding: 3px;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control-color[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.form-control-color[type="color"]::-webkit-color-swatch {
+  border: 0;
+  border-radius: calc(var(--radius-lg) - 4px);
+}
+
+textarea.form-control {
+  height: auto;
+  min-height: 72px;
+  padding: 8px 10px;
+  resize: vertical;
+}
+
+.form-control:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-control:disabled,
+.form-select:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.form-select {
+  appearance: none;
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  margin: 0;
+  padding: 0 32px 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  color: var(--foreground);
+  background-color: var(--secondary);
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%),
+    linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
+  background-position:
+    calc(100% - 14px) 50%,
+    calc(100% - 10px) 50%;
+  background-repeat: no-repeat;
+  background-size: 4px 4px;
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-select:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-select:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-check {
+  display: flex;
+  min-height: 20px;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-check-input {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  margin: 0;
+  border: 1px solid var(--input);
+  color: var(--primary-foreground);
+  background-color: transparent;
+  cursor: var(--cursor-interaction, default);
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    box-shadow 150ms;
+}
+
+.form-check:not(.form-switch) .form-check-input[type="checkbox"] {
+  border-color: var(--input);
+  border-radius: var(--radius-sm);
+  background-color: var(--secondary);
+  box-shadow: var(--shadow-sm);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input:not(:disabled):not(:checked):hover {
+  background-color: var(--card);
+}
+
+.form-check:not(.form-switch) .form-check-input[type="checkbox"]:checked {
+  border-color: var(--primary);
+  background-color: var(--primary);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input[type="checkbox"]:checked::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-foreground);
+  content: "";
+  mask: var(--checkmark-image) center / 12px 12px no-repeat;
+}
+
+.form-check-input[type="radio"] {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-full);
+}
+
+.form-check-input[type="radio"]:checked {
+  border: 2px solid var(--primary);
+  background:
+    radial-gradient(circle, var(--primary-foreground) 0 2.5px, transparent 3px),
+    var(--primary);
+}
+
+.form-check:not(.form-switch) .form-check-input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+}
+
+.form-switch .form-check-input:disabled,
+.form-switch .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-check-label {
+  color: var(--foreground);
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-switch .form-check-input {
+  position: relative;
+  width: 32px;
+  height: 20px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+  box-shadow: none;
+  transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border: 1px solid light-dark(var(--primary-foreground), var(--foreground));
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+  box-shadow: var(--shadow-sm);
+  content: "";
+  transform: translate(2px, -50%);
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input:checked {
+  background: var(--primary);
+}
+
+.form-switch .form-check-input:checked::before {
+  transform: translate(14px, -50%);
+}
+
+.form-switch .form-check-input:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring);
+}
+
+.form-range {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 28px;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  accent-color: var(--primary);
+  background: linear-gradient(
+      color-mix(in srgb, var(--foreground) 7%, transparent),
+      color-mix(in srgb, var(--foreground) 7%, transparent)
+    )
+    center / 100% 2px no-repeat;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-webkit-slider-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range::-moz-range-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-moz-range-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.btn:not(.btn-primary, .viz-tile):is(
+    [aria-pressed="true"],
+    [aria-selected="true"],
+    .is-selected
+  ) {
+  border-color: var(--primary);
+  color: var(--primary-foreground);
+  background: var(--primary);
+}
+
+.btn.viz-tile:is([aria-pressed="true"], [aria-selected="true"], .is-selected) {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#widget > svg {
+  width: 100%;
+}
+
+.text-warning,
+.text-destructive {
+  color: var(--destructive);
+}
+</style>
+</head>
+<body>
+<div id="beer-taxonomy-metro" aria-label="Metro map of 168 beer-style entries">
+  <style>
+    #beer-taxonomy-metro {
+      width: 100%;
+      color: var(--foreground);
+    }
+
+    #beer-taxonomy-metro .metro-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-bottom: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    #beer-taxonomy-metro .metro-intro {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      min-width: 0;
+    }
+
+    #beer-taxonomy-metro .metro-mark {
+      display: grid;
+      place-items: center;
+      width: 2.25rem;
+      height: 2.25rem;
+      flex: 0 0 auto;
+      border-radius: 50%;
+      color: var(--primary-foreground);
+      background: var(--primary);
+    }
+
+    #beer-taxonomy-metro .metro-status {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    #beer-taxonomy-metro .station-detail {
+      display: grid;
+      grid-template-columns: minmax(12rem, 1.35fr) minmax(15rem, 2fr);
+      gap: 0.65rem 1rem;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    #beer-taxonomy-metro .detail-heading {
+      min-width: 0;
+    }
+
+    #beer-taxonomy-metro .detail-name,
+    #beer-taxonomy-metro .detail-route,
+    #beer-taxonomy-metro .detail-signature {
+      overflow-wrap: anywhere;
+    }
+
+    #beer-taxonomy-metro .detail-name {
+      font-weight: 500;
+    }
+
+    #beer-taxonomy-metro .detail-route,
+    #beer-taxonomy-metro .detail-signature {
+      margin-top: 0.2rem;
+    }
+
+    #beer-taxonomy-metro .trait-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      align-items: center;
+    }
+
+    #beer-taxonomy-metro .trait-list .viz-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    #beer-taxonomy-metro .metro-stage {
+      position: relative;
+      width: 100%;
+      height: 650px;
+      overflow: hidden;
+      touch-action: none;
+      cursor: grab;
+      border-radius: 50% / 7%;
+      background:
+        radial-gradient(circle at center, color-mix(in srgb, var(--accent) 22%, transparent) 0 8%, transparent 8.2%),
+        radial-gradient(circle at center, transparent 0 29%, color-mix(in srgb, var(--border) 34%, transparent) 29.2% 29.35%, transparent 29.55%),
+        radial-gradient(circle at center, transparent 0 61%, color-mix(in srgb, var(--border) 28%, transparent) 61.2% 61.35%, transparent 61.55%),
+        color-mix(in srgb, var(--muted) 24%, transparent);
+    }
+
+    #beer-taxonomy-metro .metro-stage.is-dragging {
+      cursor: grabbing;
+    }
+
+    #beer-taxonomy-metro .metro-svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      user-select: none;
+    }
+
+    #beer-taxonomy-metro .metro-svg .route {
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+
+    #beer-taxonomy-metro .metro-svg .orbit-guide {
+      fill: none;
+      stroke: color-mix(in srgb, var(--border) 55%, transparent);
+      stroke-width: 2;
+      vector-effect: non-scaling-stroke;
+    }
+
+    #beer-taxonomy-metro .metro-svg .trunk {
+      stroke-width: 7;
+    }
+
+    #beer-taxonomy-metro .metro-svg .branch {
+      stroke-width: 4;
+    }
+
+    #beer-taxonomy-metro .metro-svg .ale-route {
+      stroke: var(--viz-series-1);
+    }
+
+    #beer-taxonomy-metro .metro-svg .lager-route {
+      stroke: var(--viz-series-2);
+    }
+
+    #beer-taxonomy-metro .metro-svg .hybrid-route {
+      stroke: var(--viz-series-3);
+    }
+
+    #beer-taxonomy-metro .metro-svg .station-dot,
+    #beer-taxonomy-metro .metro-svg .group-dot {
+      fill: var(--background);
+      vector-effect: non-scaling-stroke;
+    }
+
+    #beer-taxonomy-metro .metro-svg .station-dot {
+      stroke-width: 4;
+    }
+
+    #beer-taxonomy-metro .metro-svg .station-halo {
+      fill: none;
+      stroke: transparent;
+      stroke-width: 12;
+      vector-effect: non-scaling-stroke;
+    }
+
+    #beer-taxonomy-metro .metro-svg .group-dot {
+      stroke-width: 6;
+    }
+
+    #beer-taxonomy-metro .metro-svg .ale-station {
+      stroke: var(--viz-series-1);
+    }
+
+    #beer-taxonomy-metro .metro-svg .lager-station {
+      stroke: var(--viz-series-2);
+    }
+
+    #beer-taxonomy-metro .metro-svg .hybrid-station {
+      stroke: var(--viz-series-3);
+    }
+
+    #beer-taxonomy-metro .metro-svg .root-dot {
+      fill: var(--primary);
+      stroke: var(--primary-foreground);
+      stroke-width: 5;
+      vector-effect: non-scaling-stroke;
+    }
+
+    #beer-taxonomy-metro .metro-svg .family-dot {
+      fill: var(--background);
+      stroke-width: 10;
+      vector-effect: non-scaling-stroke;
+    }
+
+    #beer-taxonomy-metro .metro-svg .family-orbit {
+      fill: color-mix(in srgb, var(--background) 82%, transparent);
+      stroke-width: 9;
+      vector-effect: non-scaling-stroke;
+    }
+
+    #beer-taxonomy-metro .metro-svg text {
+      fill: var(--foreground);
+      font-size: calc(var(--font-size-base) * 1.2);
+      paint-order: stroke;
+      stroke: var(--background);
+      stroke-width: 4px;
+      stroke-linejoin: round;
+    }
+
+    #beer-taxonomy-metro .metro-svg .family-label,
+    #beer-taxonomy-metro .metro-svg .root-label,
+    #beer-taxonomy-metro .metro-svg .group-label {
+      font-weight: 500;
+    }
+
+    #beer-taxonomy-metro .metro-svg .count-label {
+      fill: var(--muted-foreground);
+      font-weight: 400;
+    }
+
+    #beer-taxonomy-metro .metro-svg .group-label {
+      font-size: calc(var(--font-size-base) * 1.08);
+    }
+
+    #beer-taxonomy-metro .metro-svg .station-label {
+      font-size: calc(var(--font-size-base) * 1.02);
+    }
+
+    #beer-taxonomy-metro .metro-svg .station {
+      cursor: pointer;
+    }
+
+    #beer-taxonomy-metro .metro-svg .station.is-selected .station-dot {
+      fill: var(--primary);
+      stroke: var(--primary);
+    }
+
+    #beer-taxonomy-metro .metro-svg .station.is-selected .station-halo {
+      stroke: var(--ring);
+    }
+
+    #beer-taxonomy-metro .metro-svg .station:focus-visible .station-halo {
+      stroke: var(--ring);
+    }
+
+    @media (max-width: 560px) {
+      #beer-taxonomy-metro .metro-stage {
+        height: 540px;
+      }
+
+      #beer-taxonomy-metro .station-detail {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <div class="metro-toolbar">
+    <div class="metro-intro">
+      <span class="metro-mark" aria-hidden="true"><i data-lucide="orbit"></i></span>
+      <div class="metro-status" data-status aria-live="polite">Beer · 168 published style entries</div>
+    </div>
+    <div class="viz-controls" aria-label="Map controls">
+      <button class="btn btn-ghost" type="button" data-zoom-out data-tooltip="Zoom out" aria-label="Zoom out">
+        <i data-lucide="minus" aria-hidden="true"></i>
+      </button>
+      <button class="btn" type="button" data-fit data-tooltip="Fit complete map" aria-label="Fit complete map">
+        <i data-lucide="maximize-2" aria-hidden="true"></i>
+        <span>Fit</span>
+      </button>
+      <button class="btn btn-ghost" type="button" data-zoom-in data-tooltip="Zoom in" aria-label="Zoom in">
+        <i data-lucide="plus" aria-hidden="true"></i>
+      </button>
+      <span class="text-small text-muted" data-zoom-readout aria-live="polite"></span>
+    </div>
+  </div>
+
+  <div class="card station-detail" data-detail aria-live="polite">
+    <div class="detail-heading">
+      <div class="detail-name" data-detail-name>American-Style India Pale Ale</div>
+      <div class="detail-route text-small text-muted" data-detail-route>Ale › North American origin</div>
+      <div class="detail-signature text-small" data-detail-signature>Hop-forward pale ale with firm bitterness.</div>
+    </div>
+    <div class="trait-list" data-traits aria-label="Distinguishing characteristics"></div>
+  </div>
+
+  <div class="metro-stage" data-stage>
+    <svg class="metro-svg" data-svg role="img" aria-labelledby="beer-metro-title beer-metro-desc">
+      <title id="beer-metro-title">Beer taxonomy metro map</title>
+      <desc id="beer-metro-desc">A pannable and zoomable circular metro-style diagram containing 168 beer-style stations grouped into Ale, Lager, and Hybrid or Mixed families. Select a station for its color, glassware, fermentation, ingredients, and conditioning characteristics.</desc>
+      <g data-world></g>
+    </svg>
+  </div>
+  <div class="sr-only" data-fallback></div>
+  <p class="text-small text-muted">
+    Brewers Association 2026 Beer Style Guidelines
+    (<a href="https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/">https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/</a>)
+    published by the Brewers Association. Glassware and conditioning labels are concise service conventions, not formal style requirements.
+  </p>
+
+  <script>
+    (() => {
+      const root = document.getElementById("beer-taxonomy-metro");
+      if (!root) return;
+
+      const families = [
+        {
+          key: "ale",
+          label: "Ale",
+          groups: [
+            {
+              label: "British origin",
+              styles: [
+                "Ordinary Bitter", "Special Bitter or Best Bitter", "Extra Special Bitter",
+                "English-Style Summer Ale", "Classic English-Style Pale Ale",
+                "British-Style India Pale Ale", "Strong Ale", "Old Ale",
+                "English-Style Pale Mild Ale", "English-Style Dark Mild Ale",
+                "English-Style Brown Ale", "Brown Porter", "Robust Porter",
+                "Sweet Stout or Cream Stout", "Oatmeal Stout",
+                "British-Style Imperial Stout", "British-Style Barley Wine Ale"
+              ]
+            },
+            {
+              label: "Irish origin",
+              styles: ["Irish-Style Red Ale", "Classic Irish-Style Dry Stout", "Export-Style Stout"]
+            },
+            {
+              label: "North American origin",
+              styles: [
+                "Golden or Blonde Ale", "Session India Pale Ale", "American-Style Amber/Red Ale",
+                "American-Style Pale Ale", "Juicy or Hazy Pale Ale",
+                "American-Style Strong Pale Ale", "Juicy or Hazy Strong Pale Ale",
+                "American-Style India Pale Ale", "Juicy or Hazy India Pale Ale",
+                "American-Belgo-Style Ale", "American-Style Brown Ale",
+                "American-Style Black Ale", "American-Style Stout",
+                "American-Style Imperial Porter", "American-Style Imperial Stout",
+                "Double Hoppy Red Ale", "Imperial Red Ale",
+                "American-Style Imperial or Double India Pale Ale",
+                "Juicy or Hazy Imperial or Double India Pale Ale",
+                "American-Style Barley Wine Ale", "American-Style Wheat Wine Ale",
+                "Smoke Porter", "American-Style Sour Ale", "American-Style Fruited Sour Ale",
+                "Kentucky Common Beer", "American-Style Fruit Beer",
+                "West Coast-Style India Pale Ale"
+              ]
+            },
+            {
+              label: "German origin",
+              styles: [
+                "German-Style Koelsch", "German-Style Altbier", "Berliner-Style Weisse",
+                "Leipzig-Style Gose", "Contemporary-Style Gose",
+                "South German-Style Hefeweizen", "South German-Style Kristal Weizen",
+                "German-Style Leichtes Weizen", "South German-Style Bernsteinfarbenes Weizen",
+                "South German-Style Dunkel Weizen", "South German-Style Weizenbock",
+                "German-Style Rye Ale", "Bamberg-Style Weiss Rauchbier"
+              ]
+            },
+            {
+              label: "Belgian and French origin",
+              styles: [
+                "Belgian-Style Table Beer", "Belgian-Style Session Ale",
+                "Belgian-Style Speciale Belge", "Belgian-Style Blonde Ale",
+                "Belgian-Style Strong Blonde Ale", "Belgian-Style Strong Dark Ale",
+                "Belgian-Style Dubbel", "Belgian-Style Tripel", "Belgian-Style Quadrupel",
+                "Belgian-Style Witbier", "Classic French & Belgian-Style Saison",
+                "Specialty Saison", "French-Style Bière de Garde",
+                "Belgian-Style Flanders Oud Bruin or Oud Red Ale", "Belgian-Style Lambic",
+                "Traditional Belgian-Style Gueuze",
+                "Contemporary Belgian-Style Spontaneous Fermented Ale",
+                "Other Belgian-Style Ale", "Belgian-Style Fruit Beer"
+              ]
+            },
+            {
+              label: "Other origin",
+              styles: [
+                "Grodziskie", "Adambier", "Dutch-Style Kuit, Kuyt or Koyt",
+                "International-Style Pale Ale", "Classic Australian-Style Pale Ale",
+                "Australian-Style Pale Ale", "New Zealand-Style Pale Ale",
+                "New Zealand-Style India Pale Ale", "Finnish-Style Sahti",
+                "Swedish-Style Gotlandsdricke", "Breslau-Style Schoeps"
+              ]
+            },
+            {
+              label: "Scottish origin",
+              styles: [
+                "Scottish-Style Light Ale", "Scottish-Style Heavy Ale",
+                "Scottish-Style Export Ale", "Scotch Ale or Wee Heavy"
+              ]
+            }
+          ]
+        },
+        {
+          key: "lager",
+          label: "Lager",
+          groups: [
+            {
+              label: "European origin",
+              styles: [
+                "Czech-Style Pale Lager", "Vienna-Style Lager", "Baltic-Style Porter",
+                "Czech-Style Amber Lager", "Czech-Style Dark Lager", "Italian-Style Pilsener"
+              ]
+            },
+            {
+              label: "North American origin",
+              styles: [
+                "American-Style Lager", "Contemporary American-Style Lager",
+                "American-Style Light Lager", "Contemporary American-Style Light Lager",
+                "American-Style Pilsener", "Contemporary American-Style Pilsener",
+                "American-Style India Pale Lager", "American-Style Malt Liquor",
+                "American-Style Amber Lager", "American-Style Maerzen/Oktoberfest",
+                "American-Style Dark Lager", "Mexican-Style Light Lager",
+                "Mexican-Style Pale Lager", "Mexican-Style Amber Lager",
+                "Mexican-Style Dark Lager", "West Coast-Style Pilsener"
+              ]
+            },
+            {
+              label: "Other origin",
+              styles: ["International Light Lager", "International-Style Pilsener", "Rice Lager"]
+            },
+            {
+              label: "German origin",
+              styles: [
+                "German-Style Leichtbier", "German-Style Pilsener", "Munich-Style Helles",
+                "Dortmunder/European-Style Export", "Franconian-Style Rotbier",
+                "German-Style Maerzen", "German-Style Oktoberfest/Festbier",
+                "Munich-Style Dunkel", "European-Style Dark Lager",
+                "German-Style Schwarzbier", "Bamberg-Style Helles Rauchbier",
+                "Bamberg-Style Maerzen Rauchbier", "Bamberg-Style Bock Rauchbier",
+                "German-Style Heller Bock/Maibock", "Traditional German-Style Bock",
+                "German-Style Doppelbock", "German-Style Eisbock"
+              ]
+            }
+          ]
+        },
+        {
+          key: "hybrid",
+          label: "Hybrid / Mixed",
+          groups: [
+            {
+              label: "All origins",
+              styles: [
+                "Belgian-Style Fruit Lambic", "Session Beer", "American-Style Cream Ale",
+                "California Common Beer", "American-Style Wheat Beer",
+                "Kellerbier or Zwickelbier", "Fruit Wheat Beer", "Field Beer",
+                "Pumpkin Spice Beer", "Pumpkin/Squash Beer", "Chocolate or Cocoa Beer",
+                "Coffee Beer", "Chili Pepper Beer", "Herb and Spice Beer", "Specialty Beer",
+                "Specialty Honey Beer", "Rye Beer", "Brett Beer", "Mixed-Culture Brett Beer",
+                "Ginjo Beer or Sake-Yeast Beer", "Fresh Hop Beer",
+                "Wood- and Barrel-Aged Sour Beer", "Aged Beer", "Experimental Beer",
+                "Experimental India Pale Ale", "Historical Beer", "Wild Beer", "Smoke Beer",
+                "Other Strong Ale or Lager", "Gluten-Free Beer", "Non-Alcohol Malt Beverage",
+                "Dessert or Pastry Beer"
+              ]
+            }
+          ]
+        }
+      ];
+
+      const stage = root.querySelector("[data-stage]");
+      const svg = root.querySelector("[data-svg]");
+      const world = root.querySelector("[data-world]");
+      const status = root.querySelector("[data-status]");
+      const zoomReadout = root.querySelector("[data-zoom-readout]");
+      const fallback = root.querySelector("[data-fallback]");
+      const detailName = root.querySelector("[data-detail-name]");
+      const detailRoute = root.querySelector("[data-detail-route]");
+      const detailSignature = root.querySelector("[data-detail-signature]");
+      const traits = root.querySelector("[data-traits]");
+      const ns = "http://www.w3.org/2000/svg";
+      const worldWidth = 6800;
+      const worldHeight = 6800;
+      const rootX = worldWidth / 2;
+      const rootY = worldHeight / 2;
+      const familyRadius = 470;
+      const groupRadius = 1030;
+      const styleRadius = 2240;
+      const labelRadius = styleRadius + 42;
+      const familyGap = 10;
+      const groupGap = 1.4;
+
+      const svgElement = (name, attrs = {}) => {
+        const element = document.createElementNS(ns, name);
+        for (const [key, value] of Object.entries(attrs)) element.setAttribute(key, String(value));
+        return element;
+      };
+
+      const totalStyles = families.reduce(
+        (sum, family) => sum + family.groups.reduce((groupSum, group) => groupSum + group.styles.length, 0),
+        0
+      );
+
+      const lower = (value) => value.toLowerCase();
+      const includesAny = (value, words) => words.some((word) => lower(value).includes(word));
+
+      const profileFor = (style, family) => {
+        const name = lower(style);
+        const variable = includesAny(style, [
+          "specialty", "experimental", "historical", "other belgian", "other strong",
+          "wild beer", "session beer", "field beer", "gluten-free", "non-alcohol",
+          "american-belgo", "fruit beer", "fruited sour", "smoke beer"
+        ]);
+
+        let color = "gold to amber";
+        if (variable) color = "varies with base style";
+        else if (includesAny(style, ["black ale", "stout", "imperial porter", "dessert or pastry"])) color = "very dark to black";
+        else if (includesAny(style, ["dark", "dunkel", "schwarz", "brown", "porter", "adambier", "dubbel", "quadrupel", "old ale"])) color = "brown to very dark";
+        else if (includesAny(style, ["amber", "red ale", "red lager", "bitter", "scotch", "altbier", "maerzen", "oktoberfest", "vienna", "barley wine", "kuit"])) color = "amber to copper";
+        else if (includesAny(style, ["pale", "blonde", "golden", "pilsener", "helles", "koelsch", "summer", "wheat", "weizen", "witbier", "weisse", "saison", "tripel", "lambic", "gueuze", "gose", "rice lager", "light lager"])) color = "straw to gold";
+
+        let glass = "tulip";
+        if (includesAny(style, ["weizen", "wheat beer", "witbier", "weisse"])) glass = "weizen glass";
+        else if (name.includes("koelsch")) glass = "stange";
+        else if (includesAny(style, ["imperial", "barley wine", "eisbock", "doppelbock", "quadrupel", "old ale", "adambier", "strong dark", "dessert"])) glass = "snifter";
+        else if (family === "Lager" || includesAny(style, ["pilsener", "helles", "lager", "kellerbier", "zwickelbier", "california common"])) glass = "pilsner glass or mug";
+        else if (includesAny(style, ["bitter", "mild", "brown ale", "porter", "stout", "scottish", "scotch ale", "cream ale"])) glass = "nonic pint";
+
+        let fermentation = family === "Ale" ? "top-fermented" : family === "Lager" ? "bottom-fermented" : "varies with base style";
+        if (includesAny(style, ["lambic", "gueuze", "spontaneous fermented"])) fermentation = "spontaneous culture";
+        else if (includesAny(style, ["mixed-culture", "wild beer"])) fermentation = "mixed culture";
+        else if (name.includes("brett beer")) fermentation = "Brettanomyces-led";
+        else if (includesAny(style, ["gose", "berliner-style weisse", "sour ale", "wood- and barrel-aged sour"])) fermentation = "ale plus souring culture";
+        else if (name.includes("sake-yeast")) fermentation = "sake yeast or mixed yeast";
+        else if (name.includes("california common")) fermentation = "lager yeast, warm-fermented";
+        else if (name.includes("cream ale")) fermentation = "ale or hybrid fermentation";
+
+        let ingredients = "malted grain · hops";
+        if (name.includes("fruit lambic")) ingredients = "fruit · barley · wheat · aged hops";
+        else if (includesAny(style, ["lambic", "gueuze"])) ingredients = "barley · wheat · aged hops";
+        else if (name.includes("gose")) ingredients = "wheat · salt · coriander";
+        else if (name.includes("witbier")) ingredients = "wheat · spice · citrus peel";
+        else if (includesAny(style, ["hefeweizen", "weizen", "wheat beer", "wheat wine", "weisse"])) ingredients = "wheat malt · barley · hops";
+        else if (name.includes("rye")) ingredients = "rye · barley · hops";
+        else if (name.includes("oatmeal")) ingredients = "oats · roasted malt";
+        else if (name.includes("rice lager")) ingredients = "rice · barley · hops";
+        else if (name.includes("honey")) ingredients = "honey · malt · hops";
+        else if (name.includes("fruit")) ingredients = "fruit · base beer ingredients";
+        else if (name.includes("pumpkin")) ingredients = "pumpkin or squash · optional spice";
+        else if (includesAny(style, ["chocolate", "cocoa"])) ingredients = "chocolate or cocoa · base beer";
+        else if (name.includes("coffee")) ingredients = "coffee · base beer";
+        else if (name.includes("chili")) ingredients = "chili pepper · base beer";
+        else if (name.includes("herb and spice")) ingredients = "herbs or spices · base beer";
+        else if (includesAny(style, ["rauch", "smoke porter", "smoke beer"])) ingredients = "smoked malt · hops";
+        else if (name.includes("gluten-free")) ingredients = "gluten-free fermentables";
+        else if (name.includes("ginjo") || name.includes("sake-yeast")) ingredients = "malt · sake yeast";
+        else if (name.includes("dessert or pastry")) ingredients = "dark malt · culinary additions";
+        else if (includesAny(style, ["stout", "porter", "black ale"])) ingredients = "roasted or dark malt · hops";
+        else if (includesAny(style, ["india pale", "hoppy", "fresh hop", "pale ale", "pilsener"])) ingredients = "pale malt · expressive hops";
+
+        let age = "standard conditioning";
+        if (family === "Lager") age = "cold-conditioned";
+        if (includesAny(style, ["aged beer", "wood- and barrel", "old ale", "barley wine", "wheat wine", "lambic", "gueuze", "bière de garde", "adambier", "eisbock", "doppelbock", "quadrupel"])) age = "extended maturation";
+        else if (includesAny(style, ["brett", "wild beer", "sour ale", "flanders"])) age = "maturation varies";
+        else if (includesAny(style, ["india pale", "hoppy", "fresh hop", "summer ale"])) age = "best presented fresh";
+
+        let signature = "Defined by its regional style balance and fermentation profile.";
+        if (variable) signature = "A variable category whose base style determines most sensory ranges.";
+        if (includesAny(style, ["session", "light", "leicht", "table beer"])) signature = "Lower-strength interpretation designed around drinkability.";
+        if (includesAny(style, ["imperial", "double india", "barley wine", "wheat wine", "quadrupel", "eisbock", "doppelbock", "strong ale", "strong blonde", "strong dark"])) signature = "High-strength interpretation with concentrated malt or hop character.";
+        if (includesAny(style, ["india pale", "hoppy", "fresh hop"])) signature = "Hop-forward style distinguished by aroma, flavor, and bitterness.";
+        if (includesAny(style, ["juicy", "hazy"])) signature = "Hop-forward, intentionally hazy, with a rounder perceived mouthfeel.";
+        if (includesAny(style, ["stout", "porter", "black ale"])) signature = "Dark-malt style distinguished by roast, chocolate, or coffee-like notes.";
+        if (includesAny(style, ["lambic", "gueuze", "spontaneous"])) signature = "Spontaneously fermented Belgian tradition with acidity and mature complexity.";
+        if (includesAny(style, ["sour", "gose", "berliner-style weisse", "flanders"])) signature = "Acidity is a defining part of the finished beer's balance.";
+        if (includesAny(style, ["rauch", "smoke"])) signature = "Smoke-derived aroma and flavor distinguish the underlying beer style.";
+        if (includesAny(style, ["fruit", "pumpkin", "chocolate", "cocoa", "coffee", "chili", "herb and spice", "honey"])) signature = "The named addition must remain recognizable within the base beer.";
+        if (name.includes("rice lager")) signature = "Light-bodied lager in which rice character may remain perceptible.";
+        if (name.includes("non-alcohol")) signature = "Malt beverage with less than 0.5% alcohol by volume.";
+
+        return {
+          signature,
+          traits: [
+            {icon: "palette", label: "Color", value: color},
+            {icon: "wine", label: "Common glass", value: glass},
+            {icon: "flask-conical", label: "Fermentation", value: fermentation},
+            {icon: "wheat", label: "Defining ingredients", value: ingredients},
+            {icon: "hourglass", label: "Conditioning", value: age}
+          ]
+        };
+      };
+
+      const polar = (radius, angle) => {
+        const radians = angle * Math.PI / 180;
+        return {x: rootX + Math.cos(radians) * radius, y: rootY + Math.sin(radians) * radius};
+      };
+
+      const arcPath = (radius, startAngle, endAngle) => {
+        const start = polar(radius, startAngle);
+        const end = polar(radius, endAngle);
+        const largeArc = endAngle - startAngle > 180 ? 1 : 0;
+        return ["M", start.x, start.y, "A", radius, radius, 0, largeArc, 1, end.x, end.y].join(" ");
+      };
+
+      const addText = (x, y, value, className, anchor = "start", transform = "") => {
+        const attrs = {x, y, class: className, "text-anchor": anchor};
+        if (transform) attrs.transform = transform;
+        const textNode = svgElement("text", attrs);
+        textNode.textContent = value;
+        world.append(textNode);
+        return textNode;
+      };
+
+      const availableAngle = 360 - familyGap * families.length;
+      let angleCursor = -90 + familyGap / 2;
+      const familyLayouts = families.map((family) => {
+        const count = family.groups.reduce((sum, group) => sum + group.styles.length, 0);
+        const span = availableAngle * count / totalStyles;
+        const startAngle = angleCursor;
+        const endAngle = startAngle + span;
+        angleCursor = endAngle + familyGap;
+        const usableGroupAngle = span - groupGap * (family.groups.length - 1);
+        let groupCursor = startAngle;
+        const groups = family.groups.map((group) => {
+          const groupSpan = usableGroupAngle * group.styles.length / count;
+          const layout = {group, startAngle: groupCursor, endAngle: groupCursor + groupSpan};
+          groupCursor += groupSpan + groupGap;
+          return layout;
+        });
+        return {family, count, startAngle, endAngle, midAngle: (startAngle + endAngle) / 2, groups};
+      });
+
+      [familyRadius, groupRadius, styleRadius].forEach((radius) => {
+        world.append(svgElement("circle", {cx: rootX, cy: rootY, r: radius, class: "orbit-guide"}));
+      });
+
+      for (const layout of familyLayouts) {
+        const routeClass = layout.family.key + "-route";
+        const stationClass = layout.family.key + "-station";
+        const familyHub = polar(familyRadius, layout.midAngle);
+        const familyArcPoint = polar(groupRadius, layout.midAngle);
+
+        world.append(svgElement("path", {
+          d: ["M", rootX, rootY, "L", familyHub.x, familyHub.y, "L", familyArcPoint.x, familyArcPoint.y].join(" "),
+          class: "route trunk " + routeClass
+        }));
+        world.append(svgElement("path", {d: arcPath(groupRadius, layout.startAngle, layout.endAngle), class: "route trunk " + routeClass}));
+        world.append(svgElement("circle", {cx: familyHub.x, cy: familyHub.y, r: 38, class: "family-orbit " + stationClass}));
+
+        const familyLabelPoint = polar(familyRadius - 78, layout.midAngle);
+        addText(familyLabelPoint.x, familyLabelPoint.y - 8, layout.family.label, "family-label", "middle");
+        addText(familyLabelPoint.x, familyLabelPoint.y + 24, layout.count + " stations", "count-label", "middle");
+
+        for (const groupLayout of layout.groups) {
+          const midAngle = (groupLayout.startAngle + groupLayout.endAngle) / 2;
+          const groupHub = polar(groupRadius, midAngle);
+          const styleArcPoint = polar(styleRadius, midAngle);
+          world.append(svgElement("path", {
+            d: ["M", groupHub.x, groupHub.y, "L", styleArcPoint.x, styleArcPoint.y].join(" "),
+            class: "route branch " + routeClass
+          }));
+          world.append(svgElement("path", {
+            d: arcPath(styleRadius, groupLayout.startAngle + 0.12, groupLayout.endAngle - 0.12),
+            class: "route branch " + routeClass
+          }));
+          world.append(svgElement("circle", {cx: groupHub.x, cy: groupHub.y, r: 21, class: "group-dot " + stationClass}));
+
+          const groupLabelPoint = polar(groupRadius - 54, midAngle);
+          const leftSide = ((midAngle % 360) + 360) % 360 > 90 && ((midAngle % 360) + 360) % 360 < 270;
+          const groupRotation = leftSide ? midAngle + 180 : midAngle;
+          addText(
+            groupLabelPoint.x,
+            groupLabelPoint.y,
+            groupLayout.group.label + " · " + groupLayout.group.styles.length,
+            "group-label",
+            leftSide ? "end" : "start",
+            "rotate(" + groupRotation + " " + groupLabelPoint.x + " " + groupLabelPoint.y + ")"
+          );
+
+          const styleSpan = groupLayout.endAngle - groupLayout.startAngle;
+          groupLayout.group.styles.forEach((style, styleIndex) => {
+            const angle = groupLayout.startAngle + styleSpan * (styleIndex + 0.5) / groupLayout.group.styles.length;
+            const point = polar(styleRadius, angle);
+            const labelPoint = polar(labelRadius, angle);
+            const normalized = ((angle % 360) + 360) % 360;
+            const onLeft = normalized > 90 && normalized < 270;
+            const rotation = onLeft ? angle + 180 : angle;
+            const profile = profileFor(style, layout.family.label);
+            const station = svgElement("a", {
+              href: "#beer-taxonomy-metro",
+              class: "station",
+              "aria-label": style + ". " + profile.signature,
+              "data-family": layout.family.label,
+              "data-group": groupLayout.group.label,
+              "data-style": style
+            });
+            const title = svgElement("title");
+            title.textContent = style + " · " + profile.traits.map((trait) => trait.label + ": " + trait.value).join(" · ");
+            const halo = svgElement("circle", {cx: point.x, cy: point.y, r: 18, class: "station-halo"});
+            const dot = svgElement("circle", {cx: point.x, cy: point.y, r: 11, class: "station-dot " + stationClass});
+            const label = svgElement("text", {
+              x: labelPoint.x,
+              y: labelPoint.y + 6,
+              class: "station-label",
+              "text-anchor": onLeft ? "end" : "start",
+              transform: "rotate(" + rotation + " " + labelPoint.x + " " + labelPoint.y + ")"
+            });
+            label.textContent = style;
+            station.append(title, halo, dot, label);
+            world.append(station);
+          });
+        }
+      }
+
+      world.append(svgElement("circle", {cx: rootX, cy: rootY, r: 58, class: "root-dot"}));
+      addText(rootX, rootY - 82, "Beer", "root-label", "middle");
+      addText(rootX, rootY + 106, totalStyles + " stations", "count-label", "middle");
+
+      fallback.textContent = families.map((family) =>
+        family.label + ": " + family.groups.map((group) =>
+          group.label + ": " + group.styles.join(", ")
+        ).join(". ")
+      ).join(". ");
+
+      const renderDetail = (station) => {
+        const profile = profileFor(station.dataset.style, station.dataset.family);
+        detailName.textContent = station.dataset.style;
+        detailRoute.textContent = station.dataset.family + " › " + station.dataset.group;
+        detailSignature.textContent = profile.signature;
+        traits.replaceChildren(...profile.traits.map((trait) => {
+          const item = document.createElement("span");
+          item.className = "viz-badge";
+          item.dataset.tooltip = trait.label === "Common glass"
+            ? "Common service convention, not a formal style requirement"
+            : trait.label + " characteristic";
+          item.setAttribute("aria-label", trait.label + ": " + trait.value);
+          const icon = document.createElement("i");
+          icon.dataset.lucide = trait.icon;
+          icon.setAttribute("aria-hidden", "true");
+          const textNode = document.createElement("span");
+          textNode.textContent = trait.value;
+          item.append(icon, textNode);
+          return item;
+        }));
+        if (typeof lucide !== "undefined") lucide.createIcons({attrs: {width: 16, height: 16}});
+      };
+
+      const camera = {x: 0, y: 0, scale: 1};
+      let fitScale = 1;
+      const pointers = new Map();
+      let dragOrigin = null;
+      let pinchOrigin = null;
+      let selectedStation = null;
+
+      const applyCamera = () => {
+        world.setAttribute("transform", "translate(" + camera.x + " " + camera.y + ") scale(" + camera.scale + ")");
+        zoomReadout.textContent = Math.round(camera.scale / fitScale * 100) + "%";
+      };
+
+      const fit = () => {
+        const bounds = stage.getBoundingClientRect();
+        const padding = 28;
+        fitScale = Math.min(
+          (bounds.width - padding * 2) / worldWidth,
+          (bounds.height - padding * 2) / worldHeight
+        );
+        camera.scale = fitScale;
+        camera.x = (bounds.width - worldWidth * fitScale) / 2;
+        camera.y = (bounds.height - worldHeight * fitScale) / 2;
+        applyCamera();
+      };
+
+      const zoomAt = (factor, clientX, clientY) => {
+        const bounds = stage.getBoundingClientRect();
+        const px = clientX - bounds.left;
+        const py = clientY - bounds.top;
+        const worldX = (px - camera.x) / camera.scale;
+        const worldY = (py - camera.y) / camera.scale;
+        const nextScale = Math.max(fitScale * 0.75, Math.min(2.5, camera.scale * factor));
+        camera.x = px - worldX * nextScale;
+        camera.y = py - worldY * nextScale;
+        camera.scale = nextScale;
+        applyCamera();
+      };
+
+      const centerZoom = (factor) => {
+        const bounds = stage.getBoundingClientRect();
+        zoomAt(factor, bounds.left + bounds.width / 2, bounds.top + bounds.height / 2);
+      };
+
+      root.querySelector("[data-fit]").addEventListener("click", fit);
+      root.querySelector("[data-zoom-in]").addEventListener("click", () => centerZoom(1.35));
+      root.querySelector("[data-zoom-out]").addEventListener("click", () => centerZoom(1 / 1.35));
+
+      stage.addEventListener("wheel", (event) => {
+        event.preventDefault();
+        zoomAt(Math.exp(-event.deltaY * 0.0012), event.clientX, event.clientY);
+      }, {passive: false});
+
+      stage.addEventListener("pointerdown", (event) => {
+        pointers.set(event.pointerId, {x: event.clientX, y: event.clientY});
+        stage.setPointerCapture(event.pointerId);
+        stage.classList.add("is-dragging");
+        if (pointers.size === 1) {
+          dragOrigin = {x: event.clientX, y: event.clientY, cameraX: camera.x, cameraY: camera.y};
+        } else if (pointers.size === 2) {
+          const points = [...pointers.values()];
+          pinchOrigin = {
+            distance: Math.hypot(points[1].x - points[0].x, points[1].y - points[0].y),
+            scale: camera.scale,
+            centerX: (points[0].x + points[1].x) / 2,
+            centerY: (points[0].y + points[1].y) / 2
+          };
+        }
+      });
+
+      stage.addEventListener("pointermove", (event) => {
+        if (!pointers.has(event.pointerId)) return;
+        pointers.set(event.pointerId, {x: event.clientX, y: event.clientY});
+        if (pointers.size === 1 && dragOrigin) {
+          camera.x = dragOrigin.cameraX + event.clientX - dragOrigin.x;
+          camera.y = dragOrigin.cameraY + event.clientY - dragOrigin.y;
+          applyCamera();
+        } else if (pointers.size === 2 && pinchOrigin) {
+          const points = [...pointers.values()];
+          const distance = Math.hypot(points[1].x - points[0].x, points[1].y - points[0].y);
+          const factor = distance / Math.max(1, pinchOrigin.distance);
+          const bounds = stage.getBoundingClientRect();
+          const centerX = pinchOrigin.centerX - bounds.left;
+          const centerY = pinchOrigin.centerY - bounds.top;
+          const worldX = (centerX - camera.x) / camera.scale;
+          const worldY = (centerY - camera.y) / camera.scale;
+          camera.scale = Math.max(fitScale * 0.75, Math.min(2.5, pinchOrigin.scale * factor));
+          camera.x = centerX - worldX * camera.scale;
+          camera.y = centerY - worldY * camera.scale;
+          applyCamera();
+        }
+      });
+
+      const endPointer = (event) => {
+        pointers.delete(event.pointerId);
+        if (pointers.size === 0) {
+          stage.classList.remove("is-dragging");
+          dragOrigin = null;
+          pinchOrigin = null;
+        } else if (pointers.size === 1) {
+          const point = [...pointers.values()][0];
+          dragOrigin = {x: point.x, y: point.y, cameraX: camera.x, cameraY: camera.y};
+          pinchOrigin = null;
+        }
+      };
+
+      stage.addEventListener("pointerup", endPointer);
+      stage.addEventListener("pointercancel", endPointer);
+
+      svg.addEventListener("click", (event) => {
+        const station = event.target.closest(".station");
+        if (!station) return;
+        event.preventDefault();
+        if (selectedStation) selectedStation.classList.remove("is-selected");
+        selectedStation = station;
+        selectedStation.classList.add("is-selected");
+        status.textContent = station.dataset.family + " › " + station.dataset.group + " › " + station.dataset.style;
+        renderDetail(station);
+      });
+
+      const resizeObserver = new ResizeObserver(() => fit());
+      resizeObserver.observe(stage);
+      selectedStation = [...world.querySelectorAll(".station")].find(
+        (station) => station.dataset.style === "American-Style India Pale Ale"
+      ) || world.querySelector(".station");
+      if (selectedStation) {
+        selectedStation.classList.add("is-selected");
+        renderDetail(selectedStation);
+      }
+      fit();
+    })();
+  </script>
+</div>
+
+<script id="codex-visualization-floating-ui-core" src="https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js"></script>
+<script id="codex-visualization-floating-ui-dom" src="https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js"></script>
+<script id="codex-visualization-lucide" async src="https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js"></script>
+<script id="codex-visualization-tooltip">/* oxlint-disable typescript/no-unsafe-argument, typescript/no-unsafe-call, typescript/no-unsafe-return */
+// Runs inside the visualization sandbox, not the host webview.
+(() => {
+  if (window.FloatingUIDOM == null) {
+    return;
+  }
+  const { autoUpdate, computePosition, flip, offset, shift, size } =
+    window.FloatingUIDOM;
+  const tooltipPlacements = new Set(["top", "right", "bottom", "left"]);
+  const tooltipId = `codex-visualization-tooltip-${
+    window.crypto?.randomUUID?.() ?? Date.now().toString(36)
+  }`;
+  const tooltipGap = 5;
+  const hoverDelay = 700;
+  const skipDelay = 300;
+  let activeTrigger = null;
+  let pendingTrigger = null;
+  let tooltip = null;
+  let openTimeout = null;
+  let autoUpdateCleanup = null;
+  let positionRequest = 0;
+  let skipDelayUntil = 0;
+
+  const getTrigger = (target) =>
+    target?.nodeType === Node.ELEMENT_NODE
+      ? target.closest("[data-tooltip]")
+      : null;
+  const containsTarget = (trigger, target) =>
+    target?.nodeType != null && trigger.contains(target);
+  const getContent = (trigger) =>
+    trigger.getAttribute("data-tooltip")?.trim() ?? "";
+  const getPlacement = (trigger) => {
+    const placement = trigger.getAttribute("data-tooltip-placement");
+    return tooltipPlacements.has(placement) ? placement : "top";
+  };
+  const getTooltip = () => {
+    if (tooltip == null) {
+      tooltip = document.createElement("div");
+      tooltip.id = tooltipId;
+      tooltip.className = "tooltip";
+      tooltip.setAttribute("role", "tooltip");
+    }
+    return tooltip;
+  };
+  const setDescribedBy = (trigger, described) => {
+    const ids = new Set(
+      (trigger.getAttribute("aria-describedby") ?? "")
+        .split(/\s+/)
+        .filter(Boolean),
+    );
+    if (described) {
+      ids.add(tooltipId);
+    } else {
+      ids.delete(tooltipId);
+    }
+    if (ids.size === 0) {
+      trigger.removeAttribute("aria-describedby");
+    } else {
+      trigger.setAttribute("aria-describedby", [...ids].join(" "));
+    }
+  };
+  const clearOpenTimeout = () => {
+    if (openTimeout != null) {
+      window.clearTimeout(openTimeout);
+      openTimeout = null;
+    }
+    pendingTrigger = null;
+  };
+  const closeTooltip = (activateSkipDelay = true) => {
+    clearOpenTimeout();
+    positionRequest += 1;
+    autoUpdateCleanup?.();
+    autoUpdateCleanup = null;
+    if (activeTrigger == null) {
+      return;
+    }
+    setDescribedBy(activeTrigger, false);
+    activeTrigger = null;
+    tooltip?.remove();
+    if (activateSkipDelay) {
+      skipDelayUntil = Date.now() + skipDelay;
+    }
+  };
+  const updatePosition = (trigger, floating) => {
+    const request = ++positionRequest;
+    void computePosition(trigger, floating, {
+      middleware: [
+        offset(tooltipGap),
+        flip({ padding: tooltipGap }),
+        shift({ padding: tooltipGap }),
+        size({
+          padding: tooltipGap,
+          apply({ availableHeight, availableWidth, elements }) {
+            elements.floating.style.setProperty(
+              "--tooltip-available-width",
+              `${Math.max(0, availableWidth)}px`,
+            );
+            elements.floating.style.setProperty(
+              "--tooltip-available-height",
+              `${Math.max(0, availableHeight)}px`,
+            );
+          },
+        }),
+      ],
+      placement: getPlacement(trigger),
+      strategy: "fixed",
+    })
+      .then(({ x, y }) => {
+        if (activeTrigger !== trigger || request !== positionRequest) {
+          return;
+        }
+        const scale = window.devicePixelRatio || 1;
+        floating.style.transform = `translate(${Math.round(x * scale) / scale}px, ${Math.round(y * scale) / scale}px)`;
+        floating.style.visibility = "visible";
+      })
+      .catch(() => {
+        if (activeTrigger === trigger && request === positionRequest) {
+          closeTooltip(false);
+        }
+      });
+  };
+  const openTooltip = (trigger) => {
+    const content = getContent(trigger);
+    if (!trigger.isConnected || content.length === 0) {
+      return;
+    }
+    clearOpenTimeout();
+    if (activeTrigger === trigger) {
+      return;
+    }
+    closeTooltip();
+    const floating = getTooltip();
+    floating.textContent = content;
+    floating.style.visibility = "hidden";
+    floating.style.transform = "translate(0, 0)";
+    document.body.appendChild(floating);
+    activeTrigger = trigger;
+    setDescribedBy(trigger, true);
+    autoUpdateCleanup = autoUpdate(trigger, floating, () => {
+      updatePosition(trigger, floating);
+    });
+  };
+  const requestOpen = (trigger, immediate = false) => {
+    if (
+      getContent(trigger).length === 0 ||
+      activeTrigger === trigger ||
+      pendingTrigger === trigger
+    ) {
+      return;
+    }
+    clearOpenTimeout();
+    pendingTrigger = trigger;
+    const delay =
+      immediate || activeTrigger != null || Date.now() < skipDelayUntil
+        ? 0
+        : hoverDelay;
+    if (delay === 0) {
+      openTooltip(trigger);
+      return;
+    }
+    openTimeout = window.setTimeout(() => {
+      openTimeout = null;
+      pendingTrigger = null;
+      openTooltip(trigger);
+    }, delay);
+  };
+  const handlePointerOpen = (event) => {
+    if (event.pointerType === "touch") {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    requestOpen(trigger);
+  };
+  const handleLeave = (event) => {
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const handleFocusIn = (event) => {
+    const trigger = getTrigger(event.target);
+    if (trigger?.matches(":focus-visible")) {
+      requestOpen(trigger, true);
+    }
+  };
+  const handleKeyDown = (event) => {
+    if (event.key === "Escape") {
+      closeTooltip();
+    }
+  };
+  const handleContextMenu = (event) => {
+    const trigger = getTrigger(event.target);
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const destroy = () => {
+    closeTooltip(false);
+    document.removeEventListener("pointerover", handlePointerOpen);
+    document.removeEventListener("pointerout", handleLeave);
+    document.removeEventListener("focusin", handleFocusIn);
+    document.removeEventListener("focusout", handleLeave);
+    document.removeEventListener("keydown", handleKeyDown);
+    document.removeEventListener("contextmenu", handleContextMenu);
+    tooltip = null;
+  };
+
+  document.addEventListener("pointerover", handlePointerOpen);
+  document.addEventListener("pointerout", handleLeave);
+  document.addEventListener("focusin", handleFocusIn);
+  document.addEventListener("focusout", handleLeave);
+  document.addEventListener("keydown", handleKeyDown);
+  document.addEventListener("contextmenu", handleContextMenu);
+  window.addEventListener("pagehide", destroy, { once: true });
+})();
+</script>
+<script id="codex-visualization-lucide-initialization">(() => {
+  const initialize = () => {
+    globalThis.lucide?.createIcons({ attrs: { width: 16, height: 16 } });
+  };
+  if (globalThis.lucide != null) {
+    initialize();
+    return;
+  }
+  document
+    .getElementById("codex-visualization-lucide")
+    ?.addEventListener("load", initialize, { once: true });
+})();
+</script>
+</body>
+</html>

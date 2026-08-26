@@ -1,0 +1,75 @@
+{
+  "occurrences": 2626,
+  "uniqueBrands": 2284,
+  "mappedLinks": 105,
+  "unmatchedAliases": [
+    {
+      "alias": "cider",
+      "count": 11
+    },
+    {
+      "alias": "happoshu",
+      "count": 4
+    },
+    {
+      "alias": "australian-sparkling-ale",
+      "count": 2
+    },
+    {
+      "alias": "bourbon-barrel-aged-stout",
+      "count": 2
+    },
+    {
+      "alias": "flavored-malt-beverage",
+      "count": 2
+    },
+    {
+      "alias": "export",
+      "count": 2
+    },
+    {
+      "alias": "belgian-enkel",
+      "count": 2
+    },
+    {
+      "alias": "catharina-sour",
+      "count": 1
+    },
+    {
+      "alias": "belgian-single",
+      "count": 1
+    },
+    {
+      "alias": "belgian-strong-amber-ale",
+      "count": 1
+    },
+    {
+      "alias": "belgian-strong-pale-ale",
+      "count": 1
+    },
+    {
+      "alias": "hopfenweisse",
+      "count": 1
+    },
+    {
+      "alias": "irish-extra-stout",
+      "count": 1
+    },
+    {
+      "alias": "biere-de-champagne",
+      "count": 1
+    },
+    {
+      "alias": "faro",
+      "count": 1
+    },
+    {
+      "alias": "light-lager",
+      "count": 1
+    },
+    {
+      "alias": "duppel-or-strong-ale",
+      "count": 1
+    }
+  ]
+}

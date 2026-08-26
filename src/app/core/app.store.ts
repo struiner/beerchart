@@ -2,18 +2,20 @@ import { Injectable, computed, signal } from '@angular/core';
 import { layoutTaxonomy } from './layout';
 import { beerTaxonomyEntries } from './data/beer-taxonomy-entries';
 import { BeerTaxonomyEntry, RingSeparation } from './data/beer-taxonomy-entry';
-import { createFilterOptions, createTaxonomyDocument, DEFAULT_RINGS, FILTER_TAG_OPTIONS, RING_OPTIONS, stringifyEntry } from './data/taxonomy-data';
+import {
+  createFilterOptions,
+  createTaxonomyDocument,
+  DEFAULT_RINGS,
+  entryFilterIds,
+  RING_OPTIONS,
+} from './data/taxonomy-data';
 export interface ViewportSettings {
-  minimap: boolean;
-  metadata: boolean;
   labels: boolean;
   connectors: boolean;
   animations: boolean;
   wheelMode: 'pan' | 'zoom';
 }
 const defaults: ViewportSettings = {
-  minimap: true,
-  metadata: true,
   labels: true,
   connectors: true,
   animations: true,
@@ -22,15 +24,18 @@ const defaults: ViewportSettings = {
 @Injectable({ providedIn: 'root' })
 export class AppStore {
   readonly entries = beerTaxonomyEntries as readonly BeerTaxonomyEntry[];
+  readonly entriesById = new Map(this.entries.map((entry) => [entry.id, entry]));
   readonly ringOptions = RING_OPTIONS;
   readonly rings = signal<RingSeparation>(this.readRings());
   readonly filterOptions = createFilterOptions(this.entries);
-  readonly filterTagOptions = FILTER_TAG_OPTIONS;
   readonly selectedFilters = signal<readonly string[]>([]);
   readonly filteredEntries = computed(() => {
     const selected = this.selectedFilters();
     if (!selected.length) return this.entries;
-    return this.entries.filter((entry) => { const serialized = stringifyEntry(entry); return selected.every((tag) => serialized.includes(JSON.stringify(tag).toLowerCase())); });
+    return this.entries.filter((entry) => {
+      const values = entryFilterIds(entry);
+      return selected.every((id) => values.has(id));
+    });
   });
   readonly document = computed(() => createTaxonomyDocument(this.filteredEntries(), this.rings()));
   readonly scene = computed(() => layoutTaxonomy(this.document().nodes));
@@ -40,7 +45,7 @@ export class AppStore {
   readonly selected = computed(
     () => this.scene().nodes.find((n) => n.id === this.selectedId()) ?? null,
   );
-  readonly selectedEntry = computed(() => this.entries.find((entry) => entry.id === this.selectedId()) ?? null);
+  readonly selectedEntry = computed(() => this.entriesById.get(this.selectedId() ?? '') ?? null);
   readonly selectedPath = computed(() => {
     const result = new Set<string>();
     let node = this.selected();
@@ -81,10 +86,14 @@ export class AppStore {
     this.selectedId.set(null);
   }
   toggleFilter(id: string) {
-    this.selectedFilters.update((selected) => selected.includes(id) ? selected.filter((value) => value !== id) : [...selected, id]);
+    this.selectedFilters.update((selected) =>
+      selected.includes(id) ? selected.filter((value) => value !== id) : [...selected, id],
+    );
     this.selectedId.set(null);
   }
-  clearFilters() { this.selectedFilters.set([]); }
+  clearFilters() {
+    this.selectedFilters.set([]);
+  }
   private readSettings(): ViewportSettings {
     try {
       return {
@@ -96,7 +105,18 @@ export class AppStore {
     }
   }
   private readRings(): RingSeparation {
-    try { return { ...DEFAULT_RINGS, ...JSON.parse(localStorage.getItem('beer-taxonomy.rings.v1') ?? '{}') }; }
-    catch { return DEFAULT_RINGS; }
+    try {
+      const value = {
+        ...DEFAULT_RINGS,
+        ...JSON.parse(localStorage.getItem('beer-taxonomy.rings.v1') ?? '{}'),
+      } as RingSeparation;
+      const allowed = new Set(this.ringOptions.map((option) => option.value));
+      const axes = [value.first, value.second, value.third];
+      return axes.every((axis) => allowed.has(axis)) && new Set(axes).size === 3
+        ? value
+        : DEFAULT_RINGS;
+    } catch {
+      return DEFAULT_RINGS;
+    }
   }
 }

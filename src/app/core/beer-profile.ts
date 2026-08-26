@@ -1,4 +1,5 @@
 import { TaxonomyNode } from './taxonomy.model';
+import { BeerTaxonomyEntry, DurationRange, NumericRange } from './data/beer-taxonomy-entry';
 export type FactIcon =
   'color' | 'glass' | 'fermentation' | 'ingredients' | 'conditioning' | 'description';
 export interface BeerFact {
@@ -9,6 +10,49 @@ export interface BeerFact {
 export interface BeerProfile {
   description: string;
   facts: BeerFact[];
+}
+const numericRange = (value: NumericRange | DurationRange | undefined) =>
+  value
+    ? `${[value.min, value.max].filter((item) => item !== undefined).join(value.min !== undefined && value.max !== undefined ? '–' : '')} ${value.unit}`
+    : 'range not specified';
+const words = (values: readonly string[]) =>
+  values.map((value) => value.replaceAll('-', ' ')).join(', ') || 'unknown';
+export function profileFromEntry(entry: BeerTaxonomyEntry): BeerProfile {
+  const color = entry.core.color.value;
+  const description = entry.description || 'No concise distinguishing description is available.';
+  return {
+    description,
+    facts: [
+      {
+        icon: 'color',
+        label: `Beer color · ${entry.core.color.status}`,
+        value: `${words(color.descriptors)}${color.srm ? ` · ${numericRange(color.srm)}` : ''}${color.ebc ? ` · ${numericRange(color.ebc)}` : ''}`,
+      },
+      {
+        icon: 'glass',
+        label: `Common glassware · ${entry.preferredGlassware.status}`,
+        value: words(entry.preferredGlassware.value),
+      },
+      {
+        icon: 'fermentation',
+        label: `Fermentation method · ${entry.fermentationMethod.status}`,
+        value: words(entry.fermentationMethod.value),
+      },
+      {
+        icon: 'ingredients',
+        label: `Defining ingredients · ${entry.ingredients.status}`,
+        value: entry.ingredients.value.map((item) => item.name).join(', ') || 'unknown',
+      },
+      {
+        icon: 'conditioning',
+        label: `Conditioning or maturation · ${entry.age.status}`,
+        value: entry.age.value.typicalDuration
+          ? `${entry.age.value.band} · ${numericRange(entry.age.value.typicalDuration)}`
+          : entry.age.value.band,
+      },
+      { icon: 'description', label: 'Distinguishing character', value: description },
+    ],
+  };
 }
 const has = (name: string, terms: string[]) => terms.some((term) => name.includes(term));
 export function profileFor(node: TaxonomyNode): BeerProfile {

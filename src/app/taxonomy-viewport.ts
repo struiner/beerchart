@@ -2,6 +2,7 @@ import {
   afterNextRender,
   ChangeDetectionStrategy,
   Component,
+  computed,
   ElementRef,
   HostListener,
   inject,
@@ -9,9 +10,10 @@ import {
   viewChild,
 } from '@angular/core';
 import { AppStore } from './core/app.store';
-import { profileFor } from './core/beer-profile';
+import { profileFor, profileFromEntry } from './core/beer-profile';
 import { SceneNode } from './core/layout';
 import { MetadataIcon } from './metadata-icon';
+import { BeerBrand, brandsForEntry } from './core/data/brand-data';
 @Component({
   selector: 'app-taxonomy-viewport',
   imports: [MetadataIcon],
@@ -24,6 +26,15 @@ export class TaxonomyViewport {
   readonly host = viewChild.required<ElementRef<HTMLElement>>('viewport');
   readonly focusMode = signal(false);
   readonly focusRotation = signal(0);
+  readonly selectedRoute = computed(() => {
+    const route: SceneNode[] = [];
+    let node = this.store.selected();
+    while (node) {
+      route.unshift(node);
+      node = this.store.scene().nodes.find((candidate) => candidate.id === node?.parentId) ?? null;
+    }
+    return route.filter((routeNode) => routeNode.depth !== 0);
+  });
   private drag?: { x: number; y: number; cx: number; cy: number };
   private focusAnimation?: number;
 
@@ -54,7 +65,26 @@ export class TaxonomyViewport {
       .join(' · ');
   }
   profile(n: SceneNode) {
-    return profileFor(n);
+    const entry = this.store.entriesById.get(n.id);
+    if (!entry) return profileFor(n);
+    const sourced = profileFromEntry(entry);
+    if (sourced.description.startsWith('A published beer-style entry')) {
+      const distinguishing = profileFor(n).description;
+      sourced.description = distinguishing;
+      sourced.facts = sourced.facts.map((fact) =>
+        fact.icon === 'description' ? { ...fact, value: distinguishing } : fact,
+      );
+    }
+    return sourced;
+  }
+  brands(n: SceneNode) {
+    return brandsForEntry(n.id);
+  }
+  visibleBrands(n: SceneNode) {
+    return this.brands(n).slice(0, 30);
+  }
+  brandUrl(brand: BeerBrand) {
+    return brand.websiteUrl ?? `https://www.google.com/search?q=${encodeURIComponent(brand.name)}`;
   }
   pointerDown(e: PointerEvent) {
     if (this.focusMode()) return;
@@ -117,13 +147,20 @@ export class TaxonomyViewport {
     const rotation = ((270 - n.angle + 540) % 360) - 180;
     const radians = (rotation * Math.PI) / 180;
     const center = this.store.scene();
-    const rotatedX = center.centerX + (n.centerX - center.centerX) * Math.cos(radians) - (n.centerY - center.centerY) * Math.sin(radians);
-    const rotatedY = center.centerY + (n.centerX - center.centerX) * Math.sin(radians) + (n.centerY - center.centerY) * Math.cos(radians);
+    const rotatedX =
+      center.centerX +
+      (n.centerX - center.centerX) * Math.cos(radians) -
+      (n.centerY - center.centerY) * Math.sin(radians);
+    const rotatedY =
+      center.centerY +
+      (n.centerX - center.centerX) * Math.sin(radians) +
+      (n.centerY - center.centerY) * Math.cos(radians);
     const target = {
       x: Math.max(0, rect.width * 0.28) - rotatedX * scale,
       y: 76 - rotatedY * scale,
     };
-    const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches || !this.store.settings().animations;
+    const reduced =
+      matchMedia('(prefers-reduced-motion: reduce)').matches || !this.store.settings().animations;
     if (reduced) {
       this.focusRotation.set(rotation);
       this.store.setCamera({ ...target, scale });

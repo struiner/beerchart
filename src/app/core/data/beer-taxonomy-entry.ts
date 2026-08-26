@@ -18,15 +18,10 @@ export interface NumericRange<Unit extends string = string> {
 export interface DurationRange {
   min?: number;
   max?: number;
-  unit: "hours" | "days" | "weeks" | "months" | "years";
+  unit: 'hours' | 'days' | 'weeks' | 'months' | 'years';
 }
 
-export type FactStatus =
-  | "documented"
-  | "derived"
-  | "variable"
-  | "disputed"
-  | "unknown";
+export type FactStatus = 'documented' | 'derived' | 'variable' | 'disputed' | 'unknown';
 
 /** A value plus its evidential state. Unknown values remain explicit. */
 export interface BeerFact<T> {
@@ -46,15 +41,10 @@ export interface SourceReference {
 }
 
 export type BeerEntryType = OpenString<
-  | "beer"
-  | "ale"
-  | "lager"
-  | "category"
-  | "style"
-  | "fermentation-method"
+  'beer' | 'ale' | 'lager' | 'category' | 'style' | 'fermentation-method'
 >;
 
-export type FermentationFamily = "ale" | "lager" | "mixed";
+export type FermentationFamily = 'ale' | 'lager' | 'mixed';
 
 export interface TaxonomyPlacement {
   /** Immediate parent, or null for the root Beer node. */
@@ -67,7 +57,7 @@ export interface TaxonomyPlacement {
 
 export interface OriginLocation {
   name: string;
-  kind?: "city" | "region" | "country" | "cultural-area" | "multiple";
+  kind?: 'city' | 'region' | 'country' | 'cultural-area' | 'multiple';
   countryCode?: string;
   latitude?: number;
   longitude?: number;
@@ -77,114 +67,116 @@ export interface EraOfOrigin {
   fromYear?: number;
   toYear?: number;
   label?: string;
-  precision?: "exact" | "approximate" | "century" | "traditional" | "unknown";
+  precision?: 'exact' | 'approximate' | 'century' | 'traditional' | 'unknown';
 }
 
 export type Intensity =
-  | "none"
-  | "very-low"
-  | "low"
-  | "medium-low"
-  | "medium"
-  | "medium-high"
-  | "high"
-  | "very-high"
-  | "intense"
-  | "variable";
+  | 'none'
+  | 'very-low'
+  | 'low'
+  | 'medium-low'
+  | 'medium'
+  | 'medium-high'
+  | 'high'
+  | 'very-high'
+  | 'intense'
+  | 'variable';
 
 export interface Ingredient {
   name: string;
   category:
-    | "grain"
-    | "malt"
-    | "hop"
-    | "yeast"
-    | "bacteria"
-    | "fruit"
-    | "herb"
-    | "spice"
-    | "sugar"
-    | "water"
-    | "other";
+    | 'grain'
+    | 'malt'
+    | 'hop'
+    | 'yeast'
+    | 'bacteria'
+    | 'fruit'
+    | 'herb'
+    | 'spice'
+    | 'sugar'
+    | 'water'
+    | 'other';
   defining?: boolean;
-  proportionPercent?: NumericRange<"%">;
+  proportionPercent?: NumericRange<'%'>;
 }
 
 export interface GrainComponent {
-  grain: OpenString<"barley" | "wheat" | "rye" | "oats" | "rice" | "maize" | "sorghum">;
-  form?: OpenString<"malted" | "unmalted" | "flaked" | "roasted" | "smoked">;
-  proportionPercent?: NumericRange<"%">;
+  grain: OpenString<'barley' | 'wheat' | 'rye' | 'oats' | 'rice' | 'maize' | 'sorghum'>;
+  form?: OpenString<'malted' | 'unmalted' | 'flaked' | 'roasted' | 'smoked'>;
+  proportionPercent?: NumericRange<'%'>;
   primary?: boolean;
 }
 
 export interface ColorProfile {
   descriptors: OpenString<
-    | "very-light"
-    | "straw"
-    | "pale"
-    | "gold"
-    | "amber"
-    | "copper"
-    | "brown"
-    | "very-dark"
-    | "black"
-    | "variable"
+    | 'very-light'
+    | 'straw'
+    | 'pale'
+    | 'gold'
+    | 'amber'
+    | 'copper'
+    | 'brown'
+    | 'very-dark'
+    | 'black'
+    | 'variable'
   >[];
-  srm?: NumericRange<"SRM">;
-  ebc?: NumericRange<"EBC">;
+  srm?: NumericRange<'SRM'>;
+  ebc?: NumericRange<'EBC'>;
 }
 
 export interface StrengthProfile {
-  band: OpenString<"non-alcoholic" | "low" | "session" | "standard" | "strong" | "very-strong" | "variable">;
-  abv?: NumericRange<"% ABV">;
+  band: OpenString<
+    'non-alcoholic' | 'low' | 'session' | 'standard' | 'strong' | 'very-strong' | 'variable'
+  >;
+  abv?: NumericRange<'% ABV'>;
 }
 
 export interface BitternessProfile {
   perceived?: Intensity;
-  ibu?: NumericRange<"IBU">;
+  ibu?: NumericRange<'IBU'>;
 }
 
 export type FermentationCulture = OpenString<
-  | "saccharomyces-ale"
-  | "saccharomyces-lager"
-  | "brettanomyces"
-  | "lactic-bacteria"
-  | "mixed-culture"
-  | "spontaneous-culture"
-  | "variable"
+  | 'saccharomyces-ale'
+  | 'saccharomyces-lager'
+  | 'brettanomyces'
+  | 'lactic-bacteria'
+  | 'mixed-culture'
+  | 'spontaneous-culture'
+  | 'variable'
 >;
 
 export interface AcidityProfile {
   perceived: Intensity;
-  ph?: NumericRange<"pH">;
-  titratableAcidity?: NumericRange<"g/L">;
+  ph?: NumericRange<'pH'>;
+  titratableAcidity?: NumericRange<'g/L'>;
 }
 
 export type DominantCharacter = OpenString<
-  | "balanced"
-  | "malt-led"
-  | "hop-led"
-  | "yeast-led"
-  | "acidity-led"
-  | "roast-led"
-  | "smoke-led"
-  | "fruit-led"
-  | "spice-led"
-  | "wood-led"
-  | "addition-led"
+  | 'balanced'
+  | 'malt-led'
+  | 'hop-led'
+  | 'yeast-led'
+  | 'acidity-led'
+  | 'roast-led'
+  | 'smoke-led'
+  | 'fruit-led'
+  | 'spice-led'
+  | 'wood-led'
+  | 'addition-led'
 >;
 
 export type MaturationMethod = OpenString<
-  | "fresh"
-  | "warm-conditioned"
-  | "cold-conditioned"
-  | "bottle-conditioned"
-  | "cask-conditioned"
-  | "tank-conditioned"
-  | "wood-matured"
-  | "barrel-aged"
-  | "blended-age"
-  | "variable"
+  | 'fresh'
+  | 'warm-conditioned'
+  | 'cold-conditioned'
+  | 'bottle-conditioned'
+  | 'cask-conditioned'
+  | 'tank-conditioned'
+  | 'wood-matured'
+  | 'barrel-aged'
+  | 'blended-age'
+  | 'variable'
 >;
 
 /** The eight required axes used as the principal map filters and interchange lines. */
@@ -200,56 +192,51 @@ export interface CoreBeerAxes {
 }
 
 export type Glassware = OpenString<
-  | "nonic-pint"
-  | "shaker-pint"
-  | "tulip"
-  | "snifter"
-  | "goblet"
-  | "pilsner-glass"
-  | "mug"
-  | "stange"
-  | "weizen-glass"
-  | "flute"
-  | "tasting-glass"
+  | 'nonic-pint'
+  | 'shaker-pint'
+  | 'tulip'
+  | 'snifter'
+  | 'goblet'
+  | 'pilsner-glass'
+  | 'mug'
+  | 'stange'
+  | 'weizen-glass'
+  | 'flute'
+  | 'tasting-glass'
 >;
 
 export type FermentationMethod = OpenString<
-  | "top-fermented"
-  | "bottom-fermented"
-  | "warm-fermented-lager-yeast"
-  | "mixed-fermentation"
-  | "spontaneous-fermentation"
-  | "sequential-fermentation"
-  | "refermented"
-  | "variable"
+  | 'top-fermented'
+  | 'bottom-fermented'
+  | 'warm-fermented-lager-yeast'
+  | 'mixed-fermentation'
+  | 'spontaneous-fermentation'
+  | 'sequential-fermentation'
+  | 'refermented'
+  | 'variable'
 >;
 
 export interface AgeProfile {
-  band: "fresh" | "brief" | "standard" | "extended" | "vintage" | "variable";
+  band: 'fresh' | 'brief' | 'standard' | 'extended' | 'vintage' | 'variable';
   typicalDuration?: DurationRange;
 }
 
 export interface IconReference {
-  kind: "lucide" | "asset" | "text";
+  kind: 'lucide' | 'asset' | 'text';
   value: string;
   alt: string;
 }
 
-export type BeerIconCategory =
-  | "color"
-  | "glassware"
-  | "fermentation"
-  | "ingredients"
-  | "age";
+export type BeerIconCategory = 'color' | 'glassware' | 'fermentation' | 'ingredients' | 'age';
 
 export interface GravityProfile {
-  specificGravity?: NumericRange<"SG">;
-  plato?: NumericRange<"°P">;
+  specificGravity?: NumericRange<'SG'>;
+  plato?: NumericRange<'°P'>;
 }
 
 export interface CarbonationProfile {
-  perceived?: OpenString<"still" | "low" | "moderate" | "high" | "effervescent" | "variable">;
-  volumesCo2?: NumericRange<"vol CO₂">;
+  perceived?: OpenString<'still' | 'low' | 'moderate' | 'high' | 'effervescent' | 'variable'>;
+  volumesCo2?: NumericRange<'vol CO₂'>;
 }
 
 export interface BarrelHistory {
@@ -260,7 +247,7 @@ export interface BarrelHistory {
 }
 
 export interface BaseStyleRelationship {
-  kind: "self-contained" | "variation" | "open-speciality" | "blend" | "variable";
+  kind: 'self-contained' | 'variation' | 'open-speciality' | 'blend' | 'variable';
   baseStyleIds?: EntryId[];
 }
 
@@ -271,7 +258,7 @@ export interface BaseStyleRelationship {
  */
 export interface OptionalBeerMetrics {
   /** 01 */ yeastFamily?: BeerFact<string[]>;
-  /** 02 */ fermentationTemperature?: BeerFact<NumericRange<"°C">>;
+  /** 02 */ fermentationTemperature?: BeerFact<NumericRange<'°C'>>;
   /** 03 */ fermentationProgram?: BeerFact<string[]>;
   /** 04 */ acidificationMethod?: BeerFact<string[]>;
 
@@ -284,21 +271,25 @@ export interface OptionalBeerMetrics {
 
   /** 11 */ originalGravity?: BeerFact<GravityProfile>;
   /** 12 */ finalSweetness?: BeerFact<Intensity>;
-  /** 13 */ attenuation?: BeerFact<NumericRange<"%">>;
+  /** 13 */ attenuation?: BeerFact<NumericRange<'%'>>;
   /** 14 */ body?: BeerFact<Intensity>;
   /** 15 */ carbonation?: BeerFact<CarbonationProfile>;
-  /** 16 */ clarity?: BeerFact<OpenString<"brilliant" | "clear" | "hazy" | "cloudy" | "opaque" | "variable">[]>;
+  /** 16 */ clarity?: BeerFact<
+    OpenString<'brilliant' | 'clear' | 'hazy' | 'cloudy' | 'opaque' | 'variable'>[]
+  >;
 
   /** 17 */ maltExpression?: BeerFact<string[]>;
   /** 18 */ hopExpression?: BeerFact<string[]>;
   /** 19 */ yeastExpression?: BeerFact<string[]>;
   /** 20 */ roastIntensity?: BeerFact<Intensity>;
   /** 21 */ smokeCharacter?: BeerFact<Intensity>;
-  /** 22 */ flavorComplexity?: BeerFact<OpenString<"focused" | "layered" | "fermentation-complex" | "maturation-complex" | "variable">>;
+  /** 22 */ flavorComplexity?: BeerFact<
+    OpenString<'focused' | 'layered' | 'fermentation-complex' | 'maturation-complex' | 'variable'>
+  >;
 
   /** 23 */ mashMethod?: BeerFact<string[]>;
   /** 24 */ boilTreatment?: BeerFact<string[]>;
-  /** 25 */ conditioningTemperature?: BeerFact<NumericRange<"°C">>;
+  /** 25 */ conditioningTemperature?: BeerFact<NumericRange<'°C'>>;
   /** 26 */ conditioningDuration?: BeerFact<DurationRange>;
   /** 27 */ barrelHistory?: BeerFact<BarrelHistory[]>;
   /** 28 */ packagingCarbonation?: BeerFact<string[]>;
@@ -315,7 +306,7 @@ export interface OptionalBeerMetrics {
 }
 
 export interface BeerTaxonomyEntry extends OptionalBeerMetrics {
-  schemaVersion: "beer-taxonomy-entry/v1";
+  schemaVersion: 'beer-taxonomy-entry/v1';
   id: EntryId;
   title: string;
   type: BeerEntryType;
@@ -342,7 +333,7 @@ export interface BeerTaxonomyEntry extends OptionalBeerMetrics {
 }
 
 export interface BeerTaxonomyDataset {
-  schemaVersion: "beer-taxonomy-dataset/v1";
+  schemaVersion: 'beer-taxonomy-dataset/v1';
   taxonomyId: string;
   taxonomyTitle: string;
   generatedAt: string;
@@ -352,16 +343,16 @@ export interface BeerTaxonomyDataset {
 
 /** Typed axes available for independently arranging each concentric ring. */
 export type RingSeparationAxis =
-  | "taxonomy-family"
-  | "origin"
-  | "color"
-  | "strength"
-  | "bitterness"
-  | "grain"
-  | "fermentation-culture"
-  | "acidity"
-  | "dominant-character"
-  | "maturation-method";
+  | 'taxonomy-family'
+  | 'origin'
+  | 'color'
+  | 'strength'
+  | 'bitterness'
+  | 'grain'
+  | 'fermentation-culture'
+  | 'acidity'
+  | 'dominant-character'
+  | 'maturation-method';
 
 export interface RingSeparationOption {
   value: RingSeparationAxis;
@@ -376,19 +367,19 @@ export interface RingSeparation {
 }
 
 export type FilterValueKind =
-  | "family"
-  | "origin"
-  | "color"
-  | "strength"
-  | "bitterness"
-  | "grain"
-  | "fermentation"
-  | "acidity"
-  | "character"
-  | "maturation"
-  | "glassware"
-  | "ingredient"
-  | "tag";
+  | 'family'
+  | 'origin'
+  | 'color'
+  | 'strength'
+  | 'bitterness'
+  | 'grain'
+  | 'fermentation'
+  | 'acidity'
+  | 'character'
+  | 'maturation'
+  | 'glassware'
+  | 'ingredient'
+  | 'tag';
 
 export interface BeerFilterOption {
   id: string;

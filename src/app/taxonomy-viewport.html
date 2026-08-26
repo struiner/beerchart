@@ -10,10 +10,6 @@
   (pointercancel)="pointerUp()"
   (wheel)="wheel($event)"
 >
-  <div class="scene-label" [class.focused-label]="focusMode()">
-    <strong>{{ store.document().classification }}</strong
-    ><span>Drag to pan · Ctrl + scroll to zoom · select a station for details</span>
-  </div>
   <svg class="scene" aria-labelledby="diagram-title">
     <title id="diagram-title">Circular beer style family metro map with 168 style stations</title>
     <g [attr.transform]="transform()">
@@ -56,11 +52,21 @@
           >
             @if (n.depth === 0) {
               <circle class="root-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="58" />
-              <text class="root-title" [attr.x]="n.centerX" [attr.y]="n.centerY + 7" text-anchor="middle">
+              <text
+                class="root-title"
+                [attr.x]="n.centerX"
+                [attr.y]="n.centerY + 7"
+                text-anchor="middle"
+              >
                 Beer
               </text>
-              <text class="root-count" [attr.x]="n.centerX" [attr.y]="n.centerY + 92" text-anchor="middle">
-                168 stations
+              <text
+                class="root-count"
+                [attr.x]="n.centerX"
+                [attr.y]="n.centerY + 92"
+                text-anchor="middle"
+              >
+                {{ store.filteredEntries().length }} stations
               </text>
             } @else if (n.depth === 1) {
               <circle class="family-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="38" />
@@ -72,7 +78,7 @@
               >
                 {{ n.title }}
               </text>
-            } @else if (n.depth === 2) {
+            } @else if (n.depth <= 3) {
               <circle class="group-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="21" />
               <text
                 class="group-title"
@@ -105,40 +111,74 @@
       </g>
     </g>
   </svg>
-  @if (store.settings().minimap) {
-    <button class="minimap" type="button" aria-label="Fit entire taxonomy" (click)="fit()">
-      <svg [attr.viewBox]="'0 0 ' + store.scene().width + ' ' + store.scene().height">
-        <circle [attr.cx]="store.scene().centerX" [attr.cy]="store.scene().centerY" r="2050" />
-        @for (n of store.scene().nodes; track n.id) {
-          @if (n.depth === 3) {
-            <circle [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="18" [class]="familyClass(n)" />
-          }
-        }</svg
-      ><span>168 station overview</span>
-    </button>
-  }
   @if (store.selected(); as n) {
-    <aside class="popover" [class.focus-popover]="focusMode()">
+    <section
+      class="selection-details"
+      [class.focus-popover]="focusMode()"
+      aria-label="Selected taxonomy path"
+    >
       @if (focusMode()) {
         <button class="focus-back" type="button" (click)="backFromFocus()">Back to atlas</button>
       } @else {
         <button type="button" aria-label="Close details" (click)="store.selectedId.set(null)">
-          ×</button>
+          ×
+        </button>
       }
-      <span class="eyebrow">{{ n.type }} · {{ n.family }}</span>
-      <h2>{{ n.title }}</h2>
-      @if (n.type === 'style') {
-        @for (fact of profile(n).facts; track fact.icon) {
-          <div class="fact" [attr.aria-label]="fact.label + ': ' + fact.value">
-            <app-metadata-icon [name]="fact.icon" /><span
-              ><small>{{ fact.label }}</small
-              ><strong>{{ fact.value }}</strong></span
-            >
+      <div class="selection-title">
+        <span class="eyebrow">Selected station</span>
+        <h2>{{ n.title }}</h2>
+      </div>
+      <div class="focus-columns">
+        <div class="popover-list">
+          @for (routeNode of selectedRoute(); track routeNode.id) {
+            <aside class="popover" [class.current-station]="routeNode.id === n.id">
+              <span class="eyebrow">{{ routeNode.type }} · {{ routeNode.family }}</span>
+              <h3>{{ routeNode.title }}</h3>
+              @if (routeNode.type === 'style') {
+                @for (fact of profile(routeNode).facts; track fact.icon) {
+                  <div class="fact" [attr.aria-label]="fact.label + ': ' + fact.value">
+                    <app-metadata-icon [name]="fact.icon" /><span
+                      ><small>{{ fact.label }}</small
+                      ><strong>{{ fact.value }}</strong></span
+                    >
+                  </div>
+                }
+              } @else {
+                <p>
+                  {{ routeNode.description || 'Taxonomy grouping in the selected station path.' }}
+                </p>
+              }
+            </aside>
+          }
+        </div>
+        @if (focusMode()) {
+          <div class="focus-description">
+            <span class="eyebrow">{{ n.type }} profile</span>
+            <h3>{{ n.title }}</h3>
+            <p>{{ profile(n).description }}</p>
+            <p class="author">Written by <strong>Beer Taxonomy Atlas editorial</strong></p>
+            <h4>Potential brands</h4>
+            @if (brands(n).length) {
+              <p class="brand-count">
+                Showing {{ visibleBrands(n).length }} of {{ brands(n).length }} linked brands
+              </p>
+              <div class="brand-grid">
+                @for (brand of visibleBrands(n); track brand.id) {
+                  <a class="brand-tile" [href]="brandUrl(brand)" target="_blank" rel="noreferrer">
+                    @if (brand.logoUrl) {
+                      <img [src]="brand.logoUrl" [alt]="brand.name + ' logo'" />
+                    }
+                    <strong>{{ brand.name }}</strong
+                    ><small>{{ brand.description || 'Open brand' }}</small></a
+                  >
+                }
+              </div>
+            } @else {
+              <p class="brand-empty">No brands are linked to this taxonomy entry yet.</p>
+            }
           </div>
         }
-      } @else {
-        <p>{{ n.description || 'Select an outer station to inspect its style profile.' }}</p>
-      }
-    </aside>
+      </div>
+    </section>
   }
 </section>
