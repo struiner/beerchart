@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "brand-21st-amendment-back-in-black",
+    "name": "21st Amendment Hell or High Watermelon / West Coast Pils",
+    "taxonomyEntryIds": ["style:west-coast-style-pilsener"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-3-fonteinen-oude-geuze",
+    "name": "3 Fonteinen Oude Geuze Spontaneous Fermentation",
+    "taxonomyEntryIds": ["style:contemporary-belgian-style-spontaneous-fermented-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-8-wired-tall-poppy",
+    "name": "8 Wired Tall Poppy New Zealand IPA",
+    "taxonomyEntryIds": ["style:new-zealand-style-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-alaskan-smoked-porter",
+    "name": "Alaskan Smoked Porter (Alaskan Brewing Co.)",
+    "taxonomyEntryIds": ["style:smoke-porter"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-anchor-steam-pilsner",
+    "name": "Anchor California Lager / West Coast Pilsener",
+    "taxonomyEntryIds": ["style:west-coast-style-pilsener"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-anderson-valley-heel-fetch",
+    "name": "Anderson Valley Heel Fetch Double Red Ale",
+    "taxonomyEntryIds": ["style:double-hoppy-red-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-baird-shizuoka-sake",
+    "name": "Baird Rising Sun Sake Yeast Ale",
+    "taxonomyEntryIds": ["style:ginjo-beer-or-sake-yeast-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-ballast-point-longfin",
+    "name": "Ballast Point Longfin Lager / India Pale Lager",
+    "taxonomyEntryIds": ["style:american-style-india-pale-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-ballast-point-sculpin-ipl",
+    "name": "Ballast Point Sea Monster India Pale Lager",
+    "taxonomyEntryIds": ["style:american-style-india-pale-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brauhaus-bamberger-rotbier",
+    "name": "Bamberger Fränkisches Rotbier",
+    "taxonomyEntryIds": ["style:franconian-style-rotbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-bavaria-international-pale",
+    "name": "Bavaria Premium Pale Ale (Swinkels Family Brewers)",
+    "taxonomyEntryIds": ["style:international-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-bear-republic-red-rocket",
+    "name": "Bear Republic Red Rocket Ale",
+    "taxonomyEntryIds": ["style:imperial-red-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-belhaven-scottish-light",
+    "name": "Belhaven 60/- Scottish Light Ale",
+    "taxonomyEntryIds": ["style:scottish-style-light-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-belhaven-scottish-heavy",
+    "name": "Belhaven 70/- Scottish Light Ale",
+    "taxonomyEntryIds": ["style:scottish-style-light-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-belhaven-80",
+    "name": "Belhaven 80/- Scottish Ale",
+    "taxonomyEntryIds": ["style:scottish-style-light-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-berliner-kindl-weisse",
+    "name": "Berliner Kindl Weisse mit Schuss Fruit Wheat",
+    "taxonomyEntryIds": ["style:fruit-wheat-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-bernard-amber",
+    "name": "Bernard Jantar Czech Amber Lager (Polotmavý)",
+    "taxonomyEntryIds": ["style:czech-style-amber-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-bohemia-pilsner",
+    "name": "Bohemia Clara Pale Lager",
+    "taxonomyEntryIds": ["style:mexican-style-pale-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-bohemia-clara",
+    "name": "Bohemia Clásica Mexican Pale Lager",
+    "taxonomyEntryIds": ["style:mexican-style-pale-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-bohemia-obscura",
+    "name": "Bohemia Obscura Mexican Dark/Amber Lager",
+    "taxonomyEntryIds": ["style:mexican-style-amber-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-bohemia-weizen",
+    "name": "Bohemia Weizen / Dark Lager variant",
+    "taxonomyEntryIds": ["style:mexican-style-dark-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-boneyard-diablo-rojo",
+    "name": "Boneyard Diablo Rojo Double Red",
+    "taxonomyEntryIds": ["style:double-hoppy-red-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-boneyard-hop-venom",
+    "name": "Boneyard Hop Venom Double Red Ale",
+    "taxonomyEntryIds": ["style:double-hoppy-red-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brouwerij-boon-framboise",
+    "name": "Boon Framboise Belgian Fruit Beer",
+    "taxonomyEntryIds": ["style:belgian-style-fruit-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-boon-oude-kriek",
+    "name": "Boon Oude Kriek Belgian Fruit Beer",
+    "taxonomyEntryIds": ["style:belgian-style-fruit-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brouwerij-boon-oude-mariage",
+    "name": "Boon Oude Mariage Parfait Brett/Lambic",
+    "taxonomyEntryIds": ["style:brett-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-blaugies-marte",
+    "name": "Brasserie de Blaugies La Vermontoise Specialty Saison",
+    "taxonomyEntryIds": ["style:specialty-saison"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-blaugies-saison-d-epeautre",
+    "name": "Brasserie de Blaugies Saison d'Épeautre",
+    "taxonomyEntryIds": ["style:specialty-saison"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-greifenklau-helles-rauchbier",
+    "name": "Brauerei Greifenklau Helles Rauchbier",
+    "taxonomyEntryIds": ["style:bamberg-style-helles-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-greifenklau-lager-rauchbier",
+    "name": "Brauerei Greifenklau Lager Rauchbier",
+    "taxonomyEntryIds": ["style:bamberg-style-maerzen-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-greifenklau-maerzen-rauch",
+    "name": "Brauerei Greifenklau Märzen Rauchbier",
+    "taxonomyEntryIds": ["style:bamberg-style-maerzen-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-spezial-bock-rauchbier",
+    "name": "Brauerei Spezial Bock Rauchbier",
+    "taxonomyEntryIds": ["style:bamberg-style-bock-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-spezial-lager-rauchbier",
+    "name": "Brauerei Spezial Lager Rauchbier (Märzen style)",
+    "taxonomyEntryIds": ["style:bamberg-style-maerzen-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-spezial-maerzen-rauchbier",
+    "name": "Brauerei Spezial Märzen Rauchbier",
+    "taxonomyEntryIds": ["style:bamberg-style-maerzen-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-spezial-weihnachts-rauchbock",
+    "name": "Brauerei Spezial Rauchbock",
+    "taxonomyEntryIds": ["style:bamberg-style-bock-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-wagner-rauchbier",
+    "name": "Brauerei Wagner Kundmühle Rauchbier Bock",
+    "taxonomyEntryIds": ["style:bamberg-style-bock-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-breakside-umbrella-ipa",
+    "name": "Breakside True South Hoppy Red Ale",
+    "taxonomyEntryIds": ["style:double-hoppy-red-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schloss-brauerei-schoeps",
+    "name": "Breslauer Schoeps Historical Ale",
+    "taxonomyEntryIds": ["style:breslau-style-schoeps"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlossbrauerei-breslau",
+    "name": "Breslauer Schoeps Revival Ale",
+    "taxonomyEntryIds": ["style:breslau-style-schoeps"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brewdog-elvis-juice",
+    "name": "BrewDog Elvis Juice Fruited Sour / IPA",
+    "taxonomyEntryIds": ["style:american-style-fruited-sour-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brewdog-fake-lager",
+    "name": "BrewDog Fake Lager India Pale Lager",
+    "taxonomyEntryIds": ["style:american-style-india-pale-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brewski-watermelon",
+    "name": "Brewski You Taste Like Watermelon (Brewski)",
+    "taxonomyEntryIds": ["style:american-style-fruited-sour-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brouwerij-t-ij-zatte",
+    "name": "Brouwerij 't IJ Zatte Mixed-Culture / Belgian Ale",
+    "taxonomyEntryIds": ["style:mixed-culture-brett-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-kees-smoked-porter",
+    "name": "Brouwerij Kees Smoked Porter",
+    "taxonomyEntryIds": ["style:smoke-porter"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-bud-light",
+    "name": "Bud Light (Anheuser-Busch)",
+    "taxonomyEntryIds": ["style:contemporary-american-style-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-bud-light-lime",
+    "name": "Bud Light Lime Light Lager",
+    "taxonomyEntryIds": ["style:contemporary-american-style-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-budweiser-international-light",
+    "name": "Budweiser International Light Lager",
+    "taxonomyEntryIds": ["style:international-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-budweiser-select-55",
+    "name": "Budweiser Select 55 Light Lager",
+    "taxonomyEntryIds": ["style:contemporary-american-style-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-budweiser-select",
+    "name": "Budweiser Select Light Lager",
+    "taxonomyEntryIds": ["style:contemporary-american-style-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cains-mild",
+    "name": "Cain's Dark Mild Ale",
+    "taxonomyEntryIds": ["style:english-style-pale-mild-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-caledonian-80",
+    "name": "Caledonian 80/- Scottish Heavy Ale",
+    "taxonomyEntryIds": ["style:scottish-style-light-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cantillon-grand-cru",
+    "name": "Cantillon Grand Cru Bruocsella Spontaneous Fermented",
+    "taxonomyEntryIds": ["style:contemporary-belgian-style-spontaneous-fermented-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cantillon-gueuze-bio",
+    "name": "Cantillon Gueuze 100% Lambic Bio (Brasserie Cantillon)",
+    "taxonomyEntryIds": ["style:contemporary-belgian-style-spontaneous-fermented-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cantillon-kriek",
+    "name": "Cantillon Kriek 100% Lambic Bio",
+    "taxonomyEntryIds": ["style:contemporary-belgian-style-spontaneous-fermented-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cantillon-rosé-de-gambrinus",
+    "name": "Cantillon Rosé de Gambrinus Mixed-Culture Brett",
+    "taxonomyEntryIds": ["style:mixed-culture-brett-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cantillon-session-lambic",
+    "name": "Cantillon Single Batch Session Ale",
+    "taxonomyEntryIds": ["style:belgian-style-session-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cantillon-zwanze",
+    "name": "Cantillon Zwanze Mixed-Culture Brett Beer",
+    "taxonomyEntryIds": ["style:mixed-culture-brett-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-carlsberg-pilsner",
+    "name": "Carlsberg Elephant / International Light Lager",
+    "taxonomyEntryIds": ["style:international-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cascade-pale-ale-intl",
+    "name": "Cascade Pale Ale International Style",
+    "taxonomyEntryIds": ["style:international-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-leon-mexico",
+    "name": "Cerveza León Dark Munich-Style Lager",
+    "taxonomyEntryIds": ["style:mexican-style-dark-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-pacifico-clara",
+    "name": "Cerveza Pacífico Clara Mexican Pale Lager",
+    "taxonomyEntryIds": ["style:mexican-style-pale-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-sol-mexico",
+    "name": "Cerveza Sol Mexican-Style Light Lager",
+    "taxonomyEntryIds": ["style:mexican-style-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-victoria-mexico",
+    "name": "Cerveza Victoria Amber Lager",
+    "taxonomyEntryIds": ["style:mexican-style-amber-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-chimay-bleue-table",
+    "name": "Chimay Première / Table Beer Heritage Variant",
+    "taxonomyEntryIds": ["style:belgian-style-table-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-chimay-doree",
+    "name": "Chimay Trappist Blonde / Session Ale (Gold)",
+    "taxonomyEntryIds": ["style:belgian-style-session-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cloudwater-dipa",
+    "name": "Cloudwater DIPA Hazy Pale Ale",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-coedo-beniaka",
+    "name": "Coedo Beniaka Sweet Potato / Ginjo Beer",
+    "taxonomyEntryIds": ["style:ginjo-beer-or-sake-yeast-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-colt-45",
+    "name": "Colt 45 Malt Liquor (Pabst Brewing Co.)",
+    "taxonomyEntryIds": ["style:american-style-malt-liquor"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-coopers-original-pale-ale",
+    "name": "Coopers Original Pale Ale (Coopers Brewery)",
+    "taxonomyEntryIds": ["style:classic-australian-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-coopers-sparkling-ale",
+    "name": "Coopers Sparkling Ale Australian Pale Ale",
+    "taxonomyEntryIds": ["style:australian-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-coors-light",
+    "name": "Coors Light Contemporary American Light Lager",
+    "taxonomyEntryIds": ["style:contemporary-american-style-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-corona-cero",
+    "name": "Corona Cero Mexican-Style Light Lager",
+    "taxonomyEntryIds": ["style:mexican-style-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-corona-extra",
+    "name": "Corona Extra Light Lager (Grupo Modelo)",
+    "taxonomyEntryIds": ["style:mexican-style-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cucapa-chaneque",
+    "name": "Cucapá Chaneque Amber Lager",
+    "taxonomyEntryIds": ["style:mexican-style-amber-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-cucapa-frontera",
+    "name": "Cucapá Frontera Amber Lager",
+    "taxonomyEntryIds": ["style:mexican-style-amber-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-dark-star-meltdown-mild",
+    "name": "Dark Star Meltdown Mild Ale",
+    "taxonomyEntryIds": ["style:english-style-pale-mild-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brouwerij-de-molen-hel-verdoemenis",
+    "name": "De Molen Hel & Verdoemenis Fruited Sour / Imperial Stout",
+    "taxonomyEntryIds": ["style:american-style-fruited-sour-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-groene-sterdam-adambier",
+    "name": "De Prael Adambier Historic Revival",
+    "taxonomyEntryIds": ["style:adambier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-deschutes-black-butte-xx",
+    "name": "Deschutes Black Butte XX Imperial Porter",
+    "taxonomyEntryIds": ["style:american-style-imperial-porter"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-deschutes-hop-trip",
+    "name": "Deschutes Hop Trip Fresh Hop Pale Ale",
+    "taxonomyEntryIds": ["style:fresh-hop-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-deschutes-hop-zeit",
+    "name": "Deschutes Hop Zeit Fresh Hop Pale Ale",
+    "taxonomyEntryIds": ["style:fresh-hop-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-deschutes-obsidian-stout",
+    "name": "Deschutes Obsidian Stout / Imperial Porter",
+    "taxonomyEntryIds": ["style:american-style-imperial-porter"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-deschutes-abyss",
+    "name": "Deschutes The Abyss Imperial Porter / Stout",
+    "taxonomyEntryIds": ["style:american-style-imperial-porter"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-dogfish-head-the-obadiah-field",
+    "name": "Dogfish Head Ancient Ale Field Beer",
+    "taxonomyEntryIds": ["style:field-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-dogfish-head-the-obadiah-intervention",
+    "name": "Dogfish Head Field Beer Variant",
+    "taxonomyEntryIds": ["style:field-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-dogfish-head-midas-touch",
+    "name": "Dogfish Head Midas Touch Ancient Field Beer",
+    "taxonomyEntryIds": ["style:field-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-dogfish-head-ta-mast",
+    "name": "Dogfish Head Ta Mast Experimental Ale",
+    "taxonomyEntryIds": ["style:experimental-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-dogfish-head-world-wide-stout",
+    "name": "Dogfish Head World Wide Stout Experimental",
+    "taxonomyEntryIds": ["style:experimental-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-dos-equis-amber",
+    "name": "Dos Equis Amber Lager (Cervecería Cuauhtémoc Moctezuma)",
+    "taxonomyEntryIds": ["style:mexican-style-amber-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-dos-equis-lager-especial",
+    "name": "Dos Equis Lager Especial Pale Lager",
+    "taxonomyEntryIds": ["style:mexican-style-pale-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-duff-dark-lager",
+    "name": "Eichbaum Ureich / European Dark Lager",
+    "taxonomyEntryIds": ["style:european-style-dark-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-bad-assis-dark-lager",
+    "name": "Einsiedler Schwarzbier European Dark Lager",
+    "taxonomyEntryIds": ["style:european-style-dark-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-emerson-bookbinder",
+    "name": "Emerson's Bookbinder New Zealand Pale Ale",
+    "taxonomyEntryIds": ["style:new-zealand-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-epic-hop-zombie",
+    "name": "Epic Hop Zombie New Zealand IPA (Epic Brewing)",
+    "taxonomyEntryIds": ["style:new-zealand-style-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-mighty-craft-nz-pale",
+    "name": "Epic Pale Ale New Zealand Style",
+    "taxonomyEntryIds": ["style:new-zealand-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-erdinger-alkoholfrei",
+    "name": "Erdinger Alkoholfrei Leichtes Weizen",
+    "taxonomyEntryIds": ["style:german-style-leichtes-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-erdinger-schwarz-weizen",
+    "name": "Erdinger Pikantus / Bernsteinfarbenes Weizen Variant",
+    "taxonomyEntryIds": ["style:south-german-style-bernsteinfarbenes-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-erdinger-dunkel",
+    "name": "Erdinger Weissbier Dunkel (Bernsteinfarbenes Weizen)",
+    "taxonomyEntryIds": ["style:south-german-style-bernsteinfarbenes-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-erdinger-kristall",
+    "name": "Erdinger Weissbier Kristall",
+    "taxonomyEntryIds": ["style:south-german-style-kristal-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-erdinger-alkoholfrei-roggen",
+    "name": "Erdinger Weizen Roggen",
+    "taxonomyEntryIds": ["style:german-style-rye-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-matilda-bay-fat-yak",
+    "name": "Fat Yak Australian Pale Ale Variant",
+    "taxonomyEntryIds": ["style:classic-australian-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brauhaus-faust-rotbier",
+    "name": "Faust Miltenberger Alt-Frankisches Rotbier",
+    "taxonomyEntryIds": ["style:franconian-style-rotbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-firestone-walker-union-jack-red",
+    "name": "Firestone Walker Double DBA / Hoppy Red Variant",
+    "taxonomyEntryIds": ["style:double-hoppy-red-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-firestone-walker-union-jack",
+    "name": "Firestone Walker Mind Haze / Double Jack IPL",
+    "taxonomyEntryIds": ["style:american-style-india-pale-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-west-coast-pilsener-firestone",
+    "name": "Firestone Walker Pivo Pils West Coast Pilsener",
+    "taxonomyEntryIds": ["style:west-coast-style-pilsener"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-firestone-pivo-pils",
+    "name": "Firestone Walker Pivo Pils West Coast Pilsener",
+    "taxonomyEntryIds": ["style:west-coast-style-pilsener"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-fosters-lager-international",
+    "name": "Foster's Lager International Pale Ale",
+    "taxonomyEntryIds": ["style:international-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-founders-kbs",
+    "name": "Founders Kentucky Breakfast Stout (Founders Brewing Co.)",
+    "taxonomyEntryIds": ["style:american-style-imperial-porter"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-founders-imperial-porter",
+    "name": "Founders Porter / Imperial Porter Variant",
+    "taxonomyEntryIds": ["style:american-style-imperial-porter"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-franziskaner-dunkel-weizen",
+    "name": "Franziskaner Hefe-Weissbier Dunkel",
+    "taxonomyEntryIds": ["style:south-german-style-bernsteinfarbenes-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-franziskaner-kristallklar",
+    "name": "Franziskaner Hefe-Weissbier Kristallklar",
+    "taxonomyEntryIds": ["style:south-german-style-kristal-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-franziskaner-leichtes-weizen",
+    "name": "Franziskaner Hefe-Weissbier Leicht",
+    "taxonomyEntryIds": ["style:german-style-leichtes-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-fraoch-heather-ale",
+    "name": "Fráoch Heather Ale Herb and Spice Beer",
+    "taxonomyEntryIds": ["style:herb-and-spice-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brouwerij-frontaal-rhubarb",
+    "name": "Frontaal Fruited Sour Ale",
+    "taxonomyEntryIds": ["style:american-style-fruited-sour-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brouwerij-frontaal-sour",
+    "name": "Frontaal Fruited Sour Series",
+    "taxonomyEntryIds": ["style:american-style-fruited-sour-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-frontaal-juice-punch",
+    "name": "Frontaal Juice Punch NEIPA (Brouwerij Frontaal)",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-strong-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-fullers-1845",
+    "name": "Fuller's 1845 Mature Aged Ale",
+    "taxonomyEntryIds": ["style:aged-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-fullers-golden-pride",
+    "name": "Fuller's Golden Pride Aged Barleywine",
+    "taxonomyEntryIds": ["style:aged-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-fullers-london-porter",
+    "name": "Fuller's London Smoke Porter Classic",
+    "taxonomyEntryIds": ["style:smoke-porter"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-fullers-past-masters",
+    "name": "Fuller's Past Masters Aged Historic Ale",
+    "taxonomyEntryIds": ["style:aged-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-fullers-vintage-ale",
+    "name": "Fuller's Vintage Ale Aged Style",
+    "taxonomyEntryIds": ["style:aged-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-garage-project-snakes",
+    "name": "Garage Project Hapi Daze / NZ IPA",
+    "taxonomyEntryIds": ["style:new-zealand-style-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-garage-project-perfection",
+    "name": "Garage Project Pernicious Weed NZ IPA",
+    "taxonomyEntryIds": ["style:new-zealand-style-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-gotlandsdricke-traditional",
+    "name": "Gotlandsdricke Farmhouse Ale Revival",
+    "taxonomyEntryIds": ["style:swedish-style-gotlandsdricke"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-gotlandsdricke-revival-alt",
+    "name": "Gotlandsdricke Smoked Juniper Ale",
+    "taxonomyEntryIds": ["style:swedish-style-gotlandsdricke"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-great-divide-titan",
+    "name": "Great Divide Titan IPA Strong Pale Ale",
+    "taxonomyEntryIds": ["style:american-style-strong-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-great-lakes-oktoberfest",
+    "name": "Great Lakes Oktoberfest Märzen",
+    "taxonomyEntryIds": ["style:american-style-maerzen-oktoberfest"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-green-flash-hop-head-red",
+    "name": "Green Flash Imperial Red Ale",
+    "taxonomyEntryIds": ["style:imperial-red-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-green-king-mild",
+    "name": "Greene King XX Mild Ale",
+    "taxonomyEntryIds": ["style:english-style-pale-mild-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-browar-grodzisk-biala-dama",
+    "name": "Grodziskie Biała Dama",
+    "taxonomyEntryIds": ["style:grodziskie"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-browar-grodzisk-czerwona",
+    "name": "Grodziskie Czerwona Pomarańcza",
+    "taxonomyEntryIds": ["style:grodziskie"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-browar-grodzisk-naturalny",
+    "name": "Grodziskie Naturalne",
+    "taxonomyEntryIds": ["style:grodziskie"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-browar-grodzisk-zagan",
+    "name": "Grodziskie with Elderflower",
+    "taxonomyEntryIds": ["style:grodziskie"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tilquin-oude-geuze",
+    "name": "Gueuzerie Tilquin Oude Gueuze",
+    "taxonomyEntryIds": ["style:contemporary-belgian-style-spontaneous-fermented-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-harkema-gotlandsdricke",
+    "name": "Härkema Gotlandsdricke Juniper Ale",
+    "taxonomyEntryIds": ["style:swedish-style-gotlandsdricke"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-hawkers-pale-ale",
+    "name": "Hawkers Australian Pale Ale",
+    "taxonomyEntryIds": ["style:australian-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-heineken-original",
+    "name": "Heineken Original International Light Lager",
+    "taxonomyEntryIds": ["style:international-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-heineken-silver",
+    "name": "Heineken Silver International Light Lager",
+    "taxonomyEntryIds": ["style:international-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-hertog-jan-grand-prestige",
+    "name": "Hertog Jan Grand Prestige Imperial Stout / Barleywine",
+    "taxonomyEntryIds": ["style:british-style-imperial-stout"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-hill-farmstead-so-nos",
+    "name": "Hill Farmstead Abner Double IPA (Hazy variant)",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-imperial-or-double-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-hofbrau-kentucky-common",
+    "name": "Historic Kentucky Common Ale Revival",
+    "taxonomyEntryIds": ["style:kentucky-common-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-gruit-adambier",
+    "name": "Historical Adambier Reconstruction",
+    "taxonomyEntryIds": ["style:adambier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-koet-adambier-revival",
+    "name": "Historical Dutch Adambier Revival",
+    "taxonomyEntryIds": ["style:adambier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-gruit-geld-ale",
+    "name": "Historical Herb and Spice Gruit Ale",
+    "taxonomyEntryIds": ["style:herb-and-spice-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-kiuchi-hitachino-nest-red-rice",
+    "name": "Hitachino Nest Red Rice Ginjo Beer",
+    "taxonomyEntryIds": ["style:ginjo-beer-or-sake-yeast-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-hofbrau-oktoberfestbier",
+    "name": "Hofbräu München Oktoberfest / Märzen",
+    "taxonomyEntryIds": ["style:american-style-maerzen-oktoberfest"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-hurricane-high-gravity",
+    "name": "Hurricane High Gravity Malt Liquor",
+    "taxonomyEntryIds": ["style:american-style-malt-liquor"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-james-boag-premium",
+    "name": "James Boag's Premium Lager / Pale Ale",
+    "taxonomyEntryIds": ["style:australian-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-jolly-pumpkin-bam-biere",
+    "name": "Jolly Pumpkin Bam Biere Brett Beer",
+    "taxonomyEntryIds": ["style:brett-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-jolly-pumpkin-la-parcella",
+    "name": "Jolly Pumpkin La Parcella Wheat Wine",
+    "taxonomyEntryIds": ["style:american-style-wheat-wine-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-jolly-pumpkin-la-rojo",
+    "name": "Jolly Pumpkin La Roja Brett Beer",
+    "taxonomyEntryIds": ["style:brett-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-jopen-hoppenbier",
+    "name": "Jopen Hoppenbier Historic Gruit/Kuit",
+    "taxonomyEntryIds": ["style:dutch-style-kuit-kuyt-or-koyt"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-jopen-kuyt",
+    "name": "Jopen Koyt / Kuyt 1407 Historic Dutch Ale",
+    "taxonomyEntryIds": ["style:dutch-style-kuit-kuyt-or-koyt"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-jopen-koyt",
+    "name": "Jopen Koyt Gruitbier (Jopen Bier)",
+    "taxonomyEntryIds": ["style:dutch-style-kuit-kuyt-or-koyt"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-koyt-jopen",
+    "name": "Jopen Koyt Historic Gruit/Kuit",
+    "taxonomyEntryIds": ["style:dutch-style-kuit-kuyt-or-koyt"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-jopen-jopenbier",
+    "name": "Jopen Kuit / Kuyt Historic Dutch Ale",
+    "taxonomyEntryIds": ["style:dutch-style-kuit-kuyt-or-koyt"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brouwerij-kees-export-porter",
+    "name": "Kees Smoked Porter",
+    "taxonomyEntryIds": ["style:smoke-porter"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-finlandia-sahti",
+    "name": "Kihniön Sahti Traditional Finnish",
+    "taxonomyEntryIds": ["style:finnish-style-sahti"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-koestritzer-schwarzbier",
+    "name": "Köstritzer Schwarzbier European Dark Lager",
+    "taxonomyEntryIds": ["style:european-style-dark-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-lagunitas-hairy-eyeball",
+    "name": "Lagunitas Hairy Eyeball Strong Ale",
+    "taxonomyEntryIds": ["style:american-style-strong-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-lagunitas-ipa",
+    "name": "Lagunitas India Pale Ale (West Coast Style)",
+    "taxonomyEntryIds": ["style:west-coast-style-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-lammin-sahti-strong",
+    "name": "Lammin Sahti Strong Farmhouse Ale",
+    "taxonomyEntryIds": ["style:finnish-style-sahti"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-lamppu-sahti",
+    "name": "Lamppu Sahti (Lammin Sahti)",
+    "taxonomyEntryIds": ["style:finnish-style-sahti"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-leinenkugel-berry-weiss",
+    "name": "Leinenkugel's Berry Weiss Fruit Wheat Beer",
+    "taxonomyEntryIds": ["style:fruit-wheat-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-liefmans-fruitesse",
+    "name": "Liefmans Fruitesse Belgian Fruit Beer",
+    "taxonomyEntryIds": ["style:belgian-style-fruit-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-liefmans-kriek-brut",
+    "name": "Liefmans Kriek-Brut Belgian Fruit Beer",
+    "taxonomyEntryIds": ["style:belgian-style-fruit-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-lindemans-framboise",
+    "name": "Lindemans Framboise Fruit Wheat / Lambic",
+    "taxonomyEntryIds": ["style:fruit-wheat-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-lindemans-kriek",
+    "name": "Lindemans Kriek (Brouwerij Lindemans)",
+    "taxonomyEntryIds": ["style:belgian-style-fruit-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-lindemans-pecheresse",
+    "name": "Lindemans Pecheresse Fruit Wheat / Lambic Hybrid",
+    "taxonomyEntryIds": ["style:fruit-wheat-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-little-creatures-pale-ale",
+    "name": "Little Creatures Pale Ale Classic Australian",
+    "taxonomyEntryIds": ["style:classic-australian-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-mahrs-brau-roggen",
+    "name": "Mahr's Bräu Roggenbier",
+    "taxonomyEntryIds": ["style:german-style-rye-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-mahr-brau-rauchbier",
+    "name": "Mahr's Bräu Ungespundet Rauchbier Variant",
+    "taxonomyEntryIds": ["style:bamberg-style-bock-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-sahti-malmgard",
+    "name": "Malmgård Sahti Traditional Finnish Farmhouse",
+    "taxonomyEntryIds": ["style:finnish-style-sahti"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-marstons-mild",
+    "name": "Marston's 61 Deep / Mild Ale Classic",
+    "taxonomyEntryIds": ["style:english-style-pale-mild-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-matilda-bay-original",
+    "name": "Matilda Bay Original Pale Ale",
+    "taxonomyEntryIds": ["style:classic-australian-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-mickey-malt-liquor",
+    "name": "Mickey's Fine Malt Liquor",
+    "taxonomyEntryIds": ["style:american-style-malt-liquor"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-mikkeller-beer-geek-bison",
+    "name": "Mikkeller Beer Geek Brunch Weasel (Mikkeller)",
+    "taxonomyEntryIds": ["style:british-style-imperial-stout"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-miller-genuine-draft",
+    "name": "Miller Genuine Draft American Pilsener",
+    "taxonomyEntryIds": ["style:contemporary-american-style-pilsener"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-miller-lite-pilsener",
+    "name": "Miller Lite American Pilsener",
+    "taxonomyEntryIds": ["style:contemporary-american-style-pilsener"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-modelo-especial",
+    "name": "Modelo Especial Pale Lager",
+    "taxonomyEntryIds": ["style:mexican-style-pale-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-modelo-negra",
+    "name": "Modelo Negra Dark Lager",
+    "taxonomyEntryIds": ["style:mexican-style-dark-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-kulmbacher-monchshof-schwarzbier",
+    "name": "Mönchshof Schwarzbier European Dark Lager",
+    "taxonomyEntryIds": ["style:european-style-dark-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-murphys-irish-red",
+    "name": "Murphy's Irish Red International Pale Ale Style",
+    "taxonomyEntryIds": ["style:international-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-murphys-irish-stout",
+    "name": "Murphy's Irish Stout International Pale Ale Variant",
+    "taxonomyEntryIds": ["style:international-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-negra-modelo",
+    "name": "Negra Modelo Dark Munich-Style Lager",
+    "taxonomyEntryIds": ["style:mexican-style-dark-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-modelo-negra-v2",
+    "name": "Negra Modelo Munich Dark Lager",
+    "taxonomyEntryIds": ["style:mexican-style-dark-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-new-glarus-enigma",
+    "name": "New Glarus Enigma Field Beer",
+    "taxonomyEntryIds": ["style:field-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-new-glarus-raspberry-tart",
+    "name": "New Glarus Raspberry Tart Field Beer",
+    "taxonomyEntryIds": ["style:field-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-highland-tap-room-kentucky",
+    "name": "Newburgh Kentucky Common Ale",
+    "taxonomyEntryIds": ["style:kentucky-common-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-newport-kentucky-common",
+    "name": "Newport History Kentucky Common",
+    "taxonomyEntryIds": ["style:kentucky-common-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-ninkasi-sleigh-rider",
+    "name": "Ninkasi Imperial Red Ale",
+    "taxonomyEntryIds": ["style:imperial-red-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-north-coast-scrshaw",
+    "name": "North Coast Scrimshaw Pilsner (West Coast Style)",
+    "taxonomyEntryIds": ["style:west-coast-style-pilsener"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brouwerij-haacht-adambier",
+    "name": "North Sea Adambier Historic Revival",
+    "taxonomyEntryIds": ["style:adambier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brauhaus-nuernberg-rotbier",
+    "name": "Nürnberger Rotbier",
+    "taxonomyEntryIds": ["style:franconian-style-rotbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-omnipollo-zodiak",
+    "name": "Omnipollo Zodiak Hazy Strong Pale Ale",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-strong-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-orval-trappist",
+    "name": "Orval Trappist Mixed-Culture Brett Ale",
+    "taxonomyEntryIds": ["style:mixed-culture-brett-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-orval-session",
+    "name": "Orval Trappist Session Ale Variant",
+    "taxonomyEntryIds": ["style:belgian-style-session-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-other-half-forever-waiting",
+    "name": "Other Half Forever Waiting Hazy Pale Ale",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-other-half-green-diamonds",
+    "name": "Other Half Green Diamonds Hazy Pale / DIPA",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-panhead-sandman",
+    "name": "Panhead Custom Ales Sandman NZ IPA",
+    "taxonomyEntryIds": ["style:new-zealand-style-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-paulaner-leichtes-weizen",
+    "name": "Paulaner Hefe-Weißbier Leicht (Paulaner Brauerei)",
+    "taxonomyEntryIds": ["style:german-style-leichtes-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-paulaner-weissbier-leicht",
+    "name": "Paulaner Leichtes Weizen",
+    "taxonomyEntryIds": ["style:german-style-leichtes-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-paulaner-oktoberfest-bier",
+    "name": "Paulaner Oktoberfest Bier / Märzen",
+    "taxonomyEntryIds": ["style:american-style-maerzen-oktoberfest"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-pilsner-urquell-amber",
+    "name": "Pilsner Urquell Czech Amber Lager (Polotmavý)",
+    "taxonomyEntryIds": ["style:czech-style-amber-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-pilsner-urquell",
+    "name": "Pilsner Urquell Original Czech Pilsener/American Pilsener style",
+    "taxonomyEntryIds": ["style:contemporary-american-style-pilsener"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-browar-grodzisk-grodziskie",
+    "name": "Piwo Grodziskie (Browar Grodzisk)",
+    "taxonomyEntryIds": ["style:grodziskie"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-piika-sahti",
+    "name": "Plevnan Piika Sahti",
+    "taxonomyEntryIds": ["style:finnish-style-sahti"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-pohjala-baltic-porter",
+    "name": "Põhjala Balti Porter / Imperial Stout",
+    "taxonomyEntryIds": ["style:british-style-imperial-stout"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-pohjala-soo",
+    "name": "Põhjala Öö Tutvus Imperial Stout",
+    "taxonomyEntryIds": ["style:british-style-imperial-stout"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-pyramid-pathfinder",
+    "name": "Pyramid Pale Ale Classic Australian Style Variant",
+    "taxonomyEntryIds": ["style:classic-australian-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-rochefort-trappistes-6",
+    "name": "Rochefort Trappistes 6 Table / Enkel Style",
+    "taxonomyEntryIds": ["style:belgian-style-table-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-rochefort-extra",
+    "name": "Rochefort Trappistes Table / Single",
+    "taxonomyEntryIds": ["style:belgian-style-table-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-rochefort-trappistes-table",
+    "name": "Rochefort Triple Extra / Table Beer Heritage",
+    "taxonomyEntryIds": ["style:belgian-style-table-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-ruby-street-wheatwine",
+    "name": "Ruby Street American Wheat Wine Ale",
+    "taxonomyEntryIds": ["style:american-style-wheat-wine-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-russian-river-blind-pig",
+    "name": "Russian River Blind Pig IPA (Russian River Brewing)",
+    "taxonomyEntryIds": ["style:west-coast-style-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-russian-river-consecration",
+    "name": "Russian River Consecration Mixed-Culture Brett Beer",
+    "taxonomyEntryIds": ["style:mixed-culture-brett-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-russian-river-pliny-the-elder",
+    "name": "Russian River Pliny the Elder West Coast IPA",
+    "taxonomyEntryIds": ["style:west-coast-style-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-russian-river-pliny-the-younger",
+    "name": "Russian River Pliny the Younger West Coast IPA",
+    "taxonomyEntryIds": ["style:west-coast-style-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-russian-river-supplication",
+    "name": "Russian River Supplication Brett Beer",
+    "taxonomyEntryIds": ["style:brett-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-brasserie-dupont-bhopal",
+    "name": "Saison Dupont Bio Specialty Saison",
+    "taxonomyEntryIds": ["style:specialty-saison"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-saison-dupont-bio",
+    "name": "Saison Dupont Biologique Specialty Saison",
+    "taxonomyEntryIds": ["style:specialty-saison"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-saison-dupont-cuvee-dry-hopping",
+    "name": "Saison Dupont Cuvée Dry Hopping (Brasserie Dupont)",
+    "taxonomyEntryIds": ["style:specialty-saison"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-samuel-adams-boston-lager",
+    "name": "Samuel Adams Boston Lager (American Pilsener style profile)",
+    "taxonomyEntryIds": ["style:contemporary-american-style-pilsener"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-adams-wheatwine",
+    "name": "Samuel Adams Fourth Dimension Wheatwine",
+    "taxonomyEntryIds": ["style:american-style-wheat-wine-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-samuel-adams-octoberfest",
+    "name": "Samuel Adams Octoberfest Maerzen",
+    "taxonomyEntryIds": ["style:american-style-maerzen-oktoberfest"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-samuel-adams-triple-bock",
+    "name": "Samuel Adams Triple Bock Experimental",
+    "taxonomyEntryIds": ["style:experimental-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-samuel-adams-utopias",
+    "name": "Samuel Adams Utopias Experimental/Aged Beer",
+    "taxonomyEntryIds": ["style:experimental-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-sapporo-space-barley",
+    "name": "Sapporo Space Barley Ginjo/Sake Yeast Experiment",
+    "taxonomyEntryIds": ["style:ginjo-beer-or-sake-yeast-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schaefers-legacy-common",
+    "name": "Schaefer's Legacy Kentucky Common",
+    "taxonomyEntryIds": ["style:kentucky-common-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schaefers-kentucky-common",
+    "name": "Schaefer's Traditional Kentucky Common",
+    "taxonomyEntryIds": ["style:kentucky-common-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlenkerla-lager",
+    "name": "Schlenkerla Helles Lagerbier (Helles Rauchbier)",
+    "taxonomyEntryIds": ["style:bamberg-style-helles-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlenkerla-rauchbier-lager",
+    "name": "Schlenkerla Helles Lagerbier Rauchbier (Brauerei Heller)",
+    "taxonomyEntryIds": ["style:bamberg-style-helles-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlenkerla-mcha",
+    "name": "Schlenkerla Helles Rauchbier Variant",
+    "taxonomyEntryIds": ["style:bamberg-style-helles-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlenkerla-lagerbier-hell",
+    "name": "Schlenkerla Lagerbier Hell (Helles Rauchbier)",
+    "taxonomyEntryIds": ["style:bamberg-style-helles-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlenkerla-rauchbier-maerzen",
+    "name": "Schlenkerla Märzen Rauchbier (Brauerei Heller)",
+    "taxonomyEntryIds": ["style:bamberg-style-maerzen-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlenkerla-rauchbier-weizen",
+    "name": "Schlenkerla Rauchbier Smoke-Weizen (Brauerei Heller)",
+    "taxonomyEntryIds": ["style:bamberg-style-weiss-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlenkerla-rauchbier-urbock",
+    "name": "Schlenkerla Urbock Rauchbier (Brauerei Heller)",
+    "taxonomyEntryIds": ["style:bamberg-style-bock-rauchbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlesischer-schoeps-dark",
+    "name": "Schlesischer Schoeps Dark Wheat Ale",
+    "taxonomyEntryIds": ["style:breslau-style-schoeps"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlesischer-schoeps-hell",
+    "name": "Schlesischer Schoeps Hell Wheat Ale",
+    "taxonomyEntryIds": ["style:breslau-style-schoeps"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schlesische-schoeps",
+    "name": "Schlesischer Schoeps Historical Style",
+    "taxonomyEntryIds": ["style:breslau-style-schoeps"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tapx-mein-hopfenweisse",
+    "name": "Schneider & Brooklyner Hopfenweisse (Rye/Wheat Ale)",
+    "taxonomyEntryIds": ["style:german-style-rye-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schneider-weisse-tap2",
+    "name": "Schneider Weisse Tap 2 Mein Kristall / Leichtes Weizen",
+    "taxonomyEntryIds": ["style:german-style-leichtes-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schneider-weisse-tap4",
+    "name": "Schneider Weisse Tap 4 Mein Festweizen / Kristal",
+    "taxonomyEntryIds": ["style:south-german-style-kristal-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schneider-weisse-tap4-roggen",
+    "name": "Schneider Weisse Tap 4 Mein Grünes / Rye Ale",
+    "taxonomyEntryIds": ["style:german-style-rye-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schneider-weisse-tap6",
+    "name": "Schneider Weisse Tap 6 Unser Aventinus (Bernsteinfarbenes Weizen)",
+    "taxonomyEntryIds": ["style:south-german-style-bernsteinfarbenes-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schneider-weisse-tap7",
+    "name": "Schneider Weisse Tap 7 Unser Original Bernsteinfarbenes Weizen",
+    "taxonomyEntryIds": ["style:south-german-style-bernsteinfarbenes-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-schofferhofer-grapefruit",
+    "name": "Schöfferhofer Hefeweizen Grapefruit Fruit Wheat",
+    "taxonomyEntryIds": ["style:fruit-wheat-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-sierra-nevada-tumbler",
+    "name": "Sierra Nevada Harvest Fresh Hop IPA",
+    "taxonomyEntryIds": ["style:fresh-hop-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-sierra-nevada-hazy-little-thing",
+    "name": "Sierra Nevada Hazy Little Thing IPA",
+    "taxonomyEntryIds": ["style:west-coast-style-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-sierra-nevada-ipl",
+    "name": "Sierra Nevada India Pale Lager",
+    "taxonomyEntryIds": ["style:american-style-india-pale-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-sierra-nevada-northern-wild-hop",
+    "name": "Sierra Nevada Northern Hemisphere Wet/Fresh Hop Ale",
+    "taxonomyEntryIds": ["style:fresh-hop-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-sierra-nevada-ruthless-rye",
+    "name": "Sierra Nevada Ruthless Rye / Imperial Red Ale",
+    "taxonomyEntryIds": ["style:imperial-red-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-sierra-nevada-torpedo",
+    "name": "Sierra Nevada Torpedo Extra IPA Strong Pale Ale",
+    "taxonomyEntryIds": ["style:american-style-strong-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-sly-fox-lively-red",
+    "name": "Sly Fox O'Reilly's Imperial Red Ale",
+    "taxonomyEntryIds": ["style:imperial-red-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-spaten-oktoberfest",
+    "name": "Spaten Oktoberfest Ur-Marzen",
+    "taxonomyEntryIds": ["style:american-style-maerzen-oktoberfest"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-speight-summit",
+    "name": "Speight's Summit New Zealand Pale Ale",
+    "taxonomyEntryIds": ["style:new-zealand-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-st-bernardus-extra-4",
+    "name": "St. Bernardus Extra 4 Single (Brouwerij St. Bernardus)",
+    "taxonomyEntryIds": ["style:belgian-style-session-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-st-ides-malt-liquor",
+    "name": "St. Ides High Gravity Malt Liquor",
+    "taxonomyEntryIds": ["style:american-style-malt-liquor"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-st-peters-cream-stout",
+    "name": "St. Peter's Imperial Russian Stout",
+    "taxonomyEntryIds": ["style:british-style-imperial-stout"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-steel-reserve",
+    "name": "Steel Reserve 211 High Gravity Malt Liquor",
+    "taxonomyEntryIds": ["style:american-style-malt-liquor"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-steinlager-classic",
+    "name": "Steinlager Classic New Zealand Pale Lager",
+    "taxonomyEntryIds": ["style:new-zealand-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-stella-artois-pilsener",
+    "name": "Stella Artois Premium Lager",
+    "taxonomyEntryIds": ["style:contemporary-american-style-pilsener"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-stigbergets-west-coast",
+    "name": "Stigbergets Amazing Haze Hazy Pale Ale",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-stone-and-wood-pacific-ale",
+    "name": "Stone & Wood Pacific Ale",
+    "taxonomyEntryIds": ["style:australian-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-stone-arrogant-bastard",
+    "name": "Stone Arrogant Bastard Ale (Stone Brewing)",
+    "taxonomyEntryIds": ["style:american-style-strong-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-stone-ipa",
+    "name": "Stone Delicious IPA Strong Pale Ale",
+    "taxonomyEntryIds": ["style:american-style-strong-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-stone-lucky-bastard",
+    "name": "Stone Lucky Bastard Wheat Wine / Strong Ale",
+    "taxonomyEntryIds": ["style:american-style-wheat-wine-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-stone-smoked-porter",
+    "name": "Stone Smoked Porter",
+    "taxonomyEntryIds": ["style:smoke-porter"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tecate-light",
+    "name": "Tecate Light Mexican-Style Light Lager",
+    "taxonomyEntryIds": ["style:mexican-style-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tecate-original",
+    "name": "Tecate Original Mexican-Style Light Lager",
+    "taxonomyEntryIds": ["style:mexican-style-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-the-lost-abbey-cuvee-de-tomme",
+    "name": "The Lost Abbey Cuvée de Tomme Brett Beer",
+    "taxonomyEntryIds": ["style:brett-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-theakston-mild",
+    "name": "Theakston Traditional Mild (Theakston Brewery)",
+    "taxonomyEntryIds": ["style:english-style-pale-mild-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-adams-history-walker",
+    "name": "Thomas Hardy's Ale Aged English Barleywine",
+    "taxonomyEntryIds": ["style:aged-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-thomas-hardys-ale",
+    "name": "Thomas Hardy's Ale Vintage Aged Beer",
+    "taxonomyEntryIds": ["style:aged-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-three-floyds-anniversary-wheatwine",
+    "name": "Three Floyds Behemoth Barleywine / Wheatwine",
+    "taxonomyEntryIds": ["style:american-style-wheat-wine-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-threes-brewing-logical-conclusion",
+    "name": "Threes Brewing Logical Conclusion Hazy Strong Pale Ale",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-strong-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tooys-extra-dry",
+    "name": "Tooheys Extra Dry Australian Pale Lager",
+    "taxonomyEntryIds": ["style:australian-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tree-house-julius",
+    "name": "Tree House Julius Double IPA",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-imperial-or-double-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tree-house-king-julius",
+    "name": "Tree House King Julius Hazy Double IPA",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-imperial-or-double-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tree-house-very-green",
+    "name": "Tree House Very Green Hazy Double IPA",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-imperial-or-double-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-trillium-congress-street",
+    "name": "Trillium Congress Street Double IPA (Hazy)",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-imperial-or-double-india-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-trillium-dialed-in",
+    "name": "Trillium Dialed-In Hazy Strong Pale Ale",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-strong-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-trillium-fort-point",
+    "name": "Trillium Fort Point Hazy Strong Pale Ale",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-strong-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tuatara-kapiti-ipa",
+    "name": "Tuatara Aotearoa Pale Ale",
+    "taxonomyEntryIds": ["style:new-zealand-style-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tuborg-green",
+    "name": "Tuborg Green International Light Lager",
+    "taxonomyEntryIds": ["style:international-light-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tucher-rotbier",
+    "name": "Tucher Fränkisches Nürnberger Rotbier",
+    "taxonomyEntryIds": ["style:franconian-style-rotbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-tucher-fraenkisch-rotbier",
+    "name": "Tucher Fränkisches Rotbier",
+    "taxonomyEntryIds": ["style:franconian-style-rotbier"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-uiltje-bird-of-prey",
+    "name": "Uiltje Bird of Prey IPA (Uiltje Brewing Company)",
+    "taxonomyEntryIds": ["style:juicy-or-hazy-pale-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-ulm-schwarzbier",
+    "name": "Ulmer Schwarzbier European Dark Lager",
+    "taxonomyEntryIds": ["style:european-style-dark-lager"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-visby-bryggeri-dricke",
+    "name": "Visby Gotlandsdricke Farmhouse Ale",
+    "taxonomyEntryIds": ["style:swedish-style-gotlandsdricke"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-visby-gotlandsdricke",
+    "name": "Visby Gotlandsdricke Farmhouse Revival",
+    "taxonomyEntryIds": ["style:swedish-style-gotlandsdricke"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-weihenstephaner-kristallweissbier-alt",
+    "name": "Weihenstephaner Kristall Weissbier",
+    "taxonomyEntryIds": ["style:south-german-style-kristal-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-weihenstephaner-kristallweissbier",
+    "name": "Weihenstephaner Kristallweissbier",
+    "taxonomyEntryIds": ["style:south-german-style-kristal-weizen"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-weihenstephaner-vitus",
+    "name": "Weihenstephaner Vitus Weizenbock (Rye/Wheat Ale variant)",
+    "taxonomyEntryIds": ["style:german-style-rye-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-westmalle-dubbel-table",
+    "name": "Westmalle Extra Table Beer Adaptation",
+    "taxonomyEntryIds": ["style:belgian-style-table-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-westmalle-extra",
+    "name": "Westmalle Extra Trappist Session Ale",
+    "taxonomyEntryIds": ["style:belgian-style-session-ale"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-williams-bros-procurator",
+    "name": "Williams Bros Ebulum Elderberry Herb and Spice Ale",
+    "taxonomyEntryIds": ["style:herb-and-spice-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-williams-brosc-kelpie",
+    "name": "Williams Bros Kelpie Seaweed Herb and Spice Ale",
+    "taxonomyEntryIds": ["style:herb-and-spice-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-williams-bros-serpents-stout",
+    "name": "Williams Bros Rhaeadr Herb and Spice Ale",
+    "taxonomyEntryIds": ["style:herb-and-spice-beer"],
+    "logoUrl": null
+  },
+  {
+    "id": "brand-youngs-scottish-ale",
+    "name": "Young's Special London Ale (Scottish Light Ale variant)",
+    "taxonomyEntryIds": ["style:scottish-style-light-ale"],
+    "logoUrl": null
+  }
+]

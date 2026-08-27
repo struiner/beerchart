@@ -1,0 +1,482 @@
+[
+  {
+    "id": "brand-33-export-castel",
+    "name": "33 Export (Castel Group / Heineken)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.sabeco.com.vn/",
+    "description": "Historic canned pale lager boasting a rich history and distinct aromatic malt profile.",
+    "country": {
+      "name": "Vietnam",
+      "iso3166Alpha2": "VN"
+    }
+  },
+  {
+    "id": "brand-alhambra-reserva-1925",
+    "name": "Alhambra Reserva 1925 (Cervezas Alhambra)",
+    "taxonomyEntryIds": ["style:german-style-doppelbock"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.cervezasalhambra.com/",
+    "description": "Strong amber lager characterized by intense caramel malt aromas and a clean, bitter finish.",
+    "country": {
+      "name": "Spain",
+      "iso3166Alpha2": "ES"
+    }
+  },
+  {
+    "id": "brand-antarctica",
+    "name": "Antarctica (AB InBev)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.ambev.com.br/",
+    "description": "Traditional Brazilian pale lager known for its refreshing profile and traditional grain bill.",
+    "country": {
+      "name": "Brazil",
+      "iso3166Alpha2": "BR"
+    }
+  },
+  {
+    "id": "brand-asahi-super-dry",
+    "name": "Asahi Super Dry (Asahi Group Holdings)",
+    "taxonomyEntryIds": ["style:rice-lager"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.asahibeer.co.jp/",
+    "description": "Pioneering Japanese karakuchi dry lager with high attenuation and crisp finish.",
+    "country": {
+      "name": "Japan",
+      "iso3166Alpha2": "JP"
+    }
+  },
+  {
+    "id": "brand-baltika-3-classic",
+    "name": "Baltika No. 3 Classic (Baltika Breweries)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://baltika.ru/",
+    "description": "Classic pale lager with a mild hop aroma and clean malt profile.",
+    "country": {
+      "name": "Russia",
+      "iso3166Alpha2": "RU"
+    }
+  },
+  {
+    "id": "brand-baltika-6-porter",
+    "name": "Baltika No. 6 Porter (Baltika Breweries)",
+    "taxonomyEntryIds": ["style:baltic-style-porter"],
+    "logoUrl": null,
+    "websiteUrl": "https://baltika.ru/",
+    "description": "Rich, historic Baltic porter featuring deep dark chocolate and dried fruit flavors.",
+    "country": {
+      "name": "Russia",
+      "iso3166Alpha2": "RU"
+    }
+  },
+  {
+    "id": "brand-baltika-9-strong",
+    "name": "Baltika No. 9 Strong (Baltika Breweries)",
+    "taxonomyEntryIds": ["style:other-strong-ale-or-lager"],
+    "logoUrl": null,
+    "websiteUrl": "https://baltika.ru/",
+    "description": "High-gravity strong lager with a warming alcohol presence and full malt body.",
+    "country": {
+      "name": "Russia",
+      "iso3166Alpha2": "RU"
+    }
+  },
+  {
+    "id": "brand-yanjing-beer",
+    "name": "Beijing Yanjing Brewery",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "http://www.yanjingbeer.com/",
+    "description": "Beijing-flagship pale lager featuring a crisp malty smoothness and rice adjuncts.",
+    "country": {
+      "name": "China",
+      "iso3166Alpha2": "CN"
+    }
+  },
+  {
+    "id": "brand-bia-hanoi",
+    "name": "Bia Hanoi (HABECO)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.habeco.com.vn/",
+    "description": "Traditional northern Vietnamese pale lager featuring a distinct grain aroma and clean finish.",
+    "country": {
+      "name": "Vietnam",
+      "iso3166Alpha2": "VN"
+    }
+  },
+  {
+    "id": "brand-larue-beer-heineken",
+    "name": "Bia Larue (Heineken Vietnam)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.heinekenvietnam.com.vn/",
+    "description": "French-heritage pale lager popular across central Vietnam with a mild, fruity hint.",
+    "country": {
+      "name": "Vietnam",
+      "iso3166Alpha2": "VN"
+    }
+  },
+  {
+    "id": "brand-bia-saigon-special",
+    "name": "Bia Saigon Special (Sabeco)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.sabeco.com.vn/",
+    "description": "Vietnamese 100% malt pale lager brewed in Ho Chi Minh City.",
+    "country": {
+      "name": "Vietnam",
+      "iso3166Alpha2": "VN"
+    }
+  },
+  {
+    "id": "brand-bira91-white",
+    "name": "Bira 91 White (B9 Beverages)",
+    "taxonomyEntryIds": ["style:belgian-style-witbier"],
+    "logoUrl": null,
+    "websiteUrl": "https://bira91.com/",
+    "description": "Contemporary Indian craft-style wheat beer with low bitterness and citrus notes.",
+    "country": {
+      "name": "India",
+      "iso3166Alpha2": "IN"
+    }
+  },
+  {
+    "id": "brand-brahma",
+    "name": "Brahma (AB InBev)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.brahma.com.br/",
+    "description": "Classic Brazilian American-style adjunct pilsner with smooth carbonation and subtle malt sweetness.",
+    "country": {
+      "name": "Brazil",
+      "iso3166Alpha2": "BR"
+    }
+  },
+  {
+    "id": "brand-carling-black-label-sa",
+    "name": "Carling Black Label (SAB / AB InBev)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.sab.co.za/",
+    "description": "Robust full-flavored pale lager with a dedicated following across Southern Africa.",
+    "country": {
+      "name": "South Africa",
+      "iso3166Alpha2": "ZA"
+    }
+  },
+  {
+    "id": "brand-castle",
+    "name": "Castle Lager",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.sab.co.za/",
+    "description": "South Africa's flagship pale lager brewed with 100% local ingredients.",
+    "country": {
+      "name": "South Africa",
+      "iso3166Alpha2": "ZA"
+    }
+  },
+  {
+    "id": "brand-cruzcampo",
+    "name": "Cruzcampo (Heineken N.V.)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.cruzcampo.es/",
+    "description": "Andalusian pale lager known for its light body and refreshing character served cold.",
+    "country": {
+      "name": "Spain",
+      "iso3166Alpha2": "ES"
+    }
+  },
+  {
+    "id": "brand-devil-peak-first-light",
+    "name": "Devil's Peak First Light Golden Ale",
+    "taxonomyEntryIds": ["style:golden-or-blonde-ale"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.devilspeak.beer/",
+    "description": "Cape Town craft golden ale featuring accessible fruity hop characteristics.",
+    "country": {
+      "name": "South Africa",
+      "iso3166Alpha2": "ZA"
+    }
+  },
+  {
+    "id": "brand-eisenbahn-pilsen",
+    "name": "Eisenbahn Pilsen",
+    "taxonomyEntryIds": ["style:german-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.eisenbahn.com.br/",
+    "description": "Craft-origin Blumenau pilsner adhering to traditional German purity standards.",
+    "country": {
+      "name": "Brazil",
+      "iso3166Alpha2": "BR"
+    }
+  },
+  {
+    "id": "brand-estrella-damm",
+    "name": "Estrella Damm",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.damm.com/",
+    "description": "Mediterranean pale lager brewed in Barcelona with barley malt, rice, and hops.",
+    "country": {
+      "name": "Spain",
+      "iso3166Alpha2": "ES"
+    }
+  },
+  {
+    "id": "brand-godfather-strong",
+    "name": "Godfather Strong Beer",
+    "taxonomyEntryIds": ["style:other-strong-ale-or-lager"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.ncml.com/",
+    "description": "Prominent strong lager brand in northern India known for a bold malt bite.",
+    "country": {
+      "name": "India",
+      "iso3166Alpha2": "IN"
+    }
+  },
+  {
+    "id": "brand-hansa-pilsener-sa",
+    "name": "Hansa Pilsener (SAB / AB InBev)",
+    "taxonomyEntryIds": ["style:german-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.sab.co.za/",
+    "description": "Crisp pale lager uniquely incorporating Saaz hops for a distinct herbal aroma.",
+    "country": {
+      "name": "South Africa",
+      "iso3166Alpha2": "ZA"
+    }
+  },
+  {
+    "id": "brand-harbin-beer",
+    "name": "Harbin Lager",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.harbinbeer.com/",
+    "description": "China's oldest surviving brewery brand featuring a light European-style pilsner profile.",
+    "country": {
+      "name": "China",
+      "iso3166Alpha2": "CN"
+    }
+  },
+  {
+    "id": "brand-huda-beer",
+    "name": "Huda Beer",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.carlsbergvietnam.vn/",
+    "description": "Central Vietnamese regional pale lager brewed in cooperation with Carlsberg.",
+    "country": {
+      "name": "Vietnam",
+      "iso3166Alpha2": "VN"
+    }
+  },
+  {
+    "id": "brand-itaipava-pilsen",
+    "name": "Itaipava Pilsen",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.cervejariapetropolis.com.br/",
+    "description": "Widely distributed commercial pale lager produced by Grupo Petrópolis.",
+    "country": {
+      "name": "Brazil",
+      "iso3166Alpha2": "BR"
+    }
+  },
+  {
+    "id": "brand-kalyani-black-label",
+    "name": "Kalyani Black Label",
+    "taxonomyEntryIds": ["style:other-strong-ale-or-lager"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.unitedbreweries.com/",
+    "description": "One of India's oldest heavy lager brands with a sweet malt aroma and high gravity.",
+    "country": {
+      "name": "India",
+      "iso3166Alpha2": "IN"
+    }
+  },
+  {
+    "id": "brand-kingfisher",
+    "name": "Kingfisher (United Breweries / Heineken)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.unitedbreweries.com/",
+    "description": "Flagship Indian pale lager offering a smooth, approachable session profile.",
+    "country": {
+      "name": "India",
+      "iso3166Alpha2": "IN"
+    }
+  },
+  {
+    "id": "brand-kingfisher-strong",
+    "name": "Kingfisher Strong",
+    "taxonomyEntryIds": ["style:other-strong-ale-or-lager"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.unitedbreweries.com/",
+    "description": "High-strength Indian pale lager and malt liquor featuring a robust adjunct body.",
+    "country": {
+      "name": "India",
+      "iso3166Alpha2": "IN"
+    }
+  },
+  {
+    "id": "brand-kirin-ichiban",
+    "name": "Kirin Ichiban (Kirin Holdings)",
+    "taxonomyEntryIds": ["style:rice-lager"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.kirin.co.jp/",
+    "description": "First-press single-wort pale lager producing a clean, unadulterated malt flavor.",
+    "country": {
+      "name": "Japan",
+      "iso3166Alpha2": "JP"
+    }
+  },
+  {
+    "id": "brand-klinskoye-svetloye",
+    "name": "Klinskoye Svetloye (AB InBev Efes)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://baltika.ru/",
+    "description": "Light, refreshing Russian pale lager geared toward contemporary urban consumers.",
+    "country": {
+      "name": "Russia",
+      "iso3166Alpha2": "RU"
+    }
+  },
+  {
+    "id": "brand-mahou-cinco-estrellas",
+    "name": "Mahou Cinco Estrellas (Mahou San Miguel)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.mahou.es/",
+    "description": "Flagship Spanish pale lager with a well-balanced, full-bodied golden profile.",
+    "country": {
+      "name": "Spain",
+      "iso3166Alpha2": "ES"
+    }
+  },
+  {
+    "id": "brand-orion-draft-beer",
+    "name": "Orion Draft Beer",
+    "taxonomyEntryIds": ["style:rice-lager"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.orionbeer.co.jp/",
+    "description": "Okinawan refreshing pale lager featuring local milder malt and adjunct balance.",
+    "country": {
+      "name": "Japan",
+      "iso3166Alpha2": "JP"
+    }
+  },
+  {
+    "id": "brand-sapporo-draft-black-label",
+    "name": "Sapporo Draft Beer Black Label",
+    "taxonomyEntryIds": ["style:rice-lager"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.sapporohoritsu.jp/",
+    "description": "Classic Japanese pale lager with a refined malt balance and smooth mouthfeel.",
+    "country": {
+      "name": "Japan",
+      "iso3166Alpha2": "JP"
+    }
+  },
+  {
+    "id": "brand-skol",
+    "name": "Skol",
+    "taxonomyEntryIds": ["style:american-style-light-lager", "style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.ambev.com.br/",
+    "description": "Leading Brazilian pale lager featuring a light body and crisp finish with corn and rice adjuncts.",
+    "country": {
+      "name": "Brazil",
+      "iso3166Alpha2": "BR"
+    }
+  },
+  {
+    "id": "brand-snow-beer",
+    "name": "Snow Beer (CR Snow)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://global.crbeer.com.cn/",
+    "description": "High-selling classic pale lager with a light grain and subtle hop profile.",
+    "country": {
+      "name": "China",
+      "iso3166Alpha2": "CN"
+    }
+  },
+  {
+    "id": "brand-suntory-malts",
+    "name": "Suntory The Premium Malt's (Suntory)",
+    "taxonomyEntryIds": ["style:german-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.suntory.co.jp/",
+    "description": "Pilsner-style lager utilizing diamond malt and aroma hops for a rich floral bouquet.",
+    "country": {
+      "name": "Japan",
+      "iso3166Alpha2": "JP"
+    }
+  },
+  {
+    "id": "brand-tsingtao-lager",
+    "name": "Tsingtao Brewery (Tsingtao Brewery Group)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.tsingtao.com.cn/",
+    "description": "Internationally distributed pale lager brewed with malted barley, rice, and Laoshan spring water.",
+    "country": {
+      "name": "China",
+      "iso3166Alpha2": "CN"
+    }
+  },
+  {
+    "id": "brand-tsingtao-stout",
+    "name": "Tsingtao Stout",
+    "taxonomyEntryIds": ["style:export-style-stout"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.tsingtao.com.cn/",
+    "description": "Robust dark brew with roasted caramel malts and coffee notes adapted for international export.",
+    "country": {
+      "name": "China",
+      "iso3166Alpha2": "CN"
+    }
+  },
+  {
+    "id": "brand-voll-damm",
+    "name": "Voll-Damm (S.A. Damm)",
+    "taxonomyEntryIds": ["style:german-style-doppelbock"],
+    "logoUrl": null,
+    "websiteUrl": "https://www.damm.com/",
+    "description": "Strong double-malt Märzen-style lager offering a robust, full-bodied structure.",
+    "country": {
+      "name": "Spain",
+      "iso3166Alpha2": "ES"
+    }
+  },
+  {
+    "id": "brand-windhoek",
+    "name": "Windhoek Lager",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://windhoekbeer.com/",
+    "description": "Purity-law compliant premium lager brewed with malted barley, hops, and water.",
+    "country": {
+      "name": "Namibia",
+      "iso3166Alpha2": "NA"
+    }
+  },
+  {
+    "id": "brand-zhiguli-barnoe",
+    "name": "Zhiguli Barnoe",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://oldbrew.ru/",
+    "description": "Historic Moscow brand featuring a rich malt-forward profile brewed by ZAO Moscow Brewing Company.",
+    "country": {
+      "name": "Russia",
+      "iso3166Alpha2": "RU"
+    }
+  }
+]

@@ -1,4 +1,5 @@
 import { TestBed } from '@angular/core/testing';
+import { By } from '@angular/platform-browser';
 import { App } from './app';
 import { layoutTaxonomy } from './core/layout';
 import { validateTaxonomy } from './core/taxonomy.model';
@@ -11,6 +12,7 @@ import {
   createTaxonomyDocument,
   DEFAULT_RINGS,
 } from './core/data/taxonomy-data';
+import { TaxonomyViewport } from './taxonomy-viewport';
 describe('Beer Taxonomy Atlas', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({ imports: [App] }).compileComponents();
@@ -62,6 +64,42 @@ describe('Beer Taxonomy Atlas', () => {
       beerBrands.flatMap((brand) => brand.taxonomyEntryIds).every((id) => entryIds.has(id)),
     ).toBe(true);
     expect(brandsForEntry('style:american-style-india-pale-ale').length).toBeGreaterThan(100);
+    expect(brandsForEntry('style:gluten-free-beer').map((brand) => brand.name)).toEqual([
+      'Lakefront New Grist',
+      'Ground Breaker Brewing',
+      "Green's Gluten-Free Beer",
+    ]);
+    expect(new Set(beerBrands.map((brand) => brand.id)).size).toBe(beerBrands.length);
+    expect(beerTaxonomyEntries.every((entry) => brandsForEntry(entry.id).length > 0)).toBe(true);
+    expect(
+      beerBrands
+        .find((brand) => brand.id === 'brand-stone-arrogant-bastard')
+        ?.taxonomyEntryIds.includes('style:american-style-strong-pale-ale'),
+    ).toBe(true);
+    expect(
+      new Set(beerBrands.map((brand) => brand.country?.iso3166Alpha2).filter(Boolean)),
+    ).toEqual(new Set(['CN', 'BR', 'RU', 'ES', 'JP', 'ZA', 'VN', 'IN', 'NA']));
+    for (const [countryCode, expectedCount] of Object.entries({
+      CN: 5,
+      BR: 5,
+      RU: 5,
+      ES: 5,
+      JP: 5,
+      ZA: 4,
+      NA: 1,
+      VN: 5,
+      IN: 5,
+    })) {
+      expect(
+        beerBrands.filter((brand) => brand.country?.iso3166Alpha2 === countryCode).length,
+      ).toBeGreaterThanOrEqual(expectedCount);
+    }
+    expect(
+      beerBrands.find((brand) => brand.id === 'brand-asahi-super-dry')?.taxonomyEntryIds,
+    ).toContain('style:rice-lager');
+    expect(
+      beerBrands.find((brand) => brand.id === 'brand-kingfisher-strong')?.taxonomyEntryIds,
+    ).toEqual(['style:other-strong-ale-or-lager']);
   });
   it('validates the seed and reaches one root', () => {
     const doc = validateTaxonomy(seed);
@@ -77,6 +115,52 @@ describe('Beer Taxonomy Atlas', () => {
     );
     expect(scene?.hasAttribute('viewBox')).toBe(false);
     expect(scene?.querySelectorAll('.node').length).toBeGreaterThan(40);
+  });
+  it('opens and closes style details without moving the camera', async () => {
+    const fixture = TestBed.createComponent(App);
+    await fixture.whenStable();
+    const viewport = fixture.debugElement.query(By.directive(TaxonomyViewport))
+      .componentInstance as TaxonomyViewport;
+    const style = viewport.store.scene().nodes.find((node) => node.type === 'style')!;
+    const camera = { ...viewport.store.camera() };
+
+    viewport.immersiveFocus(style);
+    fixture.detectChanges();
+
+    expect(viewport.store.camera()).toEqual(camera);
+    expect(viewport.focusMode()).toBe(true);
+    expect((fixture.nativeElement as HTMLElement).textContent).not.toContain('Selected station');
+
+    const close = (fixture.nativeElement as HTMLElement).querySelector<HTMLButtonElement>(
+      '.details-close',
+    )!;
+    close.click();
+    fixture.detectChanges();
+    expect(viewport.store.selectedId()).toBeNull();
+    expect(viewport.focusMode()).toBe(false);
+  });
+  it('renders brands for Ginjo, Field and Experimental Beer details', async () => {
+    const fixture = TestBed.createComponent(App);
+    await fixture.whenStable();
+    const viewport = fixture.debugElement.query(By.directive(TaxonomyViewport))
+      .componentInstance as TaxonomyViewport;
+    const expected = new Map([
+      ['style:ginjo-beer-or-sake-yeast-beer', 4],
+      ['style:field-beer', 5],
+      ['style:experimental-beer', 4],
+    ]);
+
+    for (const [id, count] of expected) {
+      const style = viewport.store.scene().nodes.find((node) => node.id === id)!;
+      expect(brandsForEntry(id)).toHaveLength(count);
+      viewport.immersiveFocus(style);
+      fixture.detectChanges();
+      expect(
+        (fixture.nativeElement as HTMLElement).querySelectorAll('.focus-description .brand-tile')
+          .length,
+      ).toBe(count);
+      viewport.closeDetails();
+    }
   });
   it('lays nodes out deterministically without overlaps', () => {
     const doc = validateTaxonomy(seed);

@@ -180,9 +180,13 @@
 .focus-mode .orbit-guides {
   opacity: 0.18;
   filter: drop-shadow(0 0 14px #000);
-  transition:
-    opacity 280ms ease,
-    filter 280ms ease;
+  transition: none;
+}
+.viewport.focus-mode *,
+.viewport.focus-mode *::before,
+.viewport.focus-mode *::after {
+  animation: none !important;
+  transition: none !important;
 }
 .node rect {
   fill: #141917;
@@ -279,11 +283,8 @@
   background: #171c19ed;
   box-shadow: 0 15px 50px #0009;
   color: #e8ece7;
-  transition:
-    inset 420ms ease,
-    width 420ms ease,
-    height 420ms ease,
-    opacity 300ms ease;
+  z-index: 10;
+  transition: none;
 }
 .selection-title h2 {
   margin: 4px 0 14px;
@@ -337,6 +338,19 @@
   color: #a9b1ac;
   font-size: 12px;
   line-height: 1.45;
+}
+.popover h4 {
+  margin: 16px 0 8px;
+  color: #d7a34d;
+  font: 600 10px system-ui;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.compact-brand-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+.compact-brand-grid .brand-tile {
+  min-height: 72px;
 }
 .focus-columns {
   display: grid;
@@ -407,6 +421,12 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
+.brand-country {
+  color: #d5a44f;
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 .brand-tile img {
   width: 32px;
   height: 32px;
@@ -432,6 +452,7 @@
     inset 0 0 120px #0008,
     0 15px 50px #0009;
   overflow: auto;
+  transition: none;
 }
 .focus-popover .focus-columns {
   width: 100%;
@@ -445,32 +466,30 @@
   font-size: clamp(32px, 6vw, 76px);
   text-shadow: 0 5px 24px #000;
 }
-.selection-details > button {
+.selection-details > .details-close {
   position: absolute;
   right: 10px;
   top: 8px;
+  z-index: 4;
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  padding: 0;
   border: 0;
   background: none;
   color: #8f9993;
   font-size: 25px;
+  cursor: pointer;
+  pointer-events: auto;
+  touch-action: manipulation;
 }
-.focus-popover .focus-back {
-  position: absolute;
-  top: clamp(18px, 3vw, 36px);
-  right: clamp(18px, 3vw, 36px);
-  padding: 10px 14px;
-  border: 1px solid #ffffff30;
-  border-radius: 7px;
-  background: #202923;
-  color: #f2e4bf;
-  font-size: 12px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-.focus-popover .focus-back:hover,
-.focus-popover .focus-back:focus-visible {
-  background: #354238;
+.selection-details > .details-close:hover,
+.selection-details > .details-close:focus-visible {
+  border-radius: 6px;
+  background: #ffffff12;
   color: #fff;
+  outline: 1px solid #ffffff45;
 }
 .selection-details h2 {
   margin: 4px 0 8px;

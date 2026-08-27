@@ -1,0 +1,23 @@
+[
+  {
+    "id": "brand-lakefront-new-grist",
+    "name": "Lakefront New Grist",
+    "taxonomyEntryIds": ["style:gluten-free-beer"],
+    "websiteUrl": "https://lakefrontbrewery.com/beer/new-grist",
+    "description": "Gluten-free beer brewed with sorghum, rice and malted millet."
+  },
+  {
+    "id": "brand-ground-breaker-brewing",
+    "name": "Ground Breaker Brewing",
+    "taxonomyEntryIds": ["style:gluten-free-beer"],
+    "websiteUrl": "https://groundbreakerbrewing.com/",
+    "description": "Dedicated brewery producing naturally gluten-free ales, lagers and sour beers."
+  },
+  {
+    "id": "brand-greens-gluten-free",
+    "name": "Green's Gluten-Free Beer",
+    "taxonomyEntryIds": ["style:gluten-free-beer"],
+    "websiteUrl": "https://glutenfreebeers.com/",
+    "description": "Naturally gluten-free Belgian beer made without barley or wheat."
+  }
+]

@@ -117,15 +117,16 @@
       [class.focus-popover]="focusMode()"
       aria-label="Selected taxonomy path"
     >
-      @if (focusMode()) {
-        <button class="focus-back" type="button" (click)="backFromFocus()">Back to atlas</button>
-      } @else {
-        <button type="button" aria-label="Close details" (click)="store.selectedId.set(null)">
-          ×
-        </button>
-      }
+      <button
+        class="details-close"
+        type="button"
+        aria-label="Close details"
+        (pointerdown)="$event.stopPropagation()"
+        (click)="closeDetails($event)"
+      >
+        ×
+      </button>
       <div class="selection-title">
-        <span class="eyebrow">Selected station</span>
         <h2 class="title-with-indicators">
           <span>{{ n.title }}</span>
           @for (indicator of indicators(n); track indicator.sprite.id) {
@@ -151,6 +152,25 @@
                       ><small>{{ fact.label }}</small
                       ><strong>{{ fact.value }}</strong></span
                     >
+                  </div>
+                }
+                @if (!focusMode() && routeNode.id === n.id) {
+                  <h4>Potential brands</h4>
+                  <div class="brand-grid compact-brand-grid">
+                    @for (brand of visibleBrands(routeNode); track brand.id) {
+                      <a
+                        class="brand-tile"
+                        [href]="brandUrl(brand)"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <strong>{{ brand.name }}</strong>
+                        @if (brand.country; as country) {
+                          <span class="brand-country">{{ country.name }}</span>
+                        }
+                        <small>{{ brand.description || 'Open brand' }}</small>
+                      </a>
+                    }
                   </div>
                 }
               } @else {
@@ -183,8 +203,16 @@
                     @if (brand.logoUrl) {
                       <img [src]="brand.logoUrl" [alt]="brand.name + ' logo'" />
                     }
-                    <strong>{{ brand.name }}</strong
-                    ><small>{{ brand.description || 'Open brand' }}</small></a
+                    <strong>{{ brand.name }}</strong>
+                    @if (brand.country; as country) {
+                      <span class="brand-country">
+                        {{ country.name }}
+                        @if (country.region) {
+                          · {{ country.region }}
+                        }
+                      </span>
+                    }
+                    <small>{{ brand.description || 'Open brand' }}</small></a
                   >
                 }
               </div>

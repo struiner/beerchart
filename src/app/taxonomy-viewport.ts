@@ -38,7 +38,6 @@ export class TaxonomyViewport {
     return route.filter((routeNode) => routeNode.depth !== 0);
   });
   private drag?: { x: number; y: number; cx: number; cy: number };
-  private focusAnimation?: number;
 
   constructor() {
     afterNextRender(() => this.fit());
@@ -136,56 +135,14 @@ export class TaxonomyViewport {
   }
   immersiveFocus(n: SceneNode) {
     this.store.selectedId.set(n.id);
+    this.focusRotation.set(0);
     this.focusMode.set(true);
-    this.animateFocus(n);
   }
-  backFromFocus() {
-    if (this.focusAnimation) cancelAnimationFrame(this.focusAnimation);
+  closeDetails(event?: Event) {
+    event?.stopPropagation();
     this.focusMode.set(false);
     this.focusRotation.set(0);
-    this.fit();
-  }
-  private animateFocus(n: SceneNode) {
-    if (this.focusAnimation) cancelAnimationFrame(this.focusAnimation);
-    const rect = this.host().nativeElement.getBoundingClientRect();
-    const start = { ...this.store.camera(), rotation: this.focusRotation() };
-    const scale = Math.min(1.15, Math.max(start.scale, 0.82));
-    const rotation = ((270 - n.angle + 540) % 360) - 180;
-    const radians = (rotation * Math.PI) / 180;
-    const center = this.store.scene();
-    const rotatedX =
-      center.centerX +
-      (n.centerX - center.centerX) * Math.cos(radians) -
-      (n.centerY - center.centerY) * Math.sin(radians);
-    const rotatedY =
-      center.centerY +
-      (n.centerX - center.centerX) * Math.sin(radians) +
-      (n.centerY - center.centerY) * Math.cos(radians);
-    const target = {
-      x: Math.max(0, rect.width * 0.28) - rotatedX * scale,
-      y: 76 - rotatedY * scale,
-    };
-    const reduced =
-      matchMedia('(prefers-reduced-motion: reduce)').matches || !this.store.settings().animations;
-    if (reduced) {
-      this.focusRotation.set(rotation);
-      this.store.setCamera({ ...target, scale });
-      return;
-    }
-    const startedAt = performance.now();
-    const duration = 720;
-    const tick = (now: number) => {
-      const progress = Math.min(1, (now - startedAt) / duration);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      this.focusRotation.set(start.rotation + (rotation - start.rotation) * eased);
-      this.store.setCamera({
-        x: start.x + (target.x - start.x) * eased,
-        y: start.y + (target.y - start.y) * eased,
-        scale: start.scale + (scale - start.scale) * eased,
-      });
-      if (progress < 1) this.focusAnimation = requestAnimationFrame(tick);
-    };
-    this.focusAnimation = requestAnimationFrame(tick);
+    this.store.selectedId.set(null);
   }
   fit() {
     if (this.focusMode()) return;
