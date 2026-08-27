@@ -37,6 +37,30 @@ export class TaxonomyViewport {
     }
     return route.filter((routeNode) => routeNode.depth !== 0);
   });
+  readonly detailContents = computed(() => {
+    const selected = this.store.selected();
+    if (!selected) return { categories: [], styles: [], brands: [] };
+    const descendants: SceneNode[] = [];
+    const pending = [selected.id];
+    while (pending.length) {
+      const parentId = pending.shift()!;
+      const children = this.store
+        .scene()
+        .nodes.filter((node) => node.parentId === parentId)
+        .sort((a, b) => a.depth - b.depth || a.order - b.order || a.title.localeCompare(b.title));
+      descendants.push(...children);
+      pending.push(...children.map((node) => node.id));
+    }
+    const categories = descendants.filter((node) => node.type !== 'style');
+    const styles = descendants.filter((node) => node.type === 'style');
+    const brandStyles = selected.type === 'style' ? [selected] : styles;
+    const brands = [
+      ...new Map(
+        brandStyles.flatMap((style) => brandsForEntry(style.id)).map((brand) => [brand.id, brand]),
+      ).values(),
+    ].sort((a, b) => a.name.localeCompare(b.name));
+    return { categories, styles, brands };
+  });
   private drag?: { x: number; y: number; cx: number; cy: number };
 
   constructor() {
@@ -87,6 +111,9 @@ export class TaxonomyViewport {
   indicators(n: SceneNode) {
     const entry = this.store.entriesById.get(n.id);
     return entry ? indicatorsForEntry(entry) : [];
+  }
+  openDetail(n: SceneNode) {
+    this.immersiveFocus(n);
   }
   brandUrl(brand: BeerBrand) {
     return brand.websiteUrl ?? `https://www.google.com/search?q=${encodeURIComponent(brand.name)}`;

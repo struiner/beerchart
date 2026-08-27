@@ -392,6 +392,41 @@
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
+.descendant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
+}
+.descendant-grid button {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #ffffff20;
+  border-radius: 8px;
+  background: #202722;
+  color: #e8ece7;
+  text-align: left;
+  cursor: pointer;
+}
+.descendant-grid button:hover,
+.descendant-grid button:focus-visible {
+  border-color: #d7a34d;
+  background: #2b332d;
+  outline: 0;
+}
+.descendant-grid small {
+  color: #d5a44f;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.descendant-grid strong {
+  overflow: hidden;
+  font-size: 11px;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+}
 .brand-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(80px, 1fr));

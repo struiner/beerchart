@@ -192,13 +192,36 @@
             </h3>
             <p>{{ profile(n).description }}</p>
             <p class="author">Written by <strong>Beer Taxonomy Atlas editorial</strong></p>
-            <h4>Potential brands</h4>
-            @if (brands(n).length) {
+            @if (detailContents().categories.length) {
+              <h4>Underlying categories</h4>
+              <div class="descendant-grid category-grid">
+                @for (category of detailContents().categories; track category.id) {
+                  <button type="button" (click)="openDetail(category)">
+                    <small>{{ category.type }}</small>
+                    <strong>{{ category.title }}</strong>
+                  </button>
+                }
+              </div>
+            }
+            @if (detailContents().styles.length) {
+              <h4>Underlying styles</h4>
+              <div class="descendant-grid style-grid">
+                @for (style of detailContents().styles; track style.id) {
+                  <button type="button" (click)="openDetail(style)">
+                    <small>{{ style.family }}</small>
+                    <strong>{{ style.title }}</strong>
+                  </button>
+                }
+              </div>
+            }
+            <h4>{{ n.type === 'style' ? 'Potential brands' : 'Underlying brands' }}</h4>
+            @if (detailContents().brands.length) {
               <p class="brand-count">
-                Showing {{ visibleBrands(n).length }} of {{ brands(n).length }} linked brands
+                {{ detailContents().brands.length }} linked
+                {{ detailContents().brands.length === 1 ? 'brand' : 'brands' }}
               </p>
               <div class="brand-grid">
-                @for (brand of visibleBrands(n); track brand.id) {
+                @for (brand of detailContents().brands; track brand.id) {
                   <a class="brand-tile" [href]="brandUrl(brand)" target="_blank" rel="noreferrer">
                     @if (brand.logoUrl) {
                       <img [src]="brand.logoUrl" [alt]="brand.name + ' logo'" />

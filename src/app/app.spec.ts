@@ -162,6 +162,30 @@ describe('Beer Taxonomy Atlas', () => {
       viewport.closeDetails();
     }
   });
+  it('orders category descendants before styles and aggregated brands', async () => {
+    const fixture = TestBed.createComponent(App);
+    await fixture.whenStable();
+    const viewport = fixture.debugElement.query(By.directive(TaxonomyViewport))
+      .componentInstance as TaxonomyViewport;
+    const category = viewport.store
+      .scene()
+      .nodes.find((node) => node.type === 'category' && node.depth === 1)!;
+
+    viewport.immersiveFocus(category);
+    fixture.detectChanges();
+    const contents = viewport.detailContents();
+    expect(contents.categories.length).toBeGreaterThan(0);
+    expect(contents.styles.length).toBeGreaterThan(0);
+    expect(contents.brands.length).toBeGreaterThan(0);
+    expect(new Set(contents.brands.map((brand) => brand.id)).size).toBe(contents.brands.length);
+
+    const headings = [
+      ...(fixture.nativeElement as HTMLElement).querySelectorAll('.focus-description h4'),
+    ]
+      .map((heading) => heading.textContent?.trim())
+      .slice(0, 3);
+    expect(headings).toEqual(['Underlying categories', 'Underlying styles', 'Underlying brands']);
+  });
   it('lays nodes out deterministically without overlaps', () => {
     const doc = validateTaxonomy(seed);
     const a = layoutTaxonomy(doc.nodes),
