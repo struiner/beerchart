@@ -13,11 +13,19 @@ npm run build
 
 ## Architecture
 
-- `src/assets/taxonomy.json` is the versioned seed document. `validateTaxonomy` checks schema version, IDs, parent integrity, one root, and cycles before state is committed.
-- `src/app/core/layout.ts` is a deterministic, framework-neutral radial metro-map layout engine. It places family and category interchanges on concentric orbits and all 168 styles on the outer station ring.
+- `src/app/datasets/beer/` owns the beer contracts, records, interpretation, presentation preset, and sprite assets behind one public entry point.
+- `src/app/application-taxonomy.ts` is the sole production composition boundary. Choosing another taxonomy requires changing that import, not the generic engine or shell.
+- `src/app/taxonomy/` contains the dataset-independent contracts and deterministic projection, layout, presentation, profile, search, and validation engines.
 - `AppStore` owns taxonomy, camera, selection, highlighted ancestry, viewport settings, and versioned persistence using Angular signals.
 - `TaxonomyViewport` renders accessible, keyboard-addressable SVG nodes. HTML overlays provide the minimap, popover, menu, and dialogs.
 - Backend-dependent surfaces explicitly show unavailable states rather than inventing user or submission data.
+
+## Authoring another taxonomy
+
+Start with [the Taxonomy SDK guide](docs/taxonomy-sdk/README.md) and copy
+`templates/taxonomy/minimal-taxonomy.ts`. Dataset production code imports only from
+`src/app/taxonomy/public-api.ts`; reusable test support is exported separately from
+`src/app/taxonomy/testing/public-api.ts`.
 
 ## Controls
 

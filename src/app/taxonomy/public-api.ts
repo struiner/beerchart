@@ -1,5 +1,5 @@
 export { defineTaxonomy } from './contracts/define-taxonomy';
-export { provideTaxonomy } from './contracts/taxonomy-provider';
+export { provideTaxonomy, provideTaxonomyCatalog } from './contracts/taxonomy-provider';
 export { validateTaxonomyModule } from './validation/validate-taxonomy-module';
 
 export type {
@@ -7,6 +7,7 @@ export type {
   ProfileSectionViewModel,
   RelatedEntity,
   ResolvedIcon,
+  SourceReference,
   TaxonomyContent,
   TaxonomyContentSection,
   TaxonomyDimension,
@@ -22,6 +23,7 @@ export type {
   TaxonomyThemePreset as TaxonomyTheme,
   TaxonomyVocabulary,
 } from './contracts/taxonomy';
+export type { TaxonomyCatalogItem } from './contracts/taxonomy-provider';
 export type {
   TaxonomyValidationIssue,
   TaxonomyValidationResult,

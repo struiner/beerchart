@@ -11,6 +11,7 @@ export interface PresentationLayoutToken {
   readonly width: number;
   readonly height: number;
   readonly priority: number;
+  readonly minimumLabelZoom?: number;
 }
 
 export interface PresentedNode {

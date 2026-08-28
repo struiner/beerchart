@@ -6,15 +6,31 @@ export default defineConfig({
   retries: 0,
   use: {
     baseURL: 'http://127.0.0.1:4200',
-    viewport: { width: 1440, height: 1000 },
-    deviceScaleFactor: 1,
-    colorScheme: 'light',
     reducedMotion: 'reduce',
     screenshot: 'only-on-failure',
   },
+  projects: [
+    {
+      name: 'interaction-chromium',
+      testIgnore: /visual\.spec\.ts/,
+      use: { browserName: 'chromium' },
+    },
+    {
+      name: 'visual-chromium',
+      testMatch: /visual\.spec\.ts/,
+      snapshotPathTemplate:
+        '{testDir}/{testFilePath}-snapshots/{projectName}/{platform}/{arg}{ext}',
+      use: {
+        browserName: 'chromium',
+        viewport: { width: 1440, height: 1000 },
+        deviceScaleFactor: 1,
+        colorScheme: 'light',
+      },
+    },
+  ],
   webServer: {
-    command: 'npm start -- --host 127.0.0.1',
+    command: 'npm run start:e2e',
     url: 'http://127.0.0.1:4200',
-    reuseExistingServer: true,
+    reuseExistingServer: false,
   },
 });

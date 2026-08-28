@@ -8,11 +8,27 @@ import { indicatorForFilter, indicatorsForEntry } from './datasets/beer/presenta
 import { TaxonomyViewport } from './taxonomy-viewport';
 import { provideTaxonomy } from './taxonomy/contracts/taxonomy-provider';
 import { beerTaxonomyModule } from './datasets/beer';
+import { ecoregionTaxonomy } from './datasets/ecoregions';
+import { provideTaxonomyCatalog } from './taxonomy/public-api';
 describe('Beer Taxonomy Atlas', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [App],
-      providers: [provideTaxonomy(beerTaxonomyModule)],
+      providers: [
+        provideTaxonomy(beerTaxonomyModule),
+        provideTaxonomyCatalog([
+          {
+            id: beerTaxonomyModule.meta.id,
+            title: 'Beer styles',
+            load: async () => beerTaxonomyModule,
+          },
+          {
+            id: ecoregionTaxonomy.meta.id,
+            title: 'Terrestrial ecoregions',
+            load: async () => ecoregionTaxonomy,
+          },
+        ]),
+      ],
     }).compileComponents();
   });
   it('renders the minimal shell', async () => {
@@ -27,6 +43,20 @@ describe('Beer Taxonomy Atlas', () => {
     expect(el.querySelector('app-filter-tag-select')).toBeTruthy();
     expect(el.querySelector('.minimap')).toBeFalsy();
     expect(el.querySelector('.entry-search input')).toBeTruthy();
+  });
+  it('offers every application taxonomy through the toolbar switcher', async () => {
+    const fixture = TestBed.createComponent(App);
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const options = [
+      ...(fixture.nativeElement as HTMLElement).querySelectorAll<HTMLOptionElement>(
+        '[data-testid="taxonomy-switcher"] option',
+      ),
+    ];
+    expect(options.map(({ textContent }) => textContent?.trim())).toEqual([
+      'Beer styles',
+      'Terrestrial ecoregions',
+    ]);
   });
   it('renders About content owned by the beer dataset', async () => {
     const fixture = TestBed.createComponent(App);

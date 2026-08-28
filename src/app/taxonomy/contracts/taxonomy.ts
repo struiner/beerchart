@@ -248,6 +248,7 @@ export interface StationMetric {
   readonly width: number;
   readonly height: number;
   readonly priority: number;
+  readonly minimumLabelZoom?: number;
 }
 
 export interface TaxonomyLayoutPresentation {

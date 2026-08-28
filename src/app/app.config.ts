@@ -5,13 +5,13 @@ import {
 } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { routes } from './app.routes';
-import { ACTIVE_TAXONOMY_PROVIDER } from './taxonomy-module.provider';
+import type { Provider } from '@angular/core';
 
-export const appConfig: ApplicationConfig = {
+export const createAppConfig = (taxonomyProviders: readonly Provider[]): ApplicationConfig => ({
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideZonelessChangeDetection(),
     provideRouter(routes),
-    ACTIVE_TAXONOMY_PROVIDER,
+    ...taxonomyProviders,
   ],
-};
+});

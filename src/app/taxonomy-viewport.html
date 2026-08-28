@@ -61,10 +61,17 @@
             (keydown.enter)="select(node)"
             (keydown.space)="select(node); $event.preventDefault()"
           >
+            <circle
+              class="taxonomy-node-hit"
+              [attr.r]="hitRadius(node)"
+              fill="transparent"
+              aria-hidden="true"
+            />
             @if (node.layout.shape === 'circle') {
-              <circle [attr.r]="node.layout.width / 2" />
+              <circle class="taxonomy-node-mark" [attr.r]="node.layout.width / 2" />
             } @else {
               <rect
+                class="taxonomy-node-mark"
                 [attr.x]="-node.layout.width / 2"
                 [attr.y]="-node.layout.height / 2"
                 [attr.width]="node.layout.width"
@@ -72,8 +79,9 @@
                 rx="12"
               />
             }
-            @if (node.kind !== 'entry' || store.settings().labels) {
+            @if (showLabel(node)) {
               <text
+                class="taxonomy-node-label"
                 [attr.x]="labelX(node)"
                 [attr.y]="labelY(node)"
                 [attr.text-anchor]="labelAnchor(node)"

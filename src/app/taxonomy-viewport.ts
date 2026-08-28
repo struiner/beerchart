@@ -63,6 +63,13 @@ export class TaxonomyViewport {
     if (!this.radialLabel(node)) return 'middle';
     return this.labelX(node) < 0 ? 'end' : 'start';
   }
+  showLabel(node: PositionedNode) {
+    if (this.store.focusedRouteInstanceIds().includes(node.instanceId)) return true;
+    return (
+      this.store.settings().labels &&
+      this.store.camera().scale >= (node.layout.minimumLabelZoom ?? 0)
+    );
+  }
   pointerDown(event: PointerEvent) {
     if (
       (event.target as Element).closest(
@@ -138,6 +145,9 @@ export class TaxonomyViewport {
   root() {
     const root = this.store.positionedScene().nodes.find(({ kind }) => kind === 'root');
     if (root) this.select(root);
+  }
+  hitRadius(node: PositionedNode): number {
+    return Math.max(22, node.layout.width / 2, node.layout.height / 2);
   }
   @HostListener('window:keydown', ['$event']) keys(event: KeyboardEvent) {
     if (event.target instanceof HTMLElement && event.target.matches('input,textarea,select'))

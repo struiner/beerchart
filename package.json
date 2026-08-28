@@ -4,8 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:e2e": "ng serve --configuration development --host 127.0.0.1",
     "check:boundaries": "node tools/check-taxonomy-boundaries.mjs",
-    "prebuild": "npm run check:boundaries",
+    "ecoregions:acquire": "tsx src/app/datasets/ecoregions/tools/acquire-ecoregion-source.mts",
+    "ecoregions:generate": "tsx src/app/datasets/ecoregions/tools/generate-ecoregions.mts",
+    "ecoregions:check": "tsx src/app/datasets/ecoregions/tools/generate-ecoregions.mts --check",
+    "prebuild": "npm run check:boundaries && npm run ecoregions:check",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",

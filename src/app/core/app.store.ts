@@ -1,6 +1,6 @@
 import { Injectable, computed, inject, signal } from '@angular/core';
 import { TaxonomyModule } from '../taxonomy/contracts/taxonomy';
-import { TAXONOMY_MODULE } from '../taxonomy/contracts/taxonomy-provider';
+import { TAXONOMY_CATALOG, TAXONOMY_MODULE } from '../taxonomy/contracts/taxonomy-provider';
 import { evaluateTaxonomyFilters } from '../taxonomy/filtering/evaluate-taxonomy-filters';
 import { createTaxonomyIndexes } from '../taxonomy/indexes/create-taxonomy-indexes';
 import { layoutCircularTaxonomy, PositionedNode } from '../taxonomy/layout/circular-layout';
@@ -32,10 +32,15 @@ const baseDefaults: ViewportSettings = {
   animations: true,
   wheelMode: 'pan',
 };
+const MINIMUM_CAMERA_SCALE = 0.04;
+const MAXIMUM_CAMERA_SCALE = 2.4;
 
 @Injectable({ providedIn: 'root' })
 export class AppStore {
   readonly module = inject(TAXONOMY_MODULE) as TaxonomyModule;
+  readonly taxonomyCatalog = inject(TAXONOMY_CATALOG, { optional: true }) ?? [
+    { id: this.module.meta.id, title: this.module.meta.title, load: async () => this.module },
+  ];
   readonly validation = validateTaxonomyModule(this.module);
   readonly indexes = createTaxonomyIndexes(this.module);
   readonly e2eMode = new URLSearchParams(globalThis.location?.search ?? '').has('e2e');
@@ -202,14 +207,20 @@ export class AppStore {
     this.camera.update((camera) => ({
       ...camera,
       ...patch,
-      scale: Math.min(2.4, Math.max(0.22, patch.scale ?? camera.scale)),
+      scale: Math.min(
+        MAXIMUM_CAMERA_SCALE,
+        Math.max(MINIMUM_CAMERA_SCALE, patch.scale ?? camera.scale),
+      ),
     }));
     if (!this.e2eMode)
       localStorage.setItem(`${this.storagePrefix}.camera`, JSON.stringify(this.camera()));
   }
   zoom(factor: number, px = innerWidth / 2, py = innerHeight / 2) {
     const camera = this.camera();
-    const scale = Math.min(2.4, Math.max(0.22, camera.scale * factor));
+    const scale = Math.min(
+      MAXIMUM_CAMERA_SCALE,
+      Math.max(MINIMUM_CAMERA_SCALE, camera.scale * factor),
+    );
     this.setCamera({
       scale,
       x: px - ((px - camera.x) * scale) / camera.scale,
@@ -243,7 +254,8 @@ export class AppStore {
       else next[index] = dimensionId;
       return next;
     });
-    localStorage.setItem(`${this.storagePrefix}.rings`, JSON.stringify(this.ringOrder()));
+    if (!this.e2eMode)
+      localStorage.setItem(`${this.storagePrefix}.rings`, JSON.stringify(this.ringOrder()));
     this.clearSelection();
   }
   toggleFilter(token: string) {
@@ -319,6 +331,12 @@ export class AppStore {
   search(query: string) {
     return searchTaxonomy(this.searchIndex, query);
   }
+  switchTaxonomy(id: string) {
+    if (id === this.module.meta.id || !this.taxonomyCatalog.some((item) => item.id === id)) return;
+    const url = new URL(globalThis.location.href);
+    url.searchParams.set('taxonomy', id);
+    globalThis.location.assign(url);
+  }
 
   private reconcileFocusedInstance() {
     const focused = this.focusedInstanceId();
@@ -357,6 +375,7 @@ export class AppStore {
   private readRingOrder(): readonly string[] {
     void this.storageMigration;
     const fallback = this.module.interpretation.projection.defaultRingOrder;
+    if (this.e2eMode) return fallback;
     try {
       const stored = JSON.parse(localStorage.getItem(`${this.storagePrefix}.rings`) ?? 'null');
       const candidate = Array.isArray(stored)

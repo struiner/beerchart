@@ -1,0 +1,34 @@
+{
+  "frameworkId": "one-earth-bioregions-2023",
+  "sourceVersion": "Bioregions 2023 / RESOLVE Ecoregions 2017",
+  "attribution": "One Earth Bioregions Framework, One Earth (2023), Los Angeles, CA; RESOLVE / UNEP-WCMC.",
+  "license": "Hierarchy: CC BY-NC 4.0. RESOLVE attribute service: CC BY 4.0. No polygon assets included.",
+  "importedAt": "2026-08-28T18:57:15.420Z",
+  "inputChecksum": "sha256:a576577a09dcb3c76a13c6ee00adc2550e30db4d7fb6fe93cbdb463ee5a8f190",
+  "acquisitionVersion": "1.0.0",
+  "derivations": [
+    {
+      "field": "subrealm",
+      "rule": "Normalize the legacy CSV label \"Alaskan Tundra\" to the current One Earth subrealm \"Alaska\".",
+      "source": "https://www.oneearth.org/bioregions-2023/"
+    },
+    {
+      "field": "biome",
+      "rule": "Join One Earth numeric ecoregion IDs to the RESOLVE attribute service eco_id.",
+      "source": "https://data-gis.unep-wcmc.org/server/rest/services/Bio-geographicalRegions/Resolve_Ecoregions/MapServer/0/query?where=1%3D1&outFields=eco_id%2Ceco_name%2Cbiome_num%2Cbiome_name%2Crealm%2Clicense&returnGeometry=false&f=json"
+    }
+  ],
+  "expected": {
+    "realms": 14,
+    "subrealms": 53,
+    "bioregions": 185,
+    "ecoregions": 844,
+    "biomes": 14
+  },
+  "sources": [
+    "https://datahub.io/climate-and-environment/bioregions-2023/_r/-/data/bioregions.csv",
+    "https://www.oneearth.org/api/bioregions.json",
+    "https://www.oneearth.org/api/bioregion/{id}/data.json",
+    "https://data-gis.unep-wcmc.org/server/rest/services/Bio-geographicalRegions/Resolve_Ecoregions/MapServer/0/query?where=1%3D1&outFields=eco_id%2Ceco_name%2Cbiome_num%2Cbiome_name%2Crealm%2Clicense&returnGeometry=false&f=json"
+  ]
+}

@@ -1,5 +1,10 @@
-import { Provider } from '@angular/core';
-import { applicationTaxonomy } from './application-taxonomy';
-import { provideTaxonomy } from './taxonomy/contracts/taxonomy-provider';
+import type { Provider } from '@angular/core';
+import { applicationTaxonomyCatalog, loadApplicationTaxonomy } from './application-taxonomy';
+import { provideTaxonomy, provideTaxonomyCatalog } from './taxonomy/public-api';
 
-export const ACTIVE_TAXONOMY_PROVIDER: Provider = provideTaxonomy(applicationTaxonomy);
+export async function resolveActiveTaxonomyProviders(): Promise<Provider[]> {
+  return [
+    provideTaxonomy(await loadApplicationTaxonomy()),
+    provideTaxonomyCatalog(applicationTaxonomyCatalog),
+  ];
+}

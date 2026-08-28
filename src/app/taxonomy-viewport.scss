@@ -64,6 +64,13 @@
   stroke-width: 2;
   stroke-dasharray: 8 15;
 }
+.orbit-guides,
+.connectors,
+.taxonomy-node-label,
+.taxonomy-node-mark,
+.projection-warning {
+  pointer-events: none;
+}
 .connectors path {
   fill: none;
   stroke: var(--tx-olive-light);
@@ -81,6 +88,10 @@
 .generic-node {
   outline: none;
   cursor: pointer;
+  pointer-events: none;
+}
+.taxonomy-node-hit {
+  pointer-events: all;
 }
 .generic-node circle,
 .generic-node rect {

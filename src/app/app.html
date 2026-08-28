@@ -8,6 +8,21 @@
     >
   </div>
   <nav class="controls" aria-label="Viewport controls">
+    @if (store.taxonomyCatalog.length > 1) {
+      <label class="taxonomy-switcher">
+        <span class="sr-only">Active taxonomy</span>
+        <select
+          data-testid="taxonomy-switcher"
+          aria-label="Dataset"
+          [value]="store.module.meta.id"
+          (change)="store.switchTaxonomy($any($event.target).value)"
+        >
+          @for (item of store.taxonomyCatalog; track item.id) {
+            <option [value]="item.id">{{ item.title }}</option>
+          }
+        </select>
+      </label>
+    }
     <button type="button" aria-label="Zoom out" data-tip="Zoom out" (click)="store.zoom(0.82)">
       −</button
     ><button
@@ -29,7 +44,11 @@
     <div class="entry-search">
       <input
         data-testid="taxonomy-search"
-        aria-label="Search entries"
+        role="combobox"
+        aria-label="Search taxonomy"
+        aria-autocomplete="list"
+        [attr.aria-expanded]="searchSuggestions().length > 0"
+        aria-controls="taxonomy-search-results"
         [placeholder]="'Search ' + store.module.vocabulary.entryPlural.toLowerCase()"
         [value]="searchQuery()"
         (input)="searchQuery.set($any($event.target).value)"
@@ -46,9 +65,19 @@
         </button>
       }
       @if (searchSuggestions().length) {
-        <div class="search-suggestions" role="listbox">
+        <div
+          id="taxonomy-search-results"
+          class="search-suggestions"
+          role="listbox"
+          data-testid="taxonomy-search-results"
+        >
           @for (result of searchSuggestions(); track result.document.id) {
-            <button type="button" role="option" (click)="selectSearchResult(result.document)">
+            <button
+              type="button"
+              role="option"
+              [attr.aria-label]="result.document.title"
+              (click)="selectSearchResult(result.document)"
+            >
               <strong>{{ result.document.title }}</strong
               ><small>{{ result.document.subtitle || result.document.targetType }}</small>
             </button>
@@ -244,7 +273,7 @@
           }
         }
         @case ('account-data') {
-          @let rows = storageRows();>>>>>>>>>>>><span class="eyebrow">Account</span>
+          @let rows = storageRows();>>>>>>>>>>>>>><span class="eyebrow">Account</span>
           <h1 id="account-data-title">Application data</h1>
           <p>Only application-owned, script-readable local data is shown.</p>
           @if (rows.length) {
@@ -259,7 +288,7 @@
           }
         }
         @case ('settings-data') {
-          @let rows = storageRows();>>>>>>>>>>>><span class="eyebrow">Settings</span>
+          @let rows = storageRows();>>>>>>>>>>>>>><span class="eyebrow">Settings</span>
           <h1 id="settings-data-title">Data controls</h1>
           <p>{{ rows.length }} application-owned namespaces are stored locally.</p>
           <button class="secondary">Export settings JSON</button

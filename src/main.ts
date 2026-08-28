@@ -1,6 +1,8 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
+import { createAppConfig } from './app/app.config';
 import { App } from './app/app';
+import { resolveActiveTaxonomyProviders } from './app/taxonomy-module.provider';
 
-bootstrapApplication(App, appConfig)
+resolveActiveTaxonomyProviders()
+  .then((providers) => bootstrapApplication(App, createAppConfig(providers)))
   .catch((err) => console.error(err));
