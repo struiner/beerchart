@@ -10,6 +10,7 @@ export interface AtlasSprite {
     readonly w: number;
     readonly h: number;
   };
+  readonly grid: { readonly row: number; readonly column: number; readonly index: number };
   readonly contextUsage?: { readonly description?: string };
 }
 export interface EntryIndicator {
@@ -122,6 +123,9 @@ export function indicatorForFilter(option?: BeerFilterOption): EntryIndicator | 
         : `ingredient.${option.value}`;
       break;
     case 'origin':
+      id = 'taxonomy.placement';
+      break;
+    case 'brand-country':
       id = 'taxonomy.placement';
       break;
     case 'tag':

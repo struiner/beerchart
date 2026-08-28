@@ -9,12 +9,32 @@ import {
 import { DatePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AppStore } from './core/app.store';
-import { BeerTaxonomyEntry } from './core/data/beer-taxonomy-entry';
 import { TaxonomyViewport } from './taxonomy-viewport';
 import { FilterTagSelect } from './filter-tag-select';
 import { RingSeparationMenu } from './ring-separation-menu';
+import { SearchDocument } from './taxonomy/contracts/taxonomy';
 @Component({
   selector: 'app-root',
+  host: {
+    '[attr.data-taxonomy-theme]': 'store.theme.id',
+    '[attr.data-taxonomy-texture]': 'store.theme.texture',
+    '[style.--tx-texture-strength]': "store.theme.texture === 'paper-ledger' ? '6%' : '0%'",
+    '[style.--tx-texture-opacity]': "store.theme.texture === 'paper-ledger' ? '0.1' : '0'",
+    '[style.--tx-ink]': 'store.theme.tokens.ink',
+    '[style.--tx-deep-ink]': 'store.theme.tokens.deepInk',
+    '[style.--tx-olive]': 'store.theme.tokens.olive',
+    '[style.--tx-olive-light]': 'store.theme.tokens.oliveLight',
+    '[style.--tx-paper]': 'store.theme.tokens.paper',
+    '[style.--tx-paper-light]': 'store.theme.tokens.paperLight',
+    '[style.--tx-paper-dark]': 'store.theme.tokens.paperDark',
+    '[style.--tx-brass]': 'store.theme.tokens.brass',
+    '[style.--tx-amber]': 'store.theme.tokens.amber',
+    '[style.--tx-yellow]': 'store.theme.tokens.yellow',
+    '[style.--tx-teal]': 'store.theme.tokens.teal',
+    '[style.--tx-oxblood]': 'store.theme.tokens.oxblood',
+    '[style.--tx-green]': 'store.theme.tokens.green',
+    '[style.--tx-blue]': 'store.theme.tokens.blue',
+  },
   imports: [FormsModule, DatePipe, TaxonomyViewport, FilterTagSelect, RingSeparationMenu],
   templateUrl: './app.html',
   styleUrl: './app.scss',
@@ -26,38 +46,41 @@ export class App {
   readonly accountOpen = signal(false);
   readonly settingsOpen = signal(false);
   readonly dialog = signal<string | null>(null);
-  readonly draft = signal({ title: '', type: '', description: '', placement: 'beer' });
+  readonly draft = signal({
+    title: '',
+    type: '',
+    description: '',
+    placement:
+      this.store.module.records.groups.find(({ parentGroupId }) => parentGroupId === null)?.id ??
+      '',
+  });
   readonly searchQuery = signal('');
   readonly searchSuggestions = computed(() => {
-    const terms = this.searchTerms();
-    if (!terms.length) return [];
-    return this.store.entries
-      .map((entry, index) => ({ entry, index, score: this.searchScore(entry, terms) }))
-      .filter((result) => result.score > 0)
-      .sort(
-        (a, b) =>
-          b.score - a.score || a.index - b.index || a.entry.title.localeCompare(b.entry.title),
-      )
+    return this.store
+      .search(this.searchQuery())
+      .map((document) => ({ document, score: document.weight ?? 1 }))
       .slice(0, 10);
   });
-  private searchTerms() {
-    return this.searchQuery().trim().toLowerCase().split(/\s+/).filter(Boolean);
-  }
-  private searchScore(entry: BeerTaxonomyEntry, terms: string[]) {
-    const text = JSON.stringify(entry).toLowerCase();
-    return terms.reduce(
-      (score, term, index) =>
-        score +
-        (text.match(new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'))?.length ?? 0) *
-          (terms.length - index),
-      0,
-    );
-  }
-  selectSearchEntry(entry: BeerTaxonomyEntry, viewport: TaxonomyViewport) {
+  selectSearchResult(document: SearchDocument): void {
     this.store.clearFilters();
-    this.searchQuery.set(entry.title);
-    const node = this.store.scene().nodes.find((candidate) => candidate.id === entry.id);
-    if (node) viewport.immersiveFocus(node);
+    const targetId = document.targetId;
+    if (document.targetType === 'related-entity') {
+      this.searchQuery.set(document.title);
+      this.store.selectProfileTarget({ kind: 'related-entity', id: targetId });
+      return;
+    }
+    if (document.targetType === 'group') {
+      this.searchQuery.set(document.title);
+      this.store.selectProfileTarget({ kind: 'group', id: targetId });
+      return;
+    }
+    const genericNode = this.store
+      .positionedScene()
+      .nodes.find((candidate) => candidate.entityId === targetId);
+    if (genericNode) {
+      this.searchQuery.set(genericNode.title);
+      this.store.selectProjectedNode(genericNode);
+    }
   }
   clearSearch() {
     this.searchQuery.set('');
@@ -73,19 +96,19 @@ export class App {
     if (!this.draft().title.trim()) return;
     const items = this.submissions();
     items.push({ ...this.draft(), status: 'pending', submittedAt: new Date().toISOString() });
-    localStorage.setItem('beer-taxonomy.submissions.v1', JSON.stringify(items));
+    localStorage.setItem(`${this.storagePrefix}.submissions`, JSON.stringify(items));
     this.open('submissions');
   }
   submissions(): any[] {
     try {
-      return JSON.parse(localStorage.getItem('beer-taxonomy.submissions.v1') ?? '[]');
+      return JSON.parse(localStorage.getItem(`${this.storagePrefix}.submissions`) ?? '[]');
     } catch {
       return [];
     }
   }
   storageRows() {
     return Object.keys(localStorage)
-      .filter((k) => k.startsWith('beer-taxonomy.'))
+      .filter((k) => k.startsWith(this.storagePrefix))
       .map((k) => ({
         key: k,
         value: localStorage.getItem(k) ?? '',
@@ -94,7 +117,10 @@ export class App {
   }
   clearData() {
     for (const key of Object.keys(localStorage))
-      if (key.startsWith('beer-taxonomy.')) localStorage.removeItem(key);
+      if (key.startsWith(this.storagePrefix)) localStorage.removeItem(key);
+  }
+  private get storagePrefix() {
+    return `taxonomy.${this.store.module.meta.id}`;
   }
   @HostListener('document:keydown.escape') escape() {
     if (this.dialog()) this.close();

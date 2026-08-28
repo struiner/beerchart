@@ -7,6 +7,7 @@ import {
   RingSeparationOption,
 } from './beer-taxonomy-entry';
 import { TaxonomyDocument, TaxonomyNode } from '../taxonomy.model';
+import { brandCountriesForEntry } from './brand-data';
 
 export const RING_OPTIONS: readonly RingSeparationOption[] = [
   {
@@ -201,6 +202,7 @@ export const FILTER_TAG_OPTIONS: readonly string[] = [
   'age',
   'taxonomy-family',
   'origin',
+  'brand-country',
   'bitterness',
   'strength',
   'fermentation-culture',
@@ -317,6 +319,7 @@ export function createFilterOptions(entries: readonly BeerTaxonomyEntry[]): Beer
   for (const entry of entries) {
     add('family', entry.fermentationFamily);
     entry.originLocations.value.forEach((value) => add('origin', value.name));
+    brandCountriesForEntry(entry.id).forEach((country) => add('brand-country', country.name));
     entry.core.color.value.descriptors.forEach((value) => add('color', value));
     add('strength', entry.core.strength.value.band);
     add('bitterness', entry.core.bitterness.value.perceived ?? 'unknown');
@@ -338,6 +341,7 @@ export function entryFilterIds(entry: BeerTaxonomyEntry): Set<string> {
   const add = (kind: FilterValueKind, value: string) => ids.add(`${kind}:${value}`);
   add('family', entry.fermentationFamily);
   entry.originLocations.value.forEach((v) => add('origin', v.name));
+  brandCountriesForEntry(entry.id).forEach((country) => add('brand-country', country.name));
   entry.core.color.value.descriptors.forEach((v) => add('color', v));
   add('strength', entry.core.strength.value.band);
   add('bitterness', entry.core.bitterness.value.perceived ?? 'unknown');

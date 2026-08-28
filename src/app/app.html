@@ -1,8 +1,11 @@
-<header class="toolbar">
+<header class="toolbar" data-testid="toolbar">
   <div class="brand">
     <svg viewBox="0 0 32 32" aria-hidden="true">
       <path d="M8 5h14v4h3v14c0 3-2 5-5 5H8V5Zm14 7v9h1V12h-1ZM11 9v15h8V9h-8Z" /></svg
-    ><span><strong>Beer Taxonomy</strong><small>Atlas</small></span>
+    ><span
+      ><strong>{{ store.module.meta.title }}</strong
+      ><small>Atlas</small></span
+    >
   </div>
   <nav class="controls" aria-label="Viewport controls">
     <button type="button" aria-label="Zoom out" data-tip="Zoom out" (click)="store.zoom(0.82)">
@@ -20,12 +23,14 @@
         <circle cx="12" cy="12" r="8" />
       </svg></button
     ><button type="button" aria-label="Zoom in" data-tip="Zoom in" (click)="store.zoom(1.22)">
-      +</button
-    ><app-ring-separation-menu /><app-filter-tag-select />
+      +
+    </button>
+    <app-ring-separation-menu /><app-filter-tag-select />
     <div class="entry-search">
       <input
+        data-testid="taxonomy-search"
         aria-label="Search entries"
-        placeholder="Search entries"
+        [placeholder]="'Search ' + store.module.vocabulary.entryPlural.toLowerCase()"
         [value]="searchQuery()"
         (input)="searchQuery.set($any($event.target).value)"
       />
@@ -42,10 +47,10 @@
       }
       @if (searchSuggestions().length) {
         <div class="search-suggestions" role="listbox">
-          @for (result of searchSuggestions(); track result.entry.id) {
-            <button type="button" role="option" (click)="selectSearchEntry(result.entry, viewport)">
-              <strong>{{ result.entry.title }}</strong
-              ><small>{{ result.score }} matches</small>
+          @for (result of searchSuggestions(); track result.document.id) {
+            <button type="button" role="option" (click)="selectSearchResult(result.document)">
+              <strong>{{ result.document.title }}</strong
+              ><small>{{ result.document.subtitle || result.document.targetType }}</small>
             </button>
           }
         </div>
@@ -132,12 +137,10 @@
                 [ngModel]="draft().type"
                 (ngModelChange)="draft.update((d) => ({ ...d, type: $event }))"
               /><datalist id="types">
-                <option>Beer</option>
-                <option>Ale</option>
-                <option>Lager</option>
-                <option>Category</option>
-                <option>Fermentation Method</option>
-                <option>Style</option>
+                <option>{{ store.module.vocabulary.root }}</option>
+                <option>{{ store.module.vocabulary.group }}</option>
+                <option>{{ store.module.vocabulary.entry }}</option>
+                <option>{{ store.module.vocabulary.relatedEntity }}</option>
               </datalist></label
             ><label
               >Description
@@ -154,12 +157,12 @@
                 [ngModel]="draft().placement"
                 (ngModelChange)="draft.update((d) => ({ ...d, placement: $event }))"
               >
-                @for (n of store.scene().nodes; track n.id) {
-                  <option [value]="n.id">{{ n.title }}</option>
+                @for (group of store.module.records.groups; track group.id) {
+                  <option [value]="group.id">{{ group.title }}</option>
                 }
               </select></label
             >
-            <div class="path">Beer / {{ draft().placement }}</div>
+            <div class="path">{{ store.module.vocabulary.root }} / {{ draft().placement }}</div>
             <button class="primary" type="submit">Submit for review</button>
           </form>
         }
@@ -223,7 +226,7 @@
           <h1 id="version-title">Version 0.1.0</h1>
           <dl>
             <dt>Application</dt>
-            <dd>Beer Taxonomy Atlas</dd>
+            <dd>{{ store.module.meta.title }}</dd>
             <dt>Data schema</dt>
             <dd>1</dd>
             <dt>Angular</dt>
@@ -232,7 +235,7 @@
         }
         @case ('about') {
           <span class="eyebrow">About</span>
-          <h1 id="about-title">A better map of beer</h1>
+          <h1 id="about-title">A better map of {{ store.module.vocabulary.root.toLowerCase() }}</h1>
           <blockquote>
             Because the internet is riddled with poor diagrams, and we can do better as a species.
           </blockquote>
@@ -243,7 +246,7 @@
           </p>
         }
         @case ('account-data') {
-          @let rows = storageRows();>><span class="eyebrow">Account</span>
+          @let rows = storageRows();>>>>>>>>>><span class="eyebrow">Account</span>
           <h1 id="account-data-title">Application data</h1>
           <p>Only application-owned, script-readable local data is shown.</p>
           @if (rows.length) {
@@ -258,7 +261,7 @@
           }
         }
         @case ('settings-data') {
-          @let rows = storageRows();>><span class="eyebrow">Settings</span>
+          @let rows = storageRows();>>>>>>>>>><span class="eyebrow">Settings</span>
           <h1 id="settings-data-title">Data controls</h1>
           <p>{{ rows.length }} application-owned namespaces are stored locally.</p>
           <button class="secondary">Export settings JSON</button

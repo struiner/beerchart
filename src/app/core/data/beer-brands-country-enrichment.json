@@ -396,6 +396,19 @@
     }
   },
   {
+    "id": "brand-pearl-river-beer",
+    "name": "Pearl River Beer (Zhujiang)",
+    "taxonomyEntryIds": ["style:international-style-pilsener"],
+    "logoUrl": null,
+    "websiteUrl": "https://en.zhujiangbeer.com/en/",
+    "description": "Southern Chinese lager produced by Guangzhou Zhujiang Brewery.",
+    "country": {
+      "name": "China",
+      "iso3166Alpha2": "CN",
+      "region": "Guangdong"
+    }
+  },
+  {
     "id": "brand-snow-beer",
     "name": "Snow Beer (CR Snow)",
     "taxonomyEntryIds": ["style:international-style-pilsener"],

@@ -49,6 +49,18 @@ for (const brand of beerBrands) {
   }
 }
 
+export function brandCountriesForEntry(
+  entryId: string,
+): readonly NonNullable<BeerBrand['country']>[] {
+  return [
+    ...new Map(
+      brandsForEntry(entryId)
+        .filter((brand) => brand.country)
+        .map((brand) => [brand.country!.iso3166Alpha2, brand.country!]),
+    ).values(),
+  ].sort((a, b) => a.name.localeCompare(b.name));
+}
+
 export function brandsForEntry(entryId: string): readonly BeerBrand[] {
   return brandsByEntryId.get(entryId) ?? [];
 }

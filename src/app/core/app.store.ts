@@ -1,122 +1,383 @@
-import { Injectable, computed, signal } from '@angular/core';
-import { layoutTaxonomy } from './layout';
-import { beerTaxonomyEntries } from './data/beer-taxonomy-entries';
-import { BeerTaxonomyEntry, RingSeparation } from './data/beer-taxonomy-entry';
+import { Injectable, computed, inject, signal } from '@angular/core';
+import { TaxonomyModule } from '../taxonomy/contracts/taxonomy';
+import { TAXONOMY_MODULE } from '../taxonomy/contracts/taxonomy-provider';
+import { evaluateTaxonomyFilters } from '../taxonomy/filtering/evaluate-taxonomy-filters';
+import { createTaxonomyIndexes } from '../taxonomy/indexes/create-taxonomy-indexes';
+import { layoutCircularTaxonomy, PositionedNode } from '../taxonomy/layout/circular-layout';
+import { resolvePresentationScene } from '../taxonomy/presentation/resolve-presentation-scene';
+import { resolvePresentationTheme } from '../taxonomy/presentation/resolve-presentation-theme';
 import {
-  createFilterOptions,
-  createTaxonomyDocument,
-  DEFAULT_RINGS,
-  entryFilterIds,
-  RING_OPTIONS,
-} from './data/taxonomy-data';
+  composeTaxonomyProfile,
+  ProfileScope,
+  ProfileTarget,
+} from '../taxonomy/profiles/compose-taxonomy-profile';
+import { projectTaxonomy } from '../taxonomy/projection/project-taxonomy';
+import { createTaxonomySearchIndex, searchTaxonomy } from '../taxonomy/search/taxonomy-search';
+import { validateTaxonomyModule } from '../taxonomy/validation/validate-taxonomy-module';
+
 export interface ViewportSettings {
   labels: boolean;
   connectors: boolean;
   animations: boolean;
   wheelMode: 'pan' | 'zoom';
 }
-const defaults: ViewportSettings = {
+const baseDefaults: ViewportSettings = {
   labels: true,
   connectors: true,
   animations: true,
   wheelMode: 'pan',
 };
+
 @Injectable({ providedIn: 'root' })
 export class AppStore {
-  readonly entries = beerTaxonomyEntries as readonly BeerTaxonomyEntry[];
-  readonly entriesById = new Map(this.entries.map((entry) => [entry.id, entry]));
-  readonly ringOptions = RING_OPTIONS;
-  readonly rings = signal<RingSeparation>(this.readRings());
-  readonly filterOptions = createFilterOptions(this.entries);
-  readonly selectedFilters = signal<readonly string[]>([]);
-  readonly filteredEntries = computed(() => {
-    const selected = this.selectedFilters();
-    if (!selected.length) return this.entries;
-    return this.entries.filter((entry) => {
-      const values = entryFilterIds(entry);
-      return selected.every((id) => values.has(id));
-    });
-  });
-  readonly document = computed(() => createTaxonomyDocument(this.filteredEntries(), this.rings()));
-  readonly scene = computed(() => layoutTaxonomy(this.document().nodes));
-  readonly camera = signal({ x: 48, y: 40, scale: 0.72 });
-  readonly selectedId = signal<string | null>(null);
-  readonly settings = signal<ViewportSettings>(this.readSettings());
-  readonly selected = computed(
-    () => this.scene().nodes.find((n) => n.id === this.selectedId()) ?? null,
-  );
-  readonly selectedEntry = computed(() => this.entriesById.get(this.selectedId() ?? '') ?? null);
-  readonly selectedPath = computed(() => {
-    const result = new Set<string>();
-    let node = this.selected();
-    while (node) {
-      result.add(node.id);
-      node = this.scene().nodes.find((n) => n.id === node?.parentId) ?? null;
-    }
-    return result;
-  });
-  setCamera(p: Partial<{ x: number; y: number; scale: number }>) {
-    this.camera.update((c) => ({
-      ...c,
-      ...p,
-      scale: Math.min(2.4, Math.max(0.22, p.scale ?? c.scale)),
-    }));
-  }
-  zoom(f: number, px = innerWidth / 2, py = innerHeight / 2) {
-    const c = this.camera(),
-      next = Math.min(2.4, Math.max(0.22, c.scale * f));
-    this.setCamera({
-      scale: next,
-      x: px - ((px - c.x) * next) / c.scale,
-      y: py - ((py - c.y) * next) / c.scale,
-    });
-  }
-  fit(w: number, h: number) {
-    const s = this.scene(),
-      scale = Math.min((w - 64) / s.width, (h - 64) / s.height, 1);
-    this.setCamera({ scale, x: (w - s.width * scale) / 2, y: (h - s.height * scale) / 2 });
-  }
-  updateSettings(p: Partial<ViewportSettings>) {
-    this.settings.update((s) => ({ ...s, ...p }));
-    localStorage.setItem('beer-taxonomy.settings.v1', JSON.stringify(this.settings()));
-  }
-  updateRings(patch: Partial<RingSeparation>) {
-    this.rings.update((rings) => ({ ...rings, ...patch }));
-    localStorage.setItem('beer-taxonomy.rings.v1', JSON.stringify(this.rings()));
-    this.selectedId.set(null);
-  }
-  toggleFilter(id: string) {
-    this.selectedFilters.update((selected) =>
-      selected.includes(id) ? selected.filter((value) => value !== id) : [...selected, id],
+  readonly module = inject(TAXONOMY_MODULE) as TaxonomyModule;
+  readonly validation = validateTaxonomyModule(this.module);
+  readonly indexes = createTaxonomyIndexes(this.module);
+  readonly e2eMode = new URLSearchParams(globalThis.location?.search ?? '').has('e2e');
+  readonly renderer = 'generic-taxonomy' as const;
+  readonly theme = resolvePresentationTheme(this.module.presentation.theme);
+  private readonly storagePrefix = `taxonomy.${this.module.meta.id}.${this.module.meta.schemaVersion}`;
+  private readonly storageMigration = this.migrateStorage();
+  readonly ringOrder = signal<readonly string[]>(this.readRingOrder());
+  readonly facetSelections = signal<Record<string, readonly string[]>>({});
+  readonly rangeSelections = signal<
+    Record<string, { readonly min?: number; readonly max?: number }>
+  >({});
+  readonly facetOptions = this.module.interpretation.facets.map((facet) => {
+    const values = new Map<string, { id: string; label: string; count: number }>();
+    this.module.records.entries.forEach((entry) =>
+      facet.values(entry, { locale: 'en' }).forEach((value) => {
+        const existing = values.get(value.id);
+        values.set(value.id, {
+          id: value.id,
+          label: value.label,
+          count: (existing?.count ?? 0) + 1,
+        });
+      }),
     );
-    this.selectedId.set(null);
+    return {
+      id: facet.id,
+      label: facet.label,
+      kind: facet.kind ?? 'categorical',
+      values: [...values.values()],
+    };
+  });
+  readonly filterOptions = this.facetOptions.flatMap((facet) =>
+    facet.values.map((value) => ({
+      id: `${facet.id}:${value.id}`,
+      facetId: facet.id,
+      valueId: value.id,
+      kind: facet.id,
+      label: value.label,
+      count: value.count,
+    })),
+  );
+  readonly selectedFilters = computed(() =>
+    Object.entries(this.facetSelections()).flatMap(([facetId, values]) =>
+      values.map((valueId) => `${facetId}:${valueId}`),
+    ),
+  );
+  readonly filterResult = computed(() =>
+    evaluateTaxonomyFilters({
+      module: this.module,
+      indexes: this.indexes,
+      activeFilters: [
+        ...Object.entries(this.facetSelections()).map(([facetId, valueIds]) => ({
+          facetId,
+          valueIds,
+        })),
+        ...Object.entries(this.rangeSelections()).map(([facetId, range]) => ({ facetId, range })),
+      ],
+    }),
+  );
+  readonly filteredEntries = computed(() => {
+    const included = this.filterResult().entryIds;
+    return this.module.records.entries.filter(({ id }) => included.has(id));
+  });
+  readonly projectedScene = computed(() =>
+    projectTaxonomy({
+      module: this.module,
+      indexes: this.indexes,
+      includedEntryIds: this.filterResult().entryIds,
+      ringOrder: this.ringOrder(),
+    }),
+  );
+  readonly presentationScene = computed(() =>
+    resolvePresentationScene({ module: this.module, projected: this.projectedScene() }),
+  );
+  readonly positionedScene = computed(() => layoutCircularTaxonomy(this.presentationScene()));
+  readonly searchIndex = createTaxonomySearchIndex({ module: this.module, indexes: this.indexes });
+  readonly camera = signal(this.readCamera());
+  readonly selectedEntityId = signal<string | null>(null);
+  readonly focusedInstanceId = signal<string | null>(null);
+  readonly detailMode = signal<'closed' | 'compact' | 'expanded'>('closed');
+  readonly selectedProfileTarget = signal<ProfileTarget | null>(null);
+  readonly settings = signal<ViewportSettings>(this.readSettings());
+  readonly profileScope = computed<ProfileScope | null>(() => {
+    const target = this.selectedProfileTarget();
+    const instanceId = this.focusedInstanceId();
+    if (target?.kind === 'dimension-value' && instanceId) return { kind: 'projected', instanceId };
+    const entityId = this.selectedEntityId();
+    return entityId ? { kind: 'canonical', entityId } : null;
+  });
+  readonly selectedProfile = computed(() => {
+    const id = this.selectedEntityId();
+    const target =
+      this.selectedProfileTarget() ??
+      (id && this.indexes.entryById.has(id) ? ({ kind: 'entry', id } as const) : null);
+    return target
+      ? composeTaxonomyProfile({
+          module: this.module,
+          indexes: this.indexes,
+          target,
+          scope: this.profileScope() ?? undefined,
+          includedEntryIds:
+            target.kind === 'dimension-value'
+              ? this.focusedDescendantEntryIds()
+              : this.filterResult().entryIds,
+        })
+      : null;
+  });
+  readonly selectedInstances = computed(() => {
+    const focused = this.focusedInstanceId();
+    return focused ? [focused] : [];
+  });
+  readonly focusedRouteInstanceIds = computed(() => {
+    const nodes = this.positionedScene().nodes;
+    const byId = new Map(nodes.map((node) => [node.instanceId, node]));
+    const route: string[] = [];
+    let node = byId.get(this.focusedInstanceId() ?? '');
+    while (node) {
+      route.unshift(node.instanceId);
+      node = node.parentInstanceId ? byId.get(node.parentInstanceId) : undefined;
+    }
+    return route;
+  });
+  readonly selectedPathNodes = computed(() => {
+    const route = new Set(this.focusedRouteInstanceIds());
+    return this.positionedScene().nodes.filter(
+      ({ instanceId, kind }) => route.has(instanceId) && kind !== 'root' && kind !== 'entry',
+    );
+  });
+  readonly focusedDescendantEntryIds = computed(() => {
+    const focused = this.focusedInstanceId();
+    if (!focused) return this.filterResult().entryIds;
+    const nodes = this.positionedScene().nodes;
+    const children = new Map<string, PositionedNode[]>();
+    nodes.forEach((node) => {
+      if (node.parentInstanceId)
+        children.set(node.parentInstanceId, [...(children.get(node.parentInstanceId) ?? []), node]);
+    });
+    const entryIds = new Set<string>();
+    const pending = [focused];
+    while (pending.length) {
+      const parent = pending.shift()!;
+      for (const child of children.get(parent) ?? []) {
+        if (child.kind === 'entry') entryIds.add(child.entityId);
+        else pending.push(child.instanceId);
+      }
+    }
+    return entryIds;
+  });
+
+  setCamera(patch: Partial<{ x: number; y: number; scale: number }>) {
+    this.camera.update((camera) => ({
+      ...camera,
+      ...patch,
+      scale: Math.min(2.4, Math.max(0.22, patch.scale ?? camera.scale)),
+    }));
+    if (!this.e2eMode)
+      localStorage.setItem(`${this.storagePrefix}.camera`, JSON.stringify(this.camera()));
+  }
+  zoom(factor: number, px = innerWidth / 2, py = innerHeight / 2) {
+    const camera = this.camera();
+    const scale = Math.min(2.4, Math.max(0.22, camera.scale * factor));
+    this.setCamera({
+      scale,
+      x: px - ((px - camera.x) * scale) / camera.scale,
+      y: py - ((py - camera.y) * scale) / camera.scale,
+    });
+  }
+  fit(width: number, height: number) {
+    const bounds = this.positionedScene().bounds;
+    const scale = Math.min(
+      (width - 64) / Math.max(1, bounds.width),
+      (height - 64) / Math.max(1, bounds.height),
+      1,
+    );
+    this.setCamera({
+      scale,
+      x: (width - bounds.width * scale) / 2 - bounds.minX * scale,
+      y: (height - bounds.height * scale) / 2 - bounds.minY * scale,
+    });
+  }
+  updateSettings(patch: Partial<ViewportSettings>) {
+    this.settings.update((settings) => ({ ...settings, ...patch }));
+    localStorage.setItem(`${this.storagePrefix}.settings`, JSON.stringify(this.settings()));
+  }
+  updateRing(index: number, dimensionId: string) {
+    if (!this.module.interpretation.projection.allowedDimensionIds.includes(dimensionId)) return;
+    this.ringOrder.update((order) => {
+      const next = [...order];
+      const previousIndex = next.indexOf(dimensionId);
+      if (previousIndex >= 0)
+        [next[index], next[previousIndex]] = [next[previousIndex]!, next[index]!];
+      else next[index] = dimensionId;
+      return next;
+    });
+    localStorage.setItem(`${this.storagePrefix}.rings`, JSON.stringify(this.ringOrder()));
+    this.clearSelection();
+  }
+  toggleFilter(token: string) {
+    const separator = token.indexOf(':');
+    const facetId = token.slice(0, separator);
+    const valueId = token.slice(separator + 1);
+    this.facetSelections.update((selections) => {
+      const current = selections[facetId] ?? [];
+      return {
+        ...selections,
+        [facetId]: current.includes(valueId)
+          ? current.filter((id) => id !== valueId)
+          : [...current, valueId],
+      };
+    });
+    this.reconcileFocusedInstance();
+  }
+  setFacet(facetId: string, valueId: string) {
+    this.facetSelections.update((selections) => ({
+      ...selections,
+      [facetId]: valueId ? [valueId] : [],
+    }));
+    this.reconcileFocusedInstance();
+  }
+  setRange(facetId: string, bound: 'min' | 'max', rawValue: string) {
+    const numeric = rawValue === '' ? undefined : Number(rawValue);
+    this.rangeSelections.update((ranges) => ({
+      ...ranges,
+      [facetId]: {
+        ...ranges[facetId],
+        [bound]: numeric === undefined || Number.isFinite(numeric) ? numeric : undefined,
+      },
+    }));
+    this.reconcileFocusedInstance();
   }
   clearFilters() {
-    this.selectedFilters.set([]);
+    this.facetSelections.set({});
+    this.rangeSelections.set({});
+    this.reconcileFocusedInstance();
   }
+  selectProjectedNode(node: PositionedNode, detail: 'compact' | 'expanded' = 'compact') {
+    this.focusedInstanceId.set(node.instanceId);
+    this.selectedEntityId.set(node.entityId);
+    this.detailMode.set(detail);
+    if (node.kind === 'entry') this.selectedProfileTarget.set({ kind: 'entry', id: node.entityId });
+    else if (node.kind === 'group')
+      this.selectedProfileTarget.set({ kind: 'group', id: node.entityId });
+    else if (node.kind === 'dimension-value') {
+      const separator = node.entityId.indexOf(':');
+      this.selectedProfileTarget.set({
+        kind: 'dimension-value',
+        dimensionId: node.entityId.slice(0, separator),
+        valueId: node.entityId.slice(separator + 1),
+      });
+    } else this.selectedProfileTarget.set(null);
+  }
+  selectProfileTarget(target: ProfileTarget) {
+    this.selectedProfileTarget.set(target);
+    if (target.kind === 'entry') {
+      const node = this.positionedScene().nodes.find(({ entityId }) => entityId === target.id);
+      if (node) this.selectProjectedNode(node);
+    } else
+      this.selectedEntityId.set(
+        'id' in target ? target.id : `${target.dimensionId}:${target.valueId}`,
+      );
+  }
+  clearSelection() {
+    this.selectedEntityId.set(null);
+    this.focusedInstanceId.set(null);
+    this.selectedProfileTarget.set(null);
+    this.detailMode.set('closed');
+  }
+  search(query: string) {
+    return searchTaxonomy(this.searchIndex, query);
+  }
+
+  private reconcileFocusedInstance() {
+    const focused = this.focusedInstanceId();
+    if (focused && !this.positionedScene().nodes.some(({ instanceId }) => instanceId === focused))
+      this.clearSelection();
+  }
+
   private readSettings(): ViewportSettings {
+    void this.storageMigration;
+    const defaults = {
+      ...baseDefaults,
+      animations: this.e2eMode ? false : baseDefaults.animations,
+    };
+    if (this.e2eMode) return defaults;
     try {
       return {
         ...defaults,
-        ...JSON.parse(localStorage.getItem('beer-taxonomy.settings.v1') ?? '{}'),
+        ...JSON.parse(localStorage.getItem(`${this.storagePrefix}.settings`) ?? '{}'),
       };
     } catch {
       return defaults;
     }
   }
-  private readRings(): RingSeparation {
+  private readCamera() {
+    const fallback = { x: 48, y: 40, scale: 0.72 };
+    if (this.e2eMode) return fallback;
     try {
-      const value = {
-        ...DEFAULT_RINGS,
-        ...JSON.parse(localStorage.getItem('beer-taxonomy.rings.v1') ?? '{}'),
-      } as RingSeparation;
-      const allowed = new Set(this.ringOptions.map((option) => option.value));
-      const axes = [value.first, value.second, value.third];
-      return axes.every((axis) => allowed.has(axis)) && new Set(axes).size === 3
-        ? value
-        : DEFAULT_RINGS;
+      return {
+        ...fallback,
+        ...JSON.parse(localStorage.getItem(`${this.storagePrefix}.camera`) ?? '{}'),
+      };
     } catch {
-      return DEFAULT_RINGS;
+      return fallback;
     }
+  }
+  private readRingOrder(): readonly string[] {
+    void this.storageMigration;
+    const fallback = this.module.interpretation.projection.defaultRingOrder;
+    try {
+      const stored = JSON.parse(localStorage.getItem(`${this.storagePrefix}.rings`) ?? 'null');
+      const candidate = Array.isArray(stored)
+        ? stored
+        : stored && typeof stored === 'object'
+          ? [stored.first, stored.second, stored.third]
+          : fallback;
+      const allowed = new Set(this.module.interpretation.projection.allowedDimensionIds);
+      return candidate.length &&
+        candidate.every((id: unknown) => typeof id === 'string' && allowed.has(id)) &&
+        new Set(candidate).size === candidate.length
+        ? candidate
+        : fallback;
+    } catch {
+      return fallback;
+    }
+  }
+  private migrateStorage() {
+    // Renderer selection is no longer persisted: the generic renderer is authoritative.
+    localStorage.removeItem(`${this.storagePrefix}.renderer`);
+    localStorage.removeItem('beer-taxonomy.renderer.v1');
+    if (this.module.meta.id !== 'brewers-association-2026-circular-taxonomy') return true;
+    const settingsKey = `${this.storagePrefix}.settings`;
+    const ringsKey = `${this.storagePrefix}.rings`;
+    const legacySettings = localStorage.getItem('beer-taxonomy.settings.v1');
+    if (!localStorage.getItem(settingsKey) && legacySettings)
+      localStorage.setItem(settingsKey, legacySettings);
+    if (!localStorage.getItem(ringsKey)) {
+      try {
+        const legacy = JSON.parse(localStorage.getItem('beer-taxonomy.rings.v1') ?? 'null');
+        if (legacy?.first && legacy?.second && legacy?.third)
+          localStorage.setItem(
+            ringsKey,
+            JSON.stringify([legacy.first, legacy.second, legacy.third]),
+          );
+      } catch {
+        // Invalid legacy state is intentionally ignored.
+      }
+    }
+    return true;
   }
 }

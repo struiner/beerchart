@@ -1,250 +1,131 @@
 <section
   #viewport
   class="viewport"
-  [class.focus-mode]="focusMode()"
-  aria-label="Interactive circular beer taxonomy metro map"
+  data-testid="taxonomy-viewport"
+  data-renderer="generic"
+  [attr.data-e2e]="store.e2eMode"
+  [class.animations-disabled]="!store.settings().animations"
+  [attr.aria-label]="'Interactive circular ' + store.module.meta.title"
   tabindex="0"
   (pointerdown)="pointerDown($event)"
   (pointermove)="pointerMove($event)"
-  (pointerup)="pointerUp()"
-  (pointercancel)="pointerUp()"
+  (pointerup)="pointerUp($event)"
+  (pointercancel)="pointerUp($event)"
   (wheel)="wheel($event)"
 >
-  <svg class="scene" aria-labelledby="diagram-title">
-    <title id="diagram-title">Circular beer style family metro map with 168 style stations</title>
+  <svg class="scene" data-testid="generic-renderer" aria-labelledby="diagram-title">
+    <title id="diagram-title">{{ store.module.meta.title }}</title>
     <g [attr.transform]="transform()">
-      <g class="orbit-guides">
-        @for (orbit of store.scene().orbits; track orbit.kind) {
-          <circle
-            [attr.cx]="store.scene().centerX"
-            [attr.cy]="store.scene().centerY"
-            [attr.r]="orbit.radius"
-          />
+      <g class="orbit-guides generic-orbits" data-testid="ring-guides">
+        @for (radius of store.positionedScene().ringRadii; track $index) {
+          @if (radius > 0) {
+            <circle cx="3100" cy="3100" [attr.r]="radius" />
+          }
         }
       </g>
       @if (store.settings().connectors) {
-        <g class="connectors">
-          @for (c of store.scene().connectors; track c.id) {
+        <g class="connectors generic-connectors" data-testid="edges">
+          @for (edge of store.positionedScene().edges; track edge.id) {
             <path
-              [attr.d]="c.path"
-              [class]="'route-' + c.family"
+              [attr.d]="
+                'M' + edge.start.x + ',' + edge.start.y + ' L' + edge.end.x + ',' + edge.end.y
+              "
+              [class]="edge.visualToken"
               [class.active]="
-                store.selectedPath().has(c.parentId) && store.selectedPath().has(c.childId)
+                store.focusedRouteInstanceIds().includes(edge.parentInstanceId) &&
+                store.focusedRouteInstanceIds().includes(edge.childInstanceId)
               "
             />
           }
         </g>
       }
-      <g class="nodes">
-        @for (n of store.scene().nodes; track n.id) {
+      <g class="nodes generic-nodes" data-testid="nodes">
+        @for (node of store.positionedScene().nodes; track node.instanceId) {
           <g
-            class="node"
-            [class]="familyClass(n)"
-            [class.active]="store.selectedPath().has(n.id)"
-            [class.selected]="store.selectedId() === n.id"
+            class="node generic-node"
+            [class]="'visual-' + node.visualToken + ' kind-' + node.kind"
+            [class.selected]="store.selectedInstances().includes(node.instanceId)"
+            [class.focused-instance]="store.focusedInstanceId() === node.instanceId"
+            [attr.transform]="'translate(' + node.x + ' ' + node.y + ')'"
+            [attr.data-testid]="'node-' + node.instanceId"
+            [attr.data-entity-id]="node.entityId"
             tabindex="0"
             role="button"
-            [attr.aria-label]="n.title + ', ' + n.type"
-            (click)="store.selectedId.set(n.id)"
-            [class.focused]="focusMode() && store.selectedId() === n.id"
-            (dblclick)="immersiveFocus(n)"
-            (keydown.enter)="focus(n)"
+            [attr.aria-label]="node.ariaLabel"
+            (click)="select(node)"
+            (dblclick)="openDetail(node); $event.stopPropagation()"
+            (keydown.enter)="select(node)"
+            (keydown.space)="select(node); $event.preventDefault()"
           >
-            @if (n.depth === 0) {
-              <circle class="root-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="58" />
-              <text
-                class="root-title"
-                [attr.x]="n.centerX"
-                [attr.y]="n.centerY + 7"
-                text-anchor="middle"
-              >
-                Beer
-              </text>
-              <text
-                class="root-count"
-                [attr.x]="n.centerX"
-                [attr.y]="n.centerY + 92"
-                text-anchor="middle"
-              >
-                {{ store.filteredEntries().length }} stations
-              </text>
-            } @else if (n.depth === 1) {
-              <circle class="family-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="38" />
-              <text
-                class="family-title"
-                [attr.x]="n.labelX"
-                [attr.y]="n.labelY"
-                text-anchor="middle"
-              >
-                {{ n.title }}
-              </text>
-            } @else if (n.depth <= 3) {
-              <circle class="group-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="21" />
-              <text
-                class="group-title"
-                [attr.x]="n.labelX"
-                [attr.y]="n.labelY"
-                [attr.text-anchor]="n.labelAnchor"
-                [attr.transform]="
-                  'rotate(' + n.labelRotation + ' ' + n.labelX + ' ' + n.labelY + ')'
-                "
-              >
-                {{ n.title }}
-              </text>
+            @if (node.layout.shape === 'circle') {
+              <circle [attr.r]="node.layout.width / 2" />
             } @else {
-              <circle class="station-hit" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="25" />
-              <circle class="style-station" [attr.cx]="n.centerX" [attr.cy]="n.centerY" r="11" />
+              <rect
+                [attr.x]="-node.layout.width / 2"
+                [attr.y]="-node.layout.height / 2"
+                [attr.width]="node.layout.width"
+                [attr.height]="node.layout.height"
+                rx="12"
+              />
+            }
+            @if (node.kind !== 'entry' || store.settings().labels) {
               <text
-                class="station-title"
-                [attr.x]="n.labelX"
-                [attr.y]="n.labelY + 5"
-                [attr.text-anchor]="n.labelAnchor"
-                [attr.transform]="
-                  'rotate(' + n.labelRotation + ' ' + n.labelX + ' ' + n.labelY + ')'
-                "
+                [attr.x]="labelX(node)"
+                [attr.y]="labelY(node)"
+                [attr.text-anchor]="labelAnchor(node)"
+                [attr.transform]="'rotate(' + labelRotation(node) + ')'"
               >
-                {{ n.title }}
+                {{ node.title }}
               </text>
             }
           </g>
         }
       </g>
+      @if (store.positionedScene().warnings.length) {
+        <g class="projection-warning" data-testid="projection-warnings" role="status">
+          <text x="24" y="42">
+            {{ store.positionedScene().warnings.length }} projection warning(s)
+          </text>
+        </g>
+      }
     </g>
   </svg>
-  @if (store.selected(); as n) {
+  @if (store.selectedProfile(); as profile) {
     <section
-      class="selection-details"
-      [class.focus-popover]="focusMode()"
-      aria-label="Selected taxonomy path"
+      class="selection-details generic-selection-details"
+      [class.detail-view]="store.detailMode() === 'expanded'"
+      data-testid="taxonomy-profile"
+      aria-label="Selected taxonomy profile"
     >
       <button
         class="details-close"
         type="button"
         aria-label="Close details"
         (pointerdown)="$event.stopPropagation()"
+        (keydown.enter)="closeDetails($event)"
+        (keydown.space)="closeDetails($event); $event.preventDefault()"
         (click)="closeDetails($event)"
       >
         ×
       </button>
-      <div class="selection-title">
-        <h2 class="title-with-indicators">
-          <span>{{ n.title }}</span>
-          @for (indicator of indicators(n); track indicator.sprite.id) {
-            <app-atlas-icon [sprite]="indicator.sprite" [title]="indicator.title" />
+      @if (store.selectedPathNodes().length) {
+        <nav class="selected-category-path" aria-label="Selected category path">
+          @for (category of store.selectedPathNodes(); track category.instanceId) {
+            <button
+              type="button"
+              [attr.data-instance-id]="category.instanceId"
+              [attr.data-entity-id]="category.entityId"
+              (click)="select(category)"
+            >
+              {{ category.title }}
+            </button>
           }
-        </h2>
-      </div>
-      <div class="focus-columns">
-        <div class="popover-list">
-          @for (routeNode of selectedRoute(); track routeNode.id) {
-            <aside class="popover" [class.current-station]="routeNode.id === n.id">
-              <span class="eyebrow">{{ routeNode.type }} · {{ routeNode.family }}</span>
-              <h3 class="title-with-indicators">
-                <span>{{ routeNode.title }}</span>
-                @for (indicator of indicators(routeNode); track indicator.sprite.id) {
-                  <app-atlas-icon [sprite]="indicator.sprite" [title]="indicator.title" />
-                }
-              </h3>
-              @if (routeNode.type === 'style') {
-                @for (fact of profile(routeNode).facts; track fact.icon) {
-                  <div class="fact" [attr.aria-label]="fact.label + ': ' + fact.value">
-                    <app-metadata-icon [name]="fact.icon" /><span
-                      ><small>{{ fact.label }}</small
-                      ><strong>{{ fact.value }}</strong></span
-                    >
-                  </div>
-                }
-                @if (!focusMode() && routeNode.id === n.id) {
-                  <h4>Potential brands</h4>
-                  <div class="brand-grid compact-brand-grid">
-                    @for (brand of visibleBrands(routeNode); track brand.id) {
-                      <a
-                        class="brand-tile"
-                        [href]="brandUrl(brand)"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <strong>{{ brand.name }}</strong>
-                        @if (brand.country; as country) {
-                          <span class="brand-country">{{ country.name }}</span>
-                        }
-                        <small>{{ brand.description || 'Open brand' }}</small>
-                      </a>
-                    }
-                  </div>
-                }
-              } @else {
-                <p>
-                  {{ routeNode.description || 'Taxonomy grouping in the selected station path.' }}
-                </p>
-              }
-            </aside>
-          }
-        </div>
-        @if (focusMode()) {
-          <div class="focus-description">
-            <span class="eyebrow">{{ n.type }} profile</span>
-            <h3 class="title-with-indicators">
-              <span>{{ n.title }}</span>
-              @for (indicator of indicators(n); track indicator.sprite.id) {
-                <app-atlas-icon [sprite]="indicator.sprite" [title]="indicator.title" />
-              }
-            </h3>
-            <p>{{ profile(n).description }}</p>
-            <p class="author">Written by <strong>Beer Taxonomy Atlas editorial</strong></p>
-            @if (detailContents().categories.length) {
-              <h4>Underlying categories</h4>
-              <div class="descendant-grid category-grid">
-                @for (category of detailContents().categories; track category.id) {
-                  <button type="button" (click)="openDetail(category)">
-                    <small>{{ category.type }}</small>
-                    <strong>{{ category.title }}</strong>
-                  </button>
-                }
-              </div>
-            }
-            @if (detailContents().styles.length) {
-              <h4>Underlying styles</h4>
-              <div class="descendant-grid style-grid">
-                @for (style of detailContents().styles; track style.id) {
-                  <button type="button" (click)="openDetail(style)">
-                    <small>{{ style.family }}</small>
-                    <strong>{{ style.title }}</strong>
-                  </button>
-                }
-              </div>
-            }
-            <h4>{{ n.type === 'style' ? 'Potential brands' : 'Underlying brands' }}</h4>
-            @if (detailContents().brands.length) {
-              <p class="brand-count">
-                {{ detailContents().brands.length }} linked
-                {{ detailContents().brands.length === 1 ? 'brand' : 'brands' }}
-              </p>
-              <div class="brand-grid">
-                @for (brand of detailContents().brands; track brand.id) {
-                  <a class="brand-tile" [href]="brandUrl(brand)" target="_blank" rel="noreferrer">
-                    @if (brand.logoUrl) {
-                      <img [src]="brand.logoUrl" [alt]="brand.name + ' logo'" />
-                    }
-                    <strong>{{ brand.name }}</strong>
-                    @if (brand.country; as country) {
-                      <span class="brand-country">
-                        {{ country.name }}
-                        @if (country.region) {
-                          · {{ country.region }}
-                        }
-                      </span>
-                    }
-                    <small>{{ brand.description || 'Open brand' }}</small></a
-                  >
-                }
-              </div>
-            } @else {
-              <p class="brand-empty">No brands are linked to this taxonomy entry yet.</p>
-            }
-          </div>
-        }
-      </div>
+        </nav>
+      }
+      <app-generic-taxonomy-profile
+        [profile]="profile"
+        (selectTarget)="store.selectProfileTarget($event)"
+      />
     </section>
   }
 </section>

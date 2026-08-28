@@ -1,45 +1,67 @@
 import { TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { App } from './app';
-import { layoutTaxonomy } from './core/layout';
-import { validateTaxonomy } from './core/taxonomy.model';
-import seed from '../assets/taxonomy.json';
 import { beerTaxonomyEntries } from './core/data/beer-taxonomy-entries';
 import { beerBrands, brandsForEntry } from './core/data/brand-data';
 import { indicatorForFilter, indicatorsForEntry } from './core/data/icon-atlas';
-import {
-  createFilterOptions,
-  createTaxonomyDocument,
-  DEFAULT_RINGS,
-} from './core/data/taxonomy-data';
+import { createFilterOptions } from './core/data/taxonomy-data';
 import { TaxonomyViewport } from './taxonomy-viewport';
+import { provideTaxonomy } from './taxonomy/contracts/taxonomy-provider';
+import { beerTaxonomyModule } from './datasets/beer/beer-taxonomy';
 describe('Beer Taxonomy Atlas', () => {
   beforeEach(async () => {
-    await TestBed.configureTestingModule({ imports: [App] }).compileComponents();
+    await TestBed.configureTestingModule({
+      imports: [App],
+      providers: [provideTaxonomy(beerTaxonomyModule)],
+    }).compileComponents();
   });
   it('renders the minimal shell', async () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const el = fixture.nativeElement as HTMLElement;
     expect(el.querySelector('.brand')?.textContent).toContain('Beer Taxonomy');
+    expect(el.getAttribute('data-taxonomy-theme')).toBe('brewers-atlas');
+    expect(el.getAttribute('data-taxonomy-texture')).toBe('paper-ledger');
     expect(el.querySelector('app-taxonomy-viewport')).toBeTruthy();
     expect(el.querySelector('app-ring-separation-menu')).toBeTruthy();
     expect(el.querySelector('app-filter-tag-select')).toBeTruthy();
     expect(el.querySelector('.minimap')).toBeFalsy();
     expect(el.querySelector('.entry-search input')).toBeTruthy();
   });
-  it('builds three configurable rings from all typed entries', () => {
-    const document = createTaxonomyDocument(beerTaxonomyEntries, DEFAULT_RINGS);
-    expect(document.nodes.filter((node) => node.type === 'style')).toHaveLength(168);
-    expect(document.nodes.some((node) => node.id.startsWith('ring-1:'))).toBe(true);
-    expect(document.nodes.some((node) => node.id.startsWith('ring-2:'))).toBe(true);
-    expect(document.nodes.some((node) => node.id.startsWith('ring-3:'))).toBe(true);
+  it('projects three configurable rings from all typed entries', async () => {
+    const fixture = TestBed.createComponent(App);
+    await fixture.whenStable();
+    const store = fixture.componentInstance.store;
+    expect(store.ringOrder()).toHaveLength(3);
+    expect(store.positionedScene().nodes.filter((node) => node.kind === 'entry')).toHaveLength(168);
   });
   it('derives category-qualified filter options from values in the dataset', () => {
     const options = createFilterOptions(beerTaxonomyEntries);
     expect(options.some((option) => option.id === 'family:ale')).toBe(true);
     expect(options.some((option) => option.id === 'glassware:tulip')).toBe(true);
     expect(new Set(options.map((option) => option.id)).size).toBe(options.length);
+  });
+  it('discovers styles through linked brand countries', async () => {
+    const fixture = TestBed.createComponent(App);
+    await fixture.whenStable();
+    const app = fixture.componentInstance;
+    const china = app.store.filterOptions.find((option) => option.id === 'brand-country:China');
+    expect(china?.kind).toBe('brand-country');
+    expect(china?.count).toBe(2);
+
+    app.store.toggleFilter('brand-country:China');
+    expect(
+      app.store
+        .filteredEntries()
+        .map((entry) => entry.id)
+        .sort(),
+    ).toEqual(['style:export-style-stout', 'style:international-style-pilsener']);
+
+    app.store.clearFilters();
+    app.searchQuery.set('China');
+    expect(app.searchSuggestions().map((result) => result.document.targetId)).toContain(
+      'style:international-style-pilsener',
+    );
   });
   it('maps taxonomy facts and filter values to valid atlas sprites', () => {
     const indicators = beerTaxonomyEntries.flatMap((entry) => [...indicatorsForEntry(entry)]);
@@ -56,6 +78,47 @@ describe('Beer Taxonomy Atlas', () => {
 
     const ale = createFilterOptions(beerTaxonomyEntries).find(({ id }) => id === 'family:ale');
     expect(indicatorForFilter(ale)?.sprite.id).toBe('family.ale');
+  });
+  it('normalizes generated atlas rows before presenting sprite frames', () => {
+    const entry = beerTaxonomyModule.records.entries.find(
+      ({ facts }) =>
+        facts.fermentationMethod.value.length > 0 && facts.core.dominantCharacter.value.length > 0,
+    )!;
+    const tile = beerTaxonomyModule.presentation.entryTile(entry);
+    expect(tile.icon?.frame?.y).toBe(317);
+    const fermentation = tile.badges.find(({ id }) => id.startsWith('fermentation-method.'))?.icon;
+    expect(fermentation?.frame?.y).toBe(317);
+    expect(fermentation?.frame?.height).toBe(149);
+    const character = tile.badges.find(({ id }) => id.startsWith('character.'))?.icon;
+    expect(character?.frame?.y).toBe(404);
+    const presentedTiles = beerTaxonomyModule.records.entries.map((candidate) =>
+      beerTaxonomyModule.presentation.entryTile(candidate),
+    );
+    const bitterness = presentedTiles
+      .flatMap(({ badges }) => badges)
+      .find(({ id }) => id.startsWith('bitterness.'))?.icon;
+    expect(bitterness?.frame?.y).toBe(153);
+    expect(bitterness?.frame?.height).toBe(135);
+    const mediumBitterness = presentedTiles
+      .flatMap(({ badges }) => badges)
+      .find(({ id }) => id === 'axis.bitterness')?.icon;
+    expect(mediumBitterness?.frame).toMatchObject({ y: 607, height: 139 });
+    const maturation = presentedTiles
+      .flatMap(({ badges }) => badges)
+      .find(({ id }) => id.startsWith('maturation.'))?.icon;
+    expect(maturation?.frame?.y).toBe(1122);
+    const variableFermentation = presentedTiles
+      .flatMap(({ badges }) => badges)
+      .find(({ id }) => id === 'fermentation-method.variable')?.icon;
+    expect(variableFermentation?.frame?.width).toBe(138);
+    const veryStrong = presentedTiles
+      .flatMap(({ badges }) => badges)
+      .find(({ id }) => id === 'strength.very-strong')?.icon;
+    expect(veryStrong?.frame?.height).toBe(138);
+    const balancedCharacter = presentedTiles
+      .flatMap(({ badges }) => badges)
+      .find(({ id }) => id === 'character.balanced')?.icon;
+    expect(balancedCharacter?.frame?.height).toBe(139);
   });
   it('links imported PDF brands only to current taxonomy entry ids', () => {
     const entryIds = new Set<string>(beerTaxonomyEntries.map((entry) => entry.id));
@@ -100,13 +163,12 @@ describe('Beer Taxonomy Atlas', () => {
     expect(
       beerBrands.find((brand) => brand.id === 'brand-kingfisher-strong')?.taxonomyEntryIds,
     ).toEqual(['style:other-strong-ale-or-lager']);
+    expect(beerBrands.find((brand) => brand.id === 'brand-pearl-river-beer')?.country).toEqual({
+      name: 'China',
+      iso3166Alpha2: 'CN',
+      region: 'Guangdong',
+    });
   });
-  it('validates the seed and reaches one root', () => {
-    const doc = validateTaxonomy(seed);
-    expect(doc.nodes.filter((n) => n.parentId === null)).toHaveLength(1);
-    expect(doc.nodes.filter((n) => n.type === 'style')).toHaveLength(168);
-  });
-
   it('creates a screen-space SVG scene with rendered taxonomy nodes', async () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
@@ -121,23 +183,53 @@ describe('Beer Taxonomy Atlas', () => {
     await fixture.whenStable();
     const viewport = fixture.debugElement.query(By.directive(TaxonomyViewport))
       .componentInstance as TaxonomyViewport;
-    const style = viewport.store.scene().nodes.find((node) => node.type === 'style')!;
+    const style = viewport.store.positionedScene().nodes.find((node) => node.kind === 'entry')!;
     const camera = { ...viewport.store.camera() };
 
-    viewport.immersiveFocus(style);
+    viewport.select(style);
     fixture.detectChanges();
 
     expect(viewport.store.camera()).toEqual(camera);
-    expect(viewport.focusMode()).toBe(true);
+    expect(viewport.store.focusedInstanceId()).toBe(style.instanceId);
+    expect(viewport.store.selectedInstances()).toEqual([style.instanceId]);
+    expect(viewport.store.detailMode()).toBe('compact');
     expect((fixture.nativeElement as HTMLElement).textContent).not.toContain('Selected station');
+    const profileElement = (fixture.nativeElement as HTMLElement).querySelector(
+      '[data-testid="taxonomy-profile"]',
+    )!;
+    const googleLinks = profileElement.querySelectorAll<HTMLAnchorElement>('.google-search');
+    expect(googleLinks).toHaveLength(1);
+    expect(googleLinks[0]!.href).toBe(
+      `https://www.google.com/search?q=${encodeURIComponent(style.title)}`,
+    );
+    expect(profileElement.querySelectorAll('app-taxonomy-icon').length).toBeGreaterThan(0);
+
+    const cameraBeforePanelWheel = { ...viewport.store.camera() };
+    const panelWheel = new WheelEvent('wheel', { bubbles: true, cancelable: true, deltaY: 80 });
+    profileElement.dispatchEvent(panelWheel);
+    expect(panelWheel.defaultPrevented).toBe(false);
+    expect(viewport.store.camera()).toEqual(cameraBeforePanelWheel);
+
+    const canvas = (fixture.nativeElement as HTMLElement).querySelector<HTMLElement>('.viewport')!;
+    const canvasWheel = new WheelEvent('wheel', { bubbles: true, cancelable: true, deltaY: 80 });
+    canvas.dispatchEvent(canvasWheel);
+    expect(canvasWheel.defaultPrevented).toBe(true);
+    expect(viewport.store.camera()).not.toEqual(cameraBeforePanelWheel);
+
+    viewport.openDetail(style);
+    fixture.detectChanges();
+    expect(viewport.store.detailMode()).toBe('expanded');
+    expect(
+      (fixture.nativeElement as HTMLElement).querySelector('.selection-details.detail-view'),
+    ).not.toBeNull();
 
     const close = (fixture.nativeElement as HTMLElement).querySelector<HTMLButtonElement>(
       '.details-close',
     )!;
     close.click();
     fixture.detectChanges();
-    expect(viewport.store.selectedId()).toBeNull();
-    expect(viewport.focusMode()).toBe(false);
+    expect(viewport.store.selectedEntityId()).toBeNull();
+    expect(viewport.store.focusedInstanceId()).toBeNull();
   });
   it('renders brands for Ginjo, Field and Experimental Beer details', async () => {
     const fixture = TestBed.createComponent(App);
@@ -151,61 +243,66 @@ describe('Beer Taxonomy Atlas', () => {
     ]);
 
     for (const [id, count] of expected) {
-      const style = viewport.store.scene().nodes.find((node) => node.id === id)!;
+      const style = viewport.store.positionedScene().nodes.find((node) => node.entityId === id)!;
       expect(brandsForEntry(id)).toHaveLength(count);
-      viewport.immersiveFocus(style);
+      viewport.select(style);
       fixture.detectChanges();
       expect(
-        (fixture.nativeElement as HTMLElement).querySelectorAll('.focus-description .brand-tile')
-          .length,
+        (fixture.nativeElement as HTMLElement).querySelectorAll(
+          'app-generic-taxonomy-profile .entity-list button',
+        ).length,
       ).toBe(count);
       viewport.closeDetails();
     }
   });
-  it('orders category descendants before styles and aggregated brands', async () => {
+  it('renders dimension membership through a generic aggregated profile', async () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const viewport = fixture.debugElement.query(By.directive(TaxonomyViewport))
       .componentInstance as TaxonomyViewport;
     const category = viewport.store
-      .scene()
-      .nodes.find((node) => node.type === 'category' && node.depth === 1)!;
-
-    viewport.immersiveFocus(category);
+      .positionedScene()
+      .nodes.find((node) => node.kind === 'dimension-value')!;
+    viewport.select(category);
     fixture.detectChanges();
-    const contents = viewport.detailContents();
-    expect(contents.categories.length).toBeGreaterThan(0);
-    expect(contents.styles.length).toBeGreaterThan(0);
-    expect(contents.brands.length).toBeGreaterThan(0);
-    expect(new Set(contents.brands.map((brand) => brand.id)).size).toBe(contents.brands.length);
+    expect(viewport.store.selectedProfile()?.target.kind).toBe('dimension-value');
+    expect(
+      (fixture.nativeElement as HTMLElement).querySelectorAll(
+        'app-generic-taxonomy-profile .entity-list button',
+      ).length,
+    ).toBeGreaterThan(0);
+  });
+  it('scopes multi-value dimension profiles to the clicked projected branch', async () => {
+    const fixture = TestBed.createComponent(App);
+    await fixture.whenStable();
+    const viewport = fixture.debugElement.query(By.directive(TaxonomyViewport))
+      .componentInstance as TaxonomyViewport;
+    const yeast = viewport.store
+      .positionedScene()
+      .nodes.find(({ entityId }) => entityId === 'dominant-character:yeast-led')!;
+    viewport.select(yeast);
+    fixture.detectChanges();
 
-    const headings = [
-      ...(fixture.nativeElement as HTMLElement).querySelectorAll('.focus-description h4'),
-    ]
-      .map((heading) => heading.textContent?.trim())
-      .slice(0, 3);
-    expect(headings).toEqual(['Underlying categories', 'Underlying styles', 'Underlying brands']);
-  });
-  it('lays nodes out deterministically without overlaps', () => {
-    const doc = validateTaxonomy(seed);
-    const a = layoutTaxonomy(doc.nodes),
-      b = layoutTaxonomy(doc.nodes);
-    expect(a).toEqual(b);
-    for (let i = 0; i < a.nodes.length; i++)
-      for (let j = i + 1; j < a.nodes.length; j++) {
-        const x = a.nodes[i],
-          y = a.nodes[j];
-        const overlaps =
-          x.x < y.x + y.width &&
-          x.x + x.width > y.x &&
-          x.y < y.y + y.height &&
-          x.y + x.height > y.y;
-        expect(overlaps).toBe(false);
-      }
-  });
-  it('rejects duplicate ids', () => {
-    const broken = structuredClone(seed) as any;
-    broken.nodes.push({ ...broken.nodes[0] });
-    expect(() => validateTaxonomy(broken)).toThrow(/Duplicate/);
+    const projectedIds = viewport.store.focusedDescendantEntryIds();
+    const profile = viewport.store.selectedProfile()!;
+    const displayedIds = profile.sections.flatMap((section) =>
+      section.kind === 'entity-list' ? section.items.map(({ id }) => id) : [],
+    );
+    expect(new Set(displayedIds)).toEqual(projectedIds);
+
+    const dominantCharacter = beerTaxonomyModule.interpretation.dimensions.find(
+      ({ id }) => id === 'dominant-character',
+    )!;
+    const roastPrimaryIds = new Set(
+      beerTaxonomyModule.records.entries
+        .filter((entry) => dominantCharacter.values(entry, { locale: 'en' })[0]?.id === 'roast-led')
+        .map(({ id }) => id),
+    );
+    expect(displayedIds.some((id) => roastPrimaryIds.has(id))).toBe(false);
+    expect(
+      (fixture.nativeElement as HTMLElement).querySelectorAll(
+        'app-generic-taxonomy-profile .entity-list button',
+      ).length,
+    ).toBe(projectedIds.size);
   });
 });

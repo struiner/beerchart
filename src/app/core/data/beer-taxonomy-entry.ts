@@ -369,6 +369,7 @@ export interface RingSeparation {
 export type FilterValueKind =
   | 'family'
   | 'origin'
+  | 'brand-country'
   | 'color'
   | 'strength'
   | 'bitterness'

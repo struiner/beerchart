@@ -1,11 +1,9 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { AppStore } from './core/app.store';
-import { AtlasIcon } from './atlas-icon';
-import { indicatorForFilter } from './core/data/icon-atlas';
+
 @Component({
   selector: 'app-filter-tag-select',
-  imports: [AtlasIcon],
-  template: ` <div class="dropdown">
+  template: `<div class="dropdown">
     <button
       type="button"
       class="toggle"
@@ -14,7 +12,7 @@ import { indicatorForFilter } from './core/data/icon-atlas';
       [class.active]="store.selectedFilters().length"
       (click)="open.set(!open())"
     >
-      <svg viewBox="0 0 24 24"><path d="M4 6h16M7 12h10M10 18h4" /></svg
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4" /></svg
       ><span
         >Filter
         @if (store.selectedFilters().length) {
@@ -23,10 +21,12 @@ import { indicatorForFilter } from './core/data/icon-atlas';
       </span>
     </button>
     @if (open()) {
-      <section class="panel filter" aria-label="Filter taxonomy">
+      <section class="panel filter" aria-label="Filter taxonomy" data-testid="filter-menu">
         <header>
-          <strong>Filter entries</strong
-          ><small>{{ store.filteredEntries().length }} of {{ store.entries.length }} styles</small
+          <strong>Filter {{ store.module.vocabulary.entryPlural.toLowerCase() }}</strong
+          ><small
+            >{{ store.filteredEntries().length }} of
+            {{ store.module.records.entries.length }}</small
           ><button
             type="button"
             (click)="store.clearFilters()"
@@ -40,17 +40,10 @@ import { indicatorForFilter } from './core/data/icon-atlas';
             <button
               type="button"
               class="tag"
-              [class.icon-tag]="indicator(option(id))"
-              [title]="'Remove filter: ' + option(id)?.label"
               [attr.aria-label]="'Remove filter: ' + option(id)?.label"
               (click)="store.toggleFilter(id)"
             >
-              @if (indicator(option(id)); as icon) {
-                <app-atlas-icon [sprite]="icon.sprite" [title]="icon.title" />
-              } @else {
-                {{ option(id)?.label }}
-              }
-              <span aria-hidden="true">×</span>
+              {{ option(id)?.label }}<span aria-hidden="true">×</span>
             </button>
           }
           <input
@@ -70,9 +63,6 @@ import { indicatorForFilter } from './core/data/icon-atlas';
               role="option"
               (click)="store.toggleFilter(item.id); query.set('')"
             >
-              @if (indicator(item); as icon) {
-                <app-atlas-icon [sprite]="icon.sprite" [title]="icon.title" />
-              }
               <span
                 ><small>{{ item.kind }}</small
                 >{{ item.label }}</span
@@ -82,6 +72,22 @@ import { indicatorForFilter } from './core/data/icon-atlas';
             <p>No matching values</p>
           }
         </div>
+        @for (facet of store.facetOptions; track facet.id) {
+          @if (facet.kind === 'range') {
+            <label class="range-filter"
+              ><span>{{ facet.label }}</span
+              ><input
+                type="number"
+                placeholder="Min"
+                [attr.aria-label]="facet.label + ' minimum'"
+                (input)="store.setRange(facet.id, 'min', $any($event.target).value)" /><input
+                type="number"
+                placeholder="Max"
+                [attr.aria-label]="facet.label + ' maximum'"
+                (input)="store.setRange(facet.id, 'max', $any($event.target).value)"
+            /></label>
+          }
+        }
       </section>
     }
   </div>`,
@@ -93,17 +99,16 @@ export class FilterTagSelect {
   readonly open = signal(false);
   readonly query = signal('');
   readonly suggestions = computed(() => {
-    const q = this.query().trim().toLowerCase();
+    const query = this.query().trim().toLowerCase();
     return this.store.filterOptions
       .filter(
         (option) =>
           !this.store.selectedFilters().includes(option.id) &&
-          (!q || option.label.toLowerCase().includes(q) || option.kind.includes(q)),
+          (!query || option.label.toLowerCase().includes(query) || option.kind.includes(query)),
       )
       .slice(0, 60);
   });
   option(id: string) {
     return this.store.filterOptions.find((option) => option.id === id);
   }
-  indicator = indicatorForFilter;
 }

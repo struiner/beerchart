@@ -1,0 +1,108 @@
+<aside class="generic-profile" aria-labelledby="generic-profile-title">
+  <header class="profile-heading">
+    <h2 id="generic-profile-title">
+      <span>{{ profile().title }}</span>
+      @if (profile().icon; as icon) {
+        <app-taxonomy-icon [icon]="icon" />
+      }
+      @for (badge of profile().badges ?? []; track badge.id) {
+        @if (badge.icon; as icon) {
+          <app-taxonomy-icon [icon]="icon" />
+        }
+      }
+    </h2>
+    <a
+      class="google-search"
+      [href]="googleSearchUrl(profile().title)"
+      target="_blank"
+      rel="noopener noreferrer"
+      [attr.aria-label]="'Search Google for ' + profile().title"
+      title="Search Google"
+      >Google</a
+    >
+  </header>
+  @for (section of profile().sections; track section.id) {
+    <section>
+      <h3>{{ section.title }}</h3>
+      @switch (section.kind) {
+        @case ('markdown') {
+          <p class="markdown">{{ section.markdown }}</p>
+        }
+        @case ('facts') {
+          <dl>
+            @for (fact of section.facts; track fact.id) {
+              <div [class.origin-stamp]="fact.id === 'origin'">
+                <dt>
+                  @if (fact.icon; as icon) {
+                    <app-taxonomy-icon [icon]="icon" />
+                  }
+                  {{ fact.label }}
+                </dt>
+                <dd>{{ fact.value }}</dd>
+              </div>
+            }
+          </dl>
+        }
+        @case ('entity-list') {
+          <div class="entity-list">
+            @for (item of section.items; track item.id) {
+              <button
+                type="button"
+                [attr.data-entity-id]="item.id"
+                (click)="
+                  selectTarget.emit({
+                    kind: section.entityKind === 'entry' ? 'entry' : 'group',
+                    id: item.id,
+                  })
+                "
+              >
+                <span class="entity-title">
+                  <strong>{{ item.title }}</strong>
+                  @if (item.icon; as icon) {
+                    <app-taxonomy-icon [icon]="icon" />
+                  }
+                </span>
+                @if (item.subtitle) {
+                  <small>{{ item.subtitle }}</small>
+                }
+              </button>
+            }
+          </div>
+        }
+        @case ('related-entities') {
+          <div class="entity-list">
+            @for (item of section.items; track item.id) {
+              <button
+                type="button"
+                (click)="selectTarget.emit({ kind: 'related-entity', id: item.id })"
+              >
+                <span class="entity-title">
+                  <strong>{{ item.title }}</strong>
+                  @if (item.icon; as icon) {
+                    <app-taxonomy-icon [icon]="icon" />
+                  }
+                </span>
+                @if (item.description) {
+                  <small>{{ item.description }}</small>
+                }
+              </button>
+            }
+          </div>
+        }
+        @case ('sources') {
+          <ul>
+            @for (source of section.sources; track source.id) {
+              <li>
+                @if (safeUrl(source.url); as url) {
+                  <a [href]="url" target="_blank" rel="noreferrer">{{ source.title }}</a>
+                } @else {
+                  {{ source.title }}
+                }
+              </li>
+            }
+          </ul>
+        }
+      }
+    </section>
+  }
+</aside>
