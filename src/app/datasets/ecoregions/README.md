@@ -16,6 +16,15 @@ offline. Regenerate from the snapshot with `npm run ecoregions:generate`; verify
 with `npm run ecoregions:check`. Network acquisition is an explicit maintainer operation and is not
 part of build or test execution.
 
+Authored enrichment is kept under `enrichment/` and is merged only into presentation profiles and
+related entities. It cannot mutate generated IDs, titles, parent membership, or biome membership.
+Run `npm run ecoregions:validate-enrichment` to check targets, source IDs, claim sourcing, ranges,
+species and country references, explicit overrides, and required summaries.
+
+The first content-standard pilot follows Indomalaya → Indian Subcontinent → Himalayan Mixed Forests
+& Grasslands and three component ecoregions. It intentionally establishes profile density and
+validation before expanding across all 252 structural groups.
+
 Canonical references:
 
 - https://www.oneearth.org/bioregions/

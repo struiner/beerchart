@@ -192,6 +192,10 @@ export interface TaxonomyProfileDefinition<TEntry, TRelated> {
     entry: TEntry,
     related: readonly TRelated[],
   ) => readonly ProfileSectionViewModel[];
+  readonly groupSections?: (
+    group: TaxonomyGroup,
+    descendantEntries: readonly TEntry[],
+  ) => readonly ProfileSectionViewModel[];
 }
 
 export interface TaxonomyProjectionDefinition {

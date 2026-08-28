@@ -1,14 +1,23 @@
 import {
   defineTaxonomy,
   type RelatedEntity,
+  type ProfileSectionViewModel,
   type SourceReference,
   type TaxonomyDimension,
   type TaxonomyEntry,
 } from '../../taxonomy/public-api';
+import { bioregionEnrichment } from './enrichment/bioregions';
+import { ecologicalCountries } from './enrichment/countries';
+import type { EcologicalEnrichment } from './enrichment/ecological-enrichment';
+import { ecoregionEnrichment } from './enrichment/ecoregions';
+import { realmEnrichment } from './enrichment/realms';
+import { ecologicalSpecies } from './enrichment/species';
+import { subrealmEnrichment } from './enrichment/subrealms';
 import { generatedBioregions } from './generated/bioregions.generated';
 import { generatedEcoregions } from './generated/ecoregions.generated';
 import { generatedRealms } from './generated/realms.generated';
 import { generatedSubrealms } from './generated/subrealms.generated';
+import { ecoregionSourceById, ecoregionSources } from './source/source-registry';
 
 interface EcoregionFacts {
   readonly externalId: string;
@@ -23,22 +32,131 @@ interface EcoregionFacts {
   readonly conservationCondition?: string;
 }
 export interface EcoregionEntry extends TaxonomyEntry<EcoregionFacts> {}
-interface EcoregionRelatedEntity extends RelatedEntity {}
+interface EcoregionRelatedEntity extends RelatedEntity {
+  readonly kind: 'species' | 'country';
+  readonly subtitle?: string;
+}
 
-const sources: readonly SourceReference[] = [
-  {
-    id: 'one-earth-bioregions-2023',
-    title: 'One Earth Bioregions Framework',
-    publisher: 'One Earth',
-    url: 'https://www.oneearth.org/bioregions-2023/',
-  },
-  {
-    id: 'resolve-ecoregions-2017',
-    title: 'RESOLVE Ecoregions 2017 attribute service',
-    publisher: 'UNEP-WCMC / RESOLVE',
-    url: 'https://data-gis.unep-wcmc.org/server/rest/services/Bio-geographicalRegions/Resolve_Ecoregions/MapServer',
-  },
+const sources: readonly SourceReference[] = ecoregionSources;
+const enrichmentRecords = [
+  ...realmEnrichment,
+  ...subrealmEnrichment,
+  ...bioregionEnrichment,
+  ...ecoregionEnrichment,
 ];
+const enrichmentByTargetId = new Map(enrichmentRecords.map((record) => [record.targetId, record]));
+const enrichedEntryIdsFor = (predicate: (record: EcologicalEnrichment) => boolean) =>
+  ecoregionEnrichment.filter(predicate).map(({ targetId }) => targetId);
+const relatedEntities: readonly EcoregionRelatedEntity[] = [
+  ...ecologicalSpecies.map((species) => ({
+    id: species.id,
+    title: species.commonName,
+    description: species.scientificName,
+    kind: 'species' as const,
+    subtitle: species.scientificName,
+    linkedEntryIds: enrichedEntryIdsFor(
+      (record) => record.characteristicSpeciesIds?.includes(species.id) ?? false,
+    ),
+  })),
+  ...ecologicalCountries.map((country) => ({
+    id: `country:${country.id}`,
+    title: country.name,
+    description: `ISO 3166-1 alpha-2: ${country.code}`,
+    kind: 'country' as const,
+    subtitle: country.code,
+    linkedEntryIds: enrichedEntryIdsFor(
+      (record) => record.countryIds?.includes(country.id) ?? false,
+    ),
+  })),
+];
+const relatedById = new Map(relatedEntities.map((entity) => [entity.id, entity]));
+const sourceReferences = (ids: readonly string[]) =>
+  ids.flatMap((id) => {
+    const source = ecoregionSourceById.get(id);
+    return source ? [source] : [];
+  });
+const listFact = (
+  id: string,
+  label: string,
+  sourced?: { value: readonly string[]; sourceIds: readonly string[] },
+) =>
+  sourced ? [{ id, label, value: sourced.value.join('; '), sourceIds: sourced.sourceIds }] : [];
+const enrichmentSections = (
+  enrichment: EcologicalEnrichment | undefined,
+  related: readonly EcoregionRelatedEntity[],
+): readonly ProfileSectionViewModel[] => {
+  if (!enrichment) return [];
+  const climate = enrichment.climate;
+  const climateValue = climate
+    ? [
+        climate.value.character,
+        climate.value.annualPrecipitationMm
+          ? `${climate.value.annualPrecipitationMm.min}–${climate.value.annualPrecipitationMm.max} mm annual precipitation`
+          : '',
+        climate.value.temperatureC
+          ? `${climate.value.temperatureC.min}–${climate.value.temperatureC.max} °C`
+          : '',
+      ]
+        .filter(Boolean)
+        .join('; ')
+    : '';
+  return [
+    ...(enrichment.summary
+      ? [
+          {
+            kind: 'markdown' as const,
+            id: 'summary',
+            title: 'Overview',
+            markdown: enrichment.summary.value,
+          },
+        ]
+      : []),
+    {
+      kind: 'facts',
+      id: 'ecology',
+      title: 'Ecological character',
+      facts: [
+        ...listFact('landscape', 'Landscape', enrichment.landscape),
+        ...(climate
+          ? [{ id: 'climate', label: 'Climate', value: climateValue, sourceIds: climate.sourceIds }]
+          : []),
+        ...listFact('vegetation', 'Vegetation', enrichment.vegetation),
+        ...listFact('processes', 'Ecological processes', enrichment.ecologicalProcesses),
+        ...(enrichment.conservationContext
+          ? [
+              {
+                id: 'conservation',
+                label: 'Conservation context',
+                value: enrichment.conservationContext.value,
+                sourceIds: enrichment.conservationContext.sourceIds,
+              },
+            ]
+          : []),
+      ],
+    },
+    ...(related.length
+      ? [
+          {
+            kind: 'related-entities' as const,
+            id: 'ecological-references',
+            title: 'Characteristic species and countries',
+            items: related.map((entity) => ({
+              id: entity.id,
+              title: entity.title,
+              subtitle: entity.subtitle,
+              description: entity.description,
+            })),
+          },
+        ]
+      : []),
+    {
+      kind: 'sources',
+      id: 'enrichment-sources',
+      title: 'Enrichment sources',
+      sources: sourceReferences(enrichment.sources),
+    },
+  ];
+};
 const realmById = new Map(generatedRealms.map((record) => [record.id, record]));
 const subrealmById = new Map(generatedSubrealms.map((record) => [record.id, record]));
 const bioregionById = new Map(generatedBioregions.map((record) => [record.id, record]));
@@ -62,7 +180,11 @@ const entries: readonly EcoregionEntry[] = generatedEcoregions.map((record) => (
   },
   aliases: [`Ecoregion ${record.externalId}`],
   tags: [record.biomeTitle],
-  sources,
+  description: enrichmentByTargetId.get(record.id)?.summary?.value,
+  sources: [
+    ...sources.slice(0, 2),
+    ...sourceReferences(enrichmentByTargetId.get(record.id)?.sources ?? []),
+  ],
   status: record.status,
 }));
 const groups = [
@@ -187,7 +309,7 @@ export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry, EcoregionRelated
       noFilterResults: 'No terrestrial ecoregions match the active ecological filters.',
     },
   },
-  records: { groups, entries, relatedEntities: [] },
+  records: { groups, entries, relatedEntities },
   interpretation: {
     dimensions,
     facets: [
@@ -208,7 +330,7 @@ export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry, EcoregionRelated
       },
     ],
     search: {
-      documents: (searchEntries) => [
+      documents: (searchEntries, searchRelatedEntities) => [
         ...searchEntries.map((entry) => ({
           id: `entry:${entry.id}`,
           targetType: 'entry' as const,
@@ -224,10 +346,19 @@ export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry, EcoregionRelated
           title: group.title,
           terms: [],
         })),
+        ...searchRelatedEntities.map((entity) => ({
+          id: `related:${entity.id}`,
+          targetType: 'related-entity' as const,
+          targetId: entity.id,
+          title: entity.title,
+          subtitle: entity.subtitle,
+          terms: entity.description ? [entity.description] : [],
+        })),
       ],
     },
     profiles: {
-      entrySections: (entry) => [
+      entrySections: (entry, related) => [
+        ...enrichmentSections(enrichmentByTargetId.get(entry.id), related),
         {
           kind: 'facts',
           id: 'placement',
@@ -273,6 +404,20 @@ export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry, EcoregionRelated
         },
         { kind: 'sources', id: 'sources', title: 'Sources', sources: entry.sources ?? [] },
       ],
+      groupSections: (group) => {
+        const enrichment = enrichmentByTargetId.get(group.id);
+        const relatedIds = [
+          ...(enrichment?.characteristicSpeciesIds ?? []),
+          ...(enrichment?.countryIds ?? []).map((id) => `country:${id}`),
+        ];
+        return enrichmentSections(
+          enrichment,
+          relatedIds.flatMap((id) => {
+            const entity = relatedById.get(id);
+            return entity ? [entity] : [];
+          }),
+        );
+      },
     },
     projection: {
       defaultRingOrder: ['realm', 'subrealm', 'bioregion'],

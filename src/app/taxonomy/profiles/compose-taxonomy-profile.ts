@@ -87,7 +87,12 @@ export function composeTaxonomyProfile<
         const entry = input.indexes.entryById.get(id);
         return entry ? [item(entry)] : [];
       });
+    const descendantEntries = items.flatMap(({ id }) => {
+      const entry = input.indexes.entryById.get(id);
+      return entry ? [entry] : [];
+    });
     const sections: ProfileSectionViewModel[] = [
+      ...(input.module.interpretation.profiles.groupSections?.(group, descendantEntries) ?? []),
       {
         kind: 'entity-list',
         id: 'entries',

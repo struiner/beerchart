@@ -1,10 +1,22 @@
-import { describeTaxonomyContract } from '../../taxonomy/testing/public-api';
+import {
+  composeTaxonomyProfile,
+  createTaxonomyIndexes,
+  describeTaxonomyContract,
+} from '../../taxonomy/testing/public-api';
 import { describe, expect, it } from 'vitest';
 import { ecoregionTaxonomy } from '.';
 import { generatedBioregions } from './generated/bioregions.generated';
 import { generatedEcoregions } from './generated/ecoregions.generated';
 import { generatedRealms } from './generated/realms.generated';
 import { generatedSubrealms } from './generated/subrealms.generated';
+import { realmEnrichment } from './enrichment/realms';
+import { subrealmEnrichment } from './enrichment/subrealms';
+import { bioregionEnrichment } from './enrichment/bioregions';
+import { ecoregionEnrichment } from './enrichment/ecoregions';
+import { ecologicalSpecies } from './enrichment/species';
+import { ecologicalCountries } from './enrichment/countries';
+import { validateEcologicalEnrichment } from './enrichment/validate-enrichment';
+import { ecoregionSources } from './source/source-registry';
 
 describeTaxonomyContract('Terrestrial ecoregions', ecoregionTaxonomy, {
   expectedEntries: 844,
@@ -60,5 +72,99 @@ describe('One Earth full topology', () => {
     const mangrove = generatedEcoregions.find(({ externalId }) => externalId === '614');
     expect(mangrove?.parentBioregionIds).toEqual(['bioregion:na30', 'bioregion:nt28']);
     expect(mangrove?.realmIds).toEqual(['realm:central-america', 'realm:northern-america']);
+  });
+});
+
+describe('ecological enrichment', () => {
+  const records = [
+    ...realmEnrichment,
+    ...subrealmEnrichment,
+    ...bioregionEnrichment,
+    ...ecoregionEnrichment,
+  ];
+  const validTargetIds = new Set([
+    ...generatedRealms.map(({ id }) => id),
+    ...generatedSubrealms.map(({ id }) => id),
+    ...generatedBioregions.map(({ id }) => id),
+    ...generatedEcoregions.map(({ id }) => id),
+  ]);
+  const sourceIds = new Set(ecoregionSources.map(({ id }) => id));
+
+  it('validates the complete pilot branch without weakening canonical membership', () => {
+    expect(
+      validateEcologicalEnrichment({
+        records,
+        validTargetIds,
+        sourceIds,
+        species: ecologicalSpecies,
+        countries: ecologicalCountries,
+        requiredSummaryTargetIds: [
+          'realm:indomalaya',
+          'subrealm:indian-subcontinent',
+          'bioregion:im5',
+          'ecoregion:233',
+          'ecoregion:302',
+          'ecoregion:309',
+        ],
+      }),
+    ).toEqual([]);
+    expect(
+      ecoregionTaxonomy.records.entries.find(({ id }) => id === 'ecoregion:309')?.parentGroupIds,
+    ).toEqual(generatedEcoregions.find(({ id }) => id === 'ecoregion:309')?.parentBioregionIds);
+  });
+
+  it('rejects orphaned, duplicate, unsourced, unknown and invalid enrichment values', () => {
+    const invalid = {
+      targetId: 'ecoregion:not-real',
+      summary: {
+        value: 'Unsourced.',
+        sourceIds: [],
+        derivation: 'authored-summary' as const,
+      },
+      climate: {
+        value: { character: 'Invalid.', annualPrecipitationMm: { min: 2, max: 1 } },
+        sourceIds: ['missing-source'],
+        derivation: 'source-value' as const,
+      },
+      characteristicSpeciesIds: ['species:not-real'],
+      countryIds: ['ZZ'],
+      sources: ['missing-source'],
+      status: 'authored' as const,
+    };
+    const errors = validateEcologicalEnrichment({
+      records: [invalid, invalid],
+      validTargetIds,
+      sourceIds,
+      species: ecologicalSpecies,
+      countries: ecologicalCountries,
+    });
+    expect(errors.some((error) => error.includes('Orphan'))).toBe(true);
+    expect(errors.some((error) => error.includes('Duplicate'))).toBe(true);
+    expect(errors.some((error) => error.includes('unsourced'))).toBe(true);
+    expect(errors.some((error) => error.includes('invalid precipitation'))).toBe(true);
+    expect(errors.some((error) => error.includes('unknown species'))).toBe(true);
+    expect(errors.some((error) => error.includes('unknown country'))).toBe(true);
+    expect(errors.some((error) => error.includes('unknown source'))).toBe(true);
+  });
+
+  it('renders sourced group and entry profiles with related ecological entities', () => {
+    const indexes = createTaxonomyIndexes(ecoregionTaxonomy);
+    const groupProfile = composeTaxonomyProfile({
+      module: ecoregionTaxonomy,
+      indexes,
+      target: { kind: 'group', id: 'bioregion:im5' },
+    });
+    const entryProfile = composeTaxonomyProfile({
+      module: ecoregionTaxonomy,
+      indexes,
+      target: { kind: 'entry', id: 'ecoregion:309' },
+    });
+    expect(groupProfile?.sections.some(({ id }) => id === 'summary')).toBe(true);
+    expect(groupProfile?.sections.some(({ id }) => id === 'ecological-references')).toBe(true);
+    expect(entryProfile?.sections.some(({ id }) => id === 'ecology')).toBe(true);
+    expect(entryProfile?.sections.some(({ id }) => id === 'enrichment-sources')).toBe(true);
+    expect(
+      ecoregionTaxonomy.records.relatedEntities.some(({ id }) => id === 'species:red-panda'),
+    ).toBe(true);
   });
 });

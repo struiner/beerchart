@@ -33,16 +33,18 @@ test.describe('full ecoregion topology', () => {
 
     await page
       .getByRole('combobox', { name: 'Search taxonomy' })
-      .fill('Eastern Himalayan Broadleaf Forests');
+      .fill('Eastern Himalayan Subalpine Conifer Forests');
     await page
       .getByTestId('taxonomy-search-results')
-      .getByRole('option', { name: 'Eastern Himalayan Broadleaf Forests', exact: true })
+      .getByRole('option', { name: 'Eastern Himalayan Subalpine Conifer Forests', exact: true })
       .click();
 
     await expect(page.locator('.generic-node.focused-instance')).toHaveCount(1);
     await expect(page.getByTestId('taxonomy-profile')).toContainText(
-      'Eastern Himalayan Broadleaf Forests',
+      'Eastern Himalayan Subalpine Conifer Forests',
     );
+    await expect(page.getByTestId('taxonomy-profile')).toContainText('Ecological character');
+    await expect(page.getByTestId('taxonomy-profile')).toContainText('Red panda');
     await expect(page.locator('.selected-category-path')).toBeVisible();
   });
 
