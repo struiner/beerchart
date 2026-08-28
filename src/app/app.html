@@ -235,18 +235,16 @@
         }
         @case ('about') {
           <span class="eyebrow">About</span>
-          <h1 id="about-title">A better map of {{ store.module.vocabulary.root.toLowerCase() }}</h1>
-          <blockquote>
-            Because the internet is riddled with poor diagrams, and we can do better as a species.
-          </blockquote>
-          <p>
-            Classification membership is not historical descent or similarity of taste. Ale and
-            lager are the primary trunks; mixed, spontaneous, hybrid, and variable fermentation
-            remain a separate published branch.
-          </p>
+          <h1 id="about-title">{{ store.module.meta.title }}</h1>
+          @for (section of store.aboutContent; track section.id) {
+            @if (section.title) {
+              <h2>{{ section.title }}</h2>
+            }
+            <p>{{ section.markdown }}</p>
+          }
         }
         @case ('account-data') {
-          @let rows = storageRows();>>>>>>>>>><span class="eyebrow">Account</span>
+          @let rows = storageRows();>>>>>>>>>>>><span class="eyebrow">Account</span>
           <h1 id="account-data-title">Application data</h1>
           <p>Only application-owned, script-readable local data is shown.</p>
           @if (rows.length) {
@@ -261,7 +259,7 @@
           }
         }
         @case ('settings-data') {
-          @let rows = storageRows();>>>>>>>>>><span class="eyebrow">Settings</span>
+          @let rows = storageRows();>>>>>>>>>>>><span class="eyebrow">Settings</span>
           <h1 id="settings-data-title">Data controls</h1>
           <p>{{ rows.length }} application-owned namespaces are stored locally.</p>
           <button class="secondary">Export settings JSON</button

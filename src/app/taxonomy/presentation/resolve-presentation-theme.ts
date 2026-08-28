@@ -19,6 +19,29 @@ export const DEFAULT_TAXONOMY_THEME: TaxonomyThemePreset = {
     green: '#67a669',
     blue: '#668fd0',
   },
+  visualTokens: {
+    'route-0': '#d56a42',
+    'route-1': '#dbad3f',
+    'route-2': '#49ae96',
+    'route-3': '#668fd0',
+    'route-4': '#d06d91',
+    'route-5': '#d06d91',
+    'route-6': '#67a669',
+    'route-7': '#424b46',
+  },
+  typography: {
+    display: { family: 'Georgia', fallbacks: ['serif'], weight: 700 },
+    interface: { family: 'Arial Narrow', fallbacks: ['Arial', 'sans-serif'], weight: 700 },
+    annotation: { family: 'Arial', fallbacks: ['sans-serif'], weight: 600 },
+  },
+  surfaces: {
+    application: { background: 'paper', foreground: 'ink', border: 'deepInk' },
+    toolbar: { background: 'olive', foreground: 'paperLight', border: 'brass' },
+    viewport: { background: 'paper', foreground: 'ink', border: 'paperDark' },
+    panel: { background: 'paperLight', foreground: 'ink', border: 'deepInk' },
+  },
+  geometry: { controlRadius: 0, panelRadius: 0, tileRadius: 0, borderWidth: 1, focusWidth: 3 },
+  textures: { none: { kind: 'none' } },
 };
 
 const safeId = (value: string) => /^[a-z][a-z0-9-]*$/.test(value);
@@ -36,5 +59,14 @@ export function resolvePresentationTheme(theme?: TaxonomyThemePreset): TaxonomyT
     id: safeId(theme.id) ? theme.id : DEFAULT_TAXONOMY_THEME.id,
     texture: theme.texture === 'paper-ledger' ? 'paper-ledger' : 'none',
     tokens,
+    visualTokens: Object.fromEntries(
+      Object.entries(theme.visualTokens ?? {}).filter(
+        ([id, color]) => safeId(id) && safeColor(color),
+      ),
+    ),
+    typography: theme.typography ?? DEFAULT_TAXONOMY_THEME.typography,
+    surfaces: theme.surfaces ?? DEFAULT_TAXONOMY_THEME.surfaces,
+    geometry: theme.geometry ?? DEFAULT_TAXONOMY_THEME.geometry,
+    textures: theme.textures ?? DEFAULT_TAXONOMY_THEME.textures,
   };
 }

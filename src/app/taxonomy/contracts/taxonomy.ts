@@ -11,6 +11,7 @@ export interface TaxonomyMeta {
   readonly description?: string;
   readonly schemaVersion: string;
   readonly engineVersion: string;
+  readonly datasetVersion?: string;
 }
 
 export interface TaxonomyVocabulary {
@@ -21,6 +22,28 @@ export interface TaxonomyVocabulary {
   readonly entryPlural: string;
   readonly relatedEntity: string;
   readonly relatedEntityPlural: string;
+}
+
+export interface TaxonomyContentSection {
+  readonly id: string;
+  readonly title?: string;
+  readonly markdown: string;
+}
+
+export interface TaxonomyContent {
+  readonly about: readonly TaxonomyContentSection[];
+  readonly emptyStates?: {
+    readonly noEntries?: string;
+    readonly noSearchResults?: string;
+    readonly noFilterResults?: string;
+    readonly noRelatedEntities?: string;
+  };
+  readonly search?: { readonly placeholder?: string; readonly resultSummary?: string };
+  readonly submission?: {
+    readonly introduction?: string;
+    readonly typeSuggestions?: readonly string[];
+    readonly placementInstructions?: string;
+  };
 }
 
 export interface TaxonomyGroup {
@@ -110,7 +133,14 @@ export interface ProfileFactViewModel {
   readonly value: string;
   readonly icon?: ResolvedIcon;
   readonly sourceIds?: readonly string[];
+  readonly presentation?: FactPresentation;
 }
+export type FactPresentation =
+  | { readonly variant: 'default' }
+  | { readonly variant: 'stamp'; readonly tone?: string }
+  | { readonly variant: 'measure'; readonly unit?: string }
+  | { readonly variant: 'highlight'; readonly tone?: string }
+  | { readonly variant: 'source' };
 export interface ProfileEntityItemViewModel {
   readonly id: string;
   readonly title: string;
@@ -223,7 +253,7 @@ export interface StationMetric {
 export interface TaxonomyLayoutPresentation {
   readonly radiusPolicy: RingRadiusPolicy;
   readonly labelOrientation?: LabelOrientation;
-  /** Keys may be full projected ids (for example `family:ale`) or value ids (`ale`). */
+  /** Keys may be full projected ids (for example `axis:alpha`) or value ids (`alpha`). */
   readonly branchColors?: Readonly<Record<string, string>>;
   readonly stationMetrics?: Partial<{
     readonly root: Partial<StationMetric>;
@@ -255,7 +285,50 @@ export interface TaxonomyThemePreset {
   readonly id: string;
   readonly texture: 'none' | 'paper-ledger';
   readonly tokens: TaxonomyThemeTokens;
+  /** Dataset-declared semantic colors used by branches, stations, badges, and facts. */
+  readonly visualTokens?: Readonly<Record<string, string>>;
+  readonly typography: {
+    readonly display: FontDescriptor;
+    readonly interface: FontDescriptor;
+    readonly annotation: FontDescriptor;
+    readonly data?: FontDescriptor;
+  };
+  readonly surfaces: {
+    readonly application: SurfaceDescriptor;
+    readonly toolbar: SurfaceDescriptor;
+    readonly viewport: SurfaceDescriptor;
+    readonly panel: SurfaceDescriptor;
+  };
+  readonly geometry: {
+    readonly controlRadius: number;
+    readonly panelRadius: number;
+    readonly tileRadius: number;
+    readonly borderWidth: number;
+    readonly focusWidth: number;
+  };
+  readonly textures?: Readonly<Record<string, TextureDescriptor>>;
 }
+
+export interface FontDescriptor {
+  readonly family: string;
+  readonly fallbacks?: readonly string[];
+  readonly weight?: number;
+}
+export interface SurfaceDescriptor {
+  readonly background: keyof TaxonomyThemeTokens | string;
+  readonly foreground: keyof TaxonomyThemeTokens | string;
+  readonly border: keyof TaxonomyThemeTokens | string;
+}
+export type TextureDescriptor =
+  | { readonly kind: 'none' }
+  | { readonly kind: 'grain'; readonly opacity: number; readonly scale: number }
+  | { readonly kind: 'lines'; readonly opacity: number; readonly spacing: number }
+  | {
+      readonly kind: 'asset';
+      readonly assetId: string;
+      readonly opacity: number;
+      readonly repeat: 'repeat' | 'repeat-x' | 'repeat-y' | 'none';
+    };
 
 export interface TaxonomyPresentation<TEntry, TRelated> {
   readonly entryTile: (entry: TEntry) => TileViewModel;
@@ -264,12 +337,37 @@ export interface TaxonomyPresentation<TEntry, TRelated> {
   readonly theme?: TaxonomyThemePreset;
 }
 
+export interface ReadonlyStorage {
+  readonly length: number;
+  key(index: number): string | null;
+  getItem(key: string): string | null;
+}
+
+export interface PersistedTaxonomyState {
+  readonly settings?: unknown;
+  readonly rings?: unknown;
+  readonly camera?: unknown;
+}
+
+export interface TaxonomyLegacyImporter {
+  readonly id: string;
+  import(storage: ReadonlyStorage): Partial<PersistedTaxonomyState> | null;
+}
+
+export interface TaxonomyPersistenceDefinition {
+  readonly namespace: string;
+  readonly version: number;
+  readonly legacyImporters?: readonly TaxonomyLegacyImporter[];
+}
+
 export interface TaxonomyModule<
   TEntry extends TaxonomyEntry = TaxonomyEntry,
   TRelated extends RelatedEntity = RelatedEntity,
 > {
   readonly meta: TaxonomyMeta;
   readonly vocabulary: TaxonomyVocabulary;
+  readonly content: TaxonomyContent;
+  readonly persistence?: TaxonomyPersistenceDefinition;
   readonly records: {
     readonly groups: readonly TaxonomyGroup[];
     readonly entries: readonly TEntry[];

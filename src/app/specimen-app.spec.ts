@@ -31,6 +31,14 @@ describe('generic application shell', () => {
     store.selectProjectedNode(quartz);
     fixture.detectChanges();
     expect(element.querySelector('app-generic-taxonomy-profile')?.textContent).toContain('Quartz');
+    expect(element.querySelector('[data-fact-presentation="stamp"] dt')?.textContent).toContain(
+      'Material',
+    );
+    expect(
+      [...element.querySelectorAll('[data-fact-presentation="default"]')].some((row) =>
+        row.textContent?.includes('Record origin'),
+      ),
+    ).toBe(true);
     expect(store.search('rock crystal')[0]?.targetId).toBe('quartz');
 
     store.setFacet('color', 'purple');
@@ -42,6 +50,19 @@ describe('generic application shell', () => {
 
     store.updateRing(0, 'color');
     expect(store.ringOrder()).toEqual(['color', 'material']);
+  });
+
+  it('renders specimen-owned About content without beer prose', async () => {
+    await TestBed.configureTestingModule({
+      imports: [App],
+      providers: [provideTaxonomy(syntheticTaxonomy)],
+    }).compileComponents();
+    const fixture = TestBed.createComponent(App);
+    fixture.componentInstance.open('about');
+    fixture.detectChanges();
+    const text = (fixture.nativeElement as HTMLElement).textContent ?? '';
+    expect(text).toContain('Specimen projection laboratory');
+    expect(text).not.toContain('Ale and lager');
   });
 
   it('keeps rendered canonical selection, projected focus and detail mode independent', async () => {

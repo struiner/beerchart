@@ -1,15 +1,16 @@
-import { beerTaxonomyEntries } from '../../core/data/beer-taxonomy-entries';
-import { BeerTaxonomyEntry, RingSeparationAxis } from '../../core/data/beer-taxonomy-entry';
-import { beerBrands, BeerBrand } from '../../core/data/brand-data';
-import { AtlasSprite, indicatorsForEntry, spriteById } from '../../core/data/icon-atlas';
-import { axisValues, entryFilterIds, RING_OPTIONS } from '../../core/data/taxonomy-data';
-import { defineTaxonomy } from '../../taxonomy/contracts/define-taxonomy';
+import { BeerTaxonomyEntry, RingSeparationAxis } from './contracts/beer-entry';
+import { beerBrands, BeerBrand } from './data/brands';
+import { beerTaxonomyEntries } from './data/entries';
+import { axisValues, entryFilterIds, RING_OPTIONS } from './interpretation/beer-interpretation';
+import { AtlasSprite, indicatorsForEntry, spriteById } from './presentation/beer-icons';
+import { beerPersistence } from './persistence/beer-persistence';
 import {
+  defineTaxonomy,
   RelatedEntity,
   ResolvedIcon,
   TaxonomyDimension,
   TaxonomyEntry,
-} from '../../taxonomy/contracts/taxonomy';
+} from '../../taxonomy/public-api';
 
 /** Domain wrapper interpreted only inside the beer dataset module. */
 export interface BeerModuleEntry extends TaxonomyEntry<BeerTaxonomyEntry> {
@@ -73,7 +74,7 @@ const normalizedFrame = (sprite: AtlasSprite) => {
 
 const resolvedSprite = (sprite: AtlasSprite, accessibleLabel: string): ResolvedIcon => ({
   kind: 'sprite',
-  value: `/${
+  value: `/datasets/beer/${
     sprite.sheetId === 'beer-taxonomy-icons-core'
       ? 'beer-taxonomy-icons-core.png'
       : 'beer-taxonomy-icons-properties.png'
@@ -146,6 +147,7 @@ export const beerTaxonomyModule = defineTaxonomy({
     description: 'A source-aware circular projection of published beer styles.',
     schemaVersion: 'taxonomy-module/v1',
     engineVersion: '1',
+    datasetVersion: '1.0.0',
   },
   vocabulary: {
     root: 'Beer',
@@ -156,6 +158,32 @@ export const beerTaxonomyModule = defineTaxonomy({
     relatedEntity: 'Brand',
     relatedEntityPlural: 'Brands',
   },
+  content: {
+    about: [
+      {
+        id: 'purpose',
+        title: 'A better map of beer',
+        markdown:
+          'Because the internet is riddled with poor diagrams, and we can do better as a species.',
+      },
+      {
+        id: 'classification',
+        markdown:
+          'Classification membership is not historical descent or similarity of taste. Ale and lager are the primary trunks; mixed, spontaneous, hybrid, and variable fermentation remain a separate published branch.',
+      },
+    ],
+    emptyStates: {
+      noFilterResults: 'No beer styles match the active filters.',
+      noRelatedEntities: 'No commercial brands are currently linked to this style.',
+    },
+    search: { placeholder: 'Search styles, categories, or brands' },
+    submission: {
+      introduction: 'Propose a beer style, category, fermentation method, or related entry.',
+      typeSuggestions: ['Beer', 'Ale', 'Lager', 'Category', 'Style', 'Fermentation Method'],
+      placementInstructions: 'Choose the closest published location in the beer taxonomy.',
+    },
+  },
+  persistence: beerPersistence,
   records: {
     groups: [
       { id: 'beer', title: 'Beer', parentGroupId: null },
@@ -278,6 +306,7 @@ export const beerTaxonomyModule = defineTaxonomy({
               label: 'Origin',
               value: entry.facts.originLocations.value.map(({ name }) => name).join(', '),
               icon: resolvedSpriteById('taxonomy.placement', 'Geographic origin'),
+              presentation: { variant: 'stamp' as const, tone: 'oxblood' },
             },
           ],
         },
@@ -326,11 +355,41 @@ export const beerTaxonomyModule = defineTaxonomy({
         green: '#526e49',
         blue: '#385f76',
       },
+      visualTokens: {
+        amber: '#c6632f',
+        yellow: '#d4a72f',
+        teal: '#31736e',
+      },
+      typography: {
+        display: { family: 'Georgia', fallbacks: ['serif'], weight: 700 },
+        interface: {
+          family: 'Arial Narrow',
+          fallbacks: ['Roboto Condensed', 'Arial', 'sans-serif'],
+          weight: 700,
+        },
+        annotation: { family: 'Arial Narrow', fallbacks: ['Arial', 'sans-serif'], weight: 600 },
+      },
+      surfaces: {
+        application: { background: 'paper', foreground: 'ink', border: 'deepInk' },
+        toolbar: { background: 'olive', foreground: 'paperLight', border: 'brass' },
+        viewport: { background: 'paper', foreground: 'ink', border: 'paperDark' },
+        panel: { background: 'paperLight', foreground: 'ink', border: 'deepInk' },
+      },
+      geometry: {
+        controlRadius: 0,
+        panelRadius: 0,
+        tileRadius: 0,
+        borderWidth: 1,
+        focusWidth: 3,
+      },
+      textures: {
+        'paper-ledger': { kind: 'lines', opacity: 0.1, spacing: 28 },
+      },
     },
     layout: {
       radiusPolicy: { kind: 'fixed', radii: [520, 1500, 2350, 2850] },
       labelOrientation: 'radial',
-      branchColors: { ale: 'orange', lager: 'yellow', mixed: 'teal' },
+      branchColors: { ale: 'amber', lager: 'yellow', mixed: 'teal' },
       stationMetrics: {
         root: { width: 116, height: 116 },
         group: { width: 132, height: 64 },

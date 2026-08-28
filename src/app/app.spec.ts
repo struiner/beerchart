@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { App } from './app';
-import { beerTaxonomyEntries } from './core/data/beer-taxonomy-entries';
-import { beerBrands, brandsForEntry } from './core/data/brand-data';
-import { indicatorForFilter, indicatorsForEntry } from './core/data/icon-atlas';
-import { createFilterOptions } from './core/data/taxonomy-data';
+import { beerBrands, brandsForEntry } from './datasets/beer/data/brands';
+import { beerTaxonomyEntries } from './datasets/beer/data/entries';
+import { createFilterOptions } from './datasets/beer/interpretation/beer-interpretation';
+import { indicatorForFilter, indicatorsForEntry } from './datasets/beer/presentation/beer-icons';
 import { TaxonomyViewport } from './taxonomy-viewport';
 import { provideTaxonomy } from './taxonomy/contracts/taxonomy-provider';
-import { beerTaxonomyModule } from './datasets/beer/beer-taxonomy';
+import { beerTaxonomyModule } from './datasets/beer';
 describe('Beer Taxonomy Atlas', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -27,6 +27,14 @@ describe('Beer Taxonomy Atlas', () => {
     expect(el.querySelector('app-filter-tag-select')).toBeTruthy();
     expect(el.querySelector('.minimap')).toBeFalsy();
     expect(el.querySelector('.entry-search input')).toBeTruthy();
+  });
+  it('renders About content owned by the beer dataset', async () => {
+    const fixture = TestBed.createComponent(App);
+    fixture.componentInstance.open('about');
+    fixture.detectChanges();
+    expect((fixture.nativeElement as HTMLElement).textContent).toContain(
+      'Classification membership is not historical descent',
+    );
   });
   it('projects three configurable rings from all typed entries', async () => {
     const fixture = TestBed.createComponent(App);

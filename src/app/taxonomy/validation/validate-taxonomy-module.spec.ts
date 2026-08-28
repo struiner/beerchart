@@ -1,34 +1,33 @@
 import { describe, expect, it } from 'vitest';
-import { beerTaxonomyModule } from '../../datasets/beer/beer-taxonomy';
 import { defineTaxonomy } from '../contracts/define-taxonomy';
+import { syntheticTaxonomy } from '../testing/synthetic-taxonomy.fixture';
 import { validateTaxonomyModule } from './validate-taxonomy-module';
 
 describe('validateTaxonomyModule', () => {
-  it('accepts the beer compatibility module and retains all published entries', () => {
-    const result = validateTaxonomyModule(beerTaxonomyModule);
+  it('accepts a valid taxonomy fixture', () => {
+    const result = validateTaxonomyModule(syntheticTaxonomy);
 
     expect(result.issues).toEqual([]);
     expect(result.valid).toBe(true);
-    expect(beerTaxonomyModule.records.entries).toHaveLength(168);
   });
 
   it('reports broken references and invalid default rings', () => {
     const invalid = defineTaxonomy({
-      ...beerTaxonomyModule,
+      ...syntheticTaxonomy,
       records: {
-        ...beerTaxonomyModule.records,
+        ...syntheticTaxonomy.records,
         entries: [
           {
-            ...beerTaxonomyModule.records.entries[0]!,
+            ...syntheticTaxonomy.records.entries[0]!,
             parentGroupIds: ['missing-group'],
           },
         ],
         relatedEntities: [],
       },
       interpretation: {
-        ...beerTaxonomyModule.interpretation,
+        ...syntheticTaxonomy.interpretation,
         projection: {
-          ...beerTaxonomyModule.interpretation.projection,
+          ...syntheticTaxonomy.interpretation.projection,
           defaultRingOrder: ['missing-dimension'],
         },
       },
@@ -42,16 +41,32 @@ describe('validateTaxonomyModule', () => {
   });
 
   it('rejects duplicate canonical entry ids', () => {
-    const duplicate = beerTaxonomyModule.records.entries[0]!;
+    const duplicate = syntheticTaxonomy.records.entries[0]!;
     const invalid = defineTaxonomy({
-      ...beerTaxonomyModule,
+      ...syntheticTaxonomy,
       records: {
-        ...beerTaxonomyModule.records,
-        entries: [...beerTaxonomyModule.records.entries, duplicate],
+        ...syntheticTaxonomy.records,
+        entries: [...syntheticTaxonomy.records.entries, duplicate],
       },
     });
     expect(validateTaxonomyModule(invalid).issues.map(({ code }) => code)).toContain(
       'duplicate-id',
+    );
+  });
+
+  it('reports branch colors that do not resolve through the active theme', () => {
+    const invalid = defineTaxonomy({
+      ...syntheticTaxonomy,
+      presentation: {
+        ...syntheticTaxonomy.presentation,
+        layout: {
+          ...syntheticTaxonomy.presentation.layout!,
+          branchColors: { mineral: 'undeclared-tone' },
+        },
+      },
+    });
+    expect(validateTaxonomyModule(invalid).issues.map(({ code }) => code)).toContain(
+      'missing-visual-token',
     );
   });
 });

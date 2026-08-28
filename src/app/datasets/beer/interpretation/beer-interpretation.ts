@@ -5,9 +5,9 @@ import {
   RingSeparation,
   RingSeparationAxis,
   RingSeparationOption,
-} from './beer-taxonomy-entry';
-import { TaxonomyDocument, TaxonomyNode } from '../taxonomy.model';
-import { brandCountriesForEntry } from './brand-data';
+} from '../contracts/beer-entry';
+import { TaxonomyDocument, TaxonomyNode } from '../contracts/legacy-taxonomy-model';
+import { brandCountriesForEntry } from '../data/brands';
 
 export const RING_OPTIONS: readonly RingSeparationOption[] = [
   {

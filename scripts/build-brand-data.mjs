@@ -1,17 +1,220 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { PDFParse } from 'pdf-parse';
-const parser=new PDFParse({data:readFileSync('Extending Beer Taxonomy JSON Schema.pdf')});const text=(await parser.getText()).text;await parser.destroy();
-const field=(object,name)=>object.match(new RegExp(`"${name}"\\s*:\\s*(?:"([^"]*)"|(null))`))?.[1]??null;
-const records=[];for(const match of text.matchAll(/\{\s*"id"\s*:\s*"brand-[^"]+"[\s\S]*?\n\}/g)){const object=match[0],id=field(object,'id'),name=field(object,'name'),linked=field(object,'linkedTaxonomyId'),logoUrl=field(object,'logoUrl');if(id&&name)records.push({id,name,linked,logoUrl})}
-const slug=value=>value.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/&/g,' and ').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-const source=readFileSync('src/app/core/data/beer-taxonomy-entries.ts','utf8');const styles=[...source.matchAll(/id\s*:\s*['"](style:[^'"]+)['"][\s\S]*?title\s*:\s*['"]([^'"]+)['"]/g)].map(match=>({id:match[1],title:match[2],slug:slug(match[2])}));if(styles.length!==168)throw new Error(`Expected 168 styles, found ${styles.length}`);const bySlug=new Map(styles.map(style=>[style.slug,style]));
-const aliases={
- 'american-ipa':'american-style-india-pale-ale','american-pale-ale':'american-style-pale-ale','american-lager':'american-style-lager','american-amber-ale':'american-style-amber-red-ale','american-brown-ale':'american-style-brown-ale','american-stout':'american-style-stout','american-light-lager':'american-style-light-lager','american-pilsner':'american-style-pilsener','american-barleywine':'american-style-barley-wine-ale','american-wheat-beer':'american-style-wheat-beer','american-blonde-ale':'golden-or-blonde-ale','american-adjunct-lager':'american-style-lager','american-pale-lager':'contemporary-american-style-lager','american-porter':'robust-porter','american-wild-ale':'wild-beer','american-rye-ale':'rye-beer','american-strong-ale':'strong-ale','american-value-lager':'american-style-light-lager','american-strong-lager':'other-strong-ale-or-lager','american-two-hearted-ipa':'american-style-india-pale-ale',
- 'best-bitter':'special-bitter-or-best-bitter','english-best-bitter':'special-bitter-or-best-bitter','bitter':'ordinary-bitter','english-bitter':'ordinary-bitter','strong-bitter':'extra-special-bitter','english-ordinary-bitter':'ordinary-bitter','english-dark-mild':'english-style-dark-mild-ale','dark-mild':'english-style-dark-mild-ale','english-pale-ale':'classic-english-style-pale-ale','english-ipa':'british-style-india-pale-ale','english-brown-ale':'english-style-brown-ale','british-brown-ale':'english-style-brown-ale','english-porter':'brown-porter','english-summer-ale':'english-style-summer-ale','english-strong-ale':'strong-ale','english-golden-ale':'golden-or-blonde-ale','english-export-ale':'scottish-style-export-ale',
- 'german-pils':'german-style-pilsener','pilsner':'german-style-pilsener','bohemian-pilsener':'czech-style-pale-lager','czech-premium-pale-lager':'czech-style-pale-lager','czech-pale-lager':'czech-style-pale-lager','czech-dark-lager':'czech-style-dark-lager','belgian-pils':'international-style-pilsener','italian-grape-ale':'italian-style-pilsener','munchner-helles':'munich-style-helles','munich-helles':'munich-style-helles','dorado-helles-or-pale-lager':'munich-style-helles','dunkel':'munich-style-dunkel','munich-dunkel':'munich-style-dunkel','bavarian-dunkel':'munich-style-dunkel','schwarzbier':'german-style-schwarzbier','marzen':'german-style-maerzen','festbier':'german-style-oktoberfest-festbier','dortmunder-export':'dortmunder-european-style-export','dormunder-export':'dortmunder-european-style-export','altbier':'german-style-altbier','traditional-altbier':'german-style-altbier','kolsch':'german-style-koelsch','koelsch':'german-style-koelsch','hefeweizen':'south-german-style-hefeweizen','weissbier':'south-german-style-hefeweizen','weizenbock':'south-german-style-weizenbock','dunkles-weissbier':'south-german-style-dunkel-weizen','berliner-weisse':'berliner-style-weisse','gose':'leipzig-style-gose','contemporary-gose':'contemporary-style-gose','rauchbier':'smoke-beer','bock':'traditional-german-style-bock','traditional-bock':'traditional-german-style-bock','dunkles-bock':'traditional-german-style-bock','double-bock':'german-style-doppelbock','doppelbock':'german-style-doppelbock','eisbock':'german-style-eisbock','helles-bock':'german-style-heller-bock-maibock','german-leichtbier':'german-style-leichtbier','kellerbier':'kellerbier-or-zwickelbier','kellerbier-zwickelbier':'kellerbier-or-zwickelbier','california-common':'california-common-beer','baltic-porter':'baltic-style-porter','strong-lager':'other-strong-ale-or-lager',
- 'witbier':'belgian-style-witbier','saison':'classic-french-and-belgian-style-saison','biere-de-garde':'french-style-biere-de-garde','french-biere-de-garde':'french-style-biere-de-garde','belgian-dubbel':'belgian-style-dubbel','dubbel':'belgian-style-dubbel','belgian-tripel':'belgian-style-tripel','belgian-quadrupel':'belgian-style-quadrupel','belgian-blonde-ale':'belgian-style-blonde-ale','belgian-blond-ale':'belgian-style-blonde-ale','belgian-dark-strong-ale':'belgian-style-strong-dark-ale','belgian-strong-dark-ale':'belgian-style-strong-dark-ale','belgian-strong-golden-ale':'belgian-style-strong-blonde-ale','belgian-golden-strong-ale':'belgian-style-strong-blonde-ale','belgian-specialty-ale':'other-belgian-style-ale','belgian-ipa':'american-belgo-style-ale','belgian-pale-ale':'belgian-style-speciale-belge','lambic':'belgian-style-lambic','gueuze':'traditional-belgian-style-gueuze','fruit-lambic':'belgian-style-fruit-lambic','lambic-fruit':'belgian-style-fruit-lambic','kriek':'belgian-style-fruit-lambic','flanders-red-ale':'belgian-style-flanders-oud-bruin-or-oud-red-ale','flanders-sour-ale':'belgian-style-flanders-oud-bruin-or-oud-red-ale','oud-bruin':'belgian-style-flanders-oud-bruin-or-oud-red-ale',
- 'imperial-ipa':'american-style-imperial-or-double-india-pale-ale','double-ipa':'american-style-imperial-or-double-india-pale-ale','triple-ipa':'american-style-imperial-or-double-india-pale-ale','neipa':'juicy-or-hazy-india-pale-ale','hazy-ipa':'juicy-or-hazy-india-pale-ale','black-ipa':'american-style-black-ale','session-ipa':'session-india-pale-ale','specialty-ipa':'experimental-india-pale-ale','imperial-stout':'american-style-imperial-stout','pastry-stout':'dessert-or-pastry-beer','chocolate-stout':'chocolate-or-cocoa-beer','sweet-stout':'sweet-stout-or-cream-stout','tropical-stout':'export-style-stout','foreign-extra-stout':'export-style-stout','irish-dry-stout':'classic-irish-style-dry-stout','irish-stout':'classic-irish-style-dry-stout','irish-red-ale':'irish-style-red-ale','scotch-ale':'scotch-ale-or-wee-heavy','wee-heavy':'scotch-ale-or-wee-heavy','scottish-export':'scottish-style-export-ale','scottish-export-ale':'scottish-style-export-ale','scottish-heavy':'scottish-style-heavy-ale','barleywine':'british-style-barley-wine-ale','amber-lager':'american-style-amber-lager','vienna-lager':'vienna-style-lager','dark-lager':'american-style-dark-lager','international-pale-lager':'international-style-pilsener','international-amber-lager':'american-style-amber-lager','japan-pale-lager':'rice-lager','japanese-rice-lager':'rice-lager','low-alcohol-beer':'session-beer','low-alcohol':'session-beer','non-alcoholic':'non-alcohol-malt-beverage','fruit-beer':'american-style-fruit-beer','pumpkin-beer':'pumpkin-squash-beer','honey-beer':'specialty-honey-beer','chili-beer':'chili-pepper-beer','sour-ale':'american-style-sour-ale','cream-ale':'american-style-cream-ale','golden-ale':'golden-or-blonde-ale','blonde-ale':'golden-or-blonde-ale','amber-ale':'american-style-amber-red-ale','specialty-wood-aged-beer':'wood-and-barrel-aged-sour-beer','gruit-or-historical-beer':'historical-beer','gruit':'historical-beer','winter-seasonal-beer':'specialty-beer','winter-warmer':'specialty-beer'
+const parser = new PDFParse({ data: readFileSync('Extending Beer Taxonomy JSON Schema.pdf') });
+const text = (await parser.getText()).text;
+await parser.destroy();
+const field = (object, name) =>
+  object.match(new RegExp(`"${name}"\\s*:\\s*(?:"([^"]*)"|(null))`))?.[1] ?? null;
+const records = [];
+for (const match of text.matchAll(/\{\s*"id"\s*:\s*"brand-[^"]+"[\s\S]*?\n\}/g)) {
+  const object = match[0],
+    id = field(object, 'id'),
+    name = field(object, 'name'),
+    linked = field(object, 'linkedTaxonomyId'),
+    logoUrl = field(object, 'logoUrl');
+  if (id && name) records.push({ id, name, linked, logoUrl });
+}
+const slug = (value) =>
+  value
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+const source = readFileSync('src/app/datasets/beer/data/entries.ts', 'utf8');
+const styles = [
+  ...source.matchAll(/id\s*:\s*['"](style:[^'"]+)['"][\s\S]*?title\s*:\s*['"]([^'"]+)['"]/g),
+].map((match) => ({ id: match[1], title: match[2], slug: slug(match[2]) }));
+if (styles.length !== 168) throw new Error(`Expected 168 styles, found ${styles.length}`);
+const bySlug = new Map(styles.map((style) => [style.slug, style]));
+const aliases = {
+  'american-ipa': 'american-style-india-pale-ale',
+  'american-pale-ale': 'american-style-pale-ale',
+  'american-lager': 'american-style-lager',
+  'american-amber-ale': 'american-style-amber-red-ale',
+  'american-brown-ale': 'american-style-brown-ale',
+  'american-stout': 'american-style-stout',
+  'american-light-lager': 'american-style-light-lager',
+  'american-pilsner': 'american-style-pilsener',
+  'american-barleywine': 'american-style-barley-wine-ale',
+  'american-wheat-beer': 'american-style-wheat-beer',
+  'american-blonde-ale': 'golden-or-blonde-ale',
+  'american-adjunct-lager': 'american-style-lager',
+  'american-pale-lager': 'contemporary-american-style-lager',
+  'american-porter': 'robust-porter',
+  'american-wild-ale': 'wild-beer',
+  'american-rye-ale': 'rye-beer',
+  'american-strong-ale': 'strong-ale',
+  'american-value-lager': 'american-style-light-lager',
+  'american-strong-lager': 'other-strong-ale-or-lager',
+  'american-two-hearted-ipa': 'american-style-india-pale-ale',
+  'best-bitter': 'special-bitter-or-best-bitter',
+  'english-best-bitter': 'special-bitter-or-best-bitter',
+  bitter: 'ordinary-bitter',
+  'english-bitter': 'ordinary-bitter',
+  'strong-bitter': 'extra-special-bitter',
+  'english-ordinary-bitter': 'ordinary-bitter',
+  'english-dark-mild': 'english-style-dark-mild-ale',
+  'dark-mild': 'english-style-dark-mild-ale',
+  'english-pale-ale': 'classic-english-style-pale-ale',
+  'english-ipa': 'british-style-india-pale-ale',
+  'english-brown-ale': 'english-style-brown-ale',
+  'british-brown-ale': 'english-style-brown-ale',
+  'english-porter': 'brown-porter',
+  'english-summer-ale': 'english-style-summer-ale',
+  'english-strong-ale': 'strong-ale',
+  'english-golden-ale': 'golden-or-blonde-ale',
+  'english-export-ale': 'scottish-style-export-ale',
+  'german-pils': 'german-style-pilsener',
+  pilsner: 'german-style-pilsener',
+  'bohemian-pilsener': 'czech-style-pale-lager',
+  'czech-premium-pale-lager': 'czech-style-pale-lager',
+  'czech-pale-lager': 'czech-style-pale-lager',
+  'czech-dark-lager': 'czech-style-dark-lager',
+  'belgian-pils': 'international-style-pilsener',
+  'italian-grape-ale': 'italian-style-pilsener',
+  'munchner-helles': 'munich-style-helles',
+  'munich-helles': 'munich-style-helles',
+  'dorado-helles-or-pale-lager': 'munich-style-helles',
+  dunkel: 'munich-style-dunkel',
+  'munich-dunkel': 'munich-style-dunkel',
+  'bavarian-dunkel': 'munich-style-dunkel',
+  schwarzbier: 'german-style-schwarzbier',
+  marzen: 'german-style-maerzen',
+  festbier: 'german-style-oktoberfest-festbier',
+  'dortmunder-export': 'dortmunder-european-style-export',
+  'dormunder-export': 'dortmunder-european-style-export',
+  altbier: 'german-style-altbier',
+  'traditional-altbier': 'german-style-altbier',
+  kolsch: 'german-style-koelsch',
+  koelsch: 'german-style-koelsch',
+  hefeweizen: 'south-german-style-hefeweizen',
+  weissbier: 'south-german-style-hefeweizen',
+  weizenbock: 'south-german-style-weizenbock',
+  'dunkles-weissbier': 'south-german-style-dunkel-weizen',
+  'berliner-weisse': 'berliner-style-weisse',
+  gose: 'leipzig-style-gose',
+  'contemporary-gose': 'contemporary-style-gose',
+  rauchbier: 'smoke-beer',
+  bock: 'traditional-german-style-bock',
+  'traditional-bock': 'traditional-german-style-bock',
+  'dunkles-bock': 'traditional-german-style-bock',
+  'double-bock': 'german-style-doppelbock',
+  doppelbock: 'german-style-doppelbock',
+  eisbock: 'german-style-eisbock',
+  'helles-bock': 'german-style-heller-bock-maibock',
+  'german-leichtbier': 'german-style-leichtbier',
+  kellerbier: 'kellerbier-or-zwickelbier',
+  'kellerbier-zwickelbier': 'kellerbier-or-zwickelbier',
+  'california-common': 'california-common-beer',
+  'baltic-porter': 'baltic-style-porter',
+  'strong-lager': 'other-strong-ale-or-lager',
+  witbier: 'belgian-style-witbier',
+  saison: 'classic-french-and-belgian-style-saison',
+  'biere-de-garde': 'french-style-biere-de-garde',
+  'french-biere-de-garde': 'french-style-biere-de-garde',
+  'belgian-dubbel': 'belgian-style-dubbel',
+  dubbel: 'belgian-style-dubbel',
+  'belgian-tripel': 'belgian-style-tripel',
+  'belgian-quadrupel': 'belgian-style-quadrupel',
+  'belgian-blonde-ale': 'belgian-style-blonde-ale',
+  'belgian-blond-ale': 'belgian-style-blonde-ale',
+  'belgian-dark-strong-ale': 'belgian-style-strong-dark-ale',
+  'belgian-strong-dark-ale': 'belgian-style-strong-dark-ale',
+  'belgian-strong-golden-ale': 'belgian-style-strong-blonde-ale',
+  'belgian-golden-strong-ale': 'belgian-style-strong-blonde-ale',
+  'belgian-specialty-ale': 'other-belgian-style-ale',
+  'belgian-ipa': 'american-belgo-style-ale',
+  'belgian-pale-ale': 'belgian-style-speciale-belge',
+  lambic: 'belgian-style-lambic',
+  gueuze: 'traditional-belgian-style-gueuze',
+  'fruit-lambic': 'belgian-style-fruit-lambic',
+  'lambic-fruit': 'belgian-style-fruit-lambic',
+  kriek: 'belgian-style-fruit-lambic',
+  'flanders-red-ale': 'belgian-style-flanders-oud-bruin-or-oud-red-ale',
+  'flanders-sour-ale': 'belgian-style-flanders-oud-bruin-or-oud-red-ale',
+  'oud-bruin': 'belgian-style-flanders-oud-bruin-or-oud-red-ale',
+  'imperial-ipa': 'american-style-imperial-or-double-india-pale-ale',
+  'double-ipa': 'american-style-imperial-or-double-india-pale-ale',
+  'triple-ipa': 'american-style-imperial-or-double-india-pale-ale',
+  neipa: 'juicy-or-hazy-india-pale-ale',
+  'hazy-ipa': 'juicy-or-hazy-india-pale-ale',
+  'black-ipa': 'american-style-black-ale',
+  'session-ipa': 'session-india-pale-ale',
+  'specialty-ipa': 'experimental-india-pale-ale',
+  'imperial-stout': 'american-style-imperial-stout',
+  'pastry-stout': 'dessert-or-pastry-beer',
+  'chocolate-stout': 'chocolate-or-cocoa-beer',
+  'sweet-stout': 'sweet-stout-or-cream-stout',
+  'tropical-stout': 'export-style-stout',
+  'foreign-extra-stout': 'export-style-stout',
+  'irish-dry-stout': 'classic-irish-style-dry-stout',
+  'irish-stout': 'classic-irish-style-dry-stout',
+  'irish-red-ale': 'irish-style-red-ale',
+  'scotch-ale': 'scotch-ale-or-wee-heavy',
+  'wee-heavy': 'scotch-ale-or-wee-heavy',
+  'scottish-export': 'scottish-style-export-ale',
+  'scottish-export-ale': 'scottish-style-export-ale',
+  'scottish-heavy': 'scottish-style-heavy-ale',
+  barleywine: 'british-style-barley-wine-ale',
+  'amber-lager': 'american-style-amber-lager',
+  'vienna-lager': 'vienna-style-lager',
+  'dark-lager': 'american-style-dark-lager',
+  'international-pale-lager': 'international-style-pilsener',
+  'international-amber-lager': 'american-style-amber-lager',
+  'japan-pale-lager': 'rice-lager',
+  'japanese-rice-lager': 'rice-lager',
+  'low-alcohol-beer': 'session-beer',
+  'low-alcohol': 'session-beer',
+  'non-alcoholic': 'non-alcohol-malt-beverage',
+  'fruit-beer': 'american-style-fruit-beer',
+  'pumpkin-beer': 'pumpkin-squash-beer',
+  'honey-beer': 'specialty-honey-beer',
+  'chili-beer': 'chili-pepper-beer',
+  'sour-ale': 'american-style-sour-ale',
+  'cream-ale': 'american-style-cream-ale',
+  'golden-ale': 'golden-or-blonde-ale',
+  'blonde-ale': 'golden-or-blonde-ale',
+  'amber-ale': 'american-style-amber-red-ale',
+  'specialty-wood-aged-beer': 'wood-and-barrel-aged-sour-beer',
+  'gruit-or-historical-beer': 'historical-beer',
+  gruit: 'historical-beer',
+  'winter-seasonal-beer': 'specialty-beer',
+  'winter-warmer': 'specialty-beer',
 };
-const resolve=link=>{if(!link)return null;const direct=bySlug.get(link)??bySlug.get(aliases[slug(link)]);return direct?.id??null};
-const brands=new Map(),unmatched=new Map();for(const record of records){const entryId=resolve(record.linked);if(!entryId){if(record.linked)unmatched.set(record.linked,(unmatched.get(record.linked)??0)+1);continue}const current=brands.get(record.id)??{id:record.id,name:record.name,taxonomyEntryIds:new Set(),logoUrl:record.logoUrl};current.taxonomyEntryIds.add(entryId);if(!current.logoUrl&&record.logoUrl)current.logoUrl=record.logoUrl;brands.set(record.id,current)}
-const output=[...brands.values()].map(brand=>({...brand,taxonomyEntryIds:[...brand.taxonomyEntryIds].sort()})).sort((a,b)=>a.name.localeCompare(b.name));writeFileSync('src/app/core/data/beer-brands.generated.json',`${JSON.stringify(output,null,2)}\n`);writeFileSync('brand-import-report.json',`${JSON.stringify({occurrences:records.length,uniqueBrands:brands.size,mappedLinks:[...new Set(output.flatMap(brand=>brand.taxonomyEntryIds))].length,unmatchedAliases:[...unmatched.entries()].sort((a,b)=>b[1]-a[1]).map(([alias,count])=>({alias,count}))},null,2)}\n`);console.log(`Generated ${output.length} brands; ${unmatched.size} unmatched aliases.`);
+const resolve = (link) => {
+  if (!link) return null;
+  const direct = bySlug.get(link) ?? bySlug.get(aliases[slug(link)]);
+  return direct?.id ?? null;
+};
+const brands = new Map(),
+  unmatched = new Map();
+for (const record of records) {
+  const entryId = resolve(record.linked);
+  if (!entryId) {
+    if (record.linked) unmatched.set(record.linked, (unmatched.get(record.linked) ?? 0) + 1);
+    continue;
+  }
+  const current = brands.get(record.id) ?? {
+    id: record.id,
+    name: record.name,
+    taxonomyEntryIds: new Set(),
+    logoUrl: record.logoUrl,
+  };
+  current.taxonomyEntryIds.add(entryId);
+  if (!current.logoUrl && record.logoUrl) current.logoUrl = record.logoUrl;
+  brands.set(record.id, current);
+}
+const output = [...brands.values()]
+  .map((brand) => ({ ...brand, taxonomyEntryIds: [...brand.taxonomyEntryIds].sort() }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+writeFileSync(
+  'src/app/datasets/beer/data/beer-brands.generated.json',
+  `${JSON.stringify(output, null, 2)}\n`,
+);
+writeFileSync(
+  'brand-import-report.json',
+  `${JSON.stringify({ occurrences: records.length, uniqueBrands: brands.size, mappedLinks: [...new Set(output.flatMap((brand) => brand.taxonomyEntryIds))].length, unmatchedAliases: [...unmatched.entries()].sort((a, b) => b[1] - a[1]).map(([alias, count]) => ({ alias, count })) }, null, 2)}\n`,
+);
+console.log(`Generated ${output.length} brands; ${unmatched.size} unmatched aliases.`);

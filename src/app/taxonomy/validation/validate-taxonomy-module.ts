@@ -39,6 +39,44 @@ export function validateTaxonomyModule<
   const groupIds = new Set(module.records.groups.map(({ id }) => id));
   const entryIds = new Set(module.records.entries.map(({ id }) => id));
   const dimensions = new Set(module.interpretation.dimensions.map(({ id }) => id));
+  const theme = module.presentation.theme;
+  const safeColor = (value: string) => /^#[0-9a-f]{6}([0-9a-f]{2})?$/i.test(value);
+  if (theme?.visualTokens) {
+    for (const [id, color] of Object.entries(theme.visualTokens)) {
+      if (!/^[a-z][a-z0-9-]*$/.test(id))
+        error('invalid-visual-token', `Visual token "${id}" is not a safe identifier.`);
+      if (!safeColor(color))
+        error('invalid-theme-color', `Visual token "${id}" has invalid color "${color}".`);
+    }
+  }
+  if (theme) {
+    for (const [id, value] of Object.entries(theme.geometry)) {
+      if (!Number.isFinite(value) || value < 0)
+        error('invalid-theme-geometry', `Theme geometry "${id}" must be a non-negative number.`);
+    }
+    for (const [id, texture] of Object.entries(theme.textures ?? {})) {
+      if ('opacity' in texture && (texture.opacity < 0 || texture.opacity > 1))
+        error('invalid-texture-opacity', `Texture "${id}" opacity must be between zero and one.`);
+      if (texture.kind === 'grain' && texture.scale <= 0)
+        error('invalid-texture-scale', `Texture "${id}" scale must be positive.`);
+      if (texture.kind === 'lines' && texture.spacing <= 0)
+        error('invalid-texture-spacing', `Texture "${id}" spacing must be positive.`);
+      if (texture.kind === 'asset' && !texture.assetId)
+        error('missing-texture-asset', `Texture "${id}" has no asset reference.`);
+    }
+    for (const [role, font] of Object.entries(theme.typography)) {
+      if (!font.family.trim())
+        error('missing-font-reference', `Theme typography role "${role}" has no font reference.`);
+    }
+  }
+  const availableVisualTokens = new Set([
+    ...Object.keys(theme?.tokens ?? {}),
+    ...Object.keys(theme?.visualTokens ?? {}),
+  ]);
+  for (const token of Object.values(module.presentation.layout?.branchColors ?? {})) {
+    if (!availableVisualTokens.has(token))
+      error('missing-visual-token', `Branch visual token "${token}" is not declared by the theme.`);
+  }
 
   for (const group of module.records.groups) {
     if (group.parentGroupId && !groupIds.has(group.parentGroupId)) {
@@ -162,6 +200,19 @@ export function validateTaxonomyModule<
           `Profile for "${entry.id}" repeats section "${section.id}".`,
         );
       sectionIds.add(section.id);
+      if (section.kind === 'facts') {
+        for (const fact of section.facts) {
+          const tone =
+            fact.presentation?.variant === 'stamp' || fact.presentation?.variant === 'highlight'
+              ? fact.presentation.tone
+              : undefined;
+          if (tone && !availableVisualTokens.has(tone))
+            error(
+              'missing-fact-visual-token',
+              `Fact "${fact.id}" references undeclared visual token "${tone}".`,
+            );
+        }
+      }
     }
   }
 

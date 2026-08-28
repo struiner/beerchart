@@ -1,4 +1,4 @@
-import type { BeerTaxonomyDataset } from './beer-taxonomy-entry';
+import type { BeerTaxonomyDataset } from '../contracts/beer-entry';
 
 /**
  * Generated source-aware records for all 168 Brewers Association 2026 entries.

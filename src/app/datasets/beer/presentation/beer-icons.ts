@@ -1,5 +1,5 @@
-import atlasDocument from '../../../assets/beer-taxonomy-icon-atlas.json';
-import { BeerTaxonomyEntry, BeerFilterOption } from './beer-taxonomy-entry';
+import atlasDocument from '../assets/beer-taxonomy-icon-atlas.json';
+import { BeerTaxonomyEntry, BeerFilterOption } from '../contracts/beer-entry';
 export interface AtlasSprite {
   readonly id: string;
   readonly name: string;

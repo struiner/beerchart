@@ -30,7 +30,7 @@
               [attr.d]="
                 'M' + edge.start.x + ',' + edge.start.y + ' L' + edge.end.x + ',' + edge.end.y
               "
-              [class]="edge.visualToken"
+              [style.stroke]="store.visualColor(edge.visualToken)"
               [class.active]="
                 store.focusedRouteInstanceIds().includes(edge.parentInstanceId) &&
                 store.focusedRouteInstanceIds().includes(edge.childInstanceId)
@@ -43,7 +43,11 @@
         @for (node of store.positionedScene().nodes; track node.instanceId) {
           <g
             class="node generic-node"
-            [class]="'visual-' + node.visualToken + ' kind-' + node.kind"
+            [class.kind-root]="node.kind === 'root'"
+            [class.kind-group]="node.kind === 'group'"
+            [class.kind-dimension-value]="node.kind === 'dimension-value'"
+            [class.kind-entry]="node.kind === 'entry'"
+            [style.--node-visual-color]="store.visualColor(node.visualToken)"
             [class.selected]="store.selectedInstances().includes(node.instanceId)"
             [class.focused-instance]="store.focusedInstanceId() === node.instanceId"
             [attr.transform]="'translate(' + node.x + ' ' + node.y + ')'"

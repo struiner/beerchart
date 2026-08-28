@@ -27,30 +27,8 @@
       "grid": {
         "columns": 9,
         "rows": 9,
-        "xBoundaries": [
-          0,
-          139,
-          279,
-          418,
-          557,
-          697,
-          836,
-          975,
-          1115,
-          1254
-        ],
-        "yBoundaries": [
-          0,
-          139,
-          279,
-          418,
-          557,
-          697,
-          836,
-          975,
-          1115,
-          1254
-        ]
+        "xBoundaries": [0, 139, 279, 418, 557, 697, 836, 975, 1115, 1254],
+        "yBoundaries": [0, 139, 279, 418, 557, 697, 836, 975, 1115, 1254]
       }
     },
     {
@@ -65,30 +43,8 @@
       "grid": {
         "columns": 9,
         "rows": 9,
-        "xBoundaries": [
-          0,
-          139,
-          279,
-          418,
-          557,
-          697,
-          836,
-          975,
-          1115,
-          1254
-        ],
-        "yBoundaries": [
-          0,
-          139,
-          279,
-          418,
-          557,
-          697,
-          836,
-          975,
-          1115,
-          1254
-        ]
+        "xBoundaries": [0, 139, 279, 418, 557, 697, 836, 975, 1115, 1254],
+        "yBoundaries": [0, 139, 279, 418, 557, 697, 836, 975, 1115, 1254]
       }
     }
   ],
@@ -114,15 +70,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -147,15 +96,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -180,15 +122,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -213,15 +148,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -246,15 +174,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -279,15 +200,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -312,15 +226,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -345,15 +252,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -378,15 +278,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -411,15 +304,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -444,15 +330,8 @@
       },
       "contextUsage": {
         "category": "glassware",
-        "dataPaths": [
-          "preferredGlassware.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "glassware-filter",
-          "submission-editor",
-          "detail-panel"
-        ],
+        "dataPaths": ["preferredGlassware.value[]"],
+        "surfaces": ["station-metadata", "glassware-filter", "submission-editor", "detail-panel"],
         "description": "Represents a sourced preferred serving-glass value."
       }
     },
@@ -477,15 +356,8 @@
       },
       "contextUsage": {
         "category": "service-vessel",
-        "dataPaths": [
-          "servingTradition.value[]",
-          "packagingCarbonation.value[]"
-        ],
-        "surfaces": [
-          "serving-tradition",
-          "packaging-detail",
-          "detail-panel"
-        ],
+        "dataPaths": ["servingTradition.value[]", "packagingCarbonation.value[]"],
+        "surfaces": ["serving-tradition", "packaging-detail", "detail-panel"],
         "description": "Represents a serving, dispense, or packaging vessel."
       }
     },
@@ -510,14 +382,8 @@
       },
       "contextUsage": {
         "category": "service-vessel",
-        "dataPaths": [
-          "packagingCarbonation.value[]"
-        ],
-        "surfaces": [
-          "serving-tradition",
-          "packaging-detail",
-          "detail-panel"
-        ],
+        "dataPaths": ["packagingCarbonation.value[]"],
+        "surfaces": ["serving-tradition", "packaging-detail", "detail-panel"],
         "description": "Represents a serving, dispense, or packaging vessel."
       }
     },
@@ -542,15 +408,8 @@
       },
       "contextUsage": {
         "category": "service-vessel",
-        "dataPaths": [
-          "servingTradition.value[]",
-          "packagingCarbonation.value[]"
-        ],
-        "surfaces": [
-          "serving-tradition",
-          "packaging-detail",
-          "detail-panel"
-        ],
+        "dataPaths": ["servingTradition.value[]", "packagingCarbonation.value[]"],
+        "surfaces": ["serving-tradition", "packaging-detail", "detail-panel"],
         "description": "Represents a serving, dispense, or packaging vessel."
       }
     },
@@ -575,15 +434,8 @@
       },
       "contextUsage": {
         "category": "service-vessel",
-        "dataPaths": [
-          "servingTradition.value[]",
-          "core.maturationMethod.value[]"
-        ],
-        "surfaces": [
-          "serving-tradition",
-          "packaging-detail",
-          "detail-panel"
-        ],
+        "dataPaths": ["servingTradition.value[]", "core.maturationMethod.value[]"],
+        "surfaces": ["serving-tradition", "packaging-detail", "detail-panel"],
         "description": "Represents a serving, dispense, or packaging vessel."
       }
     },
@@ -608,15 +460,8 @@
       },
       "contextUsage": {
         "category": "service-vessel",
-        "dataPaths": [
-          "servingTradition.value[]",
-          "packagingCarbonation.value[]"
-        ],
-        "surfaces": [
-          "serving-tradition",
-          "packaging-detail",
-          "detail-panel"
-        ],
+        "dataPaths": ["servingTradition.value[]", "packagingCarbonation.value[]"],
+        "surfaces": ["serving-tradition", "packaging-detail", "detail-panel"],
         "description": "Represents a serving, dispense, or packaging vessel."
       }
     },
@@ -641,14 +486,8 @@
       },
       "contextUsage": {
         "category": "service-vessel",
-        "dataPaths": [
-          "servingTradition.value[]"
-        ],
-        "surfaces": [
-          "serving-tradition",
-          "packaging-detail",
-          "detail-panel"
-        ],
+        "dataPaths": ["servingTradition.value[]"],
+        "surfaces": ["serving-tradition", "packaging-detail", "detail-panel"],
         "description": "Represents a serving, dispense, or packaging vessel."
       }
     },
@@ -673,15 +512,8 @@
       },
       "contextUsage": {
         "category": "service-vessel",
-        "dataPaths": [
-          "servingTradition.value[]",
-          "drinkingPurpose.value[]"
-        ],
-        "surfaces": [
-          "serving-tradition",
-          "packaging-detail",
-          "detail-panel"
-        ],
+        "dataPaths": ["servingTradition.value[]", "drinkingPurpose.value[]"],
+        "surfaces": ["serving-tradition", "packaging-detail", "detail-panel"],
         "description": "Represents a serving, dispense, or packaging vessel."
       }
     },
@@ -706,14 +538,8 @@
       },
       "contextUsage": {
         "category": "family",
-        "dataPaths": [
-          "fermentationFamily"
-        ],
-        "surfaces": [
-          "family-interchange",
-          "taxonomy-route",
-          "family-filter"
-        ],
+        "dataPaths": ["fermentationFamily"],
+        "surfaces": ["family-interchange", "taxonomy-route", "family-filter"],
         "description": "Identifies the beer's primary fermentation family."
       }
     },
@@ -738,14 +564,8 @@
       },
       "contextUsage": {
         "category": "family",
-        "dataPaths": [
-          "fermentationFamily"
-        ],
-        "surfaces": [
-          "family-interchange",
-          "taxonomy-route",
-          "family-filter"
-        ],
+        "dataPaths": ["fermentationFamily"],
+        "surfaces": ["family-interchange", "taxonomy-route", "family-filter"],
         "description": "Identifies the beer's primary fermentation family."
       }
     },
@@ -770,14 +590,8 @@
       },
       "contextUsage": {
         "category": "family",
-        "dataPaths": [
-          "fermentationFamily"
-        ],
-        "surfaces": [
-          "family-interchange",
-          "taxonomy-route",
-          "family-filter"
-        ],
+        "dataPaths": ["fermentationFamily"],
+        "surfaces": ["family-interchange", "taxonomy-route", "family-filter"],
         "description": "Identifies the beer's primary fermentation family."
       }
     },
@@ -802,14 +616,8 @@
       },
       "contextUsage": {
         "category": "fermentation-method",
-        "dataPaths": [
-          "fermentationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "fermentation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["fermentationMethod.value[]"],
+        "surfaces": ["station-metadata", "fermentation-filter", "detail-panel"],
         "description": "Represents a documented fermentation method or program."
       }
     },
@@ -834,14 +642,8 @@
       },
       "contextUsage": {
         "category": "fermentation-method",
-        "dataPaths": [
-          "fermentationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "fermentation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["fermentationMethod.value[]"],
+        "surfaces": ["station-metadata", "fermentation-filter", "detail-panel"],
         "description": "Represents a documented fermentation method or program."
       }
     },
@@ -866,14 +668,8 @@
       },
       "contextUsage": {
         "category": "fermentation-method",
-        "dataPaths": [
-          "fermentationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "fermentation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["fermentationMethod.value[]"],
+        "surfaces": ["station-metadata", "fermentation-filter", "detail-panel"],
         "description": "Represents a documented fermentation method or program."
       }
     },
@@ -898,14 +694,8 @@
       },
       "contextUsage": {
         "category": "fermentation-method",
-        "dataPaths": [
-          "fermentationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "fermentation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["fermentationMethod.value[]"],
+        "surfaces": ["station-metadata", "fermentation-filter", "detail-panel"],
         "description": "Represents a documented fermentation method or program."
       }
     },
@@ -930,14 +720,8 @@
       },
       "contextUsage": {
         "category": "fermentation-method",
-        "dataPaths": [
-          "fermentationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "fermentation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["fermentationMethod.value[]"],
+        "surfaces": ["station-metadata", "fermentation-filter", "detail-panel"],
         "description": "Represents a documented fermentation method or program."
       }
     },
@@ -962,14 +746,8 @@
       },
       "contextUsage": {
         "category": "fermentation-method",
-        "dataPaths": [
-          "fermentationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "fermentation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["fermentationMethod.value[]"],
+        "surfaces": ["station-metadata", "fermentation-filter", "detail-panel"],
         "description": "Represents a documented fermentation method or program."
       }
     },
@@ -994,14 +772,8 @@
       },
       "contextUsage": {
         "category": "fermentation-method",
-        "dataPaths": [
-          "fermentationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "fermentation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["fermentationMethod.value[]"],
+        "surfaces": ["station-metadata", "fermentation-filter", "detail-panel"],
         "description": "Represents a documented fermentation method or program."
       }
     },
@@ -1026,14 +798,8 @@
       },
       "contextUsage": {
         "category": "fermentation-method",
-        "dataPaths": [
-          "fermentationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "fermentation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["fermentationMethod.value[]"],
+        "surfaces": ["station-metadata", "fermentation-filter", "detail-panel"],
         "description": "Represents a documented fermentation method or program."
       }
     },
@@ -1058,15 +824,8 @@
       },
       "contextUsage": {
         "category": "fermentation-culture",
-        "dataPaths": [
-          "core.fermentationCulture.value[]",
-          "yeastFamily.value[]"
-        ],
-        "surfaces": [
-          "core-axis",
-          "culture-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.fermentationCulture.value[]", "yeastFamily.value[]"],
+        "surfaces": ["core-axis", "culture-filter", "detail-panel"],
         "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
       }
     },
@@ -1091,15 +850,8 @@
       },
       "contextUsage": {
         "category": "fermentation-culture",
-        "dataPaths": [
-          "core.fermentationCulture.value[]",
-          "yeastFamily.value[]"
-        ],
-        "surfaces": [
-          "core-axis",
-          "culture-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.fermentationCulture.value[]", "yeastFamily.value[]"],
+        "surfaces": ["core-axis", "culture-filter", "detail-panel"],
         "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
       }
     },
@@ -1124,15 +876,8 @@
       },
       "contextUsage": {
         "category": "fermentation-culture",
-        "dataPaths": [
-          "core.fermentationCulture.value[]",
-          "yeastFamily.value[]"
-        ],
-        "surfaces": [
-          "core-axis",
-          "culture-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.fermentationCulture.value[]", "yeastFamily.value[]"],
+        "surfaces": ["core-axis", "culture-filter", "detail-panel"],
         "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
       }
     },
@@ -1157,14 +902,8 @@
       },
       "contextUsage": {
         "category": "fermentation-culture",
-        "dataPaths": [
-          "core.fermentationCulture.value[]"
-        ],
-        "surfaces": [
-          "core-axis",
-          "culture-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.fermentationCulture.value[]"],
+        "surfaces": ["core-axis", "culture-filter", "detail-panel"],
         "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
       }
     },
@@ -1189,14 +928,8 @@
       },
       "contextUsage": {
         "category": "fermentation-culture",
-        "dataPaths": [
-          "core.fermentationCulture.value[]"
-        ],
-        "surfaces": [
-          "core-axis",
-          "culture-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.fermentationCulture.value[]"],
+        "surfaces": ["core-axis", "culture-filter", "detail-panel"],
         "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
       }
     },
@@ -1221,14 +954,8 @@
       },
       "contextUsage": {
         "category": "fermentation-culture",
-        "dataPaths": [
-          "core.fermentationCulture.value[]"
-        ],
-        "surfaces": [
-          "core-axis",
-          "culture-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.fermentationCulture.value[]"],
+        "surfaces": ["core-axis", "culture-filter", "detail-panel"],
         "description": "Represents a documented yeast, bacterial, mixed, or spontaneous culture."
       }
     },
@@ -1253,13 +980,8 @@
       },
       "contextUsage": {
         "category": "metric",
-        "dataPaths": [
-          "fermentationTemperature.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "filter-option"
-        ],
+        "dataPaths": ["fermentationTemperature.value"],
+        "surfaces": ["station-detail", "filter-option"],
         "description": "Labels a measurable or declared property."
       }
     },
@@ -1284,14 +1006,8 @@
       },
       "contextUsage": {
         "category": "axis",
-        "dataPaths": [
-          "core.color"
-        ],
-        "surfaces": [
-          "ring-axis-selector",
-          "filter-toolbar",
-          "station-summary"
-        ],
+        "dataPaths": ["core.color"],
+        "surfaces": ["ring-axis-selector", "filter-toolbar", "station-summary"],
         "description": "Labels an objective taxonomy axis used to organize or filter styles."
       }
     },
@@ -1316,14 +1032,8 @@
       },
       "contextUsage": {
         "category": "axis",
-        "dataPaths": [
-          "core.strength"
-        ],
-        "surfaces": [
-          "ring-axis-selector",
-          "filter-toolbar",
-          "station-summary"
-        ],
+        "dataPaths": ["core.strength"],
+        "surfaces": ["ring-axis-selector", "filter-toolbar", "station-summary"],
         "description": "Labels an objective taxonomy axis used to organize or filter styles."
       }
     },
@@ -1348,14 +1058,8 @@
       },
       "contextUsage": {
         "category": "axis",
-        "dataPaths": [
-          "core.bitterness"
-        ],
-        "surfaces": [
-          "ring-axis-selector",
-          "filter-toolbar",
-          "station-summary"
-        ],
+        "dataPaths": ["core.bitterness"],
+        "surfaces": ["ring-axis-selector", "filter-toolbar", "station-summary"],
         "description": "Labels an objective taxonomy axis used to organize or filter styles."
       }
     },
@@ -1380,14 +1084,8 @@
       },
       "contextUsage": {
         "category": "axis",
-        "dataPaths": [
-          "core.grain"
-        ],
-        "surfaces": [
-          "ring-axis-selector",
-          "filter-toolbar",
-          "station-summary"
-        ],
+        "dataPaths": ["core.grain"],
+        "surfaces": ["ring-axis-selector", "filter-toolbar", "station-summary"],
         "description": "Labels an objective taxonomy axis used to organize or filter styles."
       }
     },
@@ -1412,14 +1110,8 @@
       },
       "contextUsage": {
         "category": "axis",
-        "dataPaths": [
-          "core.fermentationCulture"
-        ],
-        "surfaces": [
-          "ring-axis-selector",
-          "filter-toolbar",
-          "station-summary"
-        ],
+        "dataPaths": ["core.fermentationCulture"],
+        "surfaces": ["ring-axis-selector", "filter-toolbar", "station-summary"],
         "description": "Labels an objective taxonomy axis used to organize or filter styles."
       }
     },
@@ -1444,14 +1136,8 @@
       },
       "contextUsage": {
         "category": "axis",
-        "dataPaths": [
-          "core.acidity"
-        ],
-        "surfaces": [
-          "ring-axis-selector",
-          "filter-toolbar",
-          "station-summary"
-        ],
+        "dataPaths": ["core.acidity"],
+        "surfaces": ["ring-axis-selector", "filter-toolbar", "station-summary"],
         "description": "Labels an objective taxonomy axis used to organize or filter styles."
       }
     },
@@ -1476,14 +1162,8 @@
       },
       "contextUsage": {
         "category": "axis",
-        "dataPaths": [
-          "core.dominantCharacter"
-        ],
-        "surfaces": [
-          "ring-axis-selector",
-          "filter-toolbar",
-          "station-summary"
-        ],
+        "dataPaths": ["core.dominantCharacter"],
+        "surfaces": ["ring-axis-selector", "filter-toolbar", "station-summary"],
         "description": "Labels an objective taxonomy axis used to organize or filter styles."
       }
     },
@@ -1508,14 +1188,8 @@
       },
       "contextUsage": {
         "category": "axis",
-        "dataPaths": [
-          "core.maturationMethod"
-        ],
-        "surfaces": [
-          "ring-axis-selector",
-          "filter-toolbar",
-          "station-summary"
-        ],
+        "dataPaths": ["core.maturationMethod"],
+        "surfaces": ["ring-axis-selector", "filter-toolbar", "station-summary"],
         "description": "Labels an objective taxonomy axis used to organize or filter styles."
       }
     },
@@ -1540,14 +1214,8 @@
       },
       "contextUsage": {
         "category": "axis",
-        "dataPaths": [
-          "age"
-        ],
-        "surfaces": [
-          "ring-axis-selector",
-          "filter-toolbar",
-          "station-summary"
-        ],
+        "dataPaths": ["age"],
+        "surfaces": ["ring-axis-selector", "filter-toolbar", "station-summary"],
         "description": "Labels an objective taxonomy axis used to organize or filter styles."
       }
     },
@@ -1572,14 +1240,8 @@
       },
       "contextUsage": {
         "category": "grain",
-        "dataPaths": [
-          "core.grain.value[].grain"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "grain-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["core.grain.value[].grain"],
+        "surfaces": ["station-metadata", "grain-filter", "ingredient-detail"],
         "description": "Represents a named cereal grain used in the beer."
       }
     },
@@ -1604,14 +1266,8 @@
       },
       "contextUsage": {
         "category": "grain",
-        "dataPaths": [
-          "core.grain.value[].grain"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "grain-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["core.grain.value[].grain"],
+        "surfaces": ["station-metadata", "grain-filter", "ingredient-detail"],
         "description": "Represents a named cereal grain used in the beer."
       }
     },
@@ -1636,14 +1292,8 @@
       },
       "contextUsage": {
         "category": "grain",
-        "dataPaths": [
-          "core.grain.value[].grain"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "grain-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["core.grain.value[].grain"],
+        "surfaces": ["station-metadata", "grain-filter", "ingredient-detail"],
         "description": "Represents a named cereal grain used in the beer."
       }
     },
@@ -1668,14 +1318,8 @@
       },
       "contextUsage": {
         "category": "grain",
-        "dataPaths": [
-          "core.grain.value[].grain"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "grain-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["core.grain.value[].grain"],
+        "surfaces": ["station-metadata", "grain-filter", "ingredient-detail"],
         "description": "Represents a named cereal grain used in the beer."
       }
     },
@@ -1700,14 +1344,8 @@
       },
       "contextUsage": {
         "category": "grain",
-        "dataPaths": [
-          "core.grain.value[].grain"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "grain-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["core.grain.value[].grain"],
+        "surfaces": ["station-metadata", "grain-filter", "ingredient-detail"],
         "description": "Represents a named cereal grain used in the beer."
       }
     },
@@ -1732,14 +1370,8 @@
       },
       "contextUsage": {
         "category": "grain",
-        "dataPaths": [
-          "core.grain.value[].grain"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "grain-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["core.grain.value[].grain"],
+        "surfaces": ["station-metadata", "grain-filter", "ingredient-detail"],
         "description": "Represents a named cereal grain used in the beer."
       }
     },
@@ -1764,14 +1396,8 @@
       },
       "contextUsage": {
         "category": "grain",
-        "dataPaths": [
-          "core.grain.value[].grain"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "grain-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["core.grain.value[].grain"],
+        "surfaces": ["station-metadata", "grain-filter", "ingredient-detail"],
         "description": "Represents a named cereal grain used in the beer."
       }
     },
@@ -1796,13 +1422,8 @@
       },
       "contextUsage": {
         "category": "grain-form",
-        "dataPaths": [
-          "core.grain.value[].form"
-        ],
-        "surfaces": [
-          "ingredient-detail",
-          "grain-filter"
-        ],
+        "dataPaths": ["core.grain.value[].form"],
+        "surfaces": ["ingredient-detail", "grain-filter"],
         "description": "Represents the documented physical or malting form of a grain."
       }
     },
@@ -1827,13 +1448,8 @@
       },
       "contextUsage": {
         "category": "grain-form",
-        "dataPaths": [
-          "core.grain.value[].form"
-        ],
-        "surfaces": [
-          "ingredient-detail",
-          "grain-filter"
-        ],
+        "dataPaths": ["core.grain.value[].form"],
+        "surfaces": ["ingredient-detail", "grain-filter"],
         "description": "Represents the documented physical or malting form of a grain."
       }
     },
@@ -1858,15 +1474,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]",
-          "hopUse.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "hopUse.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -1891,15 +1500,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]",
-          "definingAdditions.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "definingAdditions.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -1924,15 +1526,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]",
-          "definingAdditions.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "definingAdditions.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -1957,15 +1552,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]",
-          "definingAdditions.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "definingAdditions.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -1990,15 +1578,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]",
-          "alternativeFermentables.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "alternativeFermentables.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -2023,15 +1604,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]",
-          "alternativeFermentables.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "alternativeFermentables.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -2056,15 +1630,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]",
-          "definingAdditions.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "definingAdditions.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -2089,15 +1656,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]",
-          "definingAdditions.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "definingAdditions.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -2122,14 +1682,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -2154,15 +1708,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]",
-          "maltTreatment.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "maltTreatment.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -2187,15 +1734,8 @@
       },
       "contextUsage": {
         "category": "ingredient-treatment",
-        "dataPaths": [
-          "ingredients.value[]",
-          "maltTreatment.value[]",
-          "roastIntensity.value"
-        ],
-        "surfaces": [
-          "ingredient-detail",
-          "process-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "maltTreatment.value[]", "roastIntensity.value"],
+        "surfaces": ["ingredient-detail", "process-detail"],
         "description": "Represents a documented treatment applied to an ingredient."
       }
     },
@@ -2220,15 +1760,8 @@
       },
       "contextUsage": {
         "category": "ingredient-treatment",
-        "dataPaths": [
-          "ingredients.value[]",
-          "maltTreatment.value[]",
-          "smokeCharacter.value[]"
-        ],
-        "surfaces": [
-          "ingredient-detail",
-          "process-detail"
-        ],
+        "dataPaths": ["ingredients.value[]", "maltTreatment.value[]", "smokeCharacter.value[]"],
+        "surfaces": ["ingredient-detail", "process-detail"],
         "description": "Represents a documented treatment applied to an ingredient."
       }
     },
@@ -2253,13 +1786,8 @@
       },
       "contextUsage": {
         "category": "grain-form",
-        "dataPaths": [
-          "core.grain.value[].form"
-        ],
-        "surfaces": [
-          "ingredient-detail",
-          "grain-filter"
-        ],
+        "dataPaths": ["core.grain.value[].form"],
+        "surfaces": ["ingredient-detail", "grain-filter"],
         "description": "Represents the documented physical or malting form of a grain."
       }
     },
@@ -2284,13 +1812,8 @@
       },
       "contextUsage": {
         "category": "ingredient-role",
-        "dataPaths": [
-          "definingAdditions.value[]"
-        ],
-        "surfaces": [
-          "ingredient-detail",
-          "submission-editor"
-        ],
+        "dataPaths": ["definingAdditions.value[]"],
+        "surfaces": ["ingredient-detail", "submission-editor"],
         "description": "Represents the functional role of an ingredient in a style."
       }
     },
@@ -2315,13 +1838,8 @@
       },
       "contextUsage": {
         "category": "ingredient-role",
-        "dataPaths": [
-          "alternativeFermentables.value[]"
-        ],
-        "surfaces": [
-          "ingredient-detail",
-          "submission-editor"
-        ],
+        "dataPaths": ["alternativeFermentables.value[]"],
+        "surfaces": ["ingredient-detail", "submission-editor"],
         "description": "Represents the functional role of an ingredient in a style."
       }
     },
@@ -2346,13 +1864,8 @@
       },
       "contextUsage": {
         "category": "metric",
-        "dataPaths": [
-          "dietaryComposition.value[]"
-        ],
-        "surfaces": [
-          "station-detail",
-          "filter-option"
-        ],
+        "dataPaths": ["dietaryComposition.value[]"],
+        "surfaces": ["station-detail", "filter-option"],
         "description": "Labels a measurable or declared property."
       }
     },
@@ -2377,14 +1890,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -2409,14 +1916,8 @@
       },
       "contextUsage": {
         "category": "ingredient",
-        "dataPaths": [
-          "ingredients.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "ingredient-filter",
-          "ingredient-detail"
-        ],
+        "dataPaths": ["ingredients.value[]"],
+        "surfaces": ["station-metadata", "ingredient-filter", "ingredient-detail"],
         "description": "Represents a named ingredient or an explicit variable/other ingredient state."
       }
     },
@@ -2441,15 +1942,8 @@
       },
       "contextUsage": {
         "category": "maturation",
-        "dataPaths": [
-          "core.maturationMethod.value[]",
-          "age.value"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "maturation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.maturationMethod.value[]", "age.value"],
+        "surfaces": ["station-metadata", "maturation-filter", "detail-panel"],
         "description": "Represents a documented conditioning, maturation, or age treatment."
       }
     },
@@ -2474,14 +1968,8 @@
       },
       "contextUsage": {
         "category": "maturation",
-        "dataPaths": [
-          "core.maturationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "maturation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.maturationMethod.value[]"],
+        "surfaces": ["station-metadata", "maturation-filter", "detail-panel"],
         "description": "Represents a documented conditioning, maturation, or age treatment."
       }
     },
@@ -2506,14 +1994,8 @@
       },
       "contextUsage": {
         "category": "maturation",
-        "dataPaths": [
-          "core.maturationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "maturation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.maturationMethod.value[]"],
+        "surfaces": ["station-metadata", "maturation-filter", "detail-panel"],
         "description": "Represents a documented conditioning, maturation, or age treatment."
       }
     },
@@ -2538,15 +2020,8 @@
       },
       "contextUsage": {
         "category": "maturation",
-        "dataPaths": [
-          "core.maturationMethod.value[]",
-          "packagingCarbonation.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "maturation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.maturationMethod.value[]", "packagingCarbonation.value[]"],
+        "surfaces": ["station-metadata", "maturation-filter", "detail-panel"],
         "description": "Represents a documented conditioning, maturation, or age treatment."
       }
     },
@@ -2571,15 +2046,8 @@
       },
       "contextUsage": {
         "category": "maturation",
-        "dataPaths": [
-          "core.maturationMethod.value[]",
-          "packagingCarbonation.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "maturation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.maturationMethod.value[]", "packagingCarbonation.value[]"],
+        "surfaces": ["station-metadata", "maturation-filter", "detail-panel"],
         "description": "Represents a documented conditioning, maturation, or age treatment."
       }
     },
@@ -2604,14 +2072,8 @@
       },
       "contextUsage": {
         "category": "maturation",
-        "dataPaths": [
-          "core.maturationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "maturation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.maturationMethod.value[]"],
+        "surfaces": ["station-metadata", "maturation-filter", "detail-panel"],
         "description": "Represents a documented conditioning, maturation, or age treatment."
       }
     },
@@ -2636,15 +2098,8 @@
       },
       "contextUsage": {
         "category": "maturation",
-        "dataPaths": [
-          "core.maturationMethod.value[]",
-          "barrelHistory.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "maturation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.maturationMethod.value[]", "barrelHistory.value[]"],
+        "surfaces": ["station-metadata", "maturation-filter", "detail-panel"],
         "description": "Represents a documented conditioning, maturation, or age treatment."
       }
     },
@@ -2669,16 +2124,8 @@
       },
       "contextUsage": {
         "category": "maturation",
-        "dataPaths": [
-          "core.maturationMethod.value[]",
-          "barrelHistory.value[]",
-          "age.value"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "maturation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.maturationMethod.value[]", "barrelHistory.value[]", "age.value"],
+        "surfaces": ["station-metadata", "maturation-filter", "detail-panel"],
         "description": "Represents a documented conditioning, maturation, or age treatment."
       }
     },
@@ -2703,16 +2150,8 @@
       },
       "contextUsage": {
         "category": "maturation",
-        "dataPaths": [
-          "core.maturationMethod.value[]",
-          "blending.value[]",
-          "age.value"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "maturation-filter",
-          "detail-panel"
-        ],
+        "dataPaths": ["core.maturationMethod.value[]", "blending.value[]", "age.value"],
+        "surfaces": ["station-metadata", "maturation-filter", "detail-panel"],
         "description": "Represents a documented conditioning, maturation, or age treatment."
       }
     },
@@ -2737,14 +2176,8 @@
       },
       "contextUsage": {
         "category": "color",
-        "dataPaths": [
-          "core.color.value.descriptors[]"
-        ],
-        "surfaces": [
-          "station-color-icon",
-          "color-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.color.value.descriptors[]"],
+        "surfaces": ["station-color-icon", "color-filter", "ring-axis"],
         "description": "Represents a documented color descriptor, not a tasting judgment."
       }
     },
@@ -2769,14 +2202,8 @@
       },
       "contextUsage": {
         "category": "color",
-        "dataPaths": [
-          "core.color.value.descriptors[]"
-        ],
-        "surfaces": [
-          "station-color-icon",
-          "color-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.color.value.descriptors[]"],
+        "surfaces": ["station-color-icon", "color-filter", "ring-axis"],
         "description": "Represents a documented color descriptor, not a tasting judgment."
       }
     },
@@ -2801,14 +2228,8 @@
       },
       "contextUsage": {
         "category": "color",
-        "dataPaths": [
-          "core.color.value.descriptors[]"
-        ],
-        "surfaces": [
-          "station-color-icon",
-          "color-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.color.value.descriptors[]"],
+        "surfaces": ["station-color-icon", "color-filter", "ring-axis"],
         "description": "Represents a documented color descriptor, not a tasting judgment."
       }
     },
@@ -2833,14 +2254,8 @@
       },
       "contextUsage": {
         "category": "color",
-        "dataPaths": [
-          "core.color.value.descriptors[]"
-        ],
-        "surfaces": [
-          "station-color-icon",
-          "color-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.color.value.descriptors[]"],
+        "surfaces": ["station-color-icon", "color-filter", "ring-axis"],
         "description": "Represents a documented color descriptor, not a tasting judgment."
       }
     },
@@ -2865,14 +2280,8 @@
       },
       "contextUsage": {
         "category": "color",
-        "dataPaths": [
-          "core.color.value.descriptors[]"
-        ],
-        "surfaces": [
-          "station-color-icon",
-          "color-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.color.value.descriptors[]"],
+        "surfaces": ["station-color-icon", "color-filter", "ring-axis"],
         "description": "Represents a documented color descriptor, not a tasting judgment."
       }
     },
@@ -2897,14 +2306,8 @@
       },
       "contextUsage": {
         "category": "color",
-        "dataPaths": [
-          "core.color.value.descriptors[]"
-        ],
-        "surfaces": [
-          "station-color-icon",
-          "color-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.color.value.descriptors[]"],
+        "surfaces": ["station-color-icon", "color-filter", "ring-axis"],
         "description": "Represents a documented color descriptor, not a tasting judgment."
       }
     },
@@ -2929,14 +2332,8 @@
       },
       "contextUsage": {
         "category": "color",
-        "dataPaths": [
-          "core.color.value.descriptors[]"
-        ],
-        "surfaces": [
-          "station-color-icon",
-          "color-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.color.value.descriptors[]"],
+        "surfaces": ["station-color-icon", "color-filter", "ring-axis"],
         "description": "Represents a documented color descriptor, not a tasting judgment."
       }
     },
@@ -2961,14 +2358,8 @@
       },
       "contextUsage": {
         "category": "color",
-        "dataPaths": [
-          "core.color.value.descriptors[]"
-        ],
-        "surfaces": [
-          "station-color-icon",
-          "color-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.color.value.descriptors[]"],
+        "surfaces": ["station-color-icon", "color-filter", "ring-axis"],
         "description": "Represents a documented color descriptor, not a tasting judgment."
       }
     },
@@ -2993,14 +2384,8 @@
       },
       "contextUsage": {
         "category": "color",
-        "dataPaths": [
-          "core.color.value.descriptors[]"
-        ],
-        "surfaces": [
-          "station-color-icon",
-          "color-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.color.value.descriptors[]"],
+        "surfaces": ["station-color-icon", "color-filter", "ring-axis"],
         "description": "Represents a documented color descriptor, not a tasting judgment."
       }
     },
@@ -3025,14 +2410,8 @@
       },
       "contextUsage": {
         "category": "color",
-        "dataPaths": [
-          "core.color.value.descriptors[]"
-        ],
-        "surfaces": [
-          "station-color-icon",
-          "color-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.color.value.descriptors[]"],
+        "surfaces": ["station-color-icon", "color-filter", "ring-axis"],
         "description": "Represents a documented color descriptor, not a tasting judgment."
       }
     },
@@ -3057,14 +2436,8 @@
       },
       "contextUsage": {
         "category": "strength",
-        "dataPaths": [
-          "core.strength.value.band"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "strength-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.strength.value.band"],
+        "surfaces": ["station-metadata", "strength-filter", "ring-axis"],
         "description": "Represents a declared alcohol-strength band."
       }
     },
@@ -3089,14 +2462,8 @@
       },
       "contextUsage": {
         "category": "strength",
-        "dataPaths": [
-          "core.strength.value.band"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "strength-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.strength.value.band"],
+        "surfaces": ["station-metadata", "strength-filter", "ring-axis"],
         "description": "Represents a declared alcohol-strength band."
       }
     },
@@ -3121,14 +2488,8 @@
       },
       "contextUsage": {
         "category": "strength",
-        "dataPaths": [
-          "core.strength.value.band"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "strength-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.strength.value.band"],
+        "surfaces": ["station-metadata", "strength-filter", "ring-axis"],
         "description": "Represents a declared alcohol-strength band."
       }
     },
@@ -3153,14 +2514,8 @@
       },
       "contextUsage": {
         "category": "strength",
-        "dataPaths": [
-          "core.strength.value.band"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "strength-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.strength.value.band"],
+        "surfaces": ["station-metadata", "strength-filter", "ring-axis"],
         "description": "Represents a declared alcohol-strength band."
       }
     },
@@ -3185,14 +2540,8 @@
       },
       "contextUsage": {
         "category": "strength",
-        "dataPaths": [
-          "core.strength.value.band"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "strength-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.strength.value.band"],
+        "surfaces": ["station-metadata", "strength-filter", "ring-axis"],
         "description": "Represents a declared alcohol-strength band."
       }
     },
@@ -3217,14 +2566,8 @@
       },
       "contextUsage": {
         "category": "strength",
-        "dataPaths": [
-          "core.strength.value.band"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "strength-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.strength.value.band"],
+        "surfaces": ["station-metadata", "strength-filter", "ring-axis"],
         "description": "Represents a declared alcohol-strength band."
       }
     },
@@ -3249,15 +2592,8 @@
       },
       "contextUsage": {
         "category": "bitterness",
-        "dataPaths": [
-          "core.bitterness.value.perceived",
-          "core.bitterness.value.ibu"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "bitterness-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.bitterness.value.perceived", "core.bitterness.value.ibu"],
+        "surfaces": ["station-metadata", "bitterness-filter", "ring-axis"],
         "description": "Represents a declared perceived-bitterness or IBU range endpoint."
       }
     },
@@ -3282,15 +2618,8 @@
       },
       "contextUsage": {
         "category": "bitterness",
-        "dataPaths": [
-          "core.bitterness.value.perceived",
-          "core.bitterness.value.ibu"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "bitterness-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.bitterness.value.perceived", "core.bitterness.value.ibu"],
+        "surfaces": ["station-metadata", "bitterness-filter", "ring-axis"],
         "description": "Represents a declared perceived-bitterness or IBU range endpoint."
       }
     },
@@ -3315,14 +2644,8 @@
       },
       "contextUsage": {
         "category": "acidity",
-        "dataPaths": [
-          "core.acidity.value"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "acidity-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.acidity.value"],
+        "surfaces": ["station-metadata", "acidity-filter", "ring-axis"],
         "description": "Represents a declared acidity band."
       }
     },
@@ -3347,14 +2670,8 @@
       },
       "contextUsage": {
         "category": "acidity",
-        "dataPaths": [
-          "core.acidity.value"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "acidity-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.acidity.value"],
+        "surfaces": ["station-metadata", "acidity-filter", "ring-axis"],
         "description": "Represents a declared acidity band."
       }
     },
@@ -3379,14 +2696,8 @@
       },
       "contextUsage": {
         "category": "acidity",
-        "dataPaths": [
-          "core.acidity.value"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "acidity-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.acidity.value"],
+        "surfaces": ["station-metadata", "acidity-filter", "ring-axis"],
         "description": "Represents a declared acidity band."
       }
     },
@@ -3411,13 +2722,8 @@
       },
       "contextUsage": {
         "category": "body",
-        "dataPaths": [
-          "body.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "body-filter"
-        ],
+        "dataPaths": ["body.value"],
+        "surfaces": ["station-detail", "body-filter"],
         "description": "Represents a declared body range endpoint."
       }
     },
@@ -3442,13 +2748,8 @@
       },
       "contextUsage": {
         "category": "body",
-        "dataPaths": [
-          "body.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "body-filter"
-        ],
+        "dataPaths": ["body.value"],
+        "surfaces": ["station-detail", "body-filter"],
         "description": "Represents a declared body range endpoint."
       }
     },
@@ -3473,14 +2774,8 @@
       },
       "contextUsage": {
         "category": "carbonation",
-        "dataPaths": [
-          "carbonation.value",
-          "packagingCarbonation.value[]"
-        ],
-        "surfaces": [
-          "station-detail",
-          "carbonation-filter"
-        ],
+        "dataPaths": ["carbonation.value", "packagingCarbonation.value[]"],
+        "surfaces": ["station-detail", "carbonation-filter"],
         "description": "Represents a declared carbonation level."
       }
     },
@@ -3505,14 +2800,8 @@
       },
       "contextUsage": {
         "category": "carbonation",
-        "dataPaths": [
-          "carbonation.value",
-          "packagingCarbonation.value[]"
-        ],
-        "surfaces": [
-          "station-detail",
-          "carbonation-filter"
-        ],
+        "dataPaths": ["carbonation.value", "packagingCarbonation.value[]"],
+        "surfaces": ["station-detail", "carbonation-filter"],
         "description": "Represents a declared carbonation level."
       }
     },
@@ -3537,14 +2826,8 @@
       },
       "contextUsage": {
         "category": "carbonation",
-        "dataPaths": [
-          "carbonation.value",
-          "packagingCarbonation.value[]"
-        ],
-        "surfaces": [
-          "station-detail",
-          "carbonation-filter"
-        ],
+        "dataPaths": ["carbonation.value", "packagingCarbonation.value[]"],
+        "surfaces": ["station-detail", "carbonation-filter"],
         "description": "Represents a declared carbonation level."
       }
     },
@@ -3569,13 +2852,8 @@
       },
       "contextUsage": {
         "category": "clarity",
-        "dataPaths": [
-          "clarity.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "clarity-filter"
-        ],
+        "dataPaths": ["clarity.value"],
+        "surfaces": ["station-detail", "clarity-filter"],
         "description": "Represents a declared clarity state."
       }
     },
@@ -3600,13 +2878,8 @@
       },
       "contextUsage": {
         "category": "clarity",
-        "dataPaths": [
-          "clarity.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "clarity-filter"
-        ],
+        "dataPaths": ["clarity.value"],
+        "surfaces": ["station-detail", "clarity-filter"],
         "description": "Represents a declared clarity state."
       }
     },
@@ -3631,13 +2904,8 @@
       },
       "contextUsage": {
         "category": "clarity",
-        "dataPaths": [
-          "clarity.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "clarity-filter"
-        ],
+        "dataPaths": ["clarity.value"],
+        "surfaces": ["station-detail", "clarity-filter"],
         "description": "Represents a declared clarity state."
       }
     },
@@ -3662,13 +2930,8 @@
       },
       "contextUsage": {
         "category": "clarity",
-        "dataPaths": [
-          "clarity.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "clarity-filter"
-        ],
+        "dataPaths": ["clarity.value"],
+        "surfaces": ["station-detail", "clarity-filter"],
         "description": "Represents a declared clarity state."
       }
     },
@@ -3693,14 +2956,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -3725,14 +2982,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -3757,14 +3008,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -3789,14 +3034,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -3821,14 +3060,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -3853,14 +3086,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -3885,14 +3112,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -3917,14 +3138,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -3949,14 +3164,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -3981,14 +3190,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -4013,14 +3216,8 @@
       },
       "contextUsage": {
         "category": "dominant-character",
-        "dataPaths": [
-          "core.dominantCharacter.value[]"
-        ],
-        "surfaces": [
-          "station-metadata",
-          "character-filter",
-          "ring-axis"
-        ],
+        "dataPaths": ["core.dominantCharacter.value[]"],
+        "surfaces": ["station-metadata", "character-filter", "ring-axis"],
         "description": "Represents a documented dominant character category."
       }
     },
@@ -4045,13 +3242,8 @@
       },
       "contextUsage": {
         "category": "complexity",
-        "dataPaths": [
-          "complexity.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "complexity-filter"
-        ],
+        "dataPaths": ["complexity.value"],
+        "surfaces": ["station-detail", "complexity-filter"],
         "description": "Represents a declared structural complexity category."
       }
     },
@@ -4076,13 +3268,8 @@
       },
       "contextUsage": {
         "category": "complexity",
-        "dataPaths": [
-          "complexity.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "complexity-filter"
-        ],
+        "dataPaths": ["complexity.value"],
+        "surfaces": ["station-detail", "complexity-filter"],
         "description": "Represents a declared structural complexity category."
       }
     },
@@ -4107,14 +3294,8 @@
       },
       "contextUsage": {
         "category": "complexity",
-        "dataPaths": [
-          "complexity.value",
-          "fermentationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-detail",
-          "complexity-filter"
-        ],
+        "dataPaths": ["complexity.value", "fermentationMethod.value[]"],
+        "surfaces": ["station-detail", "complexity-filter"],
         "description": "Represents a declared structural complexity category."
       }
     },
@@ -4139,14 +3320,8 @@
       },
       "contextUsage": {
         "category": "complexity",
-        "dataPaths": [
-          "complexity.value",
-          "core.maturationMethod.value[]"
-        ],
-        "surfaces": [
-          "station-detail",
-          "complexity-filter"
-        ],
+        "dataPaths": ["complexity.value", "core.maturationMethod.value[]"],
+        "surfaces": ["station-detail", "complexity-filter"],
         "description": "Represents a declared structural complexity category."
       }
     },
@@ -4171,13 +3346,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "fermentationMethod.value[]"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["fermentationMethod.value[]"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4202,13 +3372,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "acidificationMethod.value[]"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["acidificationMethod.value[]"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4233,13 +3398,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "maltTreatment.value[]"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["maltTreatment.value[]"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4264,13 +3424,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "hopUse.value[]"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["hopUse.value[]"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4295,13 +3450,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "mashMethod.value[]"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["mashMethod.value[]"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4326,13 +3476,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "boilTreatment.value[]"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["boilTreatment.value[]"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4357,13 +3502,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "conditioningTemperature.value"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["conditioningTemperature.value"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4388,13 +3528,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "conditioningDuration.value"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["conditioningDuration.value"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4419,13 +3554,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "barrelHistory.value[]"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["barrelHistory.value[]"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4450,13 +3580,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "packagingCarbonation.value[]"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["packagingCarbonation.value[]"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4481,13 +3606,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "stabilization.value[]"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["stabilization.value[]"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4512,13 +3632,8 @@
       },
       "contextUsage": {
         "category": "process",
-        "dataPaths": [
-          "blending.value[]"
-        ],
-        "surfaces": [
-          "process-detail",
-          "advanced-filter"
-        ],
+        "dataPaths": ["blending.value[]"],
+        "surfaces": ["process-detail", "advanced-filter"],
         "description": "Represents a documented brewing, conditioning, packaging, or blending process."
       }
     },
@@ -4543,13 +3658,8 @@
       },
       "contextUsage": {
         "category": "measurement",
-        "dataPaths": [
-          "originalGravity.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "range-legend"
-        ],
+        "dataPaths": ["originalGravity.value"],
+        "surfaces": ["station-detail", "range-legend"],
         "description": "Labels an objective numeric measurement or range."
       }
     },
@@ -4574,13 +3684,8 @@
       },
       "contextUsage": {
         "category": "measurement",
-        "dataPaths": [
-          "finalSweetness.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "range-legend"
-        ],
+        "dataPaths": ["finalSweetness.value"],
+        "surfaces": ["station-detail", "range-legend"],
         "description": "Labels an objective numeric measurement or range."
       }
     },
@@ -4605,13 +3710,8 @@
       },
       "contextUsage": {
         "category": "measurement",
-        "dataPaths": [
-          "attenuation.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "range-legend"
-        ],
+        "dataPaths": ["attenuation.value"],
+        "surfaces": ["station-detail", "range-legend"],
         "description": "Labels an objective numeric measurement or range."
       }
     },
@@ -4636,13 +3736,8 @@
       },
       "contextUsage": {
         "category": "measurement",
-        "dataPaths": [
-          "measuredAcidity.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "range-legend"
-        ],
+        "dataPaths": ["measuredAcidity.value"],
+        "surfaces": ["station-detail", "range-legend"],
         "description": "Labels an objective numeric measurement or range."
       }
     },
@@ -4667,14 +3762,8 @@
       },
       "contextUsage": {
         "category": "measurement",
-        "dataPaths": [
-          "core.color.value.srm",
-          "core.color.value.ebc"
-        ],
-        "surfaces": [
-          "station-detail",
-          "range-legend"
-        ],
+        "dataPaths": ["core.color.value.srm", "core.color.value.ebc"],
+        "surfaces": ["station-detail", "range-legend"],
         "description": "Labels an objective numeric measurement or range."
       }
     },
@@ -4699,13 +3788,8 @@
       },
       "contextUsage": {
         "category": "measurement",
-        "dataPaths": [
-          "core.strength.value.abv"
-        ],
-        "surfaces": [
-          "station-detail",
-          "range-legend"
-        ],
+        "dataPaths": ["core.strength.value.abv"],
+        "surfaces": ["station-detail", "range-legend"],
         "description": "Labels an objective numeric measurement or range."
       }
     },
@@ -4730,13 +3814,8 @@
       },
       "contextUsage": {
         "category": "tradition",
-        "dataPaths": [
-          "drinkingPurpose.value[]"
-        ],
-        "surfaces": [
-          "station-detail",
-          "cultural-filter"
-        ],
+        "dataPaths": ["drinkingPurpose.value[]"],
+        "surfaces": ["station-detail", "cultural-filter"],
         "description": "Represents documented service, purpose, seasonality, production, or historical context."
       }
     },
@@ -4761,13 +3840,8 @@
       },
       "contextUsage": {
         "category": "tradition",
-        "dataPaths": [
-          "servingTradition.value[]"
-        ],
-        "surfaces": [
-          "station-detail",
-          "cultural-filter"
-        ],
+        "dataPaths": ["servingTradition.value[]"],
+        "surfaces": ["station-detail", "cultural-filter"],
         "description": "Represents documented service, purpose, seasonality, production, or historical context."
       }
     },
@@ -4792,13 +3866,8 @@
       },
       "contextUsage": {
         "category": "tradition",
-        "dataPaths": [
-          "seasonality.value[]"
-        ],
-        "surfaces": [
-          "station-detail",
-          "cultural-filter"
-        ],
+        "dataPaths": ["seasonality.value[]"],
+        "surfaces": ["station-detail", "cultural-filter"],
         "description": "Represents documented service, purpose, seasonality, production, or historical context."
       }
     },
@@ -4823,13 +3892,8 @@
       },
       "contextUsage": {
         "category": "tradition",
-        "dataPaths": [
-          "productionTradition.value[]"
-        ],
-        "surfaces": [
-          "station-detail",
-          "cultural-filter"
-        ],
+        "dataPaths": ["productionTradition.value[]"],
+        "surfaces": ["station-detail", "cultural-filter"],
         "description": "Represents documented service, purpose, seasonality, production, or historical context."
       }
     },
@@ -4854,13 +3918,8 @@
       },
       "contextUsage": {
         "category": "tradition",
-        "dataPaths": [
-          "historicalContinuity.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "cultural-filter"
-        ],
+        "dataPaths": ["historicalContinuity.value"],
+        "surfaces": ["station-detail", "cultural-filter"],
         "description": "Represents documented service, purpose, seasonality, production, or historical context."
       }
     },
@@ -4885,13 +3944,8 @@
       },
       "contextUsage": {
         "category": "tradition",
-        "dataPaths": [
-          "standardization.value"
-        ],
-        "surfaces": [
-          "station-detail",
-          "cultural-filter"
-        ],
+        "dataPaths": ["standardization.value"],
+        "surfaces": ["station-detail", "cultural-filter"],
         "description": "Represents documented service, purpose, seasonality, production, or historical context."
       }
     },
@@ -4916,13 +3970,8 @@
       },
       "contextUsage": {
         "category": "base-style",
-        "dataPaths": [
-          "baseStyle.relationship"
-        ],
-        "surfaces": [
-          "taxonomy-relationship",
-          "detail-panel"
-        ],
+        "dataPaths": ["baseStyle.relationship"],
+        "surfaces": ["taxonomy-relationship", "detail-panel"],
         "description": "Represents the relationship between an entry and a base style."
       }
     },
@@ -4947,13 +3996,8 @@
       },
       "contextUsage": {
         "category": "base-style",
-        "dataPaths": [
-          "baseStyle.relationship"
-        ],
-        "surfaces": [
-          "taxonomy-relationship",
-          "detail-panel"
-        ],
+        "dataPaths": ["baseStyle.relationship"],
+        "surfaces": ["taxonomy-relationship", "detail-panel"],
         "description": "Represents the relationship between an entry and a base style."
       }
     },
@@ -4978,13 +4022,8 @@
       },
       "contextUsage": {
         "category": "base-style",
-        "dataPaths": [
-          "baseStyle.relationship"
-        ],
-        "surfaces": [
-          "taxonomy-relationship",
-          "detail-panel"
-        ],
+        "dataPaths": ["baseStyle.relationship"],
+        "surfaces": ["taxonomy-relationship", "detail-panel"],
         "description": "Represents the relationship between an entry and a base style."
       }
     },
@@ -5009,13 +4048,8 @@
       },
       "contextUsage": {
         "category": "base-style",
-        "dataPaths": [
-          "baseStyle.relationship"
-        ],
-        "surfaces": [
-          "taxonomy-relationship",
-          "detail-panel"
-        ],
+        "dataPaths": ["baseStyle.relationship"],
+        "surfaces": ["taxonomy-relationship", "detail-panel"],
         "description": "Represents the relationship between an entry and a base style."
       }
     },
@@ -5040,13 +4074,8 @@
       },
       "contextUsage": {
         "category": "base-style",
-        "dataPaths": [
-          "baseStyle.relationship"
-        ],
-        "surfaces": [
-          "taxonomy-relationship",
-          "detail-panel"
-        ],
+        "dataPaths": ["baseStyle.relationship"],
+        "surfaces": ["taxonomy-relationship", "detail-panel"],
         "description": "Represents the relationship between an entry and a base style."
       }
     },
@@ -5071,14 +4100,8 @@
       },
       "contextUsage": {
         "category": "fact-status",
-        "dataPaths": [
-          "facts[].status"
-        ],
-        "surfaces": [
-          "evidence-badge",
-          "fact-tooltip",
-          "data-review"
-        ],
+        "dataPaths": ["facts[].status"],
+        "surfaces": ["evidence-badge", "fact-tooltip", "data-review"],
         "description": "Communicates the evidence status assigned to a factual claim."
       }
     },
@@ -5103,14 +4126,8 @@
       },
       "contextUsage": {
         "category": "fact-status",
-        "dataPaths": [
-          "facts[].status"
-        ],
-        "surfaces": [
-          "evidence-badge",
-          "fact-tooltip",
-          "data-review"
-        ],
+        "dataPaths": ["facts[].status"],
+        "surfaces": ["evidence-badge", "fact-tooltip", "data-review"],
         "description": "Communicates the evidence status assigned to a factual claim."
       }
     },
@@ -5135,14 +4152,8 @@
       },
       "contextUsage": {
         "category": "fact-status",
-        "dataPaths": [
-          "facts[].status"
-        ],
-        "surfaces": [
-          "evidence-badge",
-          "fact-tooltip",
-          "data-review"
-        ],
+        "dataPaths": ["facts[].status"],
+        "surfaces": ["evidence-badge", "fact-tooltip", "data-review"],
         "description": "Communicates the evidence status assigned to a factual claim."
       }
     },
@@ -5167,14 +4178,8 @@
       },
       "contextUsage": {
         "category": "fact-status",
-        "dataPaths": [
-          "facts[].status"
-        ],
-        "surfaces": [
-          "evidence-badge",
-          "fact-tooltip",
-          "data-review"
-        ],
+        "dataPaths": ["facts[].status"],
+        "surfaces": ["evidence-badge", "fact-tooltip", "data-review"],
         "description": "Communicates the evidence status assigned to a factual claim."
       }
     },
@@ -5199,14 +4204,8 @@
       },
       "contextUsage": {
         "category": "fact-status",
-        "dataPaths": [
-          "facts[].status"
-        ],
-        "surfaces": [
-          "evidence-badge",
-          "fact-tooltip",
-          "data-review"
-        ],
+        "dataPaths": ["facts[].status"],
+        "surfaces": ["evidence-badge", "fact-tooltip", "data-review"],
         "description": "Communicates the evidence status assigned to a factual claim."
       }
     },
@@ -5231,15 +4230,8 @@
       },
       "contextUsage": {
         "category": "provenance",
-        "dataPaths": [
-          "facts[].sources[]",
-          "sources[]"
-        ],
-        "surfaces": [
-          "source-link",
-          "fact-tooltip",
-          "data-review"
-        ],
+        "dataPaths": ["facts[].sources[]", "sources[]"],
+        "surfaces": ["source-link", "fact-tooltip", "data-review"],
         "description": "Indicates that source or provenance information is available."
       }
     },
@@ -5264,19 +4256,10 @@
       },
       "contextUsage": {
         "category": "taxonomy",
-        "dataPaths": [
-          "placement",
-          "parentId",
-          "path"
-        ],
-        "surfaces": [
-          "taxonomy-tree",
-          "placement-picker",
-          "route-highlight"
-        ],
+        "dataPaths": ["placement", "parentId", "path"],
+        "surfaces": ["taxonomy-tree", "placement-picker", "route-highlight"],
         "description": "Represents an entry's placement within the taxonomy."
       }
     }
   ]
 }
-

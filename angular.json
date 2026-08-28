@@ -28,6 +28,11 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "*.png",
+                "input": "src/app/datasets/beer/assets",
+                "output": "datasets/beer"
               }
             ],
             "styles": ["src/styles.scss"]

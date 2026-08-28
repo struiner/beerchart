@@ -57,6 +57,7 @@ export const syntheticTaxonomy = defineTaxonomy({
     title: 'Synthetic specimens',
     schemaVersion: 'taxonomy-module/v1',
     engineVersion: '1',
+    datasetVersion: '1.0.0',
   },
   vocabulary: {
     root: 'Specimens',
@@ -66,6 +67,16 @@ export const syntheticTaxonomy = defineTaxonomy({
     entryPlural: 'Specimens',
     relatedEntity: 'Museum',
     relatedEntityPlural: 'Museums',
+  },
+  content: {
+    about: [
+      {
+        id: 'purpose',
+        title: 'Specimen projection laboratory',
+        markdown: 'A small neutral collection used to verify reusable taxonomy behavior.',
+      },
+    ],
+    search: { placeholder: 'Search specimens and collections' },
   },
   records: {
     groups: [
@@ -154,7 +165,13 @@ export const syntheticTaxonomy = defineTaxonomy({
           id: 'facts',
           title: 'Facts',
           facts: [
-            { id: 'material', label: 'Material', value: entry.facts.material },
+            {
+              id: 'material',
+              label: 'Material',
+              value: entry.facts.material,
+              presentation: { variant: 'stamp' as const },
+            },
+            { id: 'origin', label: 'Record origin', value: 'Synthetic fixture' },
             {
               id: 'hardness',
               label: 'Hardness',

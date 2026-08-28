@@ -31,7 +31,12 @@
         @case ('facts') {
           <dl>
             @for (fact of section.facts; track fact.id) {
-              <div [class.origin-stamp]="fact.id === 'origin'">
+              <div
+                [class.fact-stamp]="fact.presentation?.variant === 'stamp'"
+                [class.fact-highlight]="fact.presentation?.variant === 'highlight'"
+                [class.fact-measure]="fact.presentation?.variant === 'measure'"
+                [attr.data-fact-presentation]="fact.presentation?.variant ?? 'default'"
+              >
                 <dt>
                   @if (fact.icon; as icon) {
                     <app-taxonomy-icon [icon]="icon" />

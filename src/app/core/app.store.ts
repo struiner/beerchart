@@ -14,6 +14,11 @@ import {
 import { projectTaxonomy } from '../taxonomy/projection/project-taxonomy';
 import { createTaxonomySearchIndex, searchTaxonomy } from '../taxonomy/search/taxonomy-search';
 import { validateTaxonomyModule } from '../taxonomy/validation/validate-taxonomy-module';
+import { sanitizeMarkdown } from '../taxonomy/profiles/sanitize-markdown';
+import {
+  persistencePrefix,
+  runPersistenceImporters,
+} from '../taxonomy/persistence/run-persistence-importers';
 
 export interface ViewportSettings {
   labels: boolean;
@@ -36,8 +41,21 @@ export class AppStore {
   readonly e2eMode = new URLSearchParams(globalThis.location?.search ?? '').has('e2e');
   readonly renderer = 'generic-taxonomy' as const;
   readonly theme = resolvePresentationTheme(this.module.presentation.theme);
-  private readonly storagePrefix = `taxonomy.${this.module.meta.id}.${this.module.meta.schemaVersion}`;
-  private readonly storageMigration = this.migrateStorage();
+  readonly aboutContent = this.module.content.about.map((section) => ({
+    ...section,
+    markdown: sanitizeMarkdown(section.markdown),
+  }));
+  visualColor(token: string): string {
+    return (
+      this.theme.visualTokens?.[token] ??
+      this.theme.tokens[token as keyof typeof this.theme.tokens] ??
+      this.theme.tokens.oliveLight
+    );
+  }
+  private readonly storagePrefix = this.module.persistence
+    ? persistencePrefix(this.module.persistence)
+    : `taxonomy.${this.module.meta.id}.${this.module.meta.schemaVersion}`;
+  private readonly storageMigration = this.runStorageImporters();
   readonly ringOrder = signal<readonly string[]>(this.readRingOrder());
   readonly facetSelections = signal<Record<string, readonly string[]>>({});
   readonly rangeSelections = signal<
@@ -356,28 +374,8 @@ export class AppStore {
       return fallback;
     }
   }
-  private migrateStorage() {
-    // Renderer selection is no longer persisted: the generic renderer is authoritative.
-    localStorage.removeItem(`${this.storagePrefix}.renderer`);
-    localStorage.removeItem('beer-taxonomy.renderer.v1');
-    if (this.module.meta.id !== 'brewers-association-2026-circular-taxonomy') return true;
-    const settingsKey = `${this.storagePrefix}.settings`;
-    const ringsKey = `${this.storagePrefix}.rings`;
-    const legacySettings = localStorage.getItem('beer-taxonomy.settings.v1');
-    if (!localStorage.getItem(settingsKey) && legacySettings)
-      localStorage.setItem(settingsKey, legacySettings);
-    if (!localStorage.getItem(ringsKey)) {
-      try {
-        const legacy = JSON.parse(localStorage.getItem('beer-taxonomy.rings.v1') ?? 'null');
-        if (legacy?.first && legacy?.second && legacy?.third)
-          localStorage.setItem(
-            ringsKey,
-            JSON.stringify([legacy.first, legacy.second, legacy.third]),
-          );
-      } catch {
-        // Invalid legacy state is intentionally ignored.
-      }
-    }
+  private runStorageImporters() {
+    runPersistenceImporters(this.module.persistence, localStorage);
     return true;
   }
 }

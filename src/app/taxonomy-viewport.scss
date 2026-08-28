@@ -85,11 +85,11 @@
 .generic-node circle,
 .generic-node rect {
   fill: var(--tx-olive);
-  stroke: var(--tx-paper-light);
+  stroke: var(--node-visual-color, var(--tx-paper-light));
   stroke-width: 6;
   vector-effect: non-scaling-stroke;
 }
-.generic-node.visual-root circle {
+.generic-node.kind-root circle {
   fill: var(--tx-brass);
   stroke: var(--tx-deep-ink);
   stroke-width: 4;
@@ -124,81 +124,11 @@
   letter-spacing: 0.01em;
   pointer-events: none;
 }
-.generic-node.visual-root text {
+.generic-node.kind-root text {
   fill: var(--tx-deep-ink);
   font:
     700 28px Georgia,
     serif;
-}
-.generic-node.visual-route-0 text,
-.generic-node.visual-route-1 text,
-.generic-node.visual-route-2 text {
-  fill: var(--tx-paper-light);
-}
-.generic-connectors path.route-0,
-.generic-node.visual-route-0 circle,
-.generic-node.visual-route-0 rect {
-  stroke: var(--tx-amber);
-}
-
-.generic-connectors path.orange,
-.generic-node.visual-orange circle,
-.generic-node.visual-orange rect {
-  stroke: var(--tx-amber);
-}
-.generic-node.visual-orange text {
-  fill: var(--tx-ink);
-}
-.generic-connectors path.yellow,
-.generic-node.visual-yellow circle,
-.generic-node.visual-yellow rect {
-  stroke: var(--tx-yellow);
-}
-.generic-node.visual-yellow text {
-  fill: var(--tx-ink);
-}
-.generic-connectors path.teal,
-.generic-node.visual-teal circle,
-.generic-node.visual-teal rect {
-  stroke: var(--tx-teal);
-}
-.generic-node.visual-teal text {
-  fill: var(--tx-ink);
-}
-.generic-connectors path.route-1,
-.generic-node.visual-route-1 circle,
-.generic-node.visual-route-1 rect {
-  stroke: var(--tx-yellow);
-}
-.generic-connectors path.route-2,
-.generic-node.visual-route-2 circle,
-.generic-node.visual-route-2 rect {
-  stroke: var(--tx-teal);
-}
-.generic-connectors path.route-3,
-.generic-node.visual-route-3 circle,
-.generic-node.visual-route-3 rect {
-  stroke: var(--tx-blue);
-}
-.generic-connectors path.route-4,
-.generic-node.visual-route-4 circle,
-.generic-node.visual-route-4 rect {
-  stroke: var(--tx-oxblood);
-}
-.generic-connectors path.route-5,
-.generic-node.visual-route-5 circle,
-.generic-node.visual-route-5 rect {
-  stroke: var(--tx-oxblood);
-}
-.generic-connectors path.route-6,
-.generic-node.visual-route-6 circle,
-.generic-node.visual-route-6 rect {
-  stroke: var(--tx-green);
-}
-.generic-connectors path.route-7,
-.generic-node.visual-route-7 circle,
-.generic-node.visual-route-7 rect {
-  stroke: var(--tx-olive-light);
 }
 .projection-warning text {
   fill: #f0a778;
