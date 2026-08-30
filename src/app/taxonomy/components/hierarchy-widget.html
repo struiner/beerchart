@@ -1,0 +1,92 @@
+<div class="hierarchy-widget" data-testid="hierarchy-widget">
+  @if (preset(); as currentPreset) {
+    <fieldset class="layer-controls">
+      <legend>{{ currentPreset.label }}</legend>
+      @for (slot of currentPreset.layers; track slot.id; let index = $index) {
+        <label>
+          <span>{{ slot.label }}</span>
+          <select
+            [attr.data-testid]="'hierarchy-layer-' + slot.id"
+            [disabled]="slot.locked"
+            [value]="activeLayerIds()[index]"
+            (change)="changeLayer(index, $any($event.target).value)"
+          >
+            @for (layerId of slot.allowedLayerIds; track layerId) {
+              <option
+                [value]="layerId"
+                [selected]="activeLayerIds()[index] === layerId"
+                [disabled]="isLayerOptionDisabled(index, layerId)"
+              >
+                {{ layerById().get(layerId)?.label ?? layerId }}
+              </option>
+            }
+          </select>
+        </label>
+      }
+    </fieldset>
+  }
+  @if (breadcrumbs().length) {
+    <nav aria-label="Hierarchy breadcrumb">
+      @for (crumb of breadcrumbs(); track crumb.id; let index = $index) {
+        <button type="button" (click)="navigateBreadcrumb(index)">{{ crumb.label }}</button>
+        <span aria-hidden="true">/</span>
+      }
+    </nav>
+  }
+  <svg [attr.viewBox]="viewBox()" role="tree" aria-label="Nested taxonomy explorer">
+    @for (edge of positioned().edges; track edge.id) {
+      <line
+        class="route"
+        [attr.data-token]="edge.visualToken"
+        [attr.x1]="edge.start.x"
+        [attr.y1]="edge.start.y"
+        [attr.x2]="edge.end.x"
+        [attr.y2]="edge.end.y"
+      />
+    }
+    @for (node of positioned().nodes; track node.instanceId) {
+      <g
+        class="station"
+        role="treeitem"
+        tabindex="0"
+        [class.focused]="focusedInstanceId() === node.instanceId"
+        [class.aggregate]="node.kind === 'aggregate'"
+        [class.measure-hidden]="nodeHidden(node.instanceId)"
+        [attr.aria-label]="
+          node.ariaLabel +
+          (nodeMeasureLabel(node.instanceId) ? ', ' + nodeMeasureLabel(node.instanceId) : '')
+        "
+        [attr.aria-expanded]="node.kind !== 'entry' ? node.description !== undefined : null"
+        [attr.transform]="'translate(' + node.x + ' ' + node.y + ')'"
+        (click)="activate(node.instanceId)"
+        (keydown)="activateFromKeyboard($event, node.instanceId)"
+      >
+        @if (nodeHasHalo(node.instanceId)) {
+          <circle
+            class="measure-halo"
+            [attr.r]="(Math.max(node.layout.width, node.layout.height) / 2) * 1.45"
+          />
+        }
+        <circle
+          [attr.r]="
+            (Math.max(node.layout.width, node.layout.height) / 2) * nodeSizeScale(node.instanceId)
+          "
+        />
+        <text text-anchor="middle" dy="0.35em">{{ node.title }}</text>
+        @if (node.subtitle) {
+          <text class="subtitle" text-anchor="middle" dy="1.65em">{{ node.subtitle }}</text>
+        }
+        @if (nodeVisualMeasureLabel(node.instanceId)) {
+          <text class="measure-label" text-anchor="middle" dy="2.85em">
+            {{ nodeVisualMeasureLabel(node.instanceId) }}
+          </text>
+        }
+      </g>
+    }
+  </svg>
+  @if (positioned().warnings.length) {
+    <p class="hierarchy-warning" role="status">
+      {{ positioned().warnings.length }} hierarchy warning(s)
+    </p>
+  }
+</div>

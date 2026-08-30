@@ -188,6 +188,7 @@ export const syntheticTaxonomy = defineTaxonomy({
       ],
     },
     projection: {
+      kind: 'dimensional',
       defaultRingOrder: ['material', 'color'],
       allowedDimensionIds: ['material', 'color'],
       structureMode: 'dimensions',

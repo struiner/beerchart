@@ -7,12 +7,12 @@ import {
   signal,
 } from '@angular/core';
 import { DatePipe } from '@angular/common';
-import { FormsModule } from '@angular/forms';
 import { AppStore } from './core/app.store';
 import { TaxonomyViewport } from './taxonomy-viewport';
 import { FilterTagSelect } from './filter-tag-select';
 import { RingSeparationMenu } from './ring-separation-menu';
 import { SearchDocument } from './taxonomy/contracts/taxonomy';
+import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   host: {
@@ -40,7 +40,7 @@ import { SearchDocument } from './taxonomy/contracts/taxonomy';
     '[style.--tx-border-width.px]': 'store.theme.geometry.borderWidth',
     '[style.--tx-focus-width.px]': 'store.theme.geometry.focusWidth',
   },
-  imports: [FormsModule, DatePipe, TaxonomyViewport, FilterTagSelect, RingSeparationMenu],
+  imports: [DatePipe, RouterOutlet, TaxonomyViewport, FilterTagSelect, RingSeparationMenu],
   templateUrl: './app.html',
   styleUrl: './app.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

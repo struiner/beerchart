@@ -20,6 +20,9 @@ Authored enrichment is kept under `enrichment/` and is merged only into presenta
 related entities. It cannot mutate generated IDs, titles, parent membership, or biome membership.
 Run `npm run ecoregions:validate-enrichment` to check targets, source IDs, claim sourcing, ranges,
 species and country references, explicit overrides, and required summaries.
+Run `npm run ecoregions:coverage` for unique totals by hierarchy level and membership totals by
+realm. Editorial and loading rules are defined in `EDITORIAL.md`; `npm run ecoregions:bundle`
+measures eager profile growth after a production build.
 
 The first content-standard pilot follows Indomalaya → Indian Subcontinent → Himalayan Mixed Forests
 & Grasslands and three component ecoregions. It intentionally establishes profile density and

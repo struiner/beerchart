@@ -1,4 +1,5 @@
 import { RelatedEntity, TaxonomyEntry, TaxonomyModule } from '../contracts/taxonomy';
+import { validateHierarchyProjection } from '../projection/project-hierarchy';
 
 export type ValidationSeverity = 'error' | 'warning';
 
@@ -35,6 +36,49 @@ export function validateTaxonomyModule<
   duplicateIds('related entity', module.records.relatedEntities);
   duplicateIds('dimension', module.interpretation.dimensions);
   duplicateIds('facet', module.interpretation.facets);
+
+  const dashboard = module.presentation.dashboard;
+  if (module.contentProvider) {
+    if (typeof module.contentProvider.resolvePartition !== 'function')
+      error('invalid-content-resolver', 'Content provider must define resolvePartition().');
+    if (typeof module.contentProvider.loadPartition !== 'function')
+      error('invalid-content-loader', 'Content provider must define loadPartition().');
+  }
+  if (dashboard) {
+    if (!dashboard.targetKinds.length)
+      error('empty-dashboard-targets', 'Dashboard must declare at least one target kind.');
+    if (!dashboard.actionLabel.trim())
+      error('missing-dashboard-action', 'Dashboard action label must not be empty.');
+    duplicateIds('dashboard section', dashboard.sections);
+    const widgetIds = new Set<string>();
+    for (const section of dashboard.sections) {
+      if (!section.widgets.length)
+        error('empty-dashboard-section', `Dashboard section "${section.id}" has no widgets.`);
+      for (const widget of section.widgets) {
+        if (widgetIds.has(widget.id))
+          error('duplicate-dashboard-widget', `Duplicate dashboard widget ID "${widget.id}".`);
+        widgetIds.add(widget.id);
+        if (widget.kind !== 'media') continue;
+        const media = [
+          ...Object.values(widget.mediaByEntityId ?? {}),
+          ...(widget.fallback ? [widget.fallback] : []),
+        ];
+        if (!media.length)
+          error('empty-media-widget', `Media widget "${widget.id}" has no media or fallback.`);
+        for (const item of media) {
+          if (!/^\d+(?:\.\d+)?:\d+(?:\.\d+)?$/.test(item.aspectRatio))
+            error(
+              'invalid-media-aspect-ratio',
+              `Media widget "${widget.id}" has invalid aspect ratio "${item.aspectRatio}".`,
+            );
+          if (item.src && /^(?:javascript|data:text\/html):/i.test(item.src))
+            error('unsafe-media-source', `Media widget "${widget.id}" has an unsafe source.`);
+          if (!item.alt.trim())
+            error('missing-media-alt', `Media widget "${widget.id}" has no alternative text.`);
+        }
+      }
+    }
+  }
 
   const groupIds = new Set(module.records.groups.map(({ id }) => id));
   const entryIds = new Set(module.records.entries.map(({ id }) => id));
@@ -114,34 +158,36 @@ export function validateTaxonomyModule<
       }
     }
   }
-  for (const dimensionId of module.interpretation.projection.allowedDimensionIds) {
-    if (!dimensions.has(dimensionId)) {
-      error(
-        'unknown-projection-dimension',
-        `Projection allows unknown dimension "${dimensionId}".`,
-      );
+  const projection = module.interpretation.projection;
+  if (projection.kind === 'hierarchical') {
+    for (const issue of validateHierarchyProjection(projection).warnings)
+      error(issue.code, issue.message);
+  } else {
+    for (const dimensionId of projection.allowedDimensionIds) {
+      if (!dimensions.has(dimensionId)) {
+        error(
+          'unknown-projection-dimension',
+          `Projection allows unknown dimension "${dimensionId}".`,
+        );
+      }
     }
-  }
-  for (const dimensionId of module.interpretation.projection.defaultRingOrder) {
-    if (!dimensions.has(dimensionId)) {
-      error(
-        'unknown-default-dimension',
-        `Default rings reference unknown dimension "${dimensionId}".`,
-      );
+    for (const dimensionId of projection.defaultRingOrder) {
+      if (!dimensions.has(dimensionId)) {
+        error(
+          'unknown-default-dimension',
+          `Default rings reference unknown dimension "${dimensionId}".`,
+        );
+      }
     }
-  }
-  if (
-    new Set(module.interpretation.projection.defaultRingOrder).size !==
-    module.interpretation.projection.defaultRingOrder.length
-  ) {
-    error('duplicate-default-dimension', 'Default ring dimensions must be unique.');
-  }
-  if (
-    module.interpretation.projection.maximumRingCount !== undefined &&
-    module.interpretation.projection.defaultRingOrder.length >
-      module.interpretation.projection.maximumRingCount
-  ) {
-    error('too-many-default-rings', 'Default ring count exceeds maximumRingCount.');
+    if (new Set(projection.defaultRingOrder).size !== projection.defaultRingOrder.length) {
+      error('duplicate-default-dimension', 'Default ring dimensions must be unique.');
+    }
+    if (
+      projection.maximumRingCount !== undefined &&
+      projection.defaultRingOrder.length > projection.maximumRingCount
+    ) {
+      error('too-many-default-rings', 'Default ring count exceeds maximumRingCount.');
+    }
   }
 
   const context = { locale: 'en' };

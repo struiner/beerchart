@@ -169,6 +169,7 @@ export const taxonomy = defineTaxonomy<ExampleEntry, ExampleReference>({
       ],
     },
     projection: {
+      kind: 'dimensional',
       defaultRingOrder: ['family', 'region'],
       allowedDimensionIds: ['family', 'region'],
       structureMode: 'dimensions',

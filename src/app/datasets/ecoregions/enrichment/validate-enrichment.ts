@@ -4,6 +4,7 @@ import type {
   EcologicalSpecies,
   SourcedValue,
 } from './ecological-enrichment';
+import { ecologicalEditorialRules, normalizedEditorialProse } from './editorial-rules';
 
 const generatedFields = new Set([
   'id',
@@ -37,6 +38,7 @@ export function validateEcologicalEnrichment(input: {
   const seen = new Set<string>();
   const speciesIds = new Set(input.species.map(({ id }) => id));
   const countryIds = new Set(input.countries.map(({ id }) => id));
+  const summaries = new Map<string, string>();
 
   for (const country of input.countries)
     if (!/^[A-Z]{2}$/.test(country.id) || country.code !== country.id)
@@ -63,6 +65,31 @@ export function validateEcologicalEnrichment(input: {
         if (!input.sourceIds.has(sourceId))
           errors.push(`Enrichment ${record.targetId} uses unknown source ${sourceId}.`);
     }
+    if (record.summary) {
+      const summary = record.summary.value.trim();
+      const normalized = normalizedEditorialProse(summary);
+      const duplicateTarget = summaries.get(normalized);
+      if (duplicateTarget)
+        errors.push(
+          `Enrichment ${record.targetId} duplicates summary prose from ${duplicateTarget}.`,
+        );
+      summaries.set(normalized, record.targetId);
+      if (
+        summary.length < ecologicalEditorialRules.summary.minimumCharacters ||
+        summary.length > ecologicalEditorialRules.summary.maximumCharacters
+      )
+        errors.push(
+          `Enrichment ${record.targetId} summary must contain ${ecologicalEditorialRules.summary.minimumCharacters}–${ecologicalEditorialRules.summary.maximumCharacters} characters.`,
+        );
+      const sentenceCount = summary.split(/[.!?]+(?:\s|$)/).filter(Boolean).length;
+      if (
+        sentenceCount < ecologicalEditorialRules.summary.minimumSentences ||
+        sentenceCount > ecologicalEditorialRules.summary.maximumSentences
+      )
+        errors.push(
+          `Enrichment ${record.targetId} summary must contain ${ecologicalEditorialRules.summary.minimumSentences}–${ecologicalEditorialRules.summary.maximumSentences} sentences.`,
+        );
+    }
     const ranges = [
       ['precipitation', record.climate?.value.annualPrecipitationMm],
       ['temperature', record.climate?.value.temperatureC],
@@ -76,6 +103,16 @@ export function validateEcologicalEnrichment(input: {
     for (const speciesId of record.characteristicSpeciesIds ?? [])
       if (!speciesIds.has(speciesId))
         errors.push(`Enrichment ${record.targetId} uses unknown species ${speciesId}.`);
+    if (
+      record.characteristicSpeciesIds &&
+      (record.characteristicSpeciesIds.length <
+        ecologicalEditorialRules.characteristicSpecies.minimum ||
+        record.characteristicSpeciesIds.length >
+          ecologicalEditorialRules.characteristicSpecies.maximum)
+    )
+      errors.push(
+        `Enrichment ${record.targetId} must reference ${ecologicalEditorialRules.characteristicSpecies.minimum}–${ecologicalEditorialRules.characteristicSpecies.maximum} characteristic species.`,
+      );
     for (const countryId of record.countryIds ?? [])
       if (!countryIds.has(countryId))
         errors.push(`Enrichment ${record.targetId} uses unknown country ${countryId}.`);

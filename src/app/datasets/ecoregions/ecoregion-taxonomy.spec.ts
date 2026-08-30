@@ -2,6 +2,7 @@ import {
   composeTaxonomyProfile,
   createTaxonomyIndexes,
   describeTaxonomyContract,
+  projectHierarchy,
 } from '../../taxonomy/testing/public-api';
 import { describe, expect, it } from 'vitest';
 import { ecoregionTaxonomy } from '.';
@@ -16,7 +17,22 @@ import { ecoregionEnrichment } from './enrichment/ecoregions';
 import { ecologicalSpecies } from './enrichment/species';
 import { ecologicalCountries } from './enrichment/countries';
 import { validateEcologicalEnrichment } from './enrichment/validate-enrichment';
+import { coverageStateFor, enrichmentCoverage } from './enrichment/coverage-manifest';
+import {
+  biologicalRecords,
+  canonicalTaxa,
+  domainCoverageRecords,
+  taxonOccurrences,
+} from './enrichment/biota';
+import { validateBiologicalRecords } from './enrichment/validate-biota';
+import { ecoregionContentPartitionIds } from './content/ecoregion-content-provider';
+import { ecoregionPartitionByTargetId } from './content/partition-ownership.generated';
+import { livingCompositionPartitionByTaxonId } from './content/living-composition-ownership';
 import { ecoregionSources } from './source/source-registry';
+import {
+  compatibleObservationTotal,
+  type EcologicalObservation,
+} from './enrichment/ecological-observations';
 
 describeTaxonomyContract('Terrestrial ecoregions', ecoregionTaxonomy, {
   expectedEntries: 844,
@@ -89,6 +105,17 @@ describe('ecological enrichment', () => {
     ...generatedEcoregions.map(({ id }) => id),
   ]);
   const sourceIds = new Set(ecoregionSources.map(({ id }) => id));
+  const biotaValidationInput = {
+    sourceIds,
+    publishedEcoregionIds: new Set(
+      generatedEcoregions
+        .filter(({ id }) => enrichmentCoverage[id] === 'published')
+        .map(({ id }) => id),
+    ),
+    partitionIds: new Set(ecoregionContentPartitionIds),
+    partitionByEcoregionId: ecoregionPartitionByTargetId,
+    profilePartitionByTaxonId: livingCompositionPartitionByTaxonId,
+  };
 
   it('validates the complete pilot branch without weakening canonical membership', () => {
     expect(
@@ -111,6 +138,23 @@ describe('ecological enrichment', () => {
     expect(
       ecoregionTaxonomy.records.entries.find(({ id }) => id === 'ecoregion:309')?.parentGroupIds,
     ).toEqual(generatedEcoregions.find(({ id }) => id === 'ecoregion:309')?.parentBioregionIds);
+  });
+
+  it('tracks published realm coverage independently from lower-level record presence', () => {
+    expect(Object.keys(enrichmentCoverage)).toHaveLength(80);
+    expect(coverageStateFor('realm:indomalaya')).toBe('published');
+    expect(coverageStateFor('ecoregion:309')).toBe('reviewed');
+    expect(coverageStateFor('realm:antarctica')).toBe('published');
+    expect(coverageStateFor('subrealm:greenland')).toBe('published');
+    expect(coverageStateFor('bioregion:na1')).toBe('published');
+    expect(coverageStateFor('ecoregion:417')).toBe('published');
+    expect(coverageStateFor('ecoregion:418')).toBe('published');
+    expect(coverageStateFor('ecoregion:615')).toBe('draft');
+    expect(generatedRealms.every(({ id }) => coverageStateFor(id) !== 'unstarted')).toBe(true);
+    expect(generatedRealms).toHaveLength(14);
+    expect(generatedSubrealms).toHaveLength(53);
+    expect(generatedBioregions).toHaveLength(185);
+    expect(generatedEcoregions).toHaveLength(844);
   });
 
   it('rejects orphaned, duplicate, unsourced, unknown and invalid enrichment values', () => {
@@ -147,7 +191,66 @@ describe('ecological enrichment', () => {
     expect(errors.some((error) => error.includes('unknown source'))).toBe(true);
   });
 
-  it('renders sourced group and entry profiles with related ecological entities', () => {
+  it('aggregates observations only when their scientific bases are compatible', () => {
+    const observation = {
+      id: 'observation:a',
+      ecoregionId: 'ecoregion:302',
+      subjectTaxonId: 'species:chir-pine',
+      metric: 'biomass',
+      value: 10,
+      unit: 'kg/ha',
+      basis: 'dry-mass',
+      spatialExtent: 'sample plot',
+      observedDuring: '2025',
+      method: 'destructive sample',
+      sourceIds: ['one-earth-eco-302'],
+    } satisfies EcologicalObservation;
+    expect(
+      compatibleObservationTotal([observation, { ...observation, id: 'observation:b' }]),
+    ).toMatchObject({ value: 20, unit: 'kg/ha' });
+    expect(
+      compatibleObservationTotal([
+        observation,
+        { ...observation, id: 'observation:c', basis: 'carbon-mass' },
+      ]),
+    ).toBeNull();
+  });
+
+  it('publishes the pilot biota through explicit dependency and coverage contracts', () => {
+    expect(
+      validateBiologicalRecords({ records: biologicalRecords, ...biotaValidationInput }),
+    ).toEqual([]);
+    const pilotCoverages = domainCoverageRecords.filter(({ ecoregionId }) => ecoregionId === 'ecoregion:302');
+    expect(pilotCoverages).toHaveLength(4);
+    expect(
+      pilotCoverages.every(
+        ({ lifecycle, depth }) => lifecycle === 'published' && depth === 'representative',
+      ),
+    ).toBe(true);
+    const pilotOccurrences = taxonOccurrences.filter(({ ecoregionId }) => ecoregionId === 'ecoregion:302');
+    expect(pilotOccurrences.every(({ lifecycle }) => lifecycle === 'published')).toBe(true);
+    expect(
+      canonicalTaxa
+        .filter(({ entityKind, profileOwnerPartitionId }) => entityKind === 'functional-group' && profileOwnerPartitionId === 'indomalaya')
+        .map(({ id }) => id),
+    ).toEqual([
+      'functional-group:ectomycorrhizal-fungi',
+      'functional-group:nitrogen-cycling-rhizosphere-bacteria',
+    ]);
+  });
+
+  it('rejects orphan occurrences and duplicate canonical profiles', () => {
+    const duplicate = canonicalTaxa[0]!;
+    const orphan = { ...taxonOccurrences[0]!, id: 'occurrence:orphan', taxonId: 'species:missing' };
+    const errors = validateBiologicalRecords({
+      records: [...biologicalRecords, duplicate, orphan],
+      ...biotaValidationInput,
+    });
+    expect(errors.some((error) => error.includes('Duplicated canonical taxon profile'))).toBe(true);
+    expect(errors.some((error) => error.includes('orphan taxon'))).toBe(true);
+  });
+
+  it('keeps base profiles structural and loads sourced extensions by canonical partition', async () => {
     const indexes = createTaxonomyIndexes(ecoregionTaxonomy);
     const groupProfile = composeTaxonomyProfile({
       module: ecoregionTaxonomy,
@@ -159,12 +262,59 @@ describe('ecological enrichment', () => {
       indexes,
       target: { kind: 'entry', id: 'ecoregion:309' },
     });
-    expect(groupProfile?.sections.some(({ id }) => id === 'summary')).toBe(true);
-    expect(groupProfile?.sections.some(({ id }) => id === 'ecological-references')).toBe(true);
-    expect(entryProfile?.sections.some(({ id }) => id === 'ecology')).toBe(true);
-    expect(entryProfile?.sections.some(({ id }) => id === 'enrichment-sources')).toBe(true);
+    expect(groupProfile?.sections.some(({ id }) => id === 'summary')).toBe(false);
+    expect(entryProfile?.sections.some(({ id }) => id === 'ecology')).toBe(false);
+    expect(ecoregionTaxonomy.records.relatedEntities).toEqual([]);
+
+    const provider = ecoregionTaxonomy.contentProvider!;
+    expect(provider.resolvePartition({ kind: 'entry', id: 'ecoregion:309' })).toBe('indomalaya');
+    const bundle = await provider.loadPartition('indomalaya');
+    expect(bundle.profileExtensions?.['bioregion:im5']?.some(({ id }) => id === 'summary')).toBe(
+      true,
+    );
+    expect(bundle.profileExtensions?.['ecoregion:309']?.some(({ id }) => id === 'ecology')).toBe(
+      true,
+    );
     expect(
-      ecoregionTaxonomy.records.relatedEntities.some(({ id }) => id === 'species:red-panda'),
+      bundle.profileExtensions?.['ecoregion:309']?.some(({ id }) => id === 'enrichment-sources'),
+    ).toBe(true);
+    const composition = bundle.livingCompositions?.['ecoregion:302'];
+    expect(composition?.coverage).toMatchObject({
+      flora: 'published',
+      fauna: 'published',
+      fungi: 'published',
+      microbiome: 'published',
+    });
+    const hierarchy = projectHierarchy({ definition: composition!.hierarchy });
+    expect(Math.max(...hierarchy.nodes.map(({ depth }) => depth))).toBe(3);
+    expect(hierarchy.nodes.filter(({ depth }) => depth === 1).map(({ title }) => title)).toEqual([
+      'Fauna',
+      'Flora',
+      'Fungi',
+      'Microbiome',
+    ]);
+    expect(bundle.relatedEntities?.map(({ id }) => id)).toEqual(
+      expect.arrayContaining([
+        'species:chir-pine',
+        'species:himalayan-goral',
+        'functional-group:ectomycorrhizal-fungi',
+        'functional-group:nitrogen-cycling-rhizosphere-bacteria',
+      ]),
+    );
+    expect(
+      bundle.profileExtensions?.['functional-group:ectomycorrhizal-fungi']?.some(
+        ({ id }) => id === 'canonical-summary',
+      ),
+    ).toBe(true);
+    expect(provider.resolvePartition({ kind: 'related-entity', id: 'species:chir-pine' })).toBe(
+      'indomalaya',
+    );
+    expect(provider.resolvePartition({ kind: 'entry', id: 'ecoregion:615' })).toBe(
+      'southern-america',
+    );
+    const southernAmerica = await provider.loadPartition('southern-america');
+    expect(
+      southernAmerica.profileExtensions?.['ecoregion:615']?.some(({ id }) => id === 'summary'),
     ).toBe(true);
   });
 });

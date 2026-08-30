@@ -102,7 +102,7 @@
       }
     </g>
   </svg>
-  @if (store.selectedProfile(); as profile) {
+  @if (!dashboardOverlay.open() && store.selectedProfile(); as profile) {
     <section
       class="selection-details generic-selection-details"
       [class.detail-view]="store.detailMode() === 'expanded'"
@@ -133,6 +133,18 @@
             </button>
           }
         </nav>
+      }
+      @if (dashboardTarget(); as target) {
+        @if (store.module.presentation.dashboard?.targetKinds?.includes(target.kind)) {
+          <button
+            class="open-dashboard"
+            type="button"
+            data-testid="open-taxonomy-dashboard"
+            (click)="openSelectedDashboard()"
+          >
+            {{ store.module.presentation.dashboard?.actionLabel }}
+          </button>
+        }
       }
       <app-generic-taxonomy-profile
         [profile]="profile"

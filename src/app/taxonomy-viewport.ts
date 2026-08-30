@@ -10,6 +10,8 @@ import {
 import { AppStore } from './core/app.store';
 import { PositionedNode } from './taxonomy/layout/circular-layout';
 import { GenericTaxonomyProfile } from './taxonomy/components/taxonomy-profile';
+import { Router } from '@angular/router';
+import { DashboardOverlayState } from './taxonomy/dashboard/dashboard-overlay.state';
 
 @Component({
   selector: 'app-taxonomy-viewport',
@@ -20,6 +22,8 @@ import { GenericTaxonomyProfile } from './taxonomy/components/taxonomy-profile';
 })
 export class TaxonomyViewport {
   readonly store = inject(AppStore);
+  private readonly router = inject(Router);
+  readonly dashboardOverlay = inject(DashboardOverlayState);
   readonly host = viewChild.required<ElementRef<HTMLElement>>('viewport');
   private readonly pointers = new Map<number, { x: number; y: number }>();
   private drag?: { x: number; y: number; cameraX: number; cameraY: number };
@@ -133,6 +137,27 @@ export class TaxonomyViewport {
   }
   openDetail(node: PositionedNode) {
     this.store.selectProjectedNode(node, 'expanded');
+    const dashboard = this.store.module.presentation.dashboard;
+    const targetKind = node.kind === 'entry' ? 'entry' : node.kind === 'group' ? 'group' : null;
+    if (targetKind && dashboard?.targetKinds.includes(targetKind))
+      void this.router.navigate(['/atlas', this.store.module.meta.id, targetKind, node.entityId], {
+        queryParamsHandling: 'preserve',
+        state: { fromAtlasCanvas: true },
+      });
+  }
+  dashboardTarget() {
+    const target = this.store.selectedProfileTarget();
+    return target?.kind === 'entry' || target?.kind === 'group' ? target : null;
+  }
+  openSelectedDashboard() {
+    const target = this.dashboardTarget();
+    const dashboard = this.store.module.presentation.dashboard;
+    if (!target || !dashboard?.targetKinds.includes(target.kind)) return;
+    this.store.detailMode.set('expanded');
+    void this.router.navigate(['/atlas', this.store.module.meta.id, target.kind, target.id], {
+      queryParamsHandling: 'preserve',
+      state: { fromAtlasCanvas: true },
+    });
   }
   closeDetails(event?: Event) {
     event?.stopPropagation();

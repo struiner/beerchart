@@ -198,13 +198,119 @@ export interface TaxonomyProfileDefinition<TEntry, TRelated> {
   ) => readonly ProfileSectionViewModel[];
 }
 
-export interface TaxonomyProjectionDefinition {
+export interface DimensionalProjectionDefinition {
+  readonly kind: 'dimensional';
   readonly defaultRingOrder: readonly string[];
   readonly allowedDimensionIds: readonly string[];
   readonly structureMode: 'authored-groups' | 'dimensions' | 'hybrid';
   readonly maximumRingCount?: number;
   readonly maximumProjectedInstances?: number;
   readonly emptyBranchPolicy: 'hide' | 'show';
+}
+
+export interface HierarchyNode {
+  readonly id: string;
+  readonly canonicalEntityId: string;
+  readonly kind: string;
+  readonly label: string;
+  readonly attributes?: Readonly<Record<string, unknown>>;
+}
+
+export interface HierarchyEdge {
+  readonly id: string;
+  readonly parentNodeId: string;
+  readonly childNodeId: string;
+  readonly relationId: string;
+}
+
+export interface HierarchyLayerDefinition {
+  readonly id: string;
+  readonly label: string;
+  readonly nodeKinds?: readonly string[];
+  /** Dataset-declared rank order. Higher values are farther from the root. */
+  readonly order?: number;
+}
+
+export interface HierarchyLayerSlot {
+  readonly id: string;
+  readonly label: string;
+  readonly defaultLayerId: string;
+  readonly allowedLayerIds: readonly string[];
+  readonly locked?: boolean;
+}
+
+export interface HierarchyViewPreset {
+  readonly id: string;
+  readonly label: string;
+  readonly layers: readonly HierarchyLayerSlot[];
+  readonly persistence?: {
+    readonly enabled: boolean;
+    readonly schemaVersion: string;
+  };
+}
+
+export interface HierarchicalProjectionDefinition {
+  readonly kind: 'hierarchical';
+  readonly rootEntityId: string;
+  readonly nodes: readonly HierarchyNode[];
+  readonly edges: readonly HierarchyEdge[];
+  readonly layers: readonly HierarchyLayerDefinition[];
+  readonly viewPresets?: readonly HierarchyViewPreset[];
+  readonly window: {
+    readonly visibleDepth: number;
+    readonly maxInstances: number;
+    readonly overflow: 'aggregate' | 'warn' | 'truncate';
+  };
+  readonly navigation: {
+    readonly expandableTerminal: 'reroot';
+    readonly canonicalTerminal: 'navigate';
+  };
+}
+
+export type TaxonomyProjectionDefinition =
+  DimensionalProjectionDefinition | HierarchicalProjectionDefinition;
+
+export type DomainCoverage = 'unstarted' | 'draft' | 'reviewed' | 'published';
+
+export interface TaxonOccurrence {
+  readonly taxonEntityId: string;
+  readonly sourceIds: readonly string[];
+  readonly note?: string;
+}
+
+export interface LivingCompositionContent {
+  readonly ecoregionId: string;
+  readonly hierarchy: HierarchicalProjectionDefinition;
+  readonly occurrences: readonly TaxonOccurrence[];
+  readonly coverage: Readonly<Record<string, DomainCoverage>>;
+  readonly measures?: readonly HierarchyNodeMeasure[];
+  readonly measureEncodings?: readonly NodeMeasureEncoding[];
+}
+
+export interface NumericRange {
+  readonly min: number;
+  readonly max: number;
+}
+
+export interface HierarchyNodeMeasure {
+  readonly nodeId: string;
+  readonly metricId: string;
+  readonly value?: number;
+  readonly range?: NumericRange;
+  readonly unit: string;
+  readonly label: string;
+  readonly sourceIds: readonly string[];
+}
+
+export interface ProjectedNodeMeasure extends Omit<HierarchyNodeMeasure, 'nodeId'> {
+  readonly instanceId: string;
+}
+
+export interface NodeMeasureEncoding {
+  readonly metricId: string;
+  readonly appearance: 'area' | 'halo' | 'label';
+  readonly scale: 'linear' | 'square-root' | 'logarithmic';
+  readonly missingValue: 'uniform' | 'hidden';
 }
 
 export interface ResolvedIcon {
@@ -340,6 +446,70 @@ export interface TaxonomyPresentation<TEntry, TRelated> {
   readonly relatedEntityTile: (entity: TRelated) => TileViewModel;
   readonly layout?: TaxonomyLayoutPresentation;
   readonly theme?: TaxonomyThemePreset;
+  /** Data-only dashboard composition. Generic renderers own all component implementations. */
+  readonly dashboard?: TaxonomyDashboardDefinition;
+}
+
+export type DashboardTargetKind = 'entry' | 'group' | 'dimension-value' | 'related-entity';
+
+export type EntityReference =
+  | { readonly kind: 'entry' | 'group' | 'related-entity'; readonly id: string }
+  | {
+      readonly kind: 'dimension-value';
+      readonly dimensionId: string;
+      readonly valueId: string;
+    };
+
+export interface TaxonomyContentBundle {
+  readonly profileExtensions?: Readonly<Record<string, readonly ProfileSectionViewModel[]>>;
+  readonly media?: Readonly<Record<string, DashboardMediaDefinition>>;
+  readonly relatedEntities?: readonly RelatedEntity[];
+  readonly sources?: readonly SourceReference[];
+  readonly livingCompositions?: Readonly<Record<string, LivingCompositionContent>>;
+}
+
+export interface TaxonomyContentProvider {
+  resolvePartition(target: EntityReference): string | null;
+  loadPartition(partitionId: string): Promise<TaxonomyContentBundle>;
+}
+
+export interface DashboardMediaDefinition {
+  readonly src?: string;
+  readonly alt: string;
+  readonly caption?: string;
+  readonly credit?: string;
+  readonly license?: string;
+  readonly role: 'interpretive' | 'documentary' | 'diagrammatic';
+  readonly aspectRatio: `${number}:${number}`;
+  readonly focalPoint?: { readonly x: number; readonly y: number };
+}
+
+export type DashboardWidgetDefinition =
+  | { readonly id: string; readonly kind: 'profile'; readonly title?: string }
+  | {
+      readonly id: string;
+      readonly kind: 'media';
+      readonly title?: string;
+      readonly mediaByEntityId?: Readonly<Record<string, DashboardMediaDefinition>>;
+      readonly fallback?: DashboardMediaDefinition;
+    }
+  | {
+      readonly id: string;
+      readonly kind: 'hierarchy';
+      readonly title?: string;
+      readonly emptyMessage?: string;
+    };
+
+export interface DashboardSectionDefinition {
+  readonly id: string;
+  readonly layout: 'single' | 'split' | 'feature';
+  readonly widgets: readonly DashboardWidgetDefinition[];
+}
+
+export interface TaxonomyDashboardDefinition {
+  readonly targetKinds: readonly DashboardTargetKind[];
+  readonly actionLabel: string;
+  readonly sections: readonly DashboardSectionDefinition[];
 }
 
 export interface ReadonlyStorage {
@@ -373,6 +543,7 @@ export interface TaxonomyModule<
   readonly vocabulary: TaxonomyVocabulary;
   readonly content: TaxonomyContent;
   readonly persistence?: TaxonomyPersistenceDefinition;
+  readonly contentProvider?: TaxonomyContentProvider;
   readonly records: {
     readonly groups: readonly TaxonomyGroup[];
     readonly entries: readonly TEntry[];

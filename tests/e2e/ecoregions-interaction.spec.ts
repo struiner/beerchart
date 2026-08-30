@@ -139,4 +139,178 @@ test.describe('full ecoregion topology', () => {
     await expect(page.locator('app-root')).toHaveAttribute('data-taxonomy-theme', 'brewers-atlas');
     await expect(page.locator('[data-entity-id^="style:"]')).toHaveCount(168);
   });
+
+  test('renders a sparse polar profile without forest-specific sections', async ({ page }) => {
+    await openEcoregions(page);
+    await page.getByRole('combobox', { name: 'Search taxonomy' }).fill('East Antarctic Tundra');
+    await page
+      .getByTestId('taxonomy-search-results')
+      .getByRole('option', { name: 'East Antarctic Tundra', exact: true })
+      .click();
+    const profile = page.getByTestId('taxonomy-profile');
+    await expect(profile).toContainText('East Antarctic Tundra');
+    await expect(profile).toContainText('Ecological placement');
+    await expect(profile).not.toContainText('Characteristic species and countries');
+    await expect(profile).not.toContainText('Vegetation');
+  });
+
+  test('renders the published Greenland branch with sourced polar enrichment', async ({ page }) => {
+    await openEcoregions(page);
+    await page
+      .getByRole('combobox', { name: 'Search taxonomy' })
+      .fill('Kalaallit Nunaat High Arctic Tundra');
+    await page
+      .getByTestId('taxonomy-search-results')
+      .getByRole('option', { name: 'Kalaallit Nunaat High Arctic Tundra', exact: true })
+      .click();
+
+    const profile = page.getByTestId('taxonomy-profile');
+    await expect(profile).toContainText('Kalaallit Nunaat High Arctic Tundra');
+    await expect(profile).toContainText('Polar-desert climate');
+    await expect(profile).toContainText('Vegetation');
+    await expect(profile).toContainText('Northern collared lemming');
+    await expect(profile).toContainText('One Earth');
+  });
+
+  test('opens and closes the routed ecoregion dashboard without losing selection', async ({
+    page,
+  }) => {
+    let loadedGreenlandContent = false;
+    let loadedIndomalayaContent = false;
+    let dashboardRuntimeResponses = 0;
+    let hierarchyRuntimeResponses = 0;
+    page.on('response', async (response) => {
+      if (!response.url().endsWith('.js')) return;
+      const body = await response.text().catch(() => '');
+      if (body.includes('dashboard-backdrop')) dashboardRuntimeResponses += 1;
+      if (body.includes('Nested taxonomy explorer')) {
+        hierarchyRuntimeResponses += 1;
+        console.log(
+          'MARKER',
+          response.url(),
+          body.includes('taxonomy-hierarchy'),
+          body.includes('class HierarchyWidget'),
+          body.includes('projectNodeMeasures'),
+        );
+      }
+      loadedGreenlandContent ||= body.includes(
+        'Kalaallit Nunaat High Arctic Tundra wraps around northern Greenland',
+      );
+      loadedIndomalayaContent ||= body.includes('Himalayan Mixed Forests & Grasslands occupies');
+    });
+    await openEcoregions(page);
+    expect(dashboardRuntimeResponses).toBe(0);
+    expect(hierarchyRuntimeResponses).toBe(0);
+    await page
+      .getByRole('combobox', { name: 'Search taxonomy' })
+      .fill('Kalaallit Nunaat High Arctic Tundra');
+    await page
+      .getByTestId('taxonomy-search-results')
+      .getByRole('option', { name: 'Kalaallit Nunaat High Arctic Tundra', exact: true })
+      .click();
+
+    await page.getByTestId('open-taxonomy-dashboard').click();
+    const dashboard = page.getByTestId('taxonomy-dashboard');
+    await expect(dashboard).toBeVisible();
+    await expect(page).toHaveURL(/\/atlas\/one-earth-terrestrial-ecoregions\/entry\/ecoregion:418/);
+    await expect(dashboard).toContainText('Landscape impression');
+    await expect(
+      dashboard.getByRole('img', { name: /Interpretive comic-style view across treeless Arctic/ }),
+    ).toBeVisible();
+    await expect.poll(() => loadedGreenlandContent).toBe(true);
+    await expect.poll(() => dashboardRuntimeResponses).toBe(1);
+    expect(hierarchyRuntimeResponses).toBe(0);
+    expect(loadedIndomalayaContent).toBe(false);
+    await expect(page.getByTestId('taxonomy-profile')).toHaveCount(0);
+    await page.keyboard.press('Escape');
+    await expect(dashboard).toHaveCount(0);
+    await expect(page.getByTestId('taxonomy-profile')).toContainText(
+      'Kalaallit Nunaat High Arctic Tundra',
+    );
+    await page.getByTestId('open-taxonomy-dashboard').click();
+    await expect(page.getByTestId('taxonomy-dashboard')).toBeVisible();
+    expect(dashboardRuntimeResponses).toBe(1);
+    expect(hierarchyRuntimeResponses).toBe(0);
+    await page.keyboard.press('Escape');
+  });
+
+  test('hydrates a direct dashboard route and restores its selected aside', async ({ page }) => {
+    await page.goto(
+      '/atlas/one-earth-terrestrial-ecoregions/entry/ecoregion:418?e2e&taxonomy=ecoregions',
+    );
+    const dashboard = page.getByTestId('taxonomy-dashboard');
+    await expect(dashboard).toBeVisible();
+    await expect(dashboard).toContainText('Ecological placement');
+    await expect(dashboard).toContainText('Kalaallit Nunaat High Arctic Tundra');
+    await expect(dashboard).toContainText('Northern collared lemming');
+    await page.keyboard.press('Escape');
+    await expect(dashboard).toHaveCount(0);
+    await expect(page.getByTestId('taxonomy-profile')).toContainText(
+      'Kalaallit Nunaat High Arctic Tundra',
+    );
+  });
+
+  test('drills through the lazy living-composition hierarchy with isolated state', async ({
+    page,
+  }) => {
+    const hierarchyRuntimeUrls = new Set<string>();
+    page.on('response', async (response) => {
+      if (!response.url().endsWith('.js')) return;
+      const body = await response.text().catch(() => '');
+      if (body.includes('Nested taxonomy explorer')) hierarchyRuntimeUrls.add(response.url());
+    });
+    await page.goto(
+      '/atlas/one-earth-terrestrial-ecoregions/entry/ecoregion:302?e2e&taxonomy=ecoregions',
+    );
+    const dashboard = page.getByTestId('taxonomy-dashboard');
+    const widget = page.getByTestId('hierarchy-widget');
+    await expect(dashboard).toContainText('Himalayan Subtropical Pine Forests');
+    await expect(widget).toBeVisible();
+    await expect.poll(() => hierarchyRuntimeUrls.size).toBe(1);
+    await expect(page.getByTestId('hierarchy-layer-inner')).toBeDisabled();
+    await expect(page.getByTestId('hierarchy-layer-middle')).toHaveValue('division-or-phylum');
+    await page.getByTestId('hierarchy-layer-middle').selectOption('class');
+    await expect(page.getByTestId('hierarchy-layer-middle')).toHaveValue('class');
+    await expect
+      .poll(() =>
+        page.evaluate(() =>
+          Object.entries(localStorage).some(
+            ([key, value]) => key.startsWith('taxonomy-hierarchy.') && value.includes('class'),
+          ),
+        ),
+      )
+      .toBe(true);
+    await page.reload();
+    await expect(page.getByTestId('hierarchy-layer-middle')).toHaveValue('class');
+    await expect(widget.getByRole('treeitem', { name: /Flora/ })).toBeVisible();
+    await expect(widget.getByRole('treeitem', { name: /Fungi/ })).toBeVisible();
+    await expect(widget.getByRole('treeitem', { name: /Ectomycorrhizal fungi/ })).toBeVisible();
+    await widget.getByRole('treeitem', { name: /Pinaceae/ }).click();
+    await expect(widget.getByRole('navigation', { name: 'Hierarchy breadcrumb' })).toContainText(
+      'Himalayan Subtropical Pine Forests',
+    );
+    await expect(widget.getByRole('treeitem', { name: /Chir pine/ })).toBeVisible();
+    await widget.getByRole('treeitem', { name: /Chir pine/ }).press('Enter');
+    await expect(page).toHaveURL(
+      /\/atlas\/one-earth-terrestrial-ecoregions\/related-entity\/species:chir-pine/,
+    );
+    await expect(dashboard).toContainText('Pinus roxburghii');
+    expect(hierarchyRuntimeUrls.size).toBe(1);
+  });
+
+  test('cold-starts a canonical taxon through its single content owner', async ({ page }) => {
+    let loadedIndomalayaContent = false;
+    page.on('response', async (response) => {
+      if (!response.url().endsWith('.js')) return;
+      const body = await response.text().catch(() => '');
+      loadedIndomalayaContent ||= body.includes('species:chir-pine');
+    });
+    await page.goto(
+      '/atlas/one-earth-terrestrial-ecoregions/related-entity/species:chir-pine?e2e&taxonomy=ecoregions',
+    );
+    const dashboard = page.getByTestId('taxonomy-dashboard');
+    await expect(dashboard).toContainText('Chir pine');
+    await expect(dashboard).toContainText('Pinus roxburghii');
+    await expect.poll(() => loadedIndomalayaContent).toBe(true);
+  });
 });

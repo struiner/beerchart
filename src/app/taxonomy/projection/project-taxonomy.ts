@@ -1,4 +1,5 @@
 import {
+  DimensionalProjectionDefinition,
   RelatedEntity,
   TaxonomyDimension,
   TaxonomyEntry,
@@ -6,7 +7,8 @@ import {
 } from '../contracts/taxonomy';
 import { TaxonomyIndexes } from '../indexes/create-taxonomy-indexes';
 
-export type ProjectedEntityType = 'root' | 'group' | 'dimension-value' | 'entry';
+export type ProjectedEntityType =
+  'root' | 'group' | 'dimension-value' | 'entry' | 'hierarchy-node' | 'aggregate';
 
 export interface ProjectedNode {
   readonly instanceId: string;
@@ -16,6 +18,10 @@ export interface ProjectedNode {
   readonly parentInstanceId: string | null;
   readonly path: readonly string[];
   readonly depth: number;
+  readonly sourceNodeId?: string;
+  readonly expandable?: boolean;
+  readonly hiddenDescendantCount?: number;
+  readonly coverage?: string;
 }
 
 export interface ProjectionWarning {
@@ -160,7 +166,8 @@ export function projectTaxonomy<
       });
     }
   }
-  const maximum = input.module.interpretation.projection.maximumProjectedInstances;
+  const maximum = (input.module.interpretation.projection as DimensionalProjectionDefinition)
+    .maximumProjectedInstances;
   if (maximum !== undefined && nodes.length > maximum)
     throw new Error(`Projection produced ${nodes.length} instances; maximum is ${maximum}.`);
   return { root, nodes, instancesByEntityId, warnings };

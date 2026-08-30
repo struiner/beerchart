@@ -134,6 +134,7 @@
   </div>
 </header>
 <main><app-taxonomy-viewport #viewport /></main>
+<router-outlet />
 @if (dialog(); as dialog) {
   <div class="backdrop" (mousedown)="$event.target === $event.currentTarget && close()">
     <section
@@ -150,21 +151,23 @@
           <span class="eyebrow">Contribute</span>
           <h1 id="submit-title">Propose an entry</h1>
           <p>Submit a style or category for editorial review. Your draft stays on this device.</p>
-          <form (ngSubmit)="submit()">
+          <form (submit)="submit(); $event.preventDefault()">
             <label
               >Title
               <input
                 required
                 name="title"
-                [ngModel]="draft().title"
-                (ngModelChange)="draft.update((d) => ({ ...d, title: $event }))" /></label
+                [value]="draft().title"
+                (input)="
+                  draft.update((d) => ({ ...d, title: $any($event.target).value }))
+                " /></label
             ><label
               >Type
               <input
                 name="type"
                 list="types"
-                [ngModel]="draft().type"
-                (ngModelChange)="draft.update((d) => ({ ...d, type: $event }))"
+                [value]="draft().type"
+                (input)="draft.update((d) => ({ ...d, type: $any($event.target).value }))"
               /><datalist id="types">
                 <option>{{ store.module.vocabulary.root }}</option>
                 <option>{{ store.module.vocabulary.group }}</option>
@@ -176,15 +179,15 @@
               <textarea
                 name="description"
                 rows="4"
-                [ngModel]="draft().description"
-                (ngModelChange)="draft.update((d) => ({ ...d, description: $event }))"
+                [value]="draft().description"
+                (input)="draft.update((d) => ({ ...d, description: $any($event.target).value }))"
               ></textarea></label
             ><label
               >Placement within taxonomy
               <select
                 name="placement"
-                [ngModel]="draft().placement"
-                (ngModelChange)="draft.update((d) => ({ ...d, placement: $event }))"
+                [value]="draft().placement"
+                (change)="draft.update((d) => ({ ...d, placement: $any($event.target).value }))"
               >
                 @for (group of store.module.records.groups; track group.id) {
                   <option [value]="group.id">{{ group.title }}</option>
@@ -236,13 +239,15 @@
               ><span>Connectors<small>Show parent paths</small></span
               ><input
                 type="checkbox"
-                [ngModel]="store.settings().connectors"
-                (ngModelChange)="store.updateSettings({ connectors: $event })" /></label
+                [checked]="store.settings().connectors"
+                (change)="
+                  store.updateSettings({ connectors: $any($event.target).checked })
+                " /></label
             ><label
               ><span>Wheel behavior<small>Default pointer-wheel action</small></span
               ><select
-                [ngModel]="store.settings().wheelMode"
-                (ngModelChange)="store.updateSettings({ wheelMode: $event })"
+                [value]="store.settings().wheelMode"
+                (change)="store.updateSettings({ wheelMode: $any($event.target).value })"
               >
                 <option value="pan">Pan</option>
                 <option value="zoom">Zoom</option>
@@ -273,7 +278,7 @@
           }
         }
         @case ('account-data') {
-          @let rows = storageRows();>>>>>>>>>>>>>><span class="eyebrow">Account</span>
+          @let rows = storageRows();>>>>>>>>>>>>>>>><span class="eyebrow">Account</span>
           <h1 id="account-data-title">Application data</h1>
           <p>Only application-owned, script-readable local data is shown.</p>
           @if (rows.length) {
@@ -288,7 +293,7 @@
           }
         }
         @case ('settings-data') {
-          @let rows = storageRows();>>>>>>>>>>>>>><span class="eyebrow">Settings</span>
+          @let rows = storageRows();>>>>>>>>>>>>>>>><span class="eyebrow">Settings</span>
           <h1 id="settings-data-title">Data controls</h1>
           <p>{{ rows.length }} application-owned namespaces are stored locally.</p>
           <button class="secondary">Export settings JSON</button

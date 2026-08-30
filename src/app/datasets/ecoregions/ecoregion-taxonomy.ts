@@ -1,23 +1,14 @@
 import {
   defineTaxonomy,
-  type RelatedEntity,
-  type ProfileSectionViewModel,
   type SourceReference,
   type TaxonomyDimension,
   type TaxonomyEntry,
 } from '../../taxonomy/public-api';
-import { bioregionEnrichment } from './enrichment/bioregions';
-import { ecologicalCountries } from './enrichment/countries';
-import type { EcologicalEnrichment } from './enrichment/ecological-enrichment';
-import { ecoregionEnrichment } from './enrichment/ecoregions';
-import { realmEnrichment } from './enrichment/realms';
-import { ecologicalSpecies } from './enrichment/species';
-import { subrealmEnrichment } from './enrichment/subrealms';
 import { generatedBioregions } from './generated/bioregions.generated';
 import { generatedEcoregions } from './generated/ecoregions.generated';
 import { generatedRealms } from './generated/realms.generated';
 import { generatedSubrealms } from './generated/subrealms.generated';
-import { ecoregionSourceById, ecoregionSources } from './source/source-registry';
+import { ecoregionContentProvider } from './content/ecoregion-content-provider';
 
 interface EcoregionFacts {
   readonly externalId: string;
@@ -32,55 +23,19 @@ interface EcoregionFacts {
   readonly conservationCondition?: string;
 }
 export interface EcoregionEntry extends TaxonomyEntry<EcoregionFacts> {}
-interface EcoregionRelatedEntity extends RelatedEntity {
-  readonly kind: 'species' | 'country';
-  readonly subtitle?: string;
-}
-
-const sources: readonly SourceReference[] = ecoregionSources;
-const enrichmentRecords = [
-  ...realmEnrichment,
-  ...subrealmEnrichment,
-  ...bioregionEnrichment,
-  ...ecoregionEnrichment,
+const sources: readonly SourceReference[] = [
+  {
+    id: 'one-earth-bioregions-2023',
+    title: 'One Earth Bioregions Framework',
+    url: 'https://www.oneearth.org/bioregions-2023/',
+  },
+  {
+    id: 'resolve-ecoregions-2017',
+    title: 'RESOLVE Ecoregions 2017 attribute service',
+    url: 'https://data-gis.unep-wcmc.org/server/rest/services/Bio-geographicalRegions/Resolve_Ecoregions/MapServer',
+  },
 ];
-const enrichmentByTargetId = new Map(enrichmentRecords.map((record) => [record.targetId, record]));
-const enrichedEntryIdsFor = (predicate: (record: EcologicalEnrichment) => boolean) =>
-  ecoregionEnrichment.filter(predicate).map(({ targetId }) => targetId);
-const relatedEntities: readonly EcoregionRelatedEntity[] = [
-  ...ecologicalSpecies.map((species) => ({
-    id: species.id,
-    title: species.commonName,
-    description: species.scientificName,
-    kind: 'species' as const,
-    subtitle: species.scientificName,
-    linkedEntryIds: enrichedEntryIdsFor(
-      (record) => record.characteristicSpeciesIds?.includes(species.id) ?? false,
-    ),
-  })),
-  ...ecologicalCountries.map((country) => ({
-    id: `country:${country.id}`,
-    title: country.name,
-    description: `ISO 3166-1 alpha-2: ${country.code}`,
-    kind: 'country' as const,
-    subtitle: country.code,
-    linkedEntryIds: enrichedEntryIdsFor(
-      (record) => record.countryIds?.includes(country.id) ?? false,
-    ),
-  })),
-];
-const relatedById = new Map(relatedEntities.map((entity) => [entity.id, entity]));
-const sourceReferences = (ids: readonly string[]) =>
-  ids.flatMap((id) => {
-    const source = ecoregionSourceById.get(id);
-    return source ? [source] : [];
-  });
-const listFact = (
-  id: string,
-  label: string,
-  sourced?: { value: readonly string[]; sourceIds: readonly string[] },
-) =>
-  sourced ? [{ id, label, value: sourced.value.join('; '), sourceIds: sourced.sourceIds }] : [];
+/* Legacy synchronous enrichment composer retained only for removal-history context.
 const enrichmentSections = (
   enrichment: EcologicalEnrichment | undefined,
   related: readonly EcoregionRelatedEntity[],
@@ -157,6 +112,7 @@ const enrichmentSections = (
     },
   ];
 };
+*/
 const realmById = new Map(generatedRealms.map((record) => [record.id, record]));
 const subrealmById = new Map(generatedSubrealms.map((record) => [record.id, record]));
 const bioregionById = new Map(generatedBioregions.map((record) => [record.id, record]));
@@ -180,11 +136,7 @@ const entries: readonly EcoregionEntry[] = generatedEcoregions.map((record) => (
   },
   aliases: [`Ecoregion ${record.externalId}`],
   tags: [record.biomeTitle],
-  description: enrichmentByTargetId.get(record.id)?.summary?.value,
-  sources: [
-    ...sources.slice(0, 2),
-    ...sourceReferences(enrichmentByTargetId.get(record.id)?.sources ?? []),
-  ],
+  sources: sources.slice(0, 2),
   status: record.status,
 }));
 const groups = [
@@ -272,7 +224,7 @@ const biomeTokens = Object.fromEntries(
   ),
 );
 
-export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry, EcoregionRelatedEntity>({
+export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry>({
   meta: {
     id: 'one-earth-terrestrial-ecoregions',
     title: 'Terrestrial Ecoregions',
@@ -281,6 +233,7 @@ export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry, EcoregionRelated
     engineVersion: '1',
     datasetVersion: '1.0.0',
   },
+  contentProvider: ecoregionContentProvider,
   vocabulary: {
     root: 'Earth',
     group: 'Bioregion',
@@ -309,7 +262,7 @@ export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry, EcoregionRelated
       noFilterResults: 'No terrestrial ecoregions match the active ecological filters.',
     },
   },
-  records: { groups, entries, relatedEntities },
+  records: { groups, entries, relatedEntities: [] },
   interpretation: {
     dimensions,
     facets: [
@@ -351,14 +304,13 @@ export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry, EcoregionRelated
           targetType: 'related-entity' as const,
           targetId: entity.id,
           title: entity.title,
-          subtitle: entity.subtitle,
+          subtitle: entity.description,
           terms: entity.description ? [entity.description] : [],
         })),
       ],
     },
     profiles: {
-      entrySections: (entry, related) => [
-        ...enrichmentSections(enrichmentByTargetId.get(entry.id), related),
+      entrySections: (entry) => [
         {
           kind: 'facts',
           id: 'placement',
@@ -404,22 +356,10 @@ export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry, EcoregionRelated
         },
         { kind: 'sources', id: 'sources', title: 'Sources', sources: entry.sources ?? [] },
       ],
-      groupSections: (group) => {
-        const enrichment = enrichmentByTargetId.get(group.id);
-        const relatedIds = [
-          ...(enrichment?.characteristicSpeciesIds ?? []),
-          ...(enrichment?.countryIds ?? []).map((id) => `country:${id}`),
-        ];
-        return enrichmentSections(
-          enrichment,
-          relatedIds.flatMap((id) => {
-            const entity = relatedById.get(id);
-            return entity ? [entity] : [];
-          }),
-        );
-      },
+      groupSections: () => [],
     },
     projection: {
+      kind: 'dimensional',
       defaultRingOrder: ['realm', 'subrealm', 'bioregion'],
       allowedDimensionIds: dimensions.map(({ id }) => id),
       structureMode: 'hybrid',
@@ -429,6 +369,43 @@ export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry, EcoregionRelated
     },
   },
   presentation: {
+    dashboard: {
+      targetKinds: ['entry', 'related-entity'],
+      actionLabel: 'Open ecological atlas',
+      sections: [
+        {
+          id: 'ecoregion-overview',
+          layout: 'split',
+          widgets: [
+            { id: 'profile', kind: 'profile' },
+            {
+              id: 'landscape-impression',
+              kind: 'media',
+              title: 'Landscape impression',
+              fallback: {
+                alt: 'Illustrated landscape impression not yet available for this ecoregion.',
+                caption:
+                  'Interpretive field-atlas artwork will appear here after source, credit, and licence review.',
+                role: 'interpretive',
+                aspectRatio: '10:13',
+              },
+            },
+          ],
+        },
+        {
+          id: 'living-composition',
+          layout: 'single',
+          widgets: [
+            {
+              id: 'living-composition-hierarchy',
+              kind: 'hierarchy',
+              title: 'Living composition',
+              emptyMessage: 'No published living-composition records are available yet.',
+            },
+          ],
+        },
+      ],
+    },
     layout: {
       radiusPolicy: { kind: 'adaptive', initialRadius: 420, ringGap: 520 },
       labelOrientation: 'radial',

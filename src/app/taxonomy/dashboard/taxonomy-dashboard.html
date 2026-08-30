@@ -1,0 +1,107 @@
+<div
+  class="dashboard-backdrop"
+  data-testid="taxonomy-dashboard"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="dashboard-title"
+>
+  <main class="dashboard" aria-labelledby="dashboard-title">
+    <header class="dashboard-header">
+      <div>
+        <span class="dashboard-eyebrow">{{ store.module.meta.title }}</span>
+        <h1 id="dashboard-title">{{ profile()?.title ?? 'Atlas detail' }}</h1>
+      </div>
+      <button type="button" aria-label="Close atlas detail" (click)="close()">×</button>
+    </header>
+
+    @if (available() && definition; as dashboard) {
+      @if (store.selectedContent(); as content) {
+        @if (content.status === 'loading') {
+          <p class="content-status" role="status">Loading detailed atlas content…</p>
+        } @else if (content.status === 'error') {
+          <div class="content-status content-error" role="alert">
+            <span>Detailed content could not be loaded. The base profile remains available.</span>
+            <button type="button" (click)="retryContent()">Retry</button>
+          </div>
+        }
+      }
+      @for (section of dashboard.sections; track section.id) {
+        <section class="dashboard-section" [attr.data-layout]="section.layout">
+          @for (widget of section.widgets; track widget.id) {
+            <article class="dashboard-widget" [attr.data-widget-kind]="widget.kind">
+              @if (widget.title) {
+                <h2>{{ widget.title }}</h2>
+              }
+              @switch (widget.kind) {
+                @case ('profile') {
+                  @if (profile(); as currentProfile) {
+                    <app-generic-taxonomy-profile
+                      [profile]="currentProfile"
+                      (selectTarget)="store.selectProfileTarget($event)"
+                    />
+                  }
+                }
+                @case ('media') {
+                  @if (mediaFor(widget); as media) {
+                    <figure [attr.data-media-role]="media.role">
+                      <div
+                        class="media-frame"
+                        [style.aspect-ratio]="media.aspectRatio.replace(':', ' / ')"
+                      >
+                        @if (media.src) {
+                          <img
+                            [src]="media.src"
+                            [alt]="media.alt"
+                            [style.object-position]="
+                              (media.focalPoint?.x ?? 0.5) * 100 +
+                              '% ' +
+                              (media.focalPoint?.y ?? 0.5) * 100 +
+                              '%'
+                            "
+                          />
+                        } @else {
+                          <div class="media-placeholder" role="img" [attr.aria-label]="media.alt">
+                            <span>Interpretive image pending</span>
+                          </div>
+                        }
+                      </div>
+                      @if (media.caption) {
+                        <figcaption>{{ media.caption }}</figcaption>
+                      }
+                      @if (media.credit || media.license) {
+                        <small
+                          >{{ media.credit }}{{ media.credit && media.license ? ' · ' : ''
+                          }}{{ media.license }}</small
+                        >
+                      }
+                    </figure>
+                  }
+                }
+                @case ('hierarchy') {
+                  @if (hierarchyFor(); as hierarchy) {
+                    @if (hierarchyWidgetType(); as componentType) {
+                      <ng-container
+                        *ngComponentOutlet="componentType; inputs: hierarchyWidgetInputs()"
+                      />
+                    } @else {
+                      <p class="content-status">Loading nested taxonomyâ€¦</p>
+                    }
+                  } @else {
+                    <p class="content-status">
+                      {{ widget.emptyMessage ?? 'No published nested records.' }}
+                    </p>
+                  }
+                }
+              }
+            </article>
+          }
+        </section>
+      }
+    } @else {
+      <section class="dashboard-unavailable">
+        <h2>Dashboard unavailable</h2>
+        <p>This dataset does not provide a dashboard for the requested entity.</p>
+      </section>
+    }
+  </main>
+</div>

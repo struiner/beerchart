@@ -50,7 +50,12 @@ export function resolvePresentationScene<
   };
   const nodes = input.projected.nodes.map((node) => {
     const tile = toTile(node.entityId);
-    const kindToken = node.entityType === 'dimension-value' ? 'dimensionValue' : node.entityType;
+    const kindToken =
+      node.entityType === 'dimension-value' || node.entityType === 'hierarchy-node'
+        ? 'dimensionValue'
+        : node.entityType === 'aggregate'
+          ? 'group'
+          : node.entityType;
     return {
       instanceId: node.instanceId,
       entityId: node.entityId,

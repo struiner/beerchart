@@ -1,0 +1,117 @@
+:host {
+  display: block;
+  min-width: 0;
+}
+.hierarchy-widget {
+  border: 1px solid var(--tx-olive);
+  background: color-mix(in srgb, var(--tx-paper) 92%, transparent);
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.75rem;
+  padding: 0.35rem 0.6rem;
+  border-bottom: 1px solid var(--tx-olive);
+}
+.layer-controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0.65rem;
+  border: 0;
+  border-bottom: 1px solid var(--tx-olive);
+}
+.layer-controls legend {
+  grid-column: 1 / -1;
+  padding: 0;
+  font-weight: 700;
+}
+.layer-controls label,
+.layer-controls span {
+  display: block;
+  min-width: 0;
+}
+.layer-controls span {
+  margin-bottom: 0.2rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+.layer-controls select {
+  width: 100%;
+  min-height: 2.75rem;
+  border: 1px solid var(--tx-ink);
+  border-radius: 0;
+  background: var(--tx-paper-light);
+  color: var(--tx-ink);
+}
+nav button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-decoration: underline;
+  min-height: 2rem;
+}
+svg {
+  display: block;
+  width: 100%;
+  min-height: 30rem;
+  max-height: 72vh;
+  user-select: none;
+  touch-action: manipulation;
+}
+.route {
+  stroke: var(--tx-olive-light);
+  stroke-width: 5;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.78;
+}
+.station {
+  cursor: pointer;
+  outline: none;
+}
+.station circle {
+  fill: var(--tx-paper-light);
+  stroke: var(--tx-deep-ink);
+  stroke-width: 3;
+  vector-effect: non-scaling-stroke;
+}
+.station text {
+  fill: var(--tx-deep-ink);
+  font: 600 15px var(--taxonomy-font-interface);
+  paint-order: stroke;
+  stroke: var(--tx-paper-light);
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+.station text.subtitle {
+  font-size: 11px;
+  font-weight: 500;
+}
+.station.focused circle,
+.station:focus-visible circle {
+  stroke: var(--tx-brass);
+  stroke-width: 7;
+}
+.station.aggregate circle {
+  stroke-dasharray: 6 4;
+  fill: var(--tx-paper-dark);
+}
+.station .measure-halo {
+  fill: color-mix(in srgb, var(--tx-brass) 22%, transparent);
+  stroke: var(--tx-brass);
+  stroke-width: 2;
+}
+.station.measure-hidden {
+  visibility: hidden;
+}
+.station text.measure-label {
+  font-size: 10px;
+  font-weight: 700;
+}
+.hierarchy-warning {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  border-top: 1px solid var(--tx-olive);
+}

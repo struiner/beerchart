@@ -6,6 +6,7 @@ const taxonomyRoot = join(appRoot, 'taxonomy');
 const datasetsRoot = join(appRoot, 'datasets');
 const compositionRoot = join(appRoot, 'application-taxonomy.ts');
 const violations = [];
+const publicApiPath = join(taxonomyRoot, 'public-api.ts');
 
 const importPattern = /(?:from\s+|import\s*\()(['"])([^'"]+)\1/g;
 
@@ -27,6 +28,16 @@ function inspect(directory) {
 
       if (isGenericTaxonomy && datasetImports.length) {
         violations.push(`${relative(process.cwd(), path)}: generic taxonomy imports a dataset`);
+      }
+      if (
+        path === publicApiPath &&
+        /export\s+\{[^}]*\b(?:projectHierarchy|projectNodeMeasures|validateHierarchyProjection)\b/s.test(
+          source,
+        )
+      ) {
+        violations.push(
+          `${relative(process.cwd(), path)}: runtime hierarchy engines must not be exported from the eager public barrel`,
+        );
       }
       if (!isDataset && !isSpec && path !== compositionRoot && datasetImports.length) {
         violations.push(

@@ -327,6 +327,7 @@ export const beerTaxonomyModule = defineTaxonomy({
       ],
     },
     projection: {
+      kind: 'dimensional',
       defaultRingOrder: ['taxonomy-family', 'origin', 'dominant-character'],
       allowedDimensionIds: RING_OPTIONS.map(({ value }) => value),
       structureMode: 'dimensions',

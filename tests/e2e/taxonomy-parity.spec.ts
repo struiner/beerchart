@@ -120,4 +120,18 @@ test.describe('generic taxonomy renderer', () => {
     await page.keyboard.press('Escape');
     await expect(page.getByTestId('taxonomy-profile')).toHaveCount(0);
   });
+
+  test('native signal-backed submission fields preserve the local draft workflow', async ({
+    page,
+  }) => {
+    await openBeer(page);
+    await page.getByRole('button', { name: 'Open application menu' }).click();
+    await page.getByRole('button', { name: /Submit/ }).click();
+    await page.getByLabel('Title').fill('Runtime partition test entry');
+    await page.getByLabel('Type').fill('Category');
+    await page.getByLabel('Description').fill('Verifies the lightweight native form binding.');
+    await page.getByRole('button', { name: 'Submit for review' }).click();
+    await expect(page.getByRole('dialog')).toContainText('Your submissions');
+    await expect(page.getByRole('dialog')).toContainText('Runtime partition test entry');
+  });
 });

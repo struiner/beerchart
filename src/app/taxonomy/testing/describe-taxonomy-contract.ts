@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import type { RelatedEntity, TaxonomyEntry, TaxonomyModule } from '../contracts/taxonomy';
+import type {
+  DimensionalProjectionDefinition,
+  RelatedEntity,
+  TaxonomyEntry,
+  TaxonomyModule,
+} from '../contracts/taxonomy';
 import { createTaxonomyIndexes } from '../indexes/create-taxonomy-indexes';
 import { layoutCircularTaxonomy } from '../layout/circular-layout';
 import { resolvePresentationScene } from '../presentation/resolve-presentation-scene';
@@ -34,7 +39,8 @@ export function describeTaxonomyContract<
       module,
       indexes,
       includedEntryIds,
-      ringOrder: module.interpretation.projection.defaultRingOrder,
+      ringOrder: (module.interpretation.projection as DimensionalProjectionDefinition)
+        .defaultRingOrder,
     });
 
   describe(`${name} taxonomy contract`, () => {

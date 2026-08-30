@@ -27,7 +27,11 @@ describe('validateTaxonomyModule', () => {
       interpretation: {
         ...syntheticTaxonomy.interpretation,
         projection: {
-          ...syntheticTaxonomy.interpretation.projection,
+          ...(syntheticTaxonomy.interpretation.projection as Extract<
+            typeof syntheticTaxonomy.interpretation.projection,
+            { kind: 'dimensional' }
+          >),
+          kind: 'dimensional',
           defaultRingOrder: ['missing-dimension'],
         },
       },

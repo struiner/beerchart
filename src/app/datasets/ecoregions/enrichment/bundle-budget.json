@@ -1,0 +1,12 @@
+{
+  "structuralBaselineBytes": 341970,
+  "realmLazyThresholdBytes": 393216,
+  "maximumEagerBytes": 409600,
+  "topologyMarker": "ecoregion:844",
+  "contentMarker": "Eastern Himalayan Subalpine Conifer Forests form a high-elevation transition",
+  "maximumPartitionBytes": 409600,
+  "maximumInitialBytes": 409600,
+  "initialWarningBytes": 384000,
+  "dashboardRuntimeMarker": "dashboard-backdrop",
+  "hierarchyRuntimeMarker": "Nested taxonomy explorer"
+}

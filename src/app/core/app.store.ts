@@ -1,5 +1,10 @@
-import { Injectable, computed, inject, signal } from '@angular/core';
-import { TaxonomyModule } from '../taxonomy/contracts/taxonomy';
+import { Injectable, computed, effect, inject, signal } from '@angular/core';
+import {
+  DimensionalProjectionDefinition,
+  EntityReference,
+  TaxonomyContentBundle,
+  TaxonomyModule,
+} from '../taxonomy/contracts/taxonomy';
 import { TAXONOMY_CATALOG, TAXONOMY_MODULE } from '../taxonomy/contracts/taxonomy-provider';
 import { evaluateTaxonomyFilters } from '../taxonomy/filtering/evaluate-taxonomy-filters';
 import { createTaxonomyIndexes } from '../taxonomy/indexes/create-taxonomy-indexes';
@@ -13,7 +18,6 @@ import {
 } from '../taxonomy/profiles/compose-taxonomy-profile';
 import { projectTaxonomy } from '../taxonomy/projection/project-taxonomy';
 import { createTaxonomySearchIndex, searchTaxonomy } from '../taxonomy/search/taxonomy-search';
-import { validateTaxonomyModule } from '../taxonomy/validation/validate-taxonomy-module';
 import { sanitizeMarkdown } from '../taxonomy/profiles/sanitize-markdown';
 import {
   persistencePrefix,
@@ -38,10 +42,11 @@ const MAXIMUM_CAMERA_SCALE = 2.4;
 @Injectable({ providedIn: 'root' })
 export class AppStore {
   readonly module = inject(TAXONOMY_MODULE) as TaxonomyModule;
+  private readonly dimensionalProjection = this.module.interpretation
+    .projection as DimensionalProjectionDefinition;
   readonly taxonomyCatalog = inject(TAXONOMY_CATALOG, { optional: true }) ?? [
     { id: this.module.meta.id, title: this.module.meta.title, load: async () => this.module },
   ];
-  readonly validation = validateTaxonomyModule(this.module);
   readonly indexes = createTaxonomyIndexes(this.module);
   readonly e2eMode = new URLSearchParams(globalThis.location?.search ?? '').has('e2e');
   readonly renderer = 'generic-taxonomy' as const;
@@ -135,6 +140,19 @@ export class AppStore {
   readonly focusedInstanceId = signal<string | null>(null);
   readonly detailMode = signal<'closed' | 'compact' | 'expanded'>('closed');
   readonly selectedProfileTarget = signal<ProfileTarget | null>(null);
+  private readonly contentPromises = new Map<string, Promise<TaxonomyContentBundle>>();
+  readonly contentPartitions = signal<
+    Readonly<
+      Record<
+        string,
+        {
+          readonly status: 'loading' | 'loaded' | 'error';
+          readonly bundle?: TaxonomyContentBundle;
+          readonly error?: string;
+        }
+      >
+    >
+  >({});
   readonly settings = signal<ViewportSettings>(this.readSettings());
   readonly profileScope = computed<ProfileScope | null>(() => {
     const target = this.selectedProfileTarget();
@@ -143,23 +161,72 @@ export class AppStore {
     const entityId = this.selectedEntityId();
     return entityId ? { kind: 'canonical', entityId } : null;
   });
+  readonly selectedContent = computed(() => {
+    const target = this.selectedProfileTarget();
+    const partitionId = target ? this.module.contentProvider?.resolvePartition(target) : null;
+    return partitionId ? this.contentPartitions()[partitionId] : undefined;
+  });
   readonly selectedProfile = computed(() => {
     const id = this.selectedEntityId();
     const target =
       this.selectedProfileTarget() ??
       (id && this.indexes.entryById.has(id) ? ({ kind: 'entry', id } as const) : null);
-    return target
-      ? composeTaxonomyProfile({
-          module: this.module,
-          indexes: this.indexes,
+    if (!target) return null;
+    let profile = composeTaxonomyProfile({
+      module: this.module,
+      indexes: this.indexes,
+      target,
+      scope: this.profileScope() ?? undefined,
+      includedEntryIds:
+        target.kind === 'dimension-value'
+          ? this.focusedDescendantEntryIds()
+          : this.filterResult().entryIds,
+    });
+    if (!profile && target.kind === 'related-entity') {
+      const related = this.selectedContent()?.bundle?.relatedEntities?.find(
+        ({ id: relatedId }) => relatedId === target.id,
+      );
+      if (related)
+        profile = {
           target,
-          scope: this.profileScope() ?? undefined,
-          includedEntryIds:
-            target.kind === 'dimension-value'
-              ? this.focusedDescendantEntryIds()
-              : this.filterResult().entryIds,
-        })
-      : null;
+          scope: { kind: 'canonical', entityId: related.id },
+          title: related.title,
+          sections: [
+            ...(related.description
+              ? [
+                  {
+                    kind: 'markdown' as const,
+                    id: 'description',
+                    title: this.module.vocabulary.relatedEntity,
+                    markdown: related.description,
+                  },
+                ]
+              : []),
+            {
+              kind: 'entity-list' as const,
+              id: 'entries',
+              title: this.module.vocabulary.entryPlural,
+              entityKind: 'entry' as const,
+              items: related.linkedEntryIds.flatMap((entryId) => {
+                const entry = this.indexes.entryById.get(entryId);
+                return entry
+                  ? [{ id: entry.id, title: entry.title, description: entry.description }]
+                  : [];
+              }),
+            },
+          ],
+        };
+    }
+    if (!profile) return null;
+    const extensionKey = this.contentTargetKey(target);
+    const extensions = this.selectedContent()?.bundle?.profileExtensions?.[extensionKey] ?? [];
+    return extensions.length
+      ? { ...profile, sections: [...extensions, ...profile.sections] }
+      : profile;
+  });
+  private readonly hydrateSelectedContent = effect(() => {
+    const target = this.selectedProfileTarget();
+    if (target) this.loadContent(target);
   });
   readonly selectedInstances = computed(() => {
     const focused = this.focusedInstanceId();
@@ -245,7 +312,7 @@ export class AppStore {
     localStorage.setItem(`${this.storagePrefix}.settings`, JSON.stringify(this.settings()));
   }
   updateRing(index: number, dimensionId: string) {
-    if (!this.module.interpretation.projection.allowedDimensionIds.includes(dimensionId)) return;
+    if (!this.dimensionalProjection.allowedDimensionIds.includes(dimensionId)) return;
     this.ringOrder.update((order) => {
       const next = [...order];
       const previousIndex = next.indexOf(dimensionId);
@@ -322,6 +389,44 @@ export class AppStore {
         'id' in target ? target.id : `${target.dimensionId}:${target.valueId}`,
       );
   }
+  loadContent(target: EntityReference, retry = false): void {
+    const provider = this.module.contentProvider;
+    const partitionId = provider?.resolvePartition(target);
+    if (!provider || !partitionId) return;
+    if (retry) {
+      this.contentPromises.delete(partitionId);
+      this.contentPartitions.update((states) => {
+        const next = { ...states };
+        delete next[partitionId];
+        return next;
+      });
+    }
+    if (this.contentPartitions()[partitionId]?.status === 'loaded') return;
+    if (this.contentPromises.has(partitionId)) return;
+    this.contentPartitions.update((states) => ({
+      ...states,
+      [partitionId]: { status: 'loading' },
+    }));
+    const promise = provider.loadPartition(partitionId);
+    this.contentPromises.set(partitionId, promise);
+    void promise.then(
+      (bundle) =>
+        this.contentPartitions.update((states) => ({
+          ...states,
+          [partitionId]: { status: 'loaded', bundle },
+        })),
+      (cause) => {
+        this.contentPromises.delete(partitionId);
+        this.contentPartitions.update((states) => ({
+          ...states,
+          [partitionId]: {
+            status: 'error',
+            error: cause instanceof Error ? cause.message : String(cause),
+          },
+        }));
+      },
+    );
+  }
   clearSelection() {
     this.selectedEntityId.set(null);
     this.focusedInstanceId.set(null);
@@ -342,6 +447,12 @@ export class AppStore {
     const focused = this.focusedInstanceId();
     if (focused && !this.positionedScene().nodes.some(({ instanceId }) => instanceId === focused))
       this.clearSelection();
+  }
+
+  private contentTargetKey(target: EntityReference): string {
+    return target.kind === 'dimension-value'
+      ? `${target.dimensionId}:${target.valueId}`
+      : target.id;
   }
 
   private readSettings(): ViewportSettings {
@@ -374,7 +485,7 @@ export class AppStore {
   }
   private readRingOrder(): readonly string[] {
     void this.storageMigration;
-    const fallback = this.module.interpretation.projection.defaultRingOrder;
+    const fallback = this.dimensionalProjection.defaultRingOrder;
     if (this.e2eMode) return fallback;
     try {
       const stored = JSON.parse(localStorage.getItem(`${this.storagePrefix}.rings`) ?? 'null');
@@ -383,7 +494,7 @@ export class AppStore {
         : stored && typeof stored === 'object'
           ? [stored.first, stored.second, stored.third]
           : fallback;
-      const allowed = new Set(this.module.interpretation.projection.allowedDimensionIds);
+      const allowed = new Set(this.dimensionalProjection.allowedDimensionIds);
       return candidate.length &&
         candidate.every((id: unknown) => typeof id === 'string' && allowed.has(id)) &&
         new Set(candidate).size === candidate.length
