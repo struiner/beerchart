@@ -38,7 +38,144 @@ export const contentBundle = {
           }
         ]
       }
+    ],
+    "ecoregion:682": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Taiheiyo Evergreen Forests occupy the Pacific-facing lowlands and river valleys of Honshu, Shikoku, and Kyushu, along with Tsushima and the Izu Islands. Warm-temperate evergreen broadleaf forests of Castanopsis, Persea thunbergii, and evergreen oak are maintained by the humid Kuroshio-influenced climate and a long growing season."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Pacific-side Honshu, Shikoku, and Kyushu lowlands; Tsushima Island and Izu Islands; coastal archipelagos and tidal flats; Nachi Falls and Lake Biwa lowlands",
+            "sourceIds": [
+              "one-earth-eco-682"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Humid subtropical with mild winters, warm humid summers, and a strong Kuroshio influence; summer precipitation up to 400 mm per month and below 100 mm in winter.; 1200–2800 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-682"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Castanopsis cuspidata; Persea thunbergii; Japanese blue oak; Japanese camellia; Japanese red and black pine",
+            "sourceIds": [
+              "one-earth-eco-682"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "Kuroshio-driven humid coastal climate; long growing season for evergreen broadleafs; typhoon disturbance on southern exposures; freshwater-lake and waterfall ecosystems",
+            "sourceIds": [
+              "one-earth-eco-682"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One of the most heavily modified Japanese ecoregions, with Tokyo, Osaka, and Nagoya within its bounds and original forest surviving mainly on shrine slopes and unstable volcanic terrain. Sika deer and wild boar overbrowsing, invasive sportfish, and coastal warming threaten remaining stands.",
+            "sourceIds": [
+              "one-earth-eco-682"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:JP",
+            "title": "Japan",
+            "subtitle": "JP",
+            "description": "ISO 3166-1 alpha-2: JP"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-682",
+            "title": "Taiheiyo Evergreen Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/taiheiyo-evergreen-forests/"
+          }
+        ]
+      }
     ]
   },
-  "media": {}
+  "media": {
+    "ecoregion:666": {
+      "src": "/assets/ecoregions/ecoregion-666.png",
+      "alt": "Interpretive landscape illustration of Hokkaido Deciduous Forests.",
+      "caption": "An interpretive landscape impression of Hokkaido Deciduous Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:670": {
+      "src": "/assets/ecoregions/ecoregion-670.png",
+      "alt": "Interpretive landscape illustration of Nihonkai Evergreen Forests.",
+      "caption": "An interpretive landscape impression of Nihonkai Evergreen Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:671": {
+      "src": "/assets/ecoregions/ecoregion-671.png",
+      "alt": "Interpretive landscape illustration of Nihonkai Montane Deciduous Forests.",
+      "caption": "An interpretive landscape impression of Nihonkai Montane Deciduous Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:698": {
+      "src": "/assets/ecoregions/ecoregion-698.png",
+      "alt": "Interpretive landscape illustration of Hokkaido Montane Conifer Forests.",
+      "caption": "An interpretive landscape impression of Hokkaido Montane Conifer Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:699": {
+      "src": "/assets/ecoregions/ecoregion-699.png",
+      "alt": "Interpretive landscape illustration of Honshu Alpine Conifer Forests.",
+      "caption": "An interpretive landscape impression of Honshu Alpine Conifer Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  }
 } as const satisfies TaxonomyContentBundle;

@@ -71,6 +71,18 @@ Prefer:
 
 Do not copy source prose. Write concise summaries and cite the relevant source IDs.
 
+Registration is not evidence verification. A source returning HTTP 200 only proves that the page is reachable; it does not prove that the page supports every country, species, number, or ecological claim attached to its ID. During review, open the source and match each material claim to the source text.
+
+For a batch, record at least:
+
+- The exact target IDs reviewed
+- The date of review
+- Which source was treated as canonical for conflicting fields
+- Claims removed or qualified during review
+- Items deliberately left for a later pass, such as artwork
+
+Do not inherit `reviewed` status merely because a neighbouring record or an earlier batch uses the same source.
+
 ## 4. Add the structural profile
 
 Structural enrichment belongs in the relevant file:
@@ -134,6 +146,45 @@ Rules:
 - Species IDs must resolve.
 - Declare intentional overrides explicitly.
 
+### Country and territory scope
+
+Use the geography explicitly stated by the canonical source. Do not silently replace a territory with its sovereign state, or add nearby jurisdictions because they are mentioned in prose.
+
+For the One Earth dataset:
+
+- Treat the ecoregion page's `States` field as canonical for an ecoregion record.
+- Register territories independently when the source does so, for example French Polynesia (`PF`) and Pitcairn Islands (`PN`).
+- Do not substitute France (`FR`) for French Polynesia, or infer every jurisdiction discussed in the narrative.
+- Review a parent bioregion scope independently. It is not automatically the union of authored child scopes unless that derivation is documented.
+- Cross-realm or multi-parent projection does not change canonical country ownership.
+
+If the canonical page has no explicit scope field, document the fallback source or leave the field absent. Do not guess.
+
+### Species evidence
+
+`characteristicSpeciesIds` is an evidence-bearing claim, not a decorative list.
+
+- Each retained taxon must be identifiable in one of the record's cited sources by scientific name, unambiguous common name, or documented synonym.
+- A source registered on the species record does not automatically support that species in every ecoregion that cites it.
+- Check the source corpus attached to the target record, not only the global species registry.
+- After pruning unsupported taxa, omit a characteristic-species section when fewer than three supported taxa remain. Never pad a short list with plausible species.
+- Absence of the section means insufficient reviewed evidence, not ecological absence.
+
+Living-composition occurrences have stricter per-record requirements; see `enrichment_living_composition.md`.
+
+### Numeric and climate provenance
+
+Every displayed number must be traceable. Validate numbers separately from surrounding prose.
+
+- Use `source-value` only when the value and unit are directly reported by the cited source.
+- Use `calculated` for transparent conversions or derivations, such as centimetres converted to millimetres.
+- Do not label an independently supplied or converted range as `source-value`.
+- If a number cannot be reproduced from the cited source, remove it. Remove the whole field when the unsupported number is central to its meaning.
+- Do not preserve unsupported precision by rewriting a number as approximate.
+- Retain qualitative climate text only when the source independently supports it.
+
+The structural validator checks types and ranges, but cannot establish that a web page actually contains the claimed number. That remains an editorial review step.
+
 Validate:
 
 ```powershell
@@ -145,6 +196,10 @@ Inspect overall structural coverage:
 ```powershell
 npm run ecoregions:coverage
 ```
+
+Coverage rows are hierarchy-wide aggregates. A realm row counts matching realm, subrealm, bioregion, and ecoregion records associated with that realm. It must not be described as an ecoregion count.
+
+For example, `21 reviewed` may mean one subrealm, six bioregions, and fourteen ecoregions. Consult the hierarchy-level table—or calculate the canonical ecoregion subset—before reporting “reviewed ecoregions.” Cross-realm membership may cause a canonical target to appear in more than one realm row, while overall totals remain unique.
 
 ## 5. Add canonical biological records
 
@@ -168,18 +223,18 @@ Example:
 
 ```ts
 record<CanonicalTaxonRecord>({
-  id: "species:example",
-  kind: "canonical-taxon",
-  entityKind: "taxon",
-  title: "Example species",
-  scientificName: "Genus species",
-  domain: "flora",
-  rank: "species",
-  parentTaxonIds: ["taxon:example-family"],
-  summary: "Concise, independently written canonical profile.",
-  sourceIds: ["registered-source"],
-  profileOwnerPartitionId: "indomalaya",
-})
+  id: 'species:example',
+  kind: 'canonical-taxon',
+  entityKind: 'taxon',
+  title: 'Example species',
+  scientificName: 'Genus species',
+  domain: 'flora',
+  rank: 'species',
+  parentTaxonIds: ['taxon:example-family'],
+  summary: 'Concise, independently written canonical profile.',
+  sourceIds: ['registered-source'],
+  profileOwnerPartitionId: 'indomalaya',
+});
 ```
 
 Use functional groups when species-level claims are not scientifically justified:
@@ -200,25 +255,22 @@ Occurrences connect canonical taxa to an ecoregion:
 
 ```ts
 record<TaxonOccurrenceRecord>({
-  id: "occurrence:302:species:example",
-  kind: "taxon-occurrence",
-  ecoregionId: "ecoregion:302",
-  taxonId: "species:example",
-  domain: "flora",
-  evidenceStatus: "regional-survey",
-  sourceIds: ["registered-source"],
-  ownerPartitionId: "indomalaya",
-})
+  id: 'occurrence:302:species:example',
+  kind: 'taxon-occurrence',
+  ecoregionId: 'ecoregion:302',
+  taxonId: 'species:example',
+  domain: 'flora',
+  evidenceStatus: 'regional-survey',
+  sourceIds: ['registered-source'],
+  ownerPartitionId: 'indomalaya',
+});
 ```
 
 Available evidence statuses include:
 
 ```ts
 type BiologicalEvidenceStatus =
-  | "ecoregion-account"
-  | "regional-survey"
-  | "host-association"
-  | "functional-evidence";
+  'ecoregion-account' | 'regional-survey' | 'host-association' | 'functional-evidence';
 ```
 
 A published occurrence requires:
@@ -236,36 +288,28 @@ Occurrences may exist in many realm partitions. The canonical profile must still
 Create one coverage record for each applicable domain:
 
 ```ts
-type BiologicalDomain =
-  | "flora"
-  | "fauna"
-  | "fungi"
-  | "microbiome";
+type BiologicalDomain = 'flora' | 'fauna' | 'fungi' | 'microbiome';
 ```
 
 Example:
 
 ```ts
 record<DomainCoverageRecord>({
-  id: "coverage:302:flora",
-  kind: "domain-coverage",
-  ecoregionId: "ecoregion:302",
-  domain: "flora",
-  state: "draft",
-  depth: "representative",
-  summary:
-    "Records represent characteristic taxa and are not a complete flora.",
-  sourceIds: ["registered-source"],
-})
+  id: 'coverage:302:flora',
+  kind: 'domain-coverage',
+  ecoregionId: 'ecoregion:302',
+  domain: 'flora',
+  state: 'draft',
+  depth: 'representative',
+  summary: 'Records represent characteristic taxa and are not a complete flora.',
+  sourceIds: ['registered-source'],
+});
 ```
 
 Coverage depth is independent of publication state:
 
 ```ts
-type BiologicalCoverageDepth =
-  | "representative"
-  | "survey-derived"
-  | "extensive";
+type BiologicalCoverageDepth = 'representative' | 'survey-derived' | 'extensive';
 ```
 
 Use:
@@ -312,6 +356,20 @@ unstarted → draft → reviewed → published
 ```
 
 New records should begin as `draft`.
+
+The enrichment object's `status: "authored"` is not lifecycle approval. Lifecycle lives in the coverage manifest for structural enrichment and in `biota-lifecycle.json` for biological records. Neither should become `reviewed` merely because validation passes.
+
+Before a structural target becomes `reviewed`, confirm manually that:
+
+1. The target ID and hierarchy membership are canonical.
+2. Every URL resolves to the intended page, not merely any successful page.
+3. Country and territory scope matches the declared canonical source.
+4. Every retained characteristic species is supported for this target.
+5. Every numeric claim has direct or explicitly calculated provenance.
+6. Claims do not leak from parents, siblings, or similarly named targets.
+7. The exact reviewed batch is recorded and no unrelated lifecycle entries changed.
+
+`reviewed` means these checks were performed. `published` remains a separate editorial decision.
 
 Validate the biological graph:
 
@@ -439,6 +497,17 @@ Structural coverage:
 ```powershell
 npm run ecoregions:coverage
 ```
+
+When reporting a realm, state the levels explicitly:
+
+```text
+Reviewed descendants: 21
+  subrealms: 1
+  bioregions: 6
+  ecoregions: 14
+```
+
+Never shorten this to “21 reviewed ecoregions.”
 
 ## 15. Run the publication gate
 

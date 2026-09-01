@@ -1,8 +1,4 @@
-import type {
-  DashboardMediaDefinition,
-  ProfileSectionViewModel,
-  TaxonomyContentBundle,
-} from '../../../taxonomy/public-api';
+import type { ProfileSectionViewModel, TaxonomyContentBundle } from '../../../taxonomy/public-api';
 import { bioregionEnrichment } from '../enrichment/bioregions';
 import { ecologicalCountries } from '../enrichment/countries';
 import type { EcologicalEnrichment } from '../enrichment/ecological-enrichment';
@@ -15,6 +11,7 @@ import { canonicalTaxa, taxonOccurrences } from '../enrichment/biota';
 import { subrealmEnrichment } from '../enrichment/subrealms';
 import { ecoregionSourceById } from '../source/source-registry';
 import { ecoregionPartitionByTargetId } from './partition-ownership.generated';
+import { ecoregionDashboardMedia } from './dashboard-media';
 
 const allRecords = [
   ...realmEnrichment,
@@ -123,17 +120,6 @@ const sectionsFor = (enrichment: EcologicalEnrichment): readonly ProfileSectionV
   ];
 };
 
-const approvedMedia: Readonly<Record<string, DashboardMediaDefinition>> = {
-  'ecoregion:418': {
-    src: '/assets/ecoregions/ecoregion-418.webp',
-    alt: 'Interpretive comic-style view across treeless Arctic tundra, braided water, low vegetation, and distant mountains beneath a broad blue sky.',
-    caption: 'An interpretive landscape impression of Kalaallit Nunaat High Arctic Tundra.',
-    role: 'interpretive',
-    aspectRatio: '10:13',
-    focalPoint: { x: 0.5, y: 0.43 },
-  },
-};
-
 export function buildEcoregionPartition(partitionId: string): TaxonomyContentBundle {
   const records = allRecords.filter(
     (record) =>
@@ -171,7 +157,7 @@ export function buildEcoregionPartition(partitionId: string): TaxonomyContentBun
     ...canonicalProfileExtensions,
   };
   const media = Object.fromEntries(
-    Object.entries(approvedMedia).filter(
+    Object.entries(ecoregionDashboardMedia).filter(
       ([targetId]) => ecoregionPartitionByTargetId[targetId] === partitionId,
     ),
   );

@@ -40,5 +40,72 @@ export const contentBundle = {
       }
     ]
   },
-  "media": {}
+  "media": {
+    "ecoregion:118": {
+      "src": "/assets/ecoregions/ecoregion-118.png",
+      "alt": "Interpretive landscape illustration of Central South Antarctic Peninsula Tundra.",
+      "caption": "An interpretive landscape impression of Central South Antarctic Peninsula Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:126": {
+      "src": "/assets/ecoregions/ecoregion-126.png",
+      "alt": "Interpretive landscape illustration of Northeast Antarctic Peninsula Tundra.",
+      "caption": "An interpretive landscape impression of Northeast Antarctic Peninsula Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:127": {
+      "src": "/assets/ecoregions/ecoregion-127.png",
+      "alt": "Interpretive landscape illustration of Northwest Antarctic Peninsula Tundra.",
+      "caption": "An interpretive landscape impression of Northwest Antarctic Peninsula Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:129": {
+      "src": "/assets/ecoregions/ecoregion-129.png",
+      "alt": "Interpretive landscape illustration of Scotia Sea Islands Tundra.",
+      "caption": "An interpretive landscape impression of Scotia Sea Islands Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:130": {
+      "src": "/assets/ecoregions/ecoregion-130.png",
+      "alt": "Interpretive landscape illustration of South Antarctic Peninsula Tundra.",
+      "caption": "An interpretive landscape impression of South Antarctic Peninsula Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:131": {
+      "src": "/assets/ecoregions/ecoregion-131.png",
+      "alt": "Interpretive landscape illustration of South Orkney Islands Tundra.",
+      "caption": "An interpretive landscape impression of South Orkney Islands Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  }
 } as const satisfies TaxonomyContentBundle;

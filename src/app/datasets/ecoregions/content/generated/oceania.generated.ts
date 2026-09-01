@@ -22,6 +22,123 @@ export const contentBundle = {
             "sourceIds": [
               "one-earth-oceania"
             ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical to subtropical maritime, ranging from humid rainforest regimes on windward volcanic slopes to seasonal dry and drought-prone conditions on leeward coasts and low coral atolls.",
+            "sourceIds": [
+              "one-earth-oceania"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "tropical and subtropical moist forest; tropical dry forest and woodland; mangroves and coastal wetlands; montane and high shrubland; low-island scrub and strand vegetation",
+            "sourceIds": [
+              "one-earth-oceania"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme oceanic isolation driving high endemism; volcanic island formation and succession; seabird-mediated nutrient cycling; marine nutrient flows across vast exclusive economic zones",
+            "sourceIds": [
+              "one-earth-oceania"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth highlights that the realm's enormous exclusive economic zones and unmatched Pacific marine biodiversity face overfishing, while its small, highly endemic land areas are acutely vulnerable to habitat loss and invasive species. New research indicates expanding marine protected areas can preserve biodiversity while increasing harvests in adjacent fisheries.",
+            "sourceIds": [
+              "one-earth-oceania"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CL",
+            "title": "Chile",
+            "subtitle": "CL",
+            "description": "ISO 3166-1 alpha-2: CL"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          },
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          },
+          {
+            "id": "country:CK",
+            "title": "Cook Islands",
+            "subtitle": "CK",
+            "description": "ISO 3166-1 alpha-2: CK"
+          },
+          {
+            "id": "country:PF",
+            "title": "French Polynesia",
+            "subtitle": "PF",
+            "description": "ISO 3166-1 alpha-2: PF"
+          },
+          {
+            "id": "country:PN",
+            "title": "Pitcairn Islands",
+            "subtitle": "PN",
+            "description": "ISO 3166-1 alpha-2: PN"
+          },
+          {
+            "id": "country:KI",
+            "title": "Kiribati",
+            "subtitle": "KI",
+            "description": "ISO 3166-1 alpha-2: KI"
+          },
+          {
+            "id": "country:WS",
+            "title": "Samoa",
+            "subtitle": "WS",
+            "description": "ISO 3166-1 alpha-2: WS"
+          },
+          {
+            "id": "country:AS",
+            "title": "American Samoa",
+            "subtitle": "AS",
+            "description": "ISO 3166-1 alpha-2: AS"
+          },
+          {
+            "id": "country:FJ",
+            "title": "Fiji",
+            "subtitle": "FJ",
+            "description": "ISO 3166-1 alpha-2: FJ"
+          },
+          {
+            "id": "country:TO",
+            "title": "Tonga",
+            "subtitle": "TO",
+            "description": "ISO 3166-1 alpha-2: TO"
+          },
+          {
+            "id": "country:WF",
+            "title": "Wallis and Futuna",
+            "subtitle": "WF",
+            "description": "ISO 3166-1 alpha-2: WF"
+          },
+          {
+            "id": "country:NU",
+            "title": "Niue",
+            "subtitle": "NU",
+            "description": "ISO 3166-1 alpha-2: NU"
           }
         ]
       },
@@ -35,6 +152,2721 @@ export const contentBundle = {
             "title": "Oceania — Realm & Subrealms",
             "publisher": "One Earth",
             "url": "https://www.oneearth.org/realms/oceania/"
+          }
+        ]
+      }
+    ],
+    "subrealm:oceanic-islands": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "The Oceanic Islands subrealm is the Oceania realm's Pacific archipelago grouping, spanning 11 island bioregions across Polynesia, Micronesia, and Hawai'i. Over 4,500 islands of small land area support extremely isolated tropical forests, dry forests, shrublands, and coastal wetlands, harboring more than 6,500 plant species, about half of them endemic, and hundreds of endemic vertebrates."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic high-island archipelagos; low coral atolls and reef islands; isolated subtropical broadleaf forests; dry forests and tropical shrublands; extensive surrounding exclusive economic zones",
+            "sourceIds": [
+              "one-earth-oceanic-islands",
+              "one-earth-oc1"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical to subtropical maritime, ranging from humid rainforest regimes on windward volcanic slopes to seasonal dry conditions on leeward coasts and low islands.",
+            "sourceIds": [
+              "one-earth-oc1"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "tropical and subtropical moist broadleaf forest; tropical dry forest and scrub; montane and high shrubland; coastal halophytic and strand vegetation; palms and endemic island endemics",
+            "sourceIds": [
+              "one-earth-oceanic-islands",
+              "one-earth-oc1"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme oceanic isolation and long-distance dispersal; volcanic island succession; high levels of single-island endemism; seabird-mediated nutrient cycling",
+            "sourceIds": [
+              "one-earth-oceanic-islands",
+              "one-earth-oc1"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth notes high endemism and small land areas make these islands acutely vulnerable to invasive species, habitat loss, and climate-driven sea-level rise, while marine overfishing pressures surrounding waters. Protection varies widely across bioregions, from very high in Ogasawara and Central Polynesia to low across much of Melanesia and Hawaii.",
+            "sourceIds": [
+              "one-earth-oceanic-islands"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CL",
+            "title": "Chile",
+            "subtitle": "CL",
+            "description": "ISO 3166-1 alpha-2: CL"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-oceanic-islands",
+            "title": "Oceanic Islands — Subrealm",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/realms/oceania/"
+          },
+          {
+            "id": "one-earth-oc1",
+            "title": "Salas y Gómez & Easter Islands (OC1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/salas-y-gomez-easter-islands-oc1/"
+          }
+        ]
+      }
+    ],
+    "bioregion:oc1": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Salas y Gómez & Easter Islands (OC1) sits at the eastern edge of the Pacific’s Polynesian islands, containing a single ecoregion spanning Rapa Nui (Easter Island) and the tiny reef of Sala y Gómez. Once forested with Jubaea palms, toromiro, and Triumfetta, the isolated volcanic island is now dominated by grass savanna, while the tiny reef hosts a handful of salt-tolerant plant species and large seabird colonies."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Rapa Nui volcanic island; Sala y Gómez reef 415 km to the northeast; steep crater slopes (Rano Raraku); grass savanna lowlands; tiny tide-sensitive reef islet",
+            "sourceIds": [
+              "one-earth-oc1",
+              "one-earth-eco-628"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical rainforest / humid subtropical with temperatures from about 15°C in July to 28°C in February and annual precipitation around 1,118 mm, heaviest in May.; 900–1300 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-628"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "tall Jubaea palm and toromiro forest (historical); grass savanna (current); hau hau and a few endemic shrubs; rare endemic ferns in crater refuges; salt-tolerant plants on Sala y Gómez",
+            "sourceIds": [
+              "one-earth-eco-628"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme oceanic isolation; endemic invertebrate survival in crater refuges; seabird nesting and marine nutrient input; fire, grazing, and invasive-species pressure",
+            "sourceIds": [
+              "one-earth-eco-628"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 100% with a protection level of 3. Rapa Nui National Park (68 km²) has inadequate management, and heavy grazing, invasive plants and animals, and frequent fires continue to diminish the last native species. Restoration priorities include growing toromiro on inaccessible slopes, protecting cave invertebrates, and eradicating rats and goats from islets.",
+            "sourceIds": [
+              "one-earth-oc1",
+              "one-earth-eco-628"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CL",
+            "title": "Chile",
+            "subtitle": "CL",
+            "description": "ISO 3166-1 alpha-2: CL"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-oc1",
+            "title": "Salas y Gómez & Easter Islands (OC1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/salas-y-gomez-easter-islands-oc1/"
+          },
+          {
+            "id": "one-earth-eco-628",
+            "title": "Rapa Nui and Sala Y Gómez Subtropical Broadleaf Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/rapa-nui-and-sala-y-gomez-subtropical-broadleaf-forests/"
+          }
+        ]
+      }
+    ],
+    "bioregion:oc11": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Hawai'i Tropical Islands (OC11) comprises the volcanic high islands and remote Northwestern (Leeward) Hawaiian chain in the north-central Pacific, containing five ecoregions that span windward moist forests, leeward dry forests, alpine and low shrublands, and the near-pristine low islets. Isolated for tens of millions of years, the archipelago is a celebrated centre of single-island endemism, radiating honeycreepers, lobeliads, land snails, and silverswords across a remarkable climatic gradient."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic high islands of the main chain; remote low atolls and rocky islets; windward and leeward mountain slopes; high volcanic summits above 3,000 m; coral reefs and lagoons",
+            "sourceIds": [
+              "one-earth-oc11",
+              "one-earth-eco-623"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "tropical moist and wet broadleaf forest; tropical dry forest and woodland; alpine and subalpine shrubland; lowland dry shrubland and strand; low-island scrub and halophytic cover",
+            "sourceIds": [
+              "one-earth-oc11",
+              "one-earth-eco-623"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme oceanic isolation driving adaptive radiation in birds, plants, and invertebrates; volcanic island formation and elevational zonation; seabird-mediated nutrient cycling on nesting islets; high vulnerability to invasive species and avian malaria",
+            "sourceIds": [
+              "one-earth-eco-623",
+              "one-earth-eco-641"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-oc11",
+            "title": "Hawai'i Tropical Islands (OC11)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/hawaii-tropical-islands-oc11/"
+          },
+          {
+            "id": "one-earth-eco-623",
+            "title": "Hawai'I Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/hawaii-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "bioregion:oc2": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Marquesas Tropical Islands (OC2) groups the 12 rugged volcanic high islands of the Marquesas in the far northeastern Pacific, containing a single ecoregion of tropical moist forest. Among the most isolated archipelagos on Earth, its knife-edged ridges and deeply dissected gorges harbor exceptional endemism in plants, land snails, and birds, evolving from the few colonists able to cross vast stretches of ocean."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "twelve rugged volcanic high islands; knife-edged ridges and deeply dissected gorges; cliffs plunging from mountaintops to sea level; montane and cloud forest on upper slopes; wind-swept summit heathlands",
+            "sourceIds": [
+              "one-earth-oc2",
+              "one-earth-eco-625"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical oceanic with marked wet and dry seasons; persistent southeast trade winds bring orographic moisture to windward slopes while leaving sheltered leeward valleys drier.",
+            "sourceIds": [
+              "one-earth-eco-625"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland Pisonia, Thespesia, and Calophyllum forest; montane Hibiscus, Pandanus, and Weinmannia forest; stunted cloud forest and high-ridge woodland; wind-swept summit heathland; endemic palm and plant radiations",
+            "sourceIds": [
+              "one-earth-eco-625"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme oceanic isolation limiting colonisation; adaptive radiation of plants, snails, and birds; seabird breeding and nutrient cycling; high vulnerability to introduced predators and fire",
+            "sourceIds": [
+              "one-earth-eco-625"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a combined conservation target of 83% with a protection level of 0. Introduced goats, rats, cats, ants, and other invasive species, along with fire, logging, and plantations, have degraded native habitats, while lowland forest is largely cleared and dominated by introduced plants. Priorities include protecting upper-elevation forests, eradicating invaders on smaller islands, and fencing endangered plant populations.",
+            "sourceIds": [
+              "one-earth-oc2",
+              "one-earth-eco-625"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:marquesan-kingfisher",
+            "title": "Marquesan kingfisher",
+            "subtitle": "Todiramphus godeffroyi",
+            "description": "Todiramphus godeffroyi"
+          },
+          {
+            "id": "species:ultramarine-lory",
+            "title": "Ultramarine lory",
+            "subtitle": "Vini ultramarina",
+            "description": "Vini ultramarina"
+          },
+          {
+            "id": "species:nuku-hiva-pigeon",
+            "title": "Nuku Hiva pigeon",
+            "subtitle": "Ducula galeata",
+            "description": "Ducula galeata"
+          },
+          {
+            "id": "country:PF",
+            "title": "French Polynesia",
+            "subtitle": "PF",
+            "description": "ISO 3166-1 alpha-2: PF"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-oc2",
+            "title": "Marquesas Tropical Islands (OC2)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/marquesas-tropical-islands-oc2/"
+          },
+          {
+            "id": "one-earth-eco-625",
+            "title": "Marquesas Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/marquesas-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "bioregion:oc3": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Southeast Polynesian Islands (OC3) unites the Cook, Society, Tuamotu, and Austral (Tubuai) archipelagos spanning the south-central Pacific, containing four ecoregions of tropical moist forest. From the volcanic peaks of Tahiti and Rarotonga to the coral atolls of the Tuamotus and the cloud-draped summits of Rapa, these scattered islands support some of the highest levels of single-island endemism anywhere, expressed in monarchs, lorikeets, kingfishers, fruit doves, and radiating land snail faunas."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "high volcanic islands of the Society and Cook groups; uplifted limestone (makatea) islands and coral atolls; the 76 atolls and islands of the Tuamotu Archipelago; rugged eroded volcanic peaks of the Austral Islands; isolated reef islets such as Henderson and Pitcairn",
+            "sourceIds": [
+              "one-earth-oc3",
+              "one-earth-eco-632"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime with warm, humid conditions and orographic rainfall that sustains lowland rainforest, montane forest, and small areas of mossy cloud forest on the highest volcanic peaks, while the low atolls experience heat and drought stress.",
+            "sourceIds": [
+              "one-earth-eco-620",
+              "one-earth-eco-633"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland tropical moist forest of Inocarpus, Pandanus, and Pisonia; montane rain forest and mossy cloud forest; strand and Pisonia-dominated makatea forest; atoll scrub and mixed broadleaf strand vegetation; highly endemic cloud forest floras on Rapa",
+            "sourceIds": [
+              "one-earth-oc3",
+              "one-earth-eco-632"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme oceanic isolation and great archipelagic age driving adaptive radiation; single-island endemism in birds, snails, and plants; seabird-mediated nutrient cycling on remote atolls; high vulnerability to invasive predators, ants, and pathogens",
+            "sourceIds": [
+              "one-earth-eco-620",
+              "one-earth-eco-633"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a combined conservation target of 62% with a protection level of 1 for this bioregion. Introduced rats, cats, ants, fire ants, Miconia trees, and red-vented bulbuls threaten native birds and plants, while lowland vegetation is largely cleared for settlement and agriculture. Priorities include invasive control around threatened monarchs, lorikeets, and kingfishers, and expanding protected areas across the archipelagos.",
+            "sourceIds": [
+              "one-earth-oc3",
+              "one-earth-eco-632"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:blue-lorikeet",
+            "title": "Blue lorikeet",
+            "subtitle": "Vini peruviana",
+            "description": "Vini peruviana"
+          },
+          {
+            "id": "species:kuhls-lorikeet",
+            "title": "Kuhl's lorikeet (Rimatara lorikeet)",
+            "subtitle": "Vini kuhlii",
+            "description": "Vini kuhlii"
+          },
+          {
+            "id": "species:tahiti-monarch",
+            "title": "Tahiti monarch",
+            "subtitle": "Pomarea nigra",
+            "description": "Pomarea nigra"
+          },
+          {
+            "id": "species:mangareva-kingfisher",
+            "title": "Mangareva kingfisher",
+            "subtitle": "Todiramphus gambieri",
+            "description": "Todiramphus gambieri"
+          },
+          {
+            "id": "country:CK",
+            "title": "Cook Islands",
+            "subtitle": "CK",
+            "description": "ISO 3166-1 alpha-2: CK"
+          },
+          {
+            "id": "country:PF",
+            "title": "French Polynesia",
+            "subtitle": "PF",
+            "description": "ISO 3166-1 alpha-2: PF"
+          },
+          {
+            "id": "country:PN",
+            "title": "Pitcairn Islands",
+            "subtitle": "PN",
+            "description": "ISO 3166-1 alpha-2: PN"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-oc3",
+            "title": "Southeast Polynesian Islands (OC3)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/southeast-polynesian-islands-oc3/"
+          },
+          {
+            "id": "one-earth-eco-620",
+            "title": "Cook Islands Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cook-islands-tropical-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-630",
+            "title": "Society Islands Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/society-islands-tropical-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-632",
+            "title": "Tuamotu Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/tuamotu-tropical-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-633",
+            "title": "Tubuai Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/tubuai-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "bioregion:oc4": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Central Polynesian Islands (OC4) comprises the scattered atolls and raised reef platforms of the Northern and Southern Line Islands, the Northern Cook Islands, and isolated Johnston, containing a single ecoregion of tropical moist forest. These classic low atolls, most less than four metres above sea level, support some of the largest seabird nesting colonies on Earth as well as the endemic Bokikokiko reed warbler."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "scattered coral atolls of the Line Islands; atolls and islands of the Northern Cooks; isolated Johnston Atoll; open and closed lagoon atolls and raised reef platforms; low land rarely rising above four metres",
+            "sourceIds": [
+              "one-earth-oc4",
+              "one-earth-eco-619"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime ranging from continually wet near the equator to frequent drought in atolls under the trade-wind belt, imposing strong water stress on low islands.",
+            "sourceIds": [
+              "one-earth-eco-619"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Pisonia grandis forest with Calophyllum and Cordia subcordata; Tournefortia argentea woodland and littoral scrub; Scaevola and Suriana maritima scrublands; Lepturus repens grassland and mixed herblands; drought-tolerant scrub on dry low islands",
+            "sourceIds": [
+              "one-earth-eco-619"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "seabird nesting colonies producing nutrient-rich guano; low indigenous plant richness on isolated atolls; prehistoric movement of birds among islands by Polynesians; high vulnerability to invasive rats, cats, and crazy ants",
+            "sourceIds": [
+              "one-earth-eco-619"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 15% with a protection level of 10. Settlement, copra plantations, guano mining, and nuclear and military activity have disturbed much vegetation, while rats, cats, and yellow crazy ants drive seabird and land bird declines. Priorities include eradicating invaders on key atolls, preventing little red fire ant arrival, and strengthening protection of Caroline forest.",
+            "sourceIds": [
+              "one-earth-oc4",
+              "one-earth-eco-619"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:kuhls-lorikeet",
+            "title": "Kuhl's lorikeet (Rimatara lorikeet)",
+            "subtitle": "Vini kuhlii",
+            "description": "Vini kuhlii"
+          },
+          {
+            "id": "species:bokikokiko-reed-warbler",
+            "title": "Bokikokiko reed warbler",
+            "subtitle": "Acrocephalus aequinoctialis",
+            "description": "Acrocephalus aequinoctialis"
+          },
+          {
+            "id": "species:coconut-crab",
+            "title": "Coconut crab",
+            "subtitle": "Birgus latro",
+            "description": "Birgus latro"
+          },
+          {
+            "id": "country:KI",
+            "title": "Kiribati",
+            "subtitle": "KI",
+            "description": "ISO 3166-1 alpha-2: KI"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-oc4",
+            "title": "Central Polynesian Islands (OC4)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-polynesian-islands-oc4/"
+          },
+          {
+            "id": "one-earth-eco-619",
+            "title": "Central Polynesian Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/central-polynesian-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "bioregion:oc5": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Samoa & West Polynesian Tropical Islands (OC5) unites the volcanic high islands of Samoa with the wide scattering of low atolls across Tokelau, Tuvalu, and the Phoenix Islands, containing two ecoregions of tropical moist forest. From the cloud-draped summits of Savai'i to the storm-washed atolls of the Phoenix group, these islands support the manumea pigeon, the ma'oma'o honeyeater, Samoan flying fox, and millions of nesting seabirds."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "fourteen volcanic islands of the Samoan chain; the high islands of Savai'i and 'Upolu; three clusters of atolls and makatea islands; the Phoenix Islands and isolated Howland and Baker; low atolls and raised reef platforms of Tokelau and Tuvalu",
+            "sourceIds": [
+              "one-earth-oc5",
+              "one-earth-eco-634"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime with orographic rainfall on the high volcanic islands, sustaining lowland, montane, and cloud forests, while the low atolls of the Phoenix group and Howland and Baker endure drought, storms, and salt stress.",
+            "sourceIds": [
+              "one-earth-eco-629",
+              "one-earth-eco-634"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland rain forest of Diospyros, Calophyllum, and Pometia; montane forest of Dysoxylum, Syzygium, and Weinmannia; cloud forest with Reynoldsia, Weinmannia, and tree ferns; short drought-tolerant scrub on drier atolls; inland groves of Tournefortia, Pandanus, and Pisonia on wetter atolls",
+            "sourceIds": [
+              "one-earth-oc5",
+              "one-earth-eco-629"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "high land-bird endemism (84% of 37 species found nowhere else); plant endemism of about 28% across 536 flowering species; globally important seabird nesting on the Phoenix atolls; vulnerability to invasive rats, cats, pests, and rising seas",
+            "sourceIds": [
+              "one-earth-eco-629",
+              "one-earth-eco-634"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a combined conservation target of 53% with a protection level of 2. Over 80% of lowland rain forest has been lost in Samoa, while black rats, cats, pigs, and crazy ants threaten nesting seabirds and wildlife across the atolls. Priorities include securing central Savai'i forest, managing the manumea and ma'oma'o, and eradicating invaders on key seabird islands.",
+            "sourceIds": [
+              "one-earth-oc5",
+              "one-earth-eco-629"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:many-colored-fruit-dove",
+            "title": "Many-colored fruit dove",
+            "subtitle": "Ptilinopus perousii",
+            "description": "Ptilinopus perousii"
+          },
+          {
+            "id": "species:manumea",
+            "title": "Manumea (tooth-billed pigeon)",
+            "subtitle": "Didunculus strigirostris",
+            "description": "Didunculus strigirostris"
+          },
+          {
+            "id": "species:pacific-imperial-pigeon",
+            "title": "Pacific imperial pigeon",
+            "subtitle": "Ducula pacifica",
+            "description": "Ducula pacifica"
+          },
+          {
+            "id": "country:KI",
+            "title": "Kiribati",
+            "subtitle": "KI",
+            "description": "ISO 3166-1 alpha-2: KI"
+          },
+          {
+            "id": "country:WS",
+            "title": "Samoa",
+            "subtitle": "WS",
+            "description": "ISO 3166-1 alpha-2: WS"
+          },
+          {
+            "id": "country:AS",
+            "title": "American Samoa",
+            "subtitle": "AS",
+            "description": "ISO 3166-1 alpha-2: AS"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-oc5",
+            "title": "Samoa & West Polynesian Tropical Islands (OC5)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/samoa-west-polynesian-tropical-islands-oc5/"
+          },
+          {
+            "id": "one-earth-eco-629",
+            "title": "Samoan Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/samoan-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "bioregion:oc6": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Fiji & Tongan Tropical Islands (OC6) unites the large mountainous archipelagos of Fiji and Tonga with the remote Kermadec and the makatea outliers of Niue and Wallis and Futuna, containing four ecoregions of tropical moist and dry forest. Spanning roughly two million hectares, this bioregion mixes ancient Gondwanan relicts, from primitive Degeneria trees and Agathis to the crested iguanas, with highly endemic radiations of pigeons, parrots, honeyeaters, and white-eyes."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "the large high islands of Viti Levu and Vanua Levu; scattered volcanic and raised-limestone islands of Tonga; the remote Kermadec archipelago north of New Zealand; makatea islands such as Niue and parts of Tonga; lowland, montane, cloud, and dry forest zones",
+            "sourceIds": [
+              "one-earth-oc6",
+              "one-earth-eco-624"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime with heavy orographic rainfall on the high islands, sustaining lowland, montane, and cloud forest, while pronounced leeward rain shadows and drier lowlands create extensive tropical dry forest and, in the Kermadecs, a mild subtropical regime.",
+            "sourceIds": [
+              "one-earth-eco-622",
+              "one-earth-eco-635"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland moist forest with Degeneria, Agathis, and Pandanus; montane and cloud forest of Agathis, Podocarpus, and Metrosideros; drier forest dominated by Garuga and Gyrocarpus; dry forest with cycads and endemic sandalwood; Kermadec subtropical forest of Metrosideros and tree ferns",
+            "sourceIds": [
+              "one-earth-oc6",
+              "one-earth-eco-635"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "mixing of ancient Gondwanan relicts with oceanic-island radiations; high plant and bird endemism with many single-island species; raft-dispersal and adaptive radiation of iguanas and birds; vulnerability to invasive rats, cats, mongoose, and pigs",
+            "sourceIds": [
+              "one-earth-eco-622",
+              "one-earth-eco-631"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a combined conservation target of 67% with a protection level of 1. Much lowland forest has been cleared for settlement, agriculture, and mahogany and pine plantations, and only a small fraction of moist forest is formally protected. Priorities include community-based protection of upper watersheds and key islands, preventing mongoose and other invaders from reaching refugia, and eradicating goats, rats, and cats.",
+            "sourceIds": [
+              "one-earth-oc6",
+              "one-earth-eco-622"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:fiji-crested-iguana",
+            "title": "Fiji crested iguana",
+            "subtitle": "Brachylophus vitiensis",
+            "description": "Brachylophus vitiensis"
+          },
+          {
+            "id": "species:taveuni-orange-dove",
+            "title": "Taveuni orange dove",
+            "subtitle": "Ptilinopus victor",
+            "description": "Ptilinopus victor"
+          },
+          {
+            "id": "species:tongan-whistler",
+            "title": "Tongan whistler",
+            "subtitle": "Pachycephala jacquinoti",
+            "description": "Pachycephala jacquinoti"
+          },
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          },
+          {
+            "id": "country:FJ",
+            "title": "Fiji",
+            "subtitle": "FJ",
+            "description": "ISO 3166-1 alpha-2: FJ"
+          },
+          {
+            "id": "country:TO",
+            "title": "Tonga",
+            "subtitle": "TO",
+            "description": "ISO 3166-1 alpha-2: TO"
+          },
+          {
+            "id": "country:WF",
+            "title": "Wallis and Futuna",
+            "subtitle": "WF",
+            "description": "ISO 3166-1 alpha-2: WF"
+          },
+          {
+            "id": "country:NU",
+            "title": "Niue",
+            "subtitle": "NU",
+            "description": "ISO 3166-1 alpha-2: NU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-oc6",
+            "title": "Fiji & Tongan Tropical Islands (OC6)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/fiji-tongan-tropical-islands-oc6/"
+          },
+          {
+            "id": "one-earth-eco-622",
+            "title": "Fiji Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/fiji-tropical-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-631",
+            "title": "Tongan Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/tongan-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:628": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Rapa Nui and Sala Y Gómez Subtropical Broadleaf Forests covers Easter Island and the tiny, tide-sensitive reef of Sala y Gómez 415 km to the northeast. Once forested with tall Jubaea palm, toromiro, and Triumfetta, the most isolated inhabited island in the world is today dominated by grass savanna, with a small native flora surviving mainly in steep crater refuges."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "extremely isolated volcanic island; steep Rano Raraku crater slopes; grass savanna lowlands; Sala y Gómez lying reef islet; largely transformed by human settlement",
+            "sourceIds": [
+              "one-earth-eco-628"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical rainforest / humid subtropical, with minimum and maximum temperatures of about 15°C in July and 28°C in February, and annual average precipitation around 1,118 mm heaviest in May.; 900–1300 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-628"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "tall Jubaea palm forest (historical); toromiro and hau hau forest remnants; grass savanna (current cover); endemic ferns in crater refuges; four salt-tolerant plant species on Sala y Gómez",
+            "sourceIds": [
+              "one-earth-eco-628"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme oceanic isolation limiting colonisation; refuge survival in crater slopes and caves; seabird nesting and marine nutrient cycling; grazing, fire, and invasive-species pressure",
+            "sourceIds": [
+              "one-earth-eco-628"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 100% with a protection level of 3. Heavy grazing, invasive plants and animals, and frequent fires continue to diminish the last native species, and Rapa Nui National Park (68 km²) has inadequate management. Priorities are restoring toromiro on inaccessible slopes, protecting cave invertebrate refuges, and eradicating rats and goats from offshore islets.",
+            "sourceIds": [
+              "one-earth-eco-628"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CL",
+            "title": "Chile",
+            "subtitle": "CL",
+            "description": "ISO 3166-1 alpha-2: CL"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-628",
+            "title": "Rapa Nui and Sala Y Gómez Subtropical Broadleaf Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/rapa-nui-and-sala-y-gomez-subtropical-broadleaf-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:623": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Hawai'I Tropical Moist Forests covers the windward lowlands and montane slopes of the larger Hawaiian islands, with mixed mesic forests, rain forests, wet shrublands, and montane bogs. Long oceanic isolation produced dazzling adaptive radiation in honeycreepers, lobeliads, tree snails, and fruit flies that are found nowhere else on Earth."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "windward lowland and montane slopes; mixed mesic forest (750–1,250 m); montane rain forest (1,250–1,700 m); wet shrublands and montane bogs; volcanic slopes of the large islands",
+            "sourceIds": [
+              "one-earth-eco-623"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "ohi'a lehua (Metrosideros polymorpha) canopy; koa (Acacia koa) mixed mesic forest; loulu fan palms (Pritchardia spp.); tree ferns (Cibotium spp.) and epiphytes; montane bogs of sedges, ferns, and mosses",
+            "sourceIds": [
+              "one-earth-eco-623"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "adaptive radiation of honeycreepers from a single finch ancestor; evolution in the absence of native ants; pollination and seed dispersal by endemic birds; bog formation on montane plateaus and depressions",
+            "sourceIds": [
+              "one-earth-eco-623"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 78% with a protection level of 2. Lowland and foothill moist forest has been largely eliminated, and remaining montane blocks suffer from feral pigs, goats, cats, invasive weeds and ants, and avian malaria. Hawai'i Volcanoes and Haleakala National Parks protect key stands; priority actions target invasive control and quarantine against the little fire ant (Wasmannia auropunctata).",
+            "sourceIds": [
+              "one-earth-eco-623"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:i-iwi",
+            "title": "'I'iwi (scarlet honeycreeper)",
+            "subtitle": "Drepanis coccinea",
+            "description": "Drepanis coccinea"
+          },
+          {
+            "id": "species:ohia-lehua",
+            "title": "'Ōhi'a lehua",
+            "subtitle": "Metrosideros polymorpha",
+            "description": "Metrosideros polymorpha"
+          },
+          {
+            "id": "species:koa",
+            "title": "Koa",
+            "subtitle": "Acacia koa",
+            "description": "Acacia koa"
+          },
+          {
+            "id": "species:loulu-palm",
+            "title": "Loulu fan palm",
+            "subtitle": "Pritchardia spp.",
+            "description": "Pritchardia spp."
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-623",
+            "title": "Hawai'I Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/hawaii-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:636": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Hawai'I Tropical Dry Forests occupy the rain-shadowed leeward foothills and lowlands of the main Hawaiian islands, where pronounced dry seasons shaped shorter-statured, drought-adapted woodland. Rich in endemic tree species and beset by a long history of clearing and fire, they are among the most endangered ecoregions on the planet."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "leeward foothills and lowlands; dry forest on volcanic slopes; shrubland, grassland, and transition forest; lowland Pritchardia palm forest; offshore islets",
+            "sourceIds": [
+              "one-earth-eco-636"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical dry with a pronounced dry season from April to October and a wet season delivering 25–125 cm of rain, with rain-shadowed leeward coasts among the driest parts of the archipelago.; 250–1250 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-636"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "109 tree species across 29 families, 90% endemic; mamane (Sophora) and waxy-leaved dry woodland; sandalwood (Santalum paniculatum); Pritchardia palm and Gouania formations; shrubland, grassland, and transition forest",
+            "sourceIds": [
+              "one-earth-eco-636"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "rain-shadow aridity reshaping vegetation; endemic insect–host plant specialisation; single-island endemism in tree flora; fire and grazing suppression of regrowth",
+            "sourceIds": [
+              "one-earth-eco-636"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 40% with a protection level of 4. Only 5–8% of natural dry forest habitat remains, less than 2% per major island, and 45% of dry-forest plant taxa are threatened. Burning, clearing, feral livestock, rats, and invasive grasses such as fountain grass block regeneration; reserves include Waimea Canyon and Koke'e State Park.",
+            "sourceIds": [
+              "one-earth-eco-636"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:palila",
+            "title": "Palila",
+            "subtitle": "Loxioides bailleui",
+            "description": "Loxioides bailleui"
+          },
+          {
+            "id": "species:kokia-cookei",
+            "title": "Moloka'i tree cotton",
+            "subtitle": "Kokia cookei",
+            "description": "Kokia cookei"
+          },
+          {
+            "id": "species:blackburns-sphinx-moth",
+            "title": "Blackburn's sphinx moth",
+            "subtitle": "Manduca blackburni",
+            "description": "Manduca blackburni"
+          },
+          {
+            "id": "species:hawaiian-hoary-bat",
+            "title": "Hawaiian hoary bat",
+            "subtitle": "Lasiurus semotus",
+            "description": "Lasiurus semotus"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-636",
+            "title": "Hawai'I Tropical Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/hawaii-tropical-dry-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:639": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Hawai'i Tropical High Shrublands wrap the cold, dry summits and subalpine slopes of the tallest Hawaiian volcanoes, most famously Mount Haleakala and Mauna Kea. These alpine deserts and sparse shrublands support hardy drought- and cold-adapted plants, headlined by the iconic Hawaiian silversword, along with the native nene goose and palila."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "alpine desert above 3,000 m; summit craters to 4,207 m on Mauna Kea; subalpine shrublands from 2,000–3,000 m; volcanic cinder and lava fields; subalpine tussock grasslands",
+            "sourceIds": [
+              "one-earth-eco-639"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Alpine to subalpine with dry, cold conditions and strong diurnal temperature swings; frosts and high solar radiation govern a landscape that receives little precipitation above the inversion layer.",
+            "sourceIds": [
+              "one-earth-eco-639"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Hawaiian silversword rosettes (Argyroxiphium); Dubautia and Leptecophylla tameiameiae shrubland; Deschampsia and Eragrostis tussock grassland; Vaccinium reticulatum, Chenopodium, and Santalum subalpine shrubs; mosses, lichens, and Pellaea ternifolia ferns",
+            "sourceIds": [
+              "one-earth-eco-639"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "adaptive radiation of a single tarweed ancestor into 30 related species; alpine cold and drought constraints on growth; endemic insect prey support for montane birds; sensitivity of silverswords to disturbance",
+            "sourceIds": [
+              "one-earth-eco-639"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 100% with a protection level of 4. Grazing and trampling by cattle, goats, mouflon, and sheep, along with wildfires, off-road vehicles, and poaching of silverswords, threaten fragile alpine habitat. Priorities include fencing endangered Mauna Kea silversword populations and controlling feral livestock with the subalpine and alpine zones.",
+            "sourceIds": [
+              "one-earth-eco-639"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:palila",
+            "title": "Palila",
+            "subtitle": "Loxioides bailleui",
+            "description": "Loxioides bailleui"
+          },
+          {
+            "id": "species:hawaiian-silversword",
+            "title": "Hawaiian silversword",
+            "subtitle": "Argyroxiphium sandwicense",
+            "description": "Argyroxiphium sandwicense"
+          },
+          {
+            "id": "species:nene",
+            "title": "Nene",
+            "subtitle": "Branta sandvicensis",
+            "description": "Branta sandvicensis"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-639",
+            "title": "Hawai'i Tropical High Shrublands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/hawaii-tropical-high-shrublands/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:640": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Hawai'I Tropical Low Shrublands cover the driest lowland slopes of the higher Hawaiian islands, carrying a distinctive flora that includes the 'ohai, Ma'o hau hele hibiscus, and beach-adapted sandalwood. Coastal strand and basalt-outcrop shrublands hold up to 90% endemic plants but have lost most of their natural cover to clearing and fire."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "lowest leeward slopes of high islands; islands of Lana'i, Kaho'olawe, and Ni'ihau; coastal strand and basalt outcrops; dry lowland shrubland and grassland; nearshore islets",
+            "sourceIds": [
+              "one-earth-eco-640"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical dry lowland, the driest lowland habitat in the archipelago, with low rainfall (500–1,500 mm) concentrated in the winter months on slopes sheltered from the moist trade winds.; 500–1500 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-640"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "'ohai (Sesbania tomentosa) and Ma'o hau hele (Hibiscus brackenridgei); coastal strand flora adapted to far-flung dispersal; Dodonaea, Scaevola, Myoporum, and Sida shrubland; 'iliahi (Santalum ellipticum) beach sandalwood; small-flowered herbs favoured by native bees",
+            "sourceIds": [
+              "one-earth-eco-640"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "winter-rain flowering and native bee pollination; long-distance seed dispersal across the Pacific; coastal nesting habitat for seabirds; sensitivity of strand to fire and off-road vehicles",
+            "sourceIds": [
+              "one-earth-eco-640"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 27% with a protection level of 4. Less than 2% of natural habitat remains, much of it under threat from fire, development, off-road vehicles, feral goats and deer, and invasive plants such as Leucaena, Guinea grass, and mesquite. Restoration at Kaena Point State Park has regenerated shrubland and returned nesting Laysan albatross.",
+            "sourceIds": [
+              "one-earth-eco-640"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:ohai",
+            "title": "'Ōhai",
+            "subtitle": "Sesbania tomentosa",
+            "description": "Sesbania tomentosa"
+          },
+          {
+            "id": "species:mao-hau-hele",
+            "title": "Ma'o hau hele",
+            "subtitle": "Hibiscus brackenridgei",
+            "description": "Hibiscus brackenridgei"
+          },
+          {
+            "id": "species:laysan-albatross",
+            "title": "Laysan albatross",
+            "subtitle": "Phoebastria immutabilis",
+            "description": "Phoebastria immutabilis"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-640",
+            "title": "Hawai'I Tropical Low Shrublands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/hawaii-tropical-low-shrublands/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:641": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Northwest Hawai'i Scrub covers the remote, small, and low islets of the Northwestern Hawaiian Islands, a chain stretching some 1,600 km from rocky Nihoa to low Kure Atoll. A handful of hardy terrestrial species, many endemic, share these islands with immense seabird colonies, monk seals, and green sea turtles that bring nutrients ashore and fuel simple food chains."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "nine major low islands and atolls; rocky Nihoa (highest island) to Kure Atoll; low shrub banks and salt-tolerant cover; lagoon margins and reef flats; offshore sand and coral islets",
+            "sourceIds": [
+              "one-earth-eco-641"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical oceanic with strong wind, salt spray, and low rainfall; conditions are challenging for terrestrial life on these small, low, drought-prone islands and atolls.",
+            "sourceIds": [
+              "one-earth-eco-641"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Portulaca lutea and low shrub banks; salt-tolerant goosefoot and Boerhavia repens cover; endemic Pritchardia remota palm on Nihoa; grasses and halophytic strand plants; sparse vegetation on the lowest atolls",
+            "sourceIds": [
+              "one-earth-eco-641"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "seabird nutrient (guano) input supporting food chains; extreme isolation generating endemic plants and invertebrates; marine megafauna use of shores for resting and breeding; vulnerability to invasive mammals, plants, and weather extremes",
+            "sourceIds": [
+              "one-earth-eco-641"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 100% with a protection level of 1. Introduced rats, goats, rabbits, and grasshoppers have damaged island ecosystems, while seabirds face longline fisheries, ocean plastics, and rising seas. Priorities include eradicating non-native mammals on nesting islands, restoring Pritchardia palm forest on Nihoa, and recovering threatened endemic birds such as the Laysan finch and duck.",
+            "sourceIds": [
+              "one-earth-eco-641"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:laysan-finch",
+            "title": "Laysan finch",
+            "subtitle": "Telespiza cantans",
+            "description": "Telespiza cantans"
+          },
+          {
+            "id": "species:laysan-duck",
+            "title": "Laysan duck",
+            "subtitle": "Anas laysanensis",
+            "description": "Anas laysanensis"
+          },
+          {
+            "id": "species:nihoa-millerbird",
+            "title": "Nihoa Millerbird",
+            "subtitle": "Acrocephalus familiaris kingi",
+            "description": "Acrocephalus familiaris kingi"
+          },
+          {
+            "id": "species:pritchardia-remota",
+            "title": "Nihoa loulu",
+            "subtitle": "Pritchardia remota",
+            "description": "Pritchardia remota"
+          },
+          {
+            "id": "species:hawaiian-monk-seal",
+            "title": "Hawaiian monk seal",
+            "subtitle": "Neomonachus schauinslandi",
+            "description": "Neomonachus schauinslandi"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-641",
+            "title": "Northwest Hawai'I Scrub",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/northwest-hawaii-scrub/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:625": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Marquesas Tropical Moist Forests cover the twelve rugged volcanic high islands of the Marquesas in the far northeastern Pacific. Extreme oceanic isolation drove pronounced endemism in plants, land snails, and birds, with lowland, montane, and cloud forest zones giving way to wind-swept summit heathlands across a landscape of knife-edged ridges and deep gorges."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "twelve volcanic high islands with rugged topography; knife-edged ridges and deeply dissected gorges; cliffs plunging steeply from mountaintops to sea; lowland, montane, and cloud forest zones; wind-swept summit heathlands",
+            "sourceIds": [
+              "one-earth-eco-625"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical oceanic with strong wet-season rains and persistent southeast trade winds; orographic moisture supports lush windward forests while sheltered valleys experience pronounced dry periods.",
+            "sourceIds": [
+              "one-earth-eco-625"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland Pisonia grandis, Thespesia, Calophyllum, and Terminalia forest; drier forest of Hibiscus, Pandanus, Thespesia, and Cordia on lower slopes; montane Hibiscus tiliaceus, Pandanus tectorius, and Weinmannia forest; cloud forest of Cheirodendron, Ilex anomala, and Freycinetia; summit heathland and the endemic palm Pelagodoxa henryana",
+            "sourceIds": [
+              "one-earth-eco-625"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "adaptive radiation of Asplenium, Psychotria, Bidens, and Cyrtandra lineages; evolution of many endemic land snails and fruit flies; seabird breeding colonies and nutrient inputs; vulnerability to introduced predators, herbivores, and fire",
+            "sourceIds": [
+              "one-earth-eco-625"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 83% with a protection level of 0. With 320 native vascular plant species and 42% endemism, the islands face lowland clearing, goat and rat damage, fire, logging, and invasive mynahs and owls. Priorities are protecting upper-elevation forests, eradicating rats, cats, and goats on smaller islands, and fencing endangered plant populations.",
+            "sourceIds": [
+              "one-earth-eco-625"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:marquesan-kingfisher",
+            "title": "Marquesan kingfisher",
+            "subtitle": "Todiramphus godeffroyi",
+            "description": "Todiramphus godeffroyi"
+          },
+          {
+            "id": "species:ultramarine-lory",
+            "title": "Ultramarine lory",
+            "subtitle": "Vini ultramarina",
+            "description": "Vini ultramarina"
+          },
+          {
+            "id": "species:nuku-hiva-pigeon",
+            "title": "Nuku Hiva pigeon",
+            "subtitle": "Ducula galeata",
+            "description": "Ducula galeata"
+          },
+          {
+            "id": "species:pelagodoxa-henryana",
+            "title": "Marquesan endemic palm (Pelagodoxa)",
+            "subtitle": "Pelagodoxa henryana",
+            "description": "Pelagodoxa henryana"
+          },
+          {
+            "id": "country:PF",
+            "title": "French Polynesia",
+            "subtitle": "PF",
+            "description": "ISO 3166-1 alpha-2: PF"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-625",
+            "title": "Marquesas Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/marquesas-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:620": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Cook Islands Tropical Moist Forests cover the permanently inhabited southern islands of the Cooks, with the volcanic highland of Rarotonga rising to cloud forest among coral atolls and uplifted makatea islets. The relative isolation of these islands preserved a distinctive lowland-to-cloud forest flora and several range-restricted endemic birds on only a handful of small islands."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "the volcanic high island of Rarotonga; low-lying coral atolls and uplifted limestone islets; lowland forests, montane slopes, and cloud forest; surrounding lagoons and reefs",
+            "sourceIds": [
+              "one-earth-eco-620"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime with warm, humid conditions and orographic rainfall on the volcanic peaks; forests grade from lowland through montane up to cloud forest on exposed summits.",
+            "sourceIds": [
+              "one-earth-eco-620"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland broadleaf forest of Fagraea, Glochidion, and Pisonia; montane forest of Metrosideros, Weinmannia, Ascarina, and Elaeocarpus; cloud forest of Weinmannia and Metrosideros monticola; scattered endemic genera on the volcanic peaks",
+            "sourceIds": [
+              "one-earth-eco-620"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme isolation supporting ~130 native plant species; nine range-restricted resident land bird species, six of them endemic; single-island endemism concentrated on Rarotonga; vulnerability to invasive ants, rats, cats, and mynas",
+            "sourceIds": [
+              "one-earth-eco-620"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 58% with a protection level of 6. The aggressive African ant Pheidole megacephala has driven 11 of 13 endemic snail species extinct on Rarotonga, while the Rarotonga monarch and Atiu swiftlet are critically endangered. Priority actions protect forest in the Takitumu Conservation Area and on the slopes of Te Manga.",
+            "sourceIds": [
+              "one-earth-eco-620"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:blue-lorikeet",
+            "title": "Blue lorikeet",
+            "subtitle": "Vini peruviana",
+            "description": "Vini peruviana"
+          },
+          {
+            "id": "species:kuhls-lorikeet",
+            "title": "Kuhl's lorikeet (Rimatara lorikeet)",
+            "subtitle": "Vini kuhlii",
+            "description": "Vini kuhlii"
+          },
+          {
+            "id": "species:rarotonga-monarch",
+            "title": "Rarotonga monarch",
+            "subtitle": "Pomarea dimidiata",
+            "description": "Pomarea dimidiata"
+          },
+          {
+            "id": "species:atiu-swiftlet",
+            "title": "Atiu swiftlet",
+            "subtitle": "Collocalia sawtelli",
+            "description": "Collocalia sawtelli"
+          },
+          {
+            "id": "species:mangaia-kingfisher",
+            "title": "Mangaia kingfisher",
+            "subtitle": "Todiramphus ruficollis",
+            "description": "Todiramphus ruficollis"
+          },
+          {
+            "id": "country:CK",
+            "title": "Cook Islands",
+            "subtitle": "CK",
+            "description": "ISO 3166-1 alpha-2: CK"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-620",
+            "title": "Cook Islands Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cook-islands-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:630": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Society Islands Tropical Moist Forests cover the high volcanic islands of Tahtian archipelago, including Tahiti, Moorea, Raiatea, and Bora-Bora. Their great age allowed the evolution of hundreds of endemic species, with lowland, montane, and cloud forests supporting a vascular flora of 623 native species, 273 of them endemic, and the spectacular Partula land snail radiation."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "a chain of high volcanic islands; coral islands and barrier-rimmed lagoons; lowland valleys and scattered low mountain slopes; montane rain forest above 300 m and summit cloud forest",
+            "sourceIds": [
+              "one-earth-eco-630"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime with orographic rainfall; lowland rainforest gives way to montane forest above 300 m and mossy cloud forest on the highest peaks, with dry conditions on leeward slopes.",
+            "sourceIds": [
+              "one-earth-eco-630"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland forest of Inocarpus fagifer, bamboo, Cananga, Rhus, and Pisonia; montane forest of Alphitonia, Hernandia, Metrosideros, and Fagraea; cloud forest dominated by Weinmannia and Alstonia costata; the huge tree fern Angiopteris evecta and cliff Metrosideros",
+            "sourceIds": [
+              "one-earth-eco-630"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "radiation of 53 Partula land snail species from a single colonisation; high levels of endemism in a 623-species vascular flora; twenty range-restricted land birds, including the Tahiti monarch; vulnerability to rats, ants, Miconia, and red-vented bulbuls",
+            "sourceIds": [
+              "one-earth-eco-630"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 100% with a protection level of 0. Little native habitat remains below 500 m after clearing and burning, while feral cats, rats, little fire ants, and Miconia calvescens severely affect native communities. Priorities are biological control of Miconia, intensive invasive control around the critically endangered Tahiti monarch, and expanding protected areas.",
+            "sourceIds": [
+              "one-earth-eco-630"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:tahiti-monarch",
+            "title": "Tahiti monarch",
+            "subtitle": "Pomarea nigra",
+            "description": "Pomarea nigra"
+          },
+          {
+            "id": "species:society-islands-pigeon",
+            "title": "Society Islands pigeon",
+            "subtitle": "Ducula aurorae",
+            "description": "Ducula aurorae"
+          },
+          {
+            "id": "species:tahiti-swiftlet",
+            "title": "Tahiti swiftlet",
+            "subtitle": "Aerodramus leucophaeus",
+            "description": "Aerodramus leucophaeus"
+          },
+          {
+            "id": "country:PF",
+            "title": "French Polynesia",
+            "subtitle": "PF",
+            "description": "ISO 3166-1 alpha-2: PF"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-630",
+            "title": "Society Islands Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/society-islands-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:632": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Tuamotu Tropical Moist Forests span the 76 atolls and islands of the Tuamotu Archipelago, extending 1,800 km to the Gambier Islands and 1,000 km further to Henderson and Pitcairn. Mixed broadleaf strand forests on the atolls give way to dense Pisonia- and Pandanus-dominated makatea forest on uplifted limestone islands and montane forest on the highest volcanic peaks, providing refuge for migratory seabirds and endemic land birds."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "76 atolls and islands of the Tuamotus; uplifted limestone (makatea) islands; the Gambier and Pitcairn island groups; isolated reef islets such as Henderson and Oeno; eroded volcanic hillocks and upraised limestone shelves",
+            "sourceIds": [
+              "one-earth-eco-632"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical atoll climate with limited rainfall and severe drought stress on low coral islets, while the higher Gambier and Pitcairn islands capture more orographic moisture.",
+            "sourceIds": [
+              "one-earth-eco-632"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "mixed broadleaf strand forest of Suriana, Pemphis, Scaevola, and Pandanus; Pisonia grandis and Guettarda dominated vegetation; dense tall makatea forest with Pisonia, Pandanus, and Ficus prolixa; Henderson plateau forest with Thespesia and endemic shrubs; montane forest of Homalium moua and Metrosideros collina",
+            "sourceIds": [
+              "one-earth-eco-632"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme isolation and survival on nutrient-poor atolls; high endemism on Henderson and Pitcairn (about 14% of vascular plants); major seabird breeding grounds in the Tuamotus; vulnerability to invasive rats, cats, goats, and rising sea levels",
+            "sourceIds": [
+              "one-earth-eco-632"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 6% with a protection level of 7. Henderson Island remains among the most intact makatea islands in the world, with the Polynesian rat its only introduced vertebrate, but black rats and cats have devastated birds across the rest of the Tuamotus. Priorities include protecting the last native vegetation in the Gambiers, effective management of the Pitcairn group, and invasive control on key atolls.",
+            "sourceIds": [
+              "one-earth-eco-632"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:mangareva-kingfisher",
+            "title": "Mangareva kingfisher",
+            "subtitle": "Todiramphus gambieri",
+            "description": "Todiramphus gambieri"
+          },
+          {
+            "id": "species:niau-kingfisher",
+            "title": "Niau kingfisher",
+            "subtitle": "Todiramphus gertrudae",
+            "description": "Todiramphus gertrudae"
+          },
+          {
+            "id": "species:henderson-lory",
+            "title": "Henderson lory",
+            "subtitle": "Vini stepheni",
+            "description": "Vini stepheni"
+          },
+          {
+            "id": "species:henderson-fruit-dove",
+            "title": "Henderson Island fruit dove",
+            "subtitle": "Ptilinopus insularis",
+            "description": "Ptilinopus insularis"
+          },
+          {
+            "id": "species:tuamotu-sandpiper",
+            "title": "Tuamotu sandpiper",
+            "subtitle": "Prosobonia cancellata",
+            "description": "Prosobonia cancellata"
+          },
+          {
+            "id": "country:PF",
+            "title": "French Polynesia",
+            "subtitle": "PF",
+            "description": "ISO 3166-1 alpha-2: PF"
+          },
+          {
+            "id": "country:PN",
+            "title": "Pitcairn Islands",
+            "subtitle": "PN",
+            "description": "ISO 3166-1 alpha-2: PN"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-632",
+            "title": "Tuamotu Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/tuamotu-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:633": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Tubuai Tropical Moist Forests cover the Austral Islands south of Tahiti, including Tubuai, Rimatara, Rurutu, and Raivavae, along with the isolated island of Rapa and its tiny mossy cloud forest. Eroded volcanic peaks ringed by uplifted limestone host a montane flora with remarkable affinities to New Zealand and some of the highest single-island endemism in the Pacific, including the colourful Kuhl's lorikeet."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "eroded volcanic peaks of the Austral Islands; uplifted limestone shelves surrounding the high islands; the island of Rapa with its small summit cloud forest; the uninhabited Ilots de Bass and Maria Atoll; lowland and montane forest zones",
+            "sourceIds": [
+              "one-earth-eco-633"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime with orographic rainfall; mossy cloud forest occurs only from about 550 m to 650 m on Mt. Perau on Rapa, while the lowlands experience distinct wet and dry periods.",
+            "sourceIds": [
+              "one-earth-eco-633"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland forest of Tournefortia, Barringtonia, Pandanus, and Pisonia; enriched lowland cover with Hibiscus, guava, and Dicranopteris fernlands; montane rain forest on slopes and peaks; cloud forest of Metrosideros collina, Weinmannia, and Corokia; highly endemic Rapa cloud forest with 57% endemism",
+            "sourceIds": [
+              "one-earth-eco-633"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "single-island endemism with several endemic genera on Rapa; pronounced radiation of weevils and land snails; New Zealand and western Pacific floristic affinities; vulnerability to invasive rats, cats, and livestock",
+            "sourceIds": [
+              "one-earth-eco-633"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 0 with protection level not available. Lowland vegetation is largely altered by settlement, cultivation, burning, and livestock, but montane and cloud forest fragments persist and Maria Atoll remains largely intact. Priorities include fencing and invasive control on Tubuai and Rurutu summits, and controlling rats and cats on Rimatara to protect the Kuhl's lorikeet.",
+            "sourceIds": [
+              "one-earth-eco-633"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:PF",
+            "title": "French Polynesia",
+            "subtitle": "PF",
+            "description": "ISO 3166-1 alpha-2: PF"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-633",
+            "title": "Tubuai Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/tubuai-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:619": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Central Polynesian Tropical Moist Forests span the Northern and Southern Line Islands, the Northern Cook Islands, and isolated Johnston, all classic coral atolls or raised reef platforms lying mostly below four metres above sea level. These scattered low islands host some of the largest seabird nesting colonies in the world and the endemic Bokikokiko reed warbler, with vegetation ranging from Pisonia grandis forest to drought-tolerant scrub."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "classic atolls with open or closed lagoons; raised reef platforms of the Line Islands; Northern Cook Islands and isolated Johnston Atoll; land mostly below four metres above sea level; inland lagoons, limestone hardpans, dunes, and saline scrublands",
+            "sourceIds": [
+              "one-earth-eco-619"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime ranging from continually wet near the equator to frequent drought within the trade-wind belt, with rainfall strongly varying by latitude and dry low islets enduring heat and salt stress.",
+            "sourceIds": [
+              "one-earth-eco-619"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Pisonia grandis forest with Calophyllum, Tournefortia, and Pandanus; understory of Morinda, Scaevola, Suriana, and Pemphis acidula; Tournefortia argentea woodland and littoral forest; Scaevola and Suriana maritima scrublands inland; Lepturus repens grassland and drought-tolerant herbland on dry islands",
+            "sourceIds": [
+              "one-earth-eco-619"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "some of the world's largest seabird nesting colonies; low plant richness with few endemics on isolated atolls; prehistoric translocation of lorikeets among islands; vulnerability to invasive rats, cats, and yellow crazy ants",
+            "sourceIds": [
+              "one-earth-eco-619"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 15% with a protection level of 10. Settlement, copra plantations, guano mining, nuclear testing, and military infrastructure have disturbed much vegetation, and rats and cats have extirpated the Bokikokiko from Tabueran. Priorities include eradicating invasive species on key atolls, preventing little red fire ants, and strengthening protection of Caroline's forests.",
+            "sourceIds": [
+              "one-earth-eco-619"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:kuhls-lorikeet",
+            "title": "Kuhl's lorikeet (Rimatara lorikeet)",
+            "subtitle": "Vini kuhlii",
+            "description": "Vini kuhlii"
+          },
+          {
+            "id": "species:bokikokiko-reed-warbler",
+            "title": "Bokikokiko reed warbler",
+            "subtitle": "Acrocephalus aequinoctialis",
+            "description": "Acrocephalus aequinoctialis"
+          },
+          {
+            "id": "species:coconut-crab",
+            "title": "Coconut crab",
+            "subtitle": "Birgus latro",
+            "description": "Birgus latro"
+          },
+          {
+            "id": "species:red-tailed-tropicbird",
+            "title": "Red-tailed tropicbird",
+            "subtitle": "Phaethon rubricauda",
+            "description": "Phaethon rubricauda"
+          },
+          {
+            "id": "country:KI",
+            "title": "Kiribati",
+            "subtitle": "KI",
+            "description": "ISO 3166-1 alpha-2: KI"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-619",
+            "title": "Central Polynesian Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/central-polynesian-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:629": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Samoan Tropical Moist Forests cover the fourteen volcanic islands of Samoa, 600 km east of Fiji, with the high islands of Savai'i and 'Upolu holding the vast majority of land. Lowland, montane, and cloud forests rising to 1,858 m support some of the Pacific's most unusual birds, including the critically endangered manumea pigeon and the unearthly-singing ma'oma'o honeyeater, alongside 28% plant endemism."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "a chain of fourteen volcanic islands; the high islands of Savai'i and 'Upolu; lowland, montane, and cloud forest zones; volcanic summits reaching 1,858 m",
+            "sourceIds": [
+              "one-earth-eco-629"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime with heavy orographic rainfall; dense lowland and montane forests give way to elfin cloud forest above 650 m on the highest volcanic peaks.",
+            "sourceIds": [
+              "one-earth-eco-629"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland rain forest of Diospyros, Calophyllum, Dysoxylum, and Pometia; montane forest of Dysoxylum, Syzygium, Weinmannia, and Canarium; cloud forest with Reynoldsia, Weinmannia, and Cyathea tree ferns; many single-island endemic and orchid species",
+            "sourceIds": [
+              "one-earth-eco-629"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "28% plant endemism across 536 flowering species; 84% of 37 land birds found nowhere else; day-flying behaviour of the Samoan flying fox on predator-poor islands; vulnerability to logging, clearing, and introduced predators",
+            "sourceIds": [
+              "one-earth-eco-629"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 52% with a protection level of 2. Over 80% of lowland rain forest has been lost in Western Samoa and American Samoa, and rats, cats, cane toads, mynahs, and invasive plants threaten wildlife. Priorities include securing the large central Savai'i forest block, intensive management of manumea and ma'oma'o, and expanding protected areas across key watersheds.",
+            "sourceIds": [
+              "one-earth-eco-629"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:many-colored-fruit-dove",
+            "title": "Many-colored fruit dove",
+            "subtitle": "Ptilinopus perousii",
+            "description": "Ptilinopus perousii"
+          },
+          {
+            "id": "species:manumea",
+            "title": "Manumea (tooth-billed pigeon)",
+            "subtitle": "Didunculus strigirostris",
+            "description": "Didunculus strigirostris"
+          },
+          {
+            "id": "species:maomao-honeyeater",
+            "title": "Mao (ma'oma'o) honeyeater",
+            "subtitle": "Gymnomyza samoensis",
+            "description": "Gymnomyza samoensis"
+          },
+          {
+            "id": "species:samoan-flying-fox",
+            "title": "Samoan flying fox",
+            "subtitle": "Pteropus samoensis",
+            "description": "Pteropus samoensis"
+          },
+          {
+            "id": "country:WS",
+            "title": "Samoa",
+            "subtitle": "WS",
+            "description": "ISO 3166-1 alpha-2: WS"
+          },
+          {
+            "id": "country:AS",
+            "title": "American Samoa",
+            "subtitle": "AS",
+            "description": "ISO 3166-1 alpha-2: AS"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-629",
+            "title": "Samoan Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/samoan-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:634": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Western Polynesian Tropical Moist Forests gather the scattered low atolls of the Phoenix Islands, Tokelau, and Tuvalu, together with the isolated Howland and Baker islands. Millions of seabirds nest and rest among plant communities adapted to drought, storms, and salt, while raised makatea reefs and verdant weather-side atolls support simple groves of Tournefortia, Pandanus, and Pisonia."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "three clusters of atolls and makatea islands; eight atolls in the Phoenix Islands; four atolls in Tokelau and nine in Tuvalu; the isolated Howland and Baker islands; low reefs rarely rising far above sea level",
+            "sourceIds": [
+              "one-earth-eco-634"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime with regular rainfall on Tuvalu and Tokelau but frequent drought and storm stress on the eastern Phoenix Islands and on Howland and Baker, shaping sparse drought-tolerant vegetation.",
+            "sourceIds": [
+              "one-earth-eco-634"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "short scrub of Boerhavia, Portulaca, and Sesuvium on dry atolls; Lepturus repens and L. pilgerianus grassland patches; inland groves of Tournefortia, Pandanus, and Pisonia on wetter atolls; gecko- and skink-rich green atolls in the south",
+            "sourceIds": [
+              "one-earth-eco-634"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "millions of nesting and resting seabirds feeding rich guano; salt-, drought-, and storm-tolerant plant communities; massive coconut crabs on undisturbed islands; vulnerability to invasive rats, cats, and crazy ants",
+            "sourceIds": [
+              "one-earth-eco-634"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 64% with a protection level of 10. Kiribati's Phoenix Islands Protected Area is among the largest in the world, and rats and cats have been eradicated from Howland and Baker. Priorities include eradicating invasive rats, cats, and rabbits from seabird islands, preventing little red fire ants, and restoring motus in Tuvalu and Tokelau.",
+            "sourceIds": [
+              "one-earth-eco-634"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:coconut-crab",
+            "title": "Coconut crab",
+            "subtitle": "Birgus latro",
+            "description": "Birgus latro"
+          },
+          {
+            "id": "species:pacific-imperial-pigeon",
+            "title": "Pacific imperial pigeon",
+            "subtitle": "Ducula pacifica",
+            "description": "Ducula pacifica"
+          },
+          {
+            "id": "species:long-tailed-cuckoo",
+            "title": "Long-tailed cuckoo",
+            "subtitle": "Urodynamis taitensis",
+            "description": "Urodynamis taitensis"
+          },
+          {
+            "id": "country:KI",
+            "title": "Kiribati",
+            "subtitle": "KI",
+            "description": "ISO 3166-1 alpha-2: KI"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-634",
+            "title": "Western Polynesian Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/western-polynesian-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:622": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Fiji Tropical Moist Forests cover the tall, wet, dense rainforests of the Fijian archipelago, including Fiji, Rotuma, and Wallis and Futuna, with lowland, montane, and cloud forest zones. A blend of primitive Gondwanan lineages such as Degeneria and Agathis with classic oceanic-island radiations supports over half-endemic vascular plants and brilliant endemic pigeons, parrots, honeyeaters, tree frogs, and iguanas."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "over 300 islands of the Fijian archipelago; the large high islands of Viti Levu and Vanua Levu; Rotuma and the Wallis and Futuna islands; lowland, montane, and cloud forest zones; mountain summits reaching 1,323 m",
+            "sourceIds": [
+              "one-earth-eco-622"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime with heavy orographic rainfall; dense lowland rain forest rises to montane forest and scattered cloud forest above 600–900 m on the highest ridges and peaks.",
+            "sourceIds": [
+              "one-earth-eco-622"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland forest with Degeneria vitiensis, Pandanus, and Agathis macrophylla; montane forest of Agathis, Podocarpus, Calophyllum, and Metrosideros; cloud forest of tree ferns, Dysoxylum, and Freycinetia climbers; 10 gymnosperm species and 24 native palm species, all unique to Fiji",
+            "sourceIds": [
+              "one-earth-eco-622"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "mixing of primitive Gondwanan relicts with oceanic-island radiations; high endemism with many single-island and single-site species; evolutionary radiation shaped by isolation, size, and complex topography; vulnerability to invasive rats, cats, mynahs, and mongoose",
+            "sourceIds": [
+              "one-earth-eco-622"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 84% with a protection level of 1. About 40% of the original moist forest remains, much of it in rugged terrain, but logging and plantations degrade habitats while invasive mongoose, rats, and cats impact native species. Priorities include community reserves in upper watersheds, no-go zones for logging roads, and keeping mongoose off Taveuni.",
+            "sourceIds": [
+              "one-earth-eco-622"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:taveuni-orange-dove",
+            "title": "Taveuni orange dove",
+            "subtitle": "Ptilinopus victor",
+            "description": "Ptilinopus victor"
+          },
+          {
+            "id": "species:fiji-golden-dove",
+            "title": "Fiji golden dove",
+            "subtitle": "Ptilinopus luteovirens",
+            "description": "Ptilinopus luteovirens"
+          },
+          {
+            "id": "species:masked-shining-parrot",
+            "title": "Masked shining parrot",
+            "subtitle": "Prosopeia personata",
+            "description": "Prosopeia personata"
+          },
+          {
+            "id": "species:taveuni-silktail",
+            "title": "Taveuni silktail",
+            "subtitle": "Lamprolia victoriae",
+            "description": "Lamprolia victoriae"
+          },
+          {
+            "id": "country:FJ",
+            "title": "Fiji",
+            "subtitle": "FJ",
+            "description": "ISO 3166-1 alpha-2: FJ"
+          },
+          {
+            "id": "country:WF",
+            "title": "Wallis and Futuna",
+            "subtitle": "WF",
+            "description": "ISO 3166-1 alpha-2: WF"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-622",
+            "title": "Fiji Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/fiji-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:624": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Kermadec Islands Subtropical Moist Forests cover the remote chain of 13 small islands about 1,000 km northeast of New Zealand's North Cape. Once home to millions of seabirds with no native land predators, these volcanic islets are dominated by red-flowered Metrosideros forest and act as a stepping stone for both New Zealand and tropical Pacific plants and animals, supporting a distinctive endemic flora and high seabird richness."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "a chain of 13 small volcanic islands; Raoul and Macauley comprising most of the archipelago; lowland forest and cloudier mossy montane forest; rugged volcanic terrain rising just over 500 m",
+            "sourceIds": [
+              "one-earth-eco-624"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Subtropical oceanic with mild, windy, and humid conditions; montane zones become cloudier and mossy while drier slopes support more drought-tolerant Metrosideros villosa forest.",
+            "sourceIds": [
+              "one-earth-eco-624"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "forest dominated by red-flowered Metrosideros kermadecensis; taller associates of Ascarina, Melicytus, and Nothopanax; tree ferns Cyathea milnei and C. kermadecensis; mossy montane forest with the endemic Nikau palm; 117 native vascular plants with 23 endemics",
+            "sourceIds": [
+              "one-earth-eco-624"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "an island refuge for migrating Pacific and New Zealand species; major breeding colonies of petrels and shearwaters; an endemism-rich flora with no native land mammals or reptiles; recovery of vegetation and seabirds after invasive eradications",
+            "sourceIds": [
+              "one-earth-eco-624"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 100% with a protection level of 11. Gazetted a Flora and Fauna Reserve in 1937 and surrounded by the 620,000 km2 Kermadec Ocean Sanctuary, the islands have seen goats, pigs, cats, and rats eradicated with marked recovery of seabirds and forest. Priorities include continued removal of residual invaders and invasive plants and maintaining ex-situ populations of rare plants.",
+            "sourceIds": [
+              "one-earth-eco-624"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:kermadec-pohutukawa",
+            "title": "Kermadec pōhutukawa",
+            "subtitle": "Metrosideros kermadecensis",
+            "description": "Metrosideros kermadecensis"
+          },
+          {
+            "id": "species:kermadec-red-crowned-parakeet",
+            "title": "Kermadec red-crowned parakeet",
+            "subtitle": "Cyanoramphus novaezelandiae cyanurus",
+            "description": "Cyanoramphus novaezelandiae cyanurus"
+          },
+          {
+            "id": "species:poor-knights-lily",
+            "title": "Poor Knights lily",
+            "subtitle": "Xeronema callistemon",
+            "description": "Xeronema callistemon"
+          },
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-624",
+            "title": "Kermadec Islands Subtropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/kermadec-islands-subtropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:631": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Tongan Tropical Moist Forests cover the volcanic Tongan islands, the ancient fragment of 'Eua, and the makatea outlier of Niue, supporting a classic oceanic-island biota of pigeons, honeyeaters, whistlers, geckos, and bats. Though only about 3% of the flora is endemic, the islands once held a giant iguana and 23 larger species of birds, and today harbour the endemic Tongan megapode and the black-and-yellow Tongan whistler."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic islands of the Tongan archipelago; the ancient Gondwana-derived island of 'Eua; the far-flung makatea island of Niue; uninhabited volcanic islands such as Late, Kao, and Tofua; native forest on steep terrain and a few undisturbed islets",
+            "sourceIds": [
+              "one-earth-eco-631"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical maritime with seasonal rainfall and occasional drought, supporting tropical moist forest across volcanic slopes while makatea karst and rainshadow areas remain drier.",
+            "sourceIds": [
+              "one-earth-eco-631"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "moist forest of Diospyros, Rhus, Alphitonia, and Calophyllum; forest with Pisonia grandis, Ficus, and Maniltoa grandiflora; dense staghorn fern and Psychotria in the understorey; 419 angiosperm and fern species with about 3% endemism",
+            "sourceIds": [
+              "one-earth-eco-631"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "a classic oceanic-island biota of highly dispersive taxa; the Tongan megapode as the last survivor of its Polynesian lineage; raft-dispersal of the banded iguana from the Americas; vulnerability to hunting and invasive rats, cats, and pigs",
+            "sourceIds": [
+              "one-earth-eco-631"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 27% with a protection level of 6. Most native habitat across Tonga's 170 islands has been cleared over millennia, but Late, Kao, Tofua, and parts of 'Eua retain sizeable forest. Priorities include community-based protection of these key islands, expanding rat eradication, and reducing predation and poaching of the Tongan megapode.",
+            "sourceIds": [
+              "one-earth-eco-631"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:fiji-banded-iguana",
+            "title": "Fiji banded iguana",
+            "subtitle": "Brachylophus fasciatus",
+            "description": "Brachylophus fasciatus"
+          },
+          {
+            "id": "species:tongan-whistler",
+            "title": "Tongan whistler",
+            "subtitle": "Pachycephala jacquinoti",
+            "description": "Pachycephala jacquinoti"
+          },
+          {
+            "id": "species:tongan-megapode",
+            "title": "Tongan megapode",
+            "subtitle": "Megapodius pritchardii",
+            "description": "Megapodius pritchardii"
+          },
+          {
+            "id": "country:TO",
+            "title": "Tonga",
+            "subtitle": "TO",
+            "description": "ISO 3166-1 alpha-2: TO"
+          },
+          {
+            "id": "country:NU",
+            "title": "Niue",
+            "subtitle": "NU",
+            "description": "ISO 3166-1 alpha-2: NU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-631",
+            "title": "Tongan Tropical Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/tongan-tropical-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:635": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Fiji Tropical Dry Forests occur in the rain-shadow lowlands of Viti Levu and Vanua Levu and on smaller islands of the Yasawa and Lau groups, where long dry seasons create shorter, gnarled, vine-tangled forests. These are among the most endangered forests in the Pacific, dominated by Dacrydium and Fagraea and harbouring primitive cycads, endemic sandalwood, and the flagship Fiji crested iguana."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "dry leeward lowlands of Viti Levu and Vanua Levu; dry forests on islands of the Yasawa, Lau, and Mamanuca groups; gnarled, shorter-canopied forest thick with vines; remnant patches amid talasiga savannas and farmland",
+            "sourceIds": [
+              "one-earth-eco-635"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical with long dry seasons created by mountain rain shadows, producing forest markedly drier, shorter, and more open than adjacent moist forests.",
+            "sourceIds": [
+              "one-earth-eco-635"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "dry forest dominated by Dacrydium nidulum and Fagraea gracilepes; the driest forests with Garuga floribunda and Gyrocarpus americanus; primitive cycads and Podocarpus and Gymnostoma gymnosperms; endemic Santalum yasi sandalwood in the driest habitats; 310 plant species with 36% endemic to dry forest itself",
+            "sourceIds": [
+              "one-earth-eco-635"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "rain-shadow drought shaping a distinct, fire-maintained forest; high endemism including species restricted solely to dry zones; the flagship Fiji crested iguana and banded iguana populations; vulnerability to fire, clearing, and invasive goats and rats",
+            "sourceIds": [
+              "one-earth-eco-635"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 44% with a protection level of 1. Most dry forest has long been converted to talasiga savanna, sugar cane, pine, cattle ranches, and settlements, leaving only small patches, with Yadua Taba the only protected site. Priorities include protecting Macuata Island, eradicating goats and rats from Yadua Taba, and securing community-based fire and goat control on Viti Levu.",
+            "sourceIds": [
+              "one-earth-eco-635"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:fiji-crested-iguana",
+            "title": "Fiji crested iguana",
+            "subtitle": "Brachylophus vitiensis",
+            "description": "Brachylophus vitiensis"
+          },
+          {
+            "id": "species:fiji-banded-iguana",
+            "title": "Fiji banded iguana",
+            "subtitle": "Brachylophus fasciatus",
+            "description": "Brachylophus fasciatus"
+          },
+          {
+            "id": "species:fiji-cycad",
+            "title": "Fijian cycad",
+            "subtitle": "Cycas seemannii",
+            "description": "Cycas seemannii"
+          },
+          {
+            "id": "country:FJ",
+            "title": "Fiji",
+            "subtitle": "FJ",
+            "description": "ISO 3166-1 alpha-2: FJ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-635",
+            "title": "Fiji Tropical Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/fiji-tropical-dry-forests/"
           }
         ]
       }

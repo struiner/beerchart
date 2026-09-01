@@ -96,6 +96,42 @@ export const realmEnrichment: readonly EcologicalEnrichment[] = [
       sourceIds: ['one-earth-indomalaya'],
       derivation: 'authored-summary',
     },
+    climate: {
+      value: {
+        character:
+          'Predominantly tropical, ranging from humid equatorial rainforest regimes on the lowlands and islands to pronounced monsoon and seasonal dry regimes in the continental interiors and Himalayan rain shadows.',
+      },
+      sourceIds: ['one-earth-indomalaya'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'tropical and subtropical evergreen broadleaf forest',
+        'moist broadleaf forest and coastal mangroves',
+        'subtropical evergreen and monsoon forest',
+        'dry deciduous forest, scrub, and desert',
+        'Himalayan montane forest and grassland',
+      ],
+      sourceIds: ['one-earth-indomalaya'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'monsoon-driven seasonality',
+        'one of the most biodiverse rainforest regions on Earth',
+        'island biogeography across the Sunda and South China Sea shelves',
+        'Himalayan orogeny producing steep elevational zonation',
+      ],
+      sourceIds: ['one-earth-indomalaya'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        "One Earth notes the realm shelters roughly one-fifth of the Earth's plant, animal, and marine species, with the mega-diverse nations of Indonesia, Malaysia, and the Philippines hosting four of the world's 25 biodiversity hotspots. Protecting habitat and landscape connectivity across its dense rainforests is a central conservation priority.",
+      sourceIds: ['one-earth-indomalaya'],
+      derivation: 'authored-summary',
+    },
+    countryIds: ['BT', 'IN', 'NP', 'PK'],
     sources: ['one-earth-indomalaya'],
     status: 'authored',
   },
@@ -111,17 +147,64 @@ export const realmEnrichment: readonly EcologicalEnrichment[] = [
       'Pacific coastal forests',
     ],
   ),
-  realm(
-    'oceania',
-    'Oceania consists of 11 island bioregions distributed across Polynesia, Micronesia, and Hawai‘i. Although its land area is small, its thousands of islands and vast surrounding waters contain tropical forests, dry forests, mangroves, wetlands, and exceptionally diverse marine ecosystems.',
-    [
-      'tropical oceanic islands',
-      'rainforests and dry forests',
-      'mangroves and coastal wetlands',
-      'coral reefs',
-      'vast pelagic waters',
-    ],
-  ),
+  {
+    targetId: 'realm:oceania',
+    summary: {
+      value:
+        'Oceania consists of 11 island bioregions distributed across Polynesia, Micronesia, and Hawai‘i. Although its land area is small, its thousands of islands and vast surrounding waters contain tropical forests, dry forests, mangroves, wetlands, and exceptionally diverse marine ecosystems.',
+      sourceIds: ['one-earth-oceania'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'tropical oceanic islands',
+        'rainforests and dry forests',
+        'mangroves and coastal wetlands',
+        'coral reefs',
+        'vast pelagic waters',
+      ],
+      sourceIds: ['one-earth-oceania'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical to subtropical maritime, ranging from humid rainforest regimes on windward volcanic slopes to seasonal dry and drought-prone conditions on leeward coasts and low coral atolls.',
+      },
+      sourceIds: ['one-earth-oceania'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'tropical and subtropical moist forest',
+        'tropical dry forest and woodland',
+        'mangroves and coastal wetlands',
+        'montane and high shrubland',
+        'low-island scrub and strand vegetation',
+      ],
+      sourceIds: ['one-earth-oceania'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'extreme oceanic isolation driving high endemism',
+        'volcanic island formation and succession',
+        'seabird-mediated nutrient cycling',
+        'marine nutrient flows across vast exclusive economic zones',
+      ],
+      sourceIds: ['one-earth-oceania'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        "One Earth highlights that the realm's enormous exclusive economic zones and unmatched Pacific marine biodiversity face overfishing, while its small, highly endemic land areas are acutely vulnerable to habitat loss and invasive species. New research indicates expanding marine protected areas can preserve biodiversity while increasing harvests in adjacent fisheries.",
+      sourceIds: ['one-earth-oceania'],
+      derivation: 'authored-summary',
+    },
+    countryIds: ['AS', 'CK', 'CL', 'FJ', 'KI', 'NU', 'NZ', 'PF', 'PN', 'TO', 'US', 'WF', 'WS'],
+    sources: ['one-earth-oceania'],
+    status: 'authored',
+  },
   realm(
     'southern-america',
     'Southern America covers most of the Neotropical realm in five subrealms, from Amazonia and the Andes to the Cerrado, Atlantic forests, southern grasslands, and Caribbean-facing lowlands. Its landscapes span equatorial rainforest, savanna, high mountains, coastal desert, temperate grassland, and oceanic islands.',

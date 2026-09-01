@@ -22,6 +22,69 @@ export const contentBundle = {
             "sourceIds": [
               "one-earth-indomalaya"
             ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Predominantly tropical, ranging from humid equatorial rainforest regimes on the lowlands and islands to pronounced monsoon and seasonal dry regimes in the continental interiors and Himalayan rain shadows.",
+            "sourceIds": [
+              "one-earth-indomalaya"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "tropical and subtropical evergreen broadleaf forest; moist broadleaf forest and coastal mangroves; subtropical evergreen and monsoon forest; dry deciduous forest, scrub, and desert; Himalayan montane forest and grassland",
+            "sourceIds": [
+              "one-earth-indomalaya"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "monsoon-driven seasonality; one of the most biodiverse rainforest regions on Earth; island biogeography across the Sunda and South China Sea shelves; Himalayan orogeny producing steep elevational zonation",
+            "sourceIds": [
+              "one-earth-indomalaya"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth notes the realm shelters roughly one-fifth of the Earth's plant, animal, and marine species, with the mega-diverse nations of Indonesia, Malaysia, and the Philippines hosting four of the world's 25 biodiversity hotspots. Protecting habitat and landscape connectivity across its dense rainforests is a central conservation priority.",
+            "sourceIds": [
+              "one-earth-indomalaya"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:BT",
+            "title": "Bhutan",
+            "subtitle": "BT",
+            "description": "ISO 3166-1 alpha-2: BT"
+          },
+          {
+            "id": "country:IN",
+            "title": "India",
+            "subtitle": "IN",
+            "description": "ISO 3166-1 alpha-2: IN"
+          },
+          {
+            "id": "country:NP",
+            "title": "Nepal",
+            "subtitle": "NP",
+            "description": "ISO 3166-1 alpha-2: NP"
+          },
+          {
+            "id": "country:PK",
+            "title": "Pakistan",
+            "subtitle": "PK",
+            "description": "ISO 3166-1 alpha-2: PK"
           }
         ]
       },
@@ -752,7 +815,41 @@ export const contentBundle = {
       }
     ]
   },
-  "media": {},
+  "media": {
+    "ecoregion:233": {
+      "src": "/assets/ecoregions/ecoregion-233.png",
+      "alt": "Interpretive landscape illustration of Himalayan Subtropical Broadleaf Forests.",
+      "caption": "An interpretive landscape impression of Himalayan Subtropical Broadleaf Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:302": {
+      "src": "/assets/ecoregions/ecoregion-302.png",
+      "alt": "Interpretive landscape illustration of Himalayan Subtropical Pine Forests.",
+      "caption": "An interpretive landscape impression of Himalayan Subtropical Pine Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:309": {
+      "src": "/assets/ecoregions/ecoregion-309.png",
+      "alt": "Interpretive landscape illustration of Eastern Himalayan Subalpine Conifer Forests.",
+      "caption": "An interpretive landscape impression of Eastern Himalayan Subalpine Conifer Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
   "livingCompositions": {
     "ecoregion:302": {
       "ecoregionId": "ecoregion:302",

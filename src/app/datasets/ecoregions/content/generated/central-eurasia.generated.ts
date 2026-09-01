@@ -38,6 +38,825 @@ export const contentBundle = {
           }
         ]
       }
+    ],
+    "subrealm:kazakh-steppes-hemiboreal-forests": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "The Kazakh Steppes & Hemiboreal Forests subrealm spans the central Palearctic from the Ural Mountains across western Siberia into northern and central Kazakhstan, covering two bioregions. Vast undulating feathergrass and fescue steppes, forest steppe mosaics, and a narrow belt of hemiboreal forests host grassland-adapted wildlife amid one of the world's most extensively ploughed steppe regions."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Ural-to-Sayan forest steppe band; vast undulating dry steppe plains; Kazakh Upland low mountains and hills; narrow Western Siberian hemiboreal forest belt; shallow saline and freshwater lakes",
+            "sourceIds": [
+              "one-earth-kazakh-steppes",
+              "one-earth-pa34",
+              "one-earth-pa35"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Continental, with long cold winters and short warm summers; precipitation decreases southward from the forest steppe toward the dry steppe.",
+            "sourceIds": [
+              "one-earth-pa34",
+              "one-earth-pa35"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "feathergrass and fescue dry steppe; birch and aspen forest steppe with Scots pine; halophytic salt-tolerant communities; hemiboreal fir, spruce, and lime forest; upland pine forest and rocky steppe",
+            "sourceIds": [
+              "one-earth-pa34",
+              "one-earth-pa35"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "constant wind and episodic drought; nomadic herbivore grazing; lake-driven migratory bird staging; northward forest ecotone shift",
+            "sourceIds": [
+              "one-earth-pa34",
+              "one-earth-pa35"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Vast cropland conversion, fragmented steppe habitat, overgrazing, poaching, and climate-driven drying threaten the subrealm. Protection levels are low for the steppe bioregion while the narrow hemiboreal forest belt faces logging, fire, and limited northward dispersal room.",
+            "sourceIds": [
+              "one-earth-pa34",
+              "one-earth-pa35"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:RU",
+            "title": "Russia",
+            "subtitle": "RU",
+            "description": "ISO 3166-1 alpha-2: RU"
+          },
+          {
+            "id": "country:KZ",
+            "title": "Kazakhstan",
+            "subtitle": "KZ",
+            "description": "ISO 3166-1 alpha-2: KZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-kazakh-steppes",
+            "title": "Kazakh Steppes & Hemiboreal Forests — Subrealm",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/realms/central-eurasia/"
+          },
+          {
+            "id": "one-earth-pa34",
+            "title": "Kazakh Forest Steppe & Grasslands (PA34)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/kazakh-forest-steppe-grasslands-pa34/"
+          },
+          {
+            "id": "one-earth-pa35",
+            "title": "Siberian Hemiboreal Forests & Steppe (PA35)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/siberian-hemiboreal-forests-steppe-pa35/"
+          }
+        ]
+      }
+    ],
+    "bioregion:pa34": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Kazakh Forest Steppe & Grasslands (PA34) spans the southern margin of western Siberia into northern and central Kazakhstan, containing three ecoregions. A 150–250 km-wide belt of birch-and-aspen forest steppe grades southward into the vast feathergrass and fescue dry steppe and the pine-dotted low mountains of the Kazakh Upland Steppe."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "flat forest steppe with thousands of shallow lakes; ridge-and-furrow eastern relief; undulating dry steppe plains; Kokchetau, Aktau, Karkaraly, and Chingiztau uplands; saline and freshwater lake systems",
+            "sourceIds": [
+              "one-earth-pa34",
+              "one-earth-eco-731",
+              "one-earth-eco-732",
+              "one-earth-eco-733"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Continental semi-humid to semi-arid, with long cold winters and warm summers; precipitation declines southward from roughly 400 mm in the forest steppe to 150–300 mm on the dry steppe.; 150–446 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-731",
+              "one-earth-eco-732"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "birch, aspen, and Scots pine forest steppe; meadow steppe with mesophytic herbs; feathergrass and fescue dry steppe; halophytic salt-tolerant communities; upland pine forest and rocky steppe with endemics",
+            "sourceIds": [
+              "one-earth-pa34",
+              "one-earth-eco-731",
+              "one-earth-eco-733"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "constant wind and episodic drought; seasonal lake-level and salinity cycles; nomadic herbivore and steppe rodent grazing; flyway rest-and-refueling for migrating birds",
+            "sourceIds": [
+              "one-earth-pa34",
+              "one-earth-eco-732"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth sets a combined conservation target of 27% for the bioregion with a protection level of 2. Vast Soviet-era Virgin Lands ploughing left around 60% of the steppe converted, and remaining habitat is fragmented with very low connectivity and protection, compounded by overgrazing and poaching.",
+            "sourceIds": [
+              "one-earth-pa34",
+              "one-earth-eco-732"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:saiga-antelope",
+            "title": "Saiga antelope",
+            "subtitle": "Saiga tatarica",
+            "description": "Saiga tatarica"
+          },
+          {
+            "id": "species:corsac-fox",
+            "title": "Corsac fox",
+            "subtitle": "Vulpes corsac",
+            "description": "Vulpes corsac"
+          },
+          {
+            "id": "species:steppe-eagle",
+            "title": "Steppe eagle",
+            "subtitle": "Aquila nipalensis",
+            "description": "Aquila nipalensis"
+          },
+          {
+            "id": "species:sociable-lapwing",
+            "title": "Sociable lapwing",
+            "subtitle": "Vanellus gregarius",
+            "description": "Vanellus gregarius"
+          },
+          {
+            "id": "species:goitered-gazelle",
+            "title": "Goitered gazelle",
+            "subtitle": "Gazella subgutturosa",
+            "description": "Gazella subgutturosa"
+          },
+          {
+            "id": "species:argali",
+            "title": "Argali",
+            "subtitle": "Ovis ammon",
+            "description": "Ovis ammon"
+          },
+          {
+            "id": "country:RU",
+            "title": "Russia",
+            "subtitle": "RU",
+            "description": "ISO 3166-1 alpha-2: RU"
+          },
+          {
+            "id": "country:KZ",
+            "title": "Kazakhstan",
+            "subtitle": "KZ",
+            "description": "ISO 3166-1 alpha-2: KZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-pa34",
+            "title": "Kazakh Forest Steppe & Grasslands (PA34)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/kazakh-forest-steppe-grasslands-pa34/"
+          },
+          {
+            "id": "one-earth-eco-731",
+            "title": "Kazakh Forest Steppe",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/kazakh-forest-steppe/"
+          },
+          {
+            "id": "one-earth-eco-732",
+            "title": "Kazakh Steppe",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/kazakh-steppe/"
+          },
+          {
+            "id": "one-earth-eco-733",
+            "title": "Kazakh Upland Steppe",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/kazakh-upland-steppe/"
+          }
+        ]
+      }
+    ],
+    "bioregion:pa35": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Siberian Hemiboreal Forests & Steppe (PA35) forms a single ecoregion, Western Siberian Hemiboreal Forests, occupying a narrow belt along the southern edge of the west Siberian taiga. The 2,000 km-long corridor of tall conifer, birch, aspen, and lime forest spans the transition between taiga and steppe, crossed by the Irtysh and Ob rivers."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "2000 km-long hemiboreal forest belt; approximately 150 km-wide southern taiga margin; Irtysh and Ob river crossings; forked eastern end toward the Altai foothills; swamps, bogs, and riverine floodplains",
+            "sourceIds": [
+              "one-earth-pa35",
+              "one-earth-eco-687"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Humid continental with cool summers; average monthly temperatures about -17–19.5°C and annual precipitation around 475 mm, peaking in July.; 400–550 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-687"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Siberian fir and spruce forest; Scots pine, aspen, and small-leaved lime; silver and downy birch primary forest; endemic Siberian lime near the Altai foothills; swamp flora with orchids and waterlilies",
+            "sourceIds": [
+              "one-earth-pa35",
+              "one-earth-eco-687"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "east–west and taiga–steppe dispersal corridor; fire and logging disturbance regime; bog and swamp drainage legacy; northward range shift of broad-leaved species",
+            "sourceIds": [
+              "one-earth-pa35",
+              "one-earth-eco-687"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth sets a conservation target of 32% with a protection level of 2 for the bioregion. Many zakaznik reserves exist but intact primary forest remains largely unprotected, under threat from illegal logging, oil-and-gas pollution, poaching, and a narrow latitudinal range that makes it especially sensitive to climate change.",
+            "sourceIds": [
+              "one-earth-pa35",
+              "one-earth-eco-687"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:snowy-owl",
+            "title": "Snowy owl",
+            "subtitle": "Bubo scandiacus",
+            "description": "Bubo scandiacus"
+          },
+          {
+            "id": "species:siberian-roe-deer",
+            "title": "Siberian roe deer",
+            "subtitle": "Capreolus pygargus",
+            "description": "Capreolus pygargus"
+          },
+          {
+            "id": "species:yellow-breasted-bunting",
+            "title": "Yellow-breasted bunting",
+            "subtitle": "Emberiza aureola",
+            "description": "Emberiza aureola"
+          },
+          {
+            "id": "species:siberian-lime",
+            "title": "Siberian lime",
+            "subtitle": "Tilia sibirica",
+            "description": "Tilia sibirica"
+          },
+          {
+            "id": "species:demoiselle-crane",
+            "title": "Demoiselle crane",
+            "subtitle": "Grus virgo",
+            "description": "Grus virgo"
+          },
+          {
+            "id": "country:RU",
+            "title": "Russia",
+            "subtitle": "RU",
+            "description": "ISO 3166-1 alpha-2: RU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-pa35",
+            "title": "Siberian Hemiboreal Forests & Steppe (PA35)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/siberian-hemiboreal-forests-steppe-pa35/"
+          },
+          {
+            "id": "one-earth-eco-687",
+            "title": "Western Siberian Hemiboreal Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/western-siberian-hemiboreal-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:687": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Western Siberian Hemiboreal Forests forms a latitudinal belt roughly 150 km wide and 2,000 km long along the southern edge of the west Siberian taiga, crossed by the Irtysh and Ob rivers. A humid continental climate supports mixed tall-conifer, birch, aspen, and lime forests that act as a dispersal corridor between taiga and steppe, hosting a blend of eastern and western biota."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "narrow southern taiga forest belt; Irtysh and Ob river crossings; swamps, bogs, and riverine floodplains; forked eastern end toward Altai foothills",
+            "sourceIds": [
+              "one-earth-eco-687"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Humid continental with cool summers; average monthly temperatures about -17–19.5°C and around 475 mm annual precipitation peaking in July, with mean annual temperatures just above freezing.; 400–550 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-687"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Siberian fir and Siberian spruce; Scots pine, aspen, and small-leaved lime; silver and downy birch primary forest; endemic Siberian lime near the Altai foothills; swamp flora including orchids and waterlilies",
+            "sourceIds": [
+              "one-earth-eco-687"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "east–west and taiga–steppe dispersal corridor; fire and logging disturbance regime; bog and swamp drainage legacy; northward shift of broad-leaved species",
+            "sourceIds": [
+              "one-earth-eco-687"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 33% with a protection level of 2. Intensive 1960s–1980s logging, fires, and drainage reduced small-leaved and Siberian lime, while many zakaznik reserves exist but intact primary forest remains largely unprotected, threatened by illegal logging, oil-and-gas pollution, and a narrow range highly sensitive to climate change.",
+            "sourceIds": [
+              "one-earth-eco-687"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:snowy-owl",
+            "title": "Snowy owl",
+            "subtitle": "Bubo scandiacus",
+            "description": "Bubo scandiacus"
+          },
+          {
+            "id": "species:siberian-roe-deer",
+            "title": "Siberian roe deer",
+            "subtitle": "Capreolus pygargus",
+            "description": "Capreolus pygargus"
+          },
+          {
+            "id": "species:yellow-breasted-bunting",
+            "title": "Yellow-breasted bunting",
+            "subtitle": "Emberiza aureola",
+            "description": "Emberiza aureola"
+          },
+          {
+            "id": "species:siberian-lime",
+            "title": "Siberian lime",
+            "subtitle": "Tilia sibirica",
+            "description": "Tilia sibirica"
+          },
+          {
+            "id": "species:demoiselle-crane",
+            "title": "Demoiselle crane",
+            "subtitle": "Grus virgo",
+            "description": "Grus virgo"
+          },
+          {
+            "id": "country:RU",
+            "title": "Russia",
+            "subtitle": "RU",
+            "description": "ISO 3166-1 alpha-2: RU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-687",
+            "title": "Western Siberian Hemiboreal Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/western-siberian-hemiboreal-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:731": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Kazakh Forest Steppe forms a long 150–250 km-wide band from the Ural Mountains to the Altai and Sayan foothills, its southern edge tracking much of the Russia–Kazakhstan border. A semi-humid to semi-arid climate produces a mosaic of species-rich meadow steppe and small-leaved birch, aspen, and Scots pine woodland dotted with thousands of shallow freshwater and salt lakes."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "flat relief with numerous depressions; thousands of shallow freshwater and salt lakes; ridge-and-furrow relief in the east; wide 150–250 km steppe–forest band",
+            "sourceIds": [
+              "one-earth-eco-731"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Semi-humid to semi-arid; average monthly temperatures -16–21.4°C in the southwest and -17–19.3°C in the northeast, with 322–446 mm mean annual precipitation and mean annual temperatures of 1.2–3.3°C.; 322–446 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-731"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "birch, aspen, and Scots pine woodland; species-rich meadow steppe herbs; halophytic salt-tolerant communities; shade and water-adapted forest-grassland species",
+            "sourceIds": [
+              "one-earth-eco-731"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "lake-level and salinity cycling; grazing and hay-mowing regimes; southern range edge for brown bear and moose; migratory bird staging at steppe lakes",
+            "sourceIds": [
+              "one-earth-eco-731"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 18% with a protection level of 6. The fertile, easily ploughed meadow steppes have been almost entirely converted to cropland, with surviving communities mostly on stony, uncultivable slopes. Intensifying arable farming, fertilizer runoff, and reduced grazing threaten the remaining lakes and species-rich steppe fragments.",
+            "sourceIds": [
+              "one-earth-eco-731"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:saker-falcon",
+            "title": "Saker falcon",
+            "subtitle": "Falco cherrug",
+            "description": "Falco cherrug"
+          },
+          {
+            "id": "species:siberian-roe-deer",
+            "title": "Siberian roe deer",
+            "subtitle": "Capreolus pygargus",
+            "description": "Capreolus pygargus"
+          },
+          {
+            "id": "species:yellow-breasted-bunting",
+            "title": "Yellow-breasted bunting",
+            "subtitle": "Emberiza aureola",
+            "description": "Emberiza aureola"
+          },
+          {
+            "id": "country:RU",
+            "title": "Russia",
+            "subtitle": "RU",
+            "description": "ISO 3166-1 alpha-2: RU"
+          },
+          {
+            "id": "country:KZ",
+            "title": "Kazakhstan",
+            "subtitle": "KZ",
+            "description": "ISO 3166-1 alpha-2: KZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-731",
+            "title": "Kazakh Forest Steppe",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/kazakh-forest-steppe/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:732": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Kazakh Steppe is a vast dry-steppe ecoregion bounded west by the Ural River, north and east by more humid forest steppe, and south by semi-desert. Long cold winters and 150–300 mm annual precipitation sustain an undulating sea of feathergrass and fescue, salt-tolerant communities, and brackish lakes that serve as a major migratory-bird crossroads."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "vast undulating dry-steppe plains; many brackish and saline lakes; Ishim and Irtysh river crossings; Ural River western boundary",
+            "sourceIds": [
+              "one-earth-eco-732"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Continental with long cold winters; average monthly temperatures about -19–25°C and mean annual precipitation of 150–300 mm.; 150–300 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-732"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Lessing feathergrass and steppe fescue; ephemeral tulips and madwort blooms; halophytic salt-tolerant scrub; birch, aspen, and Scots pine along watercourses",
+            "sourceIds": [
+              "one-earth-eco-732"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "wind, drought, fire, and grazing adaptation; nomadic saiga movements; flyway rest, feed, and molt for millions of birds; overgrazing pressure from pastoralism",
+            "sourceIds": [
+              "one-earth-eco-732"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 30% with a protection level of 1. About 60% of the steppe was ploughed in the Soviet Virgin Lands campaign, and remaining grassland is fragmented with very low protection and connectivity. Poaching and overgrazing threaten critically endangered saiga, birds of prey, and reptiles, while climate change, drought, and fire increase.",
+            "sourceIds": [
+              "one-earth-eco-732"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:saiga-antelope",
+            "title": "Saiga antelope",
+            "subtitle": "Saiga tatarica",
+            "description": "Saiga tatarica"
+          },
+          {
+            "id": "species:corsac-fox",
+            "title": "Corsac fox",
+            "subtitle": "Vulpes corsac",
+            "description": "Vulpes corsac"
+          },
+          {
+            "id": "species:steppe-eagle",
+            "title": "Steppe eagle",
+            "subtitle": "Aquila nipalensis",
+            "description": "Aquila nipalensis"
+          },
+          {
+            "id": "species:sociable-lapwing",
+            "title": "Sociable lapwing",
+            "subtitle": "Vanellus gregarius",
+            "description": "Vanellus gregarius"
+          },
+          {
+            "id": "species:argali",
+            "title": "Argali",
+            "subtitle": "Ovis ammon",
+            "description": "Ovis ammon"
+          },
+          {
+            "id": "country:RU",
+            "title": "Russia",
+            "subtitle": "RU",
+            "description": "ISO 3166-1 alpha-2: RU"
+          },
+          {
+            "id": "country:KZ",
+            "title": "Kazakhstan",
+            "subtitle": "KZ",
+            "description": "ISO 3166-1 alpha-2: KZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-732",
+            "title": "Kazakh Steppe",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/kazakh-steppe/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:733": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Kazakh Upland Steppe comprises three separate areas of low mountains and hills — the Kokchetau Uplands, the Aktau, Ortau, and Karkaraly massifs, and the Chingiztau range — with similar relief but differing climates. A complex mosaic of pine forest, shallow lakes, steppe meadow, and rocky scree supports endemic trees, plants, argali, goitered gazelle, and the endemic Kazakh pika."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Kokchetau Uplands in the north; Aktau, Ortau, and Karkaraly massifs; Chingiztau mountain area to the east; wind-eroded rock outcroppings",
+            "sourceIds": [
+              "one-earth-eco-733"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Continental with long cold winters; in Kokshetau average monthly temperatures are -16.1–19.7°C with 315 mm annual precipitation, while the south averages -14.8–20.9°C with 295 mm spread more evenly.; 295–315 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-733"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Scots pine forest on granitic uplands; Lessing feathergrass and steppe fescue steppe; drought-tolerant Artemisia and forage kochia scrub; endemic Berberis karkaralensis and Betula kirghisorum; ephemeral tulips and madwort blooms",
+            "sourceIds": [
+              "one-earth-eco-733"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "rocky-terrain small-mammal and predator dynamics; constant wind erosion of rock formations; nomadic pastoralism legacy; endemism across isolated upland blocks",
+            "sourceIds": [
+              "one-earth-eco-733"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One Earth reports a conservation target of 40% with a protection level of 1. Kokshetau and Karkaraly National Parks protect meadow steppe, forb-feathergrass steppe, and granite pine forest, but other upland areas lack effective management. Gold-mining pollution, human-induced fire, overgrazing, and poaching of birds of prey and mammals remain serious threats.",
+            "sourceIds": [
+              "one-earth-eco-733"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:steppe-eagle",
+            "title": "Steppe eagle",
+            "subtitle": "Aquila nipalensis",
+            "description": "Aquila nipalensis"
+          },
+          {
+            "id": "species:goitered-gazelle",
+            "title": "Goitered gazelle",
+            "subtitle": "Gazella subgutturosa",
+            "description": "Gazella subgutturosa"
+          },
+          {
+            "id": "species:argali",
+            "title": "Argali",
+            "subtitle": "Ovis ammon",
+            "description": "Ovis ammon"
+          },
+          {
+            "id": "species:kazakh-pika",
+            "title": "Kazakh pika",
+            "subtitle": "Ochotona opaca",
+            "description": "Ochotona opaca"
+          },
+          {
+            "id": "species:marbled-polecat",
+            "title": "Marbled polecat",
+            "subtitle": "Vormela peregusna",
+            "description": "Vormela peregusna"
+          },
+          {
+            "id": "country:KZ",
+            "title": "Kazakhstan",
+            "subtitle": "KZ",
+            "description": "ISO 3166-1 alpha-2: KZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-733",
+            "title": "Kazakh Upland Steppe",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/kazakh-upland-steppe/"
+          }
+        ]
+      }
     ]
   },
   "media": {}

@@ -215,7 +215,9 @@ test.describe('full ecoregion topology', () => {
     await expect(page).toHaveURL(/\/atlas\/one-earth-terrestrial-ecoregions\/entry\/ecoregion:418/);
     await expect(dashboard).toContainText('Landscape impression');
     await expect(
-      dashboard.getByRole('img', { name: /Interpretive comic-style view across treeless Arctic/ }),
+      dashboard.getByRole('img', {
+        name: 'Interpretive landscape illustration of Kalaallit Nunaat High Arctic Tundra.',
+      }),
     ).toBeVisible();
     await expect.poll(() => loadedGreenlandContent).toBe(true);
     await expect.poll(() => dashboardRuntimeResponses).toBe(1);
@@ -248,6 +250,21 @@ test.describe('full ecoregion topology', () => {
     await expect(page.getByTestId('taxonomy-profile')).toContainText(
       'Kalaallit Nunaat High Arctic Tundra',
     );
+  });
+
+  test('loads canonical local artwork in an enriched ecoregion dashboard', async ({ page }) => {
+    await page.goto(
+      '/atlas/one-earth-terrestrial-ecoregions/entry/ecoregion:615?e2e&taxonomy=ecoregions',
+    );
+    const dashboard = page.getByTestId('taxonomy-dashboard');
+    const image = dashboard.getByRole('img', {
+      name: 'Interpretive landscape illustration of South American Pacific Mangroves.',
+    });
+    await expect(image).toBeVisible();
+    await expect(image).toHaveAttribute('src', '/assets/ecoregions/ecoregion-615.png');
+    await expect
+      .poll(() => image.evaluate((element: HTMLImageElement) => element.naturalWidth))
+      .toBe(320);
   });
 
   test('drills through the lazy living-composition hierarchy with isolated state', async ({

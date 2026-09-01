@@ -38,7 +38,6986 @@ export const contentBundle = {
           }
         ]
       }
+    ],
+    "subrealm:caribbean": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "The Caribbean subrealm encompasses the Caribbean Islands bioregion, an archipelago of over 7,000 islands spanning the Caribbean Sea from Cuba to Trinidad. Six moist forest ecoregions cover the windward and leeward islands, with Cuban, Hispaniolan, Jamaican, Puerto Rican, Leeward, and Windward Islands moist forests forming a gradient from the Greater to Lesser Antilles."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic and limestone islands; coastal plains and mangroves; montane cloud forests; limestone karst formations; coral reefs and seagrass beds",
+            "sourceIds": [
+              "one-earth-caribbean",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CU",
+            "title": "Cuba",
+            "subtitle": "CU",
+            "description": "ISO 3166-1 alpha-2: CU"
+          },
+          {
+            "id": "country:DO",
+            "title": "Dominican Republic",
+            "subtitle": "DO",
+            "description": "ISO 3166-1 alpha-2: DO"
+          },
+          {
+            "id": "country:HT",
+            "title": "Haiti",
+            "subtitle": "HT",
+            "description": "ISO 3166-1 alpha-2: HT"
+          },
+          {
+            "id": "country:JM",
+            "title": "Jamaica",
+            "subtitle": "JM",
+            "description": "ISO 3166-1 alpha-2: JM"
+          },
+          {
+            "id": "country:PR",
+            "title": "Puerto Rico",
+            "subtitle": "PR",
+            "description": "ISO 3166-1 alpha-2: PR"
+          },
+          {
+            "id": "country:BS",
+            "title": "Bahamas",
+            "subtitle": "BS",
+            "description": "ISO 3166-1 alpha-2: BS"
+          },
+          {
+            "id": "country:TT",
+            "title": "Trinidad and Tobago",
+            "subtitle": "TT",
+            "description": "ISO 3166-1 alpha-2: TT"
+          },
+          {
+            "id": "country:AG",
+            "title": "Antigua and Barbuda",
+            "subtitle": "AG",
+            "description": "ISO 3166-1 alpha-2: AG"
+          },
+          {
+            "id": "country:DM",
+            "title": "Dominica",
+            "subtitle": "DM",
+            "description": "ISO 3166-1 alpha-2: DM"
+          },
+          {
+            "id": "country:GD",
+            "title": "Grenada",
+            "subtitle": "GD",
+            "description": "ISO 3166-1 alpha-2: GD"
+          },
+          {
+            "id": "country:KN",
+            "title": "Saint Kitts and Nevis",
+            "subtitle": "KN",
+            "description": "ISO 3166-1 alpha-2: KN"
+          },
+          {
+            "id": "country:LC",
+            "title": "Saint Lucia",
+            "subtitle": "LC",
+            "description": "ISO 3166-1 alpha-2: LC"
+          },
+          {
+            "id": "country:VC",
+            "title": "Saint Vincent and the Grenadines",
+            "subtitle": "VC",
+            "description": "ISO 3166-1 alpha-2: VC"
+          },
+          {
+            "id": "country:BQ",
+            "title": "Caribbean Netherlands",
+            "subtitle": "BQ",
+            "description": "ISO 3166-1 alpha-2: BQ"
+          },
+          {
+            "id": "country:CW",
+            "title": "Curaçao",
+            "subtitle": "CW",
+            "description": "ISO 3166-1 alpha-2: CW"
+          },
+          {
+            "id": "country:SX",
+            "title": "Sint Maarten",
+            "subtitle": "SX",
+            "description": "ISO 3166-1 alpha-2: SX"
+          },
+          {
+            "id": "country:AW",
+            "title": "Aruba",
+            "subtitle": "AW",
+            "description": "ISO 3166-1 alpha-2: AW"
+          },
+          {
+            "id": "country:AI",
+            "title": "Anguilla",
+            "subtitle": "AI",
+            "description": "ISO 3166-1 alpha-2: AI"
+          },
+          {
+            "id": "country:VG",
+            "title": "British Virgin Islands",
+            "subtitle": "VG",
+            "description": "ISO 3166-1 alpha-2: VG"
+          },
+          {
+            "id": "country:VI",
+            "title": "U.S. Virgin Islands",
+            "subtitle": "VI",
+            "description": "ISO 3166-1 alpha-2: VI"
+          },
+          {
+            "id": "country:KY",
+            "title": "Cayman Islands",
+            "subtitle": "KY",
+            "description": "ISO 3166-1 alpha-2: KY"
+          },
+          {
+            "id": "country:TC",
+            "title": "Turks and Caicos Islands",
+            "subtitle": "TC",
+            "description": "ISO 3166-1 alpha-2: TC"
+          },
+          {
+            "id": "country:MQ",
+            "title": "Martinique",
+            "subtitle": "MQ",
+            "description": "ISO 3166-1 alpha-2: MQ"
+          },
+          {
+            "id": "country:GP",
+            "title": "Guadeloupe",
+            "subtitle": "GP",
+            "description": "ISO 3166-1 alpha-2: GP"
+          },
+          {
+            "id": "country:BL",
+            "title": "Saint Barthélemy",
+            "subtitle": "BL",
+            "description": "ISO 3166-1 alpha-2: BL"
+          },
+          {
+            "id": "country:MF",
+            "title": "Saint Martin",
+            "subtitle": "MF",
+            "description": "ISO 3166-1 alpha-2: MF"
+          },
+          {
+            "id": "country:BB",
+            "title": "Barbados",
+            "subtitle": "BB",
+            "description": "ISO 3166-1 alpha-2: BB"
+          },
+          {
+            "id": "country:MS",
+            "title": "Montserrat",
+            "subtitle": "MS",
+            "description": "ISO 3166-1 alpha-2: MS"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-caribbean",
+            "title": "Caribbean — Subrealm",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/realms/central-america/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "subrealm:central-america": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "The Central America subrealm spans the Central American isthmus from southern Mexico to northwestern Colombia, covering three bioregions. Its 13 ecoregions form a complex mosaic of moist forests, dry forests, pine-oak forests, and mangroves along the Caribbean and Pacific coasts, with the Central American Montane Forests forming a continuous spine along the volcanic spine."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic mountain spine (Central American Volcanic Arc); Caribbean and Pacific coastal lowlands; montane cloud forests on volcanic peaks; seasonal dry forests on Pacific slopes; pine-oak savannas on interior plateaus",
+            "sourceIds": [
+              "one-earth-central-america",
+              "one-earth-nt25"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:SV",
+            "title": "El Salvador",
+            "subtitle": "SV",
+            "description": "ISO 3166-1 alpha-2: SV"
+          },
+          {
+            "id": "country:HN",
+            "title": "Honduras",
+            "subtitle": "HN",
+            "description": "ISO 3166-1 alpha-2: HN"
+          },
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          },
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          },
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          },
+          {
+            "id": "country:CO",
+            "title": "Colombia",
+            "subtitle": "CO",
+            "description": "ISO 3166-1 alpha-2: CO"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          },
+          {
+            "id": "country:BZ",
+            "title": "Belize",
+            "subtitle": "BZ",
+            "description": "ISO 3166-1 alpha-2: BZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-central-america",
+            "title": "Central America — Realm & Subrealms",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/realms/central-america/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "bioregion:nt26": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Caribbean Islands (NT26) encompasses the Greater and Lesser Antilles plus the Bahamas and Turks & Caicos. Six tropical moist forest ecoregions span the archipelago from the Cuban and Hispaniolan moist forests of the Greater Antilles through the Jamaican and Puerto Rican moist forests to the Leeward and Windward Islands moist forests of the Lesser Antilles, with additional dry forest, coniferous, wetland, xeric, and mangrove ecoregions completing the bioregion's diversity."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic and limestone islands of the Greater Antilles; coral limestone islands of the Lesser Antilles; coastal mangroves and seagrass beds; montane cloud forests on volcanic peaks; limestone karst with cave systems",
+            "sourceIds": [
+              "one-earth-nt26",
+              "one-earth-eco-459",
+              "one-earth-eco-468",
+              "one-earth-eco-472",
+              "one-earth-eco-475",
+              "one-earth-eco-495",
+              "one-earth-eco-517"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland and montane tropical moist forest; dry forest and cactus scrub on leeward coasts; pine and palm savannas on limestone substrates; mangroves and coastal wetlands; xeric shrublands on arid islands",
+            "sourceIds": [
+              "one-earth-eco-459",
+              "one-earth-eco-468",
+              "one-earth-eco-472",
+              "one-earth-eco-475",
+              "one-earth-eco-495",
+              "one-earth-eco-517"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "trade wind orographic rainfall gradient; hurricane disturbance and forest regeneration; marine nutrient subsidies from seabirds and fish; island biogeography and endemic radiation; coral reef–seagrass–mangrove connectivity",
+            "sourceIds": [
+              "one-earth-nt26",
+              "one-earth-eco-459",
+              "one-earth-eco-468",
+              "one-earth-eco-472",
+              "one-earth-eco-475",
+              "one-earth-eco-495",
+              "one-earth-eco-517"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "High endemism and severe habitat loss; over 90% of original forest cleared on many islands. Key threats: tourism development, invasive species (mongooses, rats, lionfish), climate change (sea-level rise, hurricane intensification). Protected areas include national parks in Cuba, Dominican Republic, Jamaica, Puerto Rico, and Bahamas. Regional conservation initiatives: Caribbean Challenge Initiative, Critical Ecosystem Partnership Fund.",
+            "sourceIds": [
+              "one-earth-nt26",
+              "one-earth-eco-459",
+              "one-earth-eco-468",
+              "one-earth-eco-472",
+              "one-earth-eco-475",
+              "one-earth-eco-495",
+              "one-earth-eco-517"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:cuban-trogon",
+            "title": "Cuban trogon",
+            "subtitle": "Priotelus temnurus",
+            "description": "Priotelus temnurus"
+          },
+          {
+            "id": "species:hispaniolan-trogon",
+            "title": "Hispaniolan trogon",
+            "subtitle": "Priotelus roseigaster",
+            "description": "Priotelus roseigaster"
+          },
+          {
+            "id": "species:hispaniolan-solenodon",
+            "title": "Hispaniolan solenodon",
+            "subtitle": "Solenodon paradoxus",
+            "description": "Solenodon paradoxus"
+          },
+          {
+            "id": "country:CU",
+            "title": "Cuba",
+            "subtitle": "CU",
+            "description": "ISO 3166-1 alpha-2: CU"
+          },
+          {
+            "id": "country:DO",
+            "title": "Dominican Republic",
+            "subtitle": "DO",
+            "description": "ISO 3166-1 alpha-2: DO"
+          },
+          {
+            "id": "country:HT",
+            "title": "Haiti",
+            "subtitle": "HT",
+            "description": "ISO 3166-1 alpha-2: HT"
+          },
+          {
+            "id": "country:JM",
+            "title": "Jamaica",
+            "subtitle": "JM",
+            "description": "ISO 3166-1 alpha-2: JM"
+          },
+          {
+            "id": "country:PR",
+            "title": "Puerto Rico",
+            "subtitle": "PR",
+            "description": "ISO 3166-1 alpha-2: PR"
+          },
+          {
+            "id": "country:BS",
+            "title": "Bahamas",
+            "subtitle": "BS",
+            "description": "ISO 3166-1 alpha-2: BS"
+          },
+          {
+            "id": "country:TT",
+            "title": "Trinidad and Tobago",
+            "subtitle": "TT",
+            "description": "ISO 3166-1 alpha-2: TT"
+          },
+          {
+            "id": "country:AG",
+            "title": "Antigua and Barbuda",
+            "subtitle": "AG",
+            "description": "ISO 3166-1 alpha-2: AG"
+          },
+          {
+            "id": "country:DM",
+            "title": "Dominica",
+            "subtitle": "DM",
+            "description": "ISO 3166-1 alpha-2: DM"
+          },
+          {
+            "id": "country:GD",
+            "title": "Grenada",
+            "subtitle": "GD",
+            "description": "ISO 3166-1 alpha-2: GD"
+          },
+          {
+            "id": "country:KN",
+            "title": "Saint Kitts and Nevis",
+            "subtitle": "KN",
+            "description": "ISO 3166-1 alpha-2: KN"
+          },
+          {
+            "id": "country:LC",
+            "title": "Saint Lucia",
+            "subtitle": "LC",
+            "description": "ISO 3166-1 alpha-2: LC"
+          },
+          {
+            "id": "country:VC",
+            "title": "Saint Vincent and the Grenadines",
+            "subtitle": "VC",
+            "description": "ISO 3166-1 alpha-2: VC"
+          },
+          {
+            "id": "country:BQ",
+            "title": "Caribbean Netherlands",
+            "subtitle": "BQ",
+            "description": "ISO 3166-1 alpha-2: BQ"
+          },
+          {
+            "id": "country:CW",
+            "title": "Curaçao",
+            "subtitle": "CW",
+            "description": "ISO 3166-1 alpha-2: CW"
+          },
+          {
+            "id": "country:SX",
+            "title": "Sint Maarten",
+            "subtitle": "SX",
+            "description": "ISO 3166-1 alpha-2: SX"
+          },
+          {
+            "id": "country:AW",
+            "title": "Aruba",
+            "subtitle": "AW",
+            "description": "ISO 3166-1 alpha-2: AW"
+          },
+          {
+            "id": "country:AI",
+            "title": "Anguilla",
+            "subtitle": "AI",
+            "description": "ISO 3166-1 alpha-2: AI"
+          },
+          {
+            "id": "country:VG",
+            "title": "British Virgin Islands",
+            "subtitle": "VG",
+            "description": "ISO 3166-1 alpha-2: VG"
+          },
+          {
+            "id": "country:VI",
+            "title": "U.S. Virgin Islands",
+            "subtitle": "VI",
+            "description": "ISO 3166-1 alpha-2: VI"
+          },
+          {
+            "id": "country:KY",
+            "title": "Cayman Islands",
+            "subtitle": "KY",
+            "description": "ISO 3166-1 alpha-2: KY"
+          },
+          {
+            "id": "country:TC",
+            "title": "Turks and Caicos Islands",
+            "subtitle": "TC",
+            "description": "ISO 3166-1 alpha-2: TC"
+          },
+          {
+            "id": "country:MQ",
+            "title": "Martinique",
+            "subtitle": "MQ",
+            "description": "ISO 3166-1 alpha-2: MQ"
+          },
+          {
+            "id": "country:GP",
+            "title": "Guadeloupe",
+            "subtitle": "GP",
+            "description": "ISO 3166-1 alpha-2: GP"
+          },
+          {
+            "id": "country:BL",
+            "title": "Saint Barthélemy",
+            "subtitle": "BL",
+            "description": "ISO 3166-1 alpha-2: BL"
+          },
+          {
+            "id": "country:MF",
+            "title": "Saint Martin",
+            "subtitle": "MF",
+            "description": "ISO 3166-1 alpha-2: MF"
+          },
+          {
+            "id": "country:SR",
+            "title": "Suriname",
+            "subtitle": "SR",
+            "description": "ISO 3166-1 alpha-2: SR"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          },
+          {
+            "id": "one-earth-eco-459",
+            "title": "Cuban Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cuban-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-468",
+            "title": "Hispaniolan Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/hispaniolan-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-472",
+            "title": "Jamaican Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/jamaican-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-475",
+            "title": "Leeward Islands Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/leeward-islands-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-495",
+            "title": "Puerto Rican Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/puerto-rican-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-517",
+            "title": "Windward Islands Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/windward-islands-moist-forests/"
+          }
+        ]
+      }
+    ],
+    "bioregion:nt25": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Central American Mixed Forests (NT25) spans the Central American isthmus from southern Mexico to northwestern Colombia. This bioregion encompasses 13 ecoregions spanning moist forests, dry forests, montane cloud forests, pine-oak forests, savannas, and mangroves, forming a critical biological corridor between North and South America."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic mountain spine (Central American Volcanic Arc); Caribbean and Pacific coastal lowlands; montane cloud forests on volcanic peaks; seasonal dry forests on Pacific slopes; pine-oak savannas on interior plateaus; coastal mangroves and estuaries",
+            "sourceIds": [
+              "one-earth-nt25",
+              "one-earth-eco-449",
+              "one-earth-eco-450",
+              "one-earth-eco-451",
+              "one-earth-eco-452",
+              "one-earth-eco-453",
+              "one-earth-eco-455",
+              "one-earth-eco-458",
+              "one-earth-eco-502",
+              "one-earth-eco-527",
+              "one-earth-eco-528",
+              "one-earth-eco-553",
+              "one-earth-eco-573",
+              "one-earth-eco-605",
+              "one-earth-eco-617"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical with strong elevation and coast-to-coast gradients; wet Caribbean slopes 2,000–5,000 mm, drier Pacific slopes 1,000–2,500 mm; mean annual 24–28°C lowlands, 10–18°C montane; distinct dry season Dec–Apr on Pacific side.; 500–5000 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-458",
+              "one-earth-eco-527",
+              "one-earth-eco-528",
+              "one-earth-eco-553",
+              "one-earth-eco-573",
+              "one-earth-eco-605",
+              "one-earth-eco-617"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Caribbean lowland and montane moist forests; Pacific seasonal dry forests and thornscrub; montane cloud forests and oak-pine forests; pine-oak savannas on volcanic plateaus; coastal mangroves and estuarine wetlands; subalpine páramo and grasslands on highest peaks",
+            "sourceIds": [
+              "one-earth-eco-449",
+              "one-earth-eco-450",
+              "one-earth-eco-451",
+              "one-earth-eco-452",
+              "one-earth-eco-453",
+              "one-earth-eco-455",
+              "one-earth-eco-458",
+              "one-earth-eco-502",
+              "one-earth-eco-527",
+              "one-earth-eco-528",
+              "one-earth-eco-553",
+              "one-earth-eco-573",
+              "one-earth-eco-605",
+              "one-earth-eco-617"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "volcanic arc orographic rainfall and cloud forest dynamics; Central American biotic interchange corridor (Great American Biotic Interchange); seasonal dry-wet forest phenology and fire regimes; pine-oak savanna fire ecology and grazing; mangrove-estuary-marine connectivity; highland páramo and cloud forest water capture",
+            "sourceIds": [
+              "one-earth-nt25",
+              "one-earth-eco-449",
+              "one-earth-eco-450",
+              "one-earth-eco-451",
+              "one-earth-eco-452",
+              "one-earth-eco-453",
+              "one-earth-eco-455",
+              "one-earth-eco-458",
+              "one-earth-eco-502",
+              "one-earth-eco-527",
+              "one-earth-eco-528",
+              "one-earth-eco-553",
+              "one-earth-eco-573",
+              "one-earth-eco-605",
+              "one-earth-eco-617"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Mesoamerican Biological Corridor initiative spans this bioregion. Key protected areas: Maya Biosphere (GT), Río Plátano (HN), La Amistad (CR/PA), Darien (PA). Pressures: cattle ranching, African oil palm, logging, drug trafficking, highway expansion. Critical for jaguar, Baird's tapir, harpy eagle, and scarlet macaw connectivity.",
+            "sourceIds": [
+              "one-earth-nt25",
+              "one-earth-eco-449",
+              "one-earth-eco-450",
+              "one-earth-eco-451",
+              "one-earth-eco-452",
+              "one-earth-eco-453",
+              "one-earth-eco-455",
+              "one-earth-eco-458",
+              "one-earth-eco-502",
+              "one-earth-eco-527",
+              "one-earth-eco-528",
+              "one-earth-eco-553",
+              "one-earth-eco-573",
+              "one-earth-eco-605",
+              "one-earth-eco-617"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:SV",
+            "title": "El Salvador",
+            "subtitle": "SV",
+            "description": "ISO 3166-1 alpha-2: SV"
+          },
+          {
+            "id": "country:HN",
+            "title": "Honduras",
+            "subtitle": "HN",
+            "description": "ISO 3166-1 alpha-2: HN"
+          },
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          },
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          },
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          },
+          {
+            "id": "country:CO",
+            "title": "Colombia",
+            "subtitle": "CO",
+            "description": "ISO 3166-1 alpha-2: CO"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          },
+          {
+            "id": "country:BZ",
+            "title": "Belize",
+            "subtitle": "BZ",
+            "description": "ISO 3166-1 alpha-2: BZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          },
+          {
+            "id": "one-earth-eco-449",
+            "title": "Cayos Miskitos-San Andrés and Providencia Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cayos-miskitos-san-andres-and-providencia-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-450",
+            "title": "Central American Atlantic Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/central-american-atlantic-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-451",
+            "title": "Central American Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/central-american-montane-forests/"
+          },
+          {
+            "id": "one-earth-eco-452",
+            "title": "Chiapas Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/chiapas-montane-forests/"
+          },
+          {
+            "id": "one-earth-eco-453",
+            "title": "Chimalapas Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/chimalapas-montane-forests/"
+          },
+          {
+            "id": "one-earth-eco-455",
+            "title": "Cocos Island Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cocos-island-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-458",
+            "title": "Costa Rican Seasonal Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/costa-rican-seasonal-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-502",
+            "title": "Sierra Madre De Chiapas Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-madre-de-chiapas-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-527",
+            "title": "Central American Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/central-american-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-528",
+            "title": "Chiapas Depression Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/chiapas-depression-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-553",
+            "title": "Central American Pine-Oak Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/central-american-pine-oak-forests/"
+          },
+          {
+            "id": "one-earth-eco-573",
+            "title": "Miskito Pine Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/miskito-pine-forests/"
+          },
+          {
+            "id": "one-earth-eco-605",
+            "title": "Motagua Valley Thornscrub",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/motagua-valley-thornscrub/"
+          },
+          {
+            "id": "one-earth-eco-617",
+            "title": "Southern Mesoamerican Pacific Mangroves",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/southern-mesoamerican-pacific-mangroves/"
+          }
+        ]
+      }
+    ],
+    "bioregion:nt27": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Yucatan & Veracruz Mixed Forests (NT27) spans the Gulf-Caribbean lowlands from central Veracruz across the Yucatan Peninsula and into northern Guatemala and Belize. Ten ecoregions combine moist broadleaf forests, dry deciduous forests, pine savannas, and mangrove systems around the Gulf of Mexico, forming a transition between Mesoamerican and Neoarctic biotas."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "flat limestone karst of the Yucatan Peninsula; Gulf coastal plain of Veracruz; Sierra de los Tuxtlas volcanic massif; Petén-Itzá rolling lowland; coastal lagoons and barrier islands",
+            "sourceIds": [
+              "one-earth-nt27",
+              "one-earth-eco-489",
+              "one-earth-eco-494",
+              "one-earth-eco-501",
+              "one-earth-eco-519",
+              "one-earth-eco-564"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "seasonally dry tropical forest on Guerrero-Yucatan limestone; semievergreen and evergreen moist forest; submontane and montane broadleaf forest; carr and seasonally flooded freshwater swamp; pine savanna with isolated oak; coastal mangroves and brackish lagoon vegetation",
+            "sourceIds": [
+              "one-earth-eco-489",
+              "one-earth-eco-494",
+              "one-earth-eco-501",
+              "one-earth-eco-514",
+              "one-earth-eco-515",
+              "one-earth-eco-550",
+              "one-earth-eco-551",
+              "one-earth-eco-564"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "karst hydrology shaping wetland and cenote systems; summer hurricane disturbance and regeneration; seasonal deciduous phenology on limestone soils; fire-maintained pine savanna dynamics; coastal lagoon and mangrove nutrient exchange",
+            "sourceIds": [
+              "one-earth-nt27",
+              "one-earth-eco-489",
+              "one-earth-eco-494",
+              "one-earth-eco-519",
+              "one-earth-eco-551",
+              "one-earth-eco-564"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Key protected areas include the Calakmul Biosphere Reserve (Yucatan), Los Tuxtlas, Pantanos de Centla, and the Maya Biosphere in northern Guatemala. Pressures: intensive cattle ranching, sugar cane and oil palm expansion, tourism development, and karst wetland drainage. The region is a stronghold for jaguars, howler monkeys, and migratory waterbirds.",
+            "sourceIds": [
+              "one-earth-nt27",
+              "one-earth-eco-489",
+              "one-earth-eco-494",
+              "one-earth-eco-501",
+              "one-earth-eco-519",
+              "one-earth-eco-551",
+              "one-earth-eco-564"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:jaguar",
+            "title": "Jaguar",
+            "subtitle": "Panthera onca",
+            "description": "Panthera onca"
+          },
+          {
+            "id": "species:roseate-spoonbill",
+            "title": "Roseate spoonbill",
+            "subtitle": "Platalea ajaja",
+            "description": "Platalea ajaja"
+          },
+          {
+            "id": "species:ocelot",
+            "title": "Ocelot",
+            "subtitle": "Leopardus pardalis",
+            "description": "Leopardus pardalis"
+          },
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          },
+          {
+            "id": "country:BZ",
+            "title": "Belize",
+            "subtitle": "BZ",
+            "description": "ISO 3166-1 alpha-2: BZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          },
+          {
+            "id": "one-earth-eco-489",
+            "title": "Pantanos De Centla",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/pantanos-de-centla/"
+          },
+          {
+            "id": "one-earth-eco-494",
+            "title": "Petén-Veracruz Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/peten-veracruz-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-501",
+            "title": "Sierra De Los Tuxtlas",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-de-los-tuxtlas/"
+          },
+          {
+            "id": "one-earth-eco-514",
+            "title": "Veracruz Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/veracruz-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-515",
+            "title": "Veracruz Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/veracruz-montane-forests/"
+          },
+          {
+            "id": "one-earth-eco-519",
+            "title": "Yucatan Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/yucatan-moist-forests/"
+          },
+          {
+            "id": "one-earth-eco-550",
+            "title": "Veracruz Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/veracruz-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-551",
+            "title": "Yucatan Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/yucatan-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-564",
+            "title": "Belizian Pine Savannas",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/belizian-pine-savannas/"
+          },
+          {
+            "id": "one-earth-eco-613",
+            "title": "Mesoamerican Gulf-Caribbean Mangroves",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/mesoamerican-gulf-caribbean-mangroves/"
+          }
+        ]
+      }
+    ],
+    "bioregion:nt28": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Mexican Dry & Coniferous Forests (NT28) spans southern and western Mexico from Baja California to the Trans-Mexican Volcanic Belt. Fourteen ecoregions combine dry tropical forests, montane pine-oak forests, and xeric scrub along the Pacific slopes, forming an ecotone between the tropical lowlands and the high volcanic interior."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "steep Pacific-facing mountain slopes; interior basins and valleys; Trans-Mexican Volcanic Belt peaks; Sierra de la Laguna massif of southern Baja California; xeric foothills and thorn scrub",
+            "sourceIds": [
+              "one-earth-nt28",
+              "one-earth-eco-487",
+              "one-earth-eco-522",
+              "one-earth-eco-544",
+              "one-earth-eco-556",
+              "one-earth-eco-607",
+              "one-earth-eco-610"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical dry with strong seasonal and elevational gradient; Pacific lowlands 600–1,200 mm with 5–8 month dry season, montane interior wetter; high volcanic peaks cooler with frost; mean annual 18–28°C lowlands.; 400–2500 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-521",
+              "one-earth-eco-522",
+              "one-earth-eco-534",
+              "one-earth-eco-545",
+              "one-earth-eco-559",
+              "one-earth-eco-607"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "deciduous and semi-deciduous tropical dry forest; thorn scrub and xeric matorral; oak-pine and pine-oak montane forest; cloud forest remnants in sheltered ravines; seasonally flooded freshwater swamp",
+            "sourceIds": [
+              "one-earth-eco-487",
+              "one-earth-eco-521",
+              "one-earth-eco-522",
+              "one-earth-eco-534",
+              "one-earth-eco-544",
+              "one-earth-eco-545",
+              "one-earth-eco-547",
+              "one-earth-eco-556",
+              "one-earth-eco-557",
+              "one-earth-eco-558",
+              "one-earth-eco-559",
+              "one-earth-eco-607",
+              "one-earth-eco-610"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "pronounced dry-season deciduousness; fire regimes shaping pine-oak forest structure; elevational zonation from dry lowland to montane; xeric endemism on isolated massifs; hurricane disturbance along the Pacific coast",
+            "sourceIds": [
+              "one-earth-nt28",
+              "one-earth-eco-522",
+              "one-earth-eco-544",
+              "one-earth-eco-556",
+              "one-earth-eco-559",
+              "one-earth-eco-607"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Key protected areas include the Sierra de Manantlán, Sierra de la Laguna, and Chamelá-Cuixmala reserves. Pressures: dry forest conversion for maize, cattle and avocado, logging of pine-oak forests, and urban expansion. The bioregion is a center of endemism for conifers and montane birds.",
+            "sourceIds": [
+              "one-earth-nt28",
+              "one-earth-eco-521",
+              "one-earth-eco-522",
+              "one-earth-eco-544",
+              "one-earth-eco-556",
+              "one-earth-eco-558",
+              "one-earth-eco-559",
+              "one-earth-eco-607"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          },
+          {
+            "id": "one-earth-eco-487",
+            "title": "Oaxacan Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/oaxacan-montane-forests/"
+          },
+          {
+            "id": "one-earth-eco-521",
+            "title": "Bajío Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/bajio-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-522",
+            "title": "Balsas Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/balsas-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-534",
+            "title": "Jalisco Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/jalisco-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-544",
+            "title": "Sierra de la Laguna Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-de-la-laguna-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-545",
+            "title": "Sinaloan Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sinaloan-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-547",
+            "title": "Southern Pacific Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/southern-pacific-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-556",
+            "title": "Sierra de la Laguna Pine-Oak Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-de-la-laguna-pine-oak-forests/"
+          },
+          {
+            "id": "one-earth-eco-557",
+            "title": "Sierra Madre De Oaxaca Pine-Oak Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-madre-de-oaxaca-pine-oak-forests/"
+          },
+          {
+            "id": "one-earth-eco-558",
+            "title": "Sierra Madre Del Sur Pine-Oak Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-madre-del-sur-pine-oak-forests/"
+          },
+          {
+            "id": "one-earth-eco-559",
+            "title": "Trans-Mexican Volcanic Belt Pine-Oak Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/trans-mexican-volcanic-belt-pine-oak-forests/"
+          },
+          {
+            "id": "one-earth-eco-607",
+            "title": "San Lucan Xeric Scrub",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/san-lucan-xeric-scrub/"
+          },
+          {
+            "id": "one-earth-eco-610",
+            "title": "Tehuacán Valley Matorral",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/tehuacan-valley-matorral/"
+          },
+          {
+            "id": "one-earth-eco-614",
+            "title": "Northern Mesoamerican Pacific Mangroves",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/northern-mesoamerican-pacific-mangroves/"
+          }
+        ]
+      }
+    ],
+    "bioregion:nt29": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Mexican Subtropical Islands (NT29) covers the isolated oceanic islands of Revillagigedo and Clipperton in the eastern Pacific. Two ecoregions represent subtropical dry forest and shrub-grassland systems with exceptional marine connectivity, supporting charismatic seabirds, endemic landbirds, and endemic land reptiles."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Revillagigedo volcanic islands; flat coral atoll of Clipperton Island; rocky coasts and sea cliffs; isolated crater lakes and guano terraces",
+            "sourceIds": [
+              "one-earth-nt29",
+              "one-earth-eco-533",
+              "one-earth-eco-568"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Subtropical oceanic with strong marine influence; mild temperatures 20–27°C; rainfall 300–800 mm concentrated in the hurricane season; strong trade winds and frequent storms.; 300–800 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-533",
+              "one-earth-eco-568"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "subtropical dry scrub and low forest; grassy meadows and halophytic herbs; endemic spurge and shrub thickets; succulent and cactus communities",
+            "sourceIds": [
+              "one-earth-eco-533",
+              "one-earth-eco-568"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "seabird-mediated nutrient cycling on guano terraces; oceanic island endemism and colonization; hurricane-driven disturbance and succession; marine-terrestrial nutrient subsidies",
+            "sourceIds": [
+              "one-earth-nt29",
+              "one-earth-eco-533",
+              "one-earth-eco-568"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Revillagigedo is a Mexican Biosphere Reserve and UNESCO World Heritage site surrounded by the largest fully protected marine reserve in North America. Clipperton is a French possession with minimal conservation management. Pressures: invasive species, seabird disturbance, and overfishing of surrounding waters.",
+            "sourceIds": [
+              "one-earth-nt29",
+              "one-earth-eco-533",
+              "one-earth-eco-568"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          },
+          {
+            "id": "country:FR",
+            "title": "France",
+            "subtitle": "FR",
+            "description": "ISO 3166-1 alpha-2: FR"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-nt29",
+            "title": "Mexican Subtropical Islands (NT29)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-subtropical-islands-nt29/"
+          },
+          {
+            "id": "one-earth-eco-533",
+            "title": "Islas Revillagigedo Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/islas-revillagigedo-dry-forests/"
+          },
+          {
+            "id": "one-earth-eco-568",
+            "title": "Clipperton Island Shrub and Grasslands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/clipperton-island-shrub-and-grasslands/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:459": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Cuban Moist Forests cover the mountain ranges and coastal lowlands of Cuba, the largest island in the Caribbean. This ecoregion harbors the highest plant diversity in the West Indies, with over 6,000 vascular plant species and exceptional endemism in the Sierra Maestra, Nipe-Sagua-Baracoa, and Guamuhaya massifs."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Sierra Maestra and Pico Turquino; Nipe-Sagua-Baracoa Mountains; Guamuhaya (Escambray) Mountains; northern coastal plains and wetlands; southern karst plains and mogotes",
+            "sourceIds": [
+              "one-earth-eco-459",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland rainforest (Tabebuia, Calophyllum); montane rainforest (Podocarpus, Cyrilla); cloud forest (tree ferns, epiphytes); pine savanna on serpentine soils; coastal mangroves and swamp forests",
+            "sourceIds": [
+              "one-earth-eco-459",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "orographic cloud interception and mist capture; hurricane disturbance and gap-phase regeneration; endemic radiations in Gesneria, Cubanthus, and Pinguicula; bat and bird pollination and seed dispersal",
+            "sourceIds": [
+              "one-earth-eco-459",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Extensive protected areas (Sierra Maestra, Alejandro de Humboldt, Topes de Collantes). Pressures: historical sugar cane expansion, mining, tourism, invasive species (mongooses, African tulip tree). Highest plant endemism in the Caribbean; 50% of Cuban flora endemic.",
+            "sourceIds": [
+              "one-earth-eco-459",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CU",
+            "title": "Cuba",
+            "subtitle": "CU",
+            "description": "ISO 3166-1 alpha-2: CU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-459",
+            "title": "Cuban Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cuban-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:468": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Hispaniolan Moist Forests span the central mountain ranges of Haiti and the Dominican Republic, including the Cordillera Central, Sierra de Bahoruco, and Massif de la Hotte. This ecoregion supports the Caribbean's highest peak (Pico Duarte, 3,098 m) and extraordinary amphibian and reptile endemism."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Cordillera Central and Pico Duarte; Sierra de Bahoruco and Massif de la Hotte; Cibao Valley and Lake Enriquillo basin; northern and southern coastal plains; karst limestone plateaus and caves",
+            "sourceIds": [
+              "one-earth-eco-468",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland moist forest (Swietenia, Calophyllum); montane broadleaf forest (Weinmannia, Cyrilla); cloud forest (Weinmannia, epiphytic orchids, bromeliads); pine forest (Pinus occidentalis) above 2,000 m; dry forest transition on southern slopes",
+            "sourceIds": [
+              "one-earth-eco-468",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme orographic rainfall and cloud forest dynamics; amphibian and reptile adaptive radiation (Eleutherodactylus, Anolis); bird pollination and seed dispersal (trogons, parrots); karst hydrology and cave ecosystems",
+            "sourceIds": [
+              "one-earth-eco-468",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Severe deforestation in Haiti; better protection in Dominican Republic (Jaragua, Sierra de Bahoruco, Valle Nuevo parks). Critical for endemic mammals (solenodons, hutias) and birds (hispaniolan trogon, parrots). Transboundary conservation needed for Cordillera Central and Sierra de Bahoruco.",
+            "sourceIds": [
+              "one-earth-eco-468",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:hispaniolan-trogon",
+            "title": "Hispaniolan trogon",
+            "subtitle": "Priotelus roseigaster",
+            "description": "Priotelus roseigaster"
+          },
+          {
+            "id": "species:hispaniolan-solenodon",
+            "title": "Hispaniolan solenodon",
+            "subtitle": "Solenodon paradoxus",
+            "description": "Solenodon paradoxus"
+          },
+          {
+            "id": "species:hispaniolan-parrot",
+            "title": "Hispaniolan parrot",
+            "subtitle": "Amazona ventralis",
+            "description": "Amazona ventralis"
+          },
+          {
+            "id": "country:DO",
+            "title": "Dominican Republic",
+            "subtitle": "DO",
+            "description": "ISO 3166-1 alpha-2: DO"
+          },
+          {
+            "id": "country:HT",
+            "title": "Haiti",
+            "subtitle": "HT",
+            "description": "ISO 3166-1 alpha-2: HT"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-468",
+            "title": "Hispaniolan Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/hispaniolan-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:472": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Jamaican Moist Forests cover the interior mountains of Jamaica, including the Blue Mountains (2,256 m) and John Crow Mountains. This oceanic island ecoregion exhibits extraordinary endemism, with over 800 endemic plant species and a unique avifauna shaped by millions of years of isolation."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Blue Mountains and John Crow Mountains; Cockpit Country karst plateau; northern limestone coast and harbors; southern coastal plains and wetlands; volcanic central ridge and valleys",
+            "sourceIds": [
+              "one-earth-eco-472",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland rainforest (Calophyllum, Terminalia); montane forest (Podocarpus, Cyrilla, tree ferns); elfin woodland and cloud forest above 1,500 m; cockpit country dry limestone forest; mangroves and swamp forests on coasts",
+            "sourceIds": [
+              "one-earth-eco-472",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "cloud forest mist interception and epiphyte diversity; exceptional avian endemism (streamertail, tody, owl); Cockpit Country karst hydrology and cave fauna; island biogeography and adaptive radiation",
+            "sourceIds": [
+              "one-earth-eco-472",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Blue and John Crow Mountains National Park (UNESCO). Pressures: coffee plantation encroachment, bauxite mining, invasive species (mongooses, rats), climate change. Jamaica has highest number of endemic bird species in Caribbean; critical for Jamaican tody, black-billed parrot, and yellow-billed parrot.",
+            "sourceIds": [
+              "one-earth-eco-472",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:JM",
+            "title": "Jamaica",
+            "subtitle": "JM",
+            "description": "ISO 3166-1 alpha-2: JM"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-472",
+            "title": "Jamaican Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/jamaican-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:475": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Leeward Islands Moist Forests encompass the northern Lesser Antilles from the Virgin Islands to Dominica. These small, volcanic islands support moist forests on windward slopes and in ravines, with vegetation shaped by trade winds, volcanic soils, and hurricane disturbance."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic peaks (La Soufrière, Mount Liamuiga); steep windward slopes and ravines; coastal cliffs and black sand beaches; crater lakes and hot springs; coral reefs and seagrass beds offshore",
+            "sourceIds": [
+              "one-earth-eco-475",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland rainforest (Dacryodes, Sloanea); montane rainforest (Richeria, Clusia, tree ferns); elfin woodland on exposed ridges; dry forest and cactus scrub on leeward coasts; coastal mangroves and littoral forest",
+            "sourceIds": [
+              "one-earth-eco-475",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "trade wind cloud interception on windward slopes; frequent hurricane disturbance and forest turnover; volcanic soil fertility and succession; inter-island dispersal and speciation",
+            "sourceIds": [
+              "one-earth-eco-475",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Small island states with limited land area; forest cover 20–40% remaining. Pressures: tourism development, agriculture, invasive species (green vervet monkeys, lionfish). Regional cooperation through OECS and Caribbean Challenge Initiative. Critical for endemic birds (imperial parrot, forest thrush) and sea turtles.",
+            "sourceIds": [
+              "one-earth-eco-475",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:AG",
+            "title": "Antigua and Barbuda",
+            "subtitle": "AG",
+            "description": "ISO 3166-1 alpha-2: AG"
+          },
+          {
+            "id": "country:KN",
+            "title": "Saint Kitts and Nevis",
+            "subtitle": "KN",
+            "description": "ISO 3166-1 alpha-2: KN"
+          },
+          {
+            "id": "country:VG",
+            "title": "British Virgin Islands",
+            "subtitle": "VG",
+            "description": "ISO 3166-1 alpha-2: VG"
+          },
+          {
+            "id": "country:VI",
+            "title": "U.S. Virgin Islands",
+            "subtitle": "VI",
+            "description": "ISO 3166-1 alpha-2: VI"
+          },
+          {
+            "id": "country:FR",
+            "title": "France",
+            "subtitle": "FR",
+            "description": "ISO 3166-1 alpha-2: FR"
+          },
+          {
+            "id": "country:MS",
+            "title": "Montserrat",
+            "subtitle": "MS",
+            "description": "ISO 3166-1 alpha-2: MS"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-475",
+            "title": "Leeward Islands Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/leeward-islands-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:495": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Puerto Rican Moist Forests cover the interior mountains of Puerto Rico, including the Luquillo Mountains (El Yunque) and the Central Mountain Range. This U.S. territory ecoregion is famous for the Luquillo Long-Term Ecological Research site and its well-studied tropical forest dynamics."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Luquillo Mountains and El Yunque peak; Central Mountain Range (Cordillera Central); northern karst belt and mogotes; southern coastal plains and dry forest transition; coastal mangroves and bioluminescent bays",
+            "sourceIds": [
+              "one-earth-eco-495",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "tabonuco forest (Dacryodes excelsa) 300–600 m; palo colorado forest (Cyrilla racemiflora) 600–900 m; sierra palm forest (Prestoea montana) 900–1,000 m; elfin woodland above 1,000 m; karst moist forest and coastal wetlands",
+            "sourceIds": [
+              "one-earth-eco-495",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "Luquillo LTER: hurricane disturbance and forest recovery; tabonuco dominance and mast seeding cycles; coqui frog radiation (Eleutherodactylus spp.); puerto rican parrot recovery program",
+            "sourceIds": [
+              "one-earth-eco-495",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "El Yunque National Forest (only tropical rainforest in USFS system). Forest cover recovered from 6% (1940s) to >50% today. Pressures: urban sprawl, coffee shade conversion, invasive species (African tulip tree, mongoose). Critical for Puerto Rican parrot, sharp-shinned hawk, and coqui frogs.",
+            "sourceIds": [
+              "one-earth-eco-495",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:PR",
+            "title": "Puerto Rico",
+            "subtitle": "PR",
+            "description": "ISO 3166-1 alpha-2: PR"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-495",
+            "title": "Puerto Rican Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/puerto-rican-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:517": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Windward Islands Moist Forests span the southern Lesser Antilles from Martinique to Grenada. These volcanic islands support lush moist forests on windward slopes, with some of the Caribbean's highest rainfall and most intact montane forests, particularly on Dominica and Saint Lucia."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic peaks (Mount Pelée, Soufrière, Mount Gimie); deep windward valleys and waterfalls; boiling lakes and fumaroles; black sand beaches and coastal cliffs; coral reefs and marine reserves",
+            "sourceIds": [
+              "one-earth-eco-517",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland rainforest (Dacryodes, Amanoa, Sloanea); montane rainforest (Richeria, Clusia, giant tree ferns); elfin woodland and cloud forest on summits; dry deciduous forest on leeward coasts; coastal mangroves and littoral woodland",
+            "sourceIds": [
+              "one-earth-eco-517",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme cloud interception and epiphyte biomass; volcanic disturbance and primary succession; imperial parrot and endemic bird conservation; freshwater shrimp and fish in pristine streams",
+            "sourceIds": [
+              "one-earth-eco-517",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Morne Trois Pitons (Dominica) and Pitons (Saint Lucia) UNESCO sites. Highest forest cover in Lesser Antilles (50–70%). Pressures: geothermal development, banana agriculture, invasive species, climate change. Critical for imperial parrot, Saint Lucia parrot, and endemic herpetofauna.",
+            "sourceIds": [
+              "one-earth-eco-517",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:DM",
+            "title": "Dominica",
+            "subtitle": "DM",
+            "description": "ISO 3166-1 alpha-2: DM"
+          },
+          {
+            "id": "country:GD",
+            "title": "Grenada",
+            "subtitle": "GD",
+            "description": "ISO 3166-1 alpha-2: GD"
+          },
+          {
+            "id": "country:LC",
+            "title": "Saint Lucia",
+            "subtitle": "LC",
+            "description": "ISO 3166-1 alpha-2: LC"
+          },
+          {
+            "id": "country:VC",
+            "title": "Saint Vincent and the Grenadines",
+            "subtitle": "VC",
+            "description": "ISO 3166-1 alpha-2: VC"
+          },
+          {
+            "id": "country:FR",
+            "title": "France",
+            "subtitle": "FR",
+            "description": "ISO 3166-1 alpha-2: FR"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-517",
+            "title": "Windward Islands Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/windward-islands-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:530": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Cuban Dry Forests occupy the rain shadow zones of Cuba, including the southern coastal plains, the Guanahacabibes Peninsula, and the Sierra de los Órganos foothills. This ecoregion supports drought-adapted deciduous forests and cactus scrub with high endemism in reptiles and land snails."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "southern coastal plains and Guanahacabibes Peninsula; Sierra de los Órganos foothills and valleys; limestone karst with caves and sinkholes; coastal cliffs and sandy beaches",
+            "sourceIds": [
+              "one-earth-eco-530",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "deciduous dry forest (Bursera, Tabebuia, Ceiba); cactus scrub (Opuntia, Pilosocereus, Dendrocereus); spiny thickets (Acacia, Mimosa, Randia); coastal mangrove and saltmarsh transitions",
+            "sourceIds": [
+              "one-earth-eco-530",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "deciduous leaf drop and dry-season dormancy; cactus and succulent water storage strategies; land snail and reptile adaptive radiation; hurricane disturbance and dry forest recovery",
+            "sourceIds": [
+              "one-earth-eco-530",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Less protected than moist forests; extensive conversion to pasture and sugarcane. Guanahacabibes Peninsula is a Biosphere Reserve. Pressures: tourism development, charcoal production, invasive species. Endemic Cuban crocodile and Cuban rock iguana at risk.",
+            "sourceIds": [
+              "one-earth-eco-530",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CU",
+            "title": "Cuba",
+            "subtitle": "CU",
+            "description": "ISO 3166-1 alpha-2: CU"
+          },
+          {
+            "id": "country:KY",
+            "title": "Cayman Islands",
+            "subtitle": "KY",
+            "description": "ISO 3166-1 alpha-2: KY"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-530",
+            "title": "Cuban Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cuban-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:532": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Hispaniolan Dry Forests cover the rain shadow valleys and coastal lowlands of Haiti and the Dominican Republic, including the Cul-de-Sac Plain, Valle de Neiba, and the arid southern peninsula. This ecoregion is a stronghold for the critically endangered Ricord's iguana and Hispaniolan solenodon."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Cul-de-Sac Plain and Valle de Neiba; southern peninsula (Barahona) and Sierra de Bahoruco foothills; Lake Enriquillo basin (below sea level); coastal salt flats and lagoons; limestone cliffs and karst formations",
+            "sourceIds": [
+              "one-earth-eco-532",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "thorny dry forest (Prosopis, Acacia, Capparis); cactus scrub (Consolea, Opuntia, Pilosocereus); dry deciduous forest (Bursera, Tabebuia, Swietenia); hypersaline lagoon and saltmarsh margins",
+            "sourceIds": [
+              "one-earth-eco-532",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme aridity and halophyte adaptations; Lake Enriquillo hydrology and crocodile ecology; iguana and solenodon foraging in dry forest; seasonal deciduous leaf flush with rains",
+            "sourceIds": [
+              "one-earth-eco-532",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "One of the most threatened Caribbean ecoregions; >90% cleared for agriculture and charcoal. Lake Enriquillo and Isla Cabritos National Park protect core areas. Critical for Ricord's iguana, rhinoceros iguana, and Hispaniolan solenodon. Transboundary conservation needed between Haiti and DR.",
+            "sourceIds": [
+              "one-earth-eco-532",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:hispaniolan-solenodon",
+            "title": "Hispaniolan solenodon",
+            "subtitle": "Solenodon paradoxus",
+            "description": "Solenodon paradoxus"
+          },
+          {
+            "id": "species:hispaniolan-hutia",
+            "title": "Hispaniolan hutia",
+            "subtitle": "Plagiodontia aedium",
+            "description": "Plagiodontia aedium"
+          },
+          {
+            "id": "species:ricords-iguana",
+            "title": "Ricord's iguana",
+            "subtitle": "Cyclura ricordii",
+            "description": "Cyclura ricordii"
+          },
+          {
+            "id": "species:rhinoceros-iguana",
+            "title": "Rhinoceros iguana",
+            "subtitle": "Cyclura cornuta",
+            "description": "Cyclura cornuta"
+          },
+          {
+            "id": "species:rhinoceros-iguana",
+            "title": "Rhinoceros iguana",
+            "subtitle": "Cyclura cornuta",
+            "description": "Cyclura cornuta"
+          },
+          {
+            "id": "species:ricords-iguana",
+            "title": "Ricord's iguana",
+            "subtitle": "Cyclura ricordii",
+            "description": "Cyclura ricordii"
+          },
+          {
+            "id": "country:DO",
+            "title": "Dominican Republic",
+            "subtitle": "DO",
+            "description": "ISO 3166-1 alpha-2: DO"
+          },
+          {
+            "id": "country:HT",
+            "title": "Haiti",
+            "subtitle": "HT",
+            "description": "ISO 3166-1 alpha-2: HT"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-532",
+            "title": "Hispaniolan Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/hispaniolan-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:535": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Jamaican Dry Forests occupy the southern coastal plains and rain shadow of the Blue Mountains, including the Hellshire Hills, Portland Bight, and southern Clarendon. This ecoregion supports the highest density of endemic land snails in Jamaica and unique dry forest communities on limestone."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Hellshire Hills and Portland Bight limestone plateau; southern Clarendon and St. Catherine plains; Blue Mountains rain shadow and foothills; coastal mangroves and seagrass beds; limestone caves and sinkholes",
+            "sourceIds": [
+              "one-earth-eco-535",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "dry limestone forest (Bursera, Thouinia, Coccoloba); thorny woodland (Acacia, Pithecellobium, Zanthoxylum); cactus and agave scrub (Opuntia, Agave, Pilosocereus); coastal mangroves and saline lagoons",
+            "sourceIds": [
+              "one-earth-eco-535",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "limestone karst hydrology and cave ecosystems; land snail adaptive radiation (over 500 endemic species); Jamaican iguana and dry forest reptile ecology; seasonal drought and fire dynamics",
+            "sourceIds": [
+              "one-earth-eco-535",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Hellshire Hills and Portland Bight Protected Area. Pressures: bauxite mining, charcoal production, squatting, invasive species (mongooses, feral goats). Critically endangered Jamaican iguana survives only in Hellshire Hills. Highest land snail endemism in Caribbean.",
+            "sourceIds": [
+              "one-earth-eco-535",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:JM",
+            "title": "Jamaica",
+            "subtitle": "JM",
+            "description": "ISO 3166-1 alpha-2: JM"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-535",
+            "title": "Jamaican Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/jamaican-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:537": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Lesser Antillean Dry Forests span the leeward coasts and rain shadow zones of the Lesser Antilles from the Virgin Islands to Grenada. These small island dry forests exhibit high beta diversity between islands, with each island supporting unique endemic plant and reptile communities."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic and limestone islands (Virgin Islands to Grenada); leeward coastal plains and dry valleys; limestone cliffs and coral rubble shores; salt ponds and coastal lagoons; offshore cays and seagrass beds",
+            "sourceIds": [
+              "one-earth-eco-537",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "deciduous dry forest (Bursera, Tabebuia, Lonchocarpus); cactus and acacia scrub (Opuntia, Acacia, Randia); littoral woodland (Coccoloba, Suriana, Thespesia); salt-tolerant grasslands and saline flats",
+            "sourceIds": [
+              "one-earth-eco-537",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "inter-island dispersal and speciation in reptiles; seabird nutrient transfer to dry forest; hurricane disturbance and dry forest resilience; salt spray tolerance and coastal adaptation",
+            "sourceIds": [
+              "one-earth-eco-537",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Most cleared ecoregion in Lesser Antilles; <10% original cover remains. Pressures: tourism, grazing, invasive species (goats, rats), climate change. Regional conservation through OECS and Critical Ecosystem Partnership Fund. Critical for endemic iguanas (Iguana delicatissima, Cyclura spp.) and dry forest birds.",
+            "sourceIds": [
+              "one-earth-eco-537",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:AG",
+            "title": "Antigua and Barbuda",
+            "subtitle": "AG",
+            "description": "ISO 3166-1 alpha-2: AG"
+          },
+          {
+            "id": "country:BQ",
+            "title": "Caribbean Netherlands",
+            "subtitle": "BQ",
+            "description": "ISO 3166-1 alpha-2: BQ"
+          },
+          {
+            "id": "country:AI",
+            "title": "Anguilla",
+            "subtitle": "AI",
+            "description": "ISO 3166-1 alpha-2: AI"
+          },
+          {
+            "id": "country:MS",
+            "title": "Montserrat",
+            "subtitle": "MS",
+            "description": "ISO 3166-1 alpha-2: MS"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-537",
+            "title": "Lesser Antillean Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/lesser-antillean-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:543": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Puerto Rican Dry Forests occupy the southwestern rain shadow of the Central Mountain Range, including the Guánica Dry Forest (UNESCO Biosphere Reserve), the Cabo Rojo salt flats, and the southern coastal plains. This is the best-studied tropical dry forest in the Caribbean, with the Guánica LTER providing decades of ecological data."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Guánica Dry Forest and Biosphere Reserve; Cabo Rojo salt flats and lagoons; southwestern coastal plains and hills; Central Mountain Range rain shadow foothills; coastal mangroves and bioluminescent bays",
+            "sourceIds": [
+              "one-earth-eco-543",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "deciduous dry forest (Bursera, Exostema, Krugiodendron); thorny scrub (Acacia, Prosopis, Capparis, Randia); cactus scrub (Pilosocereus, Harrisia, Melocactus); mangroves and saltmarsh at Cabo Rojo",
+            "sourceIds": [
+              "one-earth-eco-543",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "Guánica LTER: dry forest phenology and hurricane recovery; deciduous brevi-deciduous leaf exchange strategies; Puerto Rican crested toad breeding in temporary pools; dry forest bird communities and seed dispersal",
+            "sourceIds": [
+              "one-earth-eco-543",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Guánica Biosphere Reserve and Dry Forest Reserve protect ~4,000 ha. Forest cover stable but fragmented. Pressures: urban expansion (Mayagüez, Ponce), tourism, invasive species (mongooses, African bees). Successful reintroduction of Puerto Rican crested toad. Key for yellow-shouldered blackbird and Puerto Rican nightjar.",
+            "sourceIds": [
+              "one-earth-eco-543",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:PR",
+            "title": "Puerto Rico",
+            "subtitle": "PR",
+            "description": "ISO 3166-1 alpha-2: PR"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-543",
+            "title": "Puerto Rican Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/puerto-rican-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:552": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Bahamian Pineyards cover the pine-dominated lowlands of the Bahamas archipelago, including Grand Bahama, Abaco, Andros, and New Providence. This ecoregion represents the northernmost tropical pine forests in the Caribbean, dominated by Caribbean pine (Pinus caribaea) on limestone substrates with a distinctive fire-maintained savanna-woodland mosaic."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "limestone lowlands and karst plains; pine savanna and woodland mosaic; blue holes and freshwater lenses; coastal mangroves and tidal creeks; coral rubble shores and sand flats",
+            "sourceIds": [
+              "one-earth-eco-552",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Pinus caribaea var. bahamensis (Caribbean pine); palm savanna (Thrinax, Coccothrinax); coppice hardwood understory (Metopium, Bursera); coastal mangrove and saltmarsh transitions",
+            "sourceIds": [
+              "one-earth-eco-552",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "fire-maintained pine savanna dynamics; limestone karst hydrology and blue hole ecology; freshwater lens dynamics on small islands; hurricane disturbance and pine regeneration",
+            "sourceIds": [
+              "one-earth-eco-552",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Abaco and Andros national parks protect core areas. Pressures: logging, fire suppression, invasive species (feral cats, raccoons), sea-level rise. Key for Bahama warbler, Bahama swallow, and Kirtland's warbler wintering habitat.",
+            "sourceIds": [
+              "one-earth-eco-552",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:BS",
+            "title": "Bahamas",
+            "subtitle": "BS",
+            "description": "ISO 3166-1 alpha-2: BS"
+          },
+          {
+            "id": "country:TC",
+            "title": "Turks and Caicos Islands",
+            "subtitle": "TC",
+            "description": "ISO 3166-1 alpha-2: TC"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-552",
+            "title": "Bahamian Pineyards",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/bahamian-pineyards/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:554": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Cuban Pine Forests occupy the pine-dominated serpentine soils of eastern Cuba, including the Nipe-Sagua-Baracoa and Sierra Maestra massifs. This ecoregion supports endemic Pinus cubensis and Pinus tropicalis on ultramafic substrates, with high plant endemism in the Sierra Cristal and Nipe Plateau."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Sierra Cristal and Nipe Plateau serpentine outcrops; Sierra Maestra and Gran Piedra volcanic peaks; serpentine-derived lateritic soils; montane cloud forest transitions; coastal lowland transitions to moist forest",
+            "sourceIds": [
+              "one-earth-eco-554",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Pinus cubensis on serpentine soils; Pinus tropicalis on volcanic substrates; serpentine endemic shrublands (Shaferochrysa, Rondeletia); cloud forest transitions (Weinmannia, Cyrilla); gallery forests along streams",
+            "sourceIds": [
+              "one-earth-eco-554",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "serpentine soil endemic plant radiation; pine fire ecology and regeneration dynamics; cloud interception and mist capture on ridges; endemic bird and reptile associations",
+            "sourceIds": [
+              "one-earth-eco-554",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Sierra Cristal and Alejandro de Humboldt National Parks protect core areas. Pressures: nickel and cobalt mining on serpentine, historical logging, fire suppression. Cuba's only endemic pines (P. cubensis, P. tropicalis) are conservation priorities. Critical for Cuban solenodon, ivory-billed woodpecker (possibly extinct), and endemic flora.",
+            "sourceIds": [
+              "one-earth-eco-554",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CU",
+            "title": "Cuba",
+            "subtitle": "CU",
+            "description": "ISO 3166-1 alpha-2: CU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-554",
+            "title": "Cuban Pine Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cuban-pine-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:555": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Hispaniolan Pine Forests cover the high-elevation pine zones of the Cordillera Central, Sierra de Bahoruco, and Massif de la Hotte in Haiti and the Dominican Republic. Pinus occidentalis dominates above 1,500 m, forming the Caribbean's highest elevation pine forests with distinct avian and plant endemism."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Cordillera Central above 1,500 m (Pico Duarte 3,098 m); Sierra de Bahoruco and Massif de la Hotte pine zones; alpine grasslands and páramo-like vegetation above treeline; karst limestone and volcanic substrate transitions; headwater streams of major rivers (Yaque, Artibonite)",
+            "sourceIds": [
+              "one-earth-eco-555",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Pinus occidentalis (Hispaniolan pine) dominant; broadleaf cloud forest transitions (Weinmannia, Cyrilla); alpine grassland and páramo-like vegetation above 2,800 m; serpentine endemic communities on ultramafic outcrops",
+            "sourceIds": [
+              "one-earth-eco-555",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "high-elevation pine fire ecology and regeneration; cloud forest mist interception and páramo hydrology; endemic bird radiation (crossbill, warbler, trogon); headwater stream hydrology for major rivers",
+            "sourceIds": [
+              "one-earth-eco-555",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Valle Nuevo, Sierra de Bahoruco, and José del Carmen Ramírez National Parks protect core areas. Pressures: charcoal production, agricultural encroachment, fire suppression, climate-driven treeline shift. Transboundary conservation needed for Cordillera Central and Sierra de Bahoruco. Critical for Hispaniolan crossbill, white-winged warbler, and pine-endemic flora.",
+            "sourceIds": [
+              "one-earth-eco-555",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:DO",
+            "title": "Dominican Republic",
+            "subtitle": "DO",
+            "description": "ISO 3166-1 alpha-2: DO"
+          },
+          {
+            "id": "country:HT",
+            "title": "Haiti",
+            "subtitle": "HT",
+            "description": "ISO 3166-1 alpha-2: HT"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-555",
+            "title": "Hispaniolan Pine Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/hispaniolan-pine-forests/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:579": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Cuban Wetlands cover the extensive wetland complexes of Cuba, including the Zapata Swamp (the largest wetland in the Caribbean), the Lanier Swamp, and numerous coastal lagoons and marshes. This ecoregion supports the Caribbean's largest populations of Cuban crocodile, American flamingo, and numerous endemic bird species."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Zapata Swamp (Ciénaga de Zapata); Lanier Swamp on Isle of Youth; coastal lagoons and mangrove-fringed bays; limestone karst with freshwater springs; tidal flats and salt marshes",
+            "sourceIds": [
+              "one-earth-eco-579",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "sawgrass marshes (Cladium jamaicense); cattail and bulrush (Typha, Scirpus); mangrove fringes (Rhizophora, Avicennia); palm savanna (Copernicia, Thrinax); swamp forest (Annona, Tabebuia) on hummocks",
+            "sourceIds": [
+              "one-earth-eco-579",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "seasonal flood pulse and sheet flow dynamics; peat accumulation and carbon sequestration; flamingo and waterbird breeding colonies; crocodile nesting and thermal ecology; karst hydrology and freshwater lens dynamics",
+            "sourceIds": [
+              "one-earth-eco-579",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Zapata Swamp is a Ramsar site and Biosphere Reserve; largest protected wetland in Caribbean. Pressures: drainage for agriculture, invasive species (catfish, African tilapia), climate-driven salinization, tourism. Critical for Cuban crocodile, Zapata wren, Zapata rail, and American flamingo.",
+            "sourceIds": [
+              "one-earth-eco-579",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CU",
+            "title": "Cuba",
+            "subtitle": "CU",
+            "description": "ISO 3166-1 alpha-2: CU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-579",
+            "title": "Cuban Wetlands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cuban-wetlands/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:580": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Enriquillo Wetlands encompass the hypersaline Lake Enriquillo basin in the Dominican Republic and Haiti, the lowest point in the Caribbean at -46 m below sea level. This unique wetland supports the world's largest population of American crocodile in a hypersaline lake, along with endemic iguana and bird species."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Lake Enriquillo hypersaline lake (-46 m); Lake Azuéi (Etang Saumâtre) in Haiti; surrounding xeric shrublands and cactus scrub; alluvial fans and alluvial plains; hot springs and sulfur vents",
+            "sourceIds": [
+              "one-earth-eco-580",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "halophytic shrublands (Batis, Sesuvium, Salicornia); cactus scrub (Consolea, Opuntia, Pilosocereus); dry forest remnants (Prosopis, Acacia); aquatic macrophytes (Ruppia, Potamogeton) in lake margins",
+            "sourceIds": [
+              "one-earth-eco-580",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "hypersaline lake ecology and crocodile osmoregulation; lake level fluctuations driven by rainfall and evaporation; iguana foraging on cactus and halophytes; flamingo filter-feeding in hypersaline waters; tectonic subsidence and lake basin evolution",
+            "sourceIds": [
+              "one-earth-eco-580",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Lake Enriquillo and Isla Cabritos National Park; Lake Azuéi in Haiti. Rising lake levels since 2000s have flooded habitats and communities. Pressures: agricultural encroachment, charcoal production, climate-driven lake expansion. Critical for American crocodile, rhinoceros iguana, Ricord's iguana, and Caribbean flamingo.",
+            "sourceIds": [
+              "one-earth-eco-580",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:DO",
+            "title": "Dominican Republic",
+            "subtitle": "DO",
+            "description": "ISO 3166-1 alpha-2: DO"
+          },
+          {
+            "id": "country:HT",
+            "title": "Haiti",
+            "subtitle": "HT",
+            "description": "ISO 3166-1 alpha-2: HT"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-580",
+            "title": "Enriquillo Wetlands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/enriquillo-wetlands/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:599": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Caribbean Shrublands span the arid coastal zones and rain shadow areas of the Greater and Lesser Antilles, including the southern coasts of Cuba, Hispaniola, Jamaica, Puerto Rico, and the Leeward and Windward Islands. This ecoregion comprises xeric shrublands, cactus scrub, and dry thorn woodlands adapted to low rainfall and high evaporation."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "arid coastal plains and rain shadow valleys; limestone cliffs and karst plateaus; coral rubble shores and sandy beaches; salt flats and coastal lagoons; offshore cays and dry islets",
+            "sourceIds": [
+              "one-earth-eco-599",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "thorny xerophytic scrub (Prosopis, Acacia, Capparis); cactus scrub (Opuntia, Pilosocereus, Melocactus, Consolea); succulent coastal scrub (Sesuvium, Batis, Atriplex); dry thorn woodland (Bursera, Haematoxylum, Guaiacum); littoral halophytic communities",
+            "sourceIds": [
+              "one-earth-eco-599",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme drought adaptations and CAM photosynthesis; salt spray and wind shaping coastal vegetation; sea turtle nesting on arid beaches; iguana and reptile thermoregulation in xeric habitats; seasonal pulse dynamics with rare rainfall events",
+            "sourceIds": [
+              "one-earth-eco-599",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Widespread on arid coasts; many areas unprotected. Pressures: coastal tourism, charcoal production, goat grazing, invasive species. Key protected areas: Jaragua National Park (DR), Guánica Dry Forest (PR). Critical for endemic iguanas (Cyclura spp.), dry forest birds, and sea turtles.",
+            "sourceIds": [
+              "one-earth-eco-599",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:AG",
+            "title": "Antigua and Barbuda",
+            "subtitle": "AG",
+            "description": "ISO 3166-1 alpha-2: AG"
+          },
+          {
+            "id": "country:DM",
+            "title": "Dominica",
+            "subtitle": "DM",
+            "description": "ISO 3166-1 alpha-2: DM"
+          },
+          {
+            "id": "country:GD",
+            "title": "Grenada",
+            "subtitle": "GD",
+            "description": "ISO 3166-1 alpha-2: GD"
+          },
+          {
+            "id": "country:KN",
+            "title": "Saint Kitts and Nevis",
+            "subtitle": "KN",
+            "description": "ISO 3166-1 alpha-2: KN"
+          },
+          {
+            "id": "country:LC",
+            "title": "Saint Lucia",
+            "subtitle": "LC",
+            "description": "ISO 3166-1 alpha-2: LC"
+          },
+          {
+            "id": "country:VC",
+            "title": "Saint Vincent and the Grenadines",
+            "subtitle": "VC",
+            "description": "ISO 3166-1 alpha-2: VC"
+          },
+          {
+            "id": "country:CW",
+            "title": "Curaçao",
+            "subtitle": "CW",
+            "description": "ISO 3166-1 alpha-2: CW"
+          },
+          {
+            "id": "country:SX",
+            "title": "Sint Maarten",
+            "subtitle": "SX",
+            "description": "ISO 3166-1 alpha-2: SX"
+          },
+          {
+            "id": "country:AW",
+            "title": "Aruba",
+            "subtitle": "AW",
+            "description": "ISO 3166-1 alpha-2: AW"
+          },
+          {
+            "id": "country:AI",
+            "title": "Anguilla",
+            "subtitle": "AI",
+            "description": "ISO 3166-1 alpha-2: AI"
+          },
+          {
+            "id": "country:VG",
+            "title": "British Virgin Islands",
+            "subtitle": "VG",
+            "description": "ISO 3166-1 alpha-2: VG"
+          },
+          {
+            "id": "country:VI",
+            "title": "U.S. Virgin Islands",
+            "subtitle": "VI",
+            "description": "ISO 3166-1 alpha-2: VI"
+          },
+          {
+            "id": "country:MF",
+            "title": "Saint Martin",
+            "subtitle": "MF",
+            "description": "ISO 3166-1 alpha-2: MF"
+          },
+          {
+            "id": "country:FR",
+            "title": "France",
+            "subtitle": "FR",
+            "description": "ISO 3166-1 alpha-2: FR"
+          },
+          {
+            "id": "country:BB",
+            "title": "Barbados",
+            "subtitle": "BB",
+            "description": "ISO 3166-1 alpha-2: BB"
+          },
+          {
+            "id": "country:MS",
+            "title": "Montserrat",
+            "subtitle": "MS",
+            "description": "ISO 3166-1 alpha-2: MS"
+          },
+          {
+            "id": "country:NL",
+            "title": "Netherlands",
+            "subtitle": "NL",
+            "description": "ISO 3166-1 alpha-2: NL"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-599",
+            "title": "Caribbean Shrublands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/caribbean-shrublands/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:600": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Cuban Cactus Scrub occupies the most arid regions of southeastern Cuba, including the Guantánamo Bay area, the Sierra del Cristal foothills, and the Maisí Peninsula. This ecoregion represents the extreme xeric end of the Caribbean gradient, with dense columnar cactus stands and exceptional reptile endemism."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Guantánamo Bay and southeastern coastal plains; Maisí Peninsula limestone terraces; Sierra del Cristal and Sierra Maestra rain shadow; coastal cliffs and marine terraces; semi-desert valleys and dry riverbeds",
+            "sourceIds": [
+              "one-earth-eco-600",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "columnar cactus forest (Dendrocereus, Pilosocereus, Cereus); agave and succulent rosettes (Agave, Furcraea); xeric shrubland (Prosopis, Capparis, Randia); biological soil crusts (cyanobacteria, lichens)",
+            "sourceIds": [
+              "one-earth-eco-600",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme water storage and CAM metabolism in cacti; biological soil crust nitrogen fixation; reptile and invertebrate xeric adaptations; fog and dew capture by cactus spines",
+            "sourceIds": [
+              "one-earth-eco-600",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Limited protection; mostly in Guantánamo Naval Base area and Maisí Peninsula. Pressures: overgrazing, charcoal production, climate aridification. Exceptional Cuban endemic flora (Agave, Melocactus, Leptocereus) and reptiles (Cuban rock iguana, Cuban boa).",
+            "sourceIds": [
+              "one-earth-eco-600",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CU",
+            "title": "Cuba",
+            "subtitle": "CU",
+            "description": "ISO 3166-1 alpha-2: CU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-600",
+            "title": "Cuban Cactus Scrub",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cuban-cactus-scrub/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:612": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Bahamian-Antillean Mangroves fringe the coastlines of the Bahamas, Cuba, Hispaniola, Jamaica, Puerto Rico, and the Turks & Caicos, forming the most extensive mangrove system in the Caribbean. These mangroves occupy sheltered lagoons, tidal creeks, and estuaries, with the Bahamas archipelago hosting the largest contiguous stands."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Bahamas archipelago tidal creeks and flats; Cuban northern coast and Jardines de la Reina; Hispaniolan north coast and Samaná Bay; Jamaican south coast and Portland Bight; Puerto Rican bioluminescent bays and estuaries",
+            "sourceIds": [
+              "one-earth-eco-612",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Rhizophora mangle (red mangrove) seaward fringe; Avicennia germinans (black mangrove) landward; Laguncularia racemosa (white mangrove) transition; Conocarpus erectus (button mangrove) upland margin; Rhizophora harrisonii (hybrid) in mixed stands",
+            "sourceIds": [
+              "one-earth-eco-612",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "tidal inundation and salinity zonation; marine nursery for reef fish and crustaceans; carbon sequestration in anaerobic peat soils; storm surge attenuation and coastal protection; seabird and waterbird rookery habitat",
+            "sourceIds": [
+              "one-earth-eco-612",
+              "one-earth-nt26"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Extensive in Bahamas (Andros, Abaco, Grand Bahama) and Cuba (Jardines de la Reina). Pressures: coastal development, shrimp aquaculture, pollution, sea-level rise, hurricane damage. Protected in Bahamas National Parks, Cuban National Park System. Critical for bonefish, permit, tarpon fisheries and migratory shorebirds.",
+            "sourceIds": [
+              "one-earth-eco-612",
+              "one-earth-nt26"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:red-mangrove",
+            "title": "Red mangrove",
+            "subtitle": "Rhizophora mangle",
+            "description": "Rhizophora mangle"
+          },
+          {
+            "id": "species:black-mangrove",
+            "title": "Black mangrove",
+            "subtitle": "Avicennia germinans",
+            "description": "Avicennia germinans"
+          },
+          {
+            "id": "species:white-mangrove",
+            "title": "White mangrove",
+            "subtitle": "Laguncularia racemosa",
+            "description": "Laguncularia racemosa"
+          },
+          {
+            "id": "species:button-mangrove",
+            "title": "Button mangrove",
+            "subtitle": "Conocarpus erectus",
+            "description": "Conocarpus erectus"
+          },
+          {
+            "id": "species:american-flamingo",
+            "title": "American flamingo",
+            "subtitle": "Phoenicopterus ruber",
+            "description": "Phoenicopterus ruber"
+          },
+          {
+            "id": "country:CU",
+            "title": "Cuba",
+            "subtitle": "CU",
+            "description": "ISO 3166-1 alpha-2: CU"
+          },
+          {
+            "id": "country:DO",
+            "title": "Dominican Republic",
+            "subtitle": "DO",
+            "description": "ISO 3166-1 alpha-2: DO"
+          },
+          {
+            "id": "country:HT",
+            "title": "Haiti",
+            "subtitle": "HT",
+            "description": "ISO 3166-1 alpha-2: HT"
+          },
+          {
+            "id": "country:JM",
+            "title": "Jamaica",
+            "subtitle": "JM",
+            "description": "ISO 3166-1 alpha-2: JM"
+          },
+          {
+            "id": "country:PR",
+            "title": "Puerto Rico",
+            "subtitle": "PR",
+            "description": "ISO 3166-1 alpha-2: PR"
+          },
+          {
+            "id": "country:BS",
+            "title": "Bahamas",
+            "subtitle": "BS",
+            "description": "ISO 3166-1 alpha-2: BS"
+          },
+          {
+            "id": "country:KN",
+            "title": "Saint Kitts and Nevis",
+            "subtitle": "KN",
+            "description": "ISO 3166-1 alpha-2: KN"
+          },
+          {
+            "id": "country:VC",
+            "title": "Saint Vincent and the Grenadines",
+            "subtitle": "VC",
+            "description": "ISO 3166-1 alpha-2: VC"
+          },
+          {
+            "id": "country:VI",
+            "title": "U.S. Virgin Islands",
+            "subtitle": "VI",
+            "description": "ISO 3166-1 alpha-2: VI"
+          },
+          {
+            "id": "country:KY",
+            "title": "Cayman Islands",
+            "subtitle": "KY",
+            "description": "ISO 3166-1 alpha-2: KY"
+          },
+          {
+            "id": "country:TC",
+            "title": "Turks and Caicos Islands",
+            "subtitle": "TC",
+            "description": "ISO 3166-1 alpha-2: TC"
+          },
+          {
+            "id": "country:BL",
+            "title": "Saint Barthélemy",
+            "subtitle": "BL",
+            "description": "ISO 3166-1 alpha-2: BL"
+          },
+          {
+            "id": "country:FR",
+            "title": "France",
+            "subtitle": "FR",
+            "description": "ISO 3166-1 alpha-2: FR"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-612",
+            "title": "Bahamian-Antillean Mangroves",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/bahamian-antillean-mangroves/"
+          },
+          {
+            "id": "one-earth-nt26",
+            "title": "Caribbean Islands (NT26)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/caribbean-islands-nt26/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:454": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Chocó-Darién Moist Forests extend from eastern Panama through Colombia's Pacific coast to northwestern Ecuador, forming one of the world's wettest and most biodiverse lowland rainforests. This ecoregion includes the Darién Gap and the Atrato River basin, with exceptional endemism in amphibians, birds, and plants."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Darién Gap and Serranía del Darién; Atrato River floodplain and wetlands; Baudó Mountains and Pacific coastal range; Bajo Atrato floodplains and swamps; Pacific coastal mangroves and beaches",
+            "sourceIds": [
+              "one-earth-eco-454",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Super-humid tropical with 4,000–8,000 mm annual rainfall; no dry season; mean annual 24–26°C; constant cloud cover and high humidity.; 4000–8000 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-454",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland rainforest (Ceiba, Cavanillesia, Brosimum); palm-dominated swamps (Jessenia, Socratea, Mauritia); montane forest transitions (Cedrela, Weinmannia); riverine gallery forests (Ficus, Inga); coastal mangroves (Rhizophora, Avicennia)",
+            "sourceIds": [
+              "one-earth-eco-454",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "extreme rainfall and cloud forest interception; river flood pulse and nutrient cycling; exceptional amphibian and reptile endemism; large mammal corridors (jaguar, tapir, peccary); indigenous territory stewardship",
+            "sourceIds": [
+              "one-earth-eco-454",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Darién National Park (UNESCO) and Los Katíos protect core areas. Pressures: highway completion (Pan-American), illegal logging, gold mining, coca cultivation, cattle ranching. Critical for harpy eagle, jaguar, Baird's tapir, and hundreds of endemic species.",
+            "sourceIds": [
+              "one-earth-eco-454",
+              "one-earth-nt24"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          },
+          {
+            "id": "country:CO",
+            "title": "Colombia",
+            "subtitle": "CO",
+            "description": "ISO 3166-1 alpha-2: CO"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-454",
+            "title": "Chocó-Darién Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/choco-darien-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt24",
+            "title": "Central American Isthmian & Colombian Coastal Forests (NT24)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-isthmian-colombian-coastal-forests-nt24/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:461": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Eastern Panamanian Montane Forests cover the Serranía de San Blas, Serranía del Darién, and Cordillera de Juradó in eastern Panama. These isolated cloud forests harbor exceptional endemism, with many species found only on individual peaks above 1,000 m."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Serranía de San Blas and Cordillera de Juradó; cloud forest ridges above 1,000 m; steep volcanic and sedimentary slopes; headwater streams of Caribbean rivers; paramo-like vegetation on highest peaks",
+            "sourceIds": [
+              "one-earth-eco-461",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical montane with persistent cloud cover; 3,000–5,000 mm annual rainfall; mean annual 12–18°C; frequent mist and drizzle.; 3000–5000 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-461",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "cloud forest (Weinmannia, Clusia, Oreopanax); elfin woodland on exposed ridges; epiphyte-laden canopy (orchids, bromeliads, ferns); bamboo thickets (Chusquea) in clearings; terrestrial bromeliads and heliconias",
+            "sourceIds": [
+              "one-earth-eco-461",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "cloud interception and horizontal precipitation; high beta diversity between isolated peaks; hummingbird and bat pollination networks; stream headwater regulation",
+            "sourceIds": [
+              "one-earth-eco-461",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Partially protected in Darién and Chagres National Parks. Pressures: hydroelectric dams, road expansion, climate-driven cloud base lifting. Exceptional endemism in frogs (Pristimantis), salamanders (Bolitoglossa), and birds (tangara, chlorospingus).",
+            "sourceIds": [
+              "one-earth-eco-461",
+              "one-earth-nt24"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          },
+          {
+            "id": "country:CO",
+            "title": "Colombia",
+            "subtitle": "CO",
+            "description": "ISO 3166-1 alpha-2: CO"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-461",
+            "title": "Eastern Panamanian Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/eastern-panamanian-montane-forests/"
+          },
+          {
+            "id": "one-earth-nt24",
+            "title": "Central American Isthmian & Colombian Coastal Forests (NT24)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-isthmian-colombian-coastal-forests-nt24/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:470": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Isthmian-Atlantic Moist Forests cover the Caribbean slope of Panama and Costa Rica, from the San Blas range to the Tortuguero plains. This ecoregion forms a continuous moist forest corridor from the Panamanian isthmus to the Nicaraguan lowlands, with exceptional lowland rainforest diversity."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Caribbean lowlands and coastal plains; San Blas and Cordillera Central foothills; Tortuguero canals and flooded forests; San Juan and Sixaola river basins; coastal lagoons and mangrove fringes",
+            "sourceIds": [
+              "one-earth-eco-470",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland rainforest (Pentaclethra, Dipteryx, Carapa); swamp forest (Pterocarpus, Prioria, Virola); palm swamps (Raphia, Manicaria, Socratea); riparian forest (Ficus, Cecropia, Inga); coastal mangroves and raffia palms",
+            "sourceIds": [
+              "one-earth-eco-470",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "Caribbean trade wind moisture interception; river flood pulse and nutrient transport; mixed-species flock foraging dynamics; jaguar and tapir corridor connectivity; sea turtle nesting on Caribbean beaches",
+            "sourceIds": [
+              "one-earth-eco-470",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "La Amistad International Park (UNESCO) and Tortuguero National Park protect core areas. Pressures: banana and pineapple expansion, African oil palm, hydroelectric dams, road fragmentation. Critical corridor for Mesoamerican Biological Corridor initiative.",
+            "sourceIds": [
+              "one-earth-eco-470",
+              "one-earth-nt24"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          },
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          },
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-470",
+            "title": "Isthmian-Atlantic Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/isthmian-atlantic-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt24",
+            "title": "Central American Isthmian & Colombian Coastal Forests (NT24)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-isthmian-colombian-coastal-forests-nt24/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:471": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Isthmian-Pacific Moist Forests cover the Pacific slope of Costa Rica and western Panama, from the Osa Peninsula to the Azuero Peninsula. This ecoregion includes the last extensive lowland Pacific rainforests in Central America, with strong seasonal rainfall gradient."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Osa Peninsula and Golfo Dulce; Fila Costeña coastal range; Central Valley rain shadow transition; Azuero Peninsula dry forest transition; Golfo de Chiriquí and Coiba Island",
+            "sourceIds": [
+              "one-earth-eco-471",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland rainforest (Caryocar, Couma, Vochysia); deciduous moist forest (Bombacopsis, Enterolobium); riparian gallery forest (Tabebuia, Pithecellobium); mangrove and estuarine complexes; coastal strand and beach vegetation",
+            "sourceIds": [
+              "one-earth-eco-471",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "strong wet/dry season phenology and flowering; vertical migration of frugivores (toucans, bellbirds); mangrove-estuary-reef connectivity; scarlet macaw and great curassow seed dispersal",
+            "sourceIds": [
+              "one-earth-eco-471",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Corcovado and Piedras Blancas National Parks protect Osa Peninsula. Pressures: African oil palm expansion, tourism development, gold mining, hunting. Osa Peninsula holds 2.5% of global biodiversity in <0.001% of land area.",
+            "sourceIds": [
+              "one-earth-eco-471",
+              "one-earth-nt24"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          },
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-471",
+            "title": "Isthmian-Pacific Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/isthmian-pacific-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt24",
+            "title": "Central American Isthmian & Colombian Coastal Forests (NT24)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-isthmian-colombian-coastal-forests-nt24/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:478": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Magdalena-Urabá Moist Forests cover the Caribbean lowlands of northern Colombia, from the Gulf of Urabá to the Magdalena River delta. This ecoregion includes the Serranía de Abibe, Sinú River wetlands, and the Ciénaga Grande de Santa Marta, forming a critical wetland-forest mosaic."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Gulf of Urabá and Serranía de Abibe; Sinú and San Jorge river floodplains; Ciénaga Grande de Santa Marta lagoon complex; Magdalena River delta and distributaries; coastal mangroves and barrier islands",
+            "sourceIds": [
+              "one-earth-eco-478",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "lowland rainforest (Cavanillesia, Ceiba, Cariniana); flooded forest (Mauritia, Euterpe, Symphonia); mangrove and coastal lagoon margins; savanna and gallery forest on higher ground; freshwater marsh and herbaceous wetlands",
+            "sourceIds": [
+              "one-earth-eco-478",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "river flood pulse and sediment deposition; mangrove-lagoon-estuary connectivity; migratory bird stopover (shorebirds, waterfowl); manatee and river dolphin habitat; sediment accretion and delta dynamics",
+            "sourceIds": [
+              "one-earth-eco-478",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Los Katíos, Paramillo, and Sierra Nevada parks protect fragments. Pressures: cattle ranching, oil palm, gold mining, hydroelectric dams, illegal crops. Ciénaga Grande is a Ramsar site. Critical for cotton-top tamarin, blue-billed curassow, and Caribbean manatee.",
+            "sourceIds": [
+              "one-earth-eco-478",
+              "one-earth-nt24"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CO",
+            "title": "Colombia",
+            "subtitle": "CO",
+            "description": "ISO 3166-1 alpha-2: CO"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-478",
+            "title": "Magdalena-Urabá Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/magdalena-uraba-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt24",
+            "title": "Central American Isthmian & Colombian Coastal Forests (NT24)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-isthmian-colombian-coastal-forests-nt24/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:506": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Talamancan Montane Forests span the Cordillera de Talamanca across Costa Rica and western Panama, including Chirripó (3,820 m), the highest peak in Central America. This ecoregion encompasses cloud forests, páramo, and subalpine zones with exceptional endemism."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Cordillera de Talamanca and Cerro Chirripó; páramo and subalpine zones above 3,000 m; cloud forest on Caribbean and Pacific slopes; glacial cirques and moraines (Chirripó); headwaters of major rivers (Térraba, Changuinola)",
+            "sourceIds": [
+              "one-earth-eco-506",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "cloud forest (Quercus, Chusquea, Weinmannia); subalpine páramo (Espeletia, Hypericum, Senecio); bamboo thickets (Chusquea) at treeline; elfin forest on wind-exposed ridges; bog and wetland complexes in valleys",
+            "sourceIds": [
+              "one-earth-eco-506",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "cloud forest water capture and stream regulation; páramo endemic plant radiation (Espeletia, Senecio); quetzal and hummingbird pollination networks; glacial legacy and climate change sentinel",
+            "sourceIds": [
+              "one-earth-eco-506",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "La Amistad International Park (UNESCO) and Chirripó National Park protect the core. Pressures: climate-driven páramo loss, tourism pressure, hydroelectric projects. Highest endemism in Central America for amphibians, birds, and plants. Resplendent quetzal stronghold.",
+            "sourceIds": [
+              "one-earth-eco-506",
+              "one-earth-nt24"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          },
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-506",
+            "title": "Talamancan Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/talamancan-montane-forests/"
+          },
+          {
+            "id": "one-earth-nt24",
+            "title": "Central American Isthmian & Colombian Coastal Forests (NT24)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-isthmian-colombian-coastal-forests-nt24/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:541": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Panamanian Dry Forests occupy the Pacific coastal plain and foothills of central Panama, from the Bay of Panama to the Azuero Peninsula. This ecoregion represents the driest forests in Panama, with a 5–6 month dry season and deciduous vegetation on clay and alluvial soils."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Pacific coastal plain and Bay of Panama; Azuero Peninsula hills and valleys; seasonal river valleys (Parita, Santa María); mangrove-lined estuaries and mudflats; coastal cliffs and rocky headlands",
+            "sourceIds": [
+              "one-earth-eco-541",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "deciduous dry forest (Bombacopsis, Enterolobium, Cavanillesia); thorny woodland (Acacia, Prosopis, Mimosa); cactus and agave scrub (Stenocereus, Agave); gallery forest along permanent streams; mangrove fringes on estuaries",
+            "sourceIds": [
+              "one-earth-eco-541",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "deciduous leaf flush with onset of rains; migratory raptor concentrations (Swainson's hawk, broad-winged hawk); sea turtle nesting on Pacific beaches; dry forest pollination by bats and bees",
+            "sourceIds": [
+              "one-earth-eco-541",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Less than 5% of original extent remains; highly fragmented by cattle ranching and agriculture. Sarigua National Park protects degraded dry forest. Pressures: cattle ranching, rice cultivation, urban expansion, fire. Critical for Azuero parakeet, Azuero spider monkey, and dry forest endemics.",
+            "sourceIds": [
+              "one-earth-eco-541",
+              "one-earth-nt24"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-541",
+            "title": "Panamanian Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/panamanian-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt24",
+            "title": "Central American Isthmian & Colombian Coastal Forests (NT24)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-isthmian-colombian-coastal-forests-nt24/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:604": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Malpelo Island Xeric Scrub covers the remote volcanic island of Malpelo, 500 km off Colombia's Pacific coast. This tiny oceanic island supports a unique xeric scrub community on volcanic rock, with massive seabird colonies and endemic reptiles."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic island (350 m max elevation); steep cliffs and rocky shores; guano-enriched coastal slopes; sea caves and underwater cliffs; surrounding pelagic waters",
+            "sourceIds": [
+              "one-earth-eco-604",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "xeric scrub (Croton, Tournefortia, Portulaca); succulent herbs (Portulaca, Sesuvium); lichens and cyanobacterial crusts on rock; no native trees or woody vegetation",
+            "sourceIds": [
+              "one-earth-eco-604",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "seabird guano nutrient enrichment; marine nutrient subsidy to terrestrial ecosystem; endemic lizard and crab populations; marine iguana foraging in intertidal zone",
+            "sourceIds": [
+              "one-earth-eco-604",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Malpelo Fauna and Flora Sanctuary (UNESCO) protects the island and 857,000 ha marine reserve. No permanent human population. Pressures: illegal fishing, climate change, invasive species. Largest masked booby and Nazca booby colonies in Eastern Pacific.",
+            "sourceIds": [
+              "one-earth-eco-604",
+              "one-earth-nt24"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CO",
+            "title": "Colombia",
+            "subtitle": "CO",
+            "description": "ISO 3166-1 alpha-2: CO"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-604",
+            "title": "Malpelo Island Xeric Scrub",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/malpelo-island-xeric-scrub/"
+          },
+          {
+            "id": "one-earth-nt24",
+            "title": "Central American Isthmian & Colombian Coastal Forests (NT24)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-isthmian-colombian-coastal-forests-nt24/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:613": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Mesoamerican Gulf-Caribbean Mangroves fringe the Gulf of Mexico and Caribbean coasts from southern Mexico to northern Colombia, including the Yucatán Peninsula, Belize, Guatemala, Honduras, Nicaragua, and Costa Rica. This ecoregion forms the most extensive mangrove system in the Mesoamerican region, with the largest stands in Belize and the Yucatán."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Yucatán Peninsula coastal lagoons (Celestún, Ría Lagartos); Belize barrier reef lagoon and cay mangroves; Guatemala and Honduras Caribbean estuaries; Nicaragua and Costa Rica Caribbean deltas; Panama Gulf of Chiriquí and Bocas del Toro",
+            "sourceIds": [
+              "one-earth-eco-613",
+              "one-earth-nt24",
+              "one-earth-nt25",
+              "one-earth-nt27"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Rhizophora mangle (red mangrove) seaward; Avicennia germinans (black mangrove) landward; Laguncularia racemosa (white mangrove) transition; Conocarpus erectus (button mangrove) upland; Rhizophora harrisonii in mixed stands",
+            "sourceIds": [
+              "one-earth-eco-613",
+              "one-earth-nt24",
+              "one-earth-nt25",
+              "one-earth-nt27"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "tidal inundation and salinity gradient zonation; marine nursery for snapper, grouper, shrimp, lobster; carbon sequestration in mangrove peat; hurricane and storm surge buffering; seabird and crocodile nesting habitat",
+            "sourceIds": [
+              "one-earth-eco-613",
+              "one-earth-nt24",
+              "one-earth-nt25",
+              "one-earth-nt27"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Extensive in Belize (Southern Lagoon, Turneffe), Mexico (Sian Ka'an, Ría Lagartos), Panama (Gulf of Chiriquí). Pressures: shrimp aquaculture, coastal tourism, pollution, sea-level rise. Protected in Belize Coastal Zone, Sian Ka'an Biosphere, Gulf of Chiriquí. Critical for bonefish, tarpon, permit, and migratory shorebirds.",
+            "sourceIds": [
+              "one-earth-eco-613",
+              "one-earth-nt24",
+              "one-earth-nt25",
+              "one-earth-nt27"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:HN",
+            "title": "Honduras",
+            "subtitle": "HN",
+            "description": "ISO 3166-1 alpha-2: HN"
+          },
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          },
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          },
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          },
+          {
+            "id": "country:BZ",
+            "title": "Belize",
+            "subtitle": "BZ",
+            "description": "ISO 3166-1 alpha-2: BZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-613",
+            "title": "Mesoamerican Gulf-Caribbean Mangroves",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/mesoamerican-gulf-caribbean-mangroves/"
+          },
+          {
+            "id": "one-earth-nt24",
+            "title": "Central American Isthmian & Colombian Coastal Forests (NT24)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-isthmian-colombian-coastal-forests-nt24/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          },
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:614": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Northern Mesoamerican Pacific Mangroves extend along the Pacific coast from southern Mexico through Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, to northern Panama. This ecoregion occupies estuaries, coastal lagoons, and river deltas where seasonal freshwater input creates brackish conditions, with the largest stands in the Gulf of Fonseca and Gulf of Nicoya."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Pacific coastal lagoons and estuaries (Gulf of Fonseca, Gulf of Nicoya); river deltas (Lempa, Grande de Tárcoles, Tempisque); volcanic coastal plains and black sand beaches; seasonal dry forest transitions inland; offshore islands and volcanic islets",
+            "sourceIds": [
+              "one-earth-eco-614",
+              "one-earth-na30",
+              "one-earth-nt28"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Rhizophora mangle (red mangrove) seaward fringe; Avicennia germinans (black mangrove) landward; Laguncularia racemosa (white mangrove) transition; Conocarpus erectus (button mangrove) upland margin; Rhizophora harrisonii in mixed stands",
+            "sourceIds": [
+              "one-earth-eco-614",
+              "one-earth-na30",
+              "one-earth-nt28"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "seasonal salinity gradient and species zonation; marine nursery for shrimp, snapper, snook; carbon sequestration in mangrove sediments; storm surge protection for coastal communities; migratory shorebird and waterbird habitat",
+            "sourceIds": [
+              "one-earth-eco-614",
+              "one-earth-na30",
+              "one-earth-nt28"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Gulf of Fonseca and Gulf of Nicoya host largest stands. Pressures: shrimp aquaculture (major driver), salt production, coastal development, pollution, sea-level rise. Protected in Bahía de Jiquilisco (ES), Estero Real (NI), Palo Verde (CR), Gulf of Chiriquí (PA). Critical for shrimp fisheries and migratory shorebirds.",
+            "sourceIds": [
+              "one-earth-eco-614",
+              "one-earth-na30",
+              "one-earth-nt28"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:red-mangrove",
+            "title": "Red mangrove",
+            "subtitle": "Rhizophora mangle",
+            "description": "Rhizophora mangle"
+          },
+          {
+            "id": "species:black-mangrove",
+            "title": "Black mangrove",
+            "subtitle": "Avicennia germinans",
+            "description": "Avicennia germinans"
+          },
+          {
+            "id": "species:white-mangrove",
+            "title": "White mangrove",
+            "subtitle": "Laguncularia racemosa",
+            "description": "Laguncularia racemosa"
+          },
+          {
+            "id": "species:button-mangrove",
+            "title": "Button mangrove",
+            "subtitle": "Conocarpus erectus",
+            "description": "Conocarpus erectus"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-614",
+            "title": "Northern Mesoamerican Pacific Mangroves",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/northern-mesoamerican-pacific-mangroves/"
+          },
+          {
+            "id": "one-earth-na30",
+            "title": "Baja California & Southern Deserts (NA30)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/baja-california-southern-deserts-na30/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:449": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Cayos Miskitos-San Andrés and Providencia Moist Forests cover the Mosquito Coast offshore islands and the Colombian archipelago of San Andrés and Providencia, with low-lying tropical moist forests influenced by Caribbean trade winds. These island ecoregions serve as critical stepping stones for Neotropical migrants and harbor distinctive avifauna."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          },
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          },
+          {
+            "id": "country:CO",
+            "title": "Colombia",
+            "subtitle": "CO",
+            "description": "ISO 3166-1 alpha-2: CO"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-449",
+            "title": "Cayos Miskitos-San Andrés and Providencia Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cayos-miskitos-san-andres-and-providencia-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:450": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Central American Atlantic Moist Forests form a continuous lowland belt along the Caribbean coast from southeastern Mexico through Belize, Guatemala, Honduras, Nicaragua, and Costa Rica to Panama, hosting evergreen tropical rainforest driven by year-round trade-wind rainfall. This is the largest intact tropical rainforest corridor remaining in Mesoamerica and supports exceptional biodiversity including jaguars and tapirs."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:HN",
+            "title": "Honduras",
+            "subtitle": "HN",
+            "description": "ISO 3166-1 alpha-2: HN"
+          },
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-450",
+            "title": "Central American Atlantic Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/central-american-atlantic-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:451": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Central American Montane Forests occupy the mid-elevation volcanic spine from Chiapas through Guatemala, Honduras, El Salvador, Nicaragua, and Costa Rica, with cloud forests, oak forests, and mixed broadleaf-canopy systems above 1,000 m. These highlands are exceptionally rich in endemic epiphytes, amphibians, and birds, including the resplendent quetzal."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:SV",
+            "title": "El Salvador",
+            "subtitle": "SV",
+            "description": "ISO 3166-1 alpha-2: SV"
+          },
+          {
+            "id": "country:HN",
+            "title": "Honduras",
+            "subtitle": "HN",
+            "description": "ISO 3166-1 alpha-2: HN"
+          },
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-451",
+            "title": "Central American Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/central-american-montane-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:452": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Chiapas Montane Forests cover the highlands of Chiapas, Mexico, including the Sierra Madre de Chiapas and the Chiapas highlands, with pine-oak, cloud, and mixed broadleaf forests above 1,200 m. The region forms a critical biogeographic link between Mesoamerican and North American montane biotas."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-452",
+            "title": "Chiapas Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/chiapas-montane-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:453": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Chimalapas Montane Forests occupy the remote highlands of the Chimalapas region in Oaxaca and Chiapas, forming some of the most biodiverse and least disturbed montane forests in Mesoamerica. These rugged forests harbor high endemism in amphibians, reptiles, and epiphytic orchids due to their geographic isolation."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-453",
+            "title": "Chimalapas Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/chimalapas-montane-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:455": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Cocos Island Moist Forests cover the remote Pacific island of Cocos, a volcanic island with dense tropical evergreen forest and remarkable marine biodiversity including large pelagic species. The island's isolation supports a unique suite of endemic birds and strong terrestrial-marine nutrient linkages through seabird colonies, and it serves as a flagship for marine protected area conservation in the Eastern Tropical Pacific."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-455",
+            "title": "Cocos Island Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/cocos-island-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:458": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Costa Rican Seasonal Moist Forests form the Pacific lowlands and lower slopes of Costa Rica, with semi-deciduous and evergreen seasonal forests experiencing a distinct dry season from December to April. This transition zone between moist and dry Neotropical forests supports a rich assemblage of primates, toucans, and felids."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          },
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-458",
+            "title": "Costa Rican Seasonal Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/costa-rican-seasonal-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:502": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Sierra Madre de Chiapas Moist Forests extend along the Pacific slopes of the Sierra Madre de Chiapas from Oaxaca through Chiapas into Guatemala, with premontane and lower montane moist forests transitioning from tropical to subtropical conditions. These forests mark the southern limit of many North American montane taxa and are a global hotspot for cloud-forest endemism."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:SV",
+            "title": "El Salvador",
+            "subtitle": "SV",
+            "description": "ISO 3166-1 alpha-2: SV"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-502",
+            "title": "Sierra Madre De Chiapas Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-madre-de-chiapas-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:527": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Central American Dry Forests span the Pacific lowlands from Jalisco, Mexico, through Guatemala, El Salvador, Honduras, Nicaragua, and into northwestern Costa Rica, with seasonally deciduous tropical dry forest experiencing a 5–7 month dry season. This is among the most threatened tropical forest types in the Americas, largely converted for cattle ranching and agriculture."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:SV",
+            "title": "El Salvador",
+            "subtitle": "SV",
+            "description": "ISO 3166-1 alpha-2: SV"
+          },
+          {
+            "id": "country:HN",
+            "title": "Honduras",
+            "subtitle": "HN",
+            "description": "ISO 3166-1 alpha-2: HN"
+          },
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          },
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          },
+          {
+            "id": "country:CO",
+            "title": "Colombia",
+            "subtitle": "CO",
+            "description": "ISO 3166-1 alpha-2: CO"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-527",
+            "title": "Central American Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/central-american-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:528": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Chiapas Depression Dry Forests occupy the arid interior depression of Chiapas, with thorn forest, deciduous dry forest, and savanna mosaics on limestone and volcanic substrates in a pronounced rain shadow. Endemic reptiles and drought-adapted plants characterize this xeric enclave surrounded by moister highlands."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-528",
+            "title": "Chiapas Depression Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/chiapas-depression-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:553": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Central American Pine-Oak Forests form a discontinuous belt on volcanic highlands from Oaxaca through Guatemala, Honduras, and Nicaragua, with open pine forests, mixed oak-pine stands, and pine savannas shaped by fire and grazing. These montane conifer systems are a center of diversification for Neotropical pines and oak-associated taxa."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:SV",
+            "title": "El Salvador",
+            "subtitle": "SV",
+            "description": "ISO 3166-1 alpha-2: SV"
+          },
+          {
+            "id": "country:HN",
+            "title": "Honduras",
+            "subtitle": "HN",
+            "description": "ISO 3166-1 alpha-2: HN"
+          },
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-553",
+            "title": "Central American Pine-Oak Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/central-american-pine-oak-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:573": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Miskito Pine Forests occupy the lowland Caribbean coast of Nicaragua and Honduras, with extensive Caribbean pine forests on poorly drained sandy soils in the Mosquito Coast. Fire-maintained savannas and pine woodlands here form one of the largest continuous tropical pine systems in Central America."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:HN",
+            "title": "Honduras",
+            "subtitle": "HN",
+            "description": "ISO 3166-1 alpha-2: HN"
+          },
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-573",
+            "title": "Miskito Pine Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/miskito-pine-forests/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:605": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Motagua Valley Thornscrub covers the dry Motagua River valley on the Guatemala-Honduras border, one of the driest locations in Central America, with xeric thorn forest, cacti, and succulent communities in a pronounced rain shadow. Endemic spiny-tailed iguanas and drought-adapted birds make this xeric enclave an evolutionary reservoir."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-605",
+            "title": "Motagua Valley Thornscrub",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/motagua-valley-thornscrub/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:617": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Southern Mesoamerican Pacific Mangroves extend along the Pacific coast from Oaxaca, Mexico, through Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, and into Panama, with large riverine and estuarine mangrove systems in the Gulf of Tehuantepec and Gulf of Nicoya. These mangroves provide crucial nursery habitat for commercial fisheries and wintering habitat for migratory waterbirds."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:SV",
+            "title": "El Salvador",
+            "subtitle": "SV",
+            "description": "ISO 3166-1 alpha-2: SV"
+          },
+          {
+            "id": "country:HN",
+            "title": "Honduras",
+            "subtitle": "HN",
+            "description": "ISO 3166-1 alpha-2: HN"
+          },
+          {
+            "id": "country:NI",
+            "title": "Nicaragua",
+            "subtitle": "NI",
+            "description": "ISO 3166-1 alpha-2: NI"
+          },
+          {
+            "id": "country:CR",
+            "title": "Costa Rica",
+            "subtitle": "CR",
+            "description": "ISO 3166-1 alpha-2: CR"
+          },
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-617",
+            "title": "Southern Mesoamerican Pacific Mangroves",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/southern-mesoamerican-pacific-mangroves/"
+          },
+          {
+            "id": "one-earth-nt25",
+            "title": "Central American Mixed Forests (NT25)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-mixed-forests-nt25/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:489": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Pantanos de Centla is a seasonally flooded tropical freshwater swamp in the Tabasco lowlands of Mexico, at the confluence of the Grijalva and Usumacinta rivers. This vast wetland mosaic of flooded forest, marsh, and lagoons is among the most important freshwater systems in Mesoamerica for waterbirds and aquatic fauna."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-489",
+            "title": "Pantanos De Centla",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/pantanos-de-centla/"
+          },
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:494": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Petén-Veracruz Moist Forests cover the Gulf-Caribbean lowland rainforest from the Petén basin of Guatemala across Tabasco, Campeche, and Chiapas into Veracruz, Mexico. These semievergreen tropical forests on karst and alluvial soils form one of the largest intact rainforest blocks in Mesoamerica."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          },
+          {
+            "id": "country:BZ",
+            "title": "Belize",
+            "subtitle": "BZ",
+            "description": "ISO 3166-1 alpha-2: BZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-494",
+            "title": "Petén-Veracruz Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/peten-veracruz-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:501": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Sierra de los Tuxtlas is a volcanic massif on the southern Gulf coast of Veracruz, Mexico, rising as an isolated tropical rainforest sky island surrounded by lowlands. The region supports some of the last primary lowland rainforest in Mexico and a high degree of endemism."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-501",
+            "title": "Sierra De Los Tuxtlas",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-de-los-tuxtlas/"
+          },
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:514": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Veracruz Moist Forests occupy the southern Gulf coastal plain and foothills of Veracruz and Oaxaca, Mexico, with evergreen and semievergreen tropical rainforest in a zone of high rainfall. Heavy transformation leaves fragmented but highly biodiverse forest remnants."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-514",
+            "title": "Veracruz Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/veracruz-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:515": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Veracruz Montane Forests crown the high peaks and slopes of the Sierra de los Tuxtlas and eastern Sierra Madre Oriental in Mexico, with cloud forest, pine-oak, and mixed broadleaf forests above 1,000 m. Persistent mist supports rich epiphyte and bird communities."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-515",
+            "title": "Veracruz Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/veracruz-montane-forests/"
+          },
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:519": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Yucatan Moist Forests cover the lowland forests of the Yucatan Peninsula in Mexico, northern Belize, and northern Guatemala on flat karst limestone. Semievergreen tropical forest and seasonally flooded bajos harbor a distinctive Maya-region fauna."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:GT",
+            "title": "Guatemala",
+            "subtitle": "GT",
+            "description": "ISO 3166-1 alpha-2: GT"
+          },
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          },
+          {
+            "id": "country:BZ",
+            "title": "Belize",
+            "subtitle": "BZ",
+            "description": "ISO 3166-1 alpha-2: BZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-519",
+            "title": "Yucatan Moist Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/yucatan-moist-forests/"
+          },
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:550": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Veracruz Dry Forests form a band of seasonally deciduous tropical forest on the Gulf slope of central Mexico south of the Sierra de los Tuxtlas. A pronounced dry season drives leafless canopies, with forest remnants supporting dry-forest specialist birds and mammals."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-550",
+            "title": "Veracruz Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/veracruz-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:551": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Yucatan Dry Forests cover the northwestern coastal and interior dry forests of the Yucatan Peninsula in Mexico, grading from tropical dry deciduous forest to thorn scrub toward the coast. The region's seasonal forests and wetlands support a distinctive Yucatan-Campeche avifauna."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-551",
+            "title": "Yucatan Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/yucatan-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:564": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Belizian Pine Savannas occupy the interior lowlands of Belize and adjacent Honduras and Guatemala, with extensive Caribbean pine savanna maintained by fire and seasonal waterlogging. Open pine woodlands, palmetto savanna, and seasonal wetlands form a fire-dependent tropical grassland bioregion."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:BZ",
+            "title": "Belize",
+            "subtitle": "BZ",
+            "description": "ISO 3166-1 alpha-2: BZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-564",
+            "title": "Belizian Pine Savannas",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/belizian-pine-savannas/"
+          },
+          {
+            "id": "one-earth-nt27",
+            "title": "Yucatan & Veracruz Mixed Forests (NT27)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/yucatan-veracruz-mixed-forests-nt27/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:487": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Oaxacan Montane Forests crown the Sierra Madre del Sur and the highlands bordering the Oaxacan valleys in southern Mexico, with cloud forest, oak-pine, and mixed broadleaf forests above 1,200 m. The rugged terrain and high endemism make this a priority for montane bird conservation."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-487",
+            "title": "Oaxacan Montane Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/oaxacan-montane-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:521": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Bajío Dry Forests cover the semi-arid foothills and interior basins of the Bajío region of central Mexico, with tropical dry deciduous forest and thorn scrub. A long dry season and fire dynamics shape a resilient community of endemics."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-521",
+            "title": "Bajío Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/bajio-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:522": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Balsas Dry Forests occupy the Balsas-Tepalcatepec basin of southwestern Mexico, a hot semi-arid interior depression with extensive tropical dry deciduous forest and thorn scrub. Remarkable endemism in reptiles, butterflies, and birds characterizes the region."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-522",
+            "title": "Balsas Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/balsas-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:534": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Jalisco Dry Forests span the Pacific coastal plain and foothills of Jalisco and Nayarit in western Mexico, with tropical dry deciduous forest and palm savanna. This internationally significant dry forest supports distinctive birds, including the military macaw and endemic jays."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-534",
+            "title": "Jalisco Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/jalisco-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:544": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Sierra de la Laguna Dry Forests cover the lower slopes of the isolated Sierra de la Laguna massif at the southern tip of Baja California Sur, Mexico. Tropical dry forest and thorn scrub on this oceanic sky island support an endemic flora and fauna isolated for millennia."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-544",
+            "title": "Sierra de la Laguna Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-de-la-laguna-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:545": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Sinaloan Dry Forests extend along the coastal plain and foothills of Sinaloa, Sonora, and Nayarit in northwestern Mexico, forming a transitional dry forest zone between the Sonoran desert and the southern Mexican tropics. Seasonally deciduous forest on volcanic soils supports endangered dry-forest species."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-545",
+            "title": "Sinaloan Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sinaloan-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:547": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Southern Pacific Dry Forests cover the Pacific-facing dry forest belt from Oaxaca through Chiapas into Guatemala and El Salvador. Tropical dry deciduous forest on recent volcanic and sedimentary substrates supports a rich endemic avifauna."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-547",
+            "title": "Southern Pacific Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/southern-pacific-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:556": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Sierra de la Laguna Pine-Oak Forests crown the high plateau of the Sierra de la Laguna massif at the southern tip of Baja California Sur, Mexico, an isolated montane island of pine and oak forest. Cool, moist highlands above the surrounding scrub support a suite of endemic plants and animals."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-556",
+            "title": "Sierra de la Laguna Pine-Oak Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-de-la-laguna-pine-oak-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:557": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Sierra Madre de Oaxaca Pine-Oak Forests cover the highlands of the Sierra Madre Oaxaqueña in southern Mexico, with extensive pine, pine-oak, and cloud forest. High endemism and critical habitat for the endemic Sierra Madre birds characterize this montane region."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-557",
+            "title": "Sierra Madre De Oaxaca Pine-Oak Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-madre-de-oaxaca-pine-oak-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:558": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Sierra Madre del Sur Pine-Oak Forests crown the Sierra Madre del Sur of Guerrero and Oaxaca in southern Mexico, with pine, oak, and mixed montane forest. This rugged, little-disturbed range is a center of endemism for pines and montane birds."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-558",
+            "title": "Sierra Madre Del Sur Pine-Oak Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/sierra-madre-del-sur-pine-oak-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:559": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Trans-Mexican Volcanic Belt Pine-Oak Forests cover the high mountains of central Mexico from Jalisco through the state of Mexico to the Pico de Orizaba and Citlaltépetl. These montane conifer forests ring extinct and active volcanoes and are a global center of conifer and wildlife endemism."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-559",
+            "title": "Trans-Mexican Volcanic Belt Pine-Oak Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/trans-mexican-volcanic-belt-pine-oak-forests/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:607": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "San Lucan Xeric Scrub covers the arid lowlands of the Cape region of southern Baja California Sur, Mexico, surrounding the Sierra de la Laguna. Succulent, cactus, and thorn-scrub communities on dry soils form a distinctive xeric flora with high endemism."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-607",
+            "title": "San Lucan Xeric Scrub",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/san-lucan-xeric-scrub/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:610": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Tehuacán Valley Matorral is a semi-arid xeric scrubland of the Tehuacán-Cuicatlán Valley in Puebla and Oaxaca, Mexico, a UNESCO World Heritage site. Columnar cacti, agave, and thorn scrub form one of the most floristically and biologically diverse arid zones in the world."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-610",
+            "title": "Tehuacán Valley Matorral",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/tehuacan-valley-matorral/"
+          },
+          {
+            "id": "one-earth-nt28",
+            "title": "Mexican Dry & Coniferous Forests (NT28)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-dry-coniferous-forests-nt28/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:533": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Islas Revillagigedo Dry Forests cover the volcanic Revillagigedo Islands (San Benedicto, Socorro, Roca Partida, and Clarion) in the eastern Pacific Ocean. Subtropical dry scrub and low forest host numerous endemic landbirds and seabirds within a vast marine biosphere reserve."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:MX",
+            "title": "Mexico",
+            "subtitle": "MX",
+            "description": "ISO 3166-1 alpha-2: MX"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-533",
+            "title": "Islas Revillagigedo Dry Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/islas-revillagigedo-dry-forests/"
+          },
+          {
+            "id": "one-earth-nt29",
+            "title": "Mexican Subtropical Islands (NT29)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-subtropical-islands-nt29/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:568": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Clipperton Island Shrub and Grasslands cover the low coral atoll of Clipperton Island in the eastern Pacific. Low scrub, grasses, and halophytic herbs support colonies of boobies, frigates, and terns on this remote French possession."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:FR",
+            "title": "France",
+            "subtitle": "FR",
+            "description": "ISO 3166-1 alpha-2: FR"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-568",
+            "title": "Clipperton Island Shrub and Grasslands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/clipperton-island-shrub-and-grasslands/"
+          },
+          {
+            "id": "one-earth-nt29",
+            "title": "Mexican Subtropical Islands (NT29)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/mexican-subtropical-islands-nt29/"
+          }
+        ]
+      }
     ]
   },
-  "media": {}
+  "media": {
+    "ecoregion:449": {
+      "src": "/assets/ecoregions/ecoregion-449.png",
+      "alt": "Interpretive landscape illustration of Cayos Miskitos-San Andrés and Providencia Moist Forests.",
+      "caption": "An interpretive landscape impression of Cayos Miskitos-San Andrés and Providencia Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:450": {
+      "src": "/assets/ecoregions/ecoregion-450.png",
+      "alt": "Interpretive landscape illustration of Central American Atlantic Moist Forests.",
+      "caption": "An interpretive landscape impression of Central American Atlantic Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:451": {
+      "src": "/assets/ecoregions/ecoregion-451.png",
+      "alt": "Interpretive landscape illustration of Central American Montane Forests.",
+      "caption": "An interpretive landscape impression of Central American Montane Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:452": {
+      "src": "/assets/ecoregions/ecoregion-452.png",
+      "alt": "Interpretive landscape illustration of Chiapas Montane Forests.",
+      "caption": "An interpretive landscape impression of Chiapas Montane Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:453": {
+      "src": "/assets/ecoregions/ecoregion-453.png",
+      "alt": "Interpretive landscape illustration of Chimalapas Montane Forests.",
+      "caption": "An interpretive landscape impression of Chimalapas Montane Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:454": {
+      "src": "/assets/ecoregions/ecoregion-454.png",
+      "alt": "Interpretive landscape illustration of Chocó-Darién Moist Forests.",
+      "caption": "An interpretive landscape impression of Chocó-Darién Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:455": {
+      "src": "/assets/ecoregions/ecoregion-455.png",
+      "alt": "Interpretive landscape illustration of Cocos Island Moist Forests.",
+      "caption": "An interpretive landscape impression of Cocos Island Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:458": {
+      "src": "/assets/ecoregions/ecoregion-458.png",
+      "alt": "Interpretive landscape illustration of Costa Rican Seasonal Moist Forests.",
+      "caption": "An interpretive landscape impression of Costa Rican Seasonal Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:459": {
+      "src": "/assets/ecoregions/ecoregion-459.png",
+      "alt": "Interpretive landscape illustration of Cuban Moist Forests.",
+      "caption": "An interpretive landscape impression of Cuban Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:461": {
+      "src": "/assets/ecoregions/ecoregion-461.png",
+      "alt": "Interpretive landscape illustration of Eastern Panamanian Montane Forests.",
+      "caption": "An interpretive landscape impression of Eastern Panamanian Montane Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:468": {
+      "src": "/assets/ecoregions/ecoregion-468.png",
+      "alt": "Interpretive landscape illustration of Hispaniolan Moist Forests.",
+      "caption": "An interpretive landscape impression of Hispaniolan Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:470": {
+      "src": "/assets/ecoregions/ecoregion-470.png",
+      "alt": "Interpretive landscape illustration of Isthmian-Atlantic Moist Forests.",
+      "caption": "An interpretive landscape impression of Isthmian-Atlantic Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:471": {
+      "src": "/assets/ecoregions/ecoregion-471.png",
+      "alt": "Interpretive landscape illustration of Isthmian-Pacific Moist Forests.",
+      "caption": "An interpretive landscape impression of Isthmian-Pacific Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:472": {
+      "src": "/assets/ecoregions/ecoregion-472.png",
+      "alt": "Interpretive landscape illustration of Jamaican Moist Forests.",
+      "caption": "An interpretive landscape impression of Jamaican Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:475": {
+      "src": "/assets/ecoregions/ecoregion-475.png",
+      "alt": "Interpretive landscape illustration of Leeward Islands Moist Forests.",
+      "caption": "An interpretive landscape impression of Leeward Islands Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:478": {
+      "src": "/assets/ecoregions/ecoregion-478.png",
+      "alt": "Interpretive landscape illustration of Magdalena-Urabá Moist Forests.",
+      "caption": "An interpretive landscape impression of Magdalena-Urabá Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:487": {
+      "src": "/assets/ecoregions/ecoregion-487.png",
+      "alt": "Interpretive landscape illustration of Oaxacan Montane Forests.",
+      "caption": "An interpretive landscape impression of Oaxacan Montane Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:489": {
+      "src": "/assets/ecoregions/ecoregion-489.png",
+      "alt": "Interpretive landscape illustration of Pantanos De Centla.",
+      "caption": "An interpretive landscape impression of Pantanos De Centla.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:494": {
+      "src": "/assets/ecoregions/ecoregion-494.png",
+      "alt": "Interpretive landscape illustration of Petén-Veracruz Moist Forests.",
+      "caption": "An interpretive landscape impression of Petén-Veracruz Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:495": {
+      "src": "/assets/ecoregions/ecoregion-495.png",
+      "alt": "Interpretive landscape illustration of Puerto Rican Moist Forests.",
+      "caption": "An interpretive landscape impression of Puerto Rican Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:501": {
+      "src": "/assets/ecoregions/ecoregion-501.png",
+      "alt": "Interpretive landscape illustration of Sierra De Los Tuxtlas.",
+      "caption": "An interpretive landscape impression of Sierra De Los Tuxtlas.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:502": {
+      "src": "/assets/ecoregions/ecoregion-502.png",
+      "alt": "Interpretive landscape illustration of Sierra Madre De Chiapas Moist Forests.",
+      "caption": "An interpretive landscape impression of Sierra Madre De Chiapas Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:506": {
+      "src": "/assets/ecoregions/ecoregion-506.png",
+      "alt": "Interpretive landscape illustration of Talamancan Montane Forests.",
+      "caption": "An interpretive landscape impression of Talamancan Montane Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:514": {
+      "src": "/assets/ecoregions/ecoregion-514.png",
+      "alt": "Interpretive landscape illustration of Veracruz Moist Forests.",
+      "caption": "An interpretive landscape impression of Veracruz Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:515": {
+      "src": "/assets/ecoregions/ecoregion-515.png",
+      "alt": "Interpretive landscape illustration of Veracruz Montane Forests.",
+      "caption": "An interpretive landscape impression of Veracruz Montane Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:517": {
+      "src": "/assets/ecoregions/ecoregion-517.png",
+      "alt": "Interpretive landscape illustration of Windward Islands Moist Forests.",
+      "caption": "An interpretive landscape impression of Windward Islands Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:519": {
+      "src": "/assets/ecoregions/ecoregion-519.png",
+      "alt": "Interpretive landscape illustration of Yucatan Moist Forests.",
+      "caption": "An interpretive landscape impression of Yucatan Moist Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:521": {
+      "src": "/assets/ecoregions/ecoregion-521.png",
+      "alt": "Interpretive landscape illustration of Bajío Dry Forests.",
+      "caption": "An interpretive landscape impression of Bajío Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:522": {
+      "src": "/assets/ecoregions/ecoregion-522.png",
+      "alt": "Interpretive landscape illustration of Balsas Dry Forests.",
+      "caption": "An interpretive landscape impression of Balsas Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:527": {
+      "src": "/assets/ecoregions/ecoregion-527.png",
+      "alt": "Interpretive landscape illustration of Central American Dry Forests.",
+      "caption": "An interpretive landscape impression of Central American Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:528": {
+      "src": "/assets/ecoregions/ecoregion-528.png",
+      "alt": "Interpretive landscape illustration of Chiapas Depression Dry Forests.",
+      "caption": "An interpretive landscape impression of Chiapas Depression Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:530": {
+      "src": "/assets/ecoregions/ecoregion-530.png",
+      "alt": "Interpretive landscape illustration of Cuban Dry Forests.",
+      "caption": "An interpretive landscape impression of Cuban Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:532": {
+      "src": "/assets/ecoregions/ecoregion-532.png",
+      "alt": "Interpretive landscape illustration of Hispaniolan Dry Forests.",
+      "caption": "An interpretive landscape impression of Hispaniolan Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:533": {
+      "src": "/assets/ecoregions/ecoregion-533.png",
+      "alt": "Interpretive landscape illustration of Islas Revillagigedo Dry Forests.",
+      "caption": "An interpretive landscape impression of Islas Revillagigedo Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:534": {
+      "src": "/assets/ecoregions/ecoregion-534.png",
+      "alt": "Interpretive landscape illustration of Jalisco Dry Forests.",
+      "caption": "An interpretive landscape impression of Jalisco Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:535": {
+      "src": "/assets/ecoregions/ecoregion-535.png",
+      "alt": "Interpretive landscape illustration of Jamaican Dry Forests.",
+      "caption": "An interpretive landscape impression of Jamaican Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:537": {
+      "src": "/assets/ecoregions/ecoregion-537.png",
+      "alt": "Interpretive landscape illustration of Lesser Antillean Dry Forests.",
+      "caption": "An interpretive landscape impression of Lesser Antillean Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:541": {
+      "src": "/assets/ecoregions/ecoregion-541.png",
+      "alt": "Interpretive landscape illustration of Panamanian Dry Forests.",
+      "caption": "An interpretive landscape impression of Panamanian Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:543": {
+      "src": "/assets/ecoregions/ecoregion-543.png",
+      "alt": "Interpretive landscape illustration of Puerto Rican Dry Forests.",
+      "caption": "An interpretive landscape impression of Puerto Rican Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:544": {
+      "src": "/assets/ecoregions/ecoregion-544.png",
+      "alt": "Interpretive landscape illustration of Sierra de la Laguna Dry Forests.",
+      "caption": "An interpretive landscape impression of Sierra de la Laguna Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:545": {
+      "src": "/assets/ecoregions/ecoregion-545.png",
+      "alt": "Interpretive landscape illustration of Sinaloan Dry Forests.",
+      "caption": "An interpretive landscape impression of Sinaloan Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:547": {
+      "src": "/assets/ecoregions/ecoregion-547.png",
+      "alt": "Interpretive landscape illustration of Southern Pacific Dry Forests.",
+      "caption": "An interpretive landscape impression of Southern Pacific Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:550": {
+      "src": "/assets/ecoregions/ecoregion-550.png",
+      "alt": "Interpretive landscape illustration of Veracruz Dry Forests.",
+      "caption": "An interpretive landscape impression of Veracruz Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:551": {
+      "src": "/assets/ecoregions/ecoregion-551.png",
+      "alt": "Interpretive landscape illustration of Yucatan Dry Forests.",
+      "caption": "An interpretive landscape impression of Yucatan Dry Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:552": {
+      "src": "/assets/ecoregions/ecoregion-552.png",
+      "alt": "Interpretive landscape illustration of Bahamian Pineyards.",
+      "caption": "An interpretive landscape impression of Bahamian Pineyards.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:553": {
+      "src": "/assets/ecoregions/ecoregion-553.png",
+      "alt": "Interpretive landscape illustration of Central American Pine-Oak Forests.",
+      "caption": "An interpretive landscape impression of Central American Pine-Oak Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:554": {
+      "src": "/assets/ecoregions/ecoregion-554.png",
+      "alt": "Interpretive landscape illustration of Cuban Pine Forests.",
+      "caption": "An interpretive landscape impression of Cuban Pine Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:555": {
+      "src": "/assets/ecoregions/ecoregion-555.png",
+      "alt": "Interpretive landscape illustration of Hispaniolan Pine Forests.",
+      "caption": "An interpretive landscape impression of Hispaniolan Pine Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:556": {
+      "src": "/assets/ecoregions/ecoregion-556.png",
+      "alt": "Interpretive landscape illustration of Sierra de la Laguna Pine-Oak Forests.",
+      "caption": "An interpretive landscape impression of Sierra de la Laguna Pine-Oak Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:557": {
+      "src": "/assets/ecoregions/ecoregion-557.png",
+      "alt": "Interpretive landscape illustration of Sierra Madre De Oaxaca Pine-Oak Forests.",
+      "caption": "An interpretive landscape impression of Sierra Madre De Oaxaca Pine-Oak Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:558": {
+      "src": "/assets/ecoregions/ecoregion-558.png",
+      "alt": "Interpretive landscape illustration of Sierra Madre Del Sur Pine-Oak Forests.",
+      "caption": "An interpretive landscape impression of Sierra Madre Del Sur Pine-Oak Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:559": {
+      "src": "/assets/ecoregions/ecoregion-559.png",
+      "alt": "Interpretive landscape illustration of Trans-Mexican Volcanic Belt Pine-Oak Forests.",
+      "caption": "An interpretive landscape impression of Trans-Mexican Volcanic Belt Pine-Oak Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:564": {
+      "src": "/assets/ecoregions/ecoregion-564.png",
+      "alt": "Interpretive landscape illustration of Belizian Pine Savannas.",
+      "caption": "An interpretive landscape impression of Belizian Pine Savannas.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:568": {
+      "src": "/assets/ecoregions/ecoregion-568.png",
+      "alt": "Interpretive landscape illustration of Clipperton Island Shrub and Grasslands.",
+      "caption": "An interpretive landscape impression of Clipperton Island Shrub and Grasslands.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:573": {
+      "src": "/assets/ecoregions/ecoregion-573.png",
+      "alt": "Interpretive landscape illustration of Miskito Pine Forests.",
+      "caption": "An interpretive landscape impression of Miskito Pine Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:579": {
+      "src": "/assets/ecoregions/ecoregion-579.png",
+      "alt": "Interpretive landscape illustration of Cuban Wetlands.",
+      "caption": "An interpretive landscape impression of Cuban Wetlands.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:599": {
+      "src": "/assets/ecoregions/ecoregion-599.png",
+      "alt": "Interpretive landscape illustration of Caribbean Shrublands.",
+      "caption": "An interpretive landscape impression of Caribbean Shrublands.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:600": {
+      "src": "/assets/ecoregions/ecoregion-600.png",
+      "alt": "Interpretive landscape illustration of Cuban Cactus Scrub.",
+      "caption": "An interpretive landscape impression of Cuban Cactus Scrub.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:604": {
+      "src": "/assets/ecoregions/ecoregion-604.png",
+      "alt": "Interpretive landscape illustration of Malpelo Island Xeric Scrub.",
+      "caption": "An interpretive landscape impression of Malpelo Island Xeric Scrub.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:605": {
+      "src": "/assets/ecoregions/ecoregion-605.png",
+      "alt": "Interpretive landscape illustration of Motagua Valley Thornscrub.",
+      "caption": "An interpretive landscape impression of Motagua Valley Thornscrub.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:607": {
+      "src": "/assets/ecoregions/ecoregion-607.png",
+      "alt": "Interpretive landscape illustration of San Lucan Xeric Scrub.",
+      "caption": "An interpretive landscape impression of San Lucan Xeric Scrub.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:610": {
+      "src": "/assets/ecoregions/ecoregion-610.png",
+      "alt": "Interpretive landscape illustration of Tehuacán Valley Matorral.",
+      "caption": "An interpretive landscape impression of Tehuacán Valley Matorral.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:612": {
+      "src": "/assets/ecoregions/ecoregion-612.png",
+      "alt": "Interpretive landscape illustration of Bahamian-Antillean Mangroves.",
+      "caption": "An interpretive landscape impression of Bahamian-Antillean Mangroves.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:613": {
+      "src": "/assets/ecoregions/ecoregion-613.png",
+      "alt": "Interpretive landscape illustration of Mesoamerican Gulf-Caribbean Mangroves.",
+      "caption": "An interpretive landscape impression of Mesoamerican Gulf-Caribbean Mangroves.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:614": {
+      "src": "/assets/ecoregions/ecoregion-614.png",
+      "alt": "Interpretive landscape illustration of Northern Mesoamerican Pacific Mangroves.",
+      "caption": "An interpretive landscape impression of Northern Mesoamerican Pacific Mangroves.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:617": {
+      "src": "/assets/ecoregions/ecoregion-617.png",
+      "alt": "Interpretive landscape illustration of Southern Mesoamerican Pacific Mangroves.",
+      "caption": "An interpretive landscape impression of Southern Mesoamerican Pacific Mangroves.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  }
 } as const satisfies TaxonomyContentBundle;

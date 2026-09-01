@@ -504,15 +504,81 @@ export const contentBundle = {
     ]
   },
   "media": {
+    "ecoregion:412": {
+      "src": "/assets/ecoregions/ecoregion-412.png",
+      "alt": "Interpretive landscape illustration of Canadian High Arctic Tundra.",
+      "caption": "An interpretive landscape impression of Canadian High Arctic Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:413": {
+      "src": "/assets/ecoregions/ecoregion-413.png",
+      "alt": "Interpretive landscape illustration of Canadian Low Arctic Tundra.",
+      "caption": "An interpretive landscape impression of Canadian Low Arctic Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:414": {
+      "src": "/assets/ecoregions/ecoregion-414.png",
+      "alt": "Interpretive landscape illustration of Canadian Middle Arctic Tundra.",
+      "caption": "An interpretive landscape impression of Canadian Middle Arctic Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:415": {
+      "src": "/assets/ecoregions/ecoregion-415.png",
+      "alt": "Interpretive landscape illustration of Davis Highlands Tundra.",
+      "caption": "An interpretive landscape impression of Davis Highlands Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:417": {
+      "src": "/assets/ecoregions/ecoregion-417.png",
+      "alt": "Interpretive landscape illustration of Kalaallit Nunaat Arctic Steppe.",
+      "caption": "An interpretive landscape impression of Kalaallit Nunaat Arctic Steppe.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
     "ecoregion:418": {
-      "src": "/assets/ecoregions/ecoregion-418.webp",
-      "alt": "Interpretive comic-style view across treeless Arctic tundra, braided water, low vegetation, and distant mountains beneath a broad blue sky.",
+      "src": "/assets/ecoregions/ecoregion-418.png",
+      "alt": "Interpretive landscape illustration of Kalaallit Nunaat High Arctic Tundra.",
       "caption": "An interpretive landscape impression of Kalaallit Nunaat High Arctic Tundra.",
       "role": "interpretive",
       "aspectRatio": "10:13",
       "focalPoint": {
         "x": 0.5,
-        "y": 0.43
+        "y": 0.5
+      }
+    },
+    "ecoregion:421": {
+      "src": "/assets/ecoregions/ecoregion-421.png",
+      "alt": "Interpretive landscape illustration of Torngat Mountain Tundra.",
+      "caption": "An interpretive landscape impression of Torngat Mountain Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
       }
     }
   }

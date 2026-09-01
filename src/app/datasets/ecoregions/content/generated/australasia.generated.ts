@@ -38,6 +38,1174 @@ export const contentBundle = {
           }
         ]
       }
+    ],
+    "subrealm:new-zealand": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "The New Zealand subrealm encompasses the islands of New Zealand, the remote subantarctic Antipodes Islands, and the subtropical Lord Howe and Norfolk Islands of the southwest Pacific. Its ecoregions span temperate kauri and beech forests, montane grasslands, tussock grasslands, subtropical island forests, and subantarctic tundra, forming one of the world's most isolated and endemic-rich biotas."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "New Zealand North and South Island mountain spine; temperate kauri and southern beech forests; subantarctic and subtropical offshore islands; alpine and montane grassland and herbfield; fiords and glaciated valleys",
+            "sourceIds": [
+              "one-earth-au1",
+              "one-earth-au2",
+              "one-earth-au16"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          },
+          {
+            "id": "country:AU",
+            "title": "Australia",
+            "subtitle": "AU",
+            "description": "ISO 3166-1 alpha-2: AU"
+          },
+          {
+            "id": "country:NF",
+            "title": "Norfolk Island",
+            "subtitle": "NF",
+            "description": "ISO 3166-1 alpha-2: NF"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-new-zealand",
+            "title": "New Zealand — Subrealm",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/realms/australasia/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          },
+          {
+            "id": "one-earth-au2",
+            "title": "Lord Howe & Norfolk Islands (AU2)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/lord-howe-norfolk-islands-au2/"
+          },
+          {
+            "id": "one-earth-au16",
+            "title": "Subantarctic Antipodes Islands (AU16)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/subantarctic-antipodes-islands-au16/"
+          }
+        ]
+      }
+    ],
+    "bioregion:au1": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "New Zealand (AU1) encompasses the North and South Islands, Stewart/Rakiura Island, and their adjacent temperate islands. Eleven ecoregions span lowland kauri forests, southern beech and podocarp forests, fiordland and montane forests, rakiura island forests, alpine montane grasslands, and Canterbury-Otago tussock grasslands."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "axial mountain ranges of the South Island (Southern Alps); North Island volcanic plateau; kauri forests of Northland; fiordland and glaciated coasts; easterly Canterbury-Otago plains; Chatham Islands archipelago",
+            "sourceIds": [
+              "one-earth-au1",
+              "one-earth-eco-169",
+              "one-earth-eco-171",
+              "one-earth-eco-172",
+              "one-earth-eco-173",
+              "one-earth-eco-180",
+              "one-earth-eco-190"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "kauri and podocarp-broadleaf forest; southern beech forest (Nothofagus); coastal and montane mixed forest; tussock grassland and alpine herbfield; island scrub and secondary woodland on Chatham Islands",
+            "sourceIds": [
+              "one-earth-eco-170",
+              "one-earth-eco-171",
+              "one-earth-eco-172",
+              "one-earth-eco-173",
+              "one-earth-eco-180",
+              "one-earth-eco-190",
+              "one-earth-eco-194"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "active tectonics and alpine orogeny; bird-driven seed dispersal and pollination mutualisms; glacial history shaping montane biota; fire and grazing dynamics in tussock grasslands; oceanic isolation driving endemism",
+            "sourceIds": [
+              "one-earth-au1",
+              "one-earth-eco-169",
+              "one-earth-eco-171",
+              "one-earth-eco-180",
+              "one-earth-eco-190",
+              "one-earth-eco-194"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Extensive national park estate including Fiordland, Mount Cook/Aoraki, Westland Tai Poutini, and Kahurangi national parks. Pressures: introduced mammals (stoats, possums, rats, deer), forest clearance and pastoral conversion, and climate-driven alpine change. Iconic endemic species include kiwi, kakapo, kea, and yellow-eyed penguin, supported by predator-control and island-sanctuary programs.",
+            "sourceIds": [
+              "one-earth-au1",
+              "one-earth-eco-169",
+              "one-earth-eco-171",
+              "one-earth-eco-172",
+              "one-earth-eco-180",
+              "one-earth-eco-194"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:kea",
+            "title": "Kea",
+            "subtitle": "Nestor notabilis",
+            "description": "Nestor notabilis"
+          },
+          {
+            "id": "species:kereru",
+            "title": "Kererū (New Zealand pigeon)",
+            "subtitle": "Hemiphaga novaeseelandiae",
+            "description": "Hemiphaga novaeseelandiae"
+          },
+          {
+            "id": "species:takahe",
+            "title": "Takahē",
+            "subtitle": "Porphyrio hochstetteri",
+            "description": "Porphyrio hochstetteri"
+          },
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          },
+          {
+            "id": "one-earth-eco-167",
+            "title": "Chatham Island Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/chatham-island-temperate-forests/"
+          },
+          {
+            "id": "one-earth-eco-169",
+            "title": "Fiordland Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/fiordland-temperate-forests/"
+          },
+          {
+            "id": "one-earth-eco-170",
+            "title": "Nelson Coast Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/nelson-coast-temperate-forests/"
+          },
+          {
+            "id": "one-earth-eco-171",
+            "title": "New Zealand North Island Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/new-zealand-north-island-temperate-forests/"
+          },
+          {
+            "id": "one-earth-eco-172",
+            "title": "New Zealand South Island Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/new-zealand-south-island-temperate-forests/"
+          },
+          {
+            "id": "one-earth-eco-173",
+            "title": "Northland Temperate Kauri Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/northland-temperate-kauri-forests/"
+          },
+          {
+            "id": "one-earth-eco-174",
+            "title": "Rakiura Island Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/rakiura-island-temperate-forests/"
+          },
+          {
+            "id": "one-earth-eco-175",
+            "title": "Richmond Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/richmond-temperate-forests/"
+          },
+          {
+            "id": "one-earth-eco-180",
+            "title": "Westland Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/westland-temperate-forests/"
+          },
+          {
+            "id": "one-earth-eco-190",
+            "title": "Canterbury-Otago Tussock Grasslands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/canterbury-otago-tussock-grasslands/"
+          },
+          {
+            "id": "one-earth-eco-194",
+            "title": "New Zealand South Island Montane Grasslands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/new-zealand-south-island-montane-grasslands/"
+          }
+        ]
+      }
+    ],
+    "bioregion:au2": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Lord Howe & Norfolk Islands (AU2) comprises two isolated subtropical islands in the southwestern Pacific Ocean. Two ecoregions represent the Lord Howe Island and Norfolk Island subtropical moist forests, notable for their high endemism in palms, fruit pigeons, and land birds."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic and basaltic island of Lord Howe with rugged peaks; coral reef-fringed lagoon on Lord Howe; Norfolk Island volcanic plateau; sea cliffs and islets",
+            "sourceIds": [
+              "one-earth-au2",
+              "one-earth-eco-142",
+              "one-earth-eco-147"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Howe palm and banyan-dominated subtropical forest; Norfolk Island pine forest; ferny hardwood forest on volcanic slopes; coastal scrub and grassland",
+            "sourceIds": [
+              "one-earth-eco-142",
+              "one-earth-eco-147"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "oceanic island endemism and speciation; fruit pigeon seed dispersal; seabird nutrient subsidies on coastal islets; cyclonic storm disturbance",
+            "sourceIds": [
+              "one-earth-au2",
+              "one-earth-eco-142",
+              "one-earth-eco-147"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Lord Howe Island is a UNESCO World Heritage site with the world's southernmost true coral reef. Norfolk Island retains threatened subtropical forest remnants. Pressures: introduced rodents, feral species, tourism, and habitat clearance. Key species include the Lord Howe woodhen, norfolk green parrot, and norfolk boobook.",
+            "sourceIds": [
+              "one-earth-au2",
+              "one-earth-eco-142",
+              "one-earth-eco-147"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:AU",
+            "title": "Australia",
+            "subtitle": "AU",
+            "description": "ISO 3166-1 alpha-2: AU"
+          },
+          {
+            "id": "country:NF",
+            "title": "Norfolk Island",
+            "subtitle": "NF",
+            "description": "ISO 3166-1 alpha-2: NF"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-au2",
+            "title": "Lord Howe & Norfolk Islands (AU2)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/lord-howe-norfolk-islands-au2/"
+          },
+          {
+            "id": "one-earth-eco-142",
+            "title": "Lord Howe Island Subtropical Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/lord-howe-island-subtropical-forests/"
+          },
+          {
+            "id": "one-earth-eco-147",
+            "title": "Norfolk Island Subtropical Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/norfolk-island-subtropical-forests/"
+          }
+        ]
+      }
+    ],
+    "bioregion:au16": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Subantarctic Antipodes Islands (AU16) covers the remote subantarctic island groups of the New Zealand region, including the Antipodes Islands. The single ecoregion represents subantarctic tundra and coastal herbfield supporting vast seabird and seal populations on windswept, isolated islands."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "volcanic and tuff Antipodes Islands; rugged subantarctic coastlines; boggy tundra and herbfield plateaus; sea stacks and seal colonies",
+            "sourceIds": [
+              "one-earth-au16",
+              "one-earth-eco-196"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "wet subantarctic tundra; coastal herbfield and cushion plants; megaherb and tussock communities; bog and wetland moss communities",
+            "sourceIds": [
+              "one-earth-eco-196"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "seabird and seal nutrient enrichment; ship rat predation pressure on endemic birds; storm and wind disturbance; oceanic isolation and endemism",
+            "sourceIds": [
+              "one-earth-au16",
+              "one-earth-eco-196"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "The Antipodes Islands are a Nature Reserve and part of the New Zealand Subantarctic Islands UNESCO World Heritage site. The islands are rodent-free except for an introduced house-mouse population, which threatens endemic invertebrates and seabirds. New Zealand fur seals, southern royal albatross, and endemic Antipodes parakeets are key species.",
+            "sourceIds": [
+              "one-earth-au16",
+              "one-earth-eco-196"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:antipodes-parakeet",
+            "title": "Antipodes parakeet",
+            "subtitle": "Cyanoramphus unicolor",
+            "description": "Cyanoramphus unicolor"
+          },
+          {
+            "id": "species:antipodean-albatross",
+            "title": "Antipodean albatross",
+            "subtitle": "Diomedea antipodensis",
+            "description": "Diomedea antipodensis"
+          },
+          {
+            "id": "species:southern-royal-albatross",
+            "title": "Southern royal albatross",
+            "subtitle": "Diomedea epomophora",
+            "description": "Diomedea epomophora"
+          },
+          {
+            "id": "species:new-zealand-sea-lion",
+            "title": "New Zealand sea lion",
+            "subtitle": "Phocarctos hookeri",
+            "description": "Phocarctos hookeri"
+          },
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          },
+          {
+            "id": "country:AU",
+            "title": "Australia",
+            "subtitle": "AU",
+            "description": "ISO 3166-1 alpha-2: AU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-au16",
+            "title": "Subantarctic Antipodes Islands (AU16)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/subantarctic-antipodes-islands-au16/"
+          },
+          {
+            "id": "one-earth-eco-196",
+            "title": "Antipodes Subantarctic Islands Tundra",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/antipodes-subantarctic-islands-tundra/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:142": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Lord Howe Island Subtropical Forests cover the isolated volcanic island of Lord Howe in the Tasman Sea, surrounded by the world's southernmost true coral reef. Rugged basalt peaks rise above palm-dominated subtropical rainforest and montane cloud forest, supporting an extraordinary number of endemic plants and animals."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:AU",
+            "title": "Australia",
+            "subtitle": "AU",
+            "description": "ISO 3166-1 alpha-2: AU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-142",
+            "title": "Lord Howe Island Subtropical Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/lord-howe-island-subtropical-forests/"
+          },
+          {
+            "id": "one-earth-au2",
+            "title": "Lord Howe & Norfolk Islands (AU2)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/lord-howe-norfolk-islands-au2/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:147": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Norfolk Island Subtropical Forests cover the volcanic island of Norfolk in the southwestern Pacific, famed for the Norfolk Island pine. Subtropical rainforest, palm forest, and ferny hardwood communities, heavily cleared by settlers, retain a rich endemic avifauna and flora."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NF",
+            "title": "Norfolk Island",
+            "subtitle": "NF",
+            "description": "ISO 3166-1 alpha-2: NF"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-147",
+            "title": "Norfolk Island Subtropical Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/norfolk-island-subtropical-forests/"
+          },
+          {
+            "id": "one-earth-au2",
+            "title": "Lord Howe & Norfolk Islands (AU2)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/lord-howe-norfolk-islands-au2/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:167": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Chatham Island Temperate Forests cover the main Chatham Islands east of New Zealand, with coastal and lowland forests of karaka, ngaio, and akeake on peaty and volcanic soils. Long isolation and moderate endemism distinguish this remote archipelago's biota."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-167",
+            "title": "Chatham Island Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/chatham-island-temperate-forests/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:169": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Fiordland Temperate Forests occupy the glaciated southwest corner of New Zealand's South Island, among the wettest temperate rainforests on Earth. Tall podocarp and beech forest drapes steep fiord valleys, supporting flightless birds and dense Fiordland penguin colonies at the coast."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:kea",
+            "title": "Kea",
+            "subtitle": "Nestor notabilis",
+            "description": "Nestor notabilis"
+          },
+          {
+            "id": "species:takahe",
+            "title": "Takahē",
+            "subtitle": "Porphyrio hochstetteri",
+            "description": "Porphyrio hochstetteri"
+          },
+          {
+            "id": "species:southern-brown-kiwi",
+            "title": "Southern brown kiwi",
+            "subtitle": "Apteryx australis",
+            "description": "Apteryx australis"
+          },
+          {
+            "id": "species:fiordland-crested-penguin",
+            "title": "Fiordland crested penguin",
+            "subtitle": "Eudyptes pachyrhynchus",
+            "description": "Eudyptes pachyrhynchus"
+          },
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-169",
+            "title": "Fiordland Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/fiordland-temperate-forests/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:170": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Nelson Coast Temperate Forests cover the northwestern corner of the South Island of New Zealand, a mosaic of beech, podocarp, and broadleaf forest across karst landscapes and coastal hills. The region harbors several of New Zealand's most ancient and endemic forest taxa."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-170",
+            "title": "Nelson Coast Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/nelson-coast-temperate-forests/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:171": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "New Zealand North Island Temperate Forests cover much of the North Island, from coastal lowlands to the volcanic plateau and central ranges. Podocarp-broadleaf and beech forest support an iconic suite of endemic birds including kiwi, kokako, kaka, and kereru."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-171",
+            "title": "New Zealand North Island Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/new-zealand-north-island-temperate-forests/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:172": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "New Zealand South Island Temperate Forests span the eastern and central South Island, from coastal podocarp forest to high beech forest on the flanks of the Southern Alps. Extensive intact native forest supports kaka, kea, takahe, and kereru."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-172",
+            "title": "New Zealand South Island Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/new-zealand-south-island-temperate-forests/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:173": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Northland Temperate Kauri Forests cover the subtropical-moist northern peninsula of New Zealand's North Island, dominated by the ancient giant conifer kauri on podzolized soils. Relict kauri forests and broadleaf-podocarp communities support a unique assemblage of endemic plants, kiwi, and kauri-dependent invertebrates."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-173",
+            "title": "Northland Temperate Kauri Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/northland-temperate-kauri-forests/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:174": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Rakiura Island Temperate Forests cover Stewart Island/Rakiura and adjacent islands south of the South Island, with dense southern beech and podocarp forest along a rugged, wet coastline. The island retains largely unmodified temperate rainforest and abundant endemic birds."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-174",
+            "title": "Rakiura Island Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/rakiura-island-temperate-forests/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:175": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Richmond Temperate Forests cover the Richmond Range and surrounding country of the northern South Island of New Zealand, with beech, podocarp, and broadleaf forest on steep mountainous terrain. The diverse forests support great spotted kiwi, blue duck, and rock wren."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-175",
+            "title": "Richmond Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/richmond-temperate-forests/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:180": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Westland Temperate Forests cover the narrow, extremely wet western coastal strip of the South Island bounded by the Southern Alps. Luxuriant podocarp and beech rainforest nourished by high rainfall supports the endemic rowi kiwi, westland petrel, and white heron colonies."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-180",
+            "title": "Westland Temperate Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/westland-temperate-forests/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:190": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Canterbury-Otago Tussock Grasslands cover the dry eastern plains and intermontane basins of the South Island of New Zealand. Native tussock grassland, shrubland, and outwash plains, adapted to drought and fire, support ground-nesting birds and the iconic takahe."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-190",
+            "title": "Canterbury-Otago Tussock Grasslands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/canterbury-otago-tussock-grasslands/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:194": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "New Zealand South Island Montane Grasslands cover the alpine and subalpine zone of the Southern Alps and central South Island highlands. Tussock grassland, herbfield, fellfield, and cushion plants above treeline support the mountain-dwelling kea, rock wren, and takahe."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-194",
+            "title": "New Zealand South Island Montane Grasslands",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/new-zealand-south-island-montane-grasslands/"
+          },
+          {
+            "id": "one-earth-au1",
+            "title": "New Zealand (AU1)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/new-zealand-au1/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:196": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Antipodes Subantarctic Islands Tundra covers the windswept subantarctic Antipodes Islands group south of New Zealand. Wet tundra, herbfield, and cushion communities support enormous seabird colonies and the endemic Antipodes parakeet, with seals crowding the coasts."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": []
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:antipodes-parakeet",
+            "title": "Antipodes parakeet",
+            "subtitle": "Cyanoramphus unicolor",
+            "description": "Cyanoramphus unicolor"
+          },
+          {
+            "id": "species:antipodean-albatross",
+            "title": "Antipodean albatross",
+            "subtitle": "Diomedea antipodensis",
+            "description": "Diomedea antipodensis"
+          },
+          {
+            "id": "species:southern-royal-albatross",
+            "title": "Southern royal albatross",
+            "subtitle": "Diomedea epomophora",
+            "description": "Diomedea epomophora"
+          },
+          {
+            "id": "species:new-zealand-sea-lion",
+            "title": "New Zealand sea lion",
+            "subtitle": "Phocarctos hookeri",
+            "description": "Phocarctos hookeri"
+          },
+          {
+            "id": "country:NZ",
+            "title": "New Zealand",
+            "subtitle": "NZ",
+            "description": "ISO 3166-1 alpha-2: NZ"
+          },
+          {
+            "id": "country:AU",
+            "title": "Australia",
+            "subtitle": "AU",
+            "description": "ISO 3166-1 alpha-2: AU"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-196",
+            "title": "Antipodes Subantarctic Islands Tundra",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/antipodes-subantarctic-islands-tundra/"
+          },
+          {
+            "id": "one-earth-au16",
+            "title": "Subantarctic Antipodes Islands (AU16)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/subantarctic-antipodes-islands-au16/"
+          }
+        ]
+      }
     ]
   },
   "media": {}

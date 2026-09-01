@@ -40,5 +40,61 @@ export const contentBundle = {
       }
     ]
   },
-  "media": {}
+  "media": {
+    "ecoregion:651": {
+      "src": "/assets/ecoregions/ecoregion-651.png",
+      "alt": "Interpretive landscape illustration of Celtic Broadleaf Forests.",
+      "caption": "An interpretive landscape impression of Celtic Broadleaf Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:663": {
+      "src": "/assets/ecoregions/ecoregion-663.png",
+      "alt": "Interpretive landscape illustration of English Lowlands Beech Forests.",
+      "caption": "An interpretive landscape impression of English Lowlands Beech Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:672": {
+      "src": "/assets/ecoregions/ecoregion-672.png",
+      "alt": "Interpretive landscape illustration of North Atlantic Moist Mixed Forests.",
+      "caption": "An interpretive landscape impression of North Atlantic Moist Mixed Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:691": {
+      "src": "/assets/ecoregions/ecoregion-691.png",
+      "alt": "Interpretive landscape illustration of Caledon Conifer Forests.",
+      "caption": "An interpretive landscape impression of Caledon Conifer Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:729": {
+      "src": "/assets/ecoregions/ecoregion-729.png",
+      "alt": "Interpretive landscape illustration of Faroe Islands Boreal Grasslands.",
+      "caption": "An interpretive landscape impression of Faroe Islands Boreal Grasslands.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  }
 } as const satisfies TaxonomyContentBundle;

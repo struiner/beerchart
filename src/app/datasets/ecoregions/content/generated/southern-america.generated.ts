@@ -38,9 +38,175 @@ export const contentBundle = {
           }
         ]
       }
+    ],
+    "ecoregion:615": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "South American Pacific Mangroves form a discontinuous belt along the Pacific coast from Panama through Colombia and Ecuador to northern Peru. These forests occupy sheltered estuaries, lagoons, and river deltas where tidal exchange and freshwater input create strong salinity gradients."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Pacific coastal estuaries and lagoons; river deltas and alluvial plains; barrier islands and tidal creeks; sheltered bays and inlets",
+            "sourceIds": [
+              "one-earth-eco-615",
+              "one-earth-nt10",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Tropical humid to semi-arid with a strong seasonal rainfall gradient; northern sectors are wetter (2,000–4,000 mm), while southern sectors are drier (500–1,500 mm); mean temperatures are 24–28°C.; 500–4000 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-nt10",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Rhizophora mangle (red mangrove); Avicennia germinans (black mangrove); Laguncularia racemosa (white mangrove); Conocarpus erectus (button mangrove); Rhizophora harrisonii (hybrid mangrove)",
+            "sourceIds": [
+              "one-earth-eco-615"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "tidal flooding and salinity gradients; sediment trapping and shoreline stabilization; marine nursery habitat for fish and crustaceans; carbon sequestration in anaerobic soils; storm surge and tsunami buffering",
+            "sourceIds": [
+              "one-earth-eco-615",
+              "one-earth-nt10",
+              "one-earth-nt24"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Shrimp aquaculture, coastal development, and pollution have reduced or degraded mangrove habitat. Protected areas include Sanquianga and Ensenada de Utría in Colombia, Churute Mangroves Ecological Reserve in Ecuador, and Tumbes Mangrove National Sanctuary in Peru; protection remains uneven across the ecoregion.",
+            "sourceIds": [
+              "one-earth-eco-615",
+              "one-earth-nt10",
+              "one-earth-nt24"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:red-mangrove",
+            "title": "Red mangrove",
+            "subtitle": "Rhizophora mangle",
+            "description": "Rhizophora mangle"
+          },
+          {
+            "id": "species:black-mangrove",
+            "title": "Black mangrove",
+            "subtitle": "Avicennia germinans",
+            "description": "Avicennia germinans"
+          },
+          {
+            "id": "species:white-mangrove",
+            "title": "White mangrove",
+            "subtitle": "Laguncularia racemosa",
+            "description": "Laguncularia racemosa"
+          },
+          {
+            "id": "species:button-mangrove",
+            "title": "Button mangrove",
+            "subtitle": "Conocarpus erectus",
+            "description": "Conocarpus erectus"
+          },
+          {
+            "id": "species:mangrove-warbler",
+            "title": "Mangrove warbler",
+            "subtitle": "Setophaga petechia erithachorides",
+            "description": "Setophaga petechia erithachorides"
+          },
+          {
+            "id": "species:american-crocodile",
+            "title": "American crocodile",
+            "subtitle": "Crocodylus acutus",
+            "description": "Crocodylus acutus"
+          },
+          {
+            "id": "country:PA",
+            "title": "Panama",
+            "subtitle": "PA",
+            "description": "ISO 3166-1 alpha-2: PA"
+          },
+          {
+            "id": "country:CO",
+            "title": "Colombia",
+            "subtitle": "CO",
+            "description": "ISO 3166-1 alpha-2: CO"
+          },
+          {
+            "id": "country:EC",
+            "title": "Ecuador",
+            "subtitle": "EC",
+            "description": "ISO 3166-1 alpha-2: EC"
+          },
+          {
+            "id": "country:PE",
+            "title": "Peru",
+            "subtitle": "PE",
+            "description": "ISO 3166-1 alpha-2: PE"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-615",
+            "title": "South American Pacific Mangroves",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/south-american-pacific-mangroves/"
+          },
+          {
+            "id": "one-earth-nt10",
+            "title": "Ecuadorean Dry Coastal Forests & Flooded Grasslands (NT10)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/ecuadorean-dry-coastal-forests-flooded-grasslands-nt10/"
+          },
+          {
+            "id": "one-earth-nt24",
+            "title": "Central American Isthmian & Colombian Coastal Forests (NT24)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/central-american-isthmian-colombian-coastal-forests-nt24/"
+          }
+        ]
+      }
     ]
   },
-  "media": {},
+  "media": {
+    "ecoregion:615": {
+      "src": "/assets/ecoregions/ecoregion-615.png",
+      "alt": "Interpretive landscape illustration of South American Pacific Mangroves.",
+      "caption": "An interpretive landscape impression of South American Pacific Mangroves.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
   "livingCompositions": {
     "ecoregion:615": {
       "ecoregionId": "ecoregion:615",

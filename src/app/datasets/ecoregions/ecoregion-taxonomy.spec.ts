@@ -28,6 +28,7 @@ import { validateBiologicalRecords } from './enrichment/validate-biota';
 import { ecoregionContentPartitionIds } from './content/ecoregion-content-provider';
 import { ecoregionPartitionByTargetId } from './content/partition-ownership.generated';
 import { livingCompositionPartitionByTaxonId } from './content/living-composition-ownership';
+import { ecoregionDashboardMedia } from './content/dashboard-media';
 import { ecoregionSources } from './source/source-registry';
 import {
   compatibleObservationTotal,
@@ -141,7 +142,7 @@ describe('ecological enrichment', () => {
   });
 
   it('tracks published realm coverage independently from lower-level record presence', () => {
-    expect(Object.keys(enrichmentCoverage)).toHaveLength(80);
+    expect(Object.keys(enrichmentCoverage)).toHaveLength(208);
     expect(coverageStateFor('realm:indomalaya')).toBe('published');
     expect(coverageStateFor('ecoregion:309')).toBe('reviewed');
     expect(coverageStateFor('realm:antarctica')).toBe('published');
@@ -149,12 +150,72 @@ describe('ecological enrichment', () => {
     expect(coverageStateFor('bioregion:na1')).toBe('published');
     expect(coverageStateFor('ecoregion:417')).toBe('published');
     expect(coverageStateFor('ecoregion:418')).toBe('published');
-    expect(coverageStateFor('ecoregion:615')).toBe('draft');
-    expect(generatedRealms.every(({ id }) => coverageStateFor(id) !== 'unstarted')).toBe(true);
+    expect(coverageStateFor('ecoregion:615')).toBe('reviewed');
+    expect(generatedRealms.every(({ id }) => coverageStateFor(id) === 'published')).toBe(true);
     expect(generatedRealms).toHaveLength(14);
     expect(generatedSubrealms).toHaveLength(53);
     expect(generatedBioregions).toHaveLength(185);
     expect(generatedEcoregions).toHaveLength(844);
+  });
+
+  it('keeps reviewed Oceania coverage and One Earth territorial scopes explicit', () => {
+    const reviewedOceaniaEcoregions = generatedEcoregions.filter(
+      ({ id, realmIds }) =>
+        realmIds.some((realmId) => realmId === 'realm:oceania') &&
+        coverageStateFor(id) === 'reviewed',
+    );
+    const reviewedOceaniaBioregions = generatedBioregions.filter(
+      ({ id, realmId }) => realmId === 'realm:oceania' && coverageStateFor(id) === 'reviewed',
+    );
+
+    expect(reviewedOceaniaEcoregions).toHaveLength(18);
+    expect(reviewedOceaniaBioregions).toHaveLength(7);
+    expect(coverageStateFor('subrealm:oceanic-islands')).toBe('reviewed');
+
+    const countriesFor = (targetId: string) =>
+      ecoregionEnrichment.find((record) => record.targetId === targetId)?.countryIds;
+    expect(countriesFor('ecoregion:619')).toEqual(['KI']);
+    expect(countriesFor('ecoregion:625')).toEqual(['PF']);
+    expect(countriesFor('ecoregion:632')).toEqual(['PF', 'PN']);
+    expect(countriesFor('ecoregion:634')).toEqual(['KI']);
+  });
+
+  it('keeps reviewed Australasia coverage and territorial scopes explicit', () => {
+    const reviewedEcoregions = generatedEcoregions.filter(
+      ({ id, realmIds }) =>
+        realmIds.some((realmId) => realmId === 'realm:australasia') &&
+        coverageStateFor(id) === 'reviewed',
+    );
+    const reviewedBioregions = generatedBioregions.filter(
+      ({ id, realmId }) => realmId === 'realm:australasia' && coverageStateFor(id) === 'reviewed',
+    );
+
+    expect(reviewedEcoregions).toHaveLength(14);
+    expect(reviewedBioregions).toHaveLength(3);
+    expect(coverageStateFor('subrealm:new-zealand')).toBe('reviewed');
+
+    const ecoregionCountries = (targetId: string) =>
+      ecoregionEnrichment.find((record) => record.targetId === targetId)?.countryIds;
+    const bioregion = (targetId: string) =>
+      bioregionEnrichment.find((record) => record.targetId === targetId);
+    expect(ecoregionCountries('ecoregion:142')).toEqual(['AU']);
+    expect(ecoregionCountries('ecoregion:147')).toEqual(['NF']);
+    expect(ecoregionCountries('ecoregion:196')).toEqual(['NZ', 'AU']);
+    expect(bioregion('bioregion:au16')?.countryIds).toEqual(['NZ', 'AU']);
+    expect(bioregion('bioregion:au1')?.climate).toBeUndefined();
+    expect(bioregion('bioregion:au2')?.climate).toBeUndefined();
+  });
+
+  it('maps local dashboard artwork to canonical ecoregion IDs', () => {
+    expect(Object.keys(ecoregionDashboardMedia)).toHaveLength(106);
+    expect(ecoregionDashboardMedia['ecoregion:615']).toMatchObject({
+      src: '/assets/ecoregions/ecoregion-615.png',
+      aspectRatio: '10:13',
+      role: 'interpretive',
+    });
+    expect(ecoregionDashboardMedia['ecoregion:615']?.alt).toContain(
+      'South American Pacific Mangroves',
+    );
   });
 
   it('rejects orphaned, duplicate, unsourced, unknown and invalid enrichment values', () => {
@@ -171,7 +232,7 @@ describe('ecological enrichment', () => {
         derivation: 'source-value' as const,
       },
       characteristicSpeciesIds: ['species:not-real'],
-      countryIds: ['ZZ'],
+      countryIds: ['ZZ', 'ZZ'],
       sources: ['missing-source'],
       status: 'authored' as const,
     };
@@ -188,6 +249,7 @@ describe('ecological enrichment', () => {
     expect(errors.some((error) => error.includes('invalid precipitation'))).toBe(true);
     expect(errors.some((error) => error.includes('unknown species'))).toBe(true);
     expect(errors.some((error) => error.includes('unknown country'))).toBe(true);
+    expect(errors.some((error) => error.includes('repeats country'))).toBe(true);
     expect(errors.some((error) => error.includes('unknown source'))).toBe(true);
   });
 
@@ -220,18 +282,25 @@ describe('ecological enrichment', () => {
     expect(
       validateBiologicalRecords({ records: biologicalRecords, ...biotaValidationInput }),
     ).toEqual([]);
-    const pilotCoverages = domainCoverageRecords.filter(({ ecoregionId }) => ecoregionId === 'ecoregion:302');
+    const pilotCoverages = domainCoverageRecords.filter(
+      ({ ecoregionId }) => ecoregionId === 'ecoregion:302',
+    );
     expect(pilotCoverages).toHaveLength(4);
     expect(
       pilotCoverages.every(
         ({ lifecycle, depth }) => lifecycle === 'published' && depth === 'representative',
       ),
     ).toBe(true);
-    const pilotOccurrences = taxonOccurrences.filter(({ ecoregionId }) => ecoregionId === 'ecoregion:302');
+    const pilotOccurrences = taxonOccurrences.filter(
+      ({ ecoregionId }) => ecoregionId === 'ecoregion:302',
+    );
     expect(pilotOccurrences.every(({ lifecycle }) => lifecycle === 'published')).toBe(true);
     expect(
       canonicalTaxa
-        .filter(({ entityKind, profileOwnerPartitionId }) => entityKind === 'functional-group' && profileOwnerPartitionId === 'indomalaya')
+        .filter(
+          ({ entityKind, profileOwnerPartitionId }) =>
+            entityKind === 'functional-group' && profileOwnerPartitionId === 'indomalaya',
+        )
         .map(({ id }) => id),
     ).toEqual([
       'functional-group:ectomycorrhizal-fungi',

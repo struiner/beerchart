@@ -25,6 +25,9 @@ const sourcedValues = (record: EcologicalEnrichment): readonly SourcedValue<unkn
     record.ecologicalProcesses,
     record.conservationContext,
   ].flatMap((value) => (value ? [value as SourcedValue<unknown>] : []));
+const duplicated = (values: readonly string[]) => [
+  ...new Set(values.filter((value, index) => values.indexOf(value) !== index)),
+];
 
 export function validateEcologicalEnrichment(input: {
   readonly records: readonly EcologicalEnrichment[];
@@ -55,6 +58,8 @@ export function validateEcologicalEnrichment(input: {
     if (!input.validTargetIds.has(record.targetId))
       errors.push(`Orphan enrichment target ${record.targetId}.`);
     if (!record.sources.length) errors.push(`Enrichment ${record.targetId} has no sources.`);
+    for (const sourceId of duplicated(record.sources))
+      errors.push(`Enrichment ${record.targetId} repeats source ${sourceId}.`);
     for (const sourceId of record.sources)
       if (!input.sourceIds.has(sourceId))
         errors.push(`Enrichment ${record.targetId} uses unknown source ${sourceId}.`);
@@ -103,6 +108,8 @@ export function validateEcologicalEnrichment(input: {
     for (const speciesId of record.characteristicSpeciesIds ?? [])
       if (!speciesIds.has(speciesId))
         errors.push(`Enrichment ${record.targetId} uses unknown species ${speciesId}.`);
+    for (const speciesId of duplicated(record.characteristicSpeciesIds ?? []))
+      errors.push(`Enrichment ${record.targetId} repeats characteristic species ${speciesId}.`);
     if (
       record.characteristicSpeciesIds &&
       (record.characteristicSpeciesIds.length <
@@ -116,6 +123,8 @@ export function validateEcologicalEnrichment(input: {
     for (const countryId of record.countryIds ?? [])
       if (!countryIds.has(countryId))
         errors.push(`Enrichment ${record.targetId} uses unknown country ${countryId}.`);
+    for (const countryId of duplicated(record.countryIds ?? []))
+      errors.push(`Enrichment ${record.targetId} repeats country ${countryId}.`);
     for (const field of record.overrides?.generatedFields ?? [])
       if (!generatedFields.has(field))
         errors.push(`Enrichment ${record.targetId} declares unknown generated field ${field}.`);

@@ -40,5 +40,61 @@ export const contentBundle = {
       }
     ]
   },
-  "media": {}
+  "media": {
+    "ecoregion:774": {
+      "src": "/assets/ecoregions/ecoregion-774.png",
+      "alt": "Interpretive landscape illustration of Kola Peninsula Tundra.",
+      "caption": "An interpretive landscape impression of Kola Peninsula Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:775": {
+      "src": "/assets/ecoregions/ecoregion-775.png",
+      "alt": "Interpretive landscape illustration of Northeast Siberian Coastal Tundra.",
+      "caption": "An interpretive landscape impression of Northeast Siberian Coastal Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:776": {
+      "src": "/assets/ecoregions/ecoregion-776.png",
+      "alt": "Interpretive landscape illustration of Northwest Russian-Novaya Zemlya Tundra.",
+      "caption": "An interpretive landscape impression of Northwest Russian-Novaya Zemlya Tundra.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:777": {
+      "src": "/assets/ecoregions/ecoregion-777.png",
+      "alt": "Interpretive landscape illustration of Novosibirsk Islands Arctic Desert.",
+      "caption": "An interpretive landscape impression of Novosibirsk Islands Arctic Desert.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:778": {
+      "src": "/assets/ecoregions/ecoregion-778.png",
+      "alt": "Interpretive landscape illustration of Russian Arctic Desert.",
+      "caption": "An interpretive landscape impression of Russian Arctic Desert.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  }
 } as const satisfies TaxonomyContentBundle;

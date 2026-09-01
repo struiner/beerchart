@@ -40,5 +40,83 @@ export const contentBundle = {
       }
     ]
   },
-  "media": {}
+  "media": {
+    "ecoregion:43": {
+      "src": "/assets/ecoregions/ecoregion-43.png",
+      "alt": "Interpretive landscape illustration of East Sudanian Savanna.",
+      "caption": "An interpretive landscape impression of East Sudanian Savanna.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:49": {
+      "src": "/assets/ecoregions/ecoregion-49.png",
+      "alt": "Interpretive landscape illustration of Mandara Plateau Woodlands.",
+      "caption": "An interpretive landscape impression of Mandara Plateau Woodlands.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:53": {
+      "src": "/assets/ecoregions/ecoregion-53.png",
+      "alt": "Interpretive landscape illustration of Sahelian Acacia Savanna.",
+      "caption": "An interpretive landscape impression of Sahelian Acacia Savanna.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:62": {
+      "src": "/assets/ecoregions/ecoregion-62.png",
+      "alt": "Interpretive landscape illustration of West Sudanian Savanna.",
+      "caption": "An interpretive landscape impression of West Sudanian Savanna.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:71": {
+      "src": "/assets/ecoregions/ecoregion-71.png",
+      "alt": "Interpretive landscape illustration of Inner Niger Delta Flooded Savanna.",
+      "caption": "An interpretive landscape impression of Inner Niger Delta Flooded Savanna.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:72": {
+      "src": "/assets/ecoregions/ecoregion-72.png",
+      "alt": "Interpretive landscape illustration of Lake Chad Flooded Savanna.",
+      "caption": "An interpretive landscape impression of Lake Chad Flooded Savanna.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ecoregion:74": {
+      "src": "/assets/ecoregions/ecoregion-74.png",
+      "alt": "Interpretive landscape illustration of Sudd Flooded Grasslands.",
+      "caption": "An interpretive landscape impression of Sudd Flooded Grasslands.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  }
 } as const satisfies TaxonomyContentBundle;
