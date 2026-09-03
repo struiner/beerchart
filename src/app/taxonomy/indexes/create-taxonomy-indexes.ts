@@ -10,6 +10,7 @@ export interface TaxonomyIndexes<TEntry, TRelated> {
   readonly descendantEntryIdsByGroupId: ReadonlyMap<string, readonly string[]>;
   readonly relatedEntityIdsByEntryId: ReadonlyMap<string, readonly string[]>;
   readonly entryIdsByRelatedEntityId: ReadonlyMap<string, readonly string[]>;
+  readonly groupIdsByRelatedEntityId: ReadonlyMap<string, readonly string[]>;
 }
 
 const append = (map: Map<string, string[]>, key: string, value: string) =>
@@ -27,6 +28,7 @@ export function createTaxonomyIndexes<TEntry extends TaxonomyEntry, TRelated ext
   const directEntryIdsByGroupId = new Map<string, string[]>();
   const relatedEntityIdsByEntryId = new Map<string, string[]>();
   const entryIdsByRelatedEntityId = new Map<string, string[]>();
+  const groupIdsByRelatedEntityId = new Map<string, string[]>();
 
   module.records.groups.forEach((group) => {
     if (group.parentGroupId) append(childGroupIdsByParentId, group.parentGroupId, group.id);
@@ -36,6 +38,7 @@ export function createTaxonomyIndexes<TEntry extends TaxonomyEntry, TRelated ext
   );
   module.records.relatedEntities.forEach((entity) => {
     entryIdsByRelatedEntityId.set(entity.id, [...entity.linkedEntryIds]);
+    groupIdsByRelatedEntityId.set(entity.id, [...(entity.linkedGroupIds ?? [])]);
     entity.linkedEntryIds.forEach((entryId) =>
       append(relatedEntityIdsByEntryId, entryId, entity.id),
     );
@@ -70,5 +73,6 @@ export function createTaxonomyIndexes<TEntry extends TaxonomyEntry, TRelated ext
     descendantEntryIdsByGroupId,
     relatedEntityIdsByEntryId,
     entryIdsByRelatedEntityId,
+    groupIdsByRelatedEntityId,
   };
 }

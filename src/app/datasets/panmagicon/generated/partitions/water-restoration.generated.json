@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "spell:water-restoration:w01",
+    "title": "Cup Made Sweet",
+    "description": "Returns a cup of drinkable water toward its clean, balanced state, settling grit and separating a simple contaminant.",
+    "parentGroupIds": [
+      "shelf:water-restoration:lessons"
+    ],
+    "facts": {
+      "originalId": "W01",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "DELUGE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 4,
+      "calculatedLoad": 4,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W01",
+        "location": "Water Restoration / Lessons / W01"
+      }
+    },
+    "aliases": [
+      "W01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn0 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Returns a cup of drinkable water toward its clean, balanced state, settling grit and separating a simple contaminant.",
+      "practice": "Name the intended use and keep the removed impurity in the vessel until it can be disposed of.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Purity is selected, not absolute. Minerals, medicine, or harmless culture may be judged foreign, and the separated residue becomes concentrated.",
+      "failure": "An imprecise ideal produces tasteless dead water or restores the cup to an earlier polluted state.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Add an unfamiliar dissolved substance, remove the residue path, or dispute what the water is meant to sustain.",
+      "mastery": "A practised restorer preserves useful salts and can explain which definition of clean was chosen.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 4 | PROOF HEARING + HOLDING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w02",
+    "title": "Seam of Moisture",
+    "description": "Returns moisture to a dried seam of leather, wood, clay, or soil without soaking the surrounding material.",
+    "parentGroupIds": [
+      "shelf:water-restoration:lessons"
+    ],
+    "facts": {
+      "originalId": "W02",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "WELL LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W02",
+        "location": "Water Restoration / Lessons / W02"
+      }
+    },
+    "aliases": [
+      "W02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn1 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Returns moisture to a dried seam of leather, wood, clay, or soil without soaking the surrounding material.",
+      "practice": "Lay a damp thread along the seam as the remembered boundary.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Nearby air and surfaces dry slightly; old swelling, stains, or warping may return with the desired pliancy.",
+      "failure": "The seam swells past alignment or drinks from a living hand when no other water is available.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Break the thread, isolate the material, or supply a misleading earlier shape.",
+      "mastery": "Experts stop at functional suppleness rather than blindly restoring the wettest remembered condition.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 5 | PROOF HEARING + HOLDING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w03",
+    "title": "Washed Sting",
+    "description": "Flushes a fresh bite, sting, or shallow wound toward the condition it held just before contamination entered.",
+    "parentGroupIds": [
+      "shelf:water-restoration:lessons"
+    ],
+    "facts": {
+      "originalId": "W03",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "DELUGE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W03",
+        "location": "Water Restoration / Lessons / W03"
+      }
+    },
+    "aliases": [
+      "W03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Flushes a fresh bite, sting, or shallow wound toward the condition it held just before contamination entered.",
+      "practice": "Rinse continuously and mark the last known healthy margin with salt-free ink.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Venom and dirt leave in a small but highly concentrated wash; the wound may reopen as clotting is judged later than contamination.",
+      "failure": "A wrong temporal reference restores the irritant, closes it inside, or removes beneficial medicine.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Delay treatment, obscure the healthy margin, or introduce several contaminants at different times.",
+      "mastery": "A master restores in thin layers and inspects the expelled wash instead of trusting a single return.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 6 | PROOF HEARING + HOLDING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w04",
+    "title": "True Level",
+    "description": "Returns spilled or sloshing liquid to an earlier calm level inside its present container.",
+    "parentGroupIds": [
+      "shelf:water-restoration:lessons"
+    ],
+    "facts": {
+      "originalId": "W04",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "DELUGE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W04",
+        "location": "Water Restoration / Lessons / W04"
+      }
+    },
+    "aliases": [
+      "W04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Returns spilled or sloshing liquid to an earlier calm level inside its present container.",
+      "practice": "Touch the container at the remembered waterline and hold it still for one breath.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Momentum is displaced into the vessel and supporting surface, which may shudder or creak.",
+      "failure": "If the remembered container differs from the present one, water seeks a missing wall or rises beyond the rim.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Change the vessel, erase the line, or keep accelerating it faster than the pattern can settle.",
+      "mastery": "An expert chooses a recent stable state and bleeds momentum gradually into the floor.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 5 | PROOF HEARING + HOLDING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w05",
+    "title": "River's Memory",
+    "description": "Lets a small sample retrace the turns of the channel it recently followed, revealing forks, leaks, and hidden conduits.",
+    "parentGroupIds": [
+      "shelf:water-restoration:lessons"
+    ],
+    "facts": {
+      "originalId": "W05",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "MIRROR LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W05",
+        "location": "Water Restoration / Lessons / W05"
+      }
+    },
+    "aliases": [
+      "W05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Lets a small sample retrace the turns of the channel it recently followed, revealing forks, leaks, and hidden conduits.",
+      "practice": "Place the sample on a glazed map and allow it to crawl without forcing its direction.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The sample loses its newest dissolved traces and the real channel experiences a faint counter-current.",
+      "failure": "Old routes overwrite recent ones or the sample tries to return physically to its source.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Mix waters, alter salinity, or interrupt the sympathetic path with a dry break.",
+      "mastery": "A master asks for one interval at a time and preserves contradictory route memories.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 5 | PROOF HEARING + HOLDING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w06",
+    "title": "Clear Reflection",
+    "description": "Returns a disturbed puddle, basin, or polished wet surface to a moment of perfect reflective stillness.",
+    "parentGroupIds": [
+      "shelf:water-restoration:lessons"
+    ],
+    "facts": {
+      "originalId": "W06",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "MIRROR LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W06",
+        "location": "Water Restoration / Lessons / W06"
+      }
+    },
+    "aliases": [
+      "W06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn0 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Returns a disturbed puddle, basin, or polished wet surface to a moment of perfect reflective stillness.",
+      "practice": "Frame the surface with four still objects and exclude wind rather than overpowering it.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The basin transfers its movement into the frame; the chosen reflection may be an earlier scene rather than the present view.",
+      "failure": "A stale reference shows someone who has left or hides a new crack beneath old calm.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Move the frame, ripple from below, or change the viewing angle before restoration completes.",
+      "mastery": "Experienced practitioners distinguish restoring the surface from restoring the image and never assume those are the same task.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 5 | PROOF HEARING + HOLDING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w07",
+    "title": "Quiet Pulse",
+    "description": "Returns circulation in a numb hand or cramped limb toward an ordinary resting rhythm.",
+    "parentGroupIds": [
+      "shelf:water-restoration:lessons"
+    ],
+    "facts": {
+      "originalId": "W07",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "WELL LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W07",
+        "location": "Water Restoration / Lessons / W07"
+      }
+    },
+    "aliases": [
+      "W07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Returns circulation in a numb hand or cramped limb toward an ordinary resting rhythm.",
+      "practice": "Use two fingers as a reference pulse and keep the limb below the heart.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Fluid redistributes through nearby tissue, carrying soreness, swelling, or a hidden clot back into motion.",
+      "failure": "The wrong rhythm increases pressure or restores circulation through a damaged vessel.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Alter the reference pulse, compress the limb, or conceal internal injury.",
+      "mastery": "A master restores flow in stages and lets pain return before full pressure does.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 6 | PROOF HEARING + HOLDING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w08",
+    "title": "Mended Dew",
+    "description": "Restores the moisture balance of one wilted leaf, seedling, or cut flower for a day.",
+    "parentGroupIds": [
+      "shelf:water-restoration:lessons"
+    ],
+    "facts": {
+      "originalId": "W08",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "WELL LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W08",
+        "location": "Water Restoration / Lessons / W08"
+      }
+    },
+    "aliases": [
+      "W08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag1 Co0 | Carrier: personal or supervised.",
+      "purpose": "Restores the moisture balance of one wilted leaf, seedling, or cut flower for a day.",
+      "practice": "Collect its own condensed breath if possible; foreign water raises ambiguity.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The plant resumes transpiration and draws real nutrients. Old blight or salt stress may reappear with the former state.",
+      "failure": "Over-restoration bursts cells or drains neighbouring growth to satisfy the remembered balance.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Separate the plant from its water source, alter the root environment, or present a graft with competing identities.",
+      "mastery": "A master restores function rather than youth and watches whether the plant can sustain the returned state.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 7 | PROOF HEARING + HOLDING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w09",
+    "title": "Leakhush",
+    "description": "Returns a small pipe, skin, or waterskin leak to the last condition in which fluid stayed within its boundary.",
+    "parentGroupIds": [
+      "shelf:water-restoration:lessons"
+    ],
+    "facts": {
+      "originalId": "W09",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "WELL LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W09",
+        "location": "Water Restoration / Lessons / W09"
+      }
+    },
+    "aliases": [
+      "W09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Returns a small pipe, skin, or waterskin leak to the last condition in which fluid stayed within its boundary.",
+      "practice": "Bind the leak with the same material and keep pressure below its remembered maximum.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The patch inherits the old wear pattern; displaced pressure appears at the next weakest seam.",
+      "failure": "The spell seals the visible hole while restoring an older hidden crack or a former knot that no longer fits.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Raise pressure, remove the matching patch, or reveal that the vessel was never sound in its present shape.",
+      "mastery": "An expert follows the pressure wake and marks the next likely failure instead of presenting the seal as permanent.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 6 | PROOF HEARING + HOLDING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w10",
+    "title": "Sailor's Mouth",
+    "description": "Relieves salt-burned lips, dry throat, and mild dehydration by returning local fluid balance.",
+    "parentGroupIds": [
+      "shelf:water-restoration:lessons"
+    ],
+    "facts": {
+      "originalId": "W10",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "MIRROR LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W10",
+        "location": "Water Restoration / Lessons / W10"
+      }
+    },
+    "aliases": [
+      "W10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Relieves salt-burned lips, dry throat, and mild dehydration by returning local fluid balance.",
+      "practice": "The subject rinses with fresh water and states when they last drank adequately.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Water is drawn from the rinse and nearby tissue; the body still owes the underlying volume and salts.",
+      "failure": "A false remembered state masks dangerous dehydration or dilutes electrolytes further.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Withhold the temporal reference, substitute salt water, or force exertion during the working.",
+      "mastery": "A master treats the spell as triage and makes the remaining physical deficit explicit.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 6 | PROOF HEARING + HOLDING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w11",
+    "title": "Well's Return",
+    "description": "Restores a village well's rate, clarity, and pressure toward a documented healthy season.",
+    "parentGroupIds": [
+      "shelf:water-restoration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "W11",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "DELUGE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 2,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W11",
+        "location": "Water Restoration / Practical Workings / W11"
+      }
+    },
+    "aliases": [
+      "W11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn0 Sp2 Ho0 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Restores a village well's rate, clarity, and pressure toward a documented healthy season.",
+      "practice": "Use dated depth marks, three uncontaminated samples, and a surface basin for expelled residue.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The aquifer may borrow from connected ground, old minerals return, and contaminants concentrate in the basin.",
+      "failure": "An exceptional wet year becomes the ideal, draining neighbours, or a historic pollutant returns with the pressure.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Falsify depth records, tap the same aquifer elsewhere, or block the residue basin.",
+      "mastery": "Experts restore a sustainable band rather than the highest remembered yield.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 6 | PROOF HOLDING + TURNING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w12",
+    "title": "Rivercourse Mend",
+    "description": "Guides a damaged stream back into a viable former channel while preserving declared bridges, homes, and new habitat.",
+    "parentGroupIds": [
+      "shelf:water-restoration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "W12",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "WELL LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W12",
+        "location": "Water Restoration / Practical Workings / W12"
+      }
+    },
+    "aliases": [
+      "W12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn1 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Guides a damaged stream back into a viable former channel while preserving declared bridges, homes, and new habitat.",
+      "practice": "Surveyors mark acceptable historical banks and create spill fields for excess momentum.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Old erosion resumes, modern sediment moves, and protected additions force pressure into fewer routes.",
+      "failure": "The river claims every former bend or cuts a shortcut around an overconstrained Knot.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Destroy bank markers, open a competing channel, or overload the spill fields.",
+      "mastery": "A master releases one protected convenience before forcing the river into an ecologically impossible memory.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 8 | PROOF HOLDING + TURNING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w13",
+    "title": "Clearblood Rinse",
+    "description": "Returns blood chemistry toward a recent viable range, diluting poison, shock metabolites, or magical residue.",
+    "parentGroupIds": [
+      "shelf:water-restoration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "W13",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "DELUGE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W13",
+        "location": "Water Restoration / Practical Workings / W13"
+      }
+    },
+    "aliases": [
+      "W13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn2 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Returns blood chemistry toward a recent viable range, diluting poison, shock metabolites, or magical residue.",
+      "practice": "A healer keeps a retained healthy sample or uses measured pulse, breath, and temperature as a composite reference.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The separated burden exits through sweat, urine, or a prepared dialysis vessel; beneficial drugs may also be removed.",
+      "failure": "The spell restores an intoxicated baseline, shifts toxins into an organ, or expands fluid volume dangerously.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Destroy the reference, introduce a new agent, or obstruct the declared exit route.",
+      "mastery": "Experts restore one parameter at a time and preserve what they cannot yet identify.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 9 | PROOF HOLDING + TURNING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w14",
+    "title": "Breath from Drowning",
+    "description": "Restores a newly drowned person's lung fluid, circulation, and gas exchange toward the last breathing state.",
+    "parentGroupIds": [
+      "shelf:water-restoration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "W14",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "DELUGE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W14",
+        "location": "Water Restoration / Practical Workings / W14"
+      }
+    },
+    "aliases": [
+      "W14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn1 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Restores a newly drowned person's lung fluid, circulation, and gas exchange toward the last breathing state.",
+      "practice": "One practitioner maintains airway position while another supplies a witnessed temporal reference.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Water leaves violently, old aspiration damage may return, and restoration cannot supply life when identity has fully passed into Grave.",
+      "failure": "The body chooses an earlier injured breath or restarts circulation before the airway is clear.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Delay the rite, disrupt the witness, or maintain pressure that forces water back into the lungs.",
+      "mastery": "A master staggers airway, circulation, and heat, and knows when restoration has become attempted resurrection.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 9 | PROOF HOLDING + TURNING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w15",
+    "title": "Thirstless March",
+    "description": "Maintains a company's hydration within a safe band during several hours of exertion.",
+    "parentGroupIds": [
+      "shelf:water-restoration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "W15",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "MIRROR LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W15",
+        "location": "Water Restoration / Practical Workings / W15"
+      }
+    },
+    "aliases": [
+      "W15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn1 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Maintains a company's hydration within a safe band during several hours of exertion.",
+      "practice": "Each traveller carries a measured seed flask linked to a common reservoir and salt ledger.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The reservoir empties, sweat still carries heat, and unequal exertion turns fair allocation into medical risk.",
+      "failure": "The weave equalises bodies that need different balances or conceals depletion until the reservoir collapses.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Contaminate the reservoir, swap flasks, or force unrecorded exertion.",
+      "mastery": "Experienced quartermasters shed Span and treat the most vulnerable separately rather than preserving uniformity.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 9 | PROOF HOLDING + TURNING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w16",
+    "title": "Unclouded Lens",
+    "description": "Keeps rain, condensation, tears, and spray from distorting a selected window, visor, or eye.",
+    "parentGroupIds": [
+      "shelf:water-restoration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "W16",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "MIRROR LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W16",
+        "location": "Water Restoration / Practical Workings / W16"
+      }
+    },
+    "aliases": [
+      "W16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 1 | Restoration | Th1 Tu1 Kn2 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Keeps rain, condensation, tears, and spray from distorting a selected window, visor, or eye.",
+      "practice": "Choose whether the proper state belongs to the surface, the film of water, or the observer's vision.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Moisture moves to the edge and accumulates; an eye may dry painfully while a window sheds a telltale stream.",
+      "failure": "The spell restores an old prescription, clears protective mucus, or creates a concentrated drip at a dangerous point.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Change the surface, flood the edge, or exploit the newly visible observer.",
+      "mastery": "A master preserves necessary moisture and accepts a narrow clear aperture instead of drying everything.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 9 | PROOF HOLDING + TURNING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w17",
+    "title": "Rejoined Current",
+    "description": "Reconnects a severed irrigation channel, hose network, or shipboard line to its intended continuous flow.",
+    "parentGroupIds": [
+      "shelf:water-restoration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "W17",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "WELL LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W17",
+        "location": "Water Restoration / Practical Workings / W17"
+      }
+    },
+    "aliases": [
+      "W17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Reconnects a severed irrigation channel, hose network, or shipboard line to its intended continuous flow.",
+      "practice": "Operators identify every valve and pressure class before invoking a pre-break reference.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Pressure returns throughout the system, revealing forgotten weak points and drawing water from its actual source.",
+      "failure": "The pattern bypasses a modern safety valve or reopens a line intentionally retired.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Change the network topology, close the source, or create a newer valid configuration.",
+      "mastery": "Experts restore continuity from source outward and stop when the system's present purpose differs from its past.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 10 | PROOF HOLDING + TURNING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w18",
+    "title": "Rain-Caught Orchard",
+    "description": "Returns a drought-stressed orchard toward the moisture pattern left by its last healthy rain.",
+    "parentGroupIds": [
+      "shelf:water-restoration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "W18",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "WELL LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W18",
+        "location": "Water Restoration / Practical Workings / W18"
+      }
+    },
+    "aliases": [
+      "W18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn1 Sp2 Ho1 Fi2 Ag2 Co0 | Carrier: personal with a focus.",
+      "purpose": "Returns a drought-stressed orchard toward the moisture pattern left by its last healthy rain.",
+      "practice": "Tree rings, cistern records, and soil cores define the target band; the spell does not create nutrients.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Nearby soil dries, dormant diseases awaken, and roots may resume claims beneath present structures.",
+      "failure": "A remembered flood is selected or all trees receive the same moisture despite different root damage.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Alter the soil references, isolate roots, or drain the source layer faster than restoration can redistribute it.",
+      "mastery": "A master restores by grove and species, sacrificing visual uniformity for actual survival.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 10 | PROOF HOLDING + TURNING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w19",
+    "title": "Bath of Second Skin",
+    "description": "Restores burned, abraded, or chemically damaged skin toward a recent intact state while immersed.",
+    "parentGroupIds": [
+      "shelf:water-restoration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "W19",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "WELL LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 3,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W19",
+        "location": "Water Restoration / Practical Workings / W19"
+      }
+    },
+    "aliases": [
+      "W19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn2 Sp2 Ho3 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Restores burned, abraded, or chemically damaged skin toward a recent intact state while immersed.",
+      "practice": "The bath is kept at body temperature and receives expelled residue in a separate circulating filter.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Scar history, pigments, and surface microbes may return; the filter becomes medically hazardous.",
+      "failure": "The spell restores a previous rash, closes contamination within, or smooths skin without repairing deeper tissue.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Poison the bath, break circulation, or obscure the last intact boundary.",
+      "mastery": "Experts restore layers in order and leave diagnostic damage visible until deeper integrity is confirmed.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 11 | PROOF HOLDING + TURNING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w20",
+    "title": "Ferryman's Mercy",
+    "description": "Returns a small boat and its passengers to the last stable trim after a sudden wave, collision, or load shift.",
+    "parentGroupIds": [
+      "shelf:water-restoration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "W20",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "MIRROR LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W20",
+        "location": "Water Restoration / Practical Workings / W20"
+      }
+    },
+    "aliases": [
+      "W20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Returns a small boat and its passengers to the last stable trim after a sudden wave, collision, or load shift.",
+      "practice": "The ferryman names the stable moment and offers the hull, not the passengers, as momentum sink.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The hull groans, cargo shifts back, and displaced water sends a compensating wave outward.",
+      "failure": "An old load plan is restored, people are moved into danger, or damage is hidden beneath recovered trim.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Change cargo identity, break the hull's continuity, or strike during the compensating wave.",
+      "mastery": "A master chooses the newest survivable trim and lets cargo go before forcing the hull to remember strength it no longer has.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 10 | PROOF HOLDING + TURNING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w21",
+    "title": "Reversal of Scald",
+    "description": "Returns tissue, clothing, and local moisture toward the moment before a severe heat injury while preserving later lifesaving interventions.",
+    "parentGroupIds": [
+      "shelf:water-restoration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "W21",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "DELUGE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 3,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W21",
+        "location": "Water Restoration / Expert Formulae / W21"
+      }
+    },
+    "aliases": [
+      "W21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 3 | Restoration | Th1 Tu1 Kn1 Sp3 Ho0 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Returns tissue, clothing, and local moisture toward the moment before a severe heat injury while preserving later lifesaving interventions.",
+      "practice": "Healers keep separate Knots for pain control, circulation, sterile dressings, and the patient's chosen bodily identity.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Heat is redistributed into a cooling bath, damaged fluid returns through swelling, and the pre-injury state may include earlier disease.",
+      "failure": "A broad temporal claim removes treatment or restores the source heat along with healthy tissue.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Destroy records, warm the sink, or create conflict between the patient's memory and the body's trace.",
+      "mastery": "A master restores function in negotiated layers and lets uncertain cosmetic damage remain.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 9 | PROOF TURNING + REDIRECTION | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w22",
+    "title": "Pressure Concord",
+    "description": "Returns pressure across vessels, organs, pipes, or diving chambers to a stable relation without equalising everything to one value.",
+    "parentGroupIds": [
+      "shelf:water-restoration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "W22",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "WELL LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W22",
+        "location": "Water Restoration / Expert Formulae / W22"
+      }
+    },
+    "aliases": [
+      "W22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn2 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Returns pressure across vessels, organs, pipes, or diving chambers to a stable relation without equalising everything to one value.",
+      "practice": "Reference gauges and living pulses are assigned independent safe bands.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Compressed gas, fluid, and tissue release momentum into weighted bladders; the system may reveal hidden leaks.",
+      "failure": "Equalisation outruns adaptation, ruptures a weak partition, or chooses a stable but harmful old pressure.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Corrupt one gauge, isolate a compartment, or exhaust the bladders.",
+      "mastery": "Experts restore gradients rather than numbers and shed speed before they sacrifice physiological safety.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 12 | PROOF TURNING + REDIRECTION | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w23",
+    "title": "Memory of Snow",
+    "description": "Returns trampled, melted, or polluted snowpack to a mapped recent structure for travel, water storage, or evidence.",
+    "parentGroupIds": [
+      "shelf:water-restoration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "W23",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "DELUGE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W23",
+        "location": "Water Restoration / Expert Formulae / W23"
+      }
+    },
+    "aliases": [
+      "W23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn3 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Returns trampled, melted, or polluted snowpack to a mapped recent structure for travel, water storage, or evidence.",
+      "practice": "Layer samples and shade records distinguish snowfall from later avalanche and melt.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Heat is displaced downslope, contaminants concentrate at the boundary, and restored snow may conceal present hazards.",
+      "failure": "An avalanche face returns, unstable crystals are privileged, or the snow covers people and structures added later.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Mix layers, heat the boundary, or introduce a newer legitimate snow state.",
+      "mastery": "A master restores only load-bearing layers and leaves warning scars visible.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 13 | PROOF TURNING + REDIRECTION | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w24",
+    "title": "Aquifer Suturing",
+    "description": "Reconnects fractured underground flows while isolating salt intrusion, mine drainage, and declared contaminated seams.",
+    "parentGroupIds": [
+      "shelf:water-restoration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "W24",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "DELUGE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W24",
+        "location": "Water Restoration / Expert Formulae / W24"
+      }
+    },
+    "aliases": [
+      "W24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 3 | Restoration | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Reconnects fractured underground flows while isolating salt intrusion, mine drainage, and declared contaminated seams.",
+      "practice": "Deep maps, paired wells, and sacrificial clay beds carry the Knots and expelled burden.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Pressure and mineral routes change across a wide region; clay beds become concentrated waste sites.",
+      "failure": "Water bypasses the suture, old contamination returns, or a protected seam forces depletion elsewhere.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Damage paired wells, poison the clay bed, or open a more attractive underground route.",
+      "mastery": "Masters test each reconnection at low pressure and accept a smaller yield rather than hide regional uncertainty.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 13 | PROOF TURNING + REDIRECTION | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w25",
+    "title": "Clean Vein",
+    "description": "Restores one chosen bodily or industrial fluid circuit while preserving connected circuits that must not be equalised.",
+    "parentGroupIds": [
+      "shelf:water-restoration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "W25",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "MIRROR LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W25",
+        "location": "Water Restoration / Expert Formulae / W25"
+      }
+    },
+    "aliases": [
+      "W25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Restores one chosen bodily or industrial fluid circuit while preserving connected circuits that must not be equalised.",
+      "practice": "A marked inlet and outlet define the circuit; observers monitor temperature, chemistry, and flow separately.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Residue accumulates at the outlet and connected systems inherit a brief pressure mismatch.",
+      "failure": "The spell follows an anatomical shortcut, strips necessary additives, or restores a circuit that was intentionally rerouted.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Swap labels, close the outlet, or alter the circuit after mapping.",
+      "mastery": "An expert recognises when the system's adaptation is healthier than its original design.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 13 | PROOF TURNING + REDIRECTION | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w26",
+    "title": "Restored Tide",
+    "description": "Returns a harbour or estuary's tidal timing and reach after magical, structural, or climatic disruption.",
+    "parentGroupIds": [
+      "shelf:water-restoration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "W26",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "MIRROR LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W26",
+        "location": "Water Restoration / Expert Formulae / W26"
+      }
+    },
+    "aliases": [
+      "W26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 3 | Restoration | Th1 Tu1 Kn3 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Returns a harbour or estuary's tidal timing and reach after magical, structural, or climatic disruption.",
+      "practice": "Moon records, old quay marks, and ecological witnesses define a range rather than one historical instant.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Sediment, salinity, spawning, and shipping all change; excluded modern districts push water elsewhere.",
+      "failure": "The highest remembered tide is selected or ancient channels reopen beneath settlements.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Alter quay marks, sever lunar reference, or create a new barrier during the return.",
+      "mastery": "Masters publish the uncertainty and phase the restoration over many tides.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 13 | PROOF TURNING + REDIRECTION | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w27",
+    "title": "Recast Reflection",
+    "description": "Restores a person's reflected image after Veiling, curse, identity fracture, or damaged sympathetic relation.",
+    "parentGroupIds": [
+      "shelf:water-restoration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "W27",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "WELL LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W27",
+        "location": "Water Restoration / Expert Formulae / W27"
+      }
+    },
+    "aliases": [
+      "W27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Restores a person's reflected image after Veiling, curse, identity fracture, or damaged sympathetic relation.",
+      "practice": "The subject, a trusted witness, and an unaltered childhood object each supply a different claim.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The mirror gains a route to the subject, suppressed memories surface, and an older identity may compete with present choice.",
+      "failure": "The reflection becomes authoritative and begins correcting the person toward its past.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Break witness agreement, cloud the mirror, or present a stronger true-name relation.",
+      "mastery": "A master restores recognisability without treating childhood, ancestry, or public memory as ownership.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 14 | PROOF TURNING + REDIRECTION | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w28",
+    "title": "Watershed Truce",
+    "description": "Returns several competing rivers, canals, wetlands, and reservoirs to a mutually viable seasonal allocation.",
+    "parentGroupIds": [
+      "shelf:water-restoration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "W28",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "WELL LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W28",
+        "location": "Water Restoration / Expert Formulae / W28"
+      }
+    },
+    "aliases": [
+      "W28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 3 | Restoration | Th1 Tu1 Kn2 Sp3 Ho2 Fi3 Ag3 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Returns several competing rivers, canals, wetlands, and reservoirs to a mutually viable seasonal allocation.",
+      "practice": "Each basin appoints a keeper, and no single historic year may define proper balance.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "Shortages become visible rather than erased; some land must remain dry so another can recover.",
+      "failure": "The pattern privileges the best-recorded basin or oscillates between incompatible historical states.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Withdraw a keeper, falsify seasonal records, or divert water outside the declared watershed.",
+      "mastery": "Expertise appears as negotiated incompleteness: the conductor leaves room for drought, flood, and political revision.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 15 | PROOF TURNING + ANCHORING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w29",
+    "title": "Vessel of Homecoming",
+    "description": "Returns a ship's water balance, ballast, leaks, and trim toward the condition in which it last reached safe harbour.",
+    "parentGroupIds": [
+      "shelf:water-restoration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "W29",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "WELL LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W29",
+        "location": "Water Restoration / Expert Formulae / W29"
+      }
+    },
+    "aliases": [
+      "W29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn3 Sp3 Ho4 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Returns a ship's water balance, ballast, leaks, and trim toward the condition in which it last reached safe harbour.",
+      "practice": "A preserved harbour-water vial anchors the destination memory while the crew records present cargo and damage.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "The ship may seek old ballast, reject later modifications, and expel bilge contaminants into a concentrated wake.",
+      "failure": "Homecoming becomes literal movement, or restoration removes repairs made after the remembered voyage.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Destroy the vial, change the ship's name, or exploit undocumented cargo.",
+      "mastery": "A master restores seaworthiness rather than nostalgia and excludes improvements only with the crew's consent.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 15 | PROOF TURNING + ANCHORING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w30",
+    "title": "Baptism of the Unlost",
+    "description": "Restores civic name, kin recognition, and bodily orientation to someone whose identity was washed away by magic.",
+    "parentGroupIds": [
+      "shelf:water-restoration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "W30",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "MIRROR LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W30",
+        "location": "Water Restoration / Expert Formulae / W30"
+      }
+    },
+    "aliases": [
+      "W30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 2 | Restoration | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Restores civic name, kin recognition, and bodily orientation to someone whose identity was washed away by magic.",
+      "practice": "A communal basin holds signatures from chosen relationships, not merely legal records.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Forgotten obligations and grief return with recognition; those omitted from the basin may remain strangers.",
+      "failure": "The community's preferred person overwrites the survivor's present self or restores an abusive claim.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Contaminate signatures, deny consent, or present incompatible true relationships.",
+      "mastery": "A master restores access to memory and relation while leaving the subject authority to refuse them.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 14 | PROOF TURNING + REDIRECTION | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w31",
+    "title": "Great River Recalled",
+    "description": "Returns a dead or diverted river to a viable course across a region while threading around declared settlements and sacred ground.",
+    "parentGroupIds": [
+      "shelf:water-restoration:rites"
+    ],
+    "facts": {
+      "originalId": "W31",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "DELUGE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 4,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W31",
+        "location": "Water Restoration / Rites / W31"
+      }
+    },
+    "aliases": [
+      "W31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn2 Sp4 Ho1 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Returns a dead or diverted river to a viable course across a region while threading around declared settlements and sacred ground.",
+      "practice": "Generations of maps, sediment cores, and local witnesses form a braided historical range.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Floodplains awaken, property and ecology change, and every exclusion increases pressure on unprotected land.",
+      "failure": "The river claims an ancient course, divides into incompatible memories, or arrives faster than evacuation.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Destroy a key witness site, open a new canal, overload an exclusion, or contest which era was viable.",
+      "mastery": "The presiding master gives the river room and reduces the promise before turning history into a weapon.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 12 | PROOF REDIRECTION + ANCHORING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w32",
+    "title": "City of Sweet Wells",
+    "description": "Maintains potable pressure and balanced mineral content across a city's wells, pipes, baths, and fountains.",
+    "parentGroupIds": [
+      "shelf:water-restoration:rites"
+    ],
+    "facts": {
+      "originalId": "W32",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "WELL LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W32",
+        "location": "Water Restoration / Rites / W32"
+      }
+    },
+    "aliases": [
+      "W32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 3 | Restoration | Th1 Tu1 Kn3 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Maintains potable pressure and balanced mineral content across a city's wells, pipes, baths, and fountains.",
+      "practice": "District cisterns hold local references and a public residue canal exposes what the system removes.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Waste and scarcity remain political facts; concentrated residue accumulates and older plumbing weaknesses return under pressure.",
+      "failure": "A clean district is preserved by exporting contamination to a poor one, or the system restores obsolete lead routes.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Poison a cistern reference, block the canal, or forge a district's declared need.",
+      "mastery": "A master makes allocation and residue visible, then sheds decorative fountains before public health.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 15 | PROOF REDIRECTION + ANCHORING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w33",
+    "title": "Floodplain's Forgiveness",
+    "description": "Reverses destructive flood displacement by returning water, soil moisture, channels, and surviving structures toward a stable pre-flood relation.",
+    "parentGroupIds": [
+      "shelf:water-restoration:rites"
+    ],
+    "facts": {
+      "originalId": "W33",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "DELUGE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W33",
+        "location": "Water Restoration / Rites / W33"
+      }
+    },
+    "aliases": [
+      "W33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Reverses destructive flood displacement by returning water, soil moisture, channels, and surviving structures toward a stable pre-flood relation.",
+      "practice": "Survey teams separately define living safety, soil, buildings, and river freedom.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Silt and nutrients move again, debris concentrates, and rebuilding choices may be undone as foreign additions.",
+      "failure": "The rite resurrects the exact vulnerability that caused the disaster or sends water into excluded neighbours.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Alter survey marks, introduce new construction, or block debris fields.",
+      "mastery": "Experts restore capacity to recover, not an idealised photograph of the past.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 16 | PROOF REDIRECTION + ANCHORING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w34",
+    "title": "Plaguewater Excision",
+    "description": "Returns a watershed's microbial and chemical balance while isolating a named plague agent through every connected flow.",
+    "parentGroupIds": [
+      "shelf:water-restoration:rites"
+    ],
+    "facts": {
+      "originalId": "W34",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "DELUGE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W34",
+        "location": "Water Restoration / Rites / W34"
+      }
+    },
+    "aliases": [
+      "W34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Returns a watershed's microbial and chemical balance while isolating a named plague agent through every connected flow.",
+      "practice": "Physicians, ecologists, millers, and undertakers maintain separate exception ledgers and sampling stations.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Beneficial organisms suffer, residue becomes intensely dangerous, and disease may persist in protected bodies or dry ground.",
+      "failure": "The agent evolves outside its name, treatment water becomes the carrier, or the rite mistakes immunity for infection.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Break sampling consensus, introduce a variant, or sabotage the residue basin.",
+      "mastery": "A master narrows the claim when diagnosis fails and preserves ecological diversity over ceremonial total cleansing.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 16 | PROOF REDIRECTION + ANCHORING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w35",
+    "title": "Harbour Breath",
+    "description": "Restores oxygenation, circulation, and flushing to a choked harbour without simply exporting all pollution offshore.",
+    "parentGroupIds": [
+      "shelf:water-restoration:rites"
+    ],
+    "facts": {
+      "originalId": "W35",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "MIRROR LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W35",
+        "location": "Water Restoration / Rites / W35"
+      }
+    },
+    "aliases": [
+      "W35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 3 | Restoration | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Restores oxygenation, circulation, and flushing to a choked harbour without simply exporting all pollution offshore.",
+      "practice": "Tidal gates, wetland beds, and industry schedules share the pattern's carrier.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Sediment releases old toxins, wetlands bear concentrated work, and closed factories may be necessary for the restored rhythm.",
+      "failure": "A superficial clear layer hides an anoxic bottom or the harbour sends its burden to another coast.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Bypass the wetlands, change discharge timing, or trap the tide.",
+      "mastery": "The conductor treats economic restrictions as part of the formula rather than magical inconvenience.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 16 | PROOF REDIRECTION + ANCHORING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w36",
+    "title": "Rain Debt Settlement",
+    "description": "Rebalances years of stolen, redirected, or withheld rain across several provinces over one season.",
+    "parentGroupIds": [
+      "shelf:water-restoration:rites"
+    ],
+    "facts": {
+      "originalId": "W36",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "MIRROR LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W36",
+        "location": "Water Restoration / Rites / W36"
+      }
+    },
+    "aliases": [
+      "W36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Rebalances years of stolen, redirected, or withheld rain across several provinces over one season.",
+      "practice": "Weather archives establish debt, reservoirs limit dangerous repayment, and each province chooses acceptable timing bands.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "No water is created: drought, flood, migration, and political grievance shift as the debt is repaid.",
+      "failure": "The rite settles records rather than reality or repays too quickly through catastrophic storms.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Forge archives, empty a reservoir, withdraw consent, or divert rain after it arrives.",
+      "mastery": "A master slows repayment and carries political anger rather than force the sky to satisfy an elegant ledger.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 16 | PROOF REDIRECTION + ANCHORING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w37",
+    "title": "The Drowned Returned",
+    "description": "Restores a group of recently drowned people toward the last shared moment when breath, circulation, and identity remained viable.",
+    "parentGroupIds": [
+      "shelf:water-restoration:rites"
+    ],
+    "facts": {
+      "originalId": "W37",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "WELL LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W37",
+        "location": "Water Restoration / Rites / W37"
+      }
+    },
+    "aliases": [
+      "W37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Restores a group of recently drowned people toward the last shared moment when breath, circulation, and identity remained viable.",
+      "practice": "Each body has a witness and separate exclusion; Grave practitioners stand ready to identify where restoration must stop.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Water and trauma leave into prepared pools, memories of drowning return, and not every identity remains present enough to answer.",
+      "failure": "The rite restores bodies without persons, synchronises incompatible heart rhythms, or pulls an unwilling dead identity back.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Disrupt witness chains, contaminate pools, or sever a body's remaining relation.",
+      "mastery": "A master releases individuals from the group pattern and accepts death rather than using common rhythm as coercion.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 17 | PROOF REDIRECTION + ANCHORING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w38",
+    "title": "Mirror of the Former Face",
+    "description": "Lets a community view successive true faces a person, building, or landscape has held, including damage and chosen change.",
+    "parentGroupIds": [
+      "shelf:water-restoration:rites"
+    ],
+    "facts": {
+      "originalId": "W38",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "WELL LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W38",
+        "location": "Water Restoration / Rites / W38"
+      }
+    },
+    "aliases": [
+      "W38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 3 | Restoration | Th1 Tu1 Kn3 Sp4 Ho3 Fi3 Ag4 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Lets a community view successive true faces a person, building, or landscape has held, including damage and chosen change.",
+      "practice": "A great water mirror is fed by witnesses from different eras and may never freeze on one authoritative image.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Observation renews old claims and gives the viewed subject a reciprocal path to the audience.",
+      "failure": "One era dominates, viewers mistake sequence for moral decline, or the mirror begins restoring what it only displays.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Remove witnesses, stir the surface, or introduce a powerful false icon.",
+      "mastery": "The master preserves plurality and ends the rite before spectators demand a single proper face.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 19 | PROOF REDIRECTION + ANCHORING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w39",
+    "title": "Covenant of Seven Springs",
+    "description": "Binds seven watersheds to restore one another within negotiated drought and flood thresholds.",
+    "parentGroupIds": [
+      "shelf:water-restoration:rites"
+    ],
+    "facts": {
+      "originalId": "W39",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "WELL LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W39",
+        "location": "Water Restoration / Rites / W39"
+      }
+    },
+    "aliases": [
+      "W39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho4 Fi3 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Binds seven watersheds to restore one another within negotiated drought and flood thresholds.",
+      "practice": "Each spring has a keeper, veto, reserve basin, and public measure; no spring may be a silent sink.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Water, minerals, species, and political dependence cross boundaries for generations.",
+      "failure": "One spring becomes sacrificial, foreign organisms spread, or a veto arrives after pressure has already shifted.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Capture a keeper, isolate a spring, falsify public measures, or exploit incompatible drought definitions.",
+      "mastery": "Mastery lies in preserving the right to leave the covenant without causing hydrological collapse.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 19 | PROOF REDIRECTION + ANCHORING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w40",
+    "title": "Pilgrimage of Returning Rain",
+    "description": "Guides a season's rain back along abandoned cultural and ecological routes through a moving chain of communities.",
+    "parentGroupIds": [
+      "shelf:water-restoration:rites"
+    ],
+    "facts": {
+      "originalId": "W40",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "MIRROR LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W40",
+        "location": "Water Restoration / Rites / W40"
+      }
+    },
+    "aliases": [
+      "W40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 3 | Restoration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Guides a season's rain back along abandoned cultural and ecological routes through a moving chain of communities.",
+      "practice": "Pilgrims carry local water, songs, and soil samples; each stop may revise the next destination.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Roads, crops, disease, and settlement follow the rain, while skipped places feel the loss as renewed abandonment.",
+      "failure": "Ritual momentum privileges tradition over present need or draws the rain into a closed historical loop.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Break the chain, counterfeit a local sample, or offer a newer stronger route.",
+      "mastery": "The pilgrimage master allows the rain to diverge when living watersheds contradict sacred memory.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 19 | PROOF REDIRECTION + ANCHORING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w41",
+    "title": "Sea Without Poison",
+    "description": "Returns a poisoned sea toward a self-sustaining chemical and living balance without erasing every adaptation born during the crisis.",
+    "parentGroupIds": [
+      "shelf:water-restoration:wonders"
+    ],
+    "facts": {
+      "originalId": "W41",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "DELUGE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W41",
+        "location": "Water Restoration / Wonders / W41"
+      }
+    },
+    "aliases": [
+      "W41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn3 Sp4 Ho2 Fi4 Ag1 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Returns a poisoned sea toward a self-sustaining chemical and living balance without erasing every adaptation born during the crisis.",
+      "practice": "Ocean basins, currents, species refuges, and waste repositories each carry separate definitions of recovery.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Pollution concentrates somewhere, economies and food webs change, and choosing a reference era becomes a planetary judgment.",
+      "failure": "The sea becomes chemically pure but biologically barren, or buried toxins return from the selected past.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Sabotage a refuge, falsify baseline records, or force waste out of its declared repository.",
+      "mastery": "The oceanic masters preserve viable novelty and accept visible scars rather than equate restoration with erasure.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 16 | PROOF REDIRECTION + UNWEAVING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w42",
+    "title": "Glacier Reborn",
+    "description": "Rebuilds a lost glacier's mass, layering, flow, and seasonal contribution from dispersed water and preserved ice memory.",
+    "parentGroupIds": [
+      "shelf:water-restoration:wonders"
+    ],
+    "facts": {
+      "originalId": "W42",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "WELL LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W42",
+        "location": "Water Restoration / Wonders / W42"
+      }
+    },
+    "aliases": [
+      "W42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag2 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Rebuilds a lost glacier's mass, layering, flow, and seasonal contribution from dispersed water and preserved ice memory.",
+      "practice": "Mountain archives and downstream councils negotiate accumulation, advance, and melt.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Water is removed from seas, air, and rivers; old valleys, settlements, and ecosystems face the returning ice.",
+      "failure": "The glacier advances toward an ancient maximum, traps present rivers, or stores contaminated modern water within old layers.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Destroy core samples, warm the bed, block accumulation routes, or contest the chosen era.",
+      "mastery": "A master restores the glacier's function and freedom to change, not its largest remembered outline.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 20 | PROOF REDIRECTION + UNWEAVING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w43",
+    "title": "The Unbroken Watershed",
+    "description": "Makes every flow in a continent legible and mutually accountable, healing severed rivers while preventing invisible export of water debt.",
+    "parentGroupIds": [
+      "shelf:water-restoration:wonders"
+    ],
+    "facts": {
+      "originalId": "W43",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "DELUGE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W43",
+        "location": "Water Restoration / Wonders / W43"
+      }
+    },
+    "aliases": [
+      "W43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes every flow in a continent legible and mutually accountable, healing severed rivers while preventing invisible export of water debt.",
+      "practice": "A network of public gauges and living basin councils serves as carrier and counterweight.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Scarcity can no longer be hidden; borders, agriculture, and cities must adapt to the revealed whole.",
+      "failure": "The pattern mistakes political boundaries for natural ones or centralises authority in whoever interprets the gauges.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Blind a basin, forge gauge consensus, or create unregistered underground flow.",
+      "mastery": "Mastery is institutional humility: no central caster may override a basin's witnessed condition without leaving a visible scar in the weave.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 21 | PROOF REDIRECTION + UNWEAVING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w44",
+    "title": "Deluge Undone",
+    "description": "Returns a continental flood toward the last viable distribution of sea, river, soil, and atmosphere while preserving rescued lives and necessary new channels.",
+    "parentGroupIds": [
+      "shelf:water-restoration:wonders"
+    ],
+    "facts": {
+      "originalId": "W44",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "DELUGE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W44",
+        "location": "Water Restoration / Wonders / W44"
+      }
+    },
+    "aliases": [
+      "W44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Returns a continental flood toward the last viable distribution of sea, river, soil, and atmosphere while preserving rescued lives and necessary new channels.",
+      "practice": "Thousands of local circles carry exceptions; deep reservoirs accept displaced volume and momentum.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The water must go somewhere, atmospheric circulation changes, and every preserved rescue creates a new divergence from the past.",
+      "failure": "The flood vanishes locally but erupts elsewhere, or the rite restores drowned settlements around surviving occupants.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Collapse a reservoir, falsify an exception, or force incompatible regional reference times.",
+      "mastery": "A master lets changed coastlines remain when undoing them would make survival itself an error.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 21 | PROOF REDIRECTION + UNWEAVING | DELUGE LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w45",
+    "title": "Blood of the World Mended",
+    "description": "Restores the circulation of sap, blood, rivers, and ritual fluids across a dying biosphere as one related but non-identical system.",
+    "parentGroupIds": [
+      "shelf:water-restoration:wonders"
+    ],
+    "facts": {
+      "originalId": "W45",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "MIRROR LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W45",
+        "location": "Water Restoration / Wonders / W45"
+      }
+    },
+    "aliases": [
+      "W45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Restores the circulation of sap, blood, rivers, and ritual fluids across a dying biosphere as one related but non-identical system.",
+      "practice": "Bloom, Water, and civic keepers negotiate independent healthy ranges even though Water Restoration carries the central Turn.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Disease, invasive flow, and unequal need can propagate through the new relation; concentrated waste has planetary scale.",
+      "failure": "The weave equalises unlike lives, revives extinct circulatory claims, or treats industry as an organ deserving blood.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Break the analogy, poison a hub, or assert a competing definition of planetary body.",
+      "mastery": "The master protects difference and disconnects a failing circuit before unity becomes domination.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w46",
+    "title": "Ocean's Lost Name",
+    "description": "Restores identity and relation to an ocean erased from maps, memory, and magical correspondence.",
+    "parentGroupIds": [
+      "shelf:water-restoration:wonders"
+    ],
+    "facts": {
+      "originalId": "W46",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "MIRROR LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W46",
+        "location": "Water Restoration / Wonders / W46"
+      }
+    },
+    "aliases": [
+      "W46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Restores identity and relation to an ocean erased from maps, memory, and magical correspondence.",
+      "practice": "Coastal languages, currents, stars, fossils, and surviving species each contribute an incomplete name.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Old routes reopen, forgotten sovereignties return, and everything hidden by the ocean's absence can see the world again.",
+      "failure": "One culture's name claims the whole sea or restoration returns an ancient boundary hostile to present life.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Suppress a naming tradition, sever currents, or offer a compelling false coast.",
+      "mastery": "A master restores the ocean's capacity to be named without declaring who owns that name.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | MIRROR LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w47",
+    "title": "The Long Thaw Made Gentle",
+    "description": "Guides a century of inevitable ice loss into stable rivers, soils, seas, and migrations rather than catastrophic release.",
+    "parentGroupIds": [
+      "shelf:water-restoration:wonders"
+    ],
+    "facts": {
+      "originalId": "W47",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "WELL LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W47",
+        "location": "Water Restoration / Wonders / W47"
+      }
+    },
+    "aliases": [
+      "W47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Guides a century of inevitable ice loss into stable rivers, soils, seas, and migrations rather than catastrophic release.",
+      "practice": "Generational councils revise the target state; reservoirs, wetlands, and evacuation paths carry excess Tension.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "No past can simply be restored. Every chosen gentle transition creates new habitats and permanent losses.",
+      "failure": "The rite freezes history, delays all change until one collapse, or protects rich regions by exporting water elsewhere.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Capture a council, sabotage buffers, or force change faster than the next revision.",
+      "mastery": "Mastery is the disciplined refusal to call managed transformation a return to normal.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w48",
+    "title": "Wellspring of First Morning",
+    "description": "Returns a ruined land's waters toward the first condition in which they could sustain diverse life, not the first condition in time.",
+    "parentGroupIds": [
+      "shelf:water-restoration:wonders"
+    ],
+    "facts": {
+      "originalId": "W48",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "WELL LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W48",
+        "location": "Water Restoration / Wonders / W48"
+      }
+    },
+    "aliases": [
+      "W48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Returns a ruined land's waters toward the first condition in which they could sustain diverse life, not the first condition in time.",
+      "practice": "Geology, seed banks, atmospheric water, and living witnesses define viability together.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "The chosen beginning excludes some histories, displaced water alters distant lands, and new life immediately changes the reference.",
+      "failure": "The land becomes a sterile primordial basin or repeats the ecological succession that led to ruin.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Contest viability, corrupt seed references, or divert the initial spring.",
+      "mastery": "A master lets the restored water learn from present survivors rather than enforcing an imagined pristine origin.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 22 | PROOF ANCHORING + UNWEAVING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w49",
+    "title": "Return of the Moon-Tide",
+    "description": "Restores a severed relation between moon and ocean, returning tides, migrations, calendars, and coastal magic.",
+    "parentGroupIds": [
+      "shelf:water-restoration:wonders"
+    ],
+    "facts": {
+      "originalId": "W49",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "WELL LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W49",
+        "location": "Water Restoration / Wonders / W49"
+      }
+    },
+    "aliases": [
+      "W49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Restores a severed relation between moon and ocean, returning tides, migrations, calendars, and coastal magic.",
+      "practice": "Observatories and shore temples share the carrier; inland basins receive the first displaced oscillations.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Coasts redraw, dormant species awaken, and the moon gains renewed sympathetic access to the world.",
+      "failure": "Tides return at an ancient amplitude, multiple moons compete, or inland water begins answering the wrong body.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Veil the moon, alter its name, break shore consensus, or absorb oscillation in a null basin.",
+      "mastery": "The master stages the return over generations and refuses spectacular full amplitude until societies can move.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 22 | PROOF ANCHORING + UNWEAVING | WELL LENS"
+    }
+  },
+  {
+    "id": "spell:water-restoration:w50",
+    "title": "The Last Drop Remembered",
+    "description": "Finds and restores the final surviving relation of a vanished river, species, person, or civilisation carried in one authentic drop.",
+    "parentGroupIds": [
+      "shelf:water-restoration:wonders"
+    ],
+    "facts": {
+      "originalId": "W50",
+      "collectionId": "collection:water-restoration",
+      "collectionTitle": "Water Restoration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:water-restoration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "MIRROR LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:water-restoration",
+        "originalId": "W50",
+        "location": "Water Restoration / Wonders / W50"
+      }
+    },
+    "aliases": [
+      "W50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Water 4 | Restoration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Finds and restores the final surviving relation of a vanished river, species, person, or civilisation carried in one authentic drop.",
+      "practice": "The drop is held between an archive of what was and a council empowered to decide what must not return.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Restoration amplifies every claim within the sample, including pathogens, grief, ownership, and unfinished obligation.",
+      "failure": "A fragment becomes a false whole, the drop consumes present water to rebuild the past, or the returned relation refuses current reality.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Disprove provenance, divide the sample, sever the archive, or strengthen a living competing claim.",
+      "mastery": "A master may choose remembrance without reconstruction and preserve the drop rather than spend it.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | MIRROR LENS"
+    }
+  }
+]

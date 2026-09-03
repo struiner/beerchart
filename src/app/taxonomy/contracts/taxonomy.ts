@@ -70,6 +70,8 @@ export interface RelatedEntity {
   readonly id: string;
   readonly title: string;
   readonly linkedEntryIds: readonly string[];
+  /** Optional canonical groups that should appear on the related entity's profile. */
+  readonly linkedGroupIds?: readonly string[];
   readonly description?: string;
   readonly url?: string;
 }

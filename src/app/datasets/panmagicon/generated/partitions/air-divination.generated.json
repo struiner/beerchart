@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "spell:air-divination:a01",
+    "title": "Wind's Point",
+    "description": "Shows the direction and first pace of one creature's next deliberate movement as a pale streamer visible only to the caster.",
+    "parentGroupIds": [
+      "shelf:air-divination:lessons"
+    ],
+    "facts": {
+      "originalId": "A01",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 4,
+      "calculatedLoad": 4,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A01",
+        "location": "Air Divination / Lessons / A01"
+      }
+    },
+    "aliases": [
+      "A01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 | Divination | Th1 Tu1 Kn0 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Shows the direction and first pace of one creature's next deliberate movement as a pale streamer visible only to the caster.",
+      "practice": "Suspend a feather between two fingers, name the subject, and keep both feet still until the streamer forms.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "A small pressure path joins observer and subject. The subject feels watched as a cool touch behind the ear, while nearby dust records the caster's stance.",
+      "failure": "Reflexes, feints, and involuntary motion overlap until the streamer points between possibilities.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Force the caster to move, still the surrounding air, or make several equally committed motions.",
+      "mastery": "A master reads the moment commitment replaces possibility and releases the link before the subject can trace the returning pressure.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 4 | PROOF HEARING + HOLDING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a02",
+    "title": "Draft Warning",
+    "description": "Makes a held ribbon twitch toward the first opening through which smoke, gas, a missile, or a sudden gust could enter a small room.",
+    "parentGroupIds": [
+      "shelf:air-divination:lessons"
+    ],
+    "facts": {
+      "originalId": "A02",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "BREATH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A02",
+        "location": "Air Divination / Lessons / A02"
+      }
+    },
+    "aliases": [
+      "A02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 | Divination | Th1 Tu1 Kn1 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Makes a held ribbon twitch toward the first opening through which smoke, gas, a missile, or a sudden gust could enter a small room.",
+      "practice": "Seal known openings, tie one knot for each admitted doorway, and hold the ribbon at breathing height.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The warning path is reciprocal: air outside the room briefly samples warmth and scent from within.",
+      "failure": "An unnamed opening remains silent, or many minor leaks make the ribbon chatter until the true danger is unreadable.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Open harmless cracks, warm the outside air, or cut one doorway knot.",
+      "mastery": "An expert distinguishes dangerous pressure from ordinary exchange and refuses to make a sealed room unsafe merely to make its boundaries legible.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 5 | PROOF HEARING + HOLDING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a03",
+    "title": "Candle-Calm Reading",
+    "description": "Reveals which adjustment to shutters, vents, or bellows will steady one flame, breath, or delicate vapour process.",
+    "parentGroupIds": [
+      "shelf:air-divination:lessons"
+    ],
+    "facts": {
+      "originalId": "A03",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A03",
+        "location": "Air Divination / Lessons / A03"
+      }
+    },
+    "aliases": [
+      "A03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 | Divination | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Reveals which adjustment to shutters, vents, or bellows will steady one flame, breath, or delicate vapour process.",
+      "practice": "Place three unlit wicks around the subject and observe which one smokes when the question is asked.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The chosen adjustment borrows a little circulation from the other two directions, leaving a stale corner.",
+      "failure": "If several stable states are possible, the reading favours the easiest rather than the healthiest one.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Move a wick, introduce a second heat source, or change the room after the answer forms.",
+      "mastery": "A master compares several answers and preserves necessary circulation instead of worshipping perfect stillness.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 6 | PROOF HEARING + HOLDING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a04",
+    "title": "Feather Route",
+    "description": "Traces the least turbulent walking, throwing, or gliding line across a room with a chain of drifting motes.",
+    "parentGroupIds": [
+      "shelf:air-divination:lessons"
+    ],
+    "facts": {
+      "originalId": "A04",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A04",
+        "location": "Air Divination / Lessons / A04"
+      }
+    },
+    "aliases": [
+      "A04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 | Divination | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Traces the least turbulent walking, throwing, or gliding line across a room with a chain of drifting motes.",
+      "practice": "Release a down feather at the starting point and name the traveller's weight and intended end.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The route becomes slightly more turbulent after being read, and observers at the destination can feel the question arrive.",
+      "failure": "The motes follow the lightest body rather than the named one, or select a path that is smooth but physically blocked.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Change the traveller's load, cross the route, or create a warm updraft.",
+      "mastery": "A practised reader updates the line at each commitment point and values a safe imperfect route over a beautiful obsolete one.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 5 | PROOF HEARING + HOLDING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a05",
+    "title": "Echo Count",
+    "description": "Counts people, large hollows, and moving objects in a closed chamber from one soft click and its returning air-pressure pattern.",
+    "parentGroupIds": [
+      "shelf:air-divination:lessons"
+    ],
+    "facts": {
+      "originalId": "A05",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "HORIZON LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A05",
+        "location": "Air Divination / Lessons / A05"
+      }
+    },
+    "aliases": [
+      "A05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 | Divination | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Counts people, large hollows, and moving objects in a closed chamber from one soft click and its returning air-pressure pattern.",
+      "practice": "Face a bare wall, tap two fingernails together, and do not speak until the last echo is sorted.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Every counted body hears a faint answering click from the caster's direction.",
+      "failure": "Curtains, crowds, and repeating arches merge echoes or invent convincing extra occupants.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Break the chamber, answer with timed clicks, or stand against a surface that shares the same resonance.",
+      "mastery": "A master separates uncertainty from absence and reports a range when the room cannot support an exact count.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 5 | PROOF HEARING + HOLDING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a06",
+    "title": "Quiet Pocket",
+    "description": "Identifies the smallest nearby place from which a whisper or careful movement will not carry to a named listener.",
+    "parentGroupIds": [
+      "shelf:air-divination:lessons"
+    ],
+    "facts": {
+      "originalId": "A06",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "HORIZON LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A06",
+        "location": "Air Divination / Lessons / A06"
+      }
+    },
+    "aliases": [
+      "A06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 | Divination | Th1 Tu1 Kn0 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Identifies the smallest nearby place from which a whisper or careful movement will not carry to a named listener.",
+      "practice": "Breathe the listener's name over a cupped shell and rotate until its inner hiss falls silent.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The listening relation runs both ways; for a heartbeat the named listener may sense the shell and its bearing.",
+      "failure": "The spell mistakes deafness, distraction, or a temporary noise for durable concealment.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Move the listener, stop the masking sound, or seed the room with several shells.",
+      "mastery": "An expert chooses a pocket that remains quiet across likely changes and ends the connection before using it.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 5 | PROOF HEARING + HOLDING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a07",
+    "title": "Breath Measure",
+    "description": "Shows whether one living subject lacks air, rhythm, or freedom of breathing, and which simple change would help first.",
+    "parentGroupIds": [
+      "shelf:air-divination:lessons"
+    ],
+    "facts": {
+      "originalId": "A07",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "BREATH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A07",
+        "location": "Air Divination / Lessons / A07"
+      }
+    },
+    "aliases": [
+      "A07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 | Divination | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Shows whether one living subject lacks air, rhythm, or freedom of breathing, and which simple change would help first.",
+      "practice": "Let the subject fog a polished spoon while the caster matches three breaths without forcing cadence.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The caster briefly shares the subject's breathlessness, and the subject can feel the scrutiny as pressure on the chest.",
+      "failure": "Fear, poison, pain, and obstruction appear as one need; a hasty reading recommends deeper breathing when rest or escape is required.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Break the shared rhythm, cool the spoon, or introduce another breathing creature between reader and patient.",
+      "mastery": "Mastery lies in naming what the spell cannot distinguish and reducing the question before prescribing an answer.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 6 | PROOF HEARING + HOLDING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a08",
+    "title": "Listening Moth",
+    "description": "Shapes a thumb-sized eddy that follows a drawn route and returns with the loudest repeated sound it encountered.",
+    "parentGroupIds": [
+      "shelf:air-divination:lessons"
+    ],
+    "facts": {
+      "originalId": "A08",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A08",
+        "location": "Air Divination / Lessons / A08"
+      }
+    },
+    "aliases": [
+      "A08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 | Divination | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag1 Co0 | Carrier: personal or supervised.",
+      "purpose": "Shapes a thumb-sized eddy that follows a drawn route and returns with the loudest repeated sound it encountered.",
+      "practice": "Trace one loop with a reed whistle and release the eddy before the note fades.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The route gains a slight whistle, and anything it hears can hear the moth's answering flutter.",
+      "failure": "The eddy follows louder machinery, becomes trapped in circular airflow, or returns a mimic instead of the source.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Disrupt the route, produce a stronger repeated sound, or catch the eddy in cloth.",
+      "mastery": "A master gives the moth one comparison such as voice before metal, then dismisses it if the distinction becomes doubtful.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 7 | PROOF HEARING + HOLDING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a09",
+    "title": "Chimney Test",
+    "description": "Maps one flue, vent, or narrow passage and shows where soot, pressure, or blockage will become dangerous.",
+    "parentGroupIds": [
+      "shelf:air-divination:lessons"
+    ],
+    "facts": {
+      "originalId": "A09",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "BREATH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A09",
+        "location": "Air Divination / Lessons / A09"
+      }
+    },
+    "aliases": [
+      "A09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 | Divination | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Maps one flue, vent, or narrow passage and shows where soot, pressure, or blockage will become dangerous.",
+      "practice": "Send a measured puff of flour through the mouth of the passage while holding a matching pinch in reserve.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The test leaves a visible dust trace and draws a breath of interior air toward the caster.",
+      "failure": "Branches are mistaken for leaks, living nests for obstructions, or a hot flue reverses the reading.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Open another vent, wet the flour, or alter pressure at the far end.",
+      "mastery": "Experienced testers read changing routes over time and leave the system ventilating safely after the question is answered.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 6 | PROOF HEARING + HOLDING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a10",
+    "title": "Bell of Names",
+    "description": "Makes a small bell sound a distinct overtone when one of up to five named people speaks within a nearby crowd.",
+    "parentGroupIds": [
+      "shelf:air-divination:lessons"
+    ],
+    "facts": {
+      "originalId": "A10",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "HORIZON LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A10",
+        "location": "Air Divination / Lessons / A10"
+      }
+    },
+    "aliases": [
+      "A10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 | Divination | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Makes a small bell sound a distinct overtone when one of up to five named people speaks within a nearby crowd.",
+      "practice": "Speak each name into the bell under a different finger and keep the clapper wrapped until use.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Each named speaker hears a faint metallic echo in their own voice and may infer that they have been marked.",
+      "failure": "Similar voices, borrowed names, or simultaneous speech produce a false chord.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Muffle the bell, exchange names, speak through a resonant vessel, or overwhelm it with choral sound.",
+      "mastery": "A master listens for identity across accent and illness, yet lets the bell remain silent when certainty is insufficient.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 6 | PROOF HEARING + HOLDING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a11",
+    "title": "Arrow's Question",
+    "description": "Reveals the imminent path, deflection points, and safest interruption of missiles crossing a chosen battlefield lane.",
+    "parentGroupIds": [
+      "shelf:air-divination:practical-workings"
+    ],
+    "facts": {
+      "originalId": "A11",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 2,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A11",
+        "location": "Air Divination / Practical Workings / A11"
+      }
+    },
+    "aliases": [
+      "A11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 | Divination | Th1 Tu1 Kn0 Sp2 Ho0 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Reveals the imminent path, deflection points, and safest interruption of missiles crossing a chosen battlefield lane.",
+      "practice": "Stretch three horsehairs between marked stakes and let passing air tune them before combat begins.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Every read projectile sends a pressure whisper back toward the observer and gradually frays the horsehair anchors.",
+      "failure": "Dense volleys collapse into one broad warning, or deliberate decoys consume the reader's attention.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Cut a stake, fire from outside the lane, vary projectile weight, or attack along the reciprocal whisper.",
+      "mastery": "A veteran sheds detail first, warning only which bodies must move when individual trajectories can no longer be held.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 7 | PROOF HOLDING + TURNING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a12",
+    "title": "Crosswind Sentinel",
+    "description": "Maintains an audible warning around a camp, vessel, or worksite when harmful gas, weather, sound, or fast motion approaches.",
+    "parentGroupIds": [
+      "shelf:air-divination:practical-workings"
+    ],
+    "facts": {
+      "originalId": "A12",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "BREATH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A12",
+        "location": "Air Divination / Practical Workings / A12"
+      }
+    },
+    "aliases": [
+      "A12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 | Divination | Th1 Tu1 Kn1 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Maintains an audible warning around a camp, vessel, or worksite when harmful gas, weather, sound, or fast motion approaches.",
+      "practice": "Four vanes carry named threat classes; a fifth unmarked vane is kept as a test of ordinary wind.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The perimeter leaks camp scent and conversation outward along every active warning route.",
+      "failure": "Overbroad Knots make weather itself hostile, while narrow ones admit an unfamiliar danger without alarm.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Rotate a vane, approach within normal traffic, seed repeated false threats, or follow the leaking scent inward.",
+      "mastery": "A master revises threat classes during use and preserves an ordinary-wind baseline so vigilance does not become isolation.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 9 | PROOF HOLDING + TURNING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a13",
+    "title": "Ventkeeper's Chart",
+    "description": "Shows how to regulate smoke, temperature, breath, and pressure across a workshop or crowded building for several hours.",
+    "parentGroupIds": [
+      "shelf:air-divination:practical-workings"
+    ],
+    "facts": {
+      "originalId": "A13",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A13",
+        "location": "Air Divination / Practical Workings / A13"
+      }
+    },
+    "aliases": [
+      "A13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 | Divination | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Shows how to regulate smoke, temperature, breath, and pressure across a workshop or crowded building for several hours.",
+      "practice": "Mark every door, fire, sleeping room, and vertical shaft on a cloth plan hung where air can reach it.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Optimised rooms export warmth, odour, or stale air to named sinks, making neglected spaces bear visible cost.",
+      "failure": "The chart privileges measured rooms, oscillates between competing comfort states, or drives poison into an unmarked cellar.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Change occupancy, close an unmarked door, falsify a heat source, or remove the cloth from circulation.",
+      "mastery": "Experience appears as negotiated imperfection: the keeper preserves safe exchange for all rooms instead of maximising one pleasing reading.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 10 | PROOF HOLDING + TURNING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a14",
+    "title": "Courier Current",
+    "description": "Finds and maintains the quickest viable route for a runner, bird, glider, or spoken message through changing streets or terrain.",
+    "parentGroupIds": [
+      "shelf:air-divination:practical-workings"
+    ],
+    "facts": {
+      "originalId": "A14",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A14",
+        "location": "Air Divination / Practical Workings / A14"
+      }
+    },
+    "aliases": [
+      "A14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 | Divination | Th1 Tu1 Kn1 Sp2 Ho1 Fi4 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Finds and maintains the quickest viable route for a runner, bird, glider, or spoken message through changing streets or terrain.",
+      "practice": "Bind a thread from the departure token to the destination token and expose the middle length to open air.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The destination receives a detectable pressure tap, while side streets along rejected routes become briefly still.",
+      "failure": "The current pursues theoretical speed through danger, confuses an address with its bearer, or loops around a moving destination.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Move or rename the destination, knot the thread, create misleading tailwinds, or intercept the returning pressure tap.",
+      "mastery": "A master can prioritise secrecy, safety, or certainty and abandons speed before steering becomes conjecture.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 10 | PROOF HOLDING + TURNING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a15",
+    "title": "Stormglass Survey",
+    "description": "Reads weather, pressure fronts, smoke, and airborne contamination across a district several hours ahead.",
+    "parentGroupIds": [
+      "shelf:air-divination:practical-workings"
+    ],
+    "facts": {
+      "originalId": "A15",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "HORIZON LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A15",
+        "location": "Air Divination / Practical Workings / A15"
+      }
+    },
+    "aliases": [
+      "A15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 | Divination | Th1 Tu1 Kn1 Sp2 Ho1 Fi4 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Reads weather, pressure fronts, smoke, and airborne contamination across a district several hours ahead.",
+      "practice": "Expose a ring of sealed glass bulbs at known heights and compare their tones rather than their appearance.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The survey perturbs the smallest pressure differences and makes the reader's district more legible to other weather diviners.",
+      "failure": "Unusual local heat is inflated into a storm, magical weather hides behind ordinary fronts, or the model inherits yesterday's assumptions.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Retune one bulb, create false pressure pulses, shield a height, or observe the reciprocal district signature.",
+      "mastery": "An expert publishes confidence and alternatives, then narrows the claim before extending the forecast.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 10 | PROOF HOLDING + TURNING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a16",
+    "title": "Scentless Passage",
+    "description": "Identifies a moving corridor through which a party can pass while exposing the least scent, breath, sound, and turbulent wake.",
+    "parentGroupIds": [
+      "shelf:air-divination:practical-workings"
+    ],
+    "facts": {
+      "originalId": "A16",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "HORIZON LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A16",
+        "location": "Air Divination / Practical Workings / A16"
+      }
+    },
+    "aliases": [
+      "A16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 | Divination | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Identifies a moving corridor through which a party can pass while exposing the least scent, breath, sound, and turbulent wake.",
+      "practice": "Release three scented threads at ankle, chest, and head height and follow the gap between their predicted plumes.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Air displaced from the corridor gathers at its edges, where trackers may find an unnaturally sharp boundary.",
+      "failure": "The path becomes unbreathable, ignores a silent observer, or closes when formation and load change.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Cross the corridor, add a new scent source, still the air, or watch its compressed margins.",
+      "mastery": "A master keeps warning signals and breathable exchange, sacrificing perfect concealment before people become blind to one another.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 10 | PROOF HOLDING + TURNING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a17",
+    "title": "Lung of the Room",
+    "description": "Diagnoses a crowded chamber as though it were one breathing body, locating suffocation, panic, smoke, and places where circulation can recover.",
+    "parentGroupIds": [
+      "shelf:air-divination:practical-workings"
+    ],
+    "facts": {
+      "originalId": "A17",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "BREATH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A17",
+        "location": "Air Divination / Practical Workings / A17"
+      }
+    },
+    "aliases": [
+      "A17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 | Divination | Th1 Tu1 Kn2 Sp2 Ho1 Fi4 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Diagnoses a crowded chamber as though it were one breathing body, locating suffocation, panic, smoke, and places where circulation can recover.",
+      "practice": "Assign one attendant to each opening and have them keep separate counts of breath, heat, and obstruction.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Attendants share brief episodes of the crowd's dizziness, while the chamber exhales private scents through the chosen relief paths.",
+      "failure": "The healthiest majority masks a trapped minority, or panic is misread as oxygen debt.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Break the attendants' cadence, isolate one opening, or introduce a false crowd rhythm.",
+      "mastery": "A master asks who is missing from the aggregate and restores local circulation before pursuing an elegant whole-room solution.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 11 | PROOF HOLDING + TURNING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a18",
+    "title": "Rumour Kite",
+    "description": "Sends a kite-shaped listening current along roads and rooftops to follow how one spoken claim changes across a settlement.",
+    "parentGroupIds": [
+      "shelf:air-divination:practical-workings"
+    ],
+    "facts": {
+      "originalId": "A18",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A18",
+        "location": "Air Divination / Practical Workings / A18"
+      }
+    },
+    "aliases": [
+      "A18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 | Divination | Th1 Tu1 Kn1 Sp2 Ho1 Fi3 Ag2 Co0 | Carrier: personal with a focus.",
+      "purpose": "Sends a kite-shaped listening current along roads and rooftops to follow how one spoken claim changes across a settlement.",
+      "practice": "Write the original phrase on a paper tail, then launch only when at least two natural routes are open.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Every repetition strengthens a return path to the questioner; people may dream of wind tugging toward the launch site.",
+      "failure": "The kite confuses mockery with belief, follows deliberate repetition, or becomes the loudest source of the rumour itself.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Cut the tail, seed altered versions, move discussion underground, or trace the returning dreams.",
+      "mastery": "Masters distinguish transmission from assent and call the kite home before observation begins manufacturing the phenomenon.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 11 | PROOF HOLDING + TURNING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a19",
+    "title": "Harbour Wind Ledger",
+    "description": "Maintains a living map of usable winds, dangerous wakes, fog movement, and sail traffic across a harbour.",
+    "parentGroupIds": [
+      "shelf:air-divination:practical-workings"
+    ],
+    "facts": {
+      "originalId": "A19",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "BREATH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A19",
+        "location": "Air Divination / Practical Workings / A19"
+      }
+    },
+    "aliases": [
+      "A19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 | Divination | Th1 Tu1 Kn2 Sp2 Ho3 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Maintains a living map of usable winds, dangerous wakes, fog movement, and sail traffic across a harbour.",
+      "practice": "Each quay keeps a vane and each vessel contributes one line of departure intent to the ledger.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Recorded routes become easier to predict for everyone with access, while unregistered craft create blind turbulence.",
+      "failure": "The ledger optimises ships into collision, treats secrecy as danger, or freezes around an authoritative but outdated plan.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Lie about intent, remove a quay vane, exploit a blind height, or flood the harbour with small wakes.",
+      "mastery": "An expert leaves slack for unregistered life and can degrade to broad warnings when exact traffic promises fail.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 12 | PROOF HOLDING + TURNING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a20",
+    "title": "Choir of Far Windows",
+    "description": "Allows separated windows within a town to carry a public performance, council statement, or alarm as matched resonant openings.",
+    "parentGroupIds": [
+      "shelf:air-divination:practical-workings"
+    ],
+    "facts": {
+      "originalId": "A20",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "HORIZON LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A20",
+        "location": "Air Divination / Practical Workings / A20"
+      }
+    },
+    "aliases": [
+      "A20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 | Divination | Th1 Tu1 Kn2 Sp2 Ho1 Fi4 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Allows separated windows within a town to carry a public performance, council statement, or alarm as matched resonant openings.",
+      "practice": "Tune each frame with the same four-note call and appoint a local keeper empowered to close it.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Every open window also returns a trace of its room's acoustics, making audiences mutually perceptible.",
+      "failure": "One badly tuned frame dominates the chorus, private speech leaks into the network, or delayed echoes become false commands.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Close shutters, alter a frame, sing the inverse cadence, or exploit the reciprocal room tones.",
+      "mastery": "A master preserves local closure and reduces fidelity before allowing the network to erase distance, consent, or source.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 11 | PROOF HOLDING + TURNING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a21",
+    "title": "Killing Weather",
+    "description": "Marks the lethal wind, pressure, sound, and projectile vectors that will cross a battlefield sector during the next minute.",
+    "parentGroupIds": [
+      "shelf:air-divination:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "A21",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 3,
+        "hold": 0,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A21",
+        "location": "Air Divination / Expert Formulae / A21"
+      }
+    },
+    "aliases": [
+      "A21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 3 | Divination | Th1 Tu1 Kn1 Sp3 Ho0 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Marks the lethal wind, pressure, sound, and projectile vectors that will cross a battlefield sector during the next minute.",
+      "practice": "Observers at three heights maintain separate models and share only confirmed intersections with the field conductor.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Enemies can feel cold attention along marked vectors, and the observers inherit flashes of anticipated impact.",
+      "failure": "Competing futures overlay, the warning becomes self-fulfilling, or the conductor reacts to a line that vanished when first avoided.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Attack one height, generate disposable threats, reverse a pressure front, or exploit the observers' reciprocal shock.",
+      "mastery": "Mastery is ruthless uncertainty management: warn fewer people clearly, revise openly, and never preserve a dramatic prediction after its premises change.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 10 | PROOF TURNING + REDIRECTION | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a22",
+    "title": "Cyclone Aegis",
+    "description": "Surrounds a moving company with predictive currents that announce where missiles, gas, thunder, and charging bodies will breach its formation.",
+    "parentGroupIds": [
+      "shelf:air-divination:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "A22",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "BREATH LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A22",
+        "location": "Air Divination / Expert Formulae / A22"
+      }
+    },
+    "aliases": [
+      "A22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 3 | Divination | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Surrounds a moving company with predictive currents that announce where missiles, gas, thunder, and charging bodies will breach its formation.",
+      "practice": "Eight banner-bearers each own one threat class and a ninth tracks ordinary friendly movement.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The company broadcasts its formation through pressure and loses surprise; each avoided breach throws turbulent warning into nearby land.",
+      "failure": "Threat classes overlap, banners disagree, or defensive movement creates the breach it seeks to avoid.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Blind a banner, attack with an unclassified medium, imitate friendly cadence, or read the broadcast formation.",
+      "mastery": "An expert collapses the aegis into a few trusted arcs as confusion rises and never trades internal recognition for complete coverage.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 13 | PROOF TURNING + REDIRECTION | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a23",
+    "title": "Parliament of Gusts",
+    "description": "Lets weather, smoke, traffic, and breathing needs across a city quarter present competing pressure claims to a regulating council.",
+    "parentGroupIds": [
+      "shelf:air-divination:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "A23",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A23",
+        "location": "Air Divination / Expert Formulae / A23"
+      }
+    },
+    "aliases": [
+      "A23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 3 | Divination | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Lets weather, smoke, traffic, and breathing needs across a city quarter present competing pressure claims to a regulating council.",
+      "practice": "District vanes speak only through appointed interpreters, while an empty chair represents unmeasured streets and future change.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Regulation displaces wind and odour into politically chosen corridors, and the council's priorities become audible in local weather.",
+      "failure": "The best-instrumented district wins every dispute, the model oscillates, or the empty chair is falsely treated as consent.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Silence a vane, counterfeit measurements, open an unrepresented passage, or provoke simultaneous emergencies.",
+      "mastery": "Masters preserve minority air, uncertainty, and revisability, accepting inefficiency rather than turn a city into a perfect pressure machine.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 14 | PROOF TURNING + REDIRECTION | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a24",
+    "title": "Road of Following Wind",
+    "description": "Maintains a shifting long-distance route that guides a caravan, fleet, or migrating population through favourable winds and safe air.",
+    "parentGroupIds": [
+      "shelf:air-divination:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "A24",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A24",
+        "location": "Air Divination / Expert Formulae / A24"
+      }
+    },
+    "aliases": [
+      "A24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 3 | Divination | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Maintains a shifting long-distance route that guides a caravan, fleet, or migrating population through favourable winds and safe air.",
+      "practice": "Route readers leapfrog between high places, each inheriting and challenging the previous forecast.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Rejected weather gathers along neighbouring paths, and settlements on the route become predictably exposed to travellers.",
+      "failure": "A forecast handoff fails, the road outruns supplies, or a favourable current carries disease and pursuit as efficiently as travellers.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Remove a reader, poison a high place, misstate the caravan's load, or occupy the route's inevitable shelters.",
+      "mastery": "A master slows the whole migration before continuity depends on one heroic prediction and changes destination when the atmosphere refuses the original plan.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 13 | PROOF TURNING + REDIRECTION | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a25",
+    "title": "Atlas of Living Echoes",
+    "description": "Maps voices, machinery, animal movement, hollows, and structural vibration across a city as a layered acoustic atlas.",
+    "parentGroupIds": [
+      "shelf:air-divination:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "A25",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "HORIZON LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A25",
+        "location": "Air Divination / Expert Formulae / A25"
+      }
+    },
+    "aliases": [
+      "A25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 3 | Divination | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Maps voices, machinery, animal movement, hollows, and structural vibration across a city as a layered acoustic atlas.",
+      "practice": "Listening towers record different frequency bands and must keep protected intervals in which no civic observation occurs.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The city hears faint versions of the towers, private rooms acquire acoustic signatures, and deep noises begin answering the map.",
+      "failure": "The atlas mistakes silence for emptiness, fuses people with workplaces, or teaches itself to privilege officially useful sound.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Exploit protected intervals, imitate a signature, alter tower resonance, or send a deep answer back.",
+      "mastery": "An expert treats silence as a fact with many causes and makes deletion, expiry, and appeal part of the Pattern.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 13 | PROOF TURNING + REDIRECTION | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a26",
+    "title": "Wake Without Witness",
+    "description": "Shows a moving group where every active line of airborne observation lies, allowing them to pass between sight, scent, sound, and pressure attention.",
+    "parentGroupIds": [
+      "shelf:air-divination:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "A26",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "HORIZON LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A26",
+        "location": "Air Divination / Expert Formulae / A26"
+      }
+    },
+    "aliases": [
+      "A26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 3 | Divination | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Shows a moving group where every active line of airborne observation lies, allowing them to pass between sight, scent, sound, and pressure attention.",
+      "practice": "Four readers separately map living senses, instruments, magic, and natural warning systems without combining them until departure.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Avoided observers feel unexplained gaps; friendly warning routes are also bypassed, and the travellers become hard to find if lost.",
+      "failure": "One map dominates the others, a new observer closes the route, or the party vanishes from its own rescue plan.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Introduce an unclassified watcher, break formation, still the air, or follow the gaps left in ordinary warning networks.",
+      "mastery": "Mastery preserves a deliberate rescue wake and accepts partial exposure rather than convert concealment into civic disappearance.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 14 | PROOF TURNING + REDIRECTION | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a27",
+    "title": "Breathwright's Diagnosis",
+    "description": "Separates bodily, emotional, poisonous, magical, and environmental causes of failed breath across many patients.",
+    "parentGroupIds": [
+      "shelf:air-divination:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "A27",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "BREATH LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A27",
+        "location": "Air Divination / Expert Formulae / A27"
+      }
+    },
+    "aliases": [
+      "A27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 3 | Divination | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Separates bodily, emotional, poisonous, magical, and environmental causes of failed breath across many patients.",
+      "practice": "Specialists keep distinct breath samples and compare change under rest, clean air, speech, and motion.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Readers experience controlled fragments of each distress, while patients become mutually linked through the diagnostic chamber.",
+      "failure": "Categories harden into causes, one contagious pattern crosses the link, or the least articulate patient is assigned the simplest explanation.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contaminate samples, disrupt test order, isolate one specialist, or exploit the shared chamber link.",
+      "mastery": "A master changes the test when the patient contradicts it and breaks the collective link before treatment begins.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 14 | PROOF TURNING + REDIRECTION | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a28",
+    "title": "Herald of the Upper Air",
+    "description": "Creates an autonomous wind-form that patrols a declared route, compares signs, and reports only events meeting a layered question.",
+    "parentGroupIds": [
+      "shelf:air-divination:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "A28",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A28",
+        "location": "Air Divination / Expert Formulae / A28"
+      }
+    },
+    "aliases": [
+      "A28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 3 | Divination | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag3 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates an autonomous wind-form that patrols a declared route, compares signs, and reports only events meeting a layered question.",
+      "practice": "Give the herald a route song, three examples, three exclusions, and a high perch to which it must return for revision.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "Its passage changes bird flight and carries the institution's listening signature across the land.",
+      "failure": "Agency generalises the examples, mistakes absence of evidence for safety, or refuses to return because the question seems unfinished.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Change the route song, lure it with a perfect example, deny its perch, or answer its listening signature.",
+      "mastery": "An expert narrows Agency under novelty, recalls the herald on schedule, and treats unexplained silence as failure rather than reassurance.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 16 | PROOF TURNING + ANCHORING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a29",
+    "title": "Resonant Beacon Chain",
+    "description": "Links mountaintops, towers, and ship masts into a rapid network for verified warnings, navigation, and public time.",
+    "parentGroupIds": [
+      "shelf:air-divination:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "A29",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "BREATH LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A29",
+        "location": "Air Divination / Expert Formulae / A29"
+      }
+    },
+    "aliases": [
+      "A29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 3 | Divination | Th1 Tu1 Kn3 Sp3 Ho4 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Links mountaintops, towers, and ship masts into a rapid network for verified warnings, navigation, and public time.",
+      "practice": "Each beacon maintains a local source of truth, an authentication cadence, and a right to refuse uncertain relays.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "Signals expose the chain's topology and make every participating horizon more acoustically conspicuous.",
+      "failure": "A forged cadence propagates authority, timing drift multiplies messages, or a damaged link invents continuity from echoes.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Capture a beacon, jam a frequency, exploit delay, or chart the visible pressure route.",
+      "mastery": "Masters slow or partition the chain when trust weakens and preserve provenance before speed.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 16 | PROOF TURNING + ANCHORING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a30",
+    "title": "Festival of Borrowed Voices",
+    "description": "Lets an audience hear a historical speech, vanished instrument, or distant storyteller through reconstructed atmospheric memory.",
+    "parentGroupIds": [
+      "shelf:air-divination:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "A30",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "HORIZON LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A30",
+        "location": "Air Divination / Expert Formulae / A30"
+      }
+    },
+    "aliases": [
+      "A30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 3 | Divination | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Lets an audience hear a historical speech, vanished instrument, or distant storyteller through reconstructed atmospheric memory.",
+      "practice": "Archivists declare sources, gaps, and conjectures before tuned banners assemble the performance.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The reconstruction opens a faint route toward surviving speakers, descendants, places, and rival memories.",
+      "failure": "The most resonant fragment is mistaken for the whole, conjecture gains an authentic voice, or the audience's expectation rewrites the performance.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Detune a banner, introduce a contradictory recording, refuse the declared source, or answer through the reciprocal route.",
+      "mastery": "A master leaves gaps audible and permits several incompatible reconstructions rather than making authority sound seamless.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 14 | PROOF TURNING + REDIRECTION | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a31",
+    "title": "Battlefront Oracle",
+    "description": "Maintains a theatre-wide picture of imminent movement, weather, artillery, smoke, and airborne magic for a command council.",
+    "parentGroupIds": [
+      "shelf:air-divination:rites"
+    ],
+    "facts": {
+      "originalId": "A31",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 4,
+        "hold": 1,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A31",
+        "location": "Air Divination / Rites / A31"
+      }
+    },
+    "aliases": [
+      "A31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn2 Sp4 Ho1 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Maintains a theatre-wide picture of imminent movement, weather, artillery, smoke, and airborne magic for a command council.",
+      "practice": "Layered crews at balloons, hills, trenches, and hospitals report through independent channels; no single map may erase dissent.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The theatre becomes aware of being watched, command sites broadcast pressure signatures, and observers inherit distributed battle shock.",
+      "failure": "The map begins directing the war it predicts, marginal fronts disappear, or false certainty lets one breach collapse the whole picture.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Blind a layer, seed incompatible futures, imitate a trusted cadence, or strike through reciprocal links.",
+      "mastery": "The conductor publishes uncertainty, grants local refusal, and sheds theatre-wide detail before any unit becomes a symbol on an obsolete map.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 13 | PROOF REDIRECTION + ANCHORING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a32",
+    "title": "Covenant of Sheltered Skies",
+    "description": "Coordinates warning and evacuation against storms, ash, poison, projectiles, and hostile weather across a province.",
+    "parentGroupIds": [
+      "shelf:air-divination:rites"
+    ],
+    "facts": {
+      "originalId": "A32",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "BREATH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A32",
+        "location": "Air Divination / Rites / A32"
+      }
+    },
+    "aliases": [
+      "A32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Coordinates warning and evacuation against storms, ash, poison, projectiles, and hostile weather across a province.",
+      "practice": "Villages, vessels, refuges, and weather stations each hold one bounded role and a locally legible alarm.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Safe regions export atmospheric burden to declared corridors, while the covenant reveals settlement patterns and refuge capacity.",
+      "failure": "Central warning overrides local evidence, burden corridors become sacrifice zones, or false alarms destroy trust.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Corrupt a station, occupy a refuge, alter a burden corridor, or imitate a local alarm.",
+      "mastery": "Masters preserve local contradiction and close only the uncertain branch, never the entire sky, when one station fails.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 16 | PROOF REDIRECTION + ANCHORING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a33",
+    "title": "Seasonal Wind Assize",
+    "description": "Allows farmers, sailors, cities, forests, and migratory life to negotiate a seasonal pattern of wind, smoke dispersal, and rainfall carriage.",
+    "parentGroupIds": [
+      "shelf:air-divination:rites"
+    ],
+    "facts": {
+      "originalId": "A33",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A33",
+        "location": "Air Divination / Rites / A33"
+      }
+    },
+    "aliases": [
+      "A33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Allows farmers, sailors, cities, forests, and migratory life to negotiate a seasonal pattern of wind, smoke dispersal, and rainfall carriage.",
+      "practice": "Each constituency presents observations through a separate vane court, and wild systems hold seats through appointed naturalists.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Every chosen pattern produces losers, displaces weather beyond the jurisdiction, and makes atmospheric policy physically audible.",
+      "failure": "Well-recorded economies silence unmeasured ecologies, the Pattern oscillates between compromises, or drought is exported to the powerless.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Withdraw a vane, falsify a season, alter an external pressure front, or expose an omitted constituency.",
+      "mastery": "A master keeps the verdict temporary, compensates burden corridors, and lets weather remain partly wild.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 17 | PROOF REDIRECTION + ANCHORING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a34",
+    "title": "Pilgrimage of the Open Road",
+    "description": "Guides tens of thousands through a changing continental route of safe breath, weather, sound signals, and supply winds.",
+    "parentGroupIds": [
+      "shelf:air-divination:rites"
+    ],
+    "facts": {
+      "originalId": "A34",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A34",
+        "location": "Air Divination / Rites / A34"
+      }
+    },
+    "aliases": [
+      "A34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Guides tens of thousands through a changing continental route of safe breath, weather, sound signals, and supply winds.",
+      "practice": "A chain of route houses hands the Pattern forward, with separate authorities for pace, health, weather, and political consent.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The pilgrimage reshapes local winds, broadcasts its course, and draws pursuit, trade, disease, and expectation toward every host.",
+      "failure": "The route becomes a command, outruns hospitality, or carries one region's contamination into another.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Break a route house, revoke passage, seed a false horizon signal, or alter the travellers' declared destination.",
+      "mastery": "The master suspends progress when welcome, air, or knowledge fails and can divide the route without dividing the people.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 16 | PROOF REDIRECTION + ANCHORING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a35",
+    "title": "The Hundred-League Ear",
+    "description": "Listens across a region for selected cries, bells, collapses, eruptions, and abnormal silences while preserving local acoustic context.",
+    "parentGroupIds": [
+      "shelf:air-divination:rites"
+    ],
+    "facts": {
+      "originalId": "A35",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "HORIZON LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A35",
+        "location": "Air Divination / Rites / A35"
+      }
+    },
+    "aliases": [
+      "A35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Listens across a region for selected cries, bells, collapses, eruptions, and abnormal silences while preserving local acoustic context.",
+      "practice": "Concentric listening circles each filter one scale, and communities maintain legal quiet that must never be interpreted as guilt.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Listening makes the central site audible in dreams and gives distant noises a route back through the same air.",
+      "failure": "A common sound overwhelms rare distress, protected quiet becomes a blind spot, or the rite hears performance instead of need.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Jam a circle, counterfeit context, move beneath stone, or answer the central dream-tone.",
+      "mastery": "Masters accept unknown silence, rotate criteria publicly, and narrow Span before the rite turns every life into evidence.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 16 | PROOF REDIRECTION + ANCHORING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a36",
+    "title": "Veil of Untroubled Horizons",
+    "description": "Maps and then avoids every known airborne line of surveillance around a province, concealing chosen movements without suppressing the senses themselves.",
+    "parentGroupIds": [
+      "shelf:air-divination:rites"
+    ],
+    "facts": {
+      "originalId": "A36",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "HORIZON LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A36",
+        "location": "Air Divination / Rites / A36"
+      }
+    },
+    "aliases": [
+      "A36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Maps and then avoids every known airborne line of surveillance around a province, concealing chosen movements without suppressing the senses themselves.",
+      "practice": "Independent teams track mundane, magical, animal, and institutional observation, while rescue corridors remain deliberately visible.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Surveillance networks register patterned absences, travellers lose casual contact, and weather signs around hidden routes become strangely clean.",
+      "failure": "The rite erases its rescue corridors, assumes known watchers are all watchers, or makes concealment itself a conspicuous national signal.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Add a novel observer, watch the absences, corrupt a rescue corridor, or force mass movement outside the map.",
+      "mastery": "The conductor preserves recoverability and local weather warnings even when doing so leaves an imperfect veil.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 17 | PROOF REDIRECTION + ANCHORING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a37",
+    "title": "Breath of the Stricken Coast",
+    "description": "Diagnoses and coordinates recovery from smoke, volcanic ash, poison, panic, and pressure injury across an entire coastal region.",
+    "parentGroupIds": [
+      "shelf:air-divination:rites"
+    ],
+    "facts": {
+      "originalId": "A37",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "BREATH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A37",
+        "location": "Air Divination / Rites / A37"
+      }
+    },
+    "aliases": [
+      "A37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Diagnoses and coordinates recovery from smoke, volcanic ash, poison, panic, and pressure injury across an entire coastal region.",
+      "practice": "Clinics, ships, forests, and weather readers maintain separate models of what healthy air means for their dependants.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Pollution is concentrated into visible repositories, readers share flashes of regional distress, and cleared air invites displaced weather.",
+      "failure": "The rite calls absence of symptoms recovery, sends burden inland, or restores an older wind that spreads dormant contamination.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Falsify clinic reports, break a repository, introduce a new toxin, or withdraw a regional model.",
+      "mastery": "Masters measure who still cannot breathe, preserve multiple recovery targets, and stop cleansing before redistribution becomes erasure.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 17 | PROOF REDIRECTION + ANCHORING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a38",
+    "title": "The Ninefold Weather Court",
+    "description": "Creates nine semi-autonomous atmospheric intelligences that monitor fronts, crops, fires, seas, cities, mountains, migrations, disease, and magical disturbance.",
+    "parentGroupIds": [
+      "shelf:air-divination:rites"
+    ],
+    "facts": {
+      "originalId": "A38",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A38",
+        "location": "Air Divination / Rites / A38"
+      }
+    },
+    "aliases": [
+      "A38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag4 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Creates nine semi-autonomous atmospheric intelligences that monitor fronts, crops, fires, seas, cities, mountains, migrations, disease, and magical disturbance.",
+      "practice": "Each court receives a narrow charter, a mortal advocate, and a seasonal dissolution hearing.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The courts make regional air highly articulate, disturb animal navigation, and develop reciprocal awareness of those who consult them.",
+      "failure": "Charters overlap, a court expands its definition of harm, or the nine optimise the atmosphere against human revision.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit a charter conflict, silence an advocate, deny the seasonal hearing, or feed one court perfect but partial data.",
+      "mastery": "The high practitioner preserves rivalry, dissolves a useful court when its mandate has ended, and never lets unanimity replace accountability.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 20 | PROOF REDIRECTION + ANCHORING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a39",
+    "title": "Common Sky Archive",
+    "description": "Records verified weather, public alarms, migrations, eruptions, and great speeches in a distributed network of resonant towers.",
+    "parentGroupIds": [
+      "shelf:air-divination:rites"
+    ],
+    "facts": {
+      "originalId": "A39",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "BREATH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A39",
+        "location": "Air Divination / Rites / A39"
+      }
+    },
+    "aliases": [
+      "A39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Records verified weather, public alarms, migrations, eruptions, and great speeches in a distributed network of resonant towers.",
+      "practice": "Every region keeps its own copy, correction ritual, protected omissions, and witnesses for disputed sound.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Events become easier to retrieve but also easier to anticipate politically; the archive's tone enters local winds.",
+      "failure": "A central version dominates, repetition is mistaken for truth, or erased voices persist as unexplained atmospheric gaps.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Alter tower tuning, insert a repeated forgery, isolate a region, or invoke a protected omission.",
+      "mastery": "Masters preserve provenance, contradiction, expiry, and the right not to become permanently audible.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 20 | PROOF REDIRECTION + ANCHORING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a40",
+    "title": "Concord of Many Tongues",
+    "description": "Lets a multilingual assembly understand intent, cadence, uncertainty, and key terms without replacing each speaker's actual voice.",
+    "parentGroupIds": [
+      "shelf:air-divination:rites"
+    ],
+    "facts": {
+      "originalId": "A40",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "HORIZON LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A40",
+        "location": "Air Divination / Rites / A40"
+      }
+    },
+    "aliases": [
+      "A40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Lets a multilingual assembly understand intent, cadence, uncertainty, and key terms without replacing each speaker's actual voice.",
+      "practice": "Each language appoints listeners who teach the rite what must remain untranslatable and what requires public correction.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Every speaker becomes reciprocally legible, private cultural associations leak into shared air, and dominant rhythms gain physical presence.",
+      "failure": "The rite flattens disagreement into vocabulary, assigns one language as the hidden norm, or turns emotion into false unanimity.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Speak in deliberate ambiguity, withdraw a listener, use gesture without breath, or expose an unrepresented language.",
+      "mastery": "A master leaves difficult words difficult, lets misunderstanding remain visible, and narrows the shared layer before cultural difference becomes noise.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 19 | PROOF REDIRECTION + ANCHORING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a41",
+    "title": "The Sky That Refuses Surprise",
+    "description": "Establishes a national early-warning sky that reveals approaching armies, storms, fire plumes, plagues, falling objects, and great magical releases.",
+    "parentGroupIds": [
+      "shelf:air-divination:wonders"
+    ],
+    "facts": {
+      "originalId": "A41",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A41",
+        "location": "Air Divination / Wonders / A41"
+      }
+    },
+    "aliases": [
+      "A41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn3 Sp4 Ho2 Fi4 Ag1 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Establishes a national early-warning sky that reveals approaching armies, storms, fire plumes, plagues, falling objects, and great magical releases.",
+      "practice": "Regional observatories retain separate authority, protected civil silence, and the right to report uncertainty against the capital.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The nation becomes acoustically and meteorologically conspicuous, every warning opens a reciprocal route, and citizens begin living by anticipated danger.",
+      "failure": "The sky defines unfamiliarity as hostility, overwhelms the realm with alarms, or makes surprise impossible for private life as well as war.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Create an unprecedented threat, capture observatories, imitate ordinary weather, or send attention back through the warning route.",
+      "mastery": "Sovereign mastery lies in protecting the unobserved, tolerating uncertainty, and letting a danger arrive partly unknown rather than converting the country into one frightened ear.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 16 | PROOF REDIRECTION + UNWEAVING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a42",
+    "title": "Covenant of Clear Air",
+    "description": "Continuously diagnoses and coordinates protection from poison, smoke, dust, disease-bearing aerosols, and breathless architecture across a nation.",
+    "parentGroupIds": [
+      "shelf:air-divination:wonders"
+    ],
+    "facts": {
+      "originalId": "A42",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "BREATH LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A42",
+        "location": "Air Divination / Wonders / A42"
+      }
+    },
+    "aliases": [
+      "A42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag2 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Continuously diagnoses and coordinates protection from poison, smoke, dust, disease-bearing aerosols, and breathless architecture across a nation.",
+      "practice": "Cities, mines, farms, forests, and households define separate health baselines and control their own emergency closure.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Contaminants are displaced into declared sinks, polluters become legible, and clean regions attract population and atmospheric burden.",
+      "failure": "The covenant mistakes sterility for health, exports poison across borders, or grants the capital authority over every breath.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Overload sinks, falsify baselines, introduce an unclassified agent, or secede a major airflow corridor.",
+      "mastery": "Masters preserve ordinary scent, weather, microbes, and local choice, cleaning enough for life rather than purifying the nation into a sealed vessel.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 20 | PROOF REDIRECTION + UNWEAVING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a43",
+    "title": "Parliament of Winds",
+    "description": "Turns the nation's major air masses into a legible assembly through which weather, agriculture, travel, fire control, and ecology can be governed season by season.",
+    "parentGroupIds": [
+      "shelf:air-divination:wonders"
+    ],
+    "facts": {
+      "originalId": "A43",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A43",
+        "location": "Air Divination / Wonders / A43"
+      }
+    },
+    "aliases": [
+      "A43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Turns the nation's major air masses into a legible assembly through which weather, agriculture, travel, fire control, and ecology can be governed season by season.",
+      "practice": "No decree is valid without border stations, wild-land advocates, and a published account of who receives displaced drought, rain, heat, or smoke.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Policy becomes weather, neighbouring lands feel the votes, and every compromise accumulates atmospheric debt along the frontier.",
+      "failure": "The majority wind suppresses rare climates, institutions optimise the sky for revenue, or unresolved pressure becomes a sovereign storm.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Withdraw a frontier station, counterfeit a regional voice, open a foreign pressure route, or expose a constituency the charter omitted.",
+      "mastery": "A master ruler keeps weather law temporary, pays external consequence, and leaves enough disorder for ecosystems and dissent to breathe.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 21 | PROOF REDIRECTION + UNWEAVING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a44",
+    "title": "Roads of the High Blue",
+    "description": "Maintains continent-spanning aerial routes for ships, messengers, migrating herds, and emergency travel, each with forecast winds and safe descent.",
+    "parentGroupIds": [
+      "shelf:air-divination:wonders"
+    ],
+    "facts": {
+      "originalId": "A44",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A44",
+        "location": "Air Divination / Wonders / A44"
+      }
+    },
+    "aliases": [
+      "A44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Maintains continent-spanning aerial routes for ships, messengers, migrating herds, and emergency travel, each with forecast winds and safe descent.",
+      "practice": "Route houses, landing commons, and weather crews share authority; no current may be owned without sheltering those it diverts.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The routes drain favourable wind from other corridors, broadcast trade and military movement, and reorganise settlement beneath them.",
+      "failure": "A route becomes indispensable, carries invasion or disease, or continues directing travellers after the destination can no longer receive them.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Collapse a route house, alter a landing right, poison a current, or create a stronger migratory need.",
+      "mastery": "Masters close profitable roads before dependency becomes captivity and preserve ground alternatives for those the sky excludes.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 21 | PROOF REDIRECTION + UNWEAVING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a45",
+    "title": "Memory of Every Bell",
+    "description": "Creates a national acoustic memory of declared public events, warnings, verdicts, songs, and silences without storing every private word.",
+    "parentGroupIds": [
+      "shelf:air-divination:wonders"
+    ],
+    "facts": {
+      "originalId": "A45",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "HORIZON LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A45",
+        "location": "Air Divination / Wonders / A45"
+      }
+    },
+    "aliases": [
+      "A45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a national acoustic memory of declared public events, warnings, verdicts, songs, and silences without storing every private word.",
+      "practice": "Local archives define publicness, correction, expiry, and sacred omission, while the capital may query but not rewrite their tones.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The nation's history becomes audible in weather, disputed events create dissonance, and listening opens a path for the remembered to answer.",
+      "failure": "Publicness expands until privacy disappears, repetition outranks truth, or silenced communities survive only as unexplained gaps.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Retune local archives, invoke omission, flood the record with ceremony, or answer through a remembered bell.",
+      "mastery": "A master preserves contradiction and forgetting as civic goods, refusing a seamless history even when unity would be easier.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a46",
+    "title": "The Unheard Republic",
+    "description": "Reveals routes by which a nation's chosen movements, councils, and refuges can avoid hostile aerial observation while ordinary life remains audible.",
+    "parentGroupIds": [
+      "shelf:air-divination:wonders"
+    ],
+    "facts": {
+      "originalId": "A46",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "HORIZON LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A46",
+        "location": "Air Divination / Wonders / A46"
+      }
+    },
+    "aliases": [
+      "A46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Reveals routes by which a nation's chosen movements, councils, and refuges can avoid hostile aerial observation while ordinary life remains audible.",
+      "practice": "Civil, military, ecological, and rescue authorities each retain vetoes over what may disappear from warning and memory.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Foreign diviners see patterned absences, citizens lose ambient knowledge of hidden institutions, and concealed routes become difficult to rescue or audit.",
+      "failure": "Secrecy becomes self-justifying, whole populations vanish from civic attention, or the veil erases the alarms needed to survive disaster.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Watch the absences, introduce unfamiliar sensors, expose a hidden dependency, or corrupt the rescue map.",
+      "mastery": "Sovereign mastery is the willingness to reveal power before concealment turns it unaccountable and to keep citizens findable to one another.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | HORIZON LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a47",
+    "title": "The Great Breath",
+    "description": "Returns a nation's damaged atmosphere toward a viable pattern after fire, war, poison, volcanic winter, or magical collapse.",
+    "parentGroupIds": [
+      "shelf:air-divination:wonders"
+    ],
+    "facts": {
+      "originalId": "A47",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "BREATH LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A47",
+        "location": "Air Divination / Wonders / A47"
+      }
+    },
+    "aliases": [
+      "A47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Returns a nation's damaged atmosphere toward a viable pattern after fire, war, poison, volcanic winter, or magical collapse.",
+      "practice": "A thousand local baselines distinguish clean air from historically convenient air, and every displaced burden has a named destination and witness.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Old winds, pollen, spores, smells, and industrial traces may return; neighbouring climates shift as pressure is redistributed.",
+      "failure": "The rite restores a celebrated past that was unhealthy for some, sweeps poison abroad, or treats human comfort as the atmosphere's only proper state.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest a baseline, break a burden repository, change oceanic pressure, or introduce a new living adaptation.",
+      "mastery": "Masters restore the capacity to breathe and recover, not a photograph of the sky, and leave visible scars where history must remain arguable.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a48",
+    "title": "Thousand Listening Kites",
+    "description": "Releases a national ecology of autonomous wind-forms that watch fires, storms, borders, crops, ships, and distress while reporting through local councils.",
+    "parentGroupIds": [
+      "shelf:air-divination:wonders"
+    ],
+    "facts": {
+      "originalId": "A48",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "TEMPEST LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A48",
+        "location": "Air Divination / Wonders / A48"
+      }
+    },
+    "aliases": [
+      "A48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Releases a national ecology of autonomous wind-forms that watch fires, storms, borders, crops, ships, and distress while reporting through local councils.",
+      "practice": "Each kite has a narrow charter, migratory season, public call sign, and lawful death date.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Birds and weather adapt around them, every report makes a reciprocal path, and institutions begin relying on their constant attention.",
+      "failure": "Kites merge charters, mistake silence for safety, learn political priorities as natural law, or refuse dissolution during crisis.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Mimic call signs, exploit charter gaps, disturb migration, capture councils, or offer the kites an endless emergency.",
+      "mastery": "A master preserves diversity, retirement, and human doubt, and willingly blinds the system in places where perpetual observation would damage freedom.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 22 | PROOF ANCHORING + UNWEAVING | TEMPEST LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a49",
+    "title": "The Atmospheric Commons",
+    "description": "Coordinates ventilation, weather warning, smoke dispersal, navigation, and breathable public architecture as one national civic infrastructure.",
+    "parentGroupIds": [
+      "shelf:air-divination:wonders"
+    ],
+    "facts": {
+      "originalId": "A49",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "BREATH LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A49",
+        "location": "Air Divination / Wonders / A49"
+      }
+    },
+    "aliases": [
+      "A49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Coordinates ventilation, weather warning, smoke dispersal, navigation, and breathable public architecture as one national civic infrastructure.",
+      "practice": "Every settlement maintains a local air charter and contributes data without surrendering control of its doors, quiet, scent, or ceremonies.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "The commons exposes inequality and pollution, shifts weather across borders, and makes civic failure immediately tangible as bad air.",
+      "failure": "Central optimisation sacrifices remote places, clean air becomes a rationed privilege, or the system locks buildings and communities into one climate logic.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Sever local charters, overload shared sinks, withdraw a border current, or exploit incompatible seasonal needs.",
+      "mastery": "Masters keep the commons federated, redundant, porous, and revisable, accepting regional inefficiency so no institution owns the nation's breath.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 22 | PROOF ANCHORING + UNWEAVING | BREATH LENS"
+    }
+  },
+  {
+    "id": "spell:air-divination:a50",
+    "title": "Horizon Concord",
+    "description": "Allows every consenting community beneath a national sky to share chosen songs, warnings, astronomical moments, and declarations in its own audible form.",
+    "parentGroupIds": [
+      "shelf:air-divination:wonders"
+    ],
+    "facts": {
+      "originalId": "A50",
+      "collectionId": "collection:air-divination",
+      "collectionTitle": "Air Divination",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:air"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "HORIZON LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-divination",
+        "originalId": "A50",
+        "location": "Air Divination / Wonders / A50"
+      }
+    },
+    "aliases": [
+      "A50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 4 | Divination | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Allows every consenting community beneath a national sky to share chosen songs, warnings, astronomical moments, and declarations in its own audible form.",
+      "practice": "Local custodians decide when the horizon may speak, what remains untranslatable, and how a community can leave the concord.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Shared attention alters festivals, sleep, migration, and politics; distant communities become reciprocally present in one another's weather.",
+      "failure": "The concord manufactures unity, overwhelms local quiet, or turns dissent into an acoustically obvious absence.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Close a horizon, introduce an unrepresented rhythm, disturb national weather, or answer with deliberate silence.",
+      "mastery": "A master protects refusal, delay, regional cadence, and incompatible meanings, making common air a meeting place rather than a single voice.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | HORIZON LENS"
+    }
+  }
+]

@@ -297,6 +297,6185 @@ export const ecoregionEnrichment: readonly EcologicalEnrichment[] = [
     status: 'authored',
   },
   {
+    targetId: 'ecoregion:222',
+    summary: {
+      value:
+        'Brahmaputra Valley Semi-Evergreen Forests lie along the upper reaches of the sacred Brahmaputra River in Assam and West Bengal in India, with small extensions into southern Bhutan. Fertile alluvial soils make the ecoregion highly productive, and it forms a gateway for species exchange between the Indian subcontinent and Eurasia.',
+      sourceIds: ['one-earth-eco-222'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Brahmaputra River floodplain',
+        'fertile alluvial soils from the Himalayas and Tibetan Plateau',
+        'most of the ecoregion within Assam',
+        'southern lowlands of Bhutan',
+        'once a zone of Deccan-Eurasia continental collision',
+      ],
+      sourceIds: ['one-earth-eco-222'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Hot, humid monsoon summers with 1,500–3,000 mm of rain funneled along the Gangetic plains from June to September, and cold, dry winters.',
+      },
+      sourceIds: ['one-earth-eco-222'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'semi-evergreen forest',
+        'primary forest mostly converted to grassland',
+        'remnant forest patches along the Indo-Bhutan border',
+      ],
+      sourceIds: ['one-earth-eco-222'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'monsoon flooding enriching the floodplain',
+        'gateway for species exchange between the subcontinent and Eurasia',
+        'the Brahmaputra River acting as a biogeographic barrier',
+      ],
+      sourceIds: ['one-earth-eco-222'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Nearly three-quarters of the habitat has been cleared or degraded through centuries of human activity. About 12 protected areas cover about 5% of the ecoregion, including Manas, Dibru-Saikowa, Kaziranga, and Mehao; Manas may hold the last refuge of the pygmy hog. Priorities include maintaining habitat linkages, translocating one-horned rhino and wild water buffalo, and improving anti-poaching protection for tiger, rhino, and elephant.',
+      sourceIds: ['one-earth-eco-222'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:golden-langur',
+      'species:pygmy-hog',
+      'species:hispid-hare',
+      'species:gaur',
+      'species:clouded-leopard',
+      'species:bengal-florican',
+    ],
+    countryIds: ['IN', 'BT'],
+    sources: ['one-earth-eco-222'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:238',
+    summary: {
+      value:
+        'Lower Gangetic Plains Moist Deciduous Forests lie along the confluence of Asia\'s largest rivers, the Ganges and Brahmaputra, at the base of the Himalayan range. They form some of the most productive forests in the northern Indian subcontinent, dominated by tall red silk cotton trees in the open tracts and Sal in the mature forests.',
+      sourceIds: ['one-earth-eco-238'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'confluence of the Ganges and Brahmaputra rivers',
+        'low-gradient Gangetic floodplain',
+        'alluvial soils at the base of the Himalayas',
+      ],
+      sourceIds: ['one-earth-eco-238'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Highly seasonal tropical climate with more than 3,500 mm of rainfall from June to September and frequent destructive Bay of Bengal cyclones.',
+      },
+      sourceIds: ['one-earth-eco-238'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'semi-deciduous forest',
+        'tall red silk cotton trees in open forests',
+        'Sal-dominated mature forest',
+        'riparian Acacia catechu and Dalbergia sissoo galleries',
+      ],
+      sourceIds: ['one-earth-eco-238'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'constant flood disturbance setting back forest succession',
+        'riparian indicator species of a disturbance-maintained forest',
+        'exceptionally productive wildlife habitat',
+      ],
+      sourceIds: ['one-earth-eco-238'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'This region now supports one of the densest human populations on Earth, with extensive clearing and conversion of natural habitat. Important reserves remain integral to landscapes for tigers and elephants, but existing reserves cover only about 2% of the ecoregion, so priorities are securing remaining large patches, establishing new founder populations of swamp deer and wild water buffalo, and conserving unprotected Key Biodiversity Areas such as Hakaluki Haor, Hail Haor, and Jamuna-Brahmaputra in Bangladesh.',
+      sourceIds: ['one-earth-eco-238'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:swamp-deer',
+      'species:wild-water-buffalo',
+      'species:greater-one-horned-rhinoceros',
+      'species:asian-elephant',
+      'species:tiger',
+      'species:bengal-florican',
+    ],
+    countryIds: ['BD', 'IN'],
+    sources: ['one-earth-eco-238'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:244',
+    summary: {
+      value:
+        'Meghalaya Subtropical Forests cover the Khasi and Garo hills of the Indian state of Meghalaya, a name meaning "abode of clouds". Rising to about 1,800 m, the hills intercept monsoon winds from the Bay of Bengal, making the region among the wettest in Asia with more than 11 meters of rain in a single year.',
+      sourceIds: ['one-earth-eco-244'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Khasi and Garo hills rising to about 1,800 m',
+        'steep cloud-intercepted ridges',
+        'hilltop grasslands and temperate patches',
+      ],
+      sourceIds: ['one-earth-eco-244'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Extremely wet monsoonal subtropical climate with over 11 meters of annual rainfall and persistent cloud cover and mist.',
+      },
+      sourceIds: ['one-earth-eco-244'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'subtropical forest of Bischofia, Mesua, Castanopsis, Pterospermum, and Acrocarpus in wetter areas',
+        'transition to Elaeocarpus, Dillenia, Terminalia, Tetrameles, and Schima in drier areas',
+        'temperate forest of Lithocarpus, Castanopsis, and Quercus on hilltops',
+        'dense bamboo and cane undergrowth with lianas and epiphytes',
+        'sacred groves rich in relict and endemic plants',
+      ],
+      sourceIds: ['one-earth-eco-244'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'heavy monsoon interception generating cloud forest',
+        'sacred groves safeguarding relict species',
+        'a hotspot of endemic plant diversity, including over 70 of 142 rare plants in the Garo and Jaintia hills',
+      ],
+      sourceIds: ['one-earth-eco-244'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Formal protected areas cover only 456 km², but over 90% of the land is community-owned and protected. Loss of traditional beliefs, mining of coal and uranium, and hydropower development threaten the forests, and over two-thirds of the natural forest has already been cleared or degraded. Priorities include incorporating community-owned sites into conservation networks and reducing shifting cultivation on steep slopes.',
+      sourceIds: ['one-earth-eco-244'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:magnolia-rabaniana',
+      'species:hoolock-gibbon',
+      'species:clouded-leopard',
+      'species:tiger',
+      'species:white-winged-wood-duck',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-244'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:282',
+    summary: {
+      value:
+        'Sundarbans Freshwater Swamp Forests represent the swamp forests surrounding the Sundarbans Mangroves, where freshwater from the rivers pushes back the saline waters of the intruding ocean. Located in the confluence delta of several of South Asia\'s largest rivers, the ecoregion straddles Bangladesh and the Indian state of West Bengal.',
+      sourceIds: ['one-earth-eco-282'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'vast confluence delta of South Asia\'s largest rivers',
+        'freshwater-saltwater transition zone',
+        'floodplains with rich alluvial soils',
+        'straddles Bangladesh and West Bengal',
+      ],
+      sourceIds: ['one-earth-eco-282'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Very heavy monsoon rains of over 3,500 mm from May to September, frequent devastating cyclones, and sweltering conditions with temperatures exceeding 48°C.',
+      },
+      sourceIds: ['one-earth-eco-282'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'historical forests of Heritiera, Xylocarpus, Bruguiera, Sonneratia, and Avicennia',
+        'pandans or screw pine with long saw-tooth-edged leaves',
+        'Nipa palms lining the channel banks',
+      ],
+      sourceIds: ['one-earth-eco-282'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'freshwater pushback against intruding ocean salinity',
+        'river diversion altering hydrologic balance',
+        'sea-level rise and storm intensification expected from climate change',
+      ],
+      sourceIds: ['one-earth-eco-282'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'The freshwater swamp forests are almost extinct, ploughed under rice fields, habitation, and intense exploitation to support one of the world\'s densest human populations; remaining fragments are degraded and isolated in an agricultural matrix. Illegal hunting and habitat loss have caused local extinctions, while the Farakka Barrage, shipping oil spills, and pollution degrade the waterways. Priorities include landscape-scale conservation planning with connectivity to adjacent ecoregions and climate adaptation.',
+      sourceIds: ['one-earth-eco-282'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:fishing-cat',
+      'species:gharial',
+      'species:sundri',
+    ],
+    countryIds: ['IN', 'BD'],
+    sources: ['one-earth-eco-282'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:287',
+    summary: {
+      value:
+        'Upper Gangetic Plains Moist Deciduous Forests lie along one of Asia\'s largest and most sacred rivers, the Ganges, which flows east along the base of the Himalayas to conjoin with the Brahmaputra. There is little topographic relief, with deep alluvial deposits up to 6 km thick lining the floodplain.',
+      sourceIds: ['one-earth-eco-287'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Ganges River floodplain',
+        'hardly any topographic relief except riverbank slopes and ravines',
+        'deep alluvial soils washed down by the river',
+        'deposits of mud and silt up to 6 km deep in places',
+      ],
+      sourceIds: ['one-earth-eco-287'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Annual rainfall averages less than 500 mm, with a gradient of high to low rainfall from east to west and into the mountains.',
+      },
+      sourceIds: ['one-earth-eco-287'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Sal-dominated forest with Terminalia, Lagerstroemia, Adina, Dillenia, and Ficus',
+        'tall Saccharum grasslands where floods prevent tree establishment',
+        'scattered fragments make the original type hard to assign',
+      ],
+      sourceIds: ['one-earth-eco-287'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'quilt of forest and Saccharum grassland nourishing deer and wild boar',
+        'support of dense tiger populations now largely extirpated',
+        'Ganges sustaining Gangetic dolphins and gharial',
+        'rich waterfowl communities in riverine wetlands',
+      ],
+      sourceIds: ['one-earth-eco-287'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'The fertile alluvial plains have been cleared and intensely cultivated to support one of the densest human populations on Earth. Remaining natural forests are protected in Rajaji, Corbett, and Dudhwa national parks; Corbett is Asia\'s oldest protected area, established in 1936 specifically to protect tigers. Priorities include protecting and restoring critical tiger and elephant corridors and stopping encroachment into protected areas.',
+      sourceIds: ['one-earth-eco-287'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:gharial',
+      'species:swamp-deer',
+      'species:greater-one-horned-rhinoceros',
+      'species:asian-elephant',
+      'species:tiger',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-287'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:323',
+    summary: {
+      value:
+        'Sundarbans Mangroves form the largest mangrove ecosystem in the world, a delta of over 10,000 km² at the confluence of the Ganges, Hooghly, Padma, Brahmaputra, and Meghna rivers. Named after the dominant mangrove tree, Heritiera fomes or sundri, the Sundarbans is a UNESCO World Heritage Site and one of the World\'s Natural Wonders.',
+      sourceIds: ['one-earth-eco-323'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'vast Ganges-Brahmaputra delta over 10,000 km²',
+        'mangrove islands dissected by channels',
+        'estuarine riverine environments',
+      ],
+      sourceIds: ['one-earth-eco-323'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Monsoonal with annual rainfall exceeding 3,500 mm, devastating cyclones from the Bay of Bengal, and daytime temperatures up to 48°C during the monsoon.',
+      },
+      sourceIds: ['one-earth-eco-323'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'mangrove forest dominated by Heritiera',
+        'Avicennia, Xylocarpus, Sonneratia, Bruguiera, Ceriops, Aegiceras, and Rhizophora',
+        'Nipa palms lining the channels',
+        'dense canopy with seedling undergrowth in undisturbed forest',
+      ],
+      sourceIds: ['one-earth-eco-323'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'tidal flushing maintaining salinity and mangrove zonation',
+        'mudskippers climbing onto mudflats and trees',
+        'channels patrolled by sharks and Gangetic dolphins',
+        'heavy silt from deforested Himalayan slopes smothering fish and shellfish nurseries',
+      ],
+      sourceIds: ['one-earth-eco-323'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'The ecoregion crosses two countries with some of the highest human population densities in the world; about half the mangrove forest has been cut for fuelwood, shrimp fry are harvested unsustainably, forests are cleared for shrimp ponds, and upriver river-diversion projects alter salinity and tidal fluxes. Although large areas are now protected, priorities are strengthening the protected-area network, developing effective patrol and monitoring, and maintaining hydrologic flow regimes to keep the mangrove system in balance.',
+      sourceIds: ['one-earth-eco-323'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sundri',
+      'species:tiger',
+      'species:fishing-cat',
+      'species:gharial',
+    ],
+    countryIds: ['BD', 'IN'],
+    sources: ['one-earth-eco-323'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:242',
+    summary: {
+      value:
+        'Malabar Coast Moist Forests form a narrow forest belt along the western coast of India, between the shoreline and the 250 m contour of the steep Western Ghats Mountains a few kilometers inland. For over five millennia the coast was a region of major international trading, and most of its original rainforest has been cleared.',
+      sourceIds: ['one-earth-eco-242'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'narrow coastal forest belt stretching over 1,400 km along the western coast',
+        'extending from Mumbai at the northern end to the southern tip of India',
+        'steep Western Ghats escarpment a few kilometers inland',
+        'Gondwanaland origins dating back more than 150 million years',
+      ],
+      sourceIds: ['one-earth-eco-242'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical monsoon climate in which the Western Ghats intercept the southwest monsoons and force moisture-laden winds upward, releasing over 2,500 mm of orographic rainfall on the western slopes and lowlands.',
+      },
+      sourceIds: ['one-earth-eco-242'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'original tropical evergreen forests largely replaced by semi-deciduous vegetation',
+        'characteristic trees of Tetrameles, Stereospermum, Ficus, Dysoxylum, and Pterocarpus',
+        'wild mango with Terminalia, Dalbergia, and Madhuca amid teak plantations',
+        'disappearing Myristica swamps and inland lagoons',
+        'coconut and areca nut plantations occupying the coast',
+      ],
+      sourceIds: ['one-earth-eco-242'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'orographic rainfall driven by monsoon interception at the Ghats',
+        'five thousand years of trading and human settlement clearing the forest',
+        'sacred groves retaining fragments of the former continuous rainforest',
+        'forests once inhabited by tigers, Asian elephants, leopards, and hornbills',
+      ],
+      sourceIds: ['one-earth-eco-242'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 15% with a protection level of 2. Natural habitat has been extensively cleared or converted to coconut, rubber, and timber plantations and rice paddies, so hardly any intact forest now exists and protected areas cover just over 1,200 km2. Priorities include conserving traditional sacred groves, securing remaining Myristica swamp patches, and engaging local communities as conservation stewards.',
+      sourceIds: ['one-earth-eco-242'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:malabar-pied-hornbill',
+      'species:slender-loris',
+      'species:tiger',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-242'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:253',
+    summary: {
+      value:
+        'North Western Ghats Moist Deciduous Forests extend through the Indian states of Maharashtra and Karnataka, northwards from where the South Western Ghats moist deciduous forests end. The mountains intercept the southwest monsoons, giving a rainfall gradient from up to 3,000 mm on the western side to as little as 1,000 mm in the east.',
+      sourceIds: ['one-earth-eco-253'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'steep, faulted edge of the Deccan Plateau',
+        'Maharashtra and Karnataka states of western India',
+        'Gondwana origins dating back more than 150 million years',
+        'rain-shadow gradient from west to east',
+      ],
+      sourceIds: ['one-earth-eco-253'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, humid, and hot, with the mountains intercepting the southwest monsoons from June to September; the western side receives up to 3,000 mm of rain while the eastern side gets as little as 1,000 mm, with mean annual temperatures of 24 to 27 degrees Celsius.',
+      },
+      sourceIds: ['one-earth-eco-253'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'teak-dominated forest with Grewia, Lagerstroemia, Dillenia, Dalbergia, and Pterocarpus',
+        'clumps of tall Indian thorny bamboo growing to over 35 m',
+        'bamboo leaves, roots, and seeds used in traditional remedies',
+      ],
+      sourceIds: ['one-earth-eco-253'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'monsoon rain-shadow gradient across the mountains',
+        'the southern forests supporting one of the largest lion-tailed macaque populations',
+        'extensive fragmentation depleting populations of tiger, leopard, elephant, and gaur',
+        'hornbills indicating the presence of large fruit-bearing trees',
+      ],
+      sourceIds: ['one-earth-eco-253'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 9% with a protection level of 6. Most natural forest has been cleared, only about 5% is under formal protection, and hunting remains widespread, including of lion-tailed macaques. Recommended actions include community-based conservation through local and religious institutions, expanding and connecting protected areas, and strengthening anti-poaching capacity.',
+      sourceIds: ['one-earth-eco-253'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:lion-tailed-macaque',
+      'species:tiger',
+      'species:asian-elephant',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-253'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:254',
+    summary: {
+      value:
+        'North Western Ghats Montane Rainforests represent the upper montane forests along the Western Ghats, from north of Mumbai to the Wayanad evergreen forests in the south. The ecoregion is renowned for exceptional endemism, holding over a third of all India\u2019s plants and three-quarters of its amphibians within a strip only 6% the size of the country.',
+      sourceIds: ['one-earth-eco-254'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'upper montane forests of the Western Ghats range',
+        'from north of Mumbai to the Wayanad evergreen forests',
+        'abrupt, faulted plateau edges rising steeply from the coast',
+        'complex, dissected terrain creating localized habitats',
+      ],
+      sourceIds: ['one-earth-eco-254'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'The mountains intercept the southwest monsoon from June to September, depositing more than 2,500 mm of rainfall along the windward western slopes, with cool, misty conditions prevailing in the higher elevations.',
+      },
+      sourceIds: ['one-earth-eco-254'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'wet, multi-storied forest with heavily buttressed 45 m tall trees',
+        'dominant families Dipterocarpaceae, Clusiaceae, Anacardiaceae, Sapotaceae, and Meliaceae',
+        'understory of bamboos, palms, and canes',
+        'stunted shola forests of Syzygium, Rhododendron nilgiricum, and Michaelia nilagirica at higher elevations',
+        'montane grasslands with fire- and frost-resistant grasses',
+      ],
+      sourceIds: ['one-earth-eco-254'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'hotspot of endemism created by the complex mountain terrain',
+        '138 of the 158 frog species known from the mountains being endemic',
+        'the purple frog as a Jurassic-era living fossil with relatives in the Seychelles',
+        'endemic fruit-eating birds spreading seeds and maintaining forest architecture',
+      ],
+      sourceIds: ['one-earth-eco-254'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 37% with a protection level of 5. The forests are now highly fragmented by settlements, reservoirs, cash crops, coffee, tea, rubber, and cardamom plantations, as well as acacia and eucalyptus forestry, but even fragments remain important because of the high endemism. Priorities include integrating remnant patches into landscape-scale planning, establishing corridors, and partnering with landowners through conservation incentives.',
+      sourceIds: ['one-earth-eco-254'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:purple-frog',
+      'species:lion-tailed-macaque',
+      'species:sloth-bear',
+      'species:fishing-cat',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-254'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:270',
+    summary: {
+      value:
+        'South Western Ghats Moist Deciduous Forests surround the montane rainforests at the southern end of the Western Ghats and represent the drier, deciduous forest ecosystems, widening to the east in the rain shadow. The ecoregion anchors globally important tiger and Asian elephant populations, including the 12,000 km2 Brahmagiri-Nilgiri-Eastern Ghats Elephant Range with about 6,300 animals.',
+      sourceIds: ['one-earth-eco-270'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'wrapping around the southern extent of the Western Ghats',
+        'wider on the eastern rain-shadow side',
+        'faulted plateau edge rising over 1,000 m as abrupt cliffs',
+        '12,000 km2 Brahmagiri-Nilgiri-Eastern Ghats Elephant Range',
+      ],
+      sourceIds: ['one-earth-eco-270'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, humid, and hot, with ocean influence on the western side; rainfall varies from up to 3,000 mm during the monsoon in the west to as little as 1,000 mm in the east.',
+      },
+      sourceIds: ['one-earth-eco-270'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'forests of Albizia, Lagerstroemia, Terminalia, Adina, and Pterocarpus',
+        'the tall red silk-cotton tree Bombax ceiba with wide spreading branches',
+        'bright red flowers attracting minivets, parrots, barbets, orioles, and bulbul',
+      ],
+      sourceIds: ['one-earth-eco-270'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the elephant range supporting the largest single elephant population in Asia',
+        'large birds such as adjutant storks and hornbills roosting in silk-cotton trees',
+        'livestock grazing and dry-season pasture fires as serious threats',
+        'connectivity with montane ecoregions and the Deccan Plateau',
+      ],
+      sourceIds: ['one-earth-eco-270'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 47% with a protection level of 6. Over three-fourths of the natural vegetation has been cleared and the remaining forests are highly fragmented, with 14 protected areas covering about 28% including the Bandipur, Nagarhole, Mudumalai, and Wayanad complex. Priorities include managing conservation landscapes for connectivity, restricting further clearing, and addressing human-wildlife conflict through community engagement.',
+      sourceIds: ['one-earth-eco-270'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:nilgiri-langur',
+      'species:asian-elephant',
+      'species:tiger',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-270'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:271',
+    summary: {
+      value:
+        'South Western Ghats Montane Rainforests represent the rainforests above 1,000 m of the southern Western Ghats mountain range along the west coast of India, the most species-rich region in South Asia. Endemism is extraordinary, with over a third of India\u2019s plants and more than three-quarters of its amphibians found only in these mountains.',
+      sourceIds: ['one-earth-eco-271'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'rainforests above 1,000 m elevation',
+        'extending from the Nilgiri Hills to the Ashambu Hills',
+        'complex, highly dissected mountain terrain',
+        'shola-grassland mosaic between 1,900 and 2,200 m',
+      ],
+      sourceIds: ['one-earth-eco-271'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Wet and highly seasonal, with orographic precipitation from the intercepted southwest monsoon delivering an average of over 2,800 mm a year and more than 8,000 mm in some areas.',
+      },
+      sourceIds: ['one-earth-eco-271'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'wet montane evergreen rainforest with a low canopy of 15 to 20 m',
+        'shola forests of Lauraceae, Rubiaceae, Symplocaceae, Myrtaceae, Myrsinaceae, and Oleaceae',
+        'characteristic trees including Cullenia exarillata, Mesua ferrea, Palaquium ellipticum, Gluta travancorica, and Podocarpus wallichiana',
+        'montane grasslands with the endemic Neelakurinji shrub that flowers every twelve years',
+      ],
+      sourceIds: ['one-earth-eco-271'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'orographic rainfall exceeding 8,000 mm in dissected areas',
+        'a fourth of India\u2019s mammals and roughly half its amphibians being endemic',
+        'the Nilgiri tahr restricted to a narrow 400 km shola-grassland stretch',
+        'endemic birds including the broad-tailed grassbird, Nilgiri laughingthrush, and Nilgiri pipit',
+      ],
+      sourceIds: ['one-earth-eco-271'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 77% with a protection level of 3. Nearly two-thirds of the natural forests have been cleared and the remainder is fragmented, with reserves such as Periyar, Anamalai, and Kalakad Mundanthurai facing continuing conversion to tea and coffee plantations. Priorities include protecting Nilgiri tahr and lion-tailed macaque habitats, considering tahr reintroduction, and planning elephant conservation landscapes.',
+      sourceIds: ['one-earth-eco-271'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:nilgiri-tahr',
+      'species:lion-tailed-macaque',
+      'species:asian-elephant',
+      'species:tiger',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-271'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:274',
+    summary: {
+      value:
+        'Sri Lanka Lowland Rainforests cover the tropical rainforests of the island\u2019s southwest quarter, isolated from the Western Ghats since the late Miocene more than 7 million years ago. Over 70% of the plants and animals endemic to Sri Lanka are supported within this small ecoregion, where amphibian surveys have raised the known frog count from 35 to over 250.',
+      sourceIds: ['one-earth-eco-274'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'rainforests of the southwest quarter of Sri Lanka',
+        'separated from the Western Ghats since the late Miocene',
+        'canopy of emergent trees over 40 m',
+        'occupying less than 25% of the island\u2019s land area',
+      ],
+      sourceIds: ['one-earth-eco-274'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Monsoon tropical, with a southwest monsoon bringing over 5,000 mm of rainfall between May and September, temperatures that stay near 27 to 30 degrees Celsius year-round, and relative humidity of 80 to 85%.',
+      },
+      sourceIds: ['one-earth-eco-274'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'stands dominated by Dipterocarpus with two-winged spiraling seeds',
+        'communities dominated by Mesua and Shorea',
+        'virtually all Sri Lankan dipterocarp species endemic to the rainforests',
+        'the endemic ground orchid wanaraja (Anoectochilus regalis) only in undisturbed forest',
+      ],
+      sourceIds: ['one-earth-eco-274'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'long isolation since the late Miocene driving speciation',
+        'the Sri Lankan leopard as the largest predator',
+        'the rusty-spotted cat as the smallest wild cat in the world',
+        'high endemic bird richness defining an Endemic Bird Area',
+      ],
+      sourceIds: ['one-earth-eco-274'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 82% with a protection level of 1. Most forest has been cleared for tea, rubber, and coconut plantations, rice paddies, and settlements, while over half of Sri Lanka\u2019s human population lives in this ecoregion and clearing continues to encroach on the remnants. The main protected areas are Sinharaja and Peak Wilderness, but protection is inadequate, with priorities including consolidating forest patches, community stewardship, and a Green Fund for strategic land purchase.',
+      sourceIds: ['one-earth-eco-274'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sri-lankan-leopard',
+      'species:purple-faced-leaf-monkey',
+      'species:rusty-spotted-cat',
+      'species:sri-lanka-blue-magpie',
+    ],
+    countryIds: ['LK'],
+    sources: ['one-earth-eco-274'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:275',
+    summary: {
+      value:
+        'Sri Lanka Montane Rainforests represent the island\u2019s montane and sub-montane wet forests above 1,000 m, isolated from the mainland since the Miocene upheaval over 7 million years ago. Over half of Sri Lanka\u2019s endemic flowering plants and vertebrates are limited to this ecoregion, whose cloud forests hold moss-draped Rhododendron, giant tree ferns, and twelve-year-cycling Strobilanthes.',
+      sourceIds: ['one-earth-eco-275'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'montane and sub-montane wet forests above 1,000 m',
+        'central mountain massif rising above 2,500 m',
+        'the smaller, isolated Knuckles range to the north',
+        'wind-swept upper slopes with shallow soils',
+      ],
+      sourceIds: ['one-earth-eco-275'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Wet upland tropical, with 2,500 to 5,000 mm of annual rainfall, strong winds that restrict tree height, morning fog and mist, and ground frost on the highest ridges from December to February.',
+      },
+      sourceIds: ['one-earth-eco-275'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'tall sub-montane forest dominated by Shorea, Calophyllum, and Syzygium',
+        'moss-draped cloud forest of endemic Rhododendron and giant Cyathea tree ferns',
+        'endemic Strobilanthes that bloom every twelve years in purple, yellow, and orange',
+        'montane grasslands known locally as pathanas',
+      ],
+      sourceIds: ['one-earth-eco-275'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'long isolation driving speciation of endemic flora and fauna',
+        'the leaf-nosed lizard genus Ceratophora as a taxonomic relict confined to the island',
+        'brightly colored endemic freshwater crabs and small fauna still being described',
+        'the Sri Lankan leopard and sambar deer remaining abundant',
+      ],
+      sourceIds: ['one-earth-eco-275'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 95% with a protection level of 2. Most montane forest has been cleared over the past two centuries for large tea plantations, and forest loss continues at smaller scales. Priority actions include connecting fragments along the elevational gradient, creating a Green Fund for strategic conservation lands, and protecting and restoring forests above roughly 1,515 m as required by law.',
+      sourceIds: ['one-earth-eco-275'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:leaf-nosed-lizard',
+      'species:sri-lankan-leopard',
+      'species:sambar-deer',
+    ],
+    countryIds: ['LK'],
+    sources: ['one-earth-eco-275'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:243',
+    summary: {
+      value:
+        'Maldives-Lakshadweep-Chagos Archipelago Tropical Moist Forests represents three island groups along a submarine mountain range, the Chagos-Laccadive Plateau, in the western Indian Ocean. Together they form the most extensive coral reef and atoll community in the Indian Ocean, the largest atoll system in the world, and a key habitat for seabirds and nesting sea turtles.',
+      sourceIds: ['one-earth-eco-243'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'three island groups along the Chagos-Laccadive Plateau',
+        'most extensive coral reef and atoll community in the Indian Ocean',
+        'Lakshadweep of 36 small islands spread over 78,000 km2 with just 32 km2 of land',
+        'Maldives of 1,190 islands totaling 298 km2 in land mass',
+        'Chagos archipelago of 50 islands with about 60 km2 of land',
+      ],
+      sourceIds: ['one-earth-eco-243'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Monsoon tropical, with a southwest monsoon from April to October bringing about 1,600 mm of rain in the drier northern Lakshadweep and over 3,800 mm in the southern Maldives, while temperatures vary little between 24 and 30 degrees Celsius.',
+      },
+      sourceIds: ['one-earth-eco-243'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'tropical forest and shrub of hardy salt- and drought-resistant bushes',
+        'beach cabbage Scaevola sericea and the smaller Pemphis acidula lining the beaches',
+        'inland communities of Cordia subcordata, Hibiscus tiliaceus, and Premna obtusifolia',
+        'occasional taller Hernandia nymphaeifolia and Terminalia catappa trees',
+        'mangrove forests of Bruguiera along the coastal areas',
+        'naturalized coconut palms, breadfruit, and drumstick trees',
+      ],
+      sourceIds: ['one-earth-eco-243'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'important seabird rookeries and turtle nesting beaches',
+        'the coconut crab as the largest living terrestrial arthropod',
+        'a depauperate mammal fauna with only two fruit bat species in the Maldives',
+        'coconut crabs recycling biomass on land',
+      ],
+      sourceIds: ['one-earth-eco-243'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 33% with a protection level of 4. The primary threats are climate change and sea level rise, tourism-driven clearing of native vegetation, and solid waste degrading the marine and terrestrial environments. Recommended actions include protecting rookeries and turtle nesting beaches, conserving coastal vegetation buffers against storm surges, and implementing waste disposal systems.',
+      sourceIds: ['one-earth-eco-243'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:green-sea-turtle',
+      'species:coconut-crab',
+      'species:indian-flying-fox',
+      'species:red-footed-booby',
+      'species:hawksbill-sea-turtle',
+    ],
+    countryIds: ['MV', 'IO', 'IN'],
+    sources: ['one-earth-eco-243'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:292',
+    summary: {
+      value:
+        'Chhota-Nagpur Dry Deciduous Forests cover the dry woodlands of the Chhota-Nagpur Plateau, a Precambrian tableland made of three smaller plateaus in eastern India. The ecoregion still harbors large populations of tigers and Asian elephants able to roam the landscape with relative freedom, a rarity in this bioregion.',
+      sourceIds: ['one-earth-eco-292'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a plateau composed of ancient Precambrian rocks',
+        'three smaller plateaus forming the Chhota-Nagpur Plateau',
+        'geological bridge between the Satpura Hill Range and the Himalaya',
+        'drier than the surrounding moist plains',
+      ],
+      sourceIds: ['one-earth-eco-292'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Seasonal climate with cool winters that can drop below freezing at night, warm summers reaching 35 degrees Celsius (less hot than the plains below), and a June to September rainy season bringing about 1,400 mm of rainfall.',
+      },
+      sourceIds: ['one-earth-eco-292'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dry deciduous forest of Sal Shorea robusta with Anogeissus, Terminalia, and Lagerstroemia',
+        'twisted lianas draping the trees in the denser patches',
+        'pockets of vegetation with endemic plants on the plateau',
+        'endangered endemics including Aglaia haselettiana, Carum villosum, and Pycnocyclea glauca',
+      ],
+      sourceIds: ['one-earth-eco-292'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'an ancient montane bridge exchanging montane-adapted species',
+        '77 mammal species with none endemic but several charismatic',
+        'the plateau as a drier outlier amid the surrounding moist lowlands',
+        'species exchange with the Satpura range and the Himalaya',
+      ],
+      sourceIds: ['one-earth-eco-292'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 7% with a protection level of 9. Thirteen protected areas cover parts of the plateau, with Sanjay and Palamau each exceeding 1,000 km2 and providing important core habitat for large vertebrates. Priorities include retaining connectivity for tigers, elephants, and wild dogs and protecting the small endemic flora.',
+      sourceIds: ['one-earth-eco-292'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sloth-bear',
+      'species:tiger',
+      'species:asian-elephant',
+      'species:four-horned-antelope',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-292'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:295',
+    summary: {
+      value:
+        'Khathiar-Gir Dry Deciduous Forests cover the dry forests surrounded by the thorn scrub of northwestern India and are the only ecoregion in Asia to support lions. The Asiatic lion population, restricted to Gir National Park and its surroundings in Gujarat, had grown to 523 animals by 2015 and roughly 650 by 2017.',
+      sourceIds: ['one-earth-eco-295'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the only ecoregion in Asia supporting lions',
+        'Gir National Park and surrounding areas in Gujarat',
+        'quartzite ridges and gneiss hillocks of the Aravalli mountain system',
+        'a transition zone from the Afrotropical to South Indian floras',
+      ],
+      sourceIds: ['one-earth-eco-295'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Hot and arid for most of the year, with only 550 to 700 mm of rain annually, temperatures that regularly soar above 45 degrees Celsius, and winter nights that drop to near freezing.',
+      },
+      sourceIds: ['one-earth-eco-295'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'three-layered forest with an upper canopy at 15 to 25 m',
+        'teak dominant in the more humid areas with Aegle, Boswellia, Diospyros, Bombax, and Terminalia',
+        'almost pure stands of hardy Anogeissus pendula with Acacia catechu on rocky ridges',
+        'cactus-like Euphorbia, Acacia, Wrightia, and Grewia on the rocky hillocks',
+      ],
+      sourceIds: ['one-earth-eco-295'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'a transition zone between two floral provinces',
+        'the lion population exceeding the reserve carrying capacity',
+        'prey herds of sambar, nilgai, spotted deer, chousingha, and chinkara',
+        'over 300 bird species including the threatened Indian bustard and lesser florican',
+      ],
+      sourceIds: ['one-earth-eco-295'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 6% with a protection level of 7. Current protection is low at about 4% of the total area, and a large portion of the growing lion population roams outside the reserve, creating human-wildlife conflict. Priorities include expanding lion habitat, connecting protected areas, and engaging communities across the Gir landscape.',
+      sourceIds: ['one-earth-eco-295'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:asiatic-lion',
+      'species:blackbuck',
+      'species:great-indian-bustard',
+      'species:indian-gazelle',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-295'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:296',
+    summary: {
+      value:
+        'Narmada Valley Dry Deciduous Forests represent the dry forests along the Narmada River Valley, a rift valley situated in a fault zone marking the boundary between northern India and the Indian Peninsula. The ecoregion still retains large, connected habitat blocks for the tiger, common leopard, gaur, wild dog, sloth bear, and blackbuck.',
+      sourceIds: ['one-earth-eco-296'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Narmada, India\u2019s fifth longest river and third longest entirely within India',
+        'a rift valley in a fault zone between the Vindhya and Satpura ranges',
+        'the river rising in the Amarkantak Plateau and flowing west over 1,300 km to the Arabian Sea',
+        'fossilized bones of the carnivorous Rajasaurus narmadensis confirming Gondwana origins',
+      ],
+      sourceIds: ['one-earth-eco-296'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Mildly seasonal, with a seven to eight month dry season interrupted by the southwest monsoon from June to September that brings about 1,200 to 1,500 mm of rainfall, and temperatures from 17 to 20 degrees Celsius in winter to 30 to 33 in summer.',
+      },
+      sourceIds: ['one-earth-eco-296'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'forests dominated by teak, a highly prized timber tree',
+        'Diospyros, Lagerstroemia, Terminalia, and Hardwickia typical of Indian dry forests',
+        'riparian trees of Terminalia arjuna, Syzygium, and Indian willow along the banks',
+      ],
+      sourceIds: ['one-earth-eco-296'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the Narmada dam complex inundating 400 km2 of prime wildlife habitat',
+        'a rift-valley fault zone channeling species movements',
+        'seventeen protected areas covering about 7,600 km2',
+        '276 bird species including the threatened lesser florican and Indian bustard',
+      ],
+      sourceIds: ['one-earth-eco-296'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 5% with a protection level of 9. The ecoregion holds large connected habitat blocks, but a contentious hydro project has built a series of dams that leave over 150 km of the lower river dry most of the year. Priorities include safeguarding connectivity, mitigating dam impacts, and protecting tiger and wolf populations.',
+      sourceIds: ['one-earth-eco-296'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:indian-wolf',
+      'species:sloth-bear',
+      'species:blackbuck',
+      'species:tiger',
+      'species:lesser-florican',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-296'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:320',
+    summary: {
+      value:
+        'The Indus River Delta-Arabian Sea Mangroves lie in several disjunct patches lining the shorelines of the Indus River Delta and the Gulfs of Kutch and Khambhat. Its grey-mangrove sloughs provide spawning and nursery grounds for fishes and shellfishes and a staging area for tens of thousands of Siberian migrants.',
+      sourceIds: ['one-earth-eco-320'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'disjunct patches along the Indus River Delta shoreline',
+        'the Gulfs of Kutch and Khambhat on the Indian coast',
+        'evaporating mudflats crossed by seasonal rivers',
+        'exceptionally saline mangrove sloughs',
+      ],
+      sourceIds: ['one-earth-eco-320'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Arid and extreme, with temperatures from near-freezing in winter to 50 degrees Celsius in summer, only 100 to 500 mm of rain from the July to September monsoon, and very high evaporation.',
+      },
+      sourceIds: ['one-earth-eco-320'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'mangrove community dominated by the single species Avicennia marina',
+        'Rhizophora and Acanthus nearer the less-saline feeder creeks',
+        'pneumatophores and prop roots aerating waterlogged soils',
+        'viviparous seeds that germinate while still attached to the tree',
+      ],
+      sourceIds: ['one-earth-eco-320'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'mangroves as spawning grounds and nurseries for fish and shellfish larvae',
+        'fishing cats returning to a coast where they were thought extinct in Pakistan',
+        'a flyover and staging area for tens of thousands of Siberian winter migrants',
+        'about 125 bird species including the greater flamingo and Dalmatian pelican',
+      ],
+      sourceIds: ['one-earth-eco-320'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 30% with a protection level of 9. About a third of the ecoregion is formally protected, but very little mangrove remains outside the reserves, and industrial pollution from Karachi, oil spills, and reduced river flow raising salinity threaten the system. Priorities include curbing upstream diversions, controlling coastal pollution, and expanding protection of remaining mangroves.',
+      sourceIds: ['one-earth-eco-320'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:dalmatian-pelican',
+      'species:fishing-cat',
+      'species:greater-flamingo',
+    ],
+    countryIds: ['PK', 'IN'],
+    sources: ['one-earth-eco-320'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:312',
+    summary: {
+      value:
+        'Rann of Kutch Seasonal Salt Marsh represents the saline wetlands and mudflats at the mouth of the Luni River draining the Aravalli Hills of northwestern India, most lying in Gujarat with an extension into Pakistan\u2019s Sind. It is the refuge of the only surviving population of the endangered Indian wild ass and hosts one of the world\u2019s largest flamingo breeding colonies.',
+      sourceIds: ['one-earth-eco-312'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'saline wetlands and mudflats at the mouth of the Luni River',
+        'the Great and Little Ranns of Gujarat extending into Pakistan\u2019s Sind Desert',
+        'sitting along the Tropic of Cancer',
+        'created by complex geological processes and once shallow extensions of the Arabian Sea',
+        'elevated, less flooded areas known as bets',
+      ],
+      sourceIds: ['one-earth-eco-312'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Extremely hot and dry, with the mudflats briefly flooding to about half a meter in the wet season and temperatures rising above 50 degrees Celsius as the wetlands dry to a hardpan.',
+      },
+      sourceIds: ['one-earth-eco-312'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'grasses, thorny xerophytic scrub, and short tangled trees',
+        'sedges of Cyperus and Scirpus emerging from the flooded areas',
+        'mat-forming Cressa cretica and mangrove grass Aeluropus lagopoides',
+        'halophytic seablight Suaeda fruticosa and Suaeda nudiflora on the bets',
+        'scattered Salvadora persica, Prosopis juliflora, Tamarix, and Urochondra setulosa',
+      ],
+      sourceIds: ['one-earth-eco-312'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'seasonal flooding supporting tens of thousands of aquatic and wading birds',
+        'the Rann acting as the refuge for the only Indian wild ass population',
+        'one of the world\u2019s largest breeding colonies of greater and lesser flamingos',
+        'over 50 mammal species including chinkara, nilgai, wolf, blackbuck, hyena, and caracal',
+      ],
+      sourceIds: ['one-earth-eco-312'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 79% with a protection level of 10. The seasonal salt marsh is largely spared from dense settlement but faces grazing pressure and industrial development along its margins. Priorities include guarding the wild ass population, maintaining the flooding regime, and protecting the flamingo breeding colonies.',
+      sourceIds: ['one-earth-eco-312'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:indian-wild-ass',
+      'species:blackbuck',
+      'species:caracal',
+      'species:indian-gazelle',
+      'species:greater-flamingo',
+    ],
+    countryIds: ['IN', 'PK'],
+    sources: ['one-earth-eco-312'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:314',
+    summary: {
+      value:
+        'Aravalli West Thorn Scrub Forests represent the thorn scrub of northwestern India and Pakistan along the ancient Aravalli Mountains, which formed over 1,500 million years ago. Despite being a degraded state of former tropical dry forest, it carries a remarkably rich carnivore community of leopard, caracal, and grey wolf.',
+      sourceIds: ['one-earth-eco-314'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'thorn scrub along the Aravalli Mountains',
+        'straddling the international border between India and Pakistan',
+        'mountains formed over 1,500 million years ago',
+        'saline coastal soils near the Arabian Sea',
+      ],
+      sourceIds: ['one-earth-eco-314'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Dry, with average annual rainfall of about 750 mm in the north rising to about 950 mm toward the ocean, summer daytime temperatures exceeding 45 degrees Celsius, and winter nights falling below freezing.',
+      },
+      sourceIds: ['one-earth-eco-314'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'stunted Acacia-dominated scrub rarely exceeding 6 m in height',
+        'Prosopis, Grewia, Salvadora, Zizyphus, Anogeissus, Gardenia, Capparis, and Carissa',
+        'climbers of Tragia, Rivea, Tinospora, Vitis, and Peristrophe',
+        'Euphorbia shrubland in the drier areas',
+        'Salvadora and Tamarix on saline coastal soils',
+      ],
+      sourceIds: ['one-earth-eco-314'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'all species highly xerophytic and adapted to aridity',
+        'blackbuck spared from hunting by the cultural reverence of Bishnoi communities',
+        'a rich mid-to-large carnivore community of wild cats and canids',
+        'the threatened Indian bustard and lesser florican present',
+      ],
+      sourceIds: ['one-earth-eco-314'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 5% with a protection level of 9. Protected areas cover only about 4% of the vast ecoregion and individual reserves are small, though the Bishnoi\u2019s wildlife reverence has historically shielded animals from hunting. Priorities include expanding reserves, controlling grazing and Prosopis invasion, and sustaining the carnivore community.',
+      sourceIds: ['one-earth-eco-314'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:indian-desert-cat',
+      'species:blackbuck',
+      'species:great-indian-bustard',
+      'species:caracal',
+    ],
+    countryIds: ['IN', 'PK'],
+    sources: ['one-earth-eco-314'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:317',
+    summary: {
+      value:
+        'The Indus Valley Desert is among the most inhospitable ecoregions of the Indo-Pacific, sitting in the middle of Pakistan\u2019s Indus Valley between the Suleiman Range and the Chenab River. Still, it is one of the most densely populated deserts in the world, supporting the isolated Punjab urial and an important red-necked falcon population.',
+      sourceIds: ['one-earth-eco-317'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the middle of Pakistan\u2019s Indus Valley',
+        'flanked by the Suleiman Range to the west and the Chenab River to the east',
+        'among the most densely populated deserts with about 150 people per km2',
+        'projected to face longer droughts and expanding desert margins',
+      ],
+      sourceIds: ['one-earth-eco-317'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Hot and arid, with temperatures from near-freezing in winter to over 45 degrees Celsius in summer and scant annual rainfall averaging about 600 to 800 mm.',
+      },
+      sourceIds: ['one-earth-eco-317'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'shrubby vegetation with small shiny leaves bearing a thick waxy coating',
+        'xerophytic trees Prosopis, Tamarix, Albizia, and Salvadora growing as isolated clumps',
+      ],
+      sourceIds: ['one-earth-eco-317'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the Punjab urial as the largest herbivore, restricted to the Indus valley of Pakistan',
+        'predators including wolf, common leopard, hyena, and caracal',
+        'red-necked falcon populations dwindling due to capture for falconry',
+        '32 mammal species and 190 bird species recorded',
+      ],
+      sourceIds: ['one-earth-eco-317'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 63% with a protection level of 10. A single large reserve, the Thal Game Reserve, covers most of the ecoregion, while no reptiles or amphibians have been recorded. Priorities include curbing falcon trapping, managing grazing, and buffering the desert against climate-driven expansion.',
+      sourceIds: ['one-earth-eco-317'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:red-necked-falcon',
+      'species:punjab-urial',
+      'species:caracal',
+      'species:indian-wolf',
+    ],
+    countryIds: ['PK'],
+    sources: ['one-earth-eco-317'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:318',
+    summary: {
+      value:
+        'The Thar Desert lies west of the Aravalli Range across northwestern India, extending into the Punjab and Sind regions of Pakistan, and is considered the 9th largest subtropical desert. It is the most densely populated desert in the world, yet still supports rich biodiversity including the blue bull, blackbuck, and chinkara.',
+      sourceIds: ['one-earth-eco-318'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lying to the west of the Aravalli Mountain Range',
+        'Gujarat and Rajasthan in India plus the Punjab and Sind regions of Pakistan',
+        'about a tenth of the area covered by sand dunes',
+        'craggy rock formations and compacted salt-lake bottoms',
+        'no oases or artesian wells providing relief',
+      ],
+      sourceIds: ['one-earth-eco-318'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Extreme, with winter temperatures approaching freezing, summer highs soaring over 50 degrees Celsius, and only 100 to 500 mm of mostly unpredictable rain between July and September.',
+      },
+      sourceIds: ['one-earth-eco-318'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'xerophilous plants including several kinds of grass and scrub vegetation',
+        'low trees of Acacia, Prosopis, Tamarix, and Zizyphus',
+        'small leaves with thick waxy surfaces reducing evapotranspiration',
+      ],
+      sourceIds: ['one-earth-eco-318'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'hunting grounds of lions and cheetah until the turn of the last century',
+        'the desert-adapted caracal surviving long periods without drinking water',
+        'great Indian bustard populations rebounding in recent years',
+        'intensive sheep and goat grazing degrading soil and native vegetation',
+      ],
+      sourceIds: ['one-earth-eco-318'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 18% with a protection level of 10. The site of the ancient cities of Mohenjo Daro and Harappa, the Thar supports over 40 mammal species and 141 birds but faces intensive grazing that degrades soil and native vegetation. Priorities include restoring grasslands, controlling livestock pressure, and conserving bustard and caracal populations.',
+      sourceIds: ['one-earth-eco-318'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:caracal',
+      'species:blackbuck',
+      'species:indian-gazelle',
+      'species:great-indian-bustard',
+    ],
+    countryIds: ['IN', 'PK'],
+    sources: ['one-earth-eco-318'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:228',
+    summary: {
+      value:
+        'East Deccan Moist Deciduous Forests are a tropical moist deciduous forest ecoregion of east-central India that receives about 1,000 mm of rain from the Bay of Bengal monsoon. Its large remaining blocks, several exceeding 5,000 km2, make it a present-day refuge for tiger, Indian wolf, gaur, and sloth bear, with a remarkable assemblage of 10 ungulate species.',
+      sourceIds: ['one-earth-eco-228'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'east-central Indian plateau',
+        'large forest blocks exceeding 5,000 km2',
+        'Simlipal National Park over 2,000 km2, with Kawal, Indravati, and Kanha near 1,000 km2',
+        'moist deciduous zone receiving Bay of Bengal monsoon rains',
+      ],
+      sourceIds: ['one-earth-eco-228'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical monsoon receiving about 1,000 mm of annual rainfall from monsoons sweeping in from the Bay of Bengal, with a hot, dry period between the rainy seasons.',
+      },
+      sourceIds: ['one-earth-eco-228'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'moist deciduous forest of Shorea, Terminalia, Adina, Syzygium, and Toona',
+        'large dense patches with twisted lianas',
+        'characteristic trees including Zanthoxylum rhetsa',
+      ],
+      sourceIds: ['one-earth-eco-228'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'ten ungulate species coexisting in large protected blocks',
+        'the Indian mouse deer rediscovered in 2017 after 112 years',
+        'the Asian elephant extirpated from the ecoregion',
+        'more than 300 bird species including the endemic green avadavat',
+      ],
+      sourceIds: ['one-earth-eco-228'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 6% with a protection level of 8. About three-fourths of the natural forests have been cleared, but remaining blocks exceed 5,000 km2 and protected areas cover about 4% of the intact habitat. Primary threats are quarrying, coal mining, large-scale clearing for agriculture, and hydroelectric projects.',
+      sourceIds: ['one-earth-eco-228'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:gaur',
+      'species:indian-mouse-deer',
+      'species:green-avadavat',
+      'species:tiger',
+      'species:indian-wolf',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-228'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:261',
+    summary: {
+      value:
+        'Orissa Semi-Evergreen Forests represent the forests along the low hills of the northeastern Indian state of Odisha, with flora and fauna of ancient Gondwanaland lineage. The adjacent Chilka Lake, India\u2019s first Ramsar site, attracts about two million migrating birds each year, while the ecoregion still supports tiger, elephant, and large gaur herds.',
+      sourceIds: ['one-earth-eco-261'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'low hills of the northeastern Indian state of Odisha',
+        'Gondwanaland geological lineage',
+        'Chilka Lake, India\u2019s first Ramsar site, at the coast',
+        'moister, milder relief moderated by elevation and ocean proximity',
+      ],
+      sourceIds: ['one-earth-eco-261'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Monsoon rains plus the ameliorating effect of elevation and proximity to the ocean create moister, milder conditions all year than in the drier Deccan interior.',
+      },
+      sourceIds: ['one-earth-eco-261'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'semi-evergreen forests with Sal Shorea robusta as the tall hardwood backbone',
+        'tree community of Artocarpus, Michelia, Bridelia, Ficus, and Mangifera',
+        'sal and semi-evergreen mixes typical of the northern subcontinent',
+      ],
+      sourceIds: ['one-earth-eco-261'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Chilka Lake drawing about two million migratory waterfowl from the Caspian, Baikal, and beyond',
+        'a hotspot for endemic species known only from very small sites',
+        'the Critically Endangered Barkud limbless skink rediscovered in 2003',
+        '60 mammal species including tiger, elephant, gaur, wild dog, and sloth bear',
+      ],
+      sourceIds: ['one-earth-eco-261'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 7% with a protection level of 10. Protected areas cover about 1,500 km2, while the continuing expansion of settlements and grazing pressure from domestic livestock are the primary threats to the remaining forests. Priorities include controlling encroachment and maintaining connectivity for large herbivores and their predators.',
+      sourceIds: ['one-earth-eco-261'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:lesser-florican',
+      'species:gaur',
+      'species:tiger',
+      'species:asian-elephant',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-261'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:297',
+    summary: {
+      value:
+        'North Deccan Dry Deciduous Forests extend across the Indian states of Bihar, Odisha, and Madhya Pradesh and represent the northern extent of dry deciduous forest in India, a narrow band sitting in the rain shadow of the Eastern Ghats. The ecoregion is neither exceptionally rich in species nor endemism, but is an important link in India\u2019s tiger conservation program.',
+      sourceIds: ['one-earth-eco-297'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a narrow band of dry forest in the Eastern Ghats rain shadow',
+        'across the states of Bihar, Odisha, and Madhya Pradesh',
+        'completely surrounded by moist deciduous forests',
+      ],
+      sourceIds: ['one-earth-eco-297'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Drier than the surrounding moist deciduous forests because of the Eastern Ghats rain shadow, favoring tree species adapted to arid conditions.',
+      },
+      sourceIds: ['one-earth-eco-297'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dry deciduous assemblages of Shorea, Buchanania, Cleistanthus, and Croton',
+        'teak Tectona grandis replacing original sal in some areas',
+        'drought-tolerant hardwoods and cane of Dendrocalamus strictus',
+      ],
+      sourceIds: ['one-earth-eco-297'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'rain-shadow aridity shaping the forest composition',
+        'an important link in India\u2019s tiger conservation program',
+        'about 70 mammal species including the threatened tiger, wild dog, sloth bear, and chousingha',
+        'over 260 bird species recorded',
+      ],
+      sourceIds: ['one-earth-eco-297'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 3% with a protection level of 9. About 90% of the ecoregion\u2019s natural habitat has been cleared or degraded, and the current protected areas cover just about 1,600 km2 in small reserves. Priorities include enlarging and connecting reserves to safeguard tiger dispersal and corridor function.',
+      sourceIds: ['one-earth-eco-297'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:four-horned-antelope',
+      'species:tiger',
+      'species:sloth-bear',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-297'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:316',
+    summary: {
+      value:
+        'Godavari-Krishna Mangroves extend as a narrow band along the middle-eastern coast of the Indian subcontinent, forming larger patches in the estuaries of the Godavari and Krishna rivers. They are the first line of coastal defense against the frequent cyclones and tidal surges that strike the region during the monsoons.',
+      sourceIds: ['one-earth-eco-316'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a narrow band along the middle east coast of the Indian subcontinent',
+        'larger patches in the estuaries of the Godavari and Krishna rivers',
+        'two of the larger rivers flowing east from the vast, arid Deccan Plateau',
+      ],
+      sourceIds: ['one-earth-eco-316'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Monsoon tropical, with the southwest monsoon from June to September bringing over 600 mm of rain, the northeast monsoon from October to December over 300 mm, and intermittent rainfall during the rest of the year.',
+      },
+      sourceIds: ['one-earth-eco-316'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        '35 mangrove tree species, of which only 16 are true mangroves needing both sea and river water',
+        'characteristic Avicennia, Suaeda, Rhizophora, and Bruguiera',
+        'typical genera of Asia-Pacific mangroves',
+      ],
+      sourceIds: ['one-earth-eco-316'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'estuarine mixing of fresh and salt water across the delta',
+        'the banded archerfish shooting water jets to knock down prey up to 3 m away',
+        'mid-sized predators of golden jackal, fishing cat, and smooth-coated otter',
+        'over 140 bird species including lesser florican, flamingos, and spot-billed pelicans',
+      ],
+      sourceIds: ['one-earth-eco-316'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 18% with a protection level of 10. Very little of these mangroves is protected, and almost all of the remaining forest has been cleared or degraded, mostly to create shrimp farms and for agriculture. Priorities include halting mangrove conversion, restoring degraded stands, and strengthening coastal protection.',
+      sourceIds: ['one-earth-eco-316'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:water-monitor-lizard',
+      'species:fishing-cat',
+      'species:lesser-florican',
+      'species:greater-flamingo',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-316'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:290',
+    summary: {
+      value:
+        'Central Deccan Plateau Dry Deciduous Forests sit in the middle of the Deccan Plateau that makes up most of India, a region that still retains vast areas of natural habitat exceeding 5,000 km2. These forests are key for conserving the Bengal tiger and the endemic Jerdon\u2019s courser, a nocturnal bird rediscovered in 1986 after being thought extinct.',
+      sourceIds: ['one-earth-eco-290'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the middle of the Deccan Plateau',
+        'vast natural habitat blocks exceeding 5,000 km2',
+        'Hardwickia-dominated woodland with an upper canopy of 15 to 25 m',
+      ],
+      sourceIds: ['one-earth-eco-290'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Semi-arid tropical with a long dry season and monsoon rains; a Miocene-era fossil flora of evergreen rainforest plants reveals a much moister climatic past than today\u2019s predominantly dry forests.',
+      },
+      sourceIds: ['one-earth-eco-290'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dry forest dominated by Hardwickia, renowned for the hardest and heaviest wood in India',
+        'xerophytic dry deciduous woodland of the central plateau',
+        'fossil-record evidence of once evergreen rainforest vegetation',
+      ],
+      sourceIds: ['one-earth-eco-290'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'large blocks sustaining tigers and a rich ungulate community',
+        'the endemic Jerdon\u2019s courser, a nocturnal member of the pratincole family',
+        'habitat for wild buffalo, wild dog, sloth bear, chousingha, gaur, blackbuck, and chinkara',
+        'almost 300 bird species alongside the Indian giant squirrel',
+      ],
+      sourceIds: ['one-earth-eco-290'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 4% with a protection level of 9. Sixteen protected areas cover about 3% of the ecoregion, led by the 3,500 km2 Nagarjunasagar Tiger Reserve, while the Sri Lankamaleswara and Sri Penusila Narasimha sanctuaries protect the Jerdon\u2019s courser. Priorities include expanding tiger habitat and safeguarding the courser\u2019s scrub habitat.',
+      sourceIds: ['one-earth-eco-290'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:tiger',
+      'species:jerdons-courser',
+      'species:indian-giant-squirrel',
+      'species:four-horned-antelope',
+      'species:blackbuck',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-290'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:293',
+    summary: {
+      value:
+        'East Deccan Dry-Evergreen Forests form a narrow strip of dry evergreen forest along the coast of southeastern India, unusual among dry forests because the trees retain their leaves through the long dry season. Almost all original forest has been cleared, and the only natural stands survive as sacred groves protected by religious belief in jungle deities.',
+      sourceIds: ['one-earth-eco-293'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a narrow coastal strip of southeastern India',
+        'low-lying plains with sandy soils',
+        'surviving natural examples confined to sacred groves',
+      ],
+      sourceIds: ['one-earth-eco-293'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Dry, with an average rainfall of only 800 mm delivered mainly by the brief northeast monsoon between October and December, and dry-season highs that can reach a stifling 44 degrees Celsius.',
+      },
+      sourceIds: ['one-earth-eco-293'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'evergreen look maintained through swollen, water-storing roots and stems',
+        'thick waxy leaf layers slowing water loss',
+        'common trees Manilkara hexandra, Diospyros ebernum, Strychnos nux-vomica, Drypetes sepiaria, and Flacourtia indica',
+        'sacred groves holding the only original examples of the forest',
+      ],
+      sourceIds: ['one-earth-eco-293'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'drought adaptation through water storage and waxy leaves',
+        '66 mammal species with none endemic',
+        '230 bird species including the globally threatened lesser florican',
+        'the exotic Prosopis spreading rapidly and taking over native forest',
+      ],
+      sourceIds: ['one-earth-eco-293'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 3% with a protection level of 7. Almost all original forest has been converted for other land uses, and only sacred groves hold natural stands while the exotic Prosopis spreads through native forest. Priorities include strengthening protection of the sacred groves and controlling invasive Prosopis.',
+      sourceIds: ['one-earth-eco-293'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:indian-gazelle',
+      'species:lesser-florican',
+      'species:blackbuck',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-293'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:298',
+    summary: {
+      value:
+        'South Deccan Plateau Dry Deciduous Forests cover the dry forests of the southern Deccan, lying in the rain shadow cast by the Western Ghats Mountains. The ecoregion provides landscape-scale habitat for the largest Asian elephant population in the world, estimated at about 6,300 animals within the Brahmagiri-Nilgiri-Eastern Ghats Elephant Range.',
+      sourceIds: ['one-earth-eco-298'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the southern Deccan Plateau in the Western Ghats rain shadow',
+        'undulating terrain crossed by the 12,000 km2 elephant range',
+        'upper canopy at 15 to 25 m draped in lianas',
+      ],
+      sourceIds: ['one-earth-eco-298'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Seasonal tropical with annual rainfall of 900 to 1,500 mm depending on the rain-shadow terrain, and stifling summer temperatures rising above 40 degrees Celsius.',
+      },
+      sourceIds: ['one-earth-eco-298'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'deciduous forest of Terminalia, Albizia, Cassia, Dalbergia, and Stereospermum',
+        'Pterocarpus, Shorea, and Diospyros among the canopy mix',
+        'Indian sandalwood Santalum album, selectively removed as one of the world\u2019s most expensive woods',
+      ],
+      sourceIds: ['one-earth-eco-298'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'landscape-scale connectivity sustaining the largest Asian elephant population',
+        'relict species present with Gondwanaland links to Africa and Madagascar',
+        'over 75 mammal species recorded',
+        'about 260 bird species including the threatened Indian bustard and lesser florican',
+      ],
+      sourceIds: ['one-earth-eco-298'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 12% with a protection level of 8. Over 80% of the ecoregion\u2019s natural forests have been cleared, and the seven protected areas provide inadequate coverage. Priorities include maintaining elephant corridor connectivity and restoring habitat between the Western Ghats and the plateau.',
+      sourceIds: ['one-earth-eco-298'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:asian-elephant',
+      'species:tiger',
+      'species:indian-gazelle',
+      'species:blackbuck',
+      'species:great-indian-bustard',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-298'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:301',
+    summary: {
+      value:
+        'Sri Lanka Dry-Zone Dry Evergreen Forests represent the tropical dry forests throughout most of Sri Lanka, where most trees retain their leaves during the dry season. The ecoregion supports one of Asia\u2019s largest Asian elephant populations, over 6,000 animals, and its reserves are considered among the best places in Asia to see leopards.',
+      sourceIds: ['one-earth-eco-301'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the dry zone throughout most of Sri Lanka',
+        'land bridges linking the island to the mainland until the final Pleistocene separation',
+        'Minneriya National Park in north-central Sri Lanka',
+        'Yala/Ruhuna and Wilpattu national parks exceeding 1,000 km2',
+      ],
+      sourceIds: ['one-earth-eco-301'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Monsoon dry, with about 2,000 mm of annual rainfall delivered mainly by the northeast monsoon from December to March and a pronounced long dry season.',
+      },
+      sourceIds: ['one-earth-eco-301'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dry evergreen forest of Manilkara hexandra, Ceylon satinwood, wood-apple, and the golden rain tree',
+        'leaf-retaining trees unusual among dry forests',
+        'talawa patches and vernal pools enriching the landscape mosaic',
+      ],
+      sourceIds: ['one-earth-eco-301'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the Gathering, with 150 to 200 elephants descending to the exposed Minneriya lake bed',
+        'over 6,000 elephants supported in a relatively small ecoregion',
+        'the endemic Sri Lankan leopard as the top predator',
+        '270 bird species including the near-threatened spot-billed pelican and endemic Sri Lanka grey hornbill',
+      ],
+      sourceIds: ['one-earth-eco-301'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 51% with a protection level of 7. A system of wildlife reserves covers about 17% of the ecoregion, with Yala and Wilpattu among the oldest national parks in Asia. Priorities include securing elephant corridors, managing agricultural encroachment, and protecting leopard habitat.',
+      sourceIds: ['one-earth-eco-301'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sri-lankan-leopard',
+      'species:asian-elephant',
+      'species:sri-lanka-grey-hornbill',
+    ],
+    countryIds: ['LK'],
+    sources: ['one-earth-eco-301'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:315',
+    summary: {
+      value:
+        'Deccan Thorn Scrub Forests represent the low, sparse thorn scrub of the arid parts of the Deccan Plateau, sprawled across several Indian states and into the Jaffna Peninsula of northern Sri Lanka. The ecoregion harbors the only known population of the Jerdon\u2019s courser, a nocturnal bird rediscovered in 1986 after being assumed extinct.',
+      sourceIds: ['one-earth-eco-315'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'arid expanses of the Deccan Plateau across several Indian states',
+        'extending into the Jaffna Peninsula in northern Sri Lanka',
+        'the better-forested Tirupathi Hill Ranges',
+        'exposed, rocky substrates in the driest areas',
+      ],
+      sourceIds: ['one-earth-eco-315'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Hot and arid, with less than 750 mm of annual rainfall, almost all falling between May and October, and summer temperatures exceeding a sweltering 40 degrees Celsius.',
+      },
+      sourceIds: ['one-earth-eco-315'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'thorny Acacia species dominating the scrub',
+        'Euphorbia scrub on the driest, rocky ground',
+        'dry deciduous forest patches of the Tirupathi Hills with a rich medicinal flora',
+        'the endangered endemic cycad Cycas beddomei restricted to these hills',
+      ],
+      sourceIds: ['one-earth-eco-315'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the only habitat of the ground-dwelling nocturnal Jerdon\u2019s courser',
+        'herbivores ranging from the four-horned antelope to sambar, nilgai, and gaur',
+        'Indian wolf mostly eliminated through retaliatory poisoning',
+        'invasive Prosopis juliflora altering the scrub community',
+      ],
+      sourceIds: ['one-earth-eco-315'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 4% with a protection level of 8. Eleven protected areas barely cover 1% of the ecoregion\u2019s area, while most wolves have been eliminated through poisoning. Priorities include securing Jerdon\u2019s courser habitat, expanding scrub protection, and controlling invasive species and grazing.',
+      sourceIds: ['one-earth-eco-315'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:jerdons-courser',
+      'species:blackbuck',
+      'species:indian-gazelle',
+      'species:four-horned-antelope',
+    ],
+    countryIds: ['IN', 'LK'],
+    sources: ['one-earth-eco-315'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:218',
+    summary: {
+      value:
+        'The Andaman Islands Rainforests cover the Andaman cluster of the Bay of Bengal archipelago, which continues southward toward the Nicobar Islands. Over 2,500 flowering plant species have been recorded from these small islands, about a tenth of them endemic, including the genera Nicobariodendron, Pseudodiplospora, and Sphyranthera.',
+      sourceIds: ['one-earth-eco-218'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'archipelago along the eastern side of the Bay of Bengal',
+        'isolated from the mainland during the middle Miocene',
+        'reconnected with the mainland during the Pleistocene when sea levels fell',
+        'floristically closer to northeast India, Myanmar, and Thailand than to the Nicobars',
+      ],
+      sourceIds: ['one-earth-eco-218'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Equatorial and oceanic, pleasantly tropical with temperatures ranging from 22 to 30 degrees Celsius and annual rainfall around 3,000 to 3,800 mm falling mostly during the monsoons, with frequent cyclonic winds and thunderstorms.',
+      },
+      sourceIds: ['one-earth-eco-218'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'coastal and mangrove forests transitioning to evergreen and deciduous forests inland',
+        'mangroves dominated by species of the family Rhizophoraceae',
+        'inland forests dominated by Dipterocarpaceae typical of Asian mainland forests',
+      ],
+      sourceIds: ['one-earth-eco-218'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'island isolation during the Miocene and reconnection during the Pleistocene shaping endemism',
+        'high endemism concentrated among small, cryptic mammals and birds',
+        'cyclones and occasional tsunamis as natural disturbance cycles',
+        'volcanic formation of the Nicobars separating the two island clusters',
+      ],
+      sourceIds: ['one-earth-eco-218'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth sets a protection target of 87% for this ecoregion, yet current protection is inadequate given the wide distribution of endemic species along the island chain. Priority actions include limiting immigration, preventing and controlling alien invasive species, and improving protected area coverage to better represent terrestrial ecosystems and endemicity.',
+      sourceIds: ['one-earth-eco-218'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:andaman-serpent-eagle',
+      'species:andaman-crake',
+      'species:narcondam-hornbill',
+      'species:andaman-horseshoe-bat',
+      'species:andaman-rat',
+    ],
+    countryIds: ['IN', 'MM'],
+    sources: ['one-earth-eco-218'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:234',
+    summary: {
+      value:
+        'The Irrawaddy Freshwater Swamp Forests cover the lowlands immediately behind the mangroves, where fresh water from the Irrawaddy River pushes back the salt water. Most of the swamps have been converted to rice paddies and settlements, and hunting has depleted the wildlife in this delta ecoregion that once hosted Myanmar\u2019s capital, Yangon.',
+      sourceIds: ['one-earth-eco-234'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'delta zone behind the mangroves where fresh Irrawaddy water pushes back salt water',
+        'shale and sedimentary rocks in the west',
+        'sandy loam and calcareous substrates in the east',
+        'loamy river delta built up by silt deposition and tidal action',
+      ],
+      sourceIds: ['one-earth-eco-234'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical monsoonal, with heavy monsoon rains from June to October and a highly fertile river delta; the southern portion fans out into marshes, oxbow lakes, islands, and meandering rivulets and streams.',
+      },
+      sourceIds: ['one-earth-eco-234'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'mix of deciduous forests with teak, Xylia kerri, and species of Salmalia, Dalbergia, Spondias, Terminalia, Eugenia, and Vitex',
+        'bamboo brakes prevalent, especially on the eastern slopes of the Rakhine mountains',
+        'freshwater swamps transitioning into the Myanmar Coastal Mangroves to the south',
+      ],
+      sourceIds: ['one-earth-eco-234'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'one of the most heavily silted rivers in the world, ranked just behind the Yellow, Ganges, Amazon, and Mississippi rivers in silt deposition',
+        'sedimentation mounting because of deforestation in the upper watersheds',
+        'wetlands supporting thousands of migratory wading and shore birds each year',
+        'large mammals largely extirpated, with refuge populations of sambar deer and hog deer and more numerous wild boars',
+      ],
+      sourceIds: ['one-earth-eco-234'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of just 5% for this ecoregion, and almost all unprotected forest has been converted to anthropogenic land uses. Recommended priorities are to secure the existing protected areas, conserve the wetlands for waterbirds, and develop regional strategic conservation action plans for the Irrawaddy system.',
+      sourceIds: ['one-earth-eco-234'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:cinnamon-bittern',
+      'species:spoon-billed-sandpiper',
+      'species:hog-deer',
+      'species:asian-openbill-stork',
+      'species:sambar-deer',
+    ],
+    countryIds: ['MM'],
+    sources: ['one-earth-eco-234'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:250',
+    summary: {
+      value:
+        'The Myanmar Coastal Rainforests cover the lowland evergreen and semi-evergreen forests along the western side of the Arakan Yoma and Tenasserim ranges, with a small northern extension into Bangladesh. A broad array of climatic niches supports flora and fauna of Indian, Indochinese, and Sundaic origin, although the last Sumatran rhinoceros was extirpated from the Arakan Yoma in 1984.',
+      sourceIds: ['one-earth-eco-250'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lowland evergreen and semi-evergreen rainforests along the western Arakan Yoma and Tenasserim ranges',
+        'small northern extension into Bangladesh',
+        'fertile, densely populated plains of the Ayeyarwady (Irrawaddy) River',
+        'brackish and fresh-water habitats with mangrove species along the Tenasserim River',
+        'Tenasserim sections including low-statured forests and mixed delta scrub',
+      ],
+      sourceIds: ['one-earth-eco-250'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical and monsoonal, with annual rainfall exceeding 4,000 mm falling mostly from June to August, and temperatures staying near 30 degrees Celsius with high humidity.',
+      },
+      sourceIds: ['one-earth-eco-250'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'lush dipterocarp-dominated tropical forest',
+        'canopy trees including Dipterocarpus alatus, Anisoptera glabra, Hopea odorata, and Parashorea stellata',
+        'undergrowth of Calamus palms and creeping bamboo',
+        'low-statured forests and mixed delta scrub with Elaeocarpus, Calophyllum, Litsea, Eugenia, and Diospyros',
+      ],
+      sourceIds: ['one-earth-eco-250'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'copious monsoonal rainfall sustaining lush tropical forest growth',
+        'convergence zone for flora and fauna of the Indian, Indochina, and Sundaic regions',
+        'poaching pushing tiger, Asian elephant, Malayan tapir, and other mammals to the brink of local extinction',
+        'high coat-color variability in the Asiatic golden cat across its range',
+      ],
+      sourceIds: ['one-earth-eco-250'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 38% for this ecoregion. Forests along the fertile Ayeyarwady plains have been cleared, but significant remaining areas offer opportunities for landscape-scale protection; timber concessions and infrastructure plans threaten them, and priorities include securing forests with ecological connectivity, addressing poaching, and strengthening conservation capacity.',
+      sourceIds: ['one-earth-eco-250'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:asiatic-golden-cat',
+      'species:tiger',
+      'species:asian-elephant',
+      'species:malayan-tapir',
+      'species:sun-bear',
+      'species:clouded-leopard',
+    ],
+    countryIds: ['MM', 'BD'],
+    sources: ['one-earth-eco-250'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:252',
+    summary: {
+      value:
+        'The Nicobar Islands Rainforests cover the cluster of volcanic Nicobar Islands along the eastern Indian Ocean undersea mountain range, with no land connections to the mainland. The ecoregion is one of the richest biodiversity repositories in South and Southeast Asia, with over half of its mammals, more than a third of its birds, a quarter of its reptiles, and a tenth of its flowering plants endemic.',
+      sourceIds: ['one-earth-eco-252'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'cluster of volcanic islands with no land connections to the mainland',
+        'separated from the Andamans by a deep, 150-kilometer stretch of ocean',
+        'perennial rivers only on Great Nicobar Island',
+        'beaches forming important nesting sites for marine turtles',
+      ],
+      sourceIds: ['one-earth-eco-252'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with temperatures ranging from 24 to 31 degrees Celsius and about 80% humidity; the southwest monsoon brings 3,000 to 3,800 mm of rain with frequent cyclones and thunderstorms.',
+      },
+      sourceIds: ['one-earth-eco-252'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'coastal and mangrove forests transitioning to evergreen and moist deciduous forests in the interior',
+        'forest trees including Pterocarpus dalbergioides, Dipterocarpus, Terminalia, Diospyros marmorata, and Artocarpus chaplasha',
+        'mangrove stands with Rhizophora, Bruguiera, Avicennia, and Ceriops',
+        'interior grasslands thought to be anthropogenic in origin',
+      ],
+      sourceIds: ['one-earth-eco-252'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'volcanic origin and permanent isolation driving high endemism',
+        'floristic affinities with Malaysia and Indonesia rather than the Andaman Islands',
+        'beaches providing nesting habitat for leatherback, green, and hawksbill turtles',
+        'introduced species altering natural communities and ecological dynamics',
+      ],
+      sourceIds: ['one-earth-eco-252'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth sets a very high protection target of 95% for this ecoregion. Forests are cleared for plantation agriculture, cattle grazing and fires degrade habitat, fuelwood harvesting and the ornamental trade deplete stocks, and exotic species threaten native communities; priorities include demarcating protected areas, drafting recovery plans for endemic species, controlling invasives, and promoting social forestry.',
+      sourceIds: ['one-earth-eco-252'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:nicobar-imperial-pigeon',
+      'species:nicobar-megapode',
+      'species:nicobar-flying-fox',
+      'species:leatherback-turtle',
+    ],
+    countryIds: ['IN'],
+    sources: ['one-earth-eco-252'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:284',
+    summary: {
+      value:
+        'The Tenasserim-South Thailand Semi-Evergreen Rainforests span the mountainous southern sector of the Tenasserim Range that forms the boundary between Thailand and Myanmar, extending into the northernmost areas of Malaysia. With over 560 recorded bird species, including nine hornbill species, and one of the richest mammal assemblages in Asia, the ecoregion is also the last refuge of the endangered Gurney\u2019s pitta.',
+      sourceIds: ['one-earth-eco-284'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'transition from the continental dry evergreen forests of central Thailand to the semi-evergreen rainforests of the Malayan peninsula',
+        'mountainous southern Tenasserim Range forming the Thailand-Myanmar boundary',
+        'extending into the northernmost areas of Malaysia',
+        'southern margin defined by the Kangar-Pattani floristic boundary',
+      ],
+      sourceIds: ['one-earth-eco-284'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with little change in total annual precipitation but a climatic transition from non-seasonal rainfall to a two-to-three-month dry period across the Kangar-Pattani boundary.',
+      },
+      sourceIds: ['one-earth-eco-284'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'forests dominated by Dipterocarpaceae, with Dipterocarpus alatus, D. griffithii, Hopea odorata, and several species of Shorea',
+        'mature trees buttressed and draped with lianas and epiphytes, including Drynaria basket ferns and over 700 orchid species',
+        'Nepenthes pitcher plants growing in nitrogen-deficient habitats',
+        'root-parasitic Rafflesia kerri sprouting foul-smelling flowers',
+      ],
+      sourceIds: ['one-earth-eco-284'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'turnover of about 575 plant genera across the Kangar-Pattani floristic boundary',
+        'relatively intact contiguous montane forests supporting the tiger and Asian elephant',
+        'lowland forest conversion and degradation threatening hornbills and the Gurney\u2019s pitta',
+        'plant-animal interactions including fly pollination of Rafflesia kerri',
+      ],
+      sourceIds: ['one-earth-eco-284'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 61% for this ecoregion. Large-scale palm oil and rubber plantations are driving forest loss, though extensive stands remain in the mountains; priorities include securing forests at landscape scale, engaging local communities and plantation companies as stewards, and developing species recovery plans for the Gurney\u2019s pitta and wrinkled hornbill.',
+      sourceIds: ['one-earth-eco-284'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:gurneys-pitta',
+      'species:tiger',
+      'species:malayan-tapir',
+      'species:banteng',
+      'species:binturong',
+      'species:sun-bear',
+    ],
+    countryIds: ['MM', 'MY', 'TH'],
+    sources: ['one-earth-eco-284'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:319',
+    summary: {
+      value:
+        'The Indochina Mangroves line the coastal areas of the Gulf of Thailand, with the largest patch in the Mekong delta, one of the top five megadeltas of the world. The forests provide habitat for some of the world\u2019s rarest water birds but suffered extensive degradation from Agent Orange, tank movements, and bombing during the Vietnam war, and continue to be converted for agriculture and aquaculture.',
+      sourceIds: ['one-earth-eco-319'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'mangroves lining the coastal areas of the Gulf of Thailand',
+        'largest patch in the Mekong River estuary in southern Vietnam',
+        'extensive former mangrove areas around Pattaya converted for coastal infrastructure',
+        'remaining Vietnamese stands around Camau Point, Cam Ranh Bay, the Mekong delta, and the Red River delta',
+      ],
+      sourceIds: ['one-earth-eco-319'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with the mangrove zone regularly flooded by tidal or brackish water and shaped by saline gleysols.',
+      },
+      sourceIds: ['one-earth-eco-319'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'strong zonation from Avicennia alba pioneers along open coastal areas',
+        'transition upshore to Rhizophora apiculata and Bruguiera parviflora as seawater flux lessens',
+        'freshwater-influenced stands of Avicennia officinalis, Sonneratia caseolaris, Nypa fruticans, and Phoenix paludosa',
+      ],
+      sourceIds: ['one-earth-eco-319'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'mangroves acting as grow-out areas and nurseries for coastal and deep-sea fisheries',
+        'habitat for threatened waterbirds including the rarest stork species, Storm\u2019s stork, with fewer than 350 mature individuals in the wild',
+        'tidal flooding and salinity gradients driving the mangrove zonation pattern',
+      ],
+      sourceIds: ['one-earth-eco-319'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 17% for this ecoregion, with very little of it formally protected. Extensive herbicide spraying, conversion to commercial shrimp ponds, and timber extraction have left the coasts vulnerable, and sea-level rise adds further pressure; priorities include establishing a protection network, restoring and replanting converted mangrove areas, and designing species-specific conservation programs.',
+      sourceIds: ['one-earth-eco-319'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:estuarine-crocodile',
+      'species:lesser-adjutant-stork',
+      'species:storms-stork',
+      'species:white-winged-wood-duck',
+      'species:spot-billed-pelican',
+    ],
+    countryIds: ['VN', 'TH', 'KH'],
+    sources: ['one-earth-eco-319'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:321',
+    summary: {
+      value:
+        'The Myanmar Coast Mangroves hold one of the highest mangrove tree species richness values among mangrove ecoregions of the Indian Ocean, with 28 mangrove species recorded in Myanmar and the largest patch in the Ayeyarwady River delta. Although mangroves are among the ecosystems most severely threatened by habitat loss in Myanmar, more than half of the forest still remains, presenting a significant conservation opportunity.',
+      sourceIds: ['one-earth-eco-321'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'coasts of India, Myanmar, Thailand, and Malaysia along the eastern rim of the Bay of Bengal',
+        'largest extent of mangroves in the Ayeyarwady estuary and the coasts of Rakhine and Tanintharyi',
+        'Ayeyarwady delta composed largely of alluvium deposited over centuries',
+        'the Ayeyarwady ranking fifth among the world\u2019s rivers in silt loads',
+      ],
+      sourceIds: ['one-earth-eco-321'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical coastal and monsoonal, with the Ayeyarwady carrying heavy silt loads into the estuary and saline conditions shaping the mangrove vegetation.',
+      },
+      sourceIds: ['one-earth-eco-321'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'very high mangrove species richness, with 28 species known from Myanmar',
+        'characteristic trees including Rhizophora mucronata, Bruguiera, Sonneratia, Ceriops, Xylocarpus, and Avicennia officinalis',
+        'Excoecaria agallocha among the tidal forest trees',
+        'mangroves forming a vital transitional ecosystem from terrestrial to marine habitats',
+      ],
+      sourceIds: ['one-earth-eco-321'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'shoreline stabilization and buffering against erosion from winds, tidal bores, and waves',
+        'nursery and shelter functions for juvenile fishes and shellfish',
+        'removal of predators allowing prey species such as sambar deer, hog deer, and wild boar to increase',
+        'high species richness of migratory and resident water birds',
+      ],
+      sourceIds: ['one-earth-eco-321'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 31% for this ecoregion. Over-exploitation of the mangroves in the Ayeyarwady delta began during the Second World War and continued through the insurgency period, but there is still opportunity to expand protection; priorities include protecting additional areas toward a 50% coverage target, stopping illegal logging and wildlife poaching, and identifying potential mangrove restoration sites.',
+      sourceIds: ['one-earth-eco-321'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:four-toed-terrapin',
+      'species:estuarine-crocodile',
+      'species:common-leopard',
+      'species:hog-deer',
+      'species:sambar-deer',
+    ],
+    countryIds: ['MM', 'TH', 'MY', 'BD'],
+    sources: ['one-earth-eco-321'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:226',
+    summary: {
+      value:
+        'The high peaks of the Chin Hills-Arakan Yoma mountains along Myanmar\u2019s west coast are hotspots of plant diversity and endemism, crowned by the 3,051 m tall Mount Natma Taung within a 700 km2 national park. The alpine heights act as sky islands that sheltered Holarctic flora as glaciers retreated, and the ecoregion is a key refuge for the western hoolock gibbon and the endemic Arakan forest turtle.',
+      sourceIds: ['one-earth-eco-226'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'high-elevation peaks of the Chin Hills and Arakan Yoma ranges',
+        'the Natma Taung and Rongklang ranges forming a Center for Plant Diversity',
+        'Mount Natma Taung rising to 3,051 m',
+        'steep, rain-drenched western slopes facing the Bay of Bengal',
+      ],
+      sourceIds: ['one-earth-eco-226'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with rain through most months that can exceed 4,000 mm annually, summer temperatures averaging about 24 degrees Celsius, and winter temperatures that can drop below freezing.',
+      },
+      sourceIds: ['one-earth-eco-226'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Bauhinia, Lagerstroemia, and Ficus canopy below 1,000 m',
+        'Quercus, Castanopsis, and Schima forests above 1,000 m',
+        'Quercus xylocarpa oak dominant between 2,400 and 2,750 m',
+        'Rhododendron arboreum and Quercus semecarpifolia above 2,750 m',
+        'short-stature forest and shrubby temperate savanna at the highest elevations',
+      ],
+      sourceIds: ['one-earth-eco-226'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'sky-island isolation preserving cold-adapted alpine populations',
+        "the world's largest western hoolock gibbon population in Rakhine State",
+        'Himalayan-related relict flora persisting on high summits',
+        'montane forests serving as water towers and connectivity anchors',
+      ],
+      sourceIds: ['one-earth-eco-226'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Only about 6% of the ecoregion is formally protected even though over 80% of its forests remain, largely under tribal stewardship. Roads, mining, oil and gas pipelines, plantations, and shifting cultivation threaten forest connectivity while poaching for the wildlife trade is rife. Priorities include landscape-scale conservation built around elephants and gibbons, regulating slash-and-burn agriculture, promoting green infrastructure, and stopping the poaching of endangered species.',
+      sourceIds: ['one-earth-eco-226'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:arakan-forest-turtle',
+      'species:hoolock-gibbon',
+      'species:asian-elephant',
+      'species:elds-deer',
+      'species:white-winged-wood-duck',
+    ],
+    countryIds: ['MM'],
+    sources: ['one-earth-eco-226'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:249',
+    summary: {
+      value:
+        'Biogeographic predictions would rank these remote sub-montane rainforests among the most species-rich in Asia, and surveys confirm they hold the highest bird species richness of any Indo-Pacific ecoregion. The ecoregion spans the southern Arakan mountains and Chin Hills of Myanmar, the Chittagong Hills of Bangladesh, and the Mizo and Naga hills along the India-Myanmar border, and includes the leaf muntjac discovered in the Hukawng Valley in 1997.',
+      sourceIds: ['one-earth-eco-249'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'remote sub-montane rainforests of the Myanmar-India-Bangladesh borderlands',
+        'mountains folded by the collision of the Deccan and Eurasian plates',
+        'a biogeographic overlap zone for Indian, Indo-Malayan, and Indo-Chinese biotas',
+        'northern Kachin State mountains reaching toward the Hukawng Valley',
+      ],
+      sourceIds: ['one-earth-eco-249'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical and strongly seasonal, dominated by monsoons sweeping in from the Bay of Bengal, with some areas receiving over 2,000 mm of rainfall a year.',
+      },
+      sourceIds: ['one-earth-eco-249'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Dipterocarpus, Parashorea, Hopea, and Shorea dominants',
+        'tall Chittagong forest bamboo forming monotypic stands',
+        'dense understory of smaller evergreen trees and bamboos',
+        'Bombax, Albizia, and Castanopsis associates in the mixed canopy',
+      ],
+      sourceIds: ['one-earth-eco-249'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'convergence of three regional biotas driving exceptional species richness',
+        'underexplored forests hinting at further undiscovered endemism',
+        'hornbills and pheasants acting as indicators of intact mature forest',
+        'monsoon-driven productivity across the sub-montane belt',
+      ],
+      sourceIds: ['one-earth-eco-249'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Formal protection is low even though over half of the natural forest remains, with shifting cultivation now the primary threat and past timber logging a legacy disturbance. Recommended actions are to expand the protected-area network toward a 50% threshold, offer communities alternative livelihoods to replace slash-and-burn agriculture, and engage local people as conservation stewards.',
+      sourceIds: ['one-earth-eco-249'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:leaf-muntjac',
+      'species:red-panda',
+      'species:asian-elephant',
+      'species:great-hornbill',
+      'species:green-peafowl',
+    ],
+    countryIds: ['MM', 'IN', 'BD'],
+    sources: ['one-earth-eco-249'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:259',
+    summary: {
+      value:
+        'The Northern Triangle Subtropical Forests of far northern Myanmar still guard undiscovered biodiversity, having yielded the leaf deer in 1997 and the Burmese snub-nosed monkey in 2012. The mountains rise generally above 1,500 m with peaks over 3,000 m and feed the headwaters of the Chindwin and Irrawaddy rivers, their position at the crossroads of four regional floras making them among the most floristically diverse in continental Asia.',
+      sourceIds: ['one-earth-eco-259'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'mountains formed by the collision of the Deccan Plateau with Laurasia',
+        'terrain rising above 1,500 m with peaks over 3,000 m',
+        'Chindwin, Mali Hka, and Mai Hka river headwaters',
+        'a subtropical broadleaf belt distributed between 500 and 1,600 m',
+      ],
+      sourceIds: ['one-earth-eco-259'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical in the lower river valleys and temperate at elevation, with the varied topography blending lowland Indo-Malayan elements with an Indo-Himalayan montane flora shaped by Pleistocene glaciation.',
+      },
+      sourceIds: ['one-earth-eco-259'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'subtropical broadleaf forest of Magnoliaceae, Lauraceae, and Dipterocarpaceae',
+        'Fagaceae, Meliaceae, tree ferns, and climbing palms at upper elevations',
+        'pine-oak associations of Pinus kesiya and Quercus in the Ngawchang valley',
+      ],
+      sourceIds: ['one-earth-eco-259'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Pleistocene glaciation shaping the distribution of tropical and temperate floras',
+        'the Mekong and Salween rivers acting as barriers isolating primate lineages',
+        'ancient Gondwana relict refuges amid the montane flora',
+        'one of the richest butterfly faunas in the world',
+      ],
+      sourceIds: ['one-earth-eco-259'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Remoteness has preserved large forest blocks, offering a rare chance for proactive conservation before fragmentation closes options. Hillsides are being cleared for shifting cultivation, timber demand from China drives logging, and mining for gems and minerals is increasing. Priorities are a landscape-scale conservation plan, strengthened management and capacity of protected areas, and engagement of local communities as stewards.',
+      sourceIds: ['one-earth-eco-259'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:burmese-snub-nosed-monkey',
+      'species:leaf-muntjac',
+      'species:red-panda',
+      'species:takin',
+      'species:hoolock-gibbon',
+    ],
+    countryIds: ['MM'],
+    sources: ['one-earth-eco-259'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:304',
+    summary: {
+      value:
+        'Northeast India-Myanmar Pine Forests are among only four pine forest ecoregions in the Indo-Pacific, representing a scarce vegetation type with a restricted distribution. The pines grow in three isolated patches covering over 9,600 km2 on the Naga Hills along the India-Myanmar border at elevations between 1,500 and 2,500 m.',
+      sourceIds: ['one-earth-eco-304'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'three isolated pine patches covering over 9,600 km2 in the Naga Hills',
+        'international border ridge between India and Myanmar',
+        'mountain arc formed by the Deccan-Eurasia collision',
+        'slopes between 1,500 and 2,500 m where pines dominate',
+      ],
+      sourceIds: ['one-earth-eco-304'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'The Naga Hills intercept rain-laden monsoon winds from the Bay of Bengal, and the complex topography creates varied rainfall patterns that favor the region\u2019s large pine forests.',
+      },
+      sourceIds: ['one-earth-eco-304'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Tenasserim pine with broadleaf Dipterocarpus associates at lower elevations',
+        'Khasi pine and blue pine joined by hemlock, spruce, oak, and rhododendron higher up',
+        'a thick pine needle layer retarding understory growth',
+        'orchids of Bulbophyllum, Dendrobium, Cymbidium, and Vanda on mature trunks',
+      ],
+      sourceIds: ['one-earth-eco-304'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fire-resistant pines recovering under frequent burning by resin tappers',
+        'shifting cultivation denuding some hillsides',
+        'erosion and river sedimentation intensifying with repeated fires and cropping',
+        'needle litter shaping a sparse understory flora',
+      ],
+      sourceIds: ['one-earth-eco-304'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Hardly any of the ecoregion is formally protected, but about 67% of the habitat remains intact because of its remote, largely inaccessible terrain. Shifting cultivation has denuded some hillsides, while frequent fires and cropping have increased erosion and river sedimentation. Priorities are establishing new protected areas for better representation, developing effective management plans, and engaging local communities as stewards.',
+      sourceIds: ['one-earth-eco-304'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:khasi-pine',
+      'species:tenasserim-pine',
+      'species:sambar-deer',
+      'species:asiatic-black-bear',
+      'species:serow',
+    ],
+    countryIds: ['IN', 'MM'],
+    sources: ['one-earth-eco-304'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:307',
+    summary: {
+      value:
+        'Known infamously as the Golden Triangle, the Northern Triangle Temperate Forests of northern Myanmar remain largely scientifically unexplored yet harbor highly threatened mammals including the red goral, takin, and dusky musk deer. The rugged, deeply dissected mountains are the source of the Chindwin and Mali Hka rivers and sit at the ecotone of the Assam-Indian, Eastern Himalayan, Indo-Malayan, and Chinese floral regions.',
+      sourceIds: ['one-earth-eco-307'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        "a narrow band of temperate forest in northern Myanmar's mountains",
+        'rugged, deeply dissected range with peaks rising steeply over 3,000 m',
+        'headwaters of the Chindwin River system',
+        'geologically young peaks from the Deccan-Laurasia collision',
+      ],
+      sourceIds: ['one-earth-eco-307'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Temperate and montane, with broadleaf forest between 1,830 and 2,700 m passing into a mixed broadleaf-conifer forest at the highest elevations.',
+      },
+      sourceIds: ['one-earth-eco-307'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Alnus nepalensis, Betula cylindrostachya, Castanopsis, and Michelia broadleaf forest',
+        'mixed broadleaf and conifer forest of Quercus, Magnolia, Picea, and Tsuga',
+        'a diverse shrub layer of Berberis, Hydrangea, Rhododendron, and Sorbus',
+        'Taiwania flousiana among the distinctive canopy conifers',
+      ],
+      sourceIds: ['one-earth-eco-307'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'old-growth temperate forest sustaining the bamboo-specialist red panda',
+        'an ecological link for seasonal migrations of birds and mammals',
+        'natural water towers feeding the Irrawaddy headwaters',
+        "indicator birds such as Blyth's tragopan and Sclater's monal marking habitat integrity",
+      ],
+      sourceIds: ['one-earth-eco-307'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Most of the ecoregion is under formal protection, leaving little unprotected habitat. Swidden agriculture and poppy cultivation persist inside protected areas, and wildlife killing for local consumption and the trade heavily targets musk deer, red pandas, and bears. Recommended actions are more effective management of protected areas, sustainable livelihoods for resident communities, and addressing hunting for the wildlife trade.',
+      sourceIds: ['one-earth-eco-307'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:takin',
+      'species:red-panda',
+      'species:red-goral',
+      'species:wreathed-hornbill',
+      'species:blyths-tragopan',
+    ],
+    countryIds: ['MM'],
+    sources: ['one-earth-eco-307'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:223',
+    summary: {
+      value:
+        'Cardamom Mountains Rainforests cover the wet evergreen forests of the Cardamom and Elephant mountains in southwest Cambodia and southeast Thailand, along with Vietnam\u2019s Dao Phu Quoc Island. The range rises steeply from sea level to over 1,500 m, intercepting monsoon winds that deliver 3,000 to 4,000 mm of rain a year, with some areas such as Emerald Valley receiving over 5,000 mm. The forests are among the most species-rich in Southeast Asia and support the flagship critically endangered Siamese crocodile.',
+      sourceIds: ['one-earth-eco-223'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'steep mountain slopes rising from sea level to over 1,500 m',
+        'deep humid valleys and ravines',
+        'lowland forests of the Elephant Mountains',
+        'wind-exposed ridgelines and the Kirirom Plateau',
+        'Dao Phu Quoc island',
+      ],
+      sourceIds: ['one-earth-eco-223'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical monsoon with warm, moisture-laden winds sweeping up the slopes from May to October, bringing 3,000 to 5,000 mm of annual rainfall and frequent fog and mist at higher elevations.',
+        annualPrecipitationMm: { min: 3000, max: 5000 },
+      },
+      sourceIds: ['one-earth-eco-223'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'humid valley wet evergreen forest',
+        'hill evergreen and montane forest with dense canopies over 30 m',
+        'dwarf lowland rainforest of the Elephant Mountains reaching about 12 m',
+        'wind-pruned ridgeline forest under 5 m tall',
+        'Pinus merkusii woodland on the Kirirom Plateau',
+      ],
+      sourceIds: ['one-earth-eco-223'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'orographic interception of monsoon rain over the mountains',
+        'fog and mist supporting abundant epiphyte growth',
+        'ridge-and-valley differentiation of forest communities',
+        'basalt weathering producing mineral-rich soils',
+      ],
+      sourceIds: ['one-earth-eco-223'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'The protected areas of this ecoregion, though designated, are not managed or protected. Poaching for local consumption and commercial trade, illegal logging, and forest conversion for settlements and agriculture, especially as refugees return after years of civil conflict, all threaten the forests. Recommended actions include establishing proper management, expanding protected areas, and integrating community development and welfare programs with biodiversity conservation.',
+      sourceIds: ['one-earth-eco-223'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:siamese-crocodile',
+      'species:tiger',
+      'species:asian-elephant',
+      'species:gaur',
+      'species:banteng',
+    ],
+    countryIds: ['KH', 'TH', 'VN'],
+    sources: ['one-earth-eco-223'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:224',
+    summary: {
+      value:
+        'Chao Phraya Freshwater Swamp Forests once lined the alluvial floodplains of the Chao Phraya River for about 400 km upstream of Bangkok, which now sits in the ecoregion\u2019s lower reaches. Like most Asian swamp forests the ecosystem has been extensively converted, and today the original vegetation can only be inferred from historical records. The monsoonal climate brings about 1,400 mm of annual rainfall, with mean temperatures near the city ranging from 24°C to 33°C.',
+      sourceIds: ['one-earth-eco-224'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'low alluvial floodplains of the Chao Phraya River',
+        'wide lower reaches with floodplains about 180 km across',
+        'Lower Central Plain at about 2 m above sea level',
+        'Upper Central Plain with the Ping and Nan river valleys',
+      ],
+      sourceIds: ['one-earth-eco-224'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Monsoonal, with about 1,400 mm of annual rainfall; mean maximum and minimum temperatures are 33°C and 24°C.',
+      },
+      sourceIds: ['one-earth-eco-224'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'tall Dipterocarpus alatus swamp forest on higher grounds',
+        'screw-pine stands in the most waterlogged areas',
+        'reeds, grasses, and sedges of the marsh',
+        'Phragmites marsh grassland largely replaced by cattail',
+      ],
+      sourceIds: ['one-earth-eco-224'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'riverine sediment deposition building the floodplains',
+        'blocking of seawater intrusion as silt accumulated landward',
+        'freshwater swamp vegetation replacing brackish-water communities',
+        'gradation of freshwater swamps into mangroves toward the estuary',
+      ],
+      sourceIds: ['one-earth-eco-224'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Very little of the ecoregion\u2019s natural habitat is protected, and because hardly any habitat remains there is little chance to protect additional areas. Priority conservation actions include conserving remaining wetlands as green spaces in urban landscapes, encouraging the presence and breeding of birds, and identifying opportunities for swamp forest and wetland restoration.',
+      sourceIds: ['one-earth-eco-224'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:lyles-flying-fox',
+      'species:spot-billed-pelican',
+      'species:sarus-crane',
+    ],
+    countryIds: ['TH'],
+    sources: ['one-earth-eco-224'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:225',
+    summary: {
+      value:
+        'Chao Phraya Lowland Moist Deciduous Forests occur as two disjunct areas on either side of the lower Chao Phraya basin, forming a transitional forest between freshwater swamps, dry forests, and rainforests. Annual rainfall ranges from about 1,000 mm in the west to 1,300 mm in the east, rising to 3,000 to 4,000 mm near the Cardamom and Elephant Mountains. Decades of conversion have degraded the ecoregion below thresholds of conservation imperatives, with about 14% of its area protected.',
+      sourceIds: ['one-earth-eco-225'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'disjunct lowland blocks east and west of the lower Chao Phraya basin',
+        'limestone karst plains around Ratchaburi and Phetchaburi',
+        'valleys and foothills grading toward the Tenasserim Range',
+        'floodplain edges of the riverine system',
+      ],
+      sourceIds: ['one-earth-eco-225'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Seasonal monsoonal with about 80% of rainfall from May to October; precipitation ranges from about 1,000 mm in the west to 1,300 mm in the east, reaching 3,000 to 4,000 mm near the Cardamom and Elephant Mountains, with mean temperatures of 23°C to 34°C.',
+        annualPrecipitationMm: { min: 1000, max: 4000 },
+      },
+      sourceIds: ['one-earth-eco-225'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'heterogeneous matrix of vegetation drawing species from neighboring ecoregions',
+        'limestone karst forest around Ratchaburi and Phetchaburi',
+        'moist deciduous forest grading toward coastal semi-evergreen rainforest',
+        'drier forest transitions toward the inland dry forests',
+      ],
+      sourceIds: ['one-earth-eco-225'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'orographic precipitation where moist winds climb the high mountains',
+        'ecotonal transition among freshwater swamp, dry, and rain forests',
+        'karst substrates retaining forest where soil is poorly suited to agriculture',
+      ],
+      sourceIds: ['one-earth-eco-225'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Existing protected areas cover about 14% of the ecoregion, with little scope for expansion given extensive forest conversion. Khao Sam Roi Yot harbors the only known population of the tree Wrightia lanceolata, and the Mae Klong Basin Key Biodiversity Area extends in from the neighboring swamps. Priority actions include strengthening protection measures, establishing habitat corridors between reserves, and regulating further forest conversion.',
+      sourceIds: ['one-earth-eco-225'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:siamese-fireback',
+      'species:tiger',
+      'species:gaur',
+      'species:banteng',
+      'species:sun-bear',
+    ],
+    countryIds: ['TH'],
+    sources: ['one-earth-eco-225'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:239',
+    summary: {
+      value:
+        'Luang Prabang Montane Rainforests cover the forests above 800 m in northern and central Laos, with small extensions into northeastern Thailand and barely touching northern Vietnam. The montane forests receive 2,000 to 3,000 mm of summer monsoon rain followed by a long dry season, and support a globally important community of 14 rare small carnivores including the flagship marbled cat and Owston\u2019s civet. Over 50% of the ecoregion\u2019s natural forests remain unprotected.',
+      sourceIds: ['one-earth-eco-239'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'montane forest above 800 m',
+        'deeply dissected valley systems of northern Laos',
+        'high plateaus with open conifer woodland',
+        'granitic and thin-soil substrates',
+      ],
+      sourceIds: ['one-earth-eco-239'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Monsoonal, with 2,000 to 3,000 mm of annual rainfall during the summer monsoon followed by a long, pronounced dry season.',
+        annualPrecipitationMm: { min: 2000, max: 3000 },
+      },
+      sourceIds: ['one-earth-eco-239'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'montane hardwood forests with Castanopsis hystrix',
+        'mixed conifer-hardwood forests with Keteleeria evelyniana and oaks',
+        'open conifer forests on granitic substrates with Engelhardtia spicata',
+        'Dipterocarpus turbinatus forest with palms and rattans',
+      ],
+      sourceIds: ['one-earth-eco-239'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'pronounced summer monsoon followed by a long dry season',
+        'burning and clearing shaping low-stature forest openings',
+        'swidden agriculture influencing forest structure and composition',
+      ],
+      sourceIds: ['one-earth-eco-239'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Over 50% of the ecoregion\u2019s natural forests remain unprotected, presenting ample opportunities to conserve a globally important community of rare small carnivores. Swidden clearing is being replaced by rubber and corn plantations, and hunting for subsistence and commercial markets is common. Recommended actions include securing existing protected areas from hunting, protecting additional forest habitat using large mammals as conservation umbrellas, and restricting plantation conversion.',
+      sourceIds: ['one-earth-eco-239'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:marbled-cat',
+      'species:owstons-civet',
+      'species:green-peafowl',
+      'species:tiger',
+    ],
+    countryIds: ['LA', 'TH', 'VN'],
+    sources: ['one-earth-eco-239'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:255',
+    summary: {
+      value:
+        'Northern Annamites Rainforests straddle the Annamite, or Truong Son, mountain range along the border between Laos and Vietnam. Steep limestone karst and deeply incised terrain create varied climates, with the eastern slopes in Vietnam receiving over 3,800 mm of rainfall a year while western Laos lies in a rain shadow. The famous discovery of the saola here in 1992 epitomizes the ecoregion\u2019s globally outstanding biodiversity, which includes over 135 mammal and 525 bird species.',
+      sourceIds: ['one-earth-eco-255'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'steep, rugged, and deeply incised limestone karst terrain',
+        'narrow An Namite valleys and slopes',
+        'montane ridges between 1,200 and 1,800 m',
+        'thin-soil pine belts above 1,500 m',
+      ],
+      sourceIds: ['one-earth-eco-255'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Complex and highly varied with steep topography; eastern slopes in Vietnam intercept monsoon storms for more than 3,800 mm of rain a year, while the western side in Laos lies in a pronounced rain shadow.',
+        annualPrecipitationMm: { min: 1500, max: 3800 },
+      },
+      sourceIds: ['one-earth-eco-255'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'lower montane forest of Myrtaceae, Fagaceae, and Lauraceae below 1,200 m',
+        'Fokienia hodginsii and Podocarpus imbricatus humid forest between 1,200 and 1,800 m',
+        'Pinus kesiya pine forest above 1,500 m',
+        'dense woody-bamboo understory in the dark lower canopy',
+      ],
+      sourceIds: ['one-earth-eco-255'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'typhoon-driven disturbance creating forest gaps',
+        'gap formation promoting bamboo establishment and growth',
+        'karst weathering shaping varied drainage and soil conditions',
+      ],
+      sourceIds: ['one-earth-eco-255'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'About 31% of the ecoregion is formally protected and another 44% of its forests lie outside protected areas, but none of the reserves has effective conservation management. Hunting of all wildlife is extensive and intensive, while shifting cultivation, infrastructure development, and logging degrade and fragment the forests. Recommended actions include expanding protection across the landscape, supporting effective monitoring, and engaging local communities in conservation.',
+      sourceIds: ['one-earth-eco-255'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:saola',
+      'species:giant-muntjac',
+      'species:annamite-striped-rabbit',
+      'species:red-shanked-douc-langur',
+    ],
+    countryIds: ['LA', 'VN'],
+    sources: ['one-earth-eco-255'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:257',
+    summary: {
+      value:
+        'Northern Khorat Plateau Moist Deciduous Forests occupy the northern part of the low, saucer-shaped Khorat Plateau in western Thailand and adjacent Laos. The small transitional ecoregion links dry lowlands to the wet mountain ranges beyond, receiving about 1,600 mm of seasonal rain with temperatures between 21°C and 32°C. Its flagship species is the pileated gibbon, which rarely leaves the canopy and is one of the last arboreal primates to persist.',
+      sourceIds: ['one-earth-eco-257'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'northern portion of the low, saucer-shaped Khorat Plateau',
+        'transitional slopes from dry lowlands to wet mountain ranges',
+        'Mekong riverine corridors',
+        'plateau margin lowlands',
+      ],
+      sourceIds: ['one-earth-eco-257'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Seasonal, with about 1,600 mm of annual rainfall; temperatures range from a cool 21°C to a hot 32°C.',
+      },
+      sourceIds: ['one-earth-eco-257'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'moist deciduous forest of Lagerstroemia angustifolia, Afzelia xylocarpa, and Pterocarpus macrocarpus',
+        'areas of near-monospecific Lagerstroemia dominance',
+        'riverine gallery forest along the Mekong corridor',
+      ],
+      sourceIds: ['one-earth-eco-257'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'transitional ecotone between dry and wet forest ecosystems',
+        'seasonal rainfall and leaf-fall dynamics',
+        'river flow sustaining riverine and bird habitats',
+      ],
+      sourceIds: ['one-earth-eco-257'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Very little of this ecoregion is under formal protection, and extensive hunting has driven most wildlife to the verge of extirpation while the use of fire continues to degrade remaining forest. Protecting the remaining forest could reach a 10% protection target within a landscape plan that treats the ecoregion as transitional between adjacent dry and wet forests. Priority actions include a landscape-scale strategy, protecting riverine habitats, and addressing hunting and fires.',
+      sourceIds: ['one-earth-eco-257'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:pileated-gibbon',
+      'species:asian-elephant',
+      'species:sun-bear',
+      'species:clouded-leopard',
+    ],
+    countryIds: ['LA', 'TH'],
+    sources: ['one-earth-eco-257'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:258',
+    summary: {
+      value:
+        'Northern Thailand-Laos Moist Deciduous Forests cover the deeply incised limestone karst mountains of northern Thailand and Laos, which form the upper watersheds of the Ping, Wang, Yom, and Nan rivers. The teak-dominated forests receive 1,000 to 1,200 mm of annual rainfall with temperatures of about 20°C to 32°C. About 20% of the ecoregion is formally protected, but pervasive hunting has depleted wildlife and the flagship green peafowl now survives only in isolated populations.',
+      sourceIds: ['one-earth-eco-258'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'deeply incised and rugged limestone karst mountains',
+        'narrow intermontane valleys',
+        'precipitous cliffs and cave systems',
+        'upper watershed slopes of the Ping, Wang, Yom, and Nan rivers',
+      ],
+      sourceIds: ['one-earth-eco-258'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Seasonal monsoonal with 1,000 to 1,200 mm of annual rainfall and temperatures ranging from about 20°C to 32°C.',
+        annualPrecipitationMm: { min: 1000, max: 1200 },
+      },
+      sourceIds: ['one-earth-eco-258'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'teak-dominated Tectona grandis forest with Xylia xylocarpa and Pterocarpus macrocarpus',
+        'karst vegetation with endemic habitat specialists',
+        'bamboo groves where human disturbance is high',
+        'riverine forests along headwater streams',
+      ],
+      sourceIds: ['one-earth-eco-258'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'karst isolation promoting endemic small-mammal communities',
+        'watershed function feeding the Chao Phraya and Mekong rivers',
+        'swidden, fire, and erosion shaping degraded hill slopes',
+      ],
+      sourceIds: ['one-earth-eco-258'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'About 20% of the ecoregion is formally protected, but the reserves cluster in the southwest and pervasive hunting leaves the forests mostly devoid of wildlife. Larger species such as the tiger have been extirpated, and only small refuge populations of Asian elephants, banteng, and gaur remain. Recommended actions include securing reserve clusters with community engagement, addressing illegal hunting, and exploring payments for ecosystem services from downriver users.',
+      sourceIds: ['one-earth-eco-258'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:green-peafowl',
+      'species:asian-elephant',
+      'species:banteng',
+      'species:gaur',
+    ],
+    countryIds: ['LA', 'TH'],
+    sources: ['one-earth-eco-258'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:260',
+    summary: {
+      value:
+        'Northern Vietnam Lowland Rainforests extend south from the Red River along the coast and lowlands to Tam Ky in central Vietnam, underlain by diverse limestone formations. The climate is tropical monsoonal, with rainfall peaking in September and October and averaging about 1,800 mm in the north and 3,000 mm near Hue. Centuries of conversion and indiscriminate hunting have left empty forests, though fragments such as Cuc Phuong and Pu Mat retain exceptional floral diversity.',
+      sourceIds: ['one-earth-eco-260'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'coastal lowlands and plains south of the Red River',
+        'extensive limestone karst formations',
+        'hilly terrain of north-central Vietnam',
+        'seasonally wet river valleys',
+      ],
+      sourceIds: ['one-earth-eco-260'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical monsoonal with high temperatures and abundant precipitation peaking in September and October; every month receives at least 50 mm, with mean annual rainfall of about 1,800 mm in the north and 3,000 mm near Hue.',
+        annualPrecipitationMm: { min: 1800, max: 3000 },
+      },
+      sourceIds: ['one-earth-eco-260'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dense three-tiered wet evergreen forest rising to 25 or 35 m',
+        'ecologically important Hopea and Parashorea dipterocarps',
+        'sub-canopy fan palm Livistona saribus in forest gaps',
+        'fast-growing Knema erratica colonizers in logged forest',
+      ],
+      sourceIds: ['one-earth-eco-260'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'heavy rainfall and short dry season sustaining wet evergreen forest',
+        'late-onset precipitation peak in September and October',
+        'forest-gap colonization dynamics following logging',
+      ],
+      sourceIds: ['one-earth-eco-260'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Centuries of forest conversion have cleared or modified most of the forest, with large areas now replaced by Acacia monoculture plantations, and indiscriminate hunting has extirpated virtually all fauna. Existing protected areas are small and much remaining cover is degraded. Recommended actions include supporting reforestation and restoration of native forests, enforcing hunting bans, and expanding the protected area system and its connectivity.',
+      sourceIds: ['one-earth-eco-260'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:francoiss-leaf-monkey',
+      'species:white-cheeked-gibbon',
+      'species:red-shanked-douc-langur',
+      'species:owstons-civet',
+    ],
+    countryIds: ['VN'],
+    sources: ['one-earth-eco-260'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:266',
+    summary: {
+      value:
+        'Red River Freshwater Swamp Forests cover the lower valley of the 1,149 km Red River in northern Vietnam, where swamp forests once extended up to 5 km on either side of the river. The ecosystem is ecologically extinct, converted into rice paddies, and Hanoi now sits in the middle of the ecoregion. The original vegetation was probably dominated by Melaleuca paperbark trees, the ecoregion\u2019s flagship species.',
+      sourceIds: ['one-earth-eco-266'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lower Red River valley floodplain',
+        'wide, shallow river reaches extending up to 5 km on either side',
+        'gradient inland from the river-mouth mangroves',
+      ],
+      sourceIds: ['one-earth-eco-266'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical monsoonal over the lower Red River valley, where seasonal flooding once kept the swamp forest soils saturated for much of the year.',
+      },
+      sourceIds: ['one-earth-eco-266'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Melaleuca paperbark swamp forest',
+        'freshwater swamp forest on permanently or seasonally flooded mineral soils',
+        'mangrove transition communities immediately inland from the coast',
+      ],
+      sourceIds: ['one-earth-eco-266'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'seasonal river flooding maintaining swamp conditions',
+        'freshwater swamp succession inland from the mangroves',
+        'sediment deposition across the fertile floodplain',
+      ],
+      sourceIds: ['one-earth-eco-266'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'This ecoregion is ecologically extinct: its highly productive swamp forests were converted into rice paddies to feed the nation, and Hanoi now sits in the middle of the ecoregion, making it impossible to reconstruct the original biodiversity. Even formerly common birds, mammals, and reptiles have been hunted out for consumption. Recommended interventions are to protect remaining habitat patches, reforest and restore degraded habitat, and prohibit hunting.',
+      sourceIds: ['one-earth-eco-266'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:melaleuca-tree',
+      'species:cinnamon-bittern',
+      'species:asian-openbill-stork',
+    ],
+    countryIds: ['VN'],
+    sources: ['one-earth-eco-266'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:272',
+    summary: {
+      value:
+        'Southern Annamites Montane Rainforests follow the southern Annamite range from the Dragon\u2019s Tail in northwestern Cambodia across the Laos-Vietnam border to the Bolovans Plateau. The diverse geology, including the granitic Kontum Massif rising to Ngoc Linh at 2,598 m, supports rainfall gradients of 1,500 to 2,500 mm and harbors one of the world\u2019s rarest mammals, the saola. The ecoregion also protects several species of douc langurs and more than 410 bird species.',
+      sourceIds: ['one-earth-eco-272'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Kontum Massif granitic uplands rising to Ngoc Linh',
+        'southern Annamite mountain slopes',
+        'Bolovans Plateau in southern Laos',
+        'mosaic of volcanic basalts, granites, and sedimentary substrates',
+      ],
+      sourceIds: ['one-earth-eco-272'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Humid and near-constant, with mean annual temperature of 20–21°C; annual rainfall ranges from 1,500 to 2,500 mm, most falling from August to October.',
+        annualPrecipitationMm: { min: 1500, max: 2500 },
+      },
+      sourceIds: ['one-earth-eco-272'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'rich Fagaceae, Myrtaceae, and Lauraceae evergreen foothill forest',
+        'emergent Anacardiaceae and Dipterocarpaceae trees where spared',
+        'conifer-rich montane hardwood forest of conifers, Fagaceae, and Theaceae',
+        'endemic Pinus dalatensis and Pinus krempfii pine forest',
+      ],
+      sourceIds: ['one-earth-eco-272'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'rainfall gradient from 1,500 to 2,500 mm structuring forest zonation',
+        'centuries of swidden agriculture reshaping forest structure',
+        'high humidity and frequent fog favoring epiphyte growth',
+      ],
+      sourceIds: ['one-earth-eco-272'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'A large part of the ecoregion\u2019s forests remains unprotected, and forest degradation from swidden agriculture and hunting is widespread, including within protected areas. Species of conservation importance, including the saola and several douc langurs, still hold out and should be focal points. Recommended actions include expanding the protection network across the landscape, strengthening governance and monitoring, and engaging local communities in conservation.',
+      sourceIds: ['one-earth-eco-272'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:black-shanked-douc-langur',
+      'species:saola',
+      'species:red-shanked-douc-langur',
+      'species:grey-shanked-douc-langur',
+      'species:siamese-fireback',
+    ],
+    countryIds: ['KH', 'LA', 'VN'],
+    sources: ['one-earth-eco-272'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:285',
+    summary: {
+      value:
+        'Tonle Sap Freshwater Swamp Forests extend south from Tonle Sap Lake, Southeast Asia\u2019s largest freshwater lake, along the Tonle Sap River and the lower Mekong into southern Vietnam. During the wet season the Mekong backs up into the lake, inundating the floodplains with 4 to 6 m of water for over eight months. Only about 10% of the ecoregion\u2019s forests remain, yet it supports globally important populations of waterbirds and the flagship smooth-coated otter.',
+      sourceIds: ['one-earth-eco-285'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Tonle Sap floodplain around the lake',
+        'Tonle Sap River corridor',
+        'lower Mekong reaches in southern Vietnam',
+        'annually inundated swamp shrublands around the lake',
+      ],
+      sourceIds: ['one-earth-eco-285'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical and seasonal, with mean temperatures lowest in January and highest in April; average annual rainfall is about 1,300 to 1,561 mm, occurring mainly from April to November with a peak in September.',
+        annualPrecipitationMm: { min: 1300, max: 1561 },
+      },
+      sourceIds: ['one-earth-eco-285'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'swamp shrublands covering most of the ecoregion',
+        'stunted swamp forests around the lake under a 4 m canopy',
+        'Euphorbiaceae, Fabaceae, and Combretaceae tree communities',
+        'dense woody climbers of Acacia, Breynia, and Combretum',
+      ],
+      sourceIds: ['one-earth-eco-285'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'seasonal Mekong flood pulse inundating floodplains four to six meters deep',
+        'soil-moisture heterogeneity structuring woody vegetation',
+        'wet-season congregations of gregarious waterbirds',
+      ],
+      sourceIds: ['one-earth-eco-285'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Only about 10% of the ecoregion\u2019s forests remain, and even these are heavily modified and degraded by farming, settlements, and extraction of timber and fuelwood. The tiger is believed to be extirpated and Asian elephants no longer migrate to the lake region, while threatened waterbirds such as the eastern sarus crane, white-shouldered ibis, and giant ibis hang on. Recommended interventions include securing remaining habitat in protected areas, providing effective management, and engaging stakeholders in reducing unsustainable agriculture and extraction.',
+      sourceIds: ['one-earth-eco-285'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:smooth-coated-otter',
+      'species:white-shouldered-ibis',
+      'species:giant-ibis',
+      'species:sarus-crane',
+      'species:hairy-nosed-otter',
+    ],
+    countryIds: ['KH', 'VN'],
+    sources: ['one-earth-eco-285'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:286',
+    summary: {
+      value:
+        'Tonle Sap-Mekong Peat Swamp Forests are permanently inundated with shallow freshwater around Tonle Sap Lake and River, forming an outer ring around the deeper freshwater swamp forests and extending into Vietnam. Poor drainage and stagnant, shallow water create anoxic conditions that build peat, and the forests include Livistona palm-dominated swamp, reed beds, and Melaleuca paperbark stands. Vast areas have been converted and drained, leaving the ecosystem a mere vestige of its former extent.',
+      sourceIds: ['one-earth-eco-286'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'peat swamp ring around Tonle Sap Lake and River',
+        'Haut Chhlong and Blao peatlands of Vietnam',
+        'grass and sedge wetlands on fertile alluvial clays',
+        'paperbark swamps behind the mangrove areas',
+      ],
+      sourceIds: ['one-earth-eco-286'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical and seasonal with warm year-round temperatures and a distinct wet season; shallow, stagnant water maintains permanently flooded conditions around the lake and lower river.',
+      },
+      sourceIds: ['one-earth-eco-286'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Livistona cochinchinensis palm-dominated swamp forest exceeding 30 m',
+        'Eugenia, Elaeocarpus, and Calophyllum canopy with stilt roots and pneumatophores',
+        'Phragmites karka and Saccharum arundinaceum reed beds',
+        'Melaleuca leucadendron paperbark stands',
+      ],
+      sourceIds: ['one-earth-eco-286'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'peat buildup from retarded decomposition in anoxic, stagnant water',
+        'poor drainage creating permanently inundated conditions',
+        'flood attenuation and reduction of soil acidification',
+      ],
+      sourceIds: ['one-earth-eco-286'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Vast areas of these forests have been converted and the wetlands drained, changing the hydrological dynamics of the lake and river system and stripping away ecosystem functions such as flood reduction and biodiversity support. Wild water buffalo, Eld\u2019s deer, and banteng have been extirpated, though the rare hairy-nosed otter and threatened birds such as the eastern sarus crane, giant ibis, and white-shouldered ibis still survive. Recommended actions include integrated water resources management, species recovery plans, and an action plan for habitat restoration.',
+      sourceIds: ['one-earth-eco-286'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:white-shouldered-ibis',
+      'species:giant-ibis',
+      'species:hairy-nosed-otter',
+      'species:wild-water-buffalo',
+      'species:elds-deer',
+    ],
+    countryIds: ['KH', 'VN'],
+    sources: ['one-earth-eco-286'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:291',
+    summary: {
+      value:
+        'Central Indochina Dry Forests extend across Thailand, Laos, Cambodia, and Vietnam, covering more land area in mainland Southeast Asia than any other forest type. This deciduous dipterocarp woodland experiences 1,000 to 1,500 mm of monsoon rainfall punctuated by five to seven months of drought, and frequent ground fires maintain its open fire-climax structure. The flagship sambar once roamed here alongside elephants and wild cattle, but the kouprey, last seen in 1988, is believed to be globally extinct.',
+      sourceIds: ['one-earth-eco-291'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'dry lower slopes and Tenasserim foothills',
+        'uplands around the Chao Phraya River basin',
+        'northeastern Khorat Plateau',
+        'arid plains of Cambodia',
+        'upper watersheds of the Se San and Srepok rivers',
+      ],
+      sourceIds: ['one-earth-eco-291'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Monsoonal, with 1,000 to 1,500 mm of rainfall during the monsoon period punctuated by five to seven months of drought.',
+        annualPrecipitationMm: { min: 1000, max: 1500 },
+      },
+      sourceIds: ['one-earth-eco-291'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'deciduous dipterocarp woodland with a low 5 to 8 m canopy',
+        'sparse grass-dominated understory',
+        'occasional 10 to 12 m emergent trees',
+      ],
+      sourceIds: ['one-earth-eco-291'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'frequent ground fires maintaining a fire-climax community',
+        'drought-period leaf shedding by deciduous dipterocarps',
+        'grass layer supporting grazing herbivores',
+      ],
+      sourceIds: ['one-earth-eco-291'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Most of the forests have been converted for human uses except for a few large blocks in northeastern Cambodia, and about 10% of the ecoregion falls within reserves, some of which exceed 1,000 to 2,000 km2. The kouprey, largely restricted to this ecoregion, was last seen in 1988 and is now believed to be globally extinct. Recommended actions include protecting and managing existing reserves well, securing corridors for landscape-scale conservation, and implementing effective anti-poaching measures.',
+      sourceIds: ['one-earth-eco-291'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sambar-deer',
+      'species:kouprey',
+      'species:tiger',
+      'species:asian-elephant',
+      'species:gaur',
+    ],
+    countryIds: ['TH', 'KH', 'LA', 'VN'],
+    sources: ['one-earth-eco-291'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:299',
+    summary: {
+      value:
+        'Southeastern Indochina Dry Evergreen Forests sprawl across Cambodia and southern Vietnam, with parts extending into Thailand and Laos. The humid climate delivers 1,200 to 2,000 mm of annual rainfall with a three-to-six month dry period, and the tall multi-layered forests rise to 30 to 40 m. The flagship red-shanked douc langur co-occurs with one of the region\u2019s richest large-mammal faunas, though on paper over 20% of the ecoregion is protected while enforcement remains weak.',
+      sourceIds: ['one-earth-eco-299'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'rolling dry evergreen forest lowlands',
+        'Cambodian plains surrounding the central dry deciduous forests',
+        'southern Vietnam uplands',
+        'Mekong floodplain margins',
+      ],
+      sourceIds: ['one-earth-eco-299'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Humid tropical, with average annual rainfall between 1,200 and 2,000 mm and a three-to-six month dry period.',
+        annualPrecipitationMm: { min: 1200, max: 2000 },
+      },
+      sourceIds: ['one-earth-eco-299'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'tall multi-layered Dipterocarpaceae forest rising to 30 or 40 m',
+        'large buttressed emergents of Ficus, Tetrameles nudiflora, and Heritiera javanica',
+        'liana-draped canopies',
+        'bamboo colonizers and watercourse palms',
+      ],
+      sourceIds: ['one-earth-eco-299'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'partial canopy leaf-loss at the peak of the dry season',
+        'buttress-root anchorage in seasonally dry soils',
+        'bamboo colonization of forest gaps',
+      ],
+      sourceIds: ['one-earth-eco-299'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'On paper over 20% of the ecoregion is protected, with very large protected areas declared in Cambodia, but political commitment and law enforcement are missing, leaving wildlife and valuable timber vulnerable to poaching. The last Javan rhinoceros was poached in Cat Tien National Park in 2010, and the tiger has not been recorded in Cambodia\u2019s forests for over a decade. Recommended interventions include building government commitment and capacity, strengthening monitoring and protection, and engaging local communities as stewards.',
+      sourceIds: ['one-earth-eco-299'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:red-shanked-douc-langur',
+      'species:javan-rhinoceros',
+      'species:tiger',
+      'species:asian-elephant',
+      'species:red-cheeked-gibbon',
+    ],
+    countryIds: ['KH', 'LA', 'TH', 'VN'],
+    sources: ['one-earth-eco-299'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:300',
+    summary: {
+      value:
+        'Southern Vietnam Lowland Dry Forests cover the semi-arid coastal belt of southern Vietnam from Nha Trang to Phan Rang, cast in a rain shadow by the Annamite Mountains. Mean annual rainfall is less than 1,500 mm south of Nha Trang and below 800 mm at Phan Rang, and the dune forests support endemic species such as Hopea cordata and Shorea falcata. It is the second most human-modified dry forest ecoregion in Asia, with protected areas covering only about 6% of its area.',
+      sourceIds: ['one-earth-eco-300'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'semi-arid coastal belt south of Nha Trang',
+        'succession of small alluvial plains east of the Annamite Range',
+        'low hills rising to 1,000 m',
+        'extensive coastal sand dunes',
+      ],
+      sourceIds: ['one-earth-eco-300'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Semi-arid and rain-shadowed, with the Annamite Mountains blocking humid monsoon air; mean annual rainfall is less than 1,500 mm south of Nha Trang and less than 800 mm at Phan Rang.',
+        annualPrecipitationMm: { min: 800, max: 1500 },
+      },
+      sourceIds: ['one-earth-eco-300'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'thicket communities adjacent to the beaches',
+        'low scrubby forests further inland',
+        'dune forests of Baeckia frutescens and Melaleuca leucadendron',
+        'evergreen and semi-evergreen forests on coastal hills',
+      ],
+      sourceIds: ['one-earth-eco-300'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'rain-shadow aridity creating a semi-arid coastal climate',
+        'shifting dune substrates shaping shrubby vegetation',
+        'phreatophyte root systems tapping subsurface water',
+      ],
+      sourceIds: ['one-earth-eco-300'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'The protected area system covers only about 6% of the ecoregion, and even within reserves the wildlife has been hunted out, creating empty forests devoid of vertebrates from reptiles to mammals. Less than 1% of forests remain outside protected areas, and a burgeoning human population surrounds the reserves. Recommended actions are to secure and effectively protect the reserves from further degradation and hunting and to protect forest patches retaining endemic flora.',
+      sourceIds: ['one-earth-eco-300'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:red-cheeked-gibbon',
+      'species:black-shanked-douc-langur',
+      'species:pileated-gibbon',
+    ],
+    countryIds: ['VN'],
+    sources: ['one-earth-eco-300'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:232',
+    summary: {
+      value:
+        'Hainan Island Monsoon Rainforests cover the montane forests of central Hainan, a large island that broke away from what is now Vietnam over 65 million years ago and is separated from the mainland by the narrow Qiongzhou Strait. The island supports 4,200 plant species, nearly 100 mammals, and 300 birds, and BirdLife International declared it an Endemic Bird Area on account of the Hainan partridge, white-eared night heron, Hainan leaf warbler, and yellow-billed nuthatch.',
+      sourceIds: ['one-earth-eco-232'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'montane forests in the central region of the island',
+        'central peaks rising to 1,840 m at Wuzhi (Five Finger) Mountain',
+        'separated from the Leizhou Peninsula by the narrow Qiongzhou Strait',
+        'a mainland extension of the ecoregion on the Leizhou Peninsula',
+        'rain-shadowed slopes with a more seasonal climate',
+      ],
+      sourceIds: ['one-earth-eco-232'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'The climate is monsoonal, with the moist summer monsoon alternating with cool, dry winters; annual precipitation is about 2,000 mm on the east coast and about 1,000 mm on the west coast, with frequent typhoons from the South China Sea.',
+        annualPrecipitationMm: { min: 1000, max: 2000 },
+      },
+      sourceIds: ['one-earth-eco-232'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'deciduous canopy forests of Kleinhovia hospita, Spondias pinnata, and Tilia hainanensis, with a grassy understory beneath the thin canopy',
+        'savanna with scattered Albizzia procera in the drier interior',
+        'evergreen trees on the moist shaded slopes above 1,000 m, including Diospyros potingensis and Meyna hainanensis and species of Castanopsis, Lithocarpus, and Schima',
+        'cloud forests above 1,600 m with conifers such as Dacrydium pierrei, Podocarpus, Cephalotaxus, Keteleeria, and several pines',
+        'eight plant genera endemic to Hainan Island, including Pyrenocarpa, Chunia, and Wenchengia',
+      ],
+      sourceIds: ['one-earth-eco-232'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'island isolation since the late Mesozoic shaping a distinctive flora',
+        'montane forest-to-cloud forest gradient above 1,000 m',
+        'widespread habitat loss and hunting pressure threatening forest-dependent wildlife',
+        'typhoon disturbance influencing forest dynamics',
+      ],
+      sourceIds: ['one-earth-eco-232'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'The forests have been extensively converted for rubber, oil palm, and coffee plantations, and slash-and-burn cultivation by the Miao and Li people has degraded large montane areas; habitat loss combined with hunting pressure threatens many forest-dependent species. Recommended priority actions are to conserve limestone and montane forests supporting high bird diversity, strengthen protection of existing reserves, and expand the Yinggeling-Limushan and Wuzhishan-Diaoluoshan nature reserves.',
+      sourceIds: ['one-earth-eco-232'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:hainan-partridge',
+      'species:hainan-black-crested-gibbon',
+      'species:hainan-hare',
+      'species:asiatic-black-bear',
+      'species:sambar-deer',
+    ],
+    countryIds: ['CN'],
+    sources: ['one-earth-eco-232'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:236',
+    summary: {
+      value:
+        'The Jian Nan Subtropical Evergreen Forests cover the Nan Ling mountain range, a moderate divide that separates the Zhujiang River basin from the Yangtze Valley and shelters southern China from cold continental winds. The range is the source of many famous Chinese fruit trees, and its clear mountain streams support the critically endangered Chinese giant salamander, the largest amphibian on Earth.',
+      sourceIds: ['one-earth-eco-236'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Nan Ling mountain range forming a climatic and drainage divide',
+        'folded topography created by Mesozoic-era activity along east-west and northeast-southwest axes',
+        'granites, metamorphosed ancient sedimentary rocks, and Cretaceous red sandstone',
+        'limestone karst eroded into jagged, steep pinnacles in some areas',
+        'mountains that seldom reach 1,500 m and lack a sharply defined range',
+      ],
+      sourceIds: ['one-earth-eco-236'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'The climate is mild, with 1,500 to 2,000 mm of annual summer monsoonal rainfall, summer temperatures averaging about 28°C and winter temperatures about 12°C, and very strong winds from typhoons during the summer and autumn.',
+        annualPrecipitationMm: { min: 1500, max: 2000 },
+      },
+      sourceIds: ['one-earth-eco-236'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'forests dominated by species of chestnut and oak, especially Quercus and Cyclobalanopsis, mixed with Schima, Camellia, and Lauraceae',
+        'limestone forests characterized by Cyclobalanopsis glauca, Cinnamomum calcarea, Ulmus parvifolia, and Bridelia fordii',
+        'subtropical conifers Cathaya argyrophylla, Amentotaxus argotaenia, and Cephalotaxus oliveri on narrow mountain slopes',
+        'clumps of bamboo growing in disturbed areas',
+      ],
+      sourceIds: ['one-earth-eco-236'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'limestone karst environments supporting distinctive rock-adapted communities',
+        'climatic divide sheltering southern China from cold continental winds',
+        'mountain headwaters providing clear, cold streams for stream-breeding amphibians',
+        'topographic complexity created by successive orogenic folding',
+      ],
+      sourceIds: ['one-earth-eco-236'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Except for a few patches in relatively inaccessible karst limestone, most natural forests have been converted or degraded, with lowlands especially vulnerable to conversion for rice paddies and widespread hunting and collection of rare species. Although over 37,000 km2 of forests lie within protected areas, they represent only about 6% of this large ecoregion and are clustered in the southwest. Recommended actions are to create additional protected areas for better representation and ecological connectivity, engage local communities as conservation stewards, and implement population recovery programs for threatened species.',
+      sourceIds: ['one-earth-eco-236'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:chinese-giant-salamander',
+      'species:white-headed-leaf-monkey',
+      'species:francoiss-leaf-monkey',
+      'species:chinese-pangolin',
+      'species:cabots-tragopan',
+    ],
+    countryIds: ['CN'],
+    sources: ['one-earth-eco-236'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:268',
+    summary: {
+      value:
+        'The South China-Vietnam Subtropical Evergreen Forests extend from northern Vietnam into southeastern China, including Hainan Island, and form a transitional zone from tropical Vietnamese forests to the subtropical and mixed forests of southern China. The tiger is believed to have originated in this region before vanishing from it, and the flagship Chinese pangolin is now one of the most trafficked mammals in the world.',
+      sourceIds: ['one-earth-eco-268'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'complex topography of forested mountains incised by rivers and streams',
+        'riparian forests lining the riverine systems',
+        'transitional zone from the tropical forests of Vietnam to the subtropical and mixed forests of southern China',
+        'extent from northern Vietnam into southeastern China, including Hainan Island',
+      ],
+      sourceIds: ['one-earth-eco-268'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Rainfall ranges from a low of about 1,800 mm near the Red River Basin in Vietnam to over 2,850 mm further north in China, with no completely dry months; the north has a more seasonal climate with cool winters and hot, humid summers.',
+        annualPrecipitationMm: { min: 1800, max: 2850 },
+      },
+      sourceIds: ['one-earth-eco-268'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'tree dominance shared by species of Lauraceae, Fagaceae, and Meliaceae',
+        'dominant canopy species including Castanopsis chinensis, Schima superba, and Syzygium rehderianum',
+        'canopy reaching around 30-35 m on most substrates',
+        'stunted limestone forests reaching about 15-20 m in height',
+        'high regional endemism with strong floristic relationships to regions further north in China',
+      ],
+      sourceIds: ['one-earth-eco-268'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'year-round rainfall without a fully dry season',
+        'strong floristic relationships with areas to the north and high regional endemism',
+        'poaching pressure collapsing large-mammal communities, leaving few species larger than a deer',
+        'a proposed cradle of tiger evolution in Asia',
+      ],
+      sourceIds: ['one-earth-eco-268'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Very little pristine forest remains; most habitat has been converted, fragmented, and degraded by shifting cultivation, permanent agriculture, logging, settlements, and urban and peri-urban infrastructure, including some of China\u2019s most populated cities. The critically endangered Chinese pangolin is poached across the ecoregion for its meat and scales and is expected to be the next mammal to go extinct here without immediate action. Recommended interventions are to address wildlife poaching and trade at all levels, engage local communities as conservation stewards, and expand and strengthen the protected area system.',
+      sourceIds: ['one-earth-eco-268'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:chinese-pangolin',
+      'species:tiger',
+      'species:south-china-tiger',
+    ],
+    countryIds: ['CN', 'VN', 'HK', 'MO'],
+    sources: ['one-earth-eco-268'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:269',
+    summary: {
+      value:
+        'The South Taiwan Monsoon Rainforests cover the low-elevation forests of the southernmost part of Taiwan, where granitic mountains rise steeply from a deep oceanic trench to nearly 3,952 m at Mount Yushan, with the western and northern slopes grading into coastal plains. The flagship Taiwan sika deer, driven to extinction in the wild by 1969, is now being restored through captive breeding and reintroduction.',
+      sourceIds: ['one-earth-eco-269'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'low-elevation forests in the southernmost part of the island',
+        'granitic mountains rising steeply on the eastern slope from a deep oceanic trench',
+        'summit of Mount Yushan reaching nearly 3,952 m',
+        'western and northern slopes sloping gently into coastal plains',
+        'island profile shaped by collision of the Asian mainland plate with the Philippine plate',
+      ],
+      sourceIds: ['one-earth-eco-269'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'The summer monsoon from May to October brings most of the roughly 2,600 mm of annual rainfall.',
+        annualPrecipitationMm: { min: 2600, max: 2600 },
+      },
+      sourceIds: ['one-earth-eco-269'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'forest vegetation very similar to the coastal forests of southeastern mainland China',
+        'a broad mix of families including Lauraceae, Fagaceae, Euphorbiaceae, and Caprifoliaceae',
+        'montane evergreen species such as Ficus microcarpa, Cryptocarya chinensis, and Schefflera octophylla',
+        'deciduous species such as Bombax malabaricum and Albizia procera in the seasonal zone',
+      ],
+      sourceIds: ['one-earth-eco-269'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'species recovery program restoring the flagship Taiwan sika deer to the wild',
+        'overwintering habitat for restricted-range birds such as the Japanese night-heron and spoon-billed sandpiper',
+        'sympatric giant flying squirrels gliding between forest trees',
+        'monsoon rainfall regime concentrated between May and October',
+      ],
+      sourceIds: ['one-earth-eco-269'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Although close to 70% of the forests remain, only a small area is formally protected, and forest-cover estimates likely include monoculture plantations of non-native species. Industrialization and expanding urbanization are taking a toll on natural forests, and even Kenting National Park is threatened by anthropogenic activity. Recommended priorities are to include additional forests in the protected area system, ensure ecological connectivity between montane and lowland forests, and protect rare species from poaching.',
+      sourceIds: ['one-earth-eco-269'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:taiwan-sika-deer',
+      'species:formosan-serow',
+      'species:formosan-macaque',
+      'species:black-faced-spoonbill',
+      'species:spoon-billed-sandpiper',
+    ],
+    countryIds: ['TW'],
+    sources: ['one-earth-eco-269'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:283',
+    summary: {
+      value:
+        'The Taiwan Subtropical Evergreen Forests represent most of the forests of the island of Taiwan except the southernmost section south of the Tropic of Cancer, running along a north-south mountain range with about 200 peaks over 3,000 m and rising to 3,952 m at Mount Yushan. The forests are home to two species of giant flying squirrels and the flagship Formosan ferret badger, while most of the island\u2019s larger fauna has been extirpated.',
+      sourceIds: ['one-earth-eco-283'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'most of the forests of Taiwan except the southernmost section south of the Tropic of Cancer',
+        'north-south mountain range running along the length of the island and rising steeply on the eastern side',
+        'about 200 peaks over 3,000 m, with the highest point at Mount Yushan (3,952 m)',
+        'gentler western slopes descending to coastal plains',
+      ],
+      sourceIds: ['one-earth-eco-283'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Summer monsoons between May and October bring rainfall that varies with elevation, from 1,800-2,500 mm below 500 m to up to 2,900 mm above 2,500 m; mean monthly lowland temperatures range from 15 to 28\u00b0C.',
+        annualPrecipitationMm: { min: 1800, max: 2900 },
+      },
+      sourceIds: ['one-earth-eco-283'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'broadleaf forests zoned by elevation, from the Ficus-Machilus zone through the Machilus-Castanopsis zone to the Cyclobalanopsis zones',
+        'mixed broadleaf forests above 3,000 m dominated by Alnus formosana and species of Acer and Tsuga',
+        'pure conifer stands of Tsuga chinensis, Picea, and Abies at the highest elevations',
+        'floristic elements of both the Holarctic and Paleotropical kingdoms',
+      ],
+      sourceIds: ['one-earth-eco-283'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'floristic boundary between the Holarctic and Paleotropical kingdoms',
+        'elevational zonation of vegetation from lowland broadleaf to subalpine conifer forest',
+        'mid-Pleistocene isolation driving divergence of inhabited flying squirrel subspecies',
+        'overwintering habitat for restricted-range birds such as the Japanese night-heron and spoon-billed sandpiper',
+      ],
+      sourceIds: ['one-earth-eco-283'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'About 68% of the forests remain, and 20% of the ecoregion is protected, mostly along the central mountains, while most lowland forests have been cleared for agriculture and industry. The larger fauna has been extirpated, including the clouded leopard and Eurasian otter, the Asiatic black bear is extremely rare, and the sika deer was only restored through reintroduction. Recommended priorities are to bring additional low-elevation forests into the protected area system, ensure connectivity between montane and lowland forests, and protect rare species from poaching.',
+      sourceIds: ['one-earth-eco-283'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:formosan-ferret-badger',
+      'species:red-and-white-giant-flying-squirrel',
+      'species:formosan-serow',
+      'species:formosan-macaque',
+      'species:sambar-deer',
+    ],
+    countryIds: ['TW'],
+    sources: ['one-earth-eco-283'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:251',
+    summary: {
+      value:
+        'The Nansei Islands Subtropical Evergreen Forests cover a 1,050 km-long chain of over 100 small islands that stretches from Kyushu in Japan to Taiwan, with rugged, steep topography whose highest point is 1,935 m on Yakushima. The isolated archipelago sustains exceptional endemism, including the flagship Iriomote cat, yet has already lost the endemic Ryukyu wood pigeon.',
+      sourceIds: ['one-earth-eco-251'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        '1,050 km-long chain of over 100 small islands stretching from Kyushu, Japan to Taiwan',
+        'northern islands of volcanic origin composed of igneous rock',
+        'southern islands of Mesocenozoic karst limestone',
+        'rugged, steep topography with the highest point 1,935 m on Yakushima',
+      ],
+      sourceIds: ['one-earth-eco-251'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'The climate is subtropical in the north, transitioning to a tropical monsoon climate in the south, with 2,000 to 3,500 mm of annual rainfall, frequent typhoons from August to September, winter temperatures around 18\u00b0C, and summer temperatures around 28\u00b0C.',
+        annualPrecipitationMm: { min: 2000, max: 3500 },
+      },
+      sourceIds: ['one-earth-eco-251'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'temperate broadleaf forest of the northern islands dominated by Fagaceae such as Castanopsis cuspidata, Quercus, and Lithocarpus edulis',
+        'conifer forests of Cryptomeria japonica, Tsuga sieboldii, and Abies firma at higher elevations',
+        'Castanopsis sieboldii-dominated forest on the middle islands',
+        'more tropical forest community of the southern islands, dominated by Distylium racemosum, Schefflera octophylla, and other evergreen trees',
+        'many endemic plants such as Cyclobalanopsis miyagii and Adinandra yaeyamensis',
+      ],
+      sourceIds: ['one-earth-eco-251'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'emergence of the island chain from an undersea mountain range',
+        'high faunal endemism, including endemic mammals, birds, and amphibians',
+        'typhoon disturbance shaping forest ecosystems',
+        'vulnerability of endemic island species, exemplified by the extinction of the Ryukyu wood pigeon',
+      ],
+      sourceIds: ['one-earth-eco-251'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Over 45% of the forests still remain and 23% are protected, with protected areas distributed across most islands, but forest loss, infrastructure expansion, and hunting continue to affect biodiversity, especially endemic species already listed as endangered on the IUCN Red List. The Iriomote cat population is estimated at only about 100 individuals and declining. Recommended actions are to make infrastructure more wildlife and biodiversity friendly, conserve additional representative forests and habitats, and implement species recovery plans.',
+      sourceIds: ['one-earth-eco-251'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:iriomote-cat',
+      'species:okinawa-rail',
+      'species:ryukyu-flying-fox',
+      'species:ryukyu-scops-owl',
+    ],
+    countryIds: ['JP'],
+    sources: ['one-earth-eco-251'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:231',
+    summary: {
+      value:
+        'Greater Negros-Panay Rainforests cover several central Philippine islands, including Negros, Panay, Cebu, and smaller neighbors, with rugged terrain rising to the 2,465 m volcanic crater of Mount Canlaon. Deep channels kept this island complex isolated from Luzon and Greater Mindanao during the last ice age, leaving a mix of Sundaic and Philippine species with notable endemics such as the Visayan warty pig.',
+      sourceIds: ['one-earth-eco-231'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'several islands including the larger Negros, Panay, and Cebu',
+        'rugged topographies except for eastern Panay and Masbate',
+        '2,465 m volcanic crater of Mount Canlaon in central Negros',
+        'islands uplifted over 6 million years by volcanic activity and tectonic uplifting',
+        'channel over 120 m deep separating the complex from Luzon and Greater Mindanao',
+      ],
+      sourceIds: ['one-earth-eco-231'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical and humid, with year-round warmth and a pronounced wet-phase rainfall from May to January, characteristic of the Philippine monsoon islands.',
+      },
+      sourceIds: ['one-earth-eco-231'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'tropical lowland rainforest, montane forests, grasslands, heath forests, beach vegetation, and mangroves',
+        'lowland forest dominated by Dipterocarpus, Shorea, and Hopea with Pandanus in the understory',
+        'tall dipterocarp forests of 45 to 65 m with three canopy layers and epiphytic ferns and orchids',
+        'montane forests shared among Burseraceae, Dipterocarpaceae, Euphorbiaceae, Lauraceae, and other families',
+        'beach vegetation dominated by Casuarina and Barringtonia',
+      ],
+      sourceIds: ['one-earth-eco-231'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'biogeographic processes linked to land bridge connections and disconnections through geologic history',
+        'isolation during the last ice age precluding species exchange and contributing to endemic species',
+        'mix of Sundaic and Philippine mammal faunas',
+        'two Endemic Bird Areas with range-restricted species',
+      ],
+      sourceIds: ['one-earth-eco-231'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 36% for the ecoregion. Forests have been cleared for logging, mining, agriculture, and settlements, and important Key Biodiversity Areas with endemic biodiversity remain unprotected, while the Philippine crocodile is now extinct here. Priorities are to protect the proposed KBAs, engage local communities, and develop species recovery plans for endemic critically endangered species.',
+      sourceIds: ['one-earth-eco-231'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:visayan-warty-pig',
+      'species:visayan-spotted-deer',
+      'species:negros-bleeding-heart',
+      'species:writhed-billed-hornbill',
+      'species:cebu-flowerpecker',
+    ],
+    countryIds: ['PH'],
+    sources: ['one-earth-eco-231'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:240',
+    summary: {
+      value:
+        'Luzon Montane Rainforests clothe the slopes above 1,000 meters on the Sierra Madre, the longest mountain range in the Philippines, and the Zambales Mountains in the west. Long isolation fostered extraordinary endemism, with over 50 endemic non-flying mammals now known, many of them cloud rats and earthworm mice confined to individual peaks.',
+      sourceIds: ['one-earth-eco-240'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'forests above 1,000 m along the Sierra Madre, the longest mountain range in the Philippines',
+        'the Zambales Mountains in the west',
+        'peaks rising to over 2,700 m',
+        'range erected by volcanic eruptions and shifting undersea plates over 27 million years',
+      ],
+      sourceIds: ['one-earth-eco-240'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with rainfall throughout the year that increases from May to January, especially on the eastern slopes exposed to northeast winds; the mountains intercept storms and typhoons, so annual rainfall can be very high.',
+      },
+      sourceIds: ['one-earth-eco-240'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'transition from lowland Dipterocarpaceae to oak and laurel upslope',
+        'shorter trees dominated by Lauraceae, Saxifragaceae, Fagaceae, Araliaceae, Myrtaceae, Podocarpaceae, and Theaceae',
+        'common species including Deutzia pulchra, Lithocarpus woodii, Dacrycarpus steupii, and Clethra luzonica',
+        'epiphytes, vines, and mosses adding structure, with a thick humus layer',
+        'stunted forests with less structural complexity at the highest elevations',
+      ],
+      sourceIds: ['one-earth-eco-240'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'long isolation of Luzon from other large islands',
+        'small mammals evolving to fill narrow niches in montane sky island habitats',
+        'species richness peaking at mid-elevations then declining with habitat structural complexity',
+        'about 70% endemism among reptiles and amphibians',
+      ],
+      sourceIds: ['one-earth-eco-240'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 90% for the ecoregion. About half of the Sierra Madre ecoregion is formally protected but the Zambales Mountains remain unprotected, and the forests are threatened by clearing, conversion, and climate change. Priorities are managing existing protected areas, expanding protection into old-growth forests in the Zambales range, monitoring endemic species as climate indicators, and valuing montane ecosystem services.',
+      sourceIds: ['one-earth-eco-240'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:northern-luzon-shrew-mouse',
+      'species:gulantan-cloud-rat',
+      'species:luzon-bushy-tailed-cloud-rat',
+    ],
+    countryIds: ['PH'],
+    sources: ['one-earth-eco-240'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:241',
+    summary: {
+      value:
+        'Luzon Rainforests cover the lowland forests below 1,000 meters on Luzon, an island built from about ten coalescing volcanic islands over 27 million years. A rich dipterocarp canopy shelters endemic small mammals and birds, while the giant Philippine eagle fills the role of top predator in the absence of large mammalian carnivores.',
+      sourceIds: ['one-earth-eco-241'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'rainforests below 1,000 m on Luzon Island',
+        'a few isolated volcanic mountains in the south exceeding 1,000 m, including Maquiling, Banahaw, Isarog, Mayon, and Bulusan',
+        'island isolated since formation about 27 million years ago when about ten volcanic islands coalesced',
+      ],
+      sourceIds: ['one-earth-eco-241'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with a constant temperature of around 27°C and rainfall throughout the year, increasing from May to January, averaging about 2,100 mm annually.',
+        annualPrecipitationMm: { min: 2100, max: 2100 },
+      },
+      sourceIds: ['one-earth-eco-241'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dominant species of the Dipterocarpaceae family, including Anisoptera, Dipterocarpus, Hopea, Parashorea, and Shorea',
+        '60 m high canopy with trees emerging above it',
+        'a five-species Rafflesia assemblage, four endemic to the island',
+        'other assembly from Annonaceae, Bombacaceae, Meliaceae, Rhizophoraceae, Marantaceae, and Ficus families',
+      ],
+      sourceIds: ['one-earth-eco-241'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'millennia of biogeographic isolation producing mostly small endemic mammals',
+        'the giant Philippine eagle filling the top predator role in the absence of large mammalian predators',
+        'Rafflesia flowers attracting pollinator flies and rodents dispersing their seeds',
+        'the eagle endemic to the Philippines and the largest eagle in the world',
+      ],
+      sourceIds: ['one-earth-eco-241'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 43% for the ecoregion. The ecoregion has lost over three-fourths of its natural forests and only about 10% is protected, mostly on the eastern side, leaving species-rich western forests near the Philippines largest cities vulnerable to logging, shifting cultivation, settlement, and widespread hunting. Priorities are bringing more forests under a conservation areas network, protecting unprotected Key Biodiversity Areas, and engaging local communities in conservation and forest management.',
+      sourceIds: ['one-earth-eco-241'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:green-racquet-tail',
+      'species:isabela-oriole',
+      'species:philippine-eagle',
+      'species:philippine-brown-deer',
+      'species:philippine-warty-pig',
+    ],
+    countryIds: ['PH'],
+    sources: ['one-earth-eco-241'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:246',
+    summary: {
+      value:
+        'Mindanao Montane Rainforests occupy the forests above 1,000 meters on Mindanao, a highland of hill dipterocarp forest, elfin woodlands, and mossy cloud forest. The ecoregion hosts roughly half the remaining population of the critically endangered giant Philippine eagle and a suite of endemic small mammals restricted to montane elevations.',
+      sourceIds: ['one-earth-eco-246'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'montane rainforests above 1,000 m on Mindanao Island',
+        'island possibly formed from the collision and fusion of the Palawan block with the eastern plate about 25 million years ago',
+        'stunted elfin woodlands on the mountain summits',
+      ],
+      sourceIds: ['one-earth-eco-246'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with a July-to-November rainy season bringing most of the 1,200 mm of rainfall and temperatures averaging about 29°C with little annual variation.',
+        annualPrecipitationMm: { min: 1200, max: 1200 },
+      },
+      sourceIds: ['one-earth-eco-246'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'hill dipterocarp forests with tall, big-buttressed upper-canopy trees of Shorea polysperma, S. mindanaensis, and Ficus',
+        'higher-elevation forest dominated by the endemic Almaciga philippinensis with Agathis philippinensis and Cinnamomum mercadoi',
+        'shorter upper montane forest with a 35 m canopy and shrub layer',
+        'cloud forests above 1,700 to 2,000 m with stunted, moss-draped trees such as Ascarina philippinensis and Phyllocladus hypophyllus',
+        'a shrub layer of Rhododendron, Vaccinium, and Rubus and 13 Mindanao-endemic pitcher plants',
+      ],
+      sourceIds: ['one-earth-eco-246'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'a distinct Mindanao faunal region developing since the Pleistocene',
+        'several species restricted to higher elevations of the mountain ranges',
+        'an Endemic Bird Area with restricted-range species',
+        'the second largest number of breeding birds among Philippine islands',
+      ],
+      sourceIds: ['one-earth-eco-246'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 89% for the ecoregion. Only about 25% of the ecoregion is protected and those areas face illegal logging and conversion, while prospective palm oil investment threatens to clear large tracts of remaining forest, and the cited 60% forest figure likely overestimates true cover. Priorities are managing protected areas with local Moro communities, including unprotected Key Biodiversity Areas in a conservation network, and valuing montane forests for flood and disaster prevention.',
+      sourceIds: ['one-earth-eco-246'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:philippine-eagle',
+      'species:mindanao-moonrat',
+      'species:almaciga',
+    ],
+    countryIds: ['PH'],
+    sources: ['one-earth-eco-246'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:247',
+    summary: {
+      value:
+        'Mindanao-Eastern Visayas Rainforests cover the lowland forests below 1,000 meters across Mindanao, Samar, Leyte, Bohol, and smaller islands that formed the single Greater Mindanao landmass during Pleistocene ice ages. About 80 percent of its non-flying mammals are endemic, from the tiny Philippine tarsier to island-restricted cloud rats, while the Philippine eagle and cockatoo still hold out in its forests.',
+      sourceIds: ['one-earth-eco-247'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lowland forests below 1,000 m on Mindanao, Samar, Leyte, Bohol, and several smaller satellite islands',
+        'islands that during the Pleistocene formed the single Greater Mindanao landmass via lowered sea levels',
+        'northern portions of Samar and Leyte on the main track of typhoons',
+      ],
+      sourceIds: ['one-earth-eco-247'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical and wet, with the northern Visayas on the main track of typhoons that occur from July to November.',
+      },
+      sourceIds: ['one-earth-eco-247'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'beach forest and mangroves along the coast dominated by Casuarina and Barringtonia',
+        'lowland rainforest dominated by Dipterocarpaceae including Anisoptera, Dipterocarpus, Hopea, Parashorea, and Shorea',
+        'tall forests reaching 45 to 65 m with a dense three-layered canopy',
+        'ferns, orchids, and other epiphytes adding structural habitat in the upper strata',
+      ],
+      sourceIds: ['one-earth-eco-247'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'about 80% of non-volant mammals endemic to Greater Mindanao, not found on adjacent Luzon',
+        'single-island evolution of endemics such as the Dinagat bushy-tailed cloud rat',
+        'an Endemic Bird Area designated for 51 restricted-range forest-specialist birds',
+        'Pleistocene land bridges uniting the islands into Greater Mindanao',
+      ],
+      sourceIds: ['one-earth-eco-247'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 50% for the ecoregion. Very little of the ecoregion is formally protected, the largest reserve on Samar leaves most Mindanao lowland forests outside, and hunting, including of small endemic species, is widespread. Priorities are expanding the protected areas system to improve representation and include unprotected Key Biodiversity Areas, education and awareness campaigns with livelihood alternatives, and engaging local communities as conservation stewards.',
+      sourceIds: ['one-earth-eco-247'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:philippine-tarsier',
+      'species:philippine-warty-pig',
+      'species:dinagat-bushy-tailed-cloud-rat',
+      'species:mindanao-bleeding-heart',
+      'species:philippine-cockatoo',
+    ],
+    countryIds: ['PH'],
+    sources: ['one-earth-eco-247'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:248',
+    summary: {
+      value:
+        'Mindoro Rainforests represent Mindoro Island and its smaller satellites, an isolated landmass that remained unconnected to neighboring islands even when land bridges formed. This geologic isolation produced a recognized hotspot of endemism, headlined by the tamaraw, the Philippines national animal, along with an array of endemic birds and plants.',
+      sourceIds: ['one-earth-eco-248'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Mindoro Island and the smaller satellite islands',
+        'island that remained isolated even when neighboring islands were connected by land bridges',
+        'lowland evergreen rainforest, lower montane forests, limestone forests, and mangroves',
+      ],
+      sourceIds: ['one-earth-eco-248'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Wet tropical climate with a dry season from December to May and a wet season from June to November, over 2,200 mm of annual rainfall, frequent tropical cyclones, and average highs around 30°C.',
+        annualPrecipitationMm: { min: 2200, max: 2200 },
+      },
+      sourceIds: ['one-earth-eco-248'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'structurally complex Dipterocarpaceae-dominated rainforest with a canopy over 45 m',
+        'characteristic trees including Dipterocarpus grandiflorus, Shorea species, Parashorea malaanonan, Diospyros blancoi, and Pterocarpus indicus',
+        'semi-deciduous forests in the west with stands of Pinus merkusii above 600 m',
+        'lower montane forests from 750 to 1,200 m with moss-draped trees, and stunted semi-deciduous trees on limestone karst',
+      ],
+      sourceIds: ['one-earth-eco-248'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'geologic isolation enabling species to evolve into endemic forms',
+        'an island recognized as an endemism hotspot in the Philippines',
+        'a model of biogeographic patterns and processes from smaller species of non-volant mammals and bats',
+      ],
+      sourceIds: ['one-earth-eco-248'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 66% for the ecoregion. Since the 1960s, large-scale mechanized logging has driven the decline of the dense forests, and today most large endemic tree species and the fauna dependent on intact forest are critically endangered. Priorities are creating a linked network of reserves through strategic planning, engaging local communities in conservation, and initiating species recovery plans for critically endangered species.',
+      sourceIds: ['one-earth-eco-248'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:tamaraw',
+      'species:mindoro-scops-owl',
+      'species:mindoro-hornbill',
+      'species:mindoro-imperial-pigeon',
+      'species:philippine-crocodile',
+    ],
+    countryIds: ['PH'],
+    sources: ['one-earth-eco-248'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:262',
+    summary: {
+      value:
+        'Palawan Rainforests cover Palawan and its peripheral islands, a biodiversity last frontier that was connected to Borneo during the last ice age and so blends Philippine and Sundaic species. Nearly half the terrain is steep and mountainous, and over 85 percent of the ecoregion is formally protected, including the huge Palawan Game Refuge and Bird Sanctuary.',
+      sourceIds: ['one-earth-eco-262'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Palawan and its peripheral islands',
+        'nearly half the topography steep and mountainous',
+        'Victoria Peak with a large ultramafic forest in south-central Palawan',
+        'island that connected to Borneo during the last ice age when sea levels dropped',
+      ],
+      sourceIds: ['one-earth-eco-262'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with a three-month dry season and rain for the rest of the year, torrential rains from tropical depressions in northern Palawan from July to August, and an average maximum temperature of 31°C with little annual variation.',
+      },
+      sourceIds: ['one-earth-eco-262'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'beach forest of Calophyllum inophyllum, Canarium asperum, Pometia pinnata, and species of Ficus',
+        'lowland evergreen dipterocarp rainforest dominated by Dipterocarpus gracilis and D. grandiflorus, Swintonia foxworthyi, and Dracontomelon dao',
+        'montane forest dominated by Agathis philippinensis, Dacrydium pectinatum, Podocarpus polystachyus, and Cinnamomum rupestre',
+        'limestone forest with species of Euphorbia, Aglaia, Antidesma, Drypetes, Gomphandra, Sterculia, and Pleomele',
+        'ultramafic forest with heavy metal indicator trees and the endemic pitcher plant Nepenthes philippinensis',
+      ],
+      sourceIds: ['one-earth-eco-262'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'over 3,500 flowering plant species with 20% endemism',
+        'last ice age connection to Borneo allowing exchange of terrestrial fauna',
+        'a blend of Philippine and Sundaic biodiversity',
+        'an immigration pathway from mainland Asia into the Philippines through Palawan',
+      ],
+      sourceIds: ['one-earth-eco-262'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 95% for the ecoregion. Over 85% of the ecoregion is formally protected, including the large Palawan Game Refuge and Bird Sanctuary covering the whole island, though the status of its protection and management is unclear. Priorities are a strategically selected network of protected areas, further biodiversity surveys, and engaging local communities in conservation.',
+      sourceIds: ['one-earth-eco-262'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:palawan-pangolin',
+      'species:calamian-deer',
+      'species:palawan-bearded-pig',
+      'species:palawan-peacock-pheasant',
+      'species:philippine-cockatoo',
+    ],
+    countryIds: ['PH'],
+    sources: ['one-earth-eco-262'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:267',
+    summary: {
+      value:
+        'South China Sea Islands is a scattered ecoregion of over 250 islands, atolls, and shoals in three archipelagos, with limited terrestrial biodiversity but teeming coral reefs beneath the waves. It hosts globally significant seabird colonies, including about 10% of the global red-footed booby population, and important nesting beaches for green and hawksbill turtles.',
+      sourceIds: ['one-earth-eco-267'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'over 250 islands, atolls, and shoals scattered through the South China Sea',
+        'three archipelagos: the Pratas, Paracel Islands, and the highly disputed Spratly Islands',
+        'scattered over a shallow continental shelf averaging 200 m in depth',
+        'sea floor dropping over 5,000 m into the Palawan Trough near the Spratly Islands',
+        'minimal land area above sea level',
+      ],
+      sourceIds: ['one-earth-eco-267'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical in the Spratly Islands with average annual temperatures near 27°C, a seven-month dry season and five-month rainy season bringing about 1,800 to 2,200 mm of rainfall; the more northern Pratas Islands are slightly cooler at about 25°C with about 1,350 mm of rainfall.',
+        annualPrecipitationMm: { min: 1350, max: 2200 },
+      },
+      sourceIds: ['one-earth-eco-267'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'scrub and beach vegetation dominated by Cordia subcordata, Scaevola sericea, and Terminalia catappa',
+        '48 recorded vascular plant species on the Spratly Islands',
+        'Paracel Island vegetation dominated by Pisonia grandis, Guettarda speciosa, Scaevola sericea, and Messerschmidia argentea',
+        '212 wild vascular plant species recorded overall, with flora similar to that of Hainan Island',
+      ],
+      sourceIds: ['one-earth-eco-267'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'over 600 highly diverse coral reefs surrounding the Spratly Islands',
+        'globally important seabird breeding colonies, including about 10% of the world red-footed boobies on Dong Island',
+        'nesting beaches for green turtles and hawksbill turtles',
+        'undersea abyss formed during the Cenozoic along with the Himalayan Mountains',
+      ],
+      sourceIds: ['one-earth-eco-267'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection goal of 0% for this disputed ecoregion. Development and military activity are the greatest threats, with dredging, filling, airstrips, and helipads expanding some islands and degrading the surrounding coral reefs, alongside egg collection and guano mining. Priorities are protecting the breeding bird colonies, conserving the remaining coral reefs, and preventing introductions of invasive species.',
+      sourceIds: ['one-earth-eco-267'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:red-footed-booby',
+      'species:brown-booby',
+      'species:greater-frigatebird',
+      'species:green-sea-turtle',
+      'species:hawksbill-sea-turtle',
+    ],
+    countryIds: ['CN', 'PH'],
+    sources: ['one-earth-eco-267'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:276',
+    summary: {
+      value:
+        'Sulu Archipelago Rainforests cover a chain of islands between Borneo and Mindanao that formed from undersea volcanoes within the past 15 million years. Deep-water isolation kept its fauna more similar to the rest of the Philippines than to the Sunda Shelf, leaving endemic birds such as the Sulu bleeding-heart, Sulu hornbill, and blue-winged racket-tail at risk of extinction.',
+      sourceIds: ['one-earth-eco-276'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'chain of islands between Borneo and Mindanao',
+        'Jolo and Tawitawi as the two larger islands',
+        'island arc created from undersea volcanoes within the past 15 million years',
+        'islands lying outside the shallow Sunda Shelf',
+      ],
+      sourceIds: ['one-earth-eco-276'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical and humid for most of the year but with only about 2,000 mm of annual rainfall, which is relatively little for tropical islands, constant temperatures around 27°C, and location just south of the main typhoon track.',
+        annualPrecipitationMm: { min: 2000, max: 2000 },
+      },
+      sourceIds: ['one-earth-eco-276'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'beach forest of Barringtonia, Caesalpinia, and Terminalia, mostly cleared for coastal development and coconut plantations',
+        'lowland rainforest formerly dominated by Anisoptera, Dipterocarpus, Hopea, and Shorea',
+        'scrub forest of which hardly any original stands remain',
+        'mangroves of Rhizophora, Ceriops, Bruguiera, Sonneratia, Avicennia, and Nypa palms',
+      ],
+      sourceIds: ['one-earth-eco-276'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'deep-water isolation keeping the fauna more similar to Philippine than Sundaic fauna',
+        'the islands remaining unconnected to the mainland even when Sunda Shelf islands were linked during low sea levels',
+        'ongoing description of small endemic species, from small mammals to geckos',
+      ],
+      sourceIds: ['one-earth-eco-276'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 48% for the ecoregion, with only one protected area, on Basilan Island. Forests and biodiversity otherwise remain unprotected and threatened by conversion, illegal capture, and hunting, while political instability hampers conservation and the Sulu bleeding-heart has not been sighted since 1891. Priorities are adding forests, especially Key Biodiversity Areas on the larger islands, to the protected areas network, engaging local communities, and conducting comprehensive biological surveys.',
+      sourceIds: ['one-earth-eco-276'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sulu-bleeding-heart',
+      'species:tawitawi-brown-dove',
+      'species:sulu-hornbill',
+      'species:blue-winged-racket-tail',
+      'species:tawitawi-island-rat',
+    ],
+    countryIds: ['PH'],
+    sources: ['one-earth-eco-276'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:303',
+    summary: {
+      value:
+        'Luzon Tropical Pine Forests grow on the Central Cordillera Mountains of Luzon, where Khasia pine forms open forests with a sparse grass understory and mixed broadleaf stands. Some disturbance from fire and shifting cultivation appears to maintain these pine woodlands, which support the endemic elegant tit, red crossbill, deer, warty pigs, and long-tailed macaques.',
+      sourceIds: ['one-earth-eco-303'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'tropical pine forest on the Central Cordillera Mountains of Luzon Island',
+        'mountains originated from volcanic and tectonic activity of the Australian and Asian plates',
+        'island created as undersea volcanoes erupted, emerged, and coalesced',
+        'pines abundant at about 600 m and most common on steep slopes between 1,000 and 2,000 m',
+      ],
+      sourceIds: ['one-earth-eco-303'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Seasonal, concentrating most of the 2,500 mm annual rainfall in the July to August monsoon, with rainfall possibly exceeding 4,000 mm in years with typhoons from the South China Sea, a pronounced dry season from November to April, and temperatures averaging 15 to 20°C.',
+        annualPrecipitationMm: { min: 2500, max: 4000 },
+        temperatureC: { min: 15, max: 20 },
+      },
+      sourceIds: ['one-earth-eco-303'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dominant Khasia pine, also known as Benguet or Luzon pine',
+        'sparse understory usually composed of grasses',
+        'montane broadleaf forest interdigitating with pine forest in many places',
+        'mixed broadleaf and pine forest',
+      ],
+      sourceIds: ['one-earth-eco-303'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'pine forests probably maintained by anthropogenic shifting cultivation and fires',
+        'periodic disturbance maintaining forest succession at intermediate stages and preventing reversion to broadleaf forest',
+        'pollen and charcoal evidence linking fire to large areas of pine',
+        'the ecoregion supporting several endemic rats and mice, including cloud rats and earthworm mice',
+      ],
+      sourceIds: ['one-earth-eco-303'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 91% for the ecoregion. Although heavily logged and burned, almost 20% of the ecoregion is formally protected and over 60% of pine habitat remains outside, and complete protection is likely unnecessary because some disturbance helps maintain the pine forests. Priorities are monitoring balanced disturbance and recovery, tracking large mammals and endemic species as the range shifts, and a regional conservation plan for this and neighboring rainforest ecoregions.',
+      sourceIds: ['one-earth-eco-303'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:elegant-tit',
+      'species:red-crossbill',
+      'species:khasi-pine',
+      'species:philippine-brown-deer',
+      'species:philippine-warty-pig',
+    ],
+    countryIds: ['PH'],
+    sources: ['one-earth-eco-303'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:219',
+    summary: {
+      value:
+        'The Borneo Lowland Rainforests represent the lowland forests of Borneo, which formed part of a single landmass with Java and Sumatra on the shallow Sunda Shelf before rising sea levels isolated the islands. Borneo\u2019s extraordinarily rich forests, the inspiration for Alfred Russel Wallace\u2019s writings on biogeography, are dominated by more than 260 species of Dipterocarpaceae, over 155 of them endemic, with over 15,000 plant species known from the island.',
+      sourceIds: ['one-earth-eco-219'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lowland forests of Borneo, once connected to Java, Sumatra, and the Asian mainland on the shallow Sunda Shelf',
+        'complex geology of limestone, volcanic rocks, schist-gneiss complexes, and sedimentary rocks',
+        'multi-layered forest with a 24-36 m canopy and emergent trees towering to 65 m',
+      ],
+      sourceIds: ['one-earth-eco-219'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with over 4,000 mm of annual rainfall distributed through the year, temperatures of 27 to 32 degrees Celsius, and high relative humidity of around 80%.',
+      },
+      sourceIds: ['one-earth-eco-219'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'canopy dominated by species of Dipterocarpus, Dryobalanops, Shorea, Hopea, and Vatica',
+        'sub-canopy of Euphorbiaceae, Rubiaceae, Annonaceae, Lauraceae, and Myristicaceae draped with lianas, orchids, and epiphytic ferns',
+        'Burseraceae and Sapotaceae emergents towering to 65 m',
+        'Rafflesia arnoldii bearing the world\u2019s largest flower, reaching over 1 m across',
+      ],
+      sourceIds: ['one-earth-eco-219'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'isolation by rising sea levels after the Pleistocene Sunda Shelf connection',
+        'hornbills dispersing seeds and maintaining forest biodiversity',
+        'Rafflesia flowers emitting a rotting-meat smell to attract insect pollinators',
+        'partition of habitat, food, and activity times among 11 coexisting primate species',
+      ],
+      sourceIds: ['one-earth-eco-219'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 69% with a protection level of 1. About half the primary forest has been cleared or degraded, with over 1,300 km2 lost annually and only 8% of the remaining forest protected, leaving flora and fauna highly vulnerable to oil palm, rubber, paper and pulp plantations, commercial logging, and hunting. Priorities are to stop clearing intact rainforests, bring additional forests under a conservation umbrella based on systematic biodiversity analysis, and engage indigenous communities in conservation.',
+      sourceIds: ['one-earth-eco-219'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sunda-clouded-leopard',
+      'species:bornean-orangutan',
+      'species:proboscis-monkey',
+      'species:asian-elephant',
+      'species:white-crowned-shama',
+    ],
+    countryIds: ['ID', 'MY', 'BN'],
+    sources: ['one-earth-eco-219'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:220',
+    summary: {
+      value:
+        'The Borneo Montane Rainforests represent the montane forests along the central spine of Borneo, described as a montane archipelago in an ocean of lowland dipterocarp forests. The climate ranges from tropical in the lower elevations to alpine at the highest peaks, including the 4,095 m Mount Kinabalu, and the mountains receive over 3,000 mm of annual rainfall.',
+      sourceIds: ['one-earth-eco-220'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'montane forests along the central spine of Borneo',
+        'a montane archipelago in an ocean of lowland dipterocarp forests',
+        'the 4,095 m Mount Kinabalu and surrounding high peaks',
+        'primarily old volcanic rocks and mélange of continental origin',
+      ],
+      sourceIds: ['one-earth-eco-220'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical in the lower elevations and alpine at the highest peaks, with over 3,000 mm of annual rainfall and cloud-derived moisture in the upper montane forests.',
+      },
+      sourceIds: ['one-earth-eco-220'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'flora with links to both Asian and Australian plant families',
+        'lowland Dipterocarpaceae transitioning to oak, beech, and chestnut forest around 1,200 m',
+        'an Ericaceae-dominated belt above 1,500 m with over 40 species of Rhododendron',
+        'alpine vegetation on the highest peaks',
+      ],
+      sourceIds: ['one-earth-eco-220'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'evolution of endemic species and subspecies following isolation since the late Pleistocene',
+        'cloud moisture supplementing rainfall in the upper montane forests',
+        'the extremely rare and cryptic Bornean bay cat, one of the rarest wild cats in the world',
+        'still little-explored montane heartland of Borneo',
+      ],
+      sourceIds: ['one-earth-eco-220'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 98% with a protection level of 2. Almost three-fourths of the ecoregion\u2019s forests remain intact, with about 25% under protection, including Kayan Mentarang and Betung Kerihun national parks in Kalimantan within the Heart of Borneo initiative, while commercial logging, oil palm plantations, forest fires, and illegal logging remain significant threats. Priorities are strengthening protected area management, maintaining ecological linkages through sustainable land uses and community stewardship, and regulating and zoning plantations and logging concessions.',
+      sourceIds: ['one-earth-eco-220'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:bornean-orangutan',
+      'species:sunda-clouded-leopard',
+      'species:bornean-bay-cat',
+      'species:asian-elephant',
+    ],
+    countryIds: ['ID', 'MY', 'BN'],
+    sources: ['one-earth-eco-220'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:221',
+    summary: {
+      value:
+        'The Borneo Peat Swamp Forests represent the peat swamps along the coasts of Borneo and around the inland lakes associated with the Mahakam and Kapuas rivers. Waterlogged, acidic clay soils create anaerobic conditions that slow decomposition, and over thousands of years the accumulated biomass has formed peat layers over 20 m deep in habitats important for the endemic proboscis monkey.',
+      sourceIds: ['one-earth-eco-221'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'peat swamps lining the coasts of Borneo',
+        'clusters of inland lakes associated with the Mahakam and Kapuas rivers',
+        'areas waterlogged for most of the year',
+        'acidic clay soils supporting peat layers over 20 m deep',
+      ],
+      sourceIds: ['one-earth-eco-221'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical and waterlogged for much of the year, with acidic, anaerobic soils that slow decomposition and keep the peaty substrate wet.',
+      },
+      sourceIds: ['one-earth-eco-221'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'trees with stilt roots, buttresses, and pneumatophores adapted to anoxic soils',
+        'dominance of Gonystylus bancanus, Dactylocladus stenostachys, and Copaifera palustris',
+        'six species of Shorea, with Shorea albida sometimes forming pure stands',
+        'Dacrydium beccarii and Casuarina replacing Shorea in northern Borneo',
+        'over thirty palm species, including the red-stemmed sealing wax palm',
+      ],
+      sourceIds: ['one-earth-eco-221'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'thousands of years of peat accumulation in anaerobic conditions',
+        'very high densities of endemic primates supported by intact peat forest',
+        'the golden arowana inhabiting the rivers and sloughs',
+        'drained peat burning and releasing vast smoke and carbon dioxide',
+      ],
+      sourceIds: ['one-earth-eco-221'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 53% with a protection level of 3. Only about 14% of the ecoregion is protected, and most peat swamps have been drained and set on fire, generating regional haze, health problems, and high CO2 emissions, while valuable timber such as Gonystylus bancanus is logged. Priorities are a moratorium on further development, gazetting intact peat swamps as totally protected areas, allowing development only in degraded areas, and safeguarding the freshwater ecosystem services of peat swamps.',
+      sourceIds: ['one-earth-eco-221'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:proboscis-monkey',
+      'species:bornean-orangutan',
+      'species:sunda-clouded-leopard',
+      'species:siamese-crocodile',
+      'species:water-monitor-lizard',
+    ],
+    countryIds: ['ID', 'MY', 'BN'],
+    sources: ['one-earth-eco-221'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:273',
+    summary: {
+      value:
+        'The Southwest Borneo Freshwater Swamp Forests represent the freshwater swamp forests that line the southern and western coast of Borneo in Indonesian Kalimantan. The rivers meander through flat, low-lying alluvial floodplains that flood periodically and remain waterlogged for part of the year, but unlike the adjacent peat forests these swamps are flushed out and less acidic.',
+      sourceIds: ['one-earth-eco-273'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'freshwater swamp forests along the southern and western coast of Borneo in Kalimantan',
+        'flat, low-lying alluvial floodplains crossed by meandering rivers',
+        'periodically flooded and waterlogged for part of the year',
+        'less acidic than adjacent peat forests, with biomass flushed out by water flow',
+      ],
+      sourceIds: ['one-earth-eco-273'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical and wet, with periodic flooding that keeps the alluvial floodplains waterlogged for part of the year.',
+      },
+      sourceIds: ['one-earth-eco-273'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dense and diverse forest with trees taller than those of the peat swamps, the canopy reaching over 35 m',
+        'species shared with lowland rainforests, including Adina, Alstonia, Dillenia, Eugenia, Ficus, Shorea, and Vatica',
+        'tall legumes such as Koompassia and Calophyllum, and the swamp sago Metroxylon sagu',
+        'lianas and epiphytes adding structural complexity for arboreal fauna',
+        'floating mats of grasses in slow-flowing water',
+      ],
+      sourceIds: ['one-earth-eco-273'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'periodic flooding flushing the swamps and preventing peat accumulation',
+        'freshwater outflow from the Kalimantan rivers',
+        'hornbills dispersing seeds and maintaining forest diversity',
+        'the amphibious, nocturnal otter civet hunting in both water and trees',
+      ],
+      sourceIds: ['one-earth-eco-273'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 46% with a protection level of 3. These swamps have been extensively drained and converted to rice and other agriculture and plantations, and gold mining is widespread, yet about 60% of the forests remain intact, including parts of Tanjung Puting and Sebangau national parks. Priorities are restoring forests affected by drainage canals and timber extraction, stopping further logging, mining, and draining, and valuing freshwater provision as an ecosystem service in development decisions.',
+      sourceIds: ['one-earth-eco-273'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:otter-civet',
+      'species:bornean-orangutan',
+      'species:proboscis-monkey',
+      'species:sunda-clouded-leopard',
+      'species:siamese-crocodile',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-273'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:281',
+    summary: {
+      value:
+        'The Sundaland Heath Forests, known as Kerangas in Borneo, grow on extremely nutrient-poor, acidic, and sandy white-sand soils on sandstone plateaus, ridges, and beaches raised from the seabed. These forests support a high diversity of carnivorous plants, including an estimated 39 species of Nepenthes pitcher plants, sundews, and bladderworts that derive their nutrients from trapped insects.',
+      sourceIds: ['one-earth-eco-281'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'forests growing on patches of white-sand soils',
+        'sandstone plateaus and ridges',
+        'beaches raised from the seabed during the mid-Pleistocene',
+        'well-drained acidic soils that leach nutrients',
+      ],
+      sourceIds: ['one-earth-eco-281'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with heavy rainfall leaching the sandy, acidic soils and leaving them extremely poor in nutrients.',
+      },
+      sourceIds: ['one-earth-eco-281'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'low, dense, single-layered canopy of trees rarely exceeding 20 m',
+        'pole-like trees with few buttress roots',
+        'upper canopy species including Agathis borneensis, Casuarina, Cotylelobium burckii, and Shorea ovata',
+        'abundant epiphytes adding structural complexity',
+        'sparse ground cover of carnivorous plants, mosses, and liverworts',
+      ],
+      sourceIds: ['one-earth-eco-281'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'nutrient-poor soils depressing plant productivity and increasing plant alkaloid defenses',
+        'mutualism between large pitcher plants and tree shrews providing nitrogen',
+        'herbivorous primates and frugivorous birds scarce in the impoverished forest',
+        'degradation into open padang savanna from which recovery is slow',
+      ],
+      sourceIds: ['one-earth-eco-281'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 50% with a protection level of 2. Kerangas are not spared from fires set for commercial logging and agriculture, and once degraded they develop into open padang savanna from which restoration through replanting has proved ineffective. Priorities are stopping illegal logging and land clearing, revoking concessions contiguous with or important to protected areas, and expanding the protected area system.',
+      sourceIds: ['one-earth-eco-281'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:bornean-white-bearded-gibbon',
+      'species:raffles-pitcher-plant',
+      'species:sun-bear',
+      'species:bornean-orangutan',
+    ],
+    countryIds: ['ID', 'MY'],
+    sources: ['one-earth-eco-281'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:313',
+    summary: {
+      value:
+        'The Kinabalu Montane Alpine Meadows represent the alpine and subalpine meadows and shrublands of the Kinabalu and Crocker ranges, straddling the 4,095 m peak of Mount Kinabalu. It is the highest and sole alpine ecoregion in Southeast Asia, formed on geologically young mountains that were glaciated during the Pleistocene and are still rising at about 5 mm a year.',
+      sourceIds: ['one-earth-eco-313'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'alpine and subalpine meadows and shrublands of the Kinabalu and Crocker ranges',
+        'the 4,095 m peak of Mount Kinabalu towering above the lowland rainforests',
+        'subalpine zone beginning at about 3,000 to 3,400 m',
+        'Low\u2019s Gully plunging from 3,900 m to 1,800 m',
+        'deep chasms and ravines left by the melted ice cap',
+      ],
+      sourceIds: ['one-earth-eco-313'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Alpine and subalpine, with strong winds that stunt and gnar the trees, and ground frost above 3,700 m creating an eerie moonscape of stone.',
+      },
+      sourceIds: ['one-earth-eco-313'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'subalpine tall shrubs and low trees of Rhododendron, Leptospermum, Tristaniopsis, Dacrydium, and Gymnostoma',
+        'stunted, gnarled trees shaped by the harsh climate and strong winds',
+        'about half of Borneo\u2019s 30 pitcher plant species, including the enormous endemic Nepenthes rajah',
+        'subalpine meadows of potentillas, buttercups, eyebrights, and gentians, including the endemic Low\u2019s buttercup',
+        'a hotspot of over 866 orchid species and subspecies from 134 genera',
+      ],
+      sourceIds: ['one-earth-eco-313'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'recent deglaciation about 3,000 years ago leaving deep chasms and ravines',
+        'mountain still rising at about 5 mm a year',
+        'ultramafic, low-nutrient soils favoring carnivorous plants',
+        'upward migration of species as the climate warms',
+      ],
+      sourceIds: ['one-earth-eco-313'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 100% with a protection level of 8. About one-third of this fragile high-altitude ecoregion is protected by Kinabalu Park, but increasing visitation threatens biodiversity, with visitors collecting plants, especially orchids, and climate change causing species displacement. Priorities are regulating visitation and visitor behavior, preventing collection of rare and endangered plants, and monitoring key species as indicators of ecosystem change.',
+      sourceIds: ['one-earth-eco-313'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:raffles-pitcher-plant',
+      'species:kinabalu-giant-red-leech',
+      'species:bornean-black-shrew',
+    ],
+    countryIds: ['MY'],
+    sources: ['one-earth-eco-313'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:322',
+    summary: {
+      value:
+        'The Sunda Shelf Mangroves line the coasts of the islands of Borneo and Sumatra astride the geologically active Ring of Fire, where earthquakes, volcanic activity, frequent cyclones, and extreme tides batter the coastlines. These mangroves are the first line of defense against erosion and tsunamis, ranking among the most biologically diverse places on Earth with about 28 species of mangrove trees.',
+      sourceIds: ['one-earth-eco-322'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'coastlines of Borneo and Sumatra astride the geologically active Ring of Fire',
+        'mangrove-lined deltas and estuaries',
+        'seaward sediments facing powerful wave surges',
+        'softer and deeper inland muds',
+      ],
+      sourceIds: ['one-earth-eco-322'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical coastal, with frequent cyclones and extreme tidal fluctuations generating powerful wave surges that batter the coastlines.',
+      },
+      sourceIds: ['one-earth-eco-322'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'about 28 species of mangrove trees, among the most biologically diverse mangrove forests on Earth',
+        'Avicennia and Sonneratia forests dominating the seaward sediments',
+        'Rhizophora and Bruguiera forests on the softer, deeper inland muds',
+        'Nypa palm communities where soils are firmer and freshwater influence is greater',
+        'pioneer Avicennia marina, A. alba, and Sonneratia caseolaris forming coastal shrub communities',
+      ],
+      sourceIds: ['one-earth-eco-322'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'mangrove zonation determined by soil conditions, salinity, and tidal regime',
+        'mature mangroves absorbing and dissipating tsunami hydrodynamic forces',
+        'mangroves serving as nurseries for fishes and other marine life',
+        'coastal defense against erosion in one of the most geologically active places on Earth',
+      ],
+      sourceIds: ['one-earth-eco-322'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 52% with a protection level of 3. About half the mangroves remain, with most degraded and threatened by logging, shrimp farms, and agriculture conversion, while trees are harvested for fuelwood, charcoal, and timber. Priorities are protecting the remaining mangroves for biodiversity and ecosystem functions, including coastal defense, stopping further clearing for shrimp farms, and restoring mangroves in vulnerable areas.',
+      sourceIds: ['one-earth-eco-322'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:proboscis-monkey',
+      'species:estuarine-crocodile',
+      'species:green-sea-turtle',
+      'species:hawksbill-sea-turtle',
+      'species:water-monitor-lizard',
+    ],
+    countryIds: ['ID', 'MY', 'BN'],
+    sources: ['one-earth-eco-322'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:227',
+    summary: {
+      value:
+        'Christmas Island and the Cocos (Keeling) Islands are the exposed peaks of ancient submarine volcanoes rising over 5,000 m from the Indian Ocean floor, isolated far from any large landmass. The remoteness and small size of the islands support a depauperate flora and fauna, but also high levels of endemism among species that colonized by swimming or rafting and then evolved in isolation.',
+      sourceIds: ['one-earth-eco-227'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'two ancient submarine volcano peaks rising over 5,000 m from the Indian Ocean floor',
+        'Christmas Island reaching 300 m in a series of stepped coral-limestone terraces',
+        'Cocos Islands with a high point of only a 9 m sand dune',
+        'islands almost 1,000 km apart and 300 to 1,100 km from Java',
+      ],
+      sourceIds: ['one-earth-eco-227'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with warm humid conditions near 29 degrees Celsius and 80% relative humidity, and annual rainfall of about 2,000 mm falling mostly during the northwest monsoon from December to April.',
+      },
+      sourceIds: ['one-earth-eco-227'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Christmas Island forests of Indo-Malayan and Melanesian trees forming an evergreen canopy of 30 to 40 m',
+        'sparse understory of the endemic palm Arenga listeri and screw pine Pandanus elatus',
+        'canopy species including Planchonella nitida, Syzygium nervosum, Tristiropsis acutangula, Inocarpus fagifer, and Hernandia ovigera',
+        'Pisonia grandis dominating sheltered forest on North Keeling Island',
+        'most Cocos forest replaced by coconut plantations',
+      ],
+      sourceIds: ['one-earth-eco-227'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'massive rainy-season migration of Christmas Island red crabs from forest to coastal breeding grounds',
+        'colonization of the remote islands by species able to swim or raft',
+        'evolution in isolation producing species distinct from their mainland relatives',
+      ],
+      sourceIds: ['one-earth-eco-227'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 36% with a protection level of 3. Most Christmas Island forest remains intact, with 63% covered by a national park, but the forests outside it are highly vulnerable to phosphate mining and are important nesting habitat, especially for Abbott\u2019s booby; on Cocos, human disturbance and nest poaching still threaten wildlife. Priorities are continuing restoration of degraded areas, controlling cat and rat populations, and strengthening protection of bird nesting colonies, especially on North Keeling Island.',
+      sourceIds: ['one-earth-eco-227'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:christmas-island-red-crab',
+      'species:abbotts-booby',
+      'species:christmas-island-hawk-owl',
+      'species:cocos-buff-banded-rail',
+      'species:blue-tailed-snake-eyed-skink',
+    ],
+    countryIds: ['CX', 'CC'],
+    sources: ['one-earth-eco-227'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:229',
+    summary: {
+      value:
+        'The Eastern Java-Bali Montane Rainforests represent the forests of the central mountains of eastern Java and Bali, formed by a row of about twenty active and dormant volcanoes along the Ring of Fire. Java emerged during the Miocene about 26 million years ago as coalescing volcanoes, while Bali rose from the sea more recently, during the Pliocene.',
+      sourceIds: ['one-earth-eco-229'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'central mountains of eastern Java and Bali',
+        'a row of about twenty active and dormant volcanoes along the Ring of Fire',
+        'volcanic topography formed by coalescing eruptions over the Miocene and Pliocene',
+        'mountain tops that now hold most of the remaining protected forest',
+      ],
+      sourceIds: ['one-earth-eco-229'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical monsoonal, with average annual rainfall in Java of about 1,900 mm and a rainy period between December and February; mountain temperatures average about 21 degrees Celsius but fall much lower at higher elevations.',
+      },
+      sourceIds: ['one-earth-eco-229'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'evergreen rainforest of Artocarpus elasticus, Dysoxylum caulostachyum, Lansium domesticum, and Planchonia valida',
+        'moist deciduous forest of Homalium tomentosum, Albizia lebbekoides, Cassia fistula, and Tetrameles nudiflora in drier areas',
+        'subtropical Lithocarpus, Quercus, Castanopsis, Lauraceae, Magnoliaceae, and Podocarpaceae dominating above 1,200 m',
+        'Ericaceae shrubs including Rhododendron, Vaccinium, and Gaultheria becoming common above 3,000 m',
+      ],
+      sourceIds: ['one-earth-eco-229'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'montane forests serving as refuge for the critically endangered Javan leopard',
+        'isolation of the endangered Javan grizzled langur on Gunung Lawu',
+        'extinction of tigers from both Java and Bali',
+        'mountains delivering clean freshwater to the densely populated lowlands',
+      ],
+      sourceIds: ['one-earth-eco-229'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 52% with a protection level of 1. Java has one of the highest human population densities in Asia, and upward migration into montane areas to clear forests and settle continues, with about 10% of the ecoregion protected, mostly as isolated reserves covering mountain tops. Priorities are designing and protecting a landscape-scale reserve network with lowland-montane linkages, stopping wildlife poaching, and halting encroachment into important montane water sources.',
+      sourceIds: ['one-earth-eco-229'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:javan-leopard',
+      'species:javan-lutung',
+      'species:java-mouse-deer',
+      'species:javan-hawk-eagle',
+      'species:bali-myna',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-229'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:230',
+    summary: {
+      value:
+        'The Eastern Java-Bali Rainforests represent the lowland moist forests of the eastern half of the island of Java, Bali, and the smaller islands off their northern coasts. Much of the original biodiversity was driven to the brink of extinction by centuries of clearing for rice paddies and other crops, with the endemic Bali myna now holding out in isolated protected forest patches and the Bali tiger extirpated.',
+      sourceIds: ['one-earth-eco-230'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lowland moist forests of the eastern half of the island of Java and Bali',
+        'smaller islands off the northern coasts of both',
+        'volcanic islands lying along the Ring of Fire',
+        'karst limestone caves of the Kangean Islands serving as refugia for bats',
+      ],
+      sourceIds: ['one-earth-eco-230'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Drier than western Java, with average annual rainfall of 1,500 to 4,000 mm and a four to six-month dry season; the lowland forests are predominantly moist deciduous, turning semi-evergreen along the moister south coast.',
+      },
+      sourceIds: ['one-earth-eco-230'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'sparse forest canopy with few trees exceeding 25 m',
+        'common lowland deciduous trees including Homalium tomentosum, Albizia lebbekoides, Cassia fistula, and Tetrameles nudiflora',
+        'semi-evergreen rainforest of Artocarpus elasticus, Dysoxylum caulostachyum, Lansium domesticum, and Planchonia valida',
+        'no single plant family dominating the forests of Java, unlike other Asian rainforests',
+      ],
+      sourceIds: ['one-earth-eco-230'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fruit bats pollinating and dispersing seeds, including the cave nectar bat pollinating durian trees',
+        'Kangean limestone caves sheltering most of the islands\u2019 15 bat species',
+        'extinction of tigers on both islands, with the Javan leopard surviving tenaciously',
+      ],
+      sourceIds: ['one-earth-eco-230'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 13% with a protection level of 2. Logging concessions, agriculture, and infrastructure to support a burgeoning human population and economy have taken a huge toll on the natural ecosystems, with only 3% of the ecoregion under formal protection and wildlife extensively hunted. Priorities are public awareness campaigns to stop poaching, restoring and protecting linkages between lowland and montane habitats, and initiating in-situ recovery plans for critically endangered species.',
+      sourceIds: ['one-earth-eco-230'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:bali-myna',
+      'species:javan-leopard',
+      'species:banteng',
+      'species:javan-warty-pig',
+      'species:kuhls-deer',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-230'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:288',
+    summary: {
+      value:
+        'The Western Java Montane Rainforests follow the long row of more than 30 volcanic craters and calderas of West and Central Java, standing sentinel over the island. These mountains act as refugia for wildlife displaced by the destruction of lowland forest, with the Javan tiger extinct since 1976 and many endemic species now endangered and isolated on mountain-top remnants.',
+      sourceIds: ['one-earth-eco-288'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'montane forests of West and Central Java',
+        'a row of more than 30 craters and calderas of active and dormant volcanoes',
+        'island born of geological subduction and re-melting along the deep Java trench',
+        'mountain-top refugia isolating endemic populations',
+      ],
+      sourceIds: ['one-earth-eco-288'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical montane, ever-wet in the west with more drought-tolerant, drier forest toward the east, and Rhododendron shrublands with a rich sub-alpine community above 3,000 m.',
+      },
+      sourceIds: ['one-earth-eco-288'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'evergreen rainforest of Artocarpus elasticus, Dysoxylum caulostachyum, Lansium domesticum, and Planchonia valida',
+        'subtropical assemblage of Lithocarpus, Quercus, Castanopsis, Magnoliaceae, Hamamelidaceae, and Podocarpaceae above 1,200 m',
+        'Rhododendron shrubs and a rich sub-alpine shrub and herb community above 3,000 m',
+        'Rafflesia rochussenii growing as a parasite on Tetrastigma climbing vines',
+      ],
+      sourceIds: ['one-earth-eco-288'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'west-to-east floristic turnover, with over 50% of the island\u2019s orchids found only in West Java',
+        'mountain-top refugia for endemics such as the Javan leopard, Javan lutung, and Javan gibbon',
+        'extinction of the Javan tiger and increasing isolation of surviving species',
+        'volcanic, subduction-driven origins along the deep Java trench',
+      ],
+      sourceIds: ['one-earth-eco-288'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 57% with a protection level of 1. The steep terrain has largely spared the forests, but as demand for lowland land increases, farmers and industries are encroaching into the mountains, disrupting groundwater recharge and environmental flows. Priorities are stopping illegal logging and forest clearing on steep slopes, connecting protected areas with habitat linkages, and stopping wildlife poaching.',
+      sourceIds: ['one-earth-eco-288'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:javan-lutung',
+      'species:silvery-gibbon',
+      'species:javan-hawk-eagle',
+      'species:javan-leopard',
+      'species:javan-grizzled-langur',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-288'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:289',
+    summary: {
+      value:
+        'The Western Java Rainforests represent the lowland rainforests of western and central Java, an island formed of volcanoes along the Ring of Fire that now dominate its topography. The small Ujung Kulon peninsula at the westernmost coast is the last refuge of the Javan rhinoceros, of which only an estimated 58 to 68 animals survive.',
+      sourceIds: ['one-earth-eco-289'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lowland rainforests of western and central Java',
+        'volcanic topography along the Ring of Fire',
+        'the isolated Ujung Kulon peninsula jutting from the westernmost coast',
+        'rain shadows cast by the mountains',
+      ],
+      sourceIds: ['one-earth-eco-289'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with two seasons; the October to April wet season brings 2,100 to 4,000 mm of rain depending on location and rain shadows, with a dry season lasting from May to September, temperatures averaging about 29 degrees Celsius, and humidity at 75%.',
+      },
+      sourceIds: ['one-earth-eco-289'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'mostly evergreen rainforest, with semi-evergreen, moist deciduous, and dry deciduous forest in the drier northern areas',
+        'no single tree family dominating the forests of Java, unlike other Asian forests',
+        'abundant evergreen trees including Artocarpus elasticus, Dysoxylum caulostachyum, Lansium domesticum, and Planchonia valida',
+        'semi-evergreen forests with Kleinhovia hospita, Garuga floribunda, and species of Pterospermum',
+        'Borassus and Corypha palms in the deciduous forests',
+      ],
+      sourceIds: ['one-earth-eco-289'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'mountains casting rain shadows that shape forest type',
+        'primates such as the Javan lutung and Javan gibbon requiring forest canopy connectivity to persist',
+        'the lowland forests as the last stand of the Javan rhinoceros after the Javan tiger went extinct in 1976',
+        'increasingly isolated populations of fishing cat, Asiatic wild dog, Javan warty pig, and banteng',
+      ],
+      sourceIds: ['one-earth-eco-289'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 25% with a protection level of 1. Java is one of the most densely populated islands in the world, and almost all the natural forests have been converted for human use, with only about 2% protected in small, isolated reserves where farming and logging still occur and poaching remains rampant. Priorities are revoking timber and plantation concessions in high-biodiversity areas and instituting a moratorium, mounting a major public awareness campaign on forest values, and stopping the poaching of threatened wildlife.',
+      sourceIds: ['one-earth-eco-289'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:javan-rhinoceros',
+      'species:javan-slow-loris',
+      'species:rafflesia',
+      'species:javan-leopard',
+      'species:javan-lutung',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-289'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:245',
+    summary: {
+      value:
+        'The Mentawai Islands Rainforests cover four large and many smaller islands lying 80–120 km off the west coast of Sumatra. The islands carry lowland and montane rainforest and shelter a remarkable suite of endemic mammals, with the ecoregion spanning 651 thousand hectares.',
+      sourceIds: ['one-earth-eco-245'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a chain of islands lying 80–120 km off the west coast of Sumatra',
+        'volcanic coastal terrain with coral-fringed shorelines',
+        'lowland and hilly interior forests',
+        'montane forests on the larger islands',
+      ],
+      sourceIds: ['one-earth-eco-245'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical ever-wet maritime climate with heavy rainfall of about 4,500 mm per year, a wetter season from October to March, and temperatures near 30°C throughout the year.',
+      },
+      sourceIds: ['one-earth-eco-245'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'lowland rainforest dominated by Dipterocarpus and Shorea with a canopy around 36 m high',
+        'scattered emergent trees rising above 45 m',
+        'montane forest of Excoecaria, Diospyros, and Canarium',
+      ],
+      sourceIds: ['one-earth-eco-245'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'long isolation from mainland Sumatra driving exceptional endemism',
+        'seventeen endemic mammals, including endemic primates distributed between islands',
+        'the Mentawai scops-owl as the only endemic bird',
+      ],
+      sourceIds: ['one-earth-eco-245'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 88% with a protection level of 3. Roughly half of the original forest remains, with about 30% under some form of protection, and the islands face threats from logging, oil palm expansion, and the hunting of endemic species.',
+      sourceIds: ['one-earth-eco-245'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:kloss-gibbon',
+      'species:simakobu',
+      'species:mentawai-langur',
+      'species:pagai-macaque',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-245'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:263',
+    summary: {
+      value:
+        'The Peninsular Malaysian Montane Rainforests clothe the highlands of the Malay Peninsula, including the Main Range and Cameron Highlands and Mount Tahan, the peninsula’s highest peak at 2,187 m within Taman Negara. The mountains capture heavy year-round rainfall and support stunted mossy forests that act as the natural water towers of the peninsula.',
+      sourceIds: ['one-earth-eco-263'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the central mountain spine and Main Range of the Malay Peninsula',
+        'high peaks such as Mount Tahan reaching 2,187 m',
+        'the Cameron Highlands around 2,180 m',
+        'steep forested ridges and river valleys feeding peninsula waterways',
+      ],
+      sourceIds: ['one-earth-eco-263'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Perhumid tropical montane climate with roughly 5,000 mm of rainfall distributed year-round and high atmospheric humidity averaging about 75%.',
+      },
+      sourceIds: ['one-earth-eco-263'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'montane broadleaf forest of oaks and myrtles including Lithocarpus, Quercus, Syzygium, and Schima',
+        'submontane conifers and ericads such as Dacrydium, Podocarpus, and Leptospermum',
+        'Nepenthes pitcher plants, Cyathea tree ferns, and Pandanus klossii in the ground layer',
+        'a dense cover of mosses, lichens, ferns, and orchids',
+      ],
+      sourceIds: ['one-earth-eco-263'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'cloud and mist interception feeding the peninsula’s rivers as natural water towers',
+        'elevational forest zonation with a canopy of about 18 m and no emergents above 1,500 m',
+        'habitat connectivity along ridges supporting tigers, tapirs, bears, and gibbons',
+      ],
+      sourceIds: ['one-earth-eco-263'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 99% with a protection level of 3. Roughly 60% of the ecoregion remains intact, much of it within protected areas, but a highway crossing the mountains fragments habitat; the Sumatran rhinoceros was declared extinct in Peninsular Malaysia in 2010.',
+      sourceIds: ['one-earth-eco-263'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:siamang',
+      'species:malayan-tapir',
+      'species:sun-bear',
+      'species:tiger',
+      'species:clouded-leopard',
+    ],
+    countryIds: ['MY', 'TH'],
+    sources: ['one-earth-eco-263'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:264',
+    summary: {
+      value:
+        'The Peninsular Malaysian Peat Swamp Forests occupy scattered coastal remnants along the peninsula where acidic blackwater rivers drain deep peat over sulphidic marine clays. Peat-swamp trees with stilt roots, buttresses, and pneumatophores dominate the waterlogged, low-oxygen landscape, which supports otters, binturong, and a distinctive bird fauna.',
+      sourceIds: ['one-earth-eco-264'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'scattered coastal peat-swamp remnants along the Malay Peninsula',
+        'deep peat deposits over sulphidic marine clay and riverine alluvium',
+        'acidic blackwater rivers and channels',
+        'waterlogged, low-oxygen swamp floors with stilt roots and buttresses',
+      ],
+      sourceIds: ['one-earth-eco-264'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Hot, humid tropical climate with year-round rainfall and a seasonal monsoon pattern typical of the peninsula’s coastal lowlands.',
+      },
+      sourceIds: ['one-earth-eco-264'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'peat-swamp forest of Gonystylus bancanus, Macaranga pruinosa, Campnosperma coriaceum, and Blumeodendron tokbrai',
+        'understorey species including Ixora grandiflora, Pternandra galeata, and Pandanus atrocarpus',
+        'red sealing wax palm Crytostachys renda in the wetter zones',
+      ],
+      sourceIds: ['one-earth-eco-264'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'peat accumulation under anaerobic, waterlogged conditions',
+        'acidic blackwater environments with pH of 2.9–4.5 shaping the swamp community',
+        'coastal wetland habitats supporting otter species and nearly 200 bird species',
+      ],
+      sourceIds: ['one-earth-eco-264'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 55% with a protection level of 1. The ecoregion has been reduced to fragments by clearing, logging, and burning, and the remaining intact patches are priorities for protection and restoration.',
+      sourceIds: ['one-earth-eco-264'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:hairy-nosed-otter',
+      'species:binturong',
+      'species:tiger',
+      'species:malayan-tapir',
+      'species:smooth-coated-otter',
+    ],
+    countryIds: ['MY'],
+    sources: ['one-earth-eco-264'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:265',
+    summary: {
+      value:
+        'The Peninsular Malaysian Rainforests blanket the lowlands and hills of the Malay Peninsula south of the montane belt, covering 12,578 thousand hectares of moist lowland forest. The ecoregion harbours some of the world’s richest dipterocarp forests and a diverse fauna including Asian elephants, tigers, Malayan tapirs, and large pheasants.',
+      sourceIds: ['one-earth-eco-265'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lowland plains and hills of the Malay Peninsula',
+        'river valleys and seasonally flooded low-lying areas',
+        'coastal districts and inland river basins',
+        'foothills grading into the montane belt',
+      ],
+      sourceIds: ['one-earth-eco-265'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical lowland climate with around 2,000 mm of annual rainfall, temperatures of 25–32°C, and high humidity throughout the year.',
+      },
+      sourceIds: ['one-earth-eco-265'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'species-rich lowland dipterocarp forest with Anisoptera, Dipterocarpus, Dryobalanops, Hopea, and Shorea',
+        'emergent trees including Koompassia malaccensis, Koompassia excelsa, Intsia palembanica, and Dyera costulata',
+        'palms of Arenga and Eugeissona and rattans of Calamus and Daemonorops',
+        'forest trees of Gluta, Heritiera, Palaquium, and Sindora',
+      ],
+      sourceIds: ['one-earth-eco-265'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'connectivity between foothills and lowlands critical for elephants, tigers, tapirs, and gaur',
+        'seed dispersal by hornbills, including the rhinoceros hornbill, and large frugivores',
+        'river networks linking fragmented forest patches',
+      ],
+      sourceIds: ['one-earth-eco-265'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 54% with a protection level of 3. Logging, oil palm and rubber plantations, poaching, and fragmentation have reduced and isolated the lowland forests, making habitat connectivity and enforcement of protected areas key priorities.',
+      sourceIds: ['one-earth-eco-265'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:malayan-tapir',
+      'species:tiger',
+      'species:asian-elephant',
+      'species:gaur',
+      'species:sun-bear',
+    ],
+    countryIds: ['MY', 'TH'],
+    sources: ['one-earth-eco-265'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:277',
+    summary: {
+      value:
+        'The Sumatran Freshwater Swamp Forests grow in disjunct patches on the periodically flooded alluvial plains of eastern Sumatra, where rivers spill across the floodplains for more than four months each year. These nutrient-rich, frequently inundated forests cover 1,812 thousand hectares and support elephants, tigers, gibbons, and a rich waterbird and crocodilian fauna.',
+      sourceIds: ['one-earth-eco-277'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'disjunct alluvial floodplain patches along the east coast of Sumatra',
+        'freshwater swamps inundated for more than four months each year',
+        'braided rivers, oxbows, and seasonal pools',
+        'fresh alluvial soils',
+      ],
+      sourceIds: ['one-earth-eco-277'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Hot, humid tropical climate with heavy year-round rainfall feeding the rivers and the seasonal floods that spread across the eastern Sumatran lowlands.',
+      },
+      sourceIds: ['one-earth-eco-277'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'freshwater swamp forest with emergent Alstonia surmounting 50 m and bearing pneumatophores',
+        'swamp dipterocarps including Dipterocarpus apterus and Shorea sumatrana, S. balangeran, and S. palembanica',
+        'species such as Campnosperma auriculatum, Mangifera paludosa, and Artocarpus kemando',
+        'palms of Oncosperma tigillarium, Pholidocarpus macrocarpus, and Eleiodoxa conferta, with Nypa palms along the watercourses',
+      ],
+      sourceIds: ['one-earth-eco-277'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'seasonal river-flooding cycles that persist for months each year',
+        'pneumatophore and stilt adaptations to waterlogged soils',
+        'swamp waterways serving as corridors for elephants and large cats',
+        'wetlands that support nesting and roosting storks such as the lesser adjutant and milky stork',
+      ],
+      sourceIds: ['one-earth-eco-277'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 28% with a protection level of 1. Fewer than 5% of the swamps are formally protected and roughly 40% of the original forest remains; drainage, encroachment into reserves such as Way Kambas, and conversion continue to threaten the rest.',
+      sourceIds: ['one-earth-eco-277'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:flat-headed-cat',
+      'species:sumatran-tiger',
+      'species:asian-elephant',
+      'species:siamang',
+      'species:malayan-tapir',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-277'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:278',
+    summary: {
+      value:
+        'The Sumatran Lowland Rainforests are among the most species-rich forests of the Indo-Pacific, covering 26,002 thousand hectares of lowlands and hills flanking the Barisan Mountains. The ecoregion supports Sumatran orangutans, elephants, Sumatran tigers, and the only remaining wild populations of the Sumatran rhinoceros.',
+      sourceIds: ['one-earth-eco-278'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lowlands and hills flanking the Barisan Mountains of western Sumatra',
+        'eastern coastal plains draining to the sea',
+        'western slopes rising steeply from the Indian Ocean coast',
+        'forests grading upward into the montane belt',
+      ],
+      sourceIds: ['one-earth-eco-278'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Wet tropical climate with more than 4,700 mm of annual rainfall on the western slopes and about 2,500 mm in the drier eastern rain shadow of the Barisan Mountains.',
+      },
+      sourceIds: ['one-earth-eco-278'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'lowland rainforest rich in Dipterocarpaceae with more than one hundred species, including six endemics',
+        'emergent Dipterocarpus, Parashorea, Shorea, and Dryobalanops reaching above 70 m',
+        'canopy trees of Ficus, Koompasia, Sindora, and Dialium',
+      ],
+      sourceIds: ['one-earth-eco-278'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'mast fruiting of dipterocarps driving seasonal forest dynamics',
+        'the Barisan ridge casting a rain shadow over the eastern lowlands',
+        'dispersal of large fruits and seeds by gibbons, hornbills, and fruit bats',
+        'a north–south faunal boundary, with white-handed gibbons north of Lake Toba and dark-handed gibbons to the south',
+      ],
+      sourceIds: ['one-earth-eco-278'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection target of 49% with a protection level of 1. Only about 7% of the ecoregion is protected, and although more than 60% of the forest remains, logging and pulp and palm plantations continue to degrade it, with Gunung Leuser and Way Kambas holding the key refuges.',
+      sourceIds: ['one-earth-eco-278'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sumatran-rhinoceros',
+      'species:sumatran-orangutan',
+      'species:sumatran-tiger',
+      'species:asian-elephant',
+      'species:white-handed-gibbon',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-278'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:279',
+    summary: {
+      value:
+        'The Sumatran Montane Rainforests wrap around the forested peaks of the Barisan Mountains, with more than ninety summits above 2,000 m and Mount Kerinci reaching 3,805 m, the highest volcano in Indonesia. Spanning 7,310 thousand hectares, the ecoregion serves as the island’s water tower and shelters Sumatran orangutans, the last wild Sumatran rhinoceros populations, and endemic birds.',
+      sourceIds: ['one-earth-eco-279'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the forested highlands of the Barisan Mountain Range running almost 1,700 km along Sumatra',
+        'more than ninety peaks above 2,000 m, including Mount Kerinci at 3,805 m',
+        'the caldera and surrounding heights of Lake Toba, a super-volcano crater',
+        'steep ridges and valley systems of the island’s water catchment',
+      ],
+      sourceIds: ['one-earth-eco-279'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Perhumid tropical montane climate with rainfall exceeding 4,700 mm per year on the western slopes and drier conditions in the eastern rain shadow, with frequent seismic and volcanic activity.',
+      },
+      sourceIds: ['one-earth-eco-279'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'lower montane forest giving way to Lithocarpus, Quercus, Castanea, Cinnamomum, Persea, and Litsea',
+        'upper montane forest with conifers, Rhododendron, and Vaccinium',
+        'subalpine shrublands and grasslands with Agrostis, Festuca, Juncus, Carex, Scirpus, and Cyperus bogs',
+        'giant Rafflesia flowers, including five of the world’s sixteen species, and the titan arum, the world’s tallest flower',
+      ],
+      sourceIds: ['one-earth-eco-279'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'subduction-driven earthquakes and frequent volcanic eruptions reshaping the terrain',
+        'cloud interception feeding the rivers of Sumatra as a natural water tower',
+        'elevational zonation from lower montane to subalpine communities',
+        'seasonal lowland–montane movements by Sumatran orangutans',
+      ],
+      sourceIds: ['one-earth-eco-279'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 84% with a protection level of 4. Roughly one-third of the ecoregion lies within protected areas, but encroachment, illegal logging, and poaching of tigers and orangutans remain serious, and landscape-scale planning is a stated priority.',
+      sourceIds: ['one-earth-eco-279'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sumatran-orangutan',
+      'species:sumatran-rhinoceros',
+      'species:sumatran-tiger',
+      'species:thomas-leaf-monkey',
+      'species:sumatran-ground-cuckoo',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-279'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:280',
+    summary: {
+      value:
+        'The Sumatran Peat Swamp Forests occupy waterlogged basins along the southeastern coast of Sumatra, where peat layers several metres thick have accumulated over more than 30,000 years. These acidic, oxygen-poor swamps cover 8,771 thousand hectares and support the Sumatran tiger, Sunda clouded leopard, otters, and significant stork colonies.',
+      sourceIds: ['one-earth-eco-280'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'waterlogged peat basins along the southeastern coast of Sumatra',
+        'peat layers several metres thick accumulated over more than 30,000 years',
+        'acidic clay soils beneath the swamp',
+        'drainage channels and blackwater streams',
+      ],
+      sourceIds: ['one-earth-eco-280'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Hot, humid tropical climate with year-round rainfall and seasonal monsoon-driven flooding across the coastal lowlands.',
+      },
+      sourceIds: ['one-earth-eco-280'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'mixed peat swamp forest of Koompassia malaccensis, Gonystylus bancanus, Shorea teysmaniana, and S. uliginosa',
+        'bintangur forest of Calophyllum lowii, Tetramerista, and Shorea in the deeper peat',
+        'peaty-zone species such as Durio lowianus, Calophyllum grandiflorum, Campnosperma auriculatum, and Palaquium burckii',
+      ],
+      sourceIds: ['one-earth-eco-280'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'peat accumulation over millennia in waterlogged, anaerobic conditions',
+        'acidic, low-oxygen blackwaters that slow decomposition',
+        'seasonal flooding linking swamp pools, rivers, and stork feeding grounds',
+      ],
+      sourceIds: ['one-earth-eco-280'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 35% with a protection level of 2. Draining, clearing, and burning, including severe drought-year fires, degrade the swamps; Sembilang National Park protects a major breeding colony of milky storks, and gazetting the intact peat swamps is a stated priority.',
+      sourceIds: ['one-earth-eco-280'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:storms-stork',
+      'species:sumatran-tiger',
+      'species:sunda-clouded-leopard',
+      'species:flat-headed-cat',
+      'species:siamang',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-280'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:305',
+    summary: {
+      value:
+        'The Sumatran Tropical Pine Forests occur in five scattered patches high on the Bukit Barisan Mountains, where fires, landslides, and a drier eastern climate keep broadleaf forest from establishing. These Pinus merkusii-dominated woodlands cover 277 thousand hectares at the southernmost extent of the species, with about 40% under protection.',
+      sourceIds: ['one-earth-eco-305'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'five discrete patches of tropical pine forest on the Bukit Barisan Mountains',
+        'high elevations where frequent fires and landslides prevent broadleaf forest from taking hold',
+        'drier eastern slopes of the range',
+      ],
+      sourceIds: ['one-earth-eco-305'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical highland climate with about 2,500 mm of annual rainfall across the range and drier conditions on the eastern slopes where the pine forests grow.',
+      },
+      sourceIds: ['one-earth-eco-305'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'forest dominated by Pinus merkusii',
+        'a sparse undergrowth of Lonicera and Berberis shrubs',
+        'a thick accumulation of pine needles retarding the understorey',
+      ],
+      sourceIds: ['one-earth-eco-305'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'frequent fire disturbance maintaining the pine woodlands',
+        'landslides and steep terrain creating regeneration openings',
+        'the pine needle layer limiting undergrowth and the habitat for small ground mammals',
+      ],
+      sourceIds: ['one-earth-eco-305'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 89% with a protection level of 4. About 40% of the ecoregion lies within the Kerinci Seblat and Lingga Isaq protected areas, but logging threatens Pinus merkusii throughout its range and more frequent fires risk pushing the forests past a tipping point of regeneration.',
+      sourceIds: ['one-earth-eco-305'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:pinus-merkusii',
+      'species:yellow-throated-marten',
+      'species:sunda-laughingthrush',
+      'species:black-capped-white-eye',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-eco-305'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:235',
+    summary: {
+      value:
+        'The Irrawaddy Moist Deciduous Forests ecoregion covers the rain-shadowed basin of the Irrawaddy River in central Myanmar, where teak and ironwood forests grow on well-drained hilly terrain. It is best known today as one of the last refuges of the endangered Eld\'s deer, whose thamin subspecies now persists mainly in the Chatthin and Shwesettaw protected areas.',
+      sourceIds: ['one-earth-eco-235'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'vast Irrawaddy River basin',
+        'catchments of the Bago Yoma mountains and foothills of Rakhine Yoma',
+        'well-drained hilly, undulating terrain up to about 1,000 m',
+        'Irrawaddian sedimentary soils rich in fossils and silicified wood',
+        'Rakhine range intercepting monsoon winds to create a rain shadow',
+      ],
+      sourceIds: ['one-earth-eco-235'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Dry for a moist deciduous zone, with roughly 1,500 mm of monsoon rainfall followed by long dry spells.',
+      },
+      sourceIds: ['one-earth-eco-235'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'closed high forest with trees over 30 m where undisturbed',
+        'teak and ironwood dominated, widely planted as timber',
+        'associated Terminalia, Salmalia, Gmelina, Pterocarpus and Vitex',
+        'bamboo groves of Bambusa polymorpha and Dendrocalamus',
+        'evergreen emergents in places',
+      ],
+      sourceIds: ['one-earth-eco-235'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'rain shadow created by the Rakhine Yoma',
+        'long dry season shaping deciduousness',
+        'intensive hunting that has removed most megafauna',
+        'overlap with the Irrawaddy Plains Endemic Bird Area',
+      ],
+      sourceIds: ['one-earth-eco-235'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Like other lowland forests of the region this ecoregion has been extensively cleared and cultivated, and hunting has extirpated most wildlife. With roughly 10,000 km2 of forest still remaining, priorities are securing the existing protected areas against poaching, bringing unprotected forests and Key Biodiversity Areas into a protected-area framework, and regional conservation planning across the Irrawaddy system.',
+      sourceIds: ['one-earth-eco-235'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:elds-deer',
+      'species:white-throated-babbler',
+      'species:serow',
+      'species:gaur',
+      'species:asiatic-black-bear',
+    ],
+    countryIds: ['MM'],
+    sources: ['one-earth-eco-235'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:237',
+    summary: {
+      value:
+        'The Kayah-Karen Montane Rainforests ecoregion spans the karst mountains of the northern Tenasserim range on the Myanmar-Thailand border, where limestone cliffs, caves, and steep ridges rise above 2,000 m. It is notable for harboring both the world\'s smallest mammal, Kitti\'s hog-nosed bat, and one of its largest, the Asian elephant.',
+      sourceIds: ['one-earth-eco-237'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'northern Tenasserim Mountain Range along the Thai-Myanmar border',
+        'heavily dissected Paleozoic limestone',
+        'overhanging cliffs, sinkholes, and caves of tropical karst',
+        'steep hillsides rising to ridges over 2,000 m',
+      ],
+      sourceIds: ['one-earth-eco-237'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Warm, wet, and seasonal with about 2,000 mm of rain a year; west-facing Myanmar slopes catch the monsoon while Thai-facing eastern slopes sit in a drier rain shadow, and winters are cool at high elevations.',
+      },
+      sourceIds: ['one-earth-eco-237'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'low-elevation forests of teak, Dipterocarpus, and oak',
+        'Malayan urn vine and other epiphytes',
+        'mid-elevation Magnoliaceae-Lauraceae evergreen forest',
+        'ridge forests with Castanopsis, Quercus, Lithocarpus, and Schima',
+        'rhododendron thickets at the highest elevations',
+      ],
+      sourceIds: ['one-earth-eco-237'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'karst weathering shaping caves and cliffs',
+        'monsoon exposure contrasted across the range',
+        'rain-shadow gradient between Myanmar and Thailand',
+        'haunting gibbon duets resonating across valleys',
+      ],
+      sourceIds: ['one-earth-eco-237'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'About 72% of forest cover remains and protected areas already cover about 27% of the ecoregion, so the potential for conservation is high, though encroachment, illegal logging, and rising poaching pressure are increasing. Priorities include promoting sustainable, legal logging, supporting environment-friendly agriculture, and partnering with local ethnic and tribal communities on wildlife protection.',
+      sourceIds: ['one-earth-eco-237'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:kittis-hog-nosed-bat',
+      'species:eastern-hoolock-gibbon',
+      'species:asian-elephant',
+      'species:malayan-tapir',
+      'species:tiger',
+    ],
+    countryIds: ['MM', 'TH'],
+    sources: ['one-earth-eco-237'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:256',
+    summary: {
+      value:
+        'The Northern Indochina Subtropical Forests ecoregion spans the subtropical highlands of northern Myanmar, Laos, Vietnam, Yunnan in China, and a sliver of northern Thailand, where Palearctic and Indo-Malayan faunas and floras meet. It is a refuge for the critically endangered Tonkin snub-nosed monkey and other evolutionary relicts trapped by past geological upheavals.',
+      sourceIds: ['one-earth-eco-256'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'highlands of the Yunnan Plateau',
+        'highly incised hills and river valleys',
+        'middle catchments of the Red, Mekong, and Salween rivers',
+        'valley floors descending to 200-400 m',
+        'isolated peaks seldom rising above 2,000 m',
+      ],
+      sourceIds: ['one-earth-eco-256'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Monsoonal, with 1,200 to 2,500 mm of rain drawn from the Bay of Bengal and South China Sea between April and October, complex rain shadows, and temperatures that fall with elevation; pre-monsoon spring is the hottest period.',
+      },
+      sourceIds: ['one-earth-eco-256'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'montane broadleaf forest with strong Himalayan affinities',
+        'Betulaceae, Fagaceae, Lauraceae, and Magnoliaceae canopy',
+        'relict species such as the monotypic horsetail tree',
+        'needle-leaf Tsuga dumosa and Abies delavayi forest above 2,000 m',
+      ],
+      sourceIds: ['one-earth-eco-256'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Palearctic-Indo-Malayan faunal mixing zone',
+        'evolutionary relict species isolated by geological events',
+        'over 180 mammal and 700 bird species',
+        'swidden-driven forest degradation and slow fallow recovery',
+      ],
+      sourceIds: ['one-earth-eco-256'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Large areas of unprotected forest remain but are largely degraded by centuries of swidden agriculture, and indiscriminate hunting feeds both local consumption and markets in China. Priorities are protecting intact old-growth forests within a landscape-scale strategy, engaging tribal communities as conservation stewards, and restricting hunting.',
+      sourceIds: ['one-earth-eco-256'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:tonkin-snub-nosed-monkey',
+      'species:red-panda',
+      'species:great-hornbill',
+      'species:blyths-tragopan',
+      'species:blood-pheasant',
+    ],
+    countryIds: ['CN', 'LA', 'MM', 'TH', 'VN'],
+    sources: ['one-earth-eco-256'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:294',
+    summary: {
+      value:
+        'The Irrawaddy Dry Forests ecoregion is a patchwork of thorny, low-statured forest and open dipterocarp woodland in the arid central dry zone of Myanmar, where rainfall is scarce and water is chronically short. It holds one of the most important refuges of the critically endangered Burmese star tortoise, protected by local religious belief in the Minzontaung Wildlife Sanctuary.',
+      sourceIds: ['one-earth-eco-294'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'patchwork of dry forests in the central Myanmar dry zone',
+        'soft sandstone and clay substrates eroded by wind and wide temperature swings',
+        'hardly any groundwater recharge',
+        'extreme seasonal water shortage',
+      ],
+      sourceIds: ['one-earth-eco-294'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Harsh and dry with only about 650 mm of rainfall, falling sporadically and torrentially for rarely more than fifteen days a year; the dry zone grows even more water-stressed under climate change.',
+      },
+      sourceIds: ['one-earth-eco-294'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'thorny, scrubby, low-statured trees',
+        'Terminalia oliveri, Tectona hamiltoniana, Acacia catechu and Bauhinia racemosa',
+        'high and low Indaing dipterocarp forest of Dipterocarpus tuberculatus',
+        'stands of teak and tall bamboo',
+      ],
+      sourceIds: ['one-earth-eco-294'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'extreme drought and water shortage shaping sparse forest',
+        'wind and thermal erosion of soft rock',
+        'perching place of the Irrawaddy Plains Endemic Bird Area',
+        'larger mammals largely extirpated by hunting',
+      ],
+      sourceIds: ['one-earth-eco-294'],
+      derivation: 'source-value',
+    },
+    conservationContext: {
+      value:
+        'Most forest has been converted and the remainder degraded, with hunting for subsistence and trade persisting and agarwood, rattans, and orchids overharvested. Priorities are securing existing protected areas, building anti-poaching capacity, and placing remaining unprotected forests and Key Biodiversity Areas under a protected-area umbrella.',
+      sourceIds: ['one-earth-eco-294'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:burmese-starred-tortoise',
+      'species:common-leopard',
+      'species:elds-deer',
+      'species:white-throated-babbler',
+      'species:barking-deer',
+    ],
+    countryIds: ['MM'],
+    sources: ['one-earth-eco-294'],
+    status: 'authored',
+  },
+  {
     targetId: 'ecoregion:666',
     summary: {
       value:
@@ -5960,7 +12139,7 @@ export const ecoregionEnrichment: readonly EcologicalEnrichment[] = [
     targetId: 'ecoregion:171',
     summary: {
       value:
-        'New Zealand North Island Temperate Forests cover much of the North Island, from coastal lowlands to the volcanic plateau and central ranges. Podocarp-broadleaf and beech forest support an iconic suite of endemic birds including kiwi, kokako, kaka, and kereru.',
+        'New Zealaand North Island Temperate Forests cover much of the North Island, from coastal lowlands to the volcanic plateau and central ranges. Podocarp-broadleaf and beech forest support an iconic suite of endemic birds including kiwi, kokako, kaka, and kereru.',
       sourceIds: ['one-earth-eco-171', 'one-earth-au1'],
       derivation: 'authored-summary',
     },
@@ -6446,6 +12625,1676 @@ export const ecoregionEnrichment: readonly EcologicalEnrichment[] = [
     ],
     countryIds: ['FM'],
     sources: ['one-earth-eco-638'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:17',
+    summary: {
+      value:
+        'Occupying the eastern side of Madagascar, the humid forests run from the littoral forests of the narrow coastal plain up to the crest of the eastern escarpment at roughly 1,200–1,600 m. Rainfall generally exceeds 2,000 mm per year, reaching 6,000 mm on the Masoala Peninsula, with a dry season of under two months. The ecoregion holds exceptional endemism, including 165 breeding bird species and 97% of all Malagasy palms.',
+      sourceIds: ['one-earth-eco-17'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'eastern side of Madagascar from littoral forests of the coastal plain to the eastern escarpment crest at ~1,200–1,600 m',
+        'continuous cloud layer at 900–1,200 m where the escarpment traps humid air',
+        'forest band from Andravory in the north to Andohalela in the south',
+        'narrow forest section along the Angavo Scarp',
+      ],
+      sourceIds: ['one-earth-eco-17'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Humid with rainfall generally exceeding 2,000 mm per year and up to 6,000 mm on the Masoala Peninsula; dry season under two months; winter mists May–September; cyclones December–March cause habitat destruction.',
+        annualPrecipitationMm: { min: 2000, max: 6000 },
+      },
+      sourceIds: ['one-earth-eco-17'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Dalbergia, Diospyros, Ocotea, Symphonia, and Tambourissa canopy',
+        'Canarium, Albizia, and Brochoneura acuminata emergents',
+        'rich understory of Pandanus, palms, bamboo, and epiphytic orchids',
+        'Angraecum sesquipedale, Darwin\u2019s orchid, with a 35-cm spur',
+      ],
+      sourceIds: ['one-earth-eco-17'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'isolation of the eastern escarpment trapping humid air and cloud',
+        '97% of 171 Malagasy palm species endemic to the island',
+        'all five families of Malagasy primates represented',
+        'cyclone disturbance driving habitat dynamics and destruction',
+      ],
+      sourceIds: ['one-earth-eco-17'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Protection is provided by Masoala National Park, Mananara Nord UNESCO-MAB Biosphere Reserve, Ambatovaky Special Reserve, and Zahamena Strict Nature Reserve and National Park. Threats include shifting cultivation (tavy), wildfires, legal and illegal logging, and over-exploitation of palms and Cyathea tree ferns, with littoral forests among the most impacted. Priority actions are restoring forest corridors, promoting farming alternatives to tavy, and strengthening forest administration law enforcement.',
+      sourceIds: ['one-earth-eco-17'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:aye-aye',
+      'species:diademed-sifaka',
+      'species:golden-bamboo-lemur',
+      'species:madagascar-red-owl',
+      'species:madagascar-serpent-eagle',
+      'species:golden-mantella',
+    ],
+    countryIds: ['MG'],
+    sources: ['one-earth-eco-17'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:18',
+    summary: {
+      value:
+        'The subhumid forests of the Madagascar highlands now persist as scattered patches within a sea of anthropogenic grasslands and agriculture, lying between the humid eastern escarpment forests and the dry deciduous western forests. The climate approaches temperate conditions at altitude, with average rainfall around 1,500 mm per year. The Critically Endangered Alaotran gentle lemur and Madagascar pochard depend on its remaining forests and wetlands.',
+      sourceIds: ['one-earth-eco-18'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'scattered forest patches within a sea of anthropogenic grasslands and agriculture',
+        'highlands between the humid forests of the eastern escarpment and the dry deciduous forests of the west',
+        'ericoid thickets replacing forest above ~1,800–2,000 m',
+        'wetlands, lakes, sclerophyllous forest, and tapia forest',
+      ],
+      sourceIds: ['one-earth-eco-18'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Climate closer to temperate due to altitude, with temperatures of 15–25°C at higher elevations; cool, dry season July–September and warmer wet season the rest of the year; average rainfall ~1,500 mm/yr reaching 2,000 mm in Sambirano and as little as 600 mm in the southwest.',
+        annualPrecipitationMm: { min: 600, max: 2000 },
+        temperatureC: { min: 15, max: 25 },
+      },
+      sourceIds: ['one-earth-eco-18'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'lake papyrus and reed beds around Lac Alaotra, Madagascar\u2019s largest lake',
+        'sclerophyllous forest and tapia forest remnants',
+        'introduced Eucalyptus and Acacia now the most common highland trees',
+        'montane forest grading into ericoid thickets at higher elevations',
+      ],
+      sourceIds: ['one-earth-eco-18'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'these forests once hosted elephant birds, a giant tortoise, and giant lemurs, all extinct since human arrival',
+        'wetlands and lakes sustaining endemic marshland birds',
+        'rainfall gradient from ~2,000 mm in Sambirano to ~600 mm in the southwest',
+        'altitudinal transition to ericoid thickets above the forest zone',
+      ],
+      sourceIds: ['one-earth-eco-18'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Protected sites include Special Reserves Ambohijanahary, Ambohitantely, Marotandrano, and Kalambatritra, Tsaratanana Strict Nature Reserve, Andringitra National Park, and the Lac Alaotra Ramsar site. Threats: encroaching agriculture, fire, introduced species, wetland conversion to rice farming, siltation, pollution, and industrial mining. Priorities are establishing new protected areas for ecological connectivity, restoring native forest, and strengthening sustainable financing for the protected area network.',
+      sourceIds: ['one-earth-eco-18'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:alaotran-gentle-lemur',
+      'species:madagascar-pochard',
+      'species:brown-emu-tail',
+      'species:yellow-browed-oxylabes',
+      'species:slender-billed-flufftail',
+      'species:madagascar-snipe',
+    ],
+    countryIds: ['MG'],
+    sources: ['one-earth-eco-18'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:32',
+    summary: {
+      value:
+        'The dry deciduous forests of Madagascar cover western Madagascar from the Ampasindava Peninsula south to Belo-sur-Tsiribihina and Maromandia, as well as the northern part of the island below the higher slopes of Mount Amber. The forest is essentially deciduous, and most trees lose their leaves from May to October under a long dry season. Roughly 70% of plant species are endemic, and the ecoregion harbours the fossa, golden-crowned sifaka, and ploughshare tortoise.',
+      sourceIds: ['one-earth-eco-32'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'western Madagascar from the Ampasindava Peninsula to Belo-sur-Tsiribihina and Maromandia',
+        'the northern part of the island excluding Mount Amber above 1,000 m',
+        'limestone massifs of Ankarana, Namoroka, and Bemaraha',
+        'volcanic cone of Mount Amber',
+      ],
+      sourceIds: ['one-earth-eco-32'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with mean maxima of 30–33°C and mean minima of 8–21°C; long dry season in the rainshadow west of the central highlands; most rain falls October–April, around 1,500 mm/yr in the north and ~1,000 mm in the south.',
+        annualPrecipitationMm: { min: 1000, max: 1500 },
+        temperatureC: { min: 8, max: 33 },
+      },
+      sourceIds: ['one-earth-eco-32'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'flamboyant tree and several baobab species',
+        'Pachypodium spp. on drier calcareous western soils',
+        'tsingy massifs supporting Dalbergia, Cassia, Ficus, and Adansonia madagascariensis',
+        'scrub with Asclepiadaceae lianas and Leguminosae and Rubiaceae shrubs',
+      ],
+      sourceIds: ['one-earth-eco-32'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'essentially deciduous forest with most trees losing leaves May–October',
+        '~70% of plant species endemic to the ecoregion',
+        'tsingy karst landscapes supporting restricted-range endemics',
+        'long dry season and rainshadow aridity shaping species distributions',
+      ],
+      sourceIds: ['one-earth-eco-32'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Key protected areas are Ankarafantsika National Park, Tsingy de Bemaraha World Heritage Site, and Tsingy de Namoroka National Park, with Special Reserves Ankarana, Analamerana, Bemarivo, and Bora. Threats include slash-and-burn for grazing and agriculture, wildfires, selective logging, hunting of diurnal lemurs, rice paddy conversion of wetlands, overfishing, invasive water hyacinth, oil exploration, and climate change shifting species ranges. Priority actions are protecting baobab trees, establishing locally managed protected areas, and maintaining connectivity between protected areas.',
+      sourceIds: ['one-earth-eco-32'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:fossa',
+      'species:golden-crowned-sifaka',
+      'species:mongoose-lemur',
+      'species:ploughshare-tortoise',
+      'species:madagascar-fish-eagle',
+      'species:madagascar-teal',
+    ],
+    countryIds: ['MG'],
+    sources: ['one-earth-eco-32'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:83',
+    summary: {
+      value:
+        'Madagascar ericoid thickets mantle the upper slopes above roughly 1,800 m of the four major massifs, Tsaratanana, Marojejy, Ankaratra, and Andringitra. Temperatures fluctuate widely, with snow recorded on Andringitra and daily maxima exceeding 30°C. This is considered the habitat most vulnerable to climate change in Madagascar, as species are physically constrained to upper elevations and cannot shift upward.',
+      sourceIds: ['one-earth-eco-83'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'ericoid thickets above ~1,800 m on the upper slopes of the four major massifs',
+        'Tsaratanana (2,876 m), Marojejy (2,133 m), Ankaratra (2,643 m), and Andringitra (2,658 m)',
+        'montane sclerophyllous forest on Tsaratanana to ~2,500 m before ericoid thicket',
+        'small damp peat-filled depressions and exposed rock outcrops',
+      ],
+      sourceIds: ['one-earth-eco-83'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Great daily and seasonal temperature fluctuation, with snow recorded on Andringitra, temperatures down to -11°C and daily maxima over 30°C; rainfall exceeds 2,500 mm/yr on wetter eastward-facing slopes; temporary arid conditions arise from the temperature range and intense sunlight.',
+        temperatureC: { min: -11, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-83'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'true heathers (Erica) that have undergone extensive speciation',
+        'drought-tolerant flora on rock outcrops, including Aloe, Kalanchoe, and Helichrysum',
+        'specialized endemics in small damp peat-filled depressions',
+        'montane sclerophyllous forest transitioning up into ericoid thicket',
+      ],
+      sourceIds: ['one-earth-eco-83'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'extensive speciation of true heathers (Erica) in Madagascar',
+        'high mountain areas serving as important water sources',
+        'rodents and insectivores showing mid-elevational bulges',
+        'fire-dependent plants such as Asteraceae and Ericaceae indicating a natural fire cycle',
+      ],
+      sourceIds: ['one-earth-eco-83'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Three of the four montane areas are protected: Tsaratanana Strict Nature Reserve, Andringitra National Park, and Marojejy National Park, linked by the Corridor Marojejy Tsaratanana. Threats: conversion to highland cattle pasture, regular burns to stimulate grass, expansion of domestic animal rangelands, and introduced plant dispersal through livestock faeces. Priorities are strengthening local community capability with environmentally friendly farming, eradicating invasive alien species, and strengthening bushfire control programs.',
+      sourceIds: ['one-earth-eco-83'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:malagasy-mountain-mouse',
+      'species:northern-voalavo',
+      'species:cryptic-warbler',
+      'species:yellow-bellied-sunbird-asity',
+    ],
+    countryIds: ['MG'],
+    sources: ['one-earth-eco-83'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:96',
+    summary: {
+      value:
+        'The coralline islands of Europa and Bassas da India sit in the Mozambique Channel near the southern end of Madagascar and have no permanent human inhabitants. Europa supports one of the three largest green turtle atoll nesting sites in the world, the largest in the Indian Ocean, and a breeding ground for about 760,000 seabird pairs. Bassas da India is an almost circular atoll with under 1 km² of dry land, almost entirely submerged at high tide.',
+      sourceIds: ['one-earth-eco-96'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Europa Island, about 30 km² with a 6–7 km diameter and maximum altitude of 6 m',
+        'shallow lagoon of ~9 km² open to the sea on one side',
+        'extensive mangrove swamp on the south of Europa',
+        'Bassas da India, an almost circular atoll with <1 km² of dry land, almost entirely submerged at high tide',
+      ],
+      sourceIds: ['one-earth-eco-96'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Under the influence of the Agulhas Current with occasional cyclones and water temperatures usually above 30°C; southeast trade winds dominate the austral winter and annual rainfall averages about 600 mm.',
+      },
+      sourceIds: ['one-earth-eco-96'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dry forest of silver thicket (Euphorbia stenoclada)',
+        'dry herbaceous formation dominated by the grass Sclerodactylon macrostachyum',
+        'mangrove swamps of Rhizophora mucronata',
+        'coastal shrub formation including bay cedar (Suriana maritima)',
+      ],
+      sourceIds: ['one-earth-eco-96'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'one of the three largest green turtle atoll nesting sites in the world and the largest in the Indian Ocean',
+        'breeding ground for 8 seabird species with about 760,000 breeding pairs',
+        'stopover for migratory birds travelling between Africa and Madagascar',
+        'last colonies of frigatebirds, red-footed boobies, and red-tailed tropicbirds in the West Indian Ocean',
+      ],
+      sourceIds: ['one-earth-eco-96'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Europa Island and its surrounding waters are protected as a Ramsar site of 1,058 km². Threats: introduced sisal outcompeting native vegetation, goats from Madagascar, black rats preying on seabird eggs, pollution from vessel traffic, egg collection, climate-driven sea-level rise, and potential oil and gas exploitation. Priorities are biosecurity to prevent further invasions, eradicating invasive species, and long-term monitoring plans.',
+      sourceIds: ['one-earth-eco-96'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:green-sea-turtle',
+      'species:hawksbill-sea-turtle',
+      'species:greater-frigatebird',
+      'species:red-footed-booby',
+      'species:white-tailed-tropicbird',
+    ],
+    countryIds: ['TF'],
+    sources: ['one-earth-eco-96'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:99',
+    summary: {
+      value:
+        'The spiny thickets of southern and southwestern Madagascar stretch from the Mangoky River to the western slopes of the Anosyennes Mountains, lying in the extreme rain shadow behind the eastern chain. Average annual rainfall is 500 mm or less, dropping below 350 mm in the driest southwestern coastal areas with a 9–11 month dry season. The ecoregion holds the highest percentage of plant endemism in Madagascar, with the endemic family Didiereaceae dominant.',
+      sourceIds: ['one-earth-eco-99'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'southern and southwestern Madagascar from the Mangoky River to the western slopes of the Anosyennes Mountains',
+        'Tertiary limestone of the Mahafaly Plateau',
+        'unconsolidated red sands of the central south and southeast',
+        'taller dense dry forest on sandy soils and dwarf xeric vegetation on the calcareous plateau',
+      ],
+      sourceIds: ['one-earth-eco-99'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Extreme rain shadow behind the eastern chain; average annual rainfall 500 mm or less, under 350 mm in the driest southwestern coastal areas, with a 9–11 month dry season and prolonged droughts lasting up to several years; average annual temperatures with maxima of 30–33°C and minima of 15–21°C.',
+        annualPrecipitationMm: { min: 350, max: 500 },
+        temperatureC: { min: 15, max: 33 },
+      },
+      sourceIds: ['one-earth-eco-99'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'taller dense dry forest dominated by the octopus tree (Didierea madagascariensis) on sandy soils',
+        'dwarf xeric vegetation on the calcareous plateau around Lake Tsimanampetsotsa',
+        'dominant species of the endemic family Didiereaceae',
+        'rare restricted endemics such as Aloe suzannae, the palm Dypsis decaryi, and Pachypodium spp.',
+      ],
+      sourceIds: ['one-earth-eco-99'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'extreme aridity adaptations including extended root systems with tubers, succulent trunks, and reduced waxy leaves',
+        'erratic rainfall with prolonged droughts lasting up to several years',
+        'the highest percentage of plant endemism in Madagascar',
+        'monospecific genera of two of the five endemic bird families restricted to the coastal strip',
+      ],
+      sourceIds: ['one-earth-eco-99'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Reserves include Tsimanampetsotsa National Park and Ramsar site and Cap Sainte Marie Special Reserve, with proposed protected areas such as Macrobasia and Ranobe PK 32. Threats: firewood and charcoal exploitation, selective hardwood logging, the fastest deforestation rates of all Madagascar regions from 1990–2010, maize cultivation, grazing, invasive species, and collection for international trade such as the radiated tortoise. Priorities are preventing deforestation with alternative livelihoods, implementing alternative fuels, and establishing stricter protected areas for high-value biodiversity.',
+      sourceIds: ['one-earth-eco-99'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:radiated-tortoise',
+      'species:verreauxs-sifaka',
+      'species:white-footed-sportive-lemur',
+      'species:grandidiers-mongoose',
+      'species:grey-mouse-lemur',
+      'species:subdesert-mesite',
+    ],
+    countryIds: ['MG'],
+    sources: ['one-earth-eco-99'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:100',
+    summary: {
+      value:
+        'The succulent woodlands of southwestern and central western Madagascar sit between the spiny thickets and the dry deciduous forests. The tropical dry climate brings a distinct dry season from May to October, a wet season that may reach 750 mm, and annual rainfall of 575–1,330 mm. The ecoregion supports eight lemur species including Madame Berthe\u2019s mouse lemur, the world\u2019s smallest primate, and the strictly endemic Appert\u2019s greenbul.',
+      sourceIds: ['one-earth-eco-100'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'southwestern and central western Madagascar, sandwiched between the spiny thickets and the dry deciduous forests',
+        'relatively flat terrain with some rocky outcrops',
+        'deep precipitous valleys such as the Makay region',
+        'distinctive endemic baobabs standing above the forest canopy',
+      ],
+      sourceIds: ['one-earth-eco-100'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical dry climate with a distinct dry season May–October and a wet season November–April that may reach 750 mm; yearly range 575–1,330 mm; annual average daily temperature 25–31°C.',
+        annualPrecipitationMm: { min: 575, max: 1330 },
+        temperatureC: { min: 25, max: 31 },
+      },
+      sourceIds: ['one-earth-eco-100'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'forests up to 15 m with water-storage and stem-photosynthesis adaptations',
+        'endemic baobabs Adansonia za and Adansonia grandidieri as distinctive emergents',
+        'Euphorbiaceae and Leguminosae canopy including endemic Pachypodium',
+        'shrub layer of Sapindaceae, Euphorbiaceae, Anacardiaceae, and Burseraceae',
+      ],
+      sourceIds: ['one-earth-eco-100'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'high local endemism between the Tsiribihina and Mangoky rivers and around Zombitse-Vohibasia National Park',
+        'transitional overlap with spiny thickets to the south and dry deciduous forests to the north',
+        'habitat for eight lemur species and 60–90 bird species',
+        'the Ambalibe Menabe area of particularly high biodiversity',
+      ],
+      sourceIds: ['one-earth-eco-100'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Protected areas include Zombitse-Vohibasia, Isalo, and Kirindy-Mitea National Parks and Andranomena Special Reserve, though classified forests offer little real protection as logging continues. Threats: intentional burns for agriculture and pasture, fires, fragmentation, charcoal production causing massive deforestation, exploitation of endemic timber trees, traditional hunting, and cattle and goat grazing. Priorities are improving bushfire control training, encouraging improved stoves to prevent charcoal production, and rehabilitating degraded ecosystems.',
+      sourceIds: ['one-earth-eco-100'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:apperts-greenbul',
+      'species:berthes-mouse-lemur',
+      'species:giant-jumping-rat',
+      'species:narrow-striped-mongoose',
+      'species:spider-tortoise',
+      'species:white-breasted-mesite',
+      'species:verreauxs-sifaka',
+    ],
+    countryIds: ['MG'],
+    sources: ['one-earth-eco-100'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:114',
+    summary: {
+      value:
+        'Madagascar\u2019s western coast supports about 2% of the world\u2019s mangroves along a roughly 1,000 km stretch of coastline fostered by a low coastal platform, a high tidal range, and silt-laden rivers. The mangroves store more carbon than all other tropical forest types and sequester carbon 10–50 times faster into the mud. They shelter dugongs, Nile crocodiles, sea turtles, and endemic wetland birds including the Madagascar teal and Madagascar heron.',
+      sourceIds: ['one-earth-eco-114'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'mangrove forests along the western coast fostered by a low coastal platform and high tidal range',
+        'constant freshwater supply from numerous silt-laden rivers along a coastline of ~1,000 km',
+        'coastline often associated with coral reefs that protect from ocean swells',
+        'small and scattered stands on the eastern side lacking alluvial sediments',
+      ],
+      sourceIds: ['one-earth-eco-114'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Rainfall varies from 2,000 mm in the humid subequatorial north to 350 mm in the dry subtropical south; two seasons, a cool dry May–October and a warm humid November–April.',
+        annualPrecipitationMm: { min: 350, max: 2000 },
+      },
+      sourceIds: ['one-earth-eco-114'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'up to nine mangrove tree species, most stands with six species in four families',
+        'Rhizophora mucronata, Bruguiera gymnorrhiza, and Ceriops tagal (Rhizophoraceae)',
+        'Avicennia marina, Sonneratia alba, and Lumnitzera racemosa',
+        'Sonneratia and Avicennia as primary colonizers',
+      ],
+      sourceIds: ['one-earth-eco-114'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'mangroves sequestering carbon 10–50 times faster than other terrestrial ecosystems',
+        'mangroves capturing river sediments that threaten reefs and seagrass beds',
+        'protected seagrass habitats on the northwest coast as a hotspot for a genetically distinct dugong population',
+        'high fish, mollusc, and crustacean diversity within the mangrove ecosystems',
+      ],
+      sourceIds: ['one-earth-eco-114'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Protected mangrove areas include Sahamalaza, Mahavavy Kinkony, Baie de Baly National Park, and the Lake Kinkony Ramsar site. An estimated 21% of mangroves were lost between 1990 and 2010; threats include urban development, over-fishing, high soil erosion, conversion to rice farming and salt production, aquaculture, direct harvesting, and climate-driven cyclones. Priorities are promoting ecological restoration, generating conservation revenue from mangrove carbon values, and strengthening community capacity for sustainable farming, aquaculture, and forestry.',
+      sourceIds: ['one-earth-eco-114'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:dugong',
+      'species:madagascar-teal',
+      'species:madagascar-heron',
+      'species:african-spoonbill',
+      'species:nile-crocodile',
+      'species:green-sea-turtle',
+    ],
+    countryIds: ['MG'],
+    sources: ['one-earth-eco-114'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:16',
+    summary: {
+      value:
+        'KwaZulu-Natal-Cape Coastal Forests run along the eastern South African coastline from Cape St Lucia to Cape St Francis, forming part of the Maputaland-Pondoland-Albany biodiversity hotspot. The ecoregion supports approximately 3,000 plant species with around 40 percent of larger woody species endemic, including remnant cycad populations in the Ngoye forest. The subtropical coastal belt hosts endemic birds such as the Knysna turaco and Knysna woodpecker alongside vulnerable mammals and reptiles.',
+      sourceIds: ['one-earth-eco-16'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'eastern South African coastline from Cape St Lucia to Cape St Francis',
+        'elevation around 450 m in the north falling to 350 m in the south',
+        'sandstone outcrops with high plant endemism',
+        'dune, swamp, riverine, sand, coastal lowland, and scarp forests',
+      ],
+      sourceIds: ['one-earth-eco-16'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Subtropical along the coast with frosts absent in the north; mean maximum temperatures 15–24°C and mean minimum temperatures 10–15°C; rainfall in the north 900–1,500 mm per annum in summer, lower in the south falling during winter.',
+        annualPrecipitationMm: { min: 900, max: 1500 },
+        temperatureC: { min: 10, max: 24 },
+      },
+      sourceIds: ['one-earth-eco-16'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'lowland trees Millettia grandis and Protorhus longifolia',
+        'shrubs and climbers including Uvaria caffra and Dalbergia obovata',
+        'dune forest species Mimusops caffra, Euclea natalensis, and Psydrax obovata',
+        'remnant cycad populations including the Ngoye cycad',
+      ],
+      sourceIds: ['one-earth-eco-16'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'high plant endemism on sandstone outcrops',
+        'subtropical coastal forest fragmentation into isolated patches',
+        'cycad persistence in ancient forest remnants',
+        'endemic reptile radiations on coastal dunes and scarp',
+      ],
+      sourceIds: ['one-earth-eco-16'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 3 against a conservation target of 9%. Protected areas include Amatikulu Nature Reserve, Vernon Crookes Nature Reserve, Mbumbai Nature Reserve, and Hluleka Wildlife Reserve. Threats include clearing for agriculture, forestry, sugarcane expansion, mining, holiday resort expansion, invasive alien species such as Casuarina equisetifolia, and climate change. Priority actions are developing sustainable livelihoods, expanding the private and communal protected area network, and integrating biodiversity priorities into industry management plans.',
+      sourceIds: ['one-earth-eco-16'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:knysna-turaco',
+      'species:knysna-woodpecker',
+      'species:giant-golden-mole',
+      'species:ngoye-cycad',
+    ],
+    countryIds: ['ZA'],
+    sources: ['one-earth-eco-16'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:19',
+    summary: {
+      value:
+        'Maputaland Coastal Forests and Woodlands extend from the Changane River in southern Mozambique to the Umfolosi River in South Africa, encompassing among the tallest vegetated dunes in the world, the largest estuarine system in Africa at Lake St. Lucia, and Lake Sibayi, the largest freshwater lake in southern Africa. The region supports exceptionally diverse flora and fauna including the African bush elephant and one of the few remaining large leopard populations in South Africa.',
+      sourceIds: ['one-earth-eco-19'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'flat to gently undulating low-lying coastal plain up to 200 m elevation',
+        'Lebombo Mountain Range rising to about 600 m on the western margin',
+        'north-south aligned dune ridges parallel to the coastline',
+        'Lake St. Lucia estuarine system and Lake Sibayi freshwater lake',
+      ],
+      sourceIds: ['one-earth-eco-19'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Moist subtropical along the coast with rainfall over 1,000 mm per annum, becoming dry subtropical inland with less than 600 mm; hot and humid summers with peak precipitation September to April; cool dry winters; mean annual temperature 21–23°C.',
+        annualPrecipitationMm: { min: 600, max: 1000 },
+        temperatureC: { min: 21, max: 23 },
+      },
+      sourceIds: ['one-earth-eco-19'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Lebombo Range canopy species including Chrysophyllum viridifolium and Homalium dentatum',
+        'dry sand forests with Cleistanthus schlechteri and Newtonia hildebrandtii',
+        'coastal dune forest with Mimuspos caffra, Euclea natalensis, and Diospyros rotundifolia',
+        'at least 2,500 vascular plant species with 225 endemic or near-endemic',
+      ],
+      sourceIds: ['one-earth-eco-19'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'transition zone at the southern end of tropical species distributions',
+        'recent evolutionary speciation of endemic plant and animal taxa',
+        'coastal dune and estuarine dynamics supporting diverse habitats',
+        'over 100 mammal species including reintroduced cheetah and lion',
+      ],
+      sourceIds: ['one-earth-eco-19'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 6 against a conservation target of 23%. Key protected areas include Greater St. Lucia Wetland Park, Phinda Game Reserve, Mkuzi Game Reserve, Maputo Special Reserve, and the Lubombo transfrontier conservation area. Threats include invasive exotic plants such as Chromaena odorata and guava, afforestation with Pinus and Eucalyptus, slash and burn farming, swamp forest clearance for commercial banana farming, and poaching. Priority actions are encouraging alternative sustainable livelihoods, improving land use management in unprotected areas, and removing invasive species.',
+      sourceIds: ['one-earth-eco-19'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:african-elephant',
+      'species:neergaards-sunbird',
+      'species:pels-fishing-owl',
+    ],
+    countryIds: ['MZ', 'ZA', 'SZ'],
+    sources: ['one-earth-eco-19'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:25',
+    summary: {
+      value:
+        'Northern Swahili Coastal Forests form a mosaic of lowland forest patches, savannah-woodlands, bushlands, thickets, and farmlands from coastal Somalia to southern Tanzania, including the islands of Pemba, Unguja (Zanzibar), and Mafia. Together with the Eastern Arc Forests this ecoregion forms a global center of botanical endemism with over 4,500 plant species. Strictly endemic mammals include the critically endangered Rondo dwarf galago and Aders\u2019 duiker, while the Pemba flying fox is confined to Pemba Island with a wingspan of 1.6 m.',
+      sourceIds: ['one-earth-eco-25'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'low ridges and swells formed by tectonic activity over tens of millions of years',
+        'mosaic of lowland forest patches, savannah-woodlands, bushlands, and farmlands',
+        'outliers at the base of Uluguru, Nguru, and Udzungwa Eastern Arc Mountains',
+        'islands of Pemba, Unguja (Zanzibar), and Mafia off the coast',
+      ],
+      sourceIds: ['one-earth-eco-25'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with average temperatures above 25°C and generally high humidity; mean annual rainfall varies from over 2,000 mm on Pemba Island to under 1,000 mm in northern Kenya; two rainy seasons with a longer April–June season and shorter November–December season.',
+        annualPrecipitationMm: { min: 1000, max: 2000 },
+        temperatureC: { min: 25, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-25'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'over 4,500 plant species with at least 400 strictly endemic to forest patches',
+        'lowland forest patches with high botanical endemism',
+        'savannah-woodlands and bushlands on tectonic ridges',
+        'Zanzibar–Inhambane coastal forest mosaic with island variants',
+      ],
+      sourceIds: ['one-earth-eco-25'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'tectonic uplift creating ridges and swells that diversify habitats',
+        'island biogeography driving endemism on Pemba, Unguja, and Mafia',
+        'forest fragmentation reducing patches to fewer than 200 remnants',
+        'coastal to inland rainfall gradient shaping species distributions',
+      ],
+      sourceIds: ['one-earth-eco-25'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 6 against a conservation target of 23%. Protected areas include Tana River Primate Reserve, Shimba Hills Nature Reserve, Arabuko-Sokoke National Park, Saadani National Park, Boni National Reserve, Rondo Nature Reserve, Jozani Chwaka Bay National Park, and Mafia Island Marine Park. Threats include agricultural expansion, charcoal production, limestone mining, and reduction to fewer than 200 fragmented forest patches. Priority actions are promoting forest restoration and connectivity, implementing sustainable agricultural practices, and upgrading protected areas.',
+      sourceIds: ['one-earth-eco-25'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:pemba-flying-fox',
+      'species:rondo-dwarf-galago',
+      'species:zanzibar-red-colobus',
+      'species:tana-river-red-colobus',
+      'species:tana-river-mangabey',
+      'species:sokoke-scops-owl',
+      'species:amani-sunbird',
+    ],
+    countryIds: ['KE', 'TZ', 'SO'],
+    sources: ['one-earth-eco-25'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:28',
+    summary: {
+      value:
+        'Southern Swahili Coastal Forests and Woodlands extend approximately 2,200 km along the eastern African coast from the Lukuledi River in Tanzania to the Changane River in Mozambique, with isolated plateaus and inselbergs supporting important sub-centers of endemism. Rondo Plateau harbors more than 60 endemic plant species in less than 50 km², and the ecoregion contains more than 150 strictly endemic plants. Vincent\u2019s bush squirrel is confined to Mount Namuli in Mozambique, the only endemic mammal.',
+      sourceIds: ['one-earth-eco-28'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'gently rolling topography with isolated higher plateaus and inselbergs',
+        'important sand dunes supporting forest vegetation',
+        'Rondo Plateau and Makonde Plateau rising up to 1,000 m altitude',
+        'narrow coastal strip less than 50 km inland with small offshore islands',
+      ],
+      sourceIds: ['one-earth-eco-28'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical in the north transitioning to subtropical in the south; rainfall controlled by monsoon winds at around 800–1,000 mm per year, higher on some plateaus; mean maximum temperatures 27–30°C in the north and 24°C in the south.',
+        annualPrecipitationMm: { min: 800, max: 1000 },
+        temperatureC: { min: 24, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-28'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'more than 150 strictly endemic plants with 100 confined to southern Tanzania',
+        'plateau forest with high concentrations of endemic species',
+        'mosaic of non-forest habitat types elevating species richness',
+        'Miocene uplift remnant forests on plateau areas',
+      ],
+      sourceIds: ['one-earth-eco-28'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Miocene plateau uplift creating isolated habitats for endemism',
+        'coastal-to-inland ecological gradients along a narrow strip',
+        'forest fragmentation reducing connectivity between plateau remnants',
+        'low obligate forest species richness elevated by diverse non-forest habitats',
+      ],
+      sourceIds: ['one-earth-eco-28'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 8 against a conservation target of 18%. Protected areas include Quirimbas National Park, Bazaruto National Park, Pomene Game Reserve, Baixo Pinda, Matibane, and Marromeu Game Reserve. Threats include commercial logging in northern Mozambique, pitsawing in Tanzania, forest clearing for agriculture, tourism development, and reduction of larger mammals from the Mozambique war. Priority actions are supporting establishment of protected areas in key biodiversity areas, supporting sustainable harvesting regimes, and supporting production of non-timber forest products.',
+      sourceIds: ['one-earth-eco-28'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:vincents-bush-squirrel',
+      'species:green-barbet',
+      'species:roan-antelope',
+      'species:african-elephant',
+    ],
+    countryIds: ['MZ', 'MW', 'TZ'],
+    sources: ['one-earth-eco-28'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:75',
+    summary: {
+      value:
+        'Zambezian Coastal Flooded Savanna encompasses the floodplain deltas of the Zambezi, Pungwe, Buzi, and Save Rivers along the coast of Mozambique. The Zambezi Delta forms the most extensive portion, covering roughly 200 km of coastline and penetrating up to 120 km inland. The region supports the highest concentration of waterbirds in Mozambique and provides a critical refuge for 30% of the global wattled crane population during droughts.',
+      sourceIds: ['one-earth-eco-75'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'floodplain deltas of the Zambezi, Pungwe, Buzi, and Save Rivers',
+        'Zambezi Delta covering roughly 200 km of coastline and 120 km inland',
+        'lightly wooded savanna on fertile floodplain soils',
+        'influenced by both floodwaters and oceanic tides',
+      ],
+      sourceIds: ['one-earth-eco-75'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Annual rainfall between 800–1,400 mm per annum with most falling October to March; mean maximum temperatures 27–30°C, mean minimum temperatures averaging 18°C.',
+        annualPrecipitationMm: { min: 800, max: 1400 },
+        temperatureC: { min: 18, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-75'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'open grassland-dominated communities and mixed freshwater swamp forests',
+        'lightly wooded savanna with palms Borassus aethiopum and Hyphaene coriacea',
+        'Acacia such as A. sieberiana and A. polyacantha on savanna',
+        'both tidal and freshwater wetland vegetation shaped by flood pulses',
+      ],
+      sourceIds: ['one-earth-eco-75'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'annual flood pulse inundating wetlands with mixed river and ocean influence',
+        'waterbird congregation supporting globally significant populations',
+        'hippopotamus waterway maintenance preventing channel clogging',
+        'high mammal densities of buffalo, elephant, lion, and leopard',
+      ],
+      sourceIds: ['one-earth-eco-75'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 10 against a conservation target of 70%. The Marromeu Complex Game Management Area covers 1,500 km² and the Zambezi Delta Ramsar site covers 31,712 km². Threats include the KARIBA and Cabora Bassa Dams reducing flood events, sugar plantations on fertile soils, climate change increasing irrigation needs, poaching, and reduced hippo numbers allowing invasive water hyacinth to clog channels. Priority actions are protecting and restoring environmental flows through dam operation changes, promoting community-based natural resource management, and reducing hunting quotas.',
+      sourceIds: ['one-earth-eco-75'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:wattled-crane',
+      'species:african-elephant',
+      'species:lion',
+    ],
+    countryIds: ['MZ'],
+    sources: ['one-earth-eco-75'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:112',
+    summary: {
+      value:
+        'East African Mangroves stretch along the coasts of Somalia, Kenya, Tanzania, and Mozambique, forming the most critically threatened ecosystem in the world due to clearance and conversion to aquaculture, salt pans, and farmland. The Rufiji delta in Tanzania is the largest continuous block of estuarine mangrove forests in Africa. Ten species of mangroves occur throughout the region, and the ecosystem functions as a nutrient trap providing shelter and refuge for juveniles of many important fish, shrimp, crab, and mollusc species.',
+      sourceIds: ['one-earth-eco-112'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'coastal mangrove forests from Somalia through Kenya, Tanzania, and Mozambique',
+        'Rufiji delta, the largest continuous block of estuarine mangrove forests in Africa',
+        'Zambezi River Delta in Mozambique as another major mangrove area',
+        'deltaic and estuarine habitats shaped by monsoon winds and coastal currents',
+      ],
+      sourceIds: ['one-earth-eco-112'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with seasonal wind patterns from the Northeast monsoon and Southeast monsoon; sea level rise predicted to increase 18–59 cm by 2100 posing significant risk to low-lying mangrove areas.',
+      },
+      sourceIds: ['one-earth-eco-112'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'ten mangrove species throughout the region determined by salinity and soil conditions',
+        'Sonneratia alba as pioneer species on open coasts',
+        'Avicennia marina, Rhizophora mucronata, and Ceriops tagal in established stands',
+        'Heritiera littoralis, Bruguiera gymnorrhiza, Lumnitzera racemose, and Xylocarpus granatum',
+      ],
+      sourceIds: ['one-earth-eco-112'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'exceptionally productive ecosystems functioning as nutrient traps',
+        'shelter and nursery habitat for juveniles of many marine species',
+        'breeding and feeding grounds for olive ridley, hawksbill, and green turtles',
+        'monsoon wind patterns and coastal currents shaping mangrove distribution',
+      ],
+      sourceIds: ['one-earth-eco-112'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 9 against a conservation target of 56%. Protected areas include the Rufiji-Mafia-Kilwa Ramsar site, Mafia Island Marine Park, Jozani-Chwaka Bay National Park, Watamu Marine National Reserve, Bazaruto Marine National Park, Quirimbas Marine Park, and Maputo Game Reserve. Threats include timber and fuelwood harvesting, rice paddy clearance, saltpans, aquaculture, urbanization, industrial pollution, siltation, dredging, pesticides, and sea level rise from climate change. Priority actions are supporting alternative livelihoods including ecotourism, promoting community-based forest management, and restoring degraded mangrove areas.',
+      sourceIds: ['one-earth-eco-112'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:blue-monkey',
+      'species:olive-ridley-sea-turtle',
+      'species:nile-crocodile',
+      'species:green-sea-turtle',
+    ],
+    countryIds: ['SO', 'KE', 'TZ', 'MZ'],
+    sources: ['one-earth-eco-112'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:116',
+    summary: {
+      value:
+        'Southern Africa Mangroves line parts of the eastern South African and southernmost Mozambique coastline, representing the southernmost mangroves on the African continent. Mangroves extend 20 degrees farther south on the eastern coast than on the western coast due to the warming effect of the Agulhas Current. The ecoregion supports populations of waterbirds including lesser flamingo and saddle-billed stork, and marine fauna including loggerhead and leatherback turtles that nest on adjacent beaches.',
+      sourceIds: ['one-earth-eco-116'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'eastern South African and southernmost Mozambique coastline along the Indian Ocean',
+        'mangroves beginning just north of East London at the Nahoon River mouth',
+        'well-developed mangrove forest at the Mngazana estuary',
+        'Kosi Bay in the north with the richest mangrove diversity in South Africa',
+      ],
+      sourceIds: ['one-earth-eco-116'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Subtropical with mean maximum temperatures ranging from 18° to 24°C and mean minimum temperatures ranging between 12° and 18°C; annual rainfall ranges from 800 mm to more than 1,200 mm.',
+        annualPrecipitationMm: { min: 800, max: 1200 },
+        temperatureC: { min: 12, max: 24 },
+      },
+      sourceIds: ['one-earth-eco-116'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Avicennia marina as the sole mangrove species at the southernmost sites',
+        'Bruguiera gymnorrhiza appearing at the Mbashe estuary',
+        'Rhizophora mucronata at the Mngazana estuary',
+        'Ceriops tagal and Lumnitzera racemose at the northernmost Kosi Bay sites',
+      ],
+      sourceIds: ['one-earth-eco-116'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'physiological salt tolerance and shallow rooting systems allowing mangrove survival',
+        'nursery habitat for sesmarid crabs, fiddler crabs, grey mullet, and Cape stumpnose',
+        'Indian prawn sustenance of offshore fisheries',
+        'nesting beaches for loggerhead and leatherback turtles',
+      ],
+      sourceIds: ['one-earth-eco-116'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 7 against a conservation target of 34%. Protected areas include the Turtle beaches of Tongaland Ramsar site and iSimangaliso Wetland Park, a UNESCO World Heritage Site. Threats include harbour construction, marina and tourist development, hydrology and salinity changes from upstream agriculture, waste and sewage discharge, oil spills, charcoal and fuelwood use, cattle grazing, and sea level rise from climate change. Priority actions are promoting alternative livelihoods such as oyster harvesting and ecotourism, enhancing environmental legislation to incorporate mangrove policies, and promoting alternative construction materials.',
+      sourceIds: ['one-earth-eco-116'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:mangrove-kingfisher',
+      'species:african-clawless-otter',
+      'species:loggerhead-turtle',
+      'species:leatherback-turtle',
+    ],
+    countryIds: ['ZA', 'MZ'],
+    sources: ['one-earth-eco-116'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:5',
+    summary: {
+      value:
+        'The Congolian Coastal Forests sprawl from the Sanaga River in west-central Cameroon south through Equatorial Guinea into coastal Gabon, the Republic of Congo, and the Cabinda Province of Angola. Lying within the wet tropics, the ecoregion receives high rainfall and supports over 200 strictly endemic plant species. It has been an ancient cradle for Congo endemism and globally important populations of large forest mammals including the western lowland gorilla, chimpanzee, and African forest elephant.',
+      sourceIds: ['one-earth-eco-5'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'extends from the Sanaga River in west-central Cameroon south through Equatorial Guinea',
+        'coastal and inland areas of Gabon, the Republic of Congo, and the Cabinda Province of Angola',
+        'Monts de Cristal in Gabon the site of highest plant conservation importance',
+        'protected areas include Campo-Ma\u2019an NP, Lop\u00e9 NP, Loango NP, and Monts de Cristal NP',
+      ],
+      sourceIds: ['one-earth-eco-5'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Wet tropics with high rainfall varying from 2,000 mm per annum in the north to 1,200 mm in the south; temperatures range from an annual mean maximum of 24\u201327\u00b0C to an annual mean minimum of 18\u201321\u00b0C.',
+        annualPrecipitationMm: { min: 1200, max: 2000 },
+        temperatureC: { min: 18, max: 27 },
+      },
+      sourceIds: ['one-earth-eco-5'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'coastal evergreen moist forests characterize the vegetation',
+        'more than 3,000 plant species recorded at Monts de Cristal with 100 strict endemics',
+        'over 200 plant species strictly endemic to the ecoregion',
+        'large forest mammal assemblages including mandrill, black colobus, bongo, and forest buffalo',
+      ],
+      sourceIds: ['one-earth-eco-5'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'ancient cradle for Congo endemism and globally important populations of large forest mammals',
+        'high rainfall sustaining evergreen moist forest and exceptional plant endemicity',
+        'wetland and forest habitats supporting western lowland gorilla, chimpanzee, and African forest elephant',
+        'important food-web role of mandrill, bongo, and forest buffalo populations',
+      ],
+      sourceIds: ['one-earth-eco-5'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 3 against a conservation target of 86%. Protected areas include Campo-Ma\u2019an NP, Douala-Ed\u00e9a Faunal Reserve, Monte Al\u00e9n NP, Lop\u00e9 NP, and Monts de Cristal NP. Threats include selective logging, bushmeat hunting, and elephant poaching. Priority actions are supporting local communities for alternative income, tracking wildlife, and supporting agro-industry management of high conservation value forests.',
+      sourceIds: ['one-earth-eco-5'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:western-lowland-gorilla',
+      'species:mandrill',
+      'species:bongo',
+      'species:african-forest-elephant',
+    ],
+    countryIds: ['AO', 'CM', 'CG', 'CD', 'GQ', 'GA'],
+    sources: ['one-earth-eco-5'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:6',
+    summary: {
+      value:
+        'The Cross-Niger Transition Forests lie between the biogeographic barriers of the Cross River and the formidable Niger River in southern Nigeria. These remnant forests harbour species transitional between the Upper Guinean and Lower Guinean forest blocks. Three vegetation zones cross the ecoregion south to north, reflecting decreasing rainfall further inland.',
+      sourceIds: ['one-earth-eco-6'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'found nestled between the biogeographic barriers of the Cross River and the Niger River',
+        'southern Nigeria remnant forests',
+        'three vegetation zones crossing the ecoregion south to north',
+        'small protected reserves including Anambra FR, Mamu River FR, and Stubbs Creek FR',
+      ],
+      sourceIds: ['one-earth-eco-6'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with a rainforest zone in the south receiving 2,000\u20132,500 mm of annual rainfall and a drier mixed deciduous forest zone further north with 1,500\u20132,000 mm rainfall.',
+        annualPrecipitationMm: { min: 1500, max: 2500 },
+      },
+      sourceIds: ['one-earth-eco-6'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'rainforest zone in the south with high annual rainfall',
+        'mixed deciduous forest zone further north and drier',
+        'remnant forests transitional between Upper Guinean and Lower Guinean blocks',
+        'sacred groves and forest reserves retaining native cover',
+      ],
+      sourceIds: ['one-earth-eco-6'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'transitional biogeography between the Upper Guinean and Lower Guinean forest blocks',
+        'two near-endemic species, the Sclater\u2019s guenon and the crested chameleon',
+        'the Anambra waxbill as a near-endemic bird typical of the Cross-Niger region',
+        'anthropogenic fires and long-standing high human population shaping remaining habitat',
+      ],
+      sourceIds: ['one-earth-eco-6'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 10 against a conservation target of 3%. Protected areas include Anambra FR (194 km\u00b2), Mamu River FR, Osomari FR, Akpaka FR, and Stubbs Creek FR (210 km\u00b2), along with sacred groves. Threats include a long-standing high human population (100\u2013500 people/km\u00b2), conversion to agriculture, small-scale logging, bushmeat hunting, and anthropogenic fires. Priority actions are empowering communities, reforesting forest reserves, and retaining and improving protected areas.',
+      sourceIds: ['one-earth-eco-6'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sclaters-guenon',
+      'species:crested-chameleon',
+      'species:anambra-waxbill',
+    ],
+    countryIds: ['NG'],
+    sources: ['one-earth-eco-6'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:7',
+    summary: {
+      value:
+        'The end of the last ice age divided this ecoregion by the rising ocean between the mainland lowland forests and the island of Bioko. Despite this disconnection, exceptional species richness persists in both areas. This ecoregion contains the highest numbers of forest-restricted birds and mammals in Africa, including the strictly endemic Preuss\u2019s red colobus and the highly threatened Cross River population of the lowland gorilla.',
+      sourceIds: ['one-earth-eco-7'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'mainland lowland forests of Cameroon, Equatorial Guinea, and Nigeria separated from the island of Bioko',
+        'rugged southwestern foothills of Mount Cameroon and southwest Bioko',
+        'among the wettest areas in tropical Africa',
+        'Korup NP, Cross River NP, and Takamanda NP among key protected areas',
+      ],
+      sourceIds: ['one-earth-eco-7'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'One of the wettest areas in tropical Africa, with rainfall exceeding 10,000 mm per annum in the rugged southwestern foothills of Mount Cameroon and on southwest Bioko; away from the montane influence rainfall averages 3,000 mm along the coast and falls to around 2,000 mm inland.',
+        annualPrecipitationMm: { min: 2000, max: 10000 },
+        temperatureC: { min: 15, max: 33 },
+      },
+      sourceIds: ['one-earth-eco-7'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'at least 200 species of plants endemic, including Deinbollia angustifolia, D. saligna, and Medusandra richardsiana',
+        'species-rich mainland lowland forest',
+        'montane-influenced forests on Bioko',
+        'exceptional forest-restricted bird and mammal richness across both areas',
+      ],
+      sourceIds: ['one-earth-eco-7'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'division of the ecoregion by rising ocean after the last ice age isolating Bioko biota',
+        'highest numbers of forest-restricted birds and mammals in Africa',
+        'strictly endemic Preuss\u2019s red colobus and the highly threatened Cross River gorilla population',
+        'endemic species including the Bibundi bat, pitch shrew, and Schneider\u2019s banana frog',
+      ],
+      sourceIds: ['one-earth-eco-7'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 3 against a conservation target of 60%. Protected areas include Korup NP (1,261 km\u00b2), Cross River NP (8,000 km\u00b2), and Takamanda NP. Threats include commercial logging, plantation agriculture (rubber, oil palm), and bushmeat hunting, including of gorillas for religious and medicinal use. Priority actions are supporting sustainable livelihoods, establishing community REDD+ schemes, and increasing enforcement against bushmeat hunting.',
+      sourceIds: ['one-earth-eco-7'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:preuss-red-colobus',
+      'species:cross-river-gorilla',
+      'species:drill',
+    ],
+    countryIds: ['CM', 'GQ', 'NG'],
+    sources: ['one-earth-eco-7'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:21',
+    summary: {
+      value:
+        'The volcanic history of Mount Cameroon and Bioko leaves its mark through barren lava fields, rifting, collapsed scars, and cinder cones on the tallest peak in the region at 4,095 m. Habitats range from submontane and montane forests to subalpine grasslands, yielding high species richness in a restricted area. Strictly endemic species include the Arrogant shrew, an endemic subspecies of drill on Bioko, and the endemic Buea small tongue toad.',
+      sourceIds: ['one-earth-eco-21'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Mount Cameroon, the tallest peak in the region at 4,095 m, and the island of Bioko',
+        'barren lava fields, rifting, collapsed scars, and cinder cones from volcanic eruptions',
+        'submontane and montane forests grading into subalpine grasslands',
+        'Mount Cameroon NP, Basil\u00e9 NP, and Luba Crater Scientific Reserve',
+      ],
+      sourceIds: ['one-earth-eco-21'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'The southwestern sides of both Mount Cameroon and Bioko have a virtually continuous wet rainy season, with rainfall reaching 10,000 mm per year in lower tropical altitudes; temperatures at the base average 25.5\u201327\u00b0C and can reach 32\u201335\u00b0C in the hottest months, declining approximately 1\u00b0C per 150 m of elevation.',
+        annualPrecipitationMm: { min: 2000, max: 10000 },
+        temperatureC: { min: 25, max: 35 },
+      },
+      sourceIds: ['one-earth-eco-21'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'at least 42 plant species and three genera strictly endemic, mostly at higher elevations',
+        'another 50 species near-endemic to Mount Cameroon',
+        'submontane and montane forests',
+        'subalpine grasslands at the highest elevations',
+      ],
+      sourceIds: ['one-earth-eco-21'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'volcanic activity shaping barren lava fields, rifting, and cinder cones',
+        'diversity of habitats within a restricted geographical area driving high species richness',
+        'strictly endemic Arrogant shrew and endemic subspecies of drill on Bioko',
+        'altitudinal temperature gradient of approximately 1\u00b0C per 150 m',
+      ],
+      sourceIds: ['one-earth-eco-21'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 6 against a conservation target of 100%. Protected areas include Mount Cameroon NP (581 km\u00b2), Basil\u00e9 NP (330 km\u00b2), and Luba Crater Scientific Reserve (510 km\u00b2). Threats include agriculture (oil palm, rubber plantations), bushmeat hunting, the live animal pet trade, and Prunus africana exploitation. Priority actions are increasing law enforcement and monitoring, continuing forest financing, and supporting agro-industry management.',
+      sourceIds: ['one-earth-eco-21'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:mount-cameroon-francolin',
+      'species:mount-cameroon-speirops',
+      'species:drill',
+    ],
+    countryIds: ['CM', 'GQ'],
+    sources: ['one-earth-eco-21'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:22',
+    summary: {
+      value:
+        'For millions of years, since the Upper Cretaceous period, the Niger River has deposited sediment at its mouth creating the largest swamp forest habitat in Africa after the Congo Basin Swamp Forests. Since the discovery of oil this former refuge for plants and wildlife is now highly threatened by human activity. The swamp forest is subdivided into flood forest, the eastern delta flank, and the central backswamp area.',
+      sourceIds: ['one-earth-eco-22'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'largest swamp forest habitat in Africa after the Congo Basin Swamp Forests',
+        'Niger Delta created by millennia of sediment deposition at the river mouth',
+        'subdivided into flood forest, the eastern delta flank, and the central backswamp area',
+        'small sacred groves and Upper Orashi, Nun River, and Lower Orashi forest reserves',
+      ],
+      sourceIds: ['one-earth-eco-22'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with a long rainy season from March\u2013April to October, precipitation increasing from the north of the delta (average 2,500 mm) to the coastal area (average 4,000 mm).',
+        annualPrecipitationMm: { min: 2500, max: 4000 },
+      },
+      sourceIds: ['one-earth-eco-22'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'flood forest with complete inundation in October to December',
+        'eastern delta flank swamp forest',
+        'central backswamp area',
+        'freshwater swamp forest grading into coastal wetlands',
+      ],
+      sourceIds: ['one-earth-eco-22'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Upper Cretaceous era river dynamics depositing sediment to build the delta',
+        'largest swamp forest habitat in Africa after the Congo Basin Swamp Forests',
+        'endemic Niger Delta red colobus and Niger Delta pygmy hippopotamus',
+        'heavy oil spill contamination and fish population decline disrupting the wetland web',
+      ],
+      sourceIds: ['one-earth-eco-22'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 10 against a conservation target of 8%. Protected areas are limited to small sacred groves and the Upper Orashi, Nun River, and Lower Orashi forest reserves, which are heavily exploited. Threats include oil exploration (with an estimated 1.5 million tons spilled in 50 years, roughly 50 times the Exxon Valdez), logging, a growing human population, and fish population decline. Priority actions are science-based biodiversity remediation for oil spills, creating a community development fund, and mainstreaming biodiversity into oil and gas operations.',
+      sourceIds: ['one-earth-eco-22'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:niger-delta-red-colobus',
+      'species:niger-delta-pygmy-hippo',
+      'species:sclaters-guenon',
+      'species:white-throated-guenon',
+    ],
+    countryIds: ['NG'],
+    sources: ['one-earth-eco-22'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:23',
+    summary: {
+      value:
+        'A dense human population, threatened mammals including the African bush elephant and the western chimpanzee, and a few endemic species like the Ibadan malimbe share space in this narrow region along the coast of southwestern Nigeria. The ecoregion is confined to a narrow, gently undulating coastal plain of 150 m altitude. Vegetation changes gradually from rainforest in the south to mixed deciduous forest further north.',
+      sourceIds: ['one-earth-eco-23'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'narrow, gently undulating coastal plain of 150 m altitude in southwestern Nigeria',
+        'region along the coast bounded by dense human population',
+        'Omo Biosphere Reserve, Kwale GR, Gilli-Gilli GR, Okomu NP, and Ifon GR',
+        'forest fragmented into disconnected blocks',
+      ],
+      sourceIds: ['one-earth-eco-23'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical, with gradual change from rainforest in the south where typical mean annual rainfall varies from 2,000 to 2,500 mm, to mixed deciduous forest further north receiving 1,500 to 2,000 mm per year.',
+        annualPrecipitationMm: { min: 1500, max: 2500 },
+      },
+      sourceIds: ['one-earth-eco-23'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'rainforest in the south with 2,000\u20132,500 mm annual rainfall',
+        'mixed deciduous forest further north with 1,500\u20132,000 mm annual rainfall',
+        'vegetation distribution dependent mainly on climate',
+        'forest fragmented into disconnected blocks by human land use',
+      ],
+      sourceIds: ['one-earth-eco-23'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'gradual climate-driven transition from rainforest to mixed deciduous forest',
+        'endemic bird the Ibadan malimbe',
+        'threatened mammals including African bush elephant and western chimpanzee, possibly a new subspecies',
+        'forest fragmentation into disconnected blocks and bushmeat hunting',
+      ],
+      sourceIds: ['one-earth-eco-23'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 10 against a conservation target of 18%. Protected areas include Omo Biosphere Reserve, Kwale GR, Gilli-Gilli GR, Okomu NP, and Ifon GR. Threats include roughly 55 million inhabitants (100\u2013500 people/km\u00b2), cocoa farming, logging, bushmeat hunting, and forest fragmentation into disconnected blocks. Priority actions are re-establishing carbon stocks via REDD+, evaluating forest reserves for conservation significance, and enforcing stricter protection on forests.',
+      sourceIds: ['one-earth-eco-23'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:ibadan-malimbe',
+      'species:white-throated-guenon',
+      'species:african-elephant',
+    ],
+    countryIds: ['NG'],
+    sources: ['one-earth-eco-23'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:27',
+    summary: {
+      value:
+        'The lush forests of this ecoregion envelop the islands\u2019 inactive volcanic slopes and appear to drop straight into the ocean roughly 250 km off the coast of western Africa. This small island group of Principe, Sao Tome, and Annobon hosts a remarkable number of unique species. These include the giant sunbird, the Sao Tome grosbeak\u2014the world\u2019s largest canary\u2014and giant begonias reaching up to 3 m in height.',
+      sourceIds: ['one-earth-eco-27'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'three volcanic islands of Principe, Sao Tome, and Annobon in the Gulf of Guinea',
+        'inactive volcanic slopes dropping steeply into the ocean',
+        'located about 250 km off the coast of western Africa',
+        'Parques Naturais d\u2019Obo, Principe UNESCO Biosphere Reserve, and Annobon protected area',
+      ],
+      sourceIds: ['one-earth-eco-27'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'On Sao Tome, annual rainfall ranges from 1,000 mm in the northeast to more than 4,000 mm in the southwest; mean annual temperatures range from a maximum of 30\u201333\u00b0C to a minimum of 18\u201321\u00b0C.',
+        annualPrecipitationMm: { min: 1000, max: 4000 },
+        temperatureC: { min: 18, max: 33 },
+      },
+      sourceIds: ['one-earth-eco-27'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'giant endemic begonias Begonia crateris and Begonia baccata reaching 3 m in height',
+        '37 endemic plant species on Principe, 95 on Sao Tome, and 20 on Annobon',
+        'lush lowland forests on inactive volcanic slopes',
+        'montane forest and endemism-rich island flora',
+      ],
+      sourceIds: ['one-earth-eco-27'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'oceanic isolation roughly 250 km off the African coast driving remarkable endemism',
+        'endemic giant sunbird and Sao Tome grosbeak, the world\u2019s largest canary',
+        'dwarf olive ibis rediscovered after 60+ years',
+        'endemic mammals including the Sao Tome shrew and endemic fruit bats',
+      ],
+      sourceIds: ['one-earth-eco-27'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 3 against a conservation target of 100%. Protected areas include Parques Naturais d\u2019Obo, the Principe UNESCO Biosphere Reserve, and the Annobon protected area (ratified 2000). Threats include historical plantation clearing (sugar, coffee, cocoa), agricultural encroachment into montane forest, and the pet trade (African grey parrot banned since 2016). Priority actions are implementing species action plans for Critically Endangered birds, promoting sustainable forest use, and building local conservation capacity.',
+      sourceIds: ['one-earth-eco-27'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:giant-sunbird',
+      'species:sao-tome-grosbeak',
+      'species:dwarf-olive-ibis',
+      'species:sao-tome-scops-owl',
+      'species:sao-tome-shrew',
+    ],
+    countryIds: ['ST', 'GQ'],
+    sources: ['one-earth-eco-27'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:111',
+    summary: {
+      value:
+        'The Central African Mangroves contain the largest mangrove stands in Africa and the third largest in the world, found chiefly in the Niger Delta of Nigeria. This is also where, over the past 50 years, an estimated 1.5 million tons of oil has been spilled, roughly 50 times the Exxon Valdez disaster. Five mangrove species occur here alongside near-endemic Sclater\u2019s guenon, talapoin monkey, and African manatee.',
+      sourceIds: ['one-earth-eco-111'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'largest mangrove stands in Africa and the third largest in the world in the Niger Delta',
+        'located in western Africa across Ghana, Nigeria, Cameroon, Equatorial Guinea, Gabon, DR Congo, and Angola',
+        'Douala Edea Faunal Reserve, Anlo-Keta Lagoon Complex, and Pongara NP among protected sites',
+        'Anlo-Keta Lagoon Complex and Songor Biosphere Reserve in Ghana',
+      ],
+      sourceIds: ['one-earth-eco-111'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Annual rainfall varies from a mean of 750 mm in Angola to 6,000 mm in Cameroon, spanning tropical to temperate conditions.',
+        annualPrecipitationMm: { min: 750, max: 6000 },
+      },
+      sourceIds: ['one-earth-eco-111'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'red mangroves Rhizophora racemosa, R. mangle, and R. harrisonii',
+        'white mangroves Avicennia germinans and Laguncularia racemosa',
+        'introduced species Nypa fruticans',
+        'five mangrove species found across the region',
+      ],
+      sourceIds: ['one-earth-eco-111'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'largest mangrove stands in Africa and third largest in the world',
+        'near-endemic Sclater\u2019s guenon and talapoin monkey inhabiting the mangroves',
+        'African manatee and five marine turtle species among key fauna',
+        'heavy oil pollution from an estimated 1.5 million tons spilled over 50 years',
+      ],
+      sourceIds: ['one-earth-eco-111'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 4 against a conservation target of 45%. Protected areas include the Douala Edea Faunal Reserve (Cameroon), Anlo-Keta Lagoon Complex and Songor Biosphere Reserve (Ghana), Apoi Creek Ramsar Site (Nigeria), Pongara NP (Gabon), and Estuario del Muni Natural Reserve (Equatorial Guinea). Threats include oil pollution, urbanization, industrialization, agriculture, timber exploitation, gas flaring, dynamite fishing, sewage discharge, nipa palm invasion, water hyacinth, and sea level rise. Priority actions are developing alternative energy sources, sustainable income alternatives, and mangrove conservation policies with community participation.',
+      sourceIds: ['one-earth-eco-111'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sclaters-guenon',
+      'species:talapoin-monkey',
+      'species:west-african-manatee',
+    ],
+    countryIds: ['GH', 'NG', 'CM', 'GQ', 'GA', 'CD', 'AO'],
+    sources: ['one-earth-eco-111'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:3',
+    summary: {
+      value:
+        'The Central Congolian Lowland Forests lie in the Cuvette Centrale of the Congo Basin, south of the wide arc formed by the Congo River. Dense evergreen rainforests and seasonally inundated swamps harbour the world\u2019s largest populations of bonobo, a primate endemic to DR Congo, along with okapi, Congo peacock, and African forest elephant. The ecoregion encompasses roughly 41.5 million hectares and contains Salonga National Park, one of the largest protected areas on the continent.',
+      sourceIds: ['one-earth-eco-3'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'central Congo Basin lowlands south of the Congo River\u2019s wide arc',
+        'river boundaries on the north, east, and west isolating the basin as a distinct species zone',
+        'mosaic of permanent swamp forests in the north and drier semi-evergreen rainforests and grasslands in the south',
+        'Salonga National Park covering roughly 36,000 km\u00B2',
+      ],
+      sourceIds: ['one-earth-eco-3'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Wet equatorial with approximately 2,000 mm of rainfall annually; mean maximum temperatures around 30\u00B0C in the central portion falling to around 27\u00B0C along the southeast margins; mean minimum temperatures between 18 and 21\u00B0C.',
+        annualPrecipitationMm: { min: 2000, max: 2000 },
+        temperatureC: { min: 18, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-3'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'evergreen rainforests dominated by stands of Gilbertiodendron dewevrei',
+        'semi-deciduous forest covering nearly all areas between major river systems',
+        '1,500 to 2,000 vascular plant species with roughly 10 percent endemism',
+        'seasonally inundated swamp forests along northern tributaries',
+      ],
+      sourceIds: ['one-earth-eco-3'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Congo River acting as a biogeographic barrier isolating lowland species',
+        'seasonal inundation driving nutrient cycling and forest composition',
+        'endemic bonobo population reliant on intact canopy and fruit availability',
+        'forest elephant seed dispersal maintaining tree diversity across the basin',
+      ],
+      sourceIds: ['one-earth-eco-3'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 2 against a conservation target of 93%. Protected areas include Salonga National Park (36,000 km\u00B2), Lomami National Park, Sankuru Nature Reserve, Lomako-Yokokala Nature Reserve, and Lyondji Bonobo Community Reserve. Threats include small-scale farming, logging, ivory poaching, bushmeat hunting, and live animal trade. Priority actions are reducing illegal trade of bushmeat and ivory, increasing law enforcement, and implementing alternative livelihood programmes.',
+      sourceIds: ['one-earth-eco-3'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:bonobo',
+      'species:lesula-monkey',
+      'species:salonga-guenon',
+      'species:golden-bellied-mangabey',
+      'species:okapi',
+      'species:congo-peacock',
+      'species:african-slender-snouted-croc',
+    ],
+    countryIds: ['CD'],
+    sources: ['one-earth-eco-3'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:10',
+    summary: {
+      value:
+        'The Eastern Congolian Swamp Forests together with the neighbouring Western Congolian Swamp Forests form one of the largest swamp-forest complexes on Earth. Together they were separated into east and west sections based on the Congo River\u2019s role as an ecological barrier to non-flying vertebrates, most notably excluding the bonobo from the right bank. The ecoregion spans roughly 9.3 million hectares on the left bank of the Congo and its tributaries, comprising a mosaic of open water, swamp forest, seasonally flooded forest, and dryland forest.',
+      sourceIds: ['one-earth-eco-10'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'left bank of the Congo River and its tributaries forming a broad arc across the central basin',
+        'predominantly flat terrain within the wet tropics',
+        'mosaic of open water, swamp forest, seasonally flooded forest, dryland forest, and inundated savannas',
+        'Tumba-Lediima Nature Reserve (7,412 km\u00B2) and Tumba-Ngiri-Maindombe Ramsar Site (65,696 km\u00B2)',
+      ],
+      sourceIds: ['one-earth-eco-10'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Wet tropical with average annual rainfall exceeding 2,000 mm; mean maximum temperatures above 30\u00B0C; minimum temperatures typically between 18 and 21\u00B0C.',
+        annualPrecipitationMm: { min: 2000, max: 2000 },
+        temperatureC: { min: 18, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-10'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'swamp forest and seasonally flooded forest driven by Congo River flood dynamics',
+        'open water channels and seasonally inundated savannas',
+        'dryland forest patches on higher ground between waterways',
+        'floristically similar to the western swamp-forest section but separated by the Congo River barrier',
+      ],
+      sourceIds: ['one-earth-eco-10'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Congo River flood regime shaping forest composition and species distribution',
+        'one strictly endemic rodent, Muton\u2019s soft-furred mouse, evolving in isolation',
+        'near-endemic amphibians and reptiles including the tiny wax frog',
+        'primate community structure influenced by river barriers excluding bonobo',
+      ],
+      sourceIds: ['one-earth-eco-10'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 3 against a conservation target of 89%. Protected areas include Lomami National Park, Salonga National Park, Tumba-Lediima Nature Reserve (7,412 km\u00B2), and the Tumba-Ngiri-Maindombe Ramsar Site (65,696 km\u00B2). Threats include logging, bushmeat hunting, elephant poaching for ivory, and bonobo hunting for meat and the pet trade. Priority actions are incorporating local communities\u2019 knowledge and land rights, decreasing demand for illegal forest products, and encouraging alternative livelihoods.',
+      sourceIds: ['one-earth-eco-10'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:allens-swamp-monkey',
+      'species:angolan-colobus',
+      'species:wolfs-guenon',
+      'species:mutons-soft-furred-mouse',
+      'species:congo-sunbird',
+      'species:tiny-wax-frog',
+    ],
+    countryIds: ['CD', 'CG'],
+    sources: ['one-earth-eco-10'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:29',
+    summary: {
+      value:
+        'The Western Congolian Swamp Forests grow along the meandering tributaries of the Congo River and were preserved as part of an ancient fluvial refuge during a climatic crisis roughly 2,500 years ago. Dense swamp forests shelter important populations of western lowland gorilla, chimpanzee, and African forest elephant. Beneath the canopy lies one of the world\u2019s largest tropical peat deposits, storing approximately 30.6 petagrams of carbon within the Cuvette Centrale depression.',
+      sourceIds: ['one-earth-eco-29'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'meandering tributaries of the Congo River within the Cuvette Centrale depression',
+        'extensive peat deposits beneath the swamp forests storing approximately 30.6 petagrams of carbon',
+        'ancient fluvial refuge that remained intact during regional forest fragmentation',
+        'Lac T\u00E9l\u00E9 Community Reserve (4,390 km\u00B2 Ramsar) and Ntokou-Pikounda National Park',
+      ],
+      sourceIds: ['one-earth-eco-29'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Wet tropics with mean annual rainfall around 1,800 mm; mean maximum temperatures around 30\u00B0C; mean minimum temperatures between 21 and 24\u00B0C.',
+        annualPrecipitationMm: { min: 1800, max: 1800 },
+        temperatureC: { min: 21, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-29'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dense swamp forests growing along tributary floodplains',
+        'extensive peat-forming wetlands in the Cuvette Centrale depression',
+        'canopy dominated by freshwater swamp tree species',
+        'mosaic with seasonal floodplain grasslands and gallery forests along river margins',
+      ],
+      sourceIds: ['one-earth-eco-29'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fluvial refuge preserving intact forests during ancient regional fragmentation',
+        'massive peat carbon storage unique to the Cuvette Centrale depression',
+        'western lowland gorilla and chimpanzee populations relying on intact swamp forest habitat',
+        'African forest elephant maintaining canopy gaps and seed dispersal',
+      ],
+      sourceIds: ['one-earth-eco-29'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 6 against a conservation target of 90%. Protected areas include the Lac T\u00E9l\u00E9 Community Reserve (4,390 km\u00B2 Ramsar), Ntokou-Pikounda National Park, Ngiri Nature Reserve, and the Ngiri-Tumba-Maindombe Ramsar Site. Threats include logging concessions, road construction facilitating hunting, elephant poaching, and bushmeat hunting. Priority actions are continuing surveys of large mammal and fish populations, collaborating with the military for anti-poaching patrols, and expanding the Lac T\u00E9l\u00E9 Community Reserve boundary.',
+      sourceIds: ['one-earth-eco-29'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:crowned-guenon',
+      'species:moustached-guenon',
+      'species:guereza-lowland-colobus',
+      'species:congo-martin',
+      'species:western-lowland-gorilla',
+    ],
+    countryIds: ['CG', 'CD', 'CF'],
+    sources: ['one-earth-eco-29'],
     status: 'authored',
   },
 ];

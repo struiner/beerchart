@@ -1265,6 +1265,9 @@ export const contentBundle = {
       "description": "Pinus roxburghii",
       "linkedEntryIds": [
         "ecoregion:302"
+      ],
+      "linkedGroupIds": [
+        "bioregion:im5"
       ]
     },
     {
@@ -1273,6 +1276,9 @@ export const contentBundle = {
       "description": "Naemorhedus goral",
       "linkedEntryIds": [
         "ecoregion:302"
+      ],
+      "linkedGroupIds": [
+        "bioregion:im5"
       ]
     },
     {
@@ -1281,7 +1287,8 @@ export const contentBundle = {
       "description": "Muntiacus muntjak",
       "linkedEntryIds": [
         "ecoregion:302"
-      ]
+      ],
+      "linkedGroupIds": []
     },
     {
       "id": "species:yellow-throated-marten",
@@ -1289,7 +1296,8 @@ export const contentBundle = {
       "description": "Martes flavigula",
       "linkedEntryIds": [
         "ecoregion:302"
-      ]
+      ],
+      "linkedGroupIds": []
     },
     {
       "id": "functional-group:ectomycorrhizal-fungi",
@@ -1297,7 +1305,8 @@ export const contentBundle = {
       "description": "A host-associated fungal guild documented from pine forests of Nepal; this record does not claim a complete fungal inventory or a single defining species.",
       "linkedEntryIds": [
         "ecoregion:302"
-      ]
+      ],
+      "linkedGroupIds": []
     },
     {
       "id": "functional-group:nitrogen-cycling-rhizosphere-bacteria",
@@ -1305,6 +1314,152 @@ export const contentBundle = {
       "description": "A functional rhizosphere group supported by 16S rRNA and nifH evidence from chir-pine roots; species-level inventory is intentionally not inferred.",
       "linkedEntryIds": [
         "ecoregion:302"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:red-panda",
+      "title": "Red panda",
+      "description": "Ailurus fulgens",
+      "linkedEntryIds": [
+        "ecoregion:309"
+      ],
+      "linkedGroupIds": [
+        "bioregion:im5"
+      ]
+    },
+    {
+      "id": "species:clouded-leopard",
+      "title": "Clouded leopard",
+      "description": "Neofelis nebulosa",
+      "linkedEntryIds": [
+        "ecoregion:233"
+      ],
+      "linkedGroupIds": [
+        "bioregion:im5"
+      ]
+    },
+    {
+      "id": "species:golden-langur",
+      "title": "Golden langur",
+      "description": "Trachypithecus geei",
+      "linkedEntryIds": [
+        "ecoregion:233"
+      ],
+      "linkedGroupIds": [
+        "bioregion:im5"
+      ]
+    },
+    {
+      "id": "species:gaur",
+      "title": "Gaur",
+      "description": "Bos gaurus",
+      "linkedEntryIds": [
+        "ecoregion:233"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:white-winged-wood-duck",
+      "title": "White-winged wood duck",
+      "description": "Asarcornis scutulata",
+      "linkedEntryIds": [
+        "ecoregion:233"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:musk-deer",
+      "title": "Musk deer",
+      "description": "Moschus species",
+      "linkedEntryIds": [
+        "ecoregion:309"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:takin",
+      "title": "Takin",
+      "description": "Budorcas taxicolor",
+      "linkedEntryIds": [
+        "ecoregion:309"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:blood-pheasant",
+      "title": "Blood pheasant",
+      "description": "Ithaginis cruentus",
+      "linkedEntryIds": [
+        "ecoregion:309"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:blyths-tragopan",
+      "title": "Blyth's tragopan",
+      "description": "Tragopan blythii",
+      "linkedEntryIds": [
+        "ecoregion:309"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "country:BT",
+      "title": "Bhutan",
+      "description": "ISO 3166-1 alpha-2: BT",
+      "linkedEntryIds": [
+        "ecoregion:233",
+        "ecoregion:302",
+        "ecoregion:309"
+      ],
+      "linkedGroupIds": [
+        "realm:indomalaya",
+        "subrealm:indian-subcontinent",
+        "bioregion:im5"
+      ]
+    },
+    {
+      "id": "country:IN",
+      "title": "India",
+      "description": "ISO 3166-1 alpha-2: IN",
+      "linkedEntryIds": [
+        "ecoregion:233",
+        "ecoregion:302",
+        "ecoregion:309"
+      ],
+      "linkedGroupIds": [
+        "realm:indomalaya",
+        "subrealm:indian-subcontinent",
+        "bioregion:im5"
+      ]
+    },
+    {
+      "id": "country:NP",
+      "title": "Nepal",
+      "description": "ISO 3166-1 alpha-2: NP",
+      "linkedEntryIds": [
+        "ecoregion:233",
+        "ecoregion:302",
+        "ecoregion:309"
+      ],
+      "linkedGroupIds": [
+        "realm:indomalaya",
+        "subrealm:indian-subcontinent",
+        "bioregion:im5"
+      ]
+    },
+    {
+      "id": "country:PK",
+      "title": "Pakistan",
+      "description": "ISO 3166-1 alpha-2: PK",
+      "linkedEntryIds": [
+        "ecoregion:302"
+      ],
+      "linkedGroupIds": [
+        "realm:indomalaya",
+        "subrealm:indian-subcontinent",
+        "bioregion:im5"
       ]
     }
   ]

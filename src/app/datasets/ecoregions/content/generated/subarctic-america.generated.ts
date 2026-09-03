@@ -581,5 +581,82 @@ export const contentBundle = {
         "y": 0.5
       }
     }
-  }
+  },
+  "relatedEntities": [
+    {
+      "id": "species:arctic-fox",
+      "title": "Arctic fox",
+      "description": "Vulpes lagopus",
+      "linkedEntryIds": [
+        "ecoregion:417",
+        "ecoregion:418"
+      ],
+      "linkedGroupIds": [
+        "subrealm:greenland",
+        "bioregion:na1"
+      ]
+    },
+    {
+      "id": "species:musk-ox",
+      "title": "Musk ox",
+      "description": "Ovibos moschatus",
+      "linkedEntryIds": [
+        "ecoregion:417",
+        "ecoregion:418"
+      ],
+      "linkedGroupIds": [
+        "subrealm:greenland",
+        "bioregion:na1"
+      ]
+    },
+    {
+      "id": "species:reindeer",
+      "title": "Reindeer",
+      "description": "Rangifer tarandus",
+      "linkedEntryIds": [
+        "ecoregion:417",
+        "ecoregion:418"
+      ],
+      "linkedGroupIds": [
+        "subrealm:greenland",
+        "bioregion:na1"
+      ]
+    },
+    {
+      "id": "species:northern-collared-lemming",
+      "title": "Northern collared lemming",
+      "description": "Dicrostonyx groenlandicus",
+      "linkedEntryIds": [
+        "ecoregion:418"
+      ],
+      "linkedGroupIds": [
+        "subrealm:greenland",
+        "bioregion:na1"
+      ]
+    },
+    {
+      "id": "species:white-tailed-eagle",
+      "title": "White-tailed eagle",
+      "description": "Haliaeetus albicilla",
+      "linkedEntryIds": [
+        "ecoregion:417"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na1"
+      ]
+    },
+    {
+      "id": "country:GL",
+      "title": "Greenland",
+      "description": "ISO 3166-1 alpha-2: GL",
+      "linkedEntryIds": [
+        "ecoregion:417",
+        "ecoregion:418"
+      ],
+      "linkedGroupIds": [
+        "subrealm:greenland",
+        "bioregion:na1"
+      ]
+    }
+  ]
 } as const satisfies TaxonomyContentBundle;

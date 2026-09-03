@@ -18,8 +18,9 @@ export { taxonomy as applicationTaxonomy } from './datasets/<name>';
 Dataset production code imports only from `taxonomy/public-api`. Testing helpers come from
 `taxonomy/testing/public-api` and are never part of the production barrel.
 
-Larger examples are available in `src/app/datasets/beer` and
-`src/app/taxonomy/testing/synthetic-taxonomy.fixture.ts`.
+Larger examples are available in `src/app/datasets/beer`, `src/app/datasets/ecoregions`, and
+`src/app/datasets/panmagicon`. Panmagicon demonstrates a compact eager topology with collection-sized
+lazy prose partitions generated from canonical authoring documents.
 
 See [contracts](contracts.md), [projection and facets](projection-and-facets.md),
 [presentation](presentation-and-themes.md), [profiles and search](profiles-and-search.md),

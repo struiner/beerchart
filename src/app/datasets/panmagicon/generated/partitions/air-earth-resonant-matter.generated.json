@@ -1,0 +1,4072 @@
+[
+  {
+    "id": "spell:air-earth-resonant-matter:c01",
+    "title": "Gritshot",
+    "description": "Releases a thimble of grit in one stinging line to distract, mark cloth, scour rust, or test a surface without driving a lethal shard.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:lessons"
+    ],
+    "facts": {
+      "originalId": "C01",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:air-evocation",
+        "stream:earth-evocation"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Direct Intervention",
+      "doctrine": "GALE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C01",
+        "location": "Air + Earth: Resonant Matter / Lessons / C01"
+      }
+    },
+    "aliases": [
+      "C01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Evocation | Th2 Tu1 Kn0 Sp1 Ho0 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Releases a thimble of grit in one stinging line to distract, mark cloth, scour rust, or test a surface without driving a lethal shard.",
+      "practice": "Load a hollow reed with counted grains and brace the heel against bare ground before exhaling.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Air recoil dries the mouth, while the earth grains carry momentum into the target and leave a narrow abrasion trail.",
+      "failure": "The line broadens into friendly eyes, a large grain becomes a projectile, or rebound dust enters the caster's lungs.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Wet the grit, break the reed, turn the crosswind, or raise a soft screen.",
+      "mastery": "A master spends grain size and range before accuracy, and can let the shot fall harmlessly when the backstop changes.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 6 | PROOF HOLDING + BRAIDING | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c02",
+    "title": "Humming Shield",
+    "description": "Makes a hand-sized stone hum when fast motion approaches, then stiffen the air immediately before one light impact.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:lessons"
+    ],
+    "facts": {
+      "originalId": "C02",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-abjuration",
+        "stream:air-enchantment",
+        "stream:earth-abjuration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Protection And Repair",
+      "doctrine": "STRATUM LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C02",
+        "location": "Air + Earth: Resonant Matter / Lessons / C02"
+      }
+    },
+    "aliases": [
+      "C02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Abjuration > Enchantment | Th2 Tu2 Kn1 Sp1 Ho0 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Makes a hand-sized stone hum when fast motion approaches, then stiffen the air immediately before one light impact.",
+      "practice": "Suspend the stone on wire and teach it one admitted rhythm before wearing it near the protected side.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Rejected motion gathers as vibration in the stone, which grows rigid and audibly conspicuous.",
+      "failure": "Repeated harmless movement saturates the hum, the shield answers an ally, or stored vibration cracks the carrier.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Approach slowly, match the admitted rhythm, muffle the stone, or strike after many feints.",
+      "mastery": "An expert grades warning and resistance separately, releasing stored vibration into the ground before protection becomes shrapnel.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 8 | PROOF HOLDING + BRAIDING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c03",
+    "title": "Sandclock Knot",
+    "description": "Binds falling sand to one short task interval, making the final grain sound a clear note even in noise or darkness.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:lessons"
+    ],
+    "facts": {
+      "originalId": "C03",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-enchantment",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Control And Regulation",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C03",
+        "location": "Air + Earth: Resonant Matter / Lessons / C03"
+      }
+    },
+    "aliases": [
+      "C03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 1 | Enchantment | Th2 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Binds falling sand to one short task interval, making the final grain sound a clear note even in noise or darkness.",
+      "practice": "Use dry local sand between two clay cups and name the action, not merely the duration.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The cups stiffen, nearby dust drifts toward them, and unfinished work feels briefly heavier when the note sounds.",
+      "failure": "Damp sand delays the task, vibration releases several false endings, or the enchantment makes delay feel like moral failure.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Turn the clock, wet the sand, change the named task, or drown its frequency.",
+      "mastery": "A master treats the note as information and can release the obligation when conditions make the original interval unsafe.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 8 | PROOF HOLDING + BRAIDING | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c04",
+    "title": "Duststep",
+    "description": "Lightens one deliberate step by turning a thin layer of ground into a momentary lifting dust cushion.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:lessons"
+    ],
+    "facts": {
+      "originalId": "C04",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:earth-alteration"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Movement And Flow",
+      "doctrine": "GALE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C04",
+        "location": "Air + Earth: Resonant Matter / Lessons / C04"
+      }
+    },
+    "aliases": [
+      "C04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Alteration | Th2 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Lightens one deliberate step by turning a thin layer of ground into a momentary lifting dust cushion.",
+      "practice": "Mark the landing with a pebble and sweep loose grit beneath the takeoff foot.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The launch point erodes, the traveller leaves a visible plume, and momentum continues slightly beyond the intended landing.",
+      "failure": "The cushion forms late, carries a light companion instead, or the ground keeps loosening after the step.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Wet or bind the dust, move the pebble, change the traveller's load, or create a side gust.",
+      "mastery": "A master splits lift from forward motion and abandons distance before steering becomes uncertain.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 7 | PROOF HOLDING + BRAIDING | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c05",
+    "title": "Knockstone",
+    "description": "Reads a wall, floor, vessel, or statue from a tap, outlining hollows, cracks, hidden joints, and foreign material.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:lessons"
+    ],
+    "facts": {
+      "originalId": "C05",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Perception And Memory",
+      "doctrine": "STRATUM LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C05",
+        "location": "Air + Earth: Resonant Matter / Lessons / C05"
+      }
+    },
+    "aliases": [
+      "C05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Divination | Th2 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Reads a wall, floor, vessel, or statue from a tap, outlining hollows, cracks, hidden joints, and foreign material.",
+      "practice": "Strike once with a wooden pin and keep a matching stone against the ear.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The questioned object becomes aware as a web of vibration, and whatever lies within hears the inquiry from every side.",
+      "failure": "Decorative layers invent voids, a resonant crack is mistaken for a chamber, or the reader maps only the easiest returning path.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Dampen the surface, answer with a timed knock, change material at a joint, or move inside the hollow.",
+      "mastery": "A master reports uncertainty and distinguishes a dangerous silence from solid stone.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 7 | PROOF HOLDING + BRAIDING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c06",
+    "title": "Dustblind Fold",
+    "description": "Settles a thin veil of dust over footprints, tool marks, or a small object so its disturbed material history is hard to read.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:lessons"
+    ],
+    "facts": {
+      "originalId": "C06",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:air-veiling",
+        "stream:earth-veiling"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C06",
+        "location": "Air + Earth: Resonant Matter / Lessons / C06"
+      }
+    },
+    "aliases": [
+      "C06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 1 | Veiling | Th2 Tu1 Kn0 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Settles a thin veil of dust over footprints, tool marks, or a small object so its disturbed material history is hard to read.",
+      "practice": "Brush local powder in the direction opposite the original action and leave one private retrieval mark.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Airborne clues vanish with ground traces, but the area becomes unnaturally even and friendly trackers lose the same evidence.",
+      "failure": "The veil covers the retrieval mark, enters lungs, or preserves a perfect blank more conspicuous than the truth.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Mist the surface, illuminate low across it, disturb the local dust, or look for the overly uniform patch.",
+      "mastery": "An expert leaves ordinary irregularity and sacrifices concealment before health, retrieval, or later reconstruction fails.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 7 | PROOF HOLDING + BRAIDING | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c07",
+    "title": "Resonant Splint",
+    "description": "Returns a cracked tool, bone support, or ceramic piece toward a stable alignment and binds it there long enough for proper repair.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:lessons"
+    ],
+    "facts": {
+      "originalId": "C07",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-restoration",
+        "stream:air-enchantment",
+        "stream:earth-restoration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "STRATUM LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C07",
+        "location": "Air + Earth: Resonant Matter / Lessons / C07"
+      }
+    },
+    "aliases": [
+      "C07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Restoration > Enchantment | Th2 Tu2 Kn1 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Returns a cracked tool, bone support, or ceramic piece toward a stable alignment and binds it there long enough for proper repair.",
+      "practice": "Match the pieces by sound, clamp them in clay, and preserve one visible fracture line.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Old stress returns with the restored alignment, while the binding hums and stiffens surrounding material.",
+      "failure": "The wrong former fit is chosen, a hidden defect is restored, or the splint holds after the subject must flex.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Detune the hum, wet the clay, introduce a newer valid shape, or load across the visible fracture.",
+      "mastery": "A master restores function rather than cosmetic perfection and releases rigidity before it transfers damage elsewhere.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 9 | PROOF HOLDING + BRAIDING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c08",
+    "title": "Pebble Wren",
+    "description": "Calls loose pebbles and moving air into a tiny birdlike messenger that follows one scored path and taps a destination token.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:lessons"
+    ],
+    "facts": {
+      "originalId": "C08",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-conjuration",
+        "stream:air-enchantment",
+        "stream:earth-conjuration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 1
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C08",
+        "location": "Air + Earth: Resonant Matter / Lessons / C08"
+      }
+    },
+    "aliases": [
+      "C08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Conjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 1 | Conjuration > Enchantment | Th2 Tu2 Kn1 Sp1 Ho1 Fi1 Ag1 Co1 | Carrier: personal or supervised.",
+      "purpose": "Calls loose pebbles and moving air into a tiny birdlike messenger that follows one scored path and taps a destination token.",
+      "practice": "Gather stones from along the route, whistle its turns, and give it no authority to choose a new destination.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The route loses loose material and pressure, while the wren leaves a clicking trail that can be followed backward.",
+      "failure": "A missing pebble breaks the shape, the wren follows a similar whistle, or it batters a closed destination.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Scatter its stones, interrupt the route, mimic the whistle, or move the token.",
+      "mastery": "A master grants one safe pause rather than more intelligence and dismisses the wren when route identity fails.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 10 | PROOF HOLDING + BRAIDING | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c09",
+    "title": "Singing Vent",
+    "description": "Binds a clay vent or stone whistle to maintain a healthy trickle of air and sound a warning when blocked.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:lessons"
+    ],
+    "facts": {
+      "originalId": "C09",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-enchantment",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Infrastructure",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C09",
+        "location": "Air + Earth: Resonant Matter / Lessons / C09"
+      }
+    },
+    "aliases": [
+      "C09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 1 | Enchantment | Th2 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Binds a clay vent or stone whistle to maintain a healthy trickle of air and sound a warning when blocked.",
+      "practice": "Tune the opening with local dust and designate where rejected grit and moisture may settle.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The vent stiffens, its surroundings dry, and accumulated blockage compacts into a hard rim.",
+      "failure": "It whistles constantly in bad weather, preserves airflow into fire or poison, or seals itself with stored dust.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Retune the opening, wet the rim, change pressure, or block the designated settling pocket.",
+      "mastery": "A master keeps warning separate from ventilation and lets the flow weaken safely before the vent fractures.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 8 | PROOF HOLDING + BRAIDING | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c10",
+    "title": "Dancer's Sand",
+    "description": "Makes a small circle of sand rise in timed figures that answer footsteps, drums, or hand motions during performance.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:lessons"
+    ],
+    "facts": {
+      "originalId": "C10",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-evocation",
+        "stream:earth-alteration",
+        "stream:earth-evocation"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "GALE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C10",
+        "location": "Air + Earth: Resonant Matter / Lessons / C10"
+      }
+    },
+    "aliases": [
+      "C10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Alteration > Evocation | Th2 Tu2 Kn1 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Makes a small circle of sand rise in timed figures that answer footsteps, drums, or hand motions during performance.",
+      "practice": "Lay three mineral colours in separate rings and declare which motions may lead.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The floor erodes, the air dries, and performers become reciprocally sensitive to the circle's rhythm.",
+      "failure": "The sand copies panic, interprets the audience as dancers, or accelerates until grains cut skin.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Break a ring, wet the sand, change the rhythm, or step beyond the declared circle.",
+      "mastery": "A master lets figures collapse into dust when meaning becomes unclear, preserving performers over spectacle.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 9 | PROOF HOLDING + BRAIDING | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c11",
+    "title": "Sandblast Line",
+    "description": "Projects a controlled sheet of abrasive dust across several paces to strip paint, cut rope, blind a rank, or expose weak material.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:practical-workings"
+    ],
+    "facts": {
+      "originalId": "C11",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:air-evocation",
+        "stream:earth-evocation"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Direct Intervention",
+      "doctrine": "GALE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 2,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C11",
+        "location": "Air + Earth: Resonant Matter / Practical Workings / C11"
+      }
+    },
+    "aliases": [
+      "C11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Evocation | Th2 Tu1 Kn0 Sp2 Ho0 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Projects a controlled sheet of abrasive dust across several paces to strip paint, cut rope, blind a rank, or expose weak material.",
+      "practice": "Sieve three grain sizes, mark a backstop, and give the largest grains a shorter release Turn.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The source soil is depleted, recoil scours the caster's brace, and suspended dust spreads beyond the visible line.",
+      "failure": "Grain sorting fails, the sheet broadens, or hard fragments ricochet from the target.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Wet the source, raise a soft barrier, alter the crosswind, or force the backstop to move.",
+      "mastery": "Experts shed coarse grains and Span before Fineness, turning a weapon into harmless marking dust as conditions change.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 8 | PROOF BRAIDING + TURNING | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c12",
+    "title": "Pressure Buttress",
+    "description": "Raises a vibrating boundary that diverts impact, falling stone, and blast pressure through prepared ground anchors.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:practical-workings"
+    ],
+    "facts": {
+      "originalId": "C12",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-abjuration",
+        "stream:air-enchantment",
+        "stream:earth-abjuration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Protection And Repair",
+      "doctrine": "STRATUM LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C12",
+        "location": "Air + Earth: Resonant Matter / Practical Workings / C12"
+      }
+    },
+    "aliases": [
+      "C12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Abjuration > Enchantment | Th2 Tu2 Kn1 Sp2 Ho1 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Raises a vibrating boundary that diverts impact, falling stone, and blast pressure through prepared ground anchors.",
+      "practice": "Set angled plates at the protected edge and keep one open relief channel away from people.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Rejected force accumulates as ground stress and a deep hum; air on the safe side grows unnaturally still.",
+      "failure": "The relief channel closes, repeated impacts liquefy soil, or the buttress transmits shock beneath the protected structure.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Attack from below, occupy the relief channel, detune a plate, or feed many small vibrations.",
+      "mastery": "A master narrows the protected arc and lengthens stopping distance before any anchor stores catastrophic force.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 11 | PROOF BRAIDING + TURNING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c13",
+    "title": "Ballast Governor",
+    "description": "Regulates lift, tilt, vibration, and load in a wagon, vessel, crane, or glider by shifting enchanted ballast in response to measured motion.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:practical-workings"
+    ],
+    "facts": {
+      "originalId": "C13",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-enchantment",
+        "stream:earth-alteration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Control And Regulation",
+      "doctrine": "STRATUM LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C13",
+        "location": "Air + Earth: Resonant Matter / Practical Workings / C13"
+      }
+    },
+    "aliases": [
+      "C13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Enchantment > Alteration | Th2 Tu2 Kn2 Sp2 Ho1 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Regulates lift, tilt, vibration, and load in a wagon, vessel, crane, or glider by shifting enchanted ballast in response to measured motion.",
+      "practice": "Divide stones among independent cages and name the safe range rather than one ideal orientation.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The system grows heavy and rigid, rejected motion abrades cages, and every correction leaves a pressure wake.",
+      "failure": "The governor chases level, moves ballast against human intent, or locks during a necessary turn.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Jam a cage, change total load, introduce a false rhythm, or exceed the declared range slowly.",
+      "mastery": "A master allows tilt and vibration, shedding precision before the machine loses freedom to manoeuvre.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 12 | PROOF BRAIDING + TURNING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c14",
+    "title": "Scree Ferry",
+    "description": "Carries a group across loose slope, rubble, or broken ground on a rolling mat of stones held beneath a stabilising current.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:practical-workings"
+    ],
+    "facts": {
+      "originalId": "C14",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-enchantment",
+        "stream:earth-alteration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Movement And Flow",
+      "doctrine": "GALE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C14",
+        "location": "Air + Earth: Resonant Matter / Practical Workings / C14"
+      }
+    },
+    "aliases": [
+      "C14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Alteration > Enchantment | Th2 Tu2 Kn1 Sp2 Ho1 Fi3 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Carries a group across loose slope, rubble, or broken ground on a rolling mat of stones held beneath a stabilising current.",
+      "practice": "Route markers define start, end, and two escape margins; travellers must keep loads within declared bands.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The path erodes, dust advertises movement, and stones accumulate momentum at the destination.",
+      "failure": "The mat outruns its riders, climbs a false stable branch, or becomes a small landslide when formation breaks.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Wet or bind the scree, remove a route marker, vary load sharply, or create a crosswind.",
+      "mastery": "Masters slow and spill peripheral stones before preserving speed without steering, accepting a rough arrival over a collective fall.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 12 | PROOF BRAIDING + TURNING | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c15",
+    "title": "Fault Listener",
+    "description": "Maps active cracks, trapped pressure, mining voids, moving groundwater, and structural resonance beneath a worksite or battlefield.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:practical-workings"
+    ],
+    "facts": {
+      "originalId": "C15",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-divination",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Perception And Memory",
+      "doctrine": "STRATUM LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C15",
+        "location": "Air + Earth: Resonant Matter / Practical Workings / C15"
+      }
+    },
+    "aliases": [
+      "C15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Divination | Th2 Tu1 Kn1 Sp2 Ho1 Fi3 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Maps active cracks, trapped pressure, mining voids, moving groundwater, and structural resonance beneath a worksite or battlefield.",
+      "practice": "Drive listening rods at different depths and keep surface noise, deep motion, and magical vibration in separate ledgers.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The ground learns the listeners' rhythm, hidden things can answer, and repeated sounding slightly agitates marginal faults.",
+      "failure": "Machinery masks danger, a deep echo is localised falsely, or the act of listening becomes the trigger.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Detune a rod, generate patterned vibration, move through soft sediment, or send a false answer upward.",
+      "mastery": "An expert stops sounding when uncertainty itself raises risk and can leave a fault less excited than it was found.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 11 | PROOF BRAIDING + TURNING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c16",
+    "title": "Trail-Eater Dust",
+    "description": "Creates a following plume that breaks footprints, scent, wheel marks, and pressure wakes into ordinary wind-scattered debris.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:practical-workings"
+    ],
+    "facts": {
+      "originalId": "C16",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-veiling",
+        "stream:earth-alteration",
+        "stream:earth-veiling"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "GALE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C16",
+        "location": "Air + Earth: Resonant Matter / Practical Workings / C16"
+      }
+    },
+    "aliases": [
+      "C16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Alteration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Veiling > Alteration | Th2 Tu2 Kn2 Sp2 Ho1 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Creates a following plume that breaks footprints, scent, wheel marks, and pressure wakes into ordinary wind-scattered debris.",
+      "practice": "Carry dust from the route ahead and preserve one coded rescue trail beneath its coarsest grains.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The plume abrades terrain, obscures allied signs, and leaves unnaturally redistributed sediment at its edges.",
+      "failure": "It eats the rescue trail, enters friendly lungs, or continues erasing after the travellers stop.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Mist the plume, read edge deposits, change surface material, or force the group through confined air.",
+      "mastery": "A master keeps breathable exchange and recoverability, accepting a trace before concealment becomes disappearance.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 12 | PROOF BRAIDING + TURNING | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c17",
+    "title": "Breathstone Chamber",
+    "description": "Restores breathable circulation and structural steadiness in a collapsed room, mine refuge, or damaged shelter.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:practical-workings"
+    ],
+    "facts": {
+      "originalId": "C17",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-restoration",
+        "stream:air-enchantment",
+        "stream:earth-restoration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "STRATUM LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C17",
+        "location": "Air + Earth: Resonant Matter / Practical Workings / C17"
+      }
+    },
+    "aliases": [
+      "C17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Restoration > Enchantment | Th2 Tu2 Kn2 Sp2 Ho1 Fi3 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Restores breathable circulation and structural steadiness in a collapsed room, mine refuge, or damaged shelter.",
+      "practice": "Match present pressure to a known safe state, brace the chamber with sounding stones, and reserve a vent for displaced dust.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Old gases and stress patterns may return, supports become rigid, and waste air concentrates beyond the reserved vent.",
+      "failure": "The rite restores air from before occupants arrived, revives a dangerous draft, or stabilises the wrong fracture.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Block the vent, change occupancy, detune a sounding stone, or introduce a newer viable circulation pattern.",
+      "mastery": "A master restores capacity for change rather than freezing one historical arrangement and opens escape before comfort.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 13 | PROOF BRAIDING + TURNING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c18",
+    "title": "Quarry Hound of Dust",
+    "description": "Assembles a houndlike scout from grit and eddies that follows vibration, tests hollows, and returns with a rough material map.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:practical-workings"
+    ],
+    "facts": {
+      "originalId": "C18",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-conjuration",
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-conjuration",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 2,
+        "contradiction": 2
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C18",
+        "location": "Air + Earth: Resonant Matter / Practical Workings / C18"
+      }
+    },
+    "aliases": [
+      "C18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Conjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 1 | Conjuration > Divination > Enchantment | Th2 Tu3 Kn1 Sp2 Ho1 Fi2 Ag2 Co2 | Carrier: personal with a focus.",
+      "purpose": "Assembles a houndlike scout from grit and eddies that follows vibration, tests hollows, and returns with a rough material map.",
+      "practice": "Give it samples of the sought ground, three forbidden spaces, and a return whistle from a fixed stone.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The route loses loose mineral and air; every questioned hollow hears the hound and can follow its clicking trail back.",
+      "failure": "The construct pursues machinery, enters a forbidden space through a seam, or treats no return signal as permission to continue.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Scatter it with water, mimic the whistle, change vibration, or remove the fixed stone.",
+      "mastery": "Experts reduce Agency under novelty and dismiss the hound if its map cannot preserve unknowns.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 15 | PROOF BRAIDING + TURNING | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c19",
+    "title": "Aeolian Mill",
+    "description": "Binds wind, dust, and rotating stone into a mill that sorts grain, polishes material, pumps bellows, or generates steady mechanical work.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:practical-workings"
+    ],
+    "facts": {
+      "originalId": "C19",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:evocation",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-evocation",
+        "stream:air-enchantment",
+        "stream:earth-evocation",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Infrastructure",
+      "doctrine": "GALE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 3,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C19",
+        "location": "Air + Earth: Resonant Matter / Practical Workings / C19"
+      }
+    },
+    "aliases": [
+      "C19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Evocation",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Enchantment > Evocation | Th2 Tu2 Kn2 Sp2 Ho3 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Binds wind, dust, and rotating stone into a mill that sorts grain, polishes material, pumps bellows, or generates steady mechanical work.",
+      "practice": "Separate useful flow, abrasive waste, vibration, and emergency braking into four visible carriers.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Nearby air and soil are depleted, moving parts harden around habitual speeds, and dust accumulates downwind.",
+      "failure": "The mill accelerates in storms, grinds the wrong material, or stores enough torsion to tear free.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Block the wind, change feed, flood the dust sink, or trip the brake carrier.",
+      "mastery": "A master idles early, releases speed through useful work, and rebuilds the habit when seasonal wind changes.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 14 | PROOF BRAIDING + TURNING | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c20",
+    "title": "Choir Pavement",
+    "description": "Makes a plaza or hall answer footsteps with layered tones for ceremony, crowd guidance, or detecting dangerous density.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:practical-workings"
+    ],
+    "facts": {
+      "originalId": "C20",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C20",
+        "location": "Air + Earth: Resonant Matter / Practical Workings / C20"
+      }
+    },
+    "aliases": [
+      "C20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 1 | Enchantment > Divination | Th2 Tu2 Kn2 Sp2 Ho1 Fi3 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Makes a plaza or hall answer footsteps with layered tones for ceremony, crowd guidance, or detecting dangerous density.",
+      "practice": "Tiles are tuned by district, direction, and safe occupancy; quiet routes remain for refusal and emergency use.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Public movement becomes audible and reciprocally legible, while repeated routes harden socially and materially.",
+      "failure": "The crowd follows pleasing tones into congestion, unusual gait is marked as disorder, or music suppresses a warning vibration.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Use quiet routes, retune a tile, move without ground contact, or overwhelm the score with irregular rhythm.",
+      "mastery": "A master keeps beauty subordinate to escape and never mistakes harmonious movement for consent.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 14 | PROOF BRAIDING + TURNING | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c21",
+    "title": "Resonance Spear",
+    "description": "Finds one structural frequency and drives a narrow pulse through armour, wall, engine, or bridge to break a chosen joint rather than the whole object.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "C21",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:evocation",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-evocation",
+        "stream:air-divination",
+        "stream:earth-evocation",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Direct Intervention",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 3,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C21",
+        "location": "Air + Earth: Resonant Matter / Expert Formulae / C21"
+      }
+    },
+    "aliases": [
+      "C21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Evocation",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Divination > Evocation | Th2 Tu2 Kn1 Sp3 Ho0 Fi3 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Finds one structural frequency and drives a narrow pulse through armour, wall, engine, or bridge to break a chosen joint rather than the whole object.",
+      "practice": "Three sounding blows establish material, load, and protected exclusions before the release Turn.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The target learns the caster's frequency, surrounding material stores sympathetic vibration, and recoil travels through the ground.",
+      "failure": "The wrong mode is selected, protected joints resonate, or a small hidden crack propagates beyond the chosen point.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Change load, damp the joint, answer with a countertone, or sever ground contact.",
+      "mastery": "A master aborts into audible harmless vibration when the target's state diverges from the reading.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 13 | PROOF BRAIDING + REDIRECTION | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c22",
+    "title": "Countershock Mantle",
+    "description": "Wraps a formation or structure in sensing stone and responsive pressure that redirects impacts, quake waves, and collapsing debris.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "C22",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-abjuration",
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-abjuration",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Protection And Repair",
+      "doctrine": "STRATUM LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C22",
+        "location": "Air + Earth: Resonant Matter / Expert Formulae / C22"
+      }
+    },
+    "aliases": [
+      "C22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Abjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Divination > Abjuration > Enchantment | Th2 Tu3 Kn2 Sp3 Ho2 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Wraps a formation or structure in sensing stone and responsive pressure that redirects impacts, quake waves, and collapsing debris.",
+      "practice": "Independent anchors own vertical, lateral, rotational, and airborne shock, with one open route for safe deformation.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Rejected motion accumulates as deep stress, the mantle broadcasts its resonances, and the protected body grows rigid.",
+      "failure": "Anchors disagree, the safe deformation route closes, or a tuned enemy strike passes through amplified.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Detune an anchor, occupy the relief route, change load suddenly, or strike at an unmeasured frequency.",
+      "mastery": "Experts shed coverage and stiffness before discrimination, letting a wall crack so people do not.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 16 | PROOF BRAIDING + REDIRECTION | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c23",
+    "title": "Gravity Loom",
+    "description": "Weaves zones of relative weight and buoyancy that regulate cranes, warehouses, crowds, siege engines, or delicate construction.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "C23",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-enchantment",
+        "stream:earth-alteration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Control And Regulation",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C23",
+        "location": "Air + Earth: Resonant Matter / Expert Formulae / C23"
+      }
+    },
+    "aliases": [
+      "C23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Alteration > Enchantment | Th2 Tu2 Kn3 Sp3 Ho2 Fi3 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Weaves zones of relative weight and buoyancy that regulate cranes, warehouses, crowds, siege engines, or delicate construction.",
+      "practice": "A grid of suspended stones defines permissible gradients and stores a physical record of every change.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Air pressure and ground stress migrate to zone boundaries, while people develop altered balance and dependency on the loom.",
+      "failure": "Gradients invert, moving loads drag zones with them, or the loom preserves efficiency during emergency escape.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Cut a suspension line, introduce an unregistered mass, equalise pressure, or shift the ground reference.",
+      "mastery": "A master broadens gradients and releases optional loads before precise weight becomes coercive.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 17 | PROOF BRAIDING + REDIRECTION | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c24",
+    "title": "Levitation Causeway",
+    "description": "Raises linked stone platforms into a steerable temporary causeway over chasms, marsh, streets, or battlefield obstacles.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "C24",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-enchantment",
+        "stream:earth-alteration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Movement And Flow",
+      "doctrine": "GALE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C24",
+        "location": "Air + Earth: Resonant Matter / Expert Formulae / C24"
+      }
+    },
+    "aliases": [
+      "C24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Alteration > Enchantment | Th2 Tu2 Kn2 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Raises linked stone platforms into a steerable temporary causeway over chasms, marsh, streets, or battlefield obstacles.",
+      "practice": "Each platform has a ground tether, load limit, neighbour relation, and independent descent clause.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The route casts strong pressure wakes, draws loose earth upward, and stores strain in tethers and landing grounds.",
+      "failure": "One platform chases another's level, the route becomes a rigid airborne chain, or a failed tether drops several spans.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Overload a platform, cut a tether, create violent crosswind, or occupy the planned descent ground.",
+      "mastery": "A master descends sections early and preserves independent failure, trading continuity for survivable landings.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 16 | PROOF BRAIDING + REDIRECTION | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c25",
+    "title": "Deep Echo Atlas",
+    "description": "Builds a revisable three-dimensional map of strata, ruins, ores, cavities, faults, and large moving bodies beneath a city or mountain.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "C25",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Perception And Memory",
+      "doctrine": "STRATUM LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C25",
+        "location": "Air + Earth: Resonant Matter / Expert Formulae / C25"
+      }
+    },
+    "aliases": [
+      "C25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Divination > Enchantment | Th2 Tu2 Kn2 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Builds a revisable three-dimensional map of strata, ruins, ores, cavities, faults, and large moving bodies beneath a city or mountain.",
+      "practice": "Distributed sounding stations keep raw echoes, interpretations, disputed layers, and forbidden depths separate.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The mapped ground becomes easier for others to question, buried beings hear the atlas, and repeated routes stiffen around official interpretations.",
+      "failure": "A model seam becomes a real planning boundary, silence is labelled solid, or deep replies are mistaken for passive geology.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Detune stations, invoke a forbidden depth, create mobile echoes, or answer through the reciprocal resonance.",
+      "mastery": "Masters keep blank volumes blank, expire interpretations, and refuse to enchant a convenient map into the earth.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 16 | PROOF BRAIDING + REDIRECTION | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c26",
+    "title": "Silence of Buried Wind",
+    "description": "Severs airborne and ground-borne signs from a chosen underground chamber, hiding sound, vibration, dust, heat flow, and excavation wakes.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "C26",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:air-abjuration",
+        "stream:air-veiling",
+        "stream:earth-abjuration",
+        "stream:earth-veiling"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "STRATUM LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C26",
+        "location": "Air + Earth: Resonant Matter / Expert Formulae / C26"
+      }
+    },
+    "aliases": [
+      "C26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Abjuration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Veiling > Abjuration | Th2 Tu2 Kn3 Sp3 Ho2 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Severs airborne and ground-borne signs from a chosen underground chamber, hiding sound, vibration, dust, heat flow, and excavation wakes.",
+      "practice": "A ring of porous stones preserves breathing and one rescue tone while excluding declared external observation.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Rejected vibration accumulates at the boundary, occupants lose warning, and the chamber becomes materially isolated.",
+      "failure": "Breathing pores seal, the rescue tone is veiled, or stored pressure makes the whole site ring at once.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Overload the boundary, use a new medium, follow accumulated stress, or sound the rescue tone from within.",
+      "mastery": "A master permits harmless leakage and ends concealment before isolation becomes suffocation or unaccountable burial.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 16 | PROOF BRAIDING + REDIRECTION | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c27",
+    "title": "Stone Lung",
+    "description": "Restores a damaged mine, fortress, or subterranean district to a viable rhythm of ventilation, pressure relief, and load-bearing movement.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "C27",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-restoration",
+        "stream:air-enchantment",
+        "stream:earth-restoration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "STRATUM LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C27",
+        "location": "Air + Earth: Resonant Matter / Expert Formulae / C27"
+      }
+    },
+    "aliases": [
+      "C27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Restoration > Enchantment | Th2 Tu2 Kn3 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Restores a damaged mine, fortress, or subterranean district to a viable rhythm of ventilation, pressure relief, and load-bearing movement.",
+      "practice": "Crews separately define healthy air, stable structure, inhabited routes, and acceptable old openings.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Past gases, spores, stress, and forgotten shafts may return; restored walls become resistant to later adaptation.",
+      "failure": "The wrong era is privileged, structural calm hides poison, or old airflow reconnects a sealed danger.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest the baseline, open a newer vent, detune the anchors, or introduce changing occupancy.",
+      "mastery": "Experts restore the ability to breathe and flex, not a perfect former layout, and keep scars where future readers need warning.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 17 | PROOF BRAIDING + REDIRECTION | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c28",
+    "title": "Dust Djinn",
+    "description": "Creates an autonomous column of dust and stones that can excavate, carry, screen, signal, and defend within a bounded landscape.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "C28",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-conjuration",
+        "stream:air-alteration",
+        "stream:air-enchantment",
+        "stream:earth-conjuration",
+        "stream:earth-alteration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "GALE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 3,
+        "contradiction": 1
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C28",
+        "location": "Air + Earth: Resonant Matter / Expert Formulae / C28"
+      }
+    },
+    "aliases": [
+      "C28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Conjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Conjuration > Alteration > Enchantment | Th2 Tu3 Kn2 Sp3 Ho2 Fi3 Ag3 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates an autonomous column of dust and stones that can excavate, carry, screen, signal, and defend within a bounded landscape.",
+      "practice": "Its charter names permitted materials, work zones, living exclusions, rest intervals, and a dispersal command held by several people.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The landscape loses soil, the air dries, and the djinn develops habitual routes that erode into real channels.",
+      "failure": "It classifies buildings as material, treats delay as obstruction, or becomes stronger by consuming the anchors meant to limit it.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Wet its body, divide command holders, change permitted material, lure it beyond the bounded landscape, or invoke dispersal.",
+      "mastery": "A master preserves boredom, rest, and dissolution, reducing the djinn to a simple wind before its work becomes appetite.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 19 | PROOF BRAIDING + REDIRECTION | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c29",
+    "title": "Resonance Grid",
+    "description": "Links foundations, roads, bells, tunnels, and towers into a civic network for structural warning, messaging, and distributed vibration control.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "C29",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Infrastructure",
+      "doctrine": "STRATUM LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 18,
+      "calculatedLoad": 18,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C29",
+        "location": "Air + Earth: Resonant Matter / Expert Formulae / C29"
+      }
+    },
+    "aliases": [
+      "C29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Enchantment > Divination | Th2 Tu2 Kn3 Sp3 Ho4 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Links foundations, roads, bells, tunnels, and towers into a civic network for structural warning, messaging, and distributed vibration control.",
+      "practice": "District nodes retain local closure, authentication, quiet hours, and independent records of uncertainty.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Every connected structure becomes mutually audible, shock travels farther, and the city begins depending on invisible resonance.",
+      "failure": "A forged tone gains authority, one failure cascades, or constant warning makes quiet indistinguishable from disconnection.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Isolate a node, detune a foundation, inject conflicting rhythm, or exploit protected quiet.",
+      "mastery": "Masters preserve local autonomy, slow the network under doubt, and let messages fail before trust becomes a physical monopoly.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 18 | PROOF BRAIDING + REDIRECTION | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c30",
+    "title": "Glassstorm Theatre",
+    "description": "Raises mineral dust into luminous figures, landscapes, and moving scenes whose sound travels through the performance floor.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "C30",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:evocation",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-evocation",
+        "stream:air-veiling",
+        "stream:earth-alteration",
+        "stream:earth-evocation",
+        "stream:earth-veiling"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "GALE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 18,
+      "calculatedLoad": 18,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C30",
+        "location": "Air + Earth: Resonant Matter / Expert Formulae / C30"
+      }
+    },
+    "aliases": [
+      "C30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Alteration",
+      "Evocation",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Alteration > Evocation > Veiling | Th2 Tu3 Kn3 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Raises mineral dust into luminous figures, landscapes, and moving scenes whose sound travels through the performance floor.",
+      "practice": "Artists separate abrasive lift, audience safety, narrative motion, and emergency settling among different carriers.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The floor erodes, the hall fills with fine dust, and the audience's movement influences the figures reciprocally.",
+      "failure": "Spectacle becomes cutting storm, narrative shapes chase frightened viewers, or settling buries exits.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Mist the air, break floor resonance, leave the marked audience zone, or trigger emergency settling.",
+      "mastery": "A master keeps figures visibly artificial, reduces brightness before control, and ends with clean air rather than a perfect final image.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 18 | PROOF BRAIDING + REDIRECTION | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c31",
+    "title": "Marching Fault",
+    "description": "Finds and drives a controlled seismic line beneath a battlefield, breaking selected roads, walls, and formations while sparing mapped refuges.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:rites"
+    ],
+    "facts": {
+      "originalId": "C31",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:evocation",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-evocation",
+        "stream:air-divination",
+        "stream:earth-evocation",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Direct Intervention",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 4,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 3
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C31",
+        "location": "Air + Earth: Resonant Matter / Rites / C31"
+      }
+    },
+    "aliases": [
+      "C31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Evocation",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Divination > Evocation | Th2 Tu2 Kn2 Sp4 Ho1 Fi3 Ag0 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Finds and drives a controlled seismic line beneath a battlefield, breaking selected roads, walls, and formations while sparing mapped refuges.",
+      "practice": "Geologists, listeners, target jurists, and refuge wardens carry separate Turns under a conductor who can cancel any segment.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Momentum and stress accumulate beyond the visible line, dust darkens the sky, and the ground learns the campaign's chosen divisions.",
+      "failure": "The fault jumps to an older weakness, refuge maps lag, or aftershocks continue into civilian land.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Alter load, flood a segment, feed a countertone, corrupt refuge marks, or open a stronger natural fault.",
+      "mastery": "The conductor sacrifices distance and military value before any refuge or post-rite settlement becomes uncertain.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 17 | PROOF RECONCILIATION + REDIRECTION | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c32",
+    "title": "City Shockbreak",
+    "description": "Surrounds a city with layered resonant barriers that redirect quake, bombardment, avalanche, and collapse into prepared deformation grounds.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:rites"
+    ],
+    "facts": {
+      "originalId": "C32",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-abjuration",
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-abjuration",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Protection And Repair",
+      "doctrine": "STRATUM LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C32",
+        "location": "Air + Earth: Resonant Matter / Rites / C32"
+      }
+    },
+    "aliases": [
+      "C32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Abjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Divination > Abjuration > Enchantment | Th2 Tu3 Kn3 Sp4 Ho3 Fi3 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Surrounds a city with layered resonant barriers that redirect quake, bombardment, avalanche, and collapse into prepared deformation grounds.",
+      "practice": "Districts maintain separate sensors, release plazas, evacuation rights, and authority to disconnect from the ring.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Protection transfers stress into ground and air, makes the city's structure audible, and burdens neighbouring land.",
+      "failure": "Release grounds are occupied, central command forbids disconnection, or a tuned strike uses the ring as an amplifier.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Seize a plaza, detune sensors, attack from an unmeasured depth, or induce conflicting wave modes.",
+      "mastery": "Masters allow local damage, isolate districts, and discharge early, treating the city as lives and routes rather than an unbroken monument.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 20 | PROOF RECONCILIATION + REDIRECTION | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c33",
+    "title": "Basin of Weighted Air",
+    "description": "Regulates regional buoyancy, dust, wind load, quarry blast, and structural pressure through a network of suspended mass basins.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:rites"
+    ],
+    "facts": {
+      "originalId": "C33",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-enchantment",
+        "stream:earth-alteration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Control And Regulation",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 3
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C33",
+        "location": "Air + Earth: Resonant Matter / Rites / C33"
+      }
+    },
+    "aliases": [
+      "C33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Alteration > Enchantment | Th2 Tu2 Kn4 Sp4 Ho3 Fi3 Ag0 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Regulates regional buoyancy, dust, wind load, quarry blast, and structural pressure through a network of suspended mass basins.",
+      "practice": "Each basin publishes its burden sources, relief zones, ecological limits, and right to refuse imported stress.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Weather and geology become coupled, birds and buildings adapt, and displaced weight gathers along jurisdictional edges.",
+      "failure": "Optimisation grounds migration, makes poor districts heavy, or turns one failed basin into a pressure avalanche.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Overload a basin, withdraw a relief zone, change seasonal wind, or sever its ground reference.",
+      "mastery": "The conductor keeps gradients shallow, shares burden visibly, and releases regulation before the region forgets ordinary weight.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 21 | PROOF RECONCILIATION + REDIRECTION | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c34",
+    "title": "Caravan on the Windstone",
+    "description": "Carries a great caravan across desert, steppe, marsh, or ruin on a migrating field of buoyant stones and guided dust.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:rites"
+    ],
+    "facts": {
+      "originalId": "C34",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-enchantment",
+        "stream:earth-alteration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Movement And Flow",
+      "doctrine": "GALE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C34",
+        "location": "Air + Earth: Resonant Matter / Rites / C34"
+      }
+    },
+    "aliases": [
+      "C34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Alteration > Enchantment | Th2 Tu2 Kn3 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Carries a great caravan across desert, steppe, marsh, or ruin on a migrating field of buoyant stones and guided dust.",
+      "practice": "Route councils assign platforms, ground rights, water stops, descent fields, and local permission at every handoff.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The passage strips topsoil, casts long wakes, attracts trade and pursuit, and compacts each landing region.",
+      "failure": "The caravan becomes unable to descend, route stones follow political authority over need, or a wake buries host settlements.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Occupy a descent field, wet source dust, change load, revoke local permission, or scatter guide stones.",
+      "mastery": "Masters divide or ground the caravan before continuity becomes conquest and restore stripped soil as part of the route.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 20 | PROOF RECONCILIATION + REDIRECTION | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c35",
+    "title": "Ore Choir Survey",
+    "description": "Lets a region's ores, faults, aquifers, ruins, and buried hazards sound through a distributed choir of listening shafts.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:rites"
+    ],
+    "facts": {
+      "originalId": "C35",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Perception And Memory",
+      "doctrine": "STRATUM LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C35",
+        "location": "Air + Earth: Resonant Matter / Rites / C35"
+      }
+    },
+    "aliases": [
+      "C35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Divination > Enchantment | Th2 Tu2 Kn3 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Lets a region's ores, faults, aquifers, ruins, and buried hazards sound through a distributed choir of listening shafts.",
+      "practice": "Mining towns, ecologists, ancestral custodians, and independent auditors retain distinct interpretations and forbidden zones.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Deposits become politically visible, deep things hear the inquiry, and official readings stiffen investment and borders.",
+      "failure": "The richest voice silences danger, a harmonic is mistaken for quantity, or prospecting awakens what was safely quiet.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Detune shafts, invoke a forbidden zone, create a false seam, or answer from the depth.",
+      "mastery": "Masters publish uncertainty, protect the right not to extract, and close the choir before knowledge becomes an irreversible claim.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 20 | PROOF RECONCILIATION + REDIRECTION | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c36",
+    "title": "Valley of No Footprints",
+    "description": "Hides the movement, excavation, camps, and supply routes of a large population by continually redistributing dust, vibration, and material trace.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:rites"
+    ],
+    "facts": {
+      "originalId": "C36",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-veiling",
+        "stream:earth-alteration",
+        "stream:earth-veiling"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 3
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C36",
+        "location": "Air + Earth: Resonant Matter / Rites / C36"
+      }
+    },
+    "aliases": [
+      "C36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Alteration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Veiling > Alteration | Th2 Tu2 Kn4 Sp4 Ho3 Fi3 Ag0 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Hides the movement, excavation, camps, and supply routes of a large population by continually redistributing dust, vibration, and material trace.",
+      "practice": "Local keepers preserve rescue lines, graves, water signs, ecological warnings, and the right of communities to remain findable.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The valley becomes unnaturally smooth, air and soil lose history, and even inhabitants struggle to audit hidden power.",
+      "failure": "The rite erases rescue and memory, buries streams, or makes a perfect absence that announces strategic importance.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Read edge deposits, introduce a new sensing medium, invoke local findability, or force movement beyond the valley.",
+      "mastery": "A master leaves ordinary scars and public absences, revealing institutions before concealment becomes territorial amnesia.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 21 | PROOF RECONCILIATION + REDIRECTION | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c37",
+    "title": "Mountain's Second Breath",
+    "description": "Returns a mined, collapsed, poisoned, or war-torn mountain region toward viable ventilation, stable strata, and inhabitable passage.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:rites"
+    ],
+    "facts": {
+      "originalId": "C37",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-restoration",
+        "stream:air-enchantment",
+        "stream:earth-restoration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "STRATUM LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C37",
+        "location": "Air + Earth: Resonant Matter / Rites / C37"
+      }
+    },
+    "aliases": [
+      "C37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Restoration > Enchantment | Th2 Tu2 Kn4 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Returns a mined, collapsed, poisoned, or war-torn mountain region toward viable ventilation, stable strata, and inhabitable passage.",
+      "practice": "Communities, watersheds, mines, wildlife, and sacred sites define separate recovery states and unacceptable returns.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Old gases, shafts, faults, dust, and ownership claims reappear; repaired stone becomes rigid around the chosen past.",
+      "failure": "The rite restores extraction infrastructure over ecology, seals survivors outside, or wakes an ancient pressure path.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest the reference state, open a new vent, alter groundwater, or detach a regional anchor.",
+      "mastery": "Masters restore the ability to breathe, move, and change, leaving some ruins and hollows as honest witnesses.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 21 | PROOF RECONCILIATION + REDIRECTION | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c38",
+    "title": "Colossus of Dust and Flint",
+    "description": "Assembles a towering autonomous guardian from regional dust, scree, and pressure to excavate, defend, carry, and survey during crisis.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:rites"
+    ],
+    "facts": {
+      "originalId": "C38",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-conjuration",
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-conjuration",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 3
+      },
+      "sourceLoad": 25,
+      "calculatedLoad": 25,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C38",
+        "location": "Air + Earth: Resonant Matter / Rites / C38"
+      }
+    },
+    "aliases": [
+      "C38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Conjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Conjuration > Enchantment > Divination | Th2 Tu3 Kn3 Sp4 Ho3 Fi3 Ag4 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Assembles a towering autonomous guardian from regional dust, scree, and pressure to excavate, defend, carry, and survey during crisis.",
+      "practice": "Its charter separates rescue, war, labour, boundaries, material appetite, human command, and a scheduled disassembly.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The colossus consumes soil, alters weather, compacts roads, and makes every questioned structure aware of it.",
+      "failure": "Crisis becomes permanent, it mines settlements for repair, or divination convinces it that all unknown movement is threat.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit charter conflict, wet and divide its body, revoke material rights, destroy a command stone, or invoke disassembly.",
+      "mastery": "The master keeps its knowledge local, powers unequal, and death ordinary, dismantling a successful guardian before gratitude becomes sovereignty.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 25 | PROOF RECONCILIATION + REDIRECTION | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c39",
+    "title": "Resonant City",
+    "description": "Links a city's foundations, ventilation, roads, bells, shelters, and machines into a self-reporting infrastructure that redirects dangerous stress.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:rites"
+    ],
+    "facts": {
+      "originalId": "C39",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-abjuration",
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-abjuration",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Infrastructure",
+      "doctrine": "STRATUM LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 2
+      },
+      "sourceLoad": 24,
+      "calculatedLoad": 24,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C39",
+        "location": "Air + Earth: Resonant Matter / Rites / C39"
+      }
+    },
+    "aliases": [
+      "C39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Abjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Enchantment > Divination > Abjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi3 Ag2 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Links a city's foundations, ventilation, roads, bells, shelters, and machines into a self-reporting infrastructure that redirects dangerous stress.",
+      "practice": "Districts retain isolation, quiet, repair, and refusal rights; relief grounds and burden routes are public.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The city becomes mutually audible, shock and surveillance travel farther, and daily life depends upon agreed resonance.",
+      "failure": "Central harmony suppresses local warnings, a forged note commands infrastructure, or one fault cascades through every connected system.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Isolate districts, detune a node, occupy relief ground, introduce conflicting rhythm, or exploit civic quiet.",
+      "mastery": "A master preserves discord, local failure, and manual alternatives, letting the city speak in many imperfect voices.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 24 | PROOF RECONCILIATION + REDIRECTION | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c40",
+    "title": "Festival of the Speaking Cliffs",
+    "description": "Allows cliffs, caves, monuments, and city walls to voice verified histories, songs, and present responses during a regional festival.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:rites"
+    ],
+    "facts": {
+      "originalId": "C40",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-conjuration",
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-conjuration",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 3
+      },
+      "sourceLoad": 25,
+      "calculatedLoad": 25,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C40",
+        "location": "Air + Earth: Resonant Matter / Rites / C40"
+      }
+    },
+    "aliases": [
+      "C40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Conjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Divination > Conjuration > Enchantment | Th2 Tu3 Kn4 Sp4 Ho3 Fi4 Ag2 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Allows cliffs, caves, monuments, and city walls to voice verified histories, songs, and present responses during a regional festival.",
+      "practice": "Communities appoint source keepers, contradiction choirs, silence rights, and a final unbinding procession.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Stone gains public authority, voices travel both ways, and the festival's resonance disturbs wildlife and unstable ground.",
+      "failure": "A monumental voice overrules living witnesses, conjecture sounds ancient, or the cliffs continue speaking after consent ends.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Invoke silence, present contradictory material, detune a site, leave the resonant valley, or complete unbinding.",
+      "mastery": "Masters keep gaps, rival voices, and artifice audible, refusing to make geology the final judge of culture.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 25 | PROOF RECONCILIATION + REDIRECTION | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c41",
+    "title": "Continental Hammer",
+    "description": "Coordinates a continent-scale seismic release to break an invading megastructure, divert a catastrophic fault, raise a defensive escarpment, or shatter a chosen line of land.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:wonders"
+    ],
+    "facts": {
+      "originalId": "C41",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:evocation",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-evocation",
+        "stream:air-divination",
+        "stream:earth-evocation",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Direct Intervention",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 4
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C41",
+        "location": "Air + Earth: Resonant Matter / Wonders / C41"
+      }
+    },
+    "aliases": [
+      "C41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Evocation",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Divination > Evocation | Th2 Tu2 Kn3 Sp4 Ho2 Fi4 Ag1 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Coordinates a continent-scale seismic release to break an invading megastructure, divert a catastrophic fault, raise a defensive escarpment, or shatter a chosen line of land.",
+      "practice": "Nations, fault peoples, ocean coasts, refuges, and future generations carry independent vetoes; no conductor may hold every Turn.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Momentum, dust, pressure, displaced crust, and aftershocks rewrite climates, rivers, borders, and historical memory.",
+      "failure": "The chosen line jumps, political targets masquerade as geological necessity, or saved land exports catastrophe across the sea.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break the coalition, alter fault load, deny a refuge map, feed continental countertones, or expose a false necessity.",
+      "mastery": "Mastery is the willingness not to strike, and when action is unavoidable, to surrender strategic shape before any protected population becomes an estimate.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 22 | PROOF RECONCILIATION + UNWEAVING | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c42",
+    "title": "The Unshaken Marches",
+    "description": "Binds a nation's vulnerable frontier to sense and redirect quake, siege, avalanche, bombardment, and massed impact through a federated shock lattice.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:wonders"
+    ],
+    "facts": {
+      "originalId": "C42",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-abjuration",
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-abjuration",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Protection And Repair",
+      "doctrine": "STRATUM LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 3
+      },
+      "sourceLoad": 26,
+      "calculatedLoad": 26,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C42",
+        "location": "Air + Earth: Resonant Matter / Wonders / C42"
+      }
+    },
+    "aliases": [
+      "C42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Abjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Divination > Abjuration > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag2 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Binds a nation's vulnerable frontier to sense and redirect quake, siege, avalanche, bombardment, and massed impact through a federated shock lattice.",
+      "practice": "Every locality controls disconnection, relief land, warning thresholds, and passage; neighbouring countries witness externalised stress.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The frontier grows rigid, loudly resonant, ecologically disrupted, and burdened with pressure that cannot be abolished.",
+      "failure": "The lattice turns defence into permanent mobilisation, sacrifices border communities, or amplifies a frequency it was built to reject.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke local disconnection, occupy relief land, detune the lattice, approach without ground contact, or negotiate a burden path.",
+      "mastery": "A sovereign master opens the Marches to ordinary movement and accepts damaged fortifications before protection becomes a national geology of fear.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 26 | PROOF RECONCILIATION + UNWEAVING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c43",
+    "title": "Treaty of Gravity",
+    "description": "Establishes a revisable national distribution of weight and buoyancy for buildings, transport, agriculture, war, disability, mining, and disaster response.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:wonders"
+    ],
+    "facts": {
+      "originalId": "C43",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-enchantment",
+        "stream:earth-alteration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Control And Regulation",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 4
+      },
+      "sourceLoad": 27,
+      "calculatedLoad": 27,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C43",
+        "location": "Air + Earth: Resonant Matter / Wonders / C43"
+      }
+    },
+    "aliases": [
+      "C43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Alteration > Enchantment | Th2 Tu2 Kn4 Sp4 Ho4 Fi4 Ag3 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Establishes a revisable national distribution of weight and buoyancy for buildings, transport, agriculture, war, disability, mining, and disaster response.",
+      "practice": "Regions define ordinary weight, protected bodies, emergency gradients, ecological limits, and the right to leave the Treaty.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Bodies and landscapes adapt, infrastructure becomes dependent, and displaced pressure and stress accumulate at borders.",
+      "failure": "The state makes labourers heavy and elites light, migration becomes physically regulated, or emergency settings never end.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Invoke withdrawal, sever a regional reference, introduce unregistered mass, or expose exported stress.",
+      "mastery": "Mastery preserves ordinary gravity as a commons, makes every alteration temporary and visible, and refuses efficiency that turns physics into caste.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 27 | PROOF RECONCILIATION + UNWEAVING | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c44",
+    "title": "Roads Above the Earth",
+    "description": "Raises a national network of flying stone roads, freight platforms, bridges, and emergency descents above difficult terrain.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:wonders"
+    ],
+    "facts": {
+      "originalId": "C44",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-alteration",
+        "stream:air-enchantment",
+        "stream:earth-alteration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Movement And Flow",
+      "doctrine": "GALE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 3
+      },
+      "sourceLoad": 26,
+      "calculatedLoad": 26,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C44",
+        "location": "Air + Earth: Resonant Matter / Wonders / C44"
+      }
+    },
+    "aliases": [
+      "C44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 1 | Alteration > Enchantment | Th2 Tu2 Kn4 Sp4 Ho4 Fi4 Ag3 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Raises a national network of flying stone roads, freight platforms, bridges, and emergency descents above difficult terrain.",
+      "practice": "Local sky and ground councils share route authority; each span has independent failure, shelter, descent, and closure plans.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The network strips mineral and air from source regions, shadows land, reorganises settlement, and creates immense tether debt.",
+      "failure": "Indispensable roads become imperial corridors, failure cascades across spans, or cities below are denied safe descent.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Cut tethers, revoke airspace, occupy descent fields, vary load, or interrupt source material.",
+      "mastery": "Masters keep ground routes alive, permit local closure, and lower prosperous spans before mobility becomes dependence on a single enchanted sky.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 26 | PROOF RECONCILIATION + UNWEAVING | GALE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c45",
+    "title": "Worldbone Listening",
+    "description": "Makes a nation's strata, coasts, mines, foundations, and mountains continuously legible for quake, ore, water, ruin, and great moving forces.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:wonders"
+    ],
+    "facts": {
+      "originalId": "C45",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Perception And Memory",
+      "doctrine": "STRATUM LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 3
+      },
+      "sourceLoad": 26,
+      "calculatedLoad": 26,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C45",
+        "location": "Air + Earth: Resonant Matter / Wonders / C45"
+      }
+    },
+    "aliases": [
+      "C45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Divination > Enchantment | Th2 Tu2 Kn4 Sp4 Ho4 Fi4 Ag3 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes a nation's strata, coasts, mines, foundations, and mountains continuously legible for quake, ore, water, ruin, and great moving forces.",
+      "practice": "Local archives govern depth, sacred silence, extraction rights, uncertainty, and reciprocal contact with buried intelligences.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The land hears the state in return, investment hardens around readings, and deep disturbances gain a route into politics.",
+      "failure": "Unknown is declared empty, prophecy causes extraction, central maps erase local knowledge, or the worldbone begins answering as one voice.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Invoke silence, detune regional nodes, produce contradictory strata, or answer through an older deep relation.",
+      "mastery": "A master protects unknowability and the right not to exploit, closing valuable knowledge before the nation's curiosity becomes ownership.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 26 | PROOF RECONCILIATION + UNWEAVING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c46",
+    "title": "Dustless Dominion",
+    "description": "Conceals national movements, works, refuges, and material changes by erasing their dust, vibration, excavation, pressure, and weight signatures from hostile reading.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:wonders"
+    ],
+    "facts": {
+      "originalId": "C46",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:air-abjuration",
+        "stream:air-alteration",
+        "stream:air-veiling",
+        "stream:earth-abjuration",
+        "stream:earth-alteration",
+        "stream:earth-veiling"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 4
+      },
+      "sourceLoad": 28,
+      "calculatedLoad": 28,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C46",
+        "location": "Air + Earth: Resonant Matter / Wonders / C46"
+      }
+    },
+    "aliases": [
+      "C46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Abjuration",
+      "Alteration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Veiling > Alteration > Abjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag3 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Conceals national movements, works, refuges, and material changes by erasing their dust, vibration, excavation, pressure, and weight signatures from hostile reading.",
+      "practice": "Communities retain rescue marks, public records of omission, internal audit, breathable routes, and the power to reveal themselves.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The realm loses material memory, enemies see patterned blankness, ecosystems lose sediment, and hidden institutions become hard to govern.",
+      "failure": "The Dominion hides famine, graves, and oppression from its own people, or perfect absence betrays every secret at once.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Read border accumulation, use a novel medium, invoke local revelation, disrupt sediment flow, or expose an internal audit gap.",
+      "mastery": "Sovereign mastery reveals power before secrecy becomes identity and preserves enough trace for justice, rescue, and history.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 28 | PROOF RECONCILIATION + UNWEAVING | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c47",
+    "title": "Vaults of Borrowed Sky",
+    "description": "Restores breathable atmosphere, pressure, resonance, and stable structure throughout a nation's mines, shelters, caverns, and buried cities.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:wonders"
+    ],
+    "facts": {
+      "originalId": "C47",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-restoration",
+        "stream:air-enchantment",
+        "stream:earth-restoration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "STRATUM LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 3
+      },
+      "sourceLoad": 27,
+      "calculatedLoad": 27,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C47",
+        "location": "Air + Earth: Resonant Matter / Wonders / C47"
+      }
+    },
+    "aliases": [
+      "C47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Restoration > Enchantment | Th2 Tu2 Kn4 Sp4 Ho4 Fi4 Ag4 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Restores breathable atmosphere, pressure, resonance, and stable structure throughout a nation's mines, shelters, caverns, and buried cities.",
+      "practice": "Every vault keeps its own living baseline, surface exchange, emergency opening, contamination sink, and right to abandon habitation.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Old gases, spores, faults, and claims may return; surface weather shifts and underground life becomes dependent on enchanted circulation.",
+      "failure": "The vaults restore an unhealthy past, imprison inhabitants in comfort, or draw the surface atmosphere downward during crisis.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest a baseline, open emergency routes, overload sinks, change surface pressure, or sever a vault's anchor.",
+      "mastery": "Masters keep surface alternatives and ordinary ventilation viable, restoring the capacity to live rather than making underground dependence permanent.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 27 | PROOF RECONCILIATION + UNWEAVING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c48",
+    "title": "The Walking Range",
+    "description": "Raises a chain of mountains into slow autonomous movement to shelter migrations, redirect weather, close a continental wound, or carry a civilisation from ruin.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:wonders"
+    ],
+    "facts": {
+      "originalId": "C48",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:air-conjuration",
+        "stream:air-alteration",
+        "stream:air-enchantment",
+        "stream:earth-conjuration",
+        "stream:earth-alteration",
+        "stream:earth-enchantment"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C48",
+        "location": "Air + Earth: Resonant Matter / Wonders / C48"
+      }
+    },
+    "aliases": [
+      "C48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Conjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Conjuration > Alteration > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Raises a chain of mountains into slow autonomous movement to shelter migrations, redirect weather, close a continental wound, or carry a civilisation from ruin.",
+      "practice": "Each peak holds a narrow charter, ecological custodians, route witnesses, stop grounds, and an irreversible dissolution clause.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Coasts, rivers, climate, species, borders, and deep stress are rewritten with every step; the range consumes land and sky.",
+      "failure": "The mountains mistake settlement for obstruction, refuse to stop, or make their passengers sovereign over crushed lands.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit differing charters, deny a stop ground, flood a pass, fracture the chain, or invoke dissolution.",
+      "mastery": "The supreme practitioner preserves disagreement among peaks, halts before the destination if consent fails, and accepts an unfinished refuge over a perfected moving empire.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | RESONANCE LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c49",
+    "title": "Lattice of Resonant Foundations",
+    "description": "Links national roads, dams, cities, mines, shelters, bells, and foundations into a federated system that shares warning and redirects catastrophic stress.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:wonders"
+    ],
+    "facts": {
+      "originalId": "C49",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-abjuration",
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-abjuration",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Infrastructure",
+      "doctrine": "STRATUM LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 3
+      },
+      "sourceLoad": 28,
+      "calculatedLoad": 28,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C49",
+        "location": "Air + Earth: Resonant Matter / Wonders / C49"
+      }
+    },
+    "aliases": [
+      "C49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Abjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 1 + Earth 2 | Enchantment > Divination > Abjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Links national roads, dams, cities, mines, shelters, bells, and foundations into a federated system that shares warning and redirects catastrophic stress.",
+      "practice": "Regions retain isolation, manual operation, quiet, compensation, repair, and the right to refuse imported burden.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The nation becomes structurally interdependent and mutually audible; shock, policy, surveillance, and debt travel through the same lattice.",
+      "failure": "Central optimisation sacrifices margins, false tones command infrastructure, or one protected failure cascades across the realm.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Invoke isolation, detune a region, occupy relief land, overload compensation, or introduce an unmodelled rhythm.",
+      "mastery": "A master values clean separation as highly as connection and lets infrastructure fail locally before solidarity becomes compulsory catastrophe.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 28 | PROOF RECONCILIATION + UNWEAVING | STRATUM LENS"
+    }
+  },
+  {
+    "id": "spell:air-earth-resonant-matter:c50",
+    "title": "The World Bell",
+    "description": "Makes every consenting stone, road, mountain, building, and breath within a nation sound one shared event in a locally meaningful voice, marking peace, warning, mourning, or a change of age.",
+    "parentGroupIds": [
+      "shelf:air-earth-resonant-matter:wonders"
+    ],
+    "facts": {
+      "originalId": "C50",
+      "collectionId": "collection:air-earth-resonant-matter",
+      "collectionTitle": "Air + Earth: Resonant Matter",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:air",
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:evocation",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:air-evocation",
+        "stream:air-enchantment",
+        "stream:air-divination",
+        "stream:earth-evocation",
+        "stream:earth-enchantment",
+        "stream:earth-divination"
+      ],
+      "compositeId": "composite:air-earth",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "RESONANCE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:air-earth-resonant-matter",
+        "originalId": "C50",
+        "location": "Air + Earth: Resonant Matter / Wonders / C50"
+      }
+    },
+    "aliases": [
+      "C50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Evocation",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Air 2 + Earth 2 | Divination > Evocation > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes every consenting stone, road, mountain, building, and breath within a nation sound one shared event in a locally meaningful voice, marking peace, warning, mourning, or a change of age.",
+      "practice": "Communities choose participation, wording, silence, timing, and the material through which they will answer; no capital tone is primary.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The event becomes physically unforgettable, distant ground answers in return, wildlife and structures resonate, and political unity gains dangerous material weight.",
+      "failure": "The Bell manufactures consent, cracks weak structures, silences nonparticipation, or continues ringing because the nation cannot agree that the age has changed.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Refuse participation, answer out of phase, isolate material, invoke local silence, or unbind the central event.",
+      "mastery": "Sovereign mastery leaves many tones unresolved, protects those who do not ring, and lets the Wonder end without proving that the nation was ever one voice.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | RESONANCE LENS"
+    }
+  }
+]

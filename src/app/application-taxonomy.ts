@@ -13,16 +13,26 @@ export const applicationTaxonomyCatalog: readonly TaxonomyCatalogItem[] = [
     description: 'The One Earth Bioregions 2023 terrestrial hierarchy.',
     load: () => import('./datasets/ecoregions').then(({ taxonomy }) => taxonomy),
   },
+  {
+    id: 'panmagicon',
+    title: 'The Panmagicon',
+    description: 'The Eightfold magic system and its authored spell corpus.',
+    load: () => import('./datasets/panmagicon').then(({ taxonomy }) => taxonomy),
+  },
 ];
 
 export async function loadApplicationTaxonomy() {
-  const rawRequested = new URLSearchParams(globalThis.location?.search ?? '').get('taxonomy');
+  const routeDataset = globalThis.location?.pathname.match(/^\/atlas\/([^/]+)/)?.[1];
+  const rawRequested =
+    new URLSearchParams(globalThis.location?.search ?? '').get('taxonomy') ?? routeDataset;
   const requested =
     rawRequested === 'beer'
       ? 'brewers-association-2026-circular-taxonomy'
       : rawRequested === 'ecoregions'
         ? 'one-earth-terrestrial-ecoregions'
-        : rawRequested;
+        : rawRequested === 'panmagicon'
+          ? 'panmagicon'
+          : rawRequested;
   const selected =
     applicationTaxonomyCatalog.find(({ id }) => id === requested) ?? applicationTaxonomyCatalog[0]!;
   return selected.load();

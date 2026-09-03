@@ -21,6 +21,7 @@ export type {
   LivingCompositionContent,
   NodeMeasureEncoding,
   NumericRange,
+  ProfileFactViewModel,
   ProfileSectionViewModel,
   RelatedEntity,
   ResolvedIcon,

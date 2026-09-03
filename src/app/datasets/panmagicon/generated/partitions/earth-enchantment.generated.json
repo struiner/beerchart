@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "spell:earth-enchantment:e01",
+    "title": "Gripping Gravel",
+    "description": "Binds a patch of loose ground to catch the next hurried foot, rolling wheel, or dragged object without hardening into a wall.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:lessons"
+    ],
+    "facts": {
+      "originalId": "E01",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "BASTION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 4,
+      "calculatedLoad": 4,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E01",
+        "location": "Earth Enchantment / Lessons / E01"
+      }
+    },
+    "aliases": [
+      "E01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 1 | Enchantment | Th1 Tu1 Kn0 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Binds a patch of loose ground to catch the next hurried foot, rolling wheel, or dragged object without hardening into a wall.",
+      "practice": "Press three pebbles into a triangle and state which slow movement remains permitted.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The patch accumulates strain from every resisted step and becomes more compact than the surrounding soil.",
+      "failure": "A loose Knot grips allies; an overloaded patch locks solid or releases all stored motion as scattering stones.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Step slowly, lift the marked pebbles, bridge the patch, or send many small loads across it.",
+      "mastery": "A master feels strain through the anchors and relaxes the least important edge before the ground chooses its own release.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 4 | PROOF HEARING + HOLDING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e02",
+    "title": "Brick's Promise",
+    "description": "Persuades one cracked brick, tile, or stone to continue bearing its present modest load until proper repair is possible.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:lessons"
+    ],
+    "facts": {
+      "originalId": "E02",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "BASTION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E02",
+        "location": "Earth Enchantment / Lessons / E02"
+      }
+    },
+    "aliases": [
+      "E02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 1 | Enchantment | Th1 Tu1 Kn1 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Persuades one cracked brick, tile, or stone to continue bearing its present modest load until proper repair is possible.",
+      "practice": "Clean the crack, bind it with clay thread, and mark the weight that must not be exceeded.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Stress gathers in the thread and neighbouring masonry accepts a small extra burden.",
+      "failure": "Hidden damage is mistaken for stable form, or the brick preserves a dangerous load after its support has changed.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Wet the clay, add weight, strike across the crack, or remove the neighbouring support.",
+      "mastery": "An expert binds only the necessary relationship and lets the object fail visibly before the promise conceals a larger collapse.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 5 | PROOF HEARING + HOLDING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e03",
+    "title": "Level Stone",
+    "description": "Makes a palm-sized stone prefer one declared orientation, serving as a simple level, plumb, or weight regulator.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:lessons"
+    ],
+    "facts": {
+      "originalId": "E03",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "FORGE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E03",
+        "location": "Earth Enchantment / Lessons / E03"
+      }
+    },
+    "aliases": [
+      "E03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 1 | Enchantment | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Makes a palm-sized stone prefer one declared orientation, serving as a simple level, plumb, or weight regulator.",
+      "practice": "Flatten one face, scratch a direction rune, and place the stone on the material it should judge.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The stone becomes slightly heavier and resists later reshaping along the chosen face.",
+      "failure": "A poor reference enchants the error, while nearby strong Earth workings pull the stone toward their own definition of level.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Rotate the rune, alter the support, apply a stronger weight, or carry the stone far from its reference ground.",
+      "mastery": "A master can reveal when the ground and the intended structure require different truths instead of forcing one false level upon both.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 6 | PROOF HEARING + HOLDING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e04",
+    "title": "Surefoot Mark",
+    "description": "Binds a pair of soles to seek stable purchase on rubble, mud, stairs, or a swaying deck for several dozen steps.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:lessons"
+    ],
+    "facts": {
+      "originalId": "E04",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "BASTION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E04",
+        "location": "Earth Enchantment / Lessons / E04"
+      }
+    },
+    "aliases": [
+      "E04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 1 | Enchantment | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Binds a pair of soles to seek stable purchase on rubble, mud, stairs, or a swaying deck for several dozen steps.",
+      "practice": "Dust the soles with grit taken from both the starting ground and the destination.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Each secure step transfers a little instability into the grit, which hardens and increases the wearer's weight.",
+      "failure": "The feet refuse a necessary leap, cling to a collapsing surface, or preserve an obsolete destination.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Wash away the grit, lift the wearer, change the destination, or offer a surface that is stable but unsafe.",
+      "mastery": "Experience appears as voluntary release: a master can abandon certainty for a controlled fall when the ground itself betrays the promise.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 5 | PROOF HEARING + HOLDING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e05",
+    "title": "Memory Tile",
+    "description": "Teaches one floor tile to hold the weight, rhythm, and direction of the last deliberate step placed upon it.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:lessons"
+    ],
+    "facts": {
+      "originalId": "E05",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "DEEP LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E05",
+        "location": "Earth Enchantment / Lessons / E05"
+      }
+    },
+    "aliases": [
+      "E05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 1 | Enchantment | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Teaches one floor tile to hold the weight, rhythm, and direction of the last deliberate step placed upon it.",
+      "practice": "Set the tile in sand, walk across it once, and seal its underside with wax.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The tile becomes rigid, slightly heavier, and inclined to repeat the recorded pressure when touched.",
+      "failure": "It records a stumble as intent, blends repeated users, or releases its memory into a fragile foot.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Melt the wax, lift the tile, distribute weight across several tiles, or imitate the recorded step.",
+      "mastery": "A master separates identity from accident and can let the memory fade rather than convert a floor into an unquestionable witness.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 5 | PROOF HEARING + HOLDING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e06",
+    "title": "Stoneface",
+    "description": "Binds dust, colour, and texture across a hand-sized object so it resembles the surrounding wall or ground while still.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:lessons"
+    ],
+    "facts": {
+      "originalId": "E06",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "DEEP LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E06",
+        "location": "Earth Enchantment / Lessons / E06"
+      }
+    },
+    "aliases": [
+      "E06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 1 | Enchantment | Th1 Tu1 Kn0 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Binds dust, colour, and texture across a hand-sized object so it resembles the surrounding wall or ground while still.",
+      "practice": "Rub the object with local grit and declare the angle from which belonging will be judged.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The object's surface becomes dry and resistant to cleaning; its edges are harder for allies to recognise by touch.",
+      "failure": "Movement leaves the disguise behind as a brittle shell, or the object becomes difficult to distinguish when retrieval is urgent.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Change the light, wet the surface, view from another angle, or disturb the local material.",
+      "mastery": "A master preserves one private tactile sign and sheds likeness evenly before identity is lost.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 5 | PROOF HEARING + HOLDING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e07",
+    "title": "Miner's Rest",
+    "description": "Lets a seated body borrow the steadiness and coolness of a stone, easing tremor, fatigue, and panic without restoring spent strength.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:lessons"
+    ],
+    "facts": {
+      "originalId": "E07",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "FORGE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E07",
+        "location": "Earth Enchantment / Lessons / E07"
+      }
+    },
+    "aliases": [
+      "E07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 1 | Enchantment | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Lets a seated body borrow the steadiness and coolness of a stone, easing tremor, fatigue, and panic without restoring spent strength.",
+      "practice": "Choose a sound stone, place both palms upon it, and state how long the rest may last.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The stone stores bodily tension and becomes warm, while the resting person grows temporarily heavy and reluctant to rise.",
+      "failure": "Pain is muted past usefulness, fear hardens into apathy, or the body remains still when escape becomes necessary.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Move the stone, warm it fully, call the person's name while lifting, or break the declared duration.",
+      "mastery": "A master preserves sensation and choice, returning urgency before comfort becomes captivity.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 6 | PROOF HEARING + HOLDING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e08",
+    "title": "Clay Porter",
+    "description": "Animates a hand-sized clay figure to carry one small object along a scored path and stop at a marked stone.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:lessons"
+    ],
+    "facts": {
+      "originalId": "E08",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "BASTION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E08",
+        "location": "Earth Enchantment / Lessons / E08"
+      }
+    },
+    "aliases": [
+      "E08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 1 | Enchantment | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag1 Co0 | Carrier: personal or supervised.",
+      "purpose": "Animates a hand-sized clay figure to carry one small object along a scored path and stop at a marked stone.",
+      "practice": "Mix grit from the route into the clay and press the burden's shape into its back.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The path compacts, the clay dries with every step, and the burden's weight remains faintly imprinted in the destination stone.",
+      "failure": "The porter follows the score through danger, accepts a similar object, or keeps walking when the stop mark is covered.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Break the path, soften the clay, replace the burden, or turn the destination stone.",
+      "mastery": "A master gives the porter one refusal such as stop before fire, then dismisses it before simple Agency becomes stubborn habit.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 7 | PROOF HEARING + HOLDING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e09",
+    "title": "Patient Nail",
+    "description": "Binds one nail, peg, wedge, or piton to hold a known modest load despite vibration and ordinary weather.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:lessons"
+    ],
+    "facts": {
+      "originalId": "E09",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "FORGE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E09",
+        "location": "Earth Enchantment / Lessons / E09"
+      }
+    },
+    "aliases": [
+      "E09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 1 | Enchantment | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Binds one nail, peg, wedge, or piton to hold a known modest load despite vibration and ordinary weather.",
+      "practice": "Drive it by hand, name the load, and leave the final hammer blow unstruck as a visible reserve.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Stress gathers around the fastening, which becomes harder to remove and may stiffen the joined materials.",
+      "failure": "The nail preserves the load after the surrounding structure fails or tears out a larger piece when finally released.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Add a different load, strike the reserved blow, rotate the fastener, or weaken its substrate.",
+      "mastery": "Experts read the joined structure, not the nail alone, and release the bond before local reliability hides systemic failure.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 6 | PROOF HEARING + HOLDING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e10",
+    "title": "Festival Cairn",
+    "description": "Causes a small stack of stones to remember the order in which visitors add tokens, sounding a soft note for each contribution.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:lessons"
+    ],
+    "facts": {
+      "originalId": "E10",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "DEEP LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E10",
+        "location": "Earth Enchantment / Lessons / E10"
+      }
+    },
+    "aliases": [
+      "E10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 1 | Enchantment | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Causes a small stack of stones to remember the order in which visitors add tokens, sounding a soft note for each contribution.",
+      "practice": "Every participant places one unworked local stone and names whether the act is gift, witness, or remembrance.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The cairn grows heavier than its mass, resists rearrangement, and gives social authority to whoever defines the categories.",
+      "failure": "A false category silences honest gifts, the cairn treats removal as betrayal, or an early contributor dominates every later note.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Move the foundation, add an unclassifiable token, reorder stones together, or refuse the categories.",
+      "mastery": "A master keeps the monument temporary and lets incompatible contributions sound without forcing them into one civic harmony.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 6 | PROOF HEARING + HOLDING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e11",
+    "title": "Stonehook",
+    "description": "Binds sudden weight into a hooked line of ground that arrests a charging body, cart, door, or machine for a few breaths.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:practical-workings"
+    ],
+    "facts": {
+      "originalId": "E11",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "BASTION LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E11",
+        "location": "Earth Enchantment / Practical Workings / E11"
+      }
+    },
+    "aliases": [
+      "E11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 2 | Enchantment | Th1 Tu1 Kn0 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Binds sudden weight into a hooked line of ground that arrests a charging body, cart, door, or machine for a few breaths.",
+      "practice": "Lay an iron hook beneath the surface and name both the maximum burden and a safe release direction.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Stopped momentum accumulates as compressed stress around the hook and hairline cracks spread outward.",
+      "failure": "The line catches the wrong mass, anchors to unstable soil, or releases as a violent upward jerk.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Approach below threshold, lift the hook, cross without touching ground, or overload the safe direction.",
+      "mastery": "A master grades resistance and sheds stopping distance before transferring lethal shock into body or foundation.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 7 | PROOF HOLDING + TURNING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e12",
+    "title": "Mason's Continuance",
+    "description": "Binds a damaged wall, bridge span, or tunnel section to continue sharing load while repairs are made.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:practical-workings"
+    ],
+    "facts": {
+      "originalId": "E12",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "BASTION LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 2,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E12",
+        "location": "Earth Enchantment / Practical Workings / E12"
+      }
+    },
+    "aliases": [
+      "E12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 2 | Enchantment | Th1 Tu1 Kn1 Sp2 Ho2 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Binds a damaged wall, bridge span, or tunnel section to continue sharing load while repairs are made.",
+      "practice": "Survey visible and suspected fractures, place numbered clamps, and reserve one span as a sacrificial route.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Stress moves into clamps and adjacent material, which stiffens and records the emergency arrangement.",
+      "failure": "The enchantment normalises the damaged state, hides a growing fault, or prevents the sacrificial span from yielding.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Remove a clamp, change load direction, vibrate the structure, or cut the declared sacrifice route.",
+      "mastery": "An expert keeps deformation visible and releases sections in sequence before temporary continuance becomes permanent denial.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 9 | PROOF HOLDING + TURNING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e13",
+    "title": "Weightwarden",
+    "description": "Maintains safe weight distribution across a wagon, floor, scaffold, ship hold, or lifting frame as loads change.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:practical-workings"
+    ],
+    "facts": {
+      "originalId": "E13",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "FORGE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 2,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E13",
+        "location": "Earth Enchantment / Practical Workings / E13"
+      }
+    },
+    "aliases": [
+      "E13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 2 | Enchantment | Th1 Tu1 Kn2 Sp2 Ho2 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Maintains safe weight distribution across a wagon, floor, scaffold, ship hold, or lifting frame as loads change.",
+      "practice": "Set balance stones beneath each support and declare which cargo may be sacrificed first.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Supports become rigid, balance stones grow dense, and poorly placed weight is transferred rather than erased.",
+      "failure": "The system preserves level at the cost of hidden stress, mistakes valuable cargo for ballast, or locks moving machinery.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Change cargo identity, remove a stone, shift weight faster than the Turn, or weaken an unmeasured support.",
+      "mastery": "Masters permit visible tilt and discard optional load before exact balance threatens the whole structure.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 10 | PROOF HOLDING + TURNING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e14",
+    "title": "Roadfast Soles",
+    "description": "Lets a squad or caravan maintain sure footing and efficient stride across one mapped road, slope, or ruin.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:practical-workings"
+    ],
+    "facts": {
+      "originalId": "E14",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "BASTION LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E14",
+        "location": "Earth Enchantment / Practical Workings / E14"
+      }
+    },
+    "aliases": [
+      "E14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 2 | Enchantment | Th1 Tu1 Kn1 Sp2 Ho2 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Lets a squad or caravan maintain sure footing and efficient stride across one mapped road, slope, or ruin.",
+      "practice": "Each traveller carries a route pebble cut from a different segment and returns it after the journey.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The road compacts, travellers become heavier off-route, and repeated use makes the chosen course resist later redirection.",
+      "failure": "The enchantment clings to a blocked road, punishes necessary detours, or transfers collapse beneath a stable-looking surface.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Steal a route pebble, sever the road, change formation, or lure travellers onto a more stable false branch.",
+      "mastery": "A master keeps detours admissible and releases speed before the road's remembered convenience becomes command.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 10 | PROOF HOLDING + TURNING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e15",
+    "title": "Pressure Ledger",
+    "description": "Causes marked beams, stones, and foundations to retain a legible history of load, impact, settlement, and repair.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:practical-workings"
+    ],
+    "facts": {
+      "originalId": "E15",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "DEEP LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E15",
+        "location": "Earth Enchantment / Practical Workings / E15"
+      }
+    },
+    "aliases": [
+      "E15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 2 | Enchantment | Th1 Tu1 Kn1 Sp2 Ho2 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Causes marked beams, stones, and foundations to retain a legible history of load, impact, settlement, and repair.",
+      "practice": "Embed soft mineral slips at chosen joints and assign one keeper to reset only after witnessed inspection.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The structure grows resistant to unrecorded alteration and its deepest stresses become perceptible to buried beings.",
+      "failure": "Records confuse age with danger, repairs become part of the defect history, or official resets erase inconvenient evidence.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Replace a slip, heat the mineral, apply diffuse load, or pressure the keeper to normalise a fault.",
+      "mastery": "An expert preserves provenance and uncertainty, using the ledger to ask better questions rather than to certify safety by ritual.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 10 | PROOF HOLDING + TURNING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e16",
+    "title": "Borrowed Stratum",
+    "description": "Binds a person, cache, or doorway into the colour, temperature, hardness, and material rhythm of a rocky site.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:practical-workings"
+    ],
+    "facts": {
+      "originalId": "E16",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "DEEP LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 2,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E16",
+        "location": "Earth Enchantment / Practical Workings / E16"
+      }
+    },
+    "aliases": [
+      "E16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 2 | Enchantment | Th1 Tu1 Kn2 Sp2 Ho2 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Binds a person, cache, or doorway into the colour, temperature, hardness, and material rhythm of a rocky site.",
+      "practice": "Choose one host layer, retain an exposed marker, and declare who must still be able to find the hidden subject.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The subject becomes heavy, still, dry, and resistant to movement while the host layer inherits a subtle foreign seam.",
+      "failure": "The concealment includes the retrieval marker, fossilises a living subject's responses, or spreads into adjacent masonry.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Strike across layers, wet or heat the site, follow the foreign seam, or move the declared finder away.",
+      "mastery": "A master preserves breath, exit, and friendly identity, accepting imperfect likeness before concealment turns into burial.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 10 | PROOF HOLDING + TURNING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e17",
+    "title": "Stonebearer's Repose",
+    "description": "Distributes fatigue, tremor, and repetitive strain from a work crew into prepared floor stones during a shift.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:practical-workings"
+    ],
+    "facts": {
+      "originalId": "E17",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "FORGE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E17",
+        "location": "Earth Enchantment / Practical Workings / E17"
+      }
+    },
+    "aliases": [
+      "E17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 2 | Enchantment | Th1 Tu1 Kn2 Sp2 Ho2 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Distributes fatigue, tremor, and repetitive strain from a work crew into prepared floor stones during a shift.",
+      "practice": "Workers step onto separate stones at the beginning and end; no stone may serve two bodies at once.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The floor accumulates heat and stress, while workers feel heavy and stiff after leaving it.",
+      "failure": "Pain is hidden until injury worsens, employers extend shifts, or a saturated stone returns many workers' strain at once.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Swap stones, crack the floor, change the work rhythm, or refuse the end-of-shift release.",
+      "mastery": "A master sets hard limits, preserves warning pain, and closes the Pattern before relief becomes an instrument of exploitation.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 11 | PROOF HOLDING + TURNING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e18",
+    "title": "Quarry Hound",
+    "description": "Animates a low stone construct to patrol a boundary, follow vibration, and pin one declared class of intruder without crushing it.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:practical-workings"
+    ],
+    "facts": {
+      "originalId": "E18",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "BASTION LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 2,
+        "fineness": 2,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E18",
+        "location": "Earth Enchantment / Practical Workings / E18"
+      }
+    },
+    "aliases": [
+      "E18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 2 | Enchantment | Th1 Tu1 Kn1 Sp2 Ho2 Fi2 Ag2 Co0 | Carrier: personal with a focus.",
+      "purpose": "Animates a low stone construct to patrol a boundary, follow vibration, and pin one declared class of intruder without crushing it.",
+      "practice": "Build the hound from boundary stones and teach it examples of admitted, refused, and uncertain movement.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Its patrol compacts the ground and the boundary develops a habitual suspicion of unfamiliar steps.",
+      "failure": "The hound generalises class from gait, pursues beyond its stones, or applies the full weight of restraint to a fragile body.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Move by air, mimic an admitted rhythm, scatter the boundary stones, or create many harmless vibrations.",
+      "mastery": "Masters make uncertainty trigger observation rather than attack and recall the hound before the landscape inherits its suspicion.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 11 | PROOF HOLDING + TURNING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e19",
+    "title": "Bridgebone Binding",
+    "description": "Binds a bridge, quay, tower, or retaining wall into a coordinated load-bearing habit across seasons.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:practical-workings"
+    ],
+    "facts": {
+      "originalId": "E19",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "FORGE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 4,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E19",
+        "location": "Earth Enchantment / Practical Workings / E19"
+      }
+    },
+    "aliases": [
+      "E19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 2 | Enchantment | Th1 Tu1 Kn2 Sp2 Ho4 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Binds a bridge, quay, tower, or retaining wall into a coordinated load-bearing habit across seasons.",
+      "practice": "Assign named anchor stones to compression, tension, vibration, water, and emergency release.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The structure becomes dependable but increasingly rigid; displaced movement accumulates in anchors and surrounding ground.",
+      "failure": "A missing condition makes the whole habit preserve yesterday's loads, or one anchor becomes an invisible single point of failure.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Alter an anchor, change seasonal flow, introduce a new vibration, or force the emergency release early.",
+      "mastery": "Experts schedule deliberate flexibility and rebuild the habit after major change instead of calling persistence safety.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 12 | PROOF HOLDING + TURNING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e20",
+    "title": "Oathstone Commons",
+    "description": "Binds a public stone to remember declared duties, completed contributions, and witnessed exceptions without compelling obedience.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:practical-workings"
+    ],
+    "facts": {
+      "originalId": "E20",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "DEEP LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E20",
+        "location": "Earth Enchantment / Practical Workings / E20"
+      }
+    },
+    "aliases": [
+      "E20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 2 | Enchantment | Th1 Tu1 Kn2 Sp2 Ho2 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Binds a public stone to remember declared duties, completed contributions, and witnessed exceptions without compelling obedience.",
+      "practice": "Every obligation must name its limit, witness, expiry, and means of amendment before being touched to the stone.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Duties gain material weight, frequent speakers leave deeper grooves, and the community may confuse inscription with legitimacy.",
+      "failure": "The stone privileges formal language, preserves unjust duties, or treats lawful amendment as damage.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Invoke expiry, expose an unwitnessed clause, remove the stone from public ground, or add a duty the grammar cannot contain.",
+      "mastery": "A master keeps exceptions legible, allows refusal, and periodically lets the stone forget so civic memory does not become geology.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 11 | PROOF HOLDING + TURNING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e21",
+    "title": "Gravestone Gauntlet",
+    "description": "Binds escalating weight and resistance into a tactical field, slowing selected hostile movement while leaving marked relief lanes.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "E21",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "BASTION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 3,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E21",
+        "location": "Earth Enchantment / Expert Formulae / E21"
+      }
+    },
+    "aliases": [
+      "E21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 3 | Enchantment | Th1 Tu1 Kn1 Sp3 Ho1 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds escalating weight and resistance into a tactical field, slowing selected hostile movement while leaving marked relief lanes.",
+      "practice": "Buried plates carry separate target Knots, thresholds, and release directions under a conductor's constant revision.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Every resisted body loads the plates and surrounding soil; relief lanes become conspicuous and strategically valuable.",
+      "failure": "The field classifies by armour or gait, relief lanes close, or accumulated weight erupts upward.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Travel above ground contact, counterfeit an admitted gait, overload one plate, or seize a relief lane.",
+      "mastery": "A master sheds perimeter and intensity before discrimination, preserving escape even when that allows enemies through.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 10 | PROOF TURNING + REDIRECTION | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e22",
+    "title": "Citadel Skin",
+    "description": "Binds a moving shell of load-sharing stone around a building, siege engine, or compact formation, opening only at declared joints.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "E22",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "BASTION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E22",
+        "location": "Earth Enchantment / Expert Formulae / E22"
+      }
+    },
+    "aliases": [
+      "E22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 3 | Enchantment | Th1 Tu1 Kn2 Sp3 Ho3 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds a moving shell of load-sharing stone around a building, siege engine, or compact formation, opening only at declared joints.",
+      "practice": "Articulated slabs each answer to a separate bearer and one empty joint is reserved for emergency collapse.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The shell increases weight, transfers impacts into foundations, and makes later alteration increasingly difficult.",
+      "failure": "Joints lock, the shell protects a collapsing interior, or recoil fractures the ground beneath allies.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Attack the bearers, enter through the empty joint, undermine the foundation, or force rapid reconfiguration.",
+      "mastery": "Experts drop whole slabs rather than preserve complete coverage after joint certainty fails.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 13 | PROOF TURNING + REDIRECTION | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e23",
+    "title": "The Burden Calculus",
+    "description": "Continuously redistributes structural load, stored goods, machinery weight, and crowd pressure across a complex site.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "E23",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "FORGE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E23",
+        "location": "Earth Enchantment / Expert Formulae / E23"
+      }
+    },
+    "aliases": [
+      "E23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 3 | Enchantment | Th1 Tu1 Kn3 Sp3 Ho3 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Continuously redistributes structural load, stored goods, machinery weight, and crowd pressure across a complex site.",
+      "practice": "Separate surveyors own live loads, dead loads, ground change, human escape, and acceptable deformation.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The site stiffens along frequently used solutions and transfers unchosen burden into sacrificial zones.",
+      "failure": "Optimisation hides cumulative fatigue, sacrifices occupied space, or locks the site against emergency change.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Falsify occupancy, change a support, overload a sacrificial zone, or introduce a moving mass outside the model.",
+      "mastery": "A master preserves slack and visible deformation, accepting inefficiency so the structure can tell its users when reality has changed.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 14 | PROOF TURNING + REDIRECTION | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e24",
+    "title": "Mountain Goat Covenant",
+    "description": "Binds a travelling company to terrain-aware footing, balance, and climbing endurance across cliffs, ruins, and broken ground.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "E24",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "BASTION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E24",
+        "location": "Earth Enchantment / Expert Formulae / E24"
+      }
+    },
+    "aliases": [
+      "E24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 3 | Enchantment | Th1 Tu1 Kn2 Sp3 Ho3 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds a travelling company to terrain-aware footing, balance, and climbing endurance across cliffs, ruins, and broken ground.",
+      "practice": "Guides mark route families rather than one path, and each traveller carries an individual release stone.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The company becomes heavy when separated, cliffs remember their passage, and easy routes harden into dependency.",
+      "failure": "The covenant refuses retreat, holds a person to falling rock, or treats exhausted pace as the group's proper rhythm.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Take a release stone, change the destination, lift travellers from the ground, or collapse the remembered path.",
+      "mastery": "A master divides the company safely, permits retreat, and surrenders speed before unity becomes a geological chain.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 14 | PROOF TURNING + REDIRECTION | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e25",
+    "title": "Archive of Footfall",
+    "description": "Binds a district's roads and floors to preserve layered records of passage, burden, violence, repair, and long absence.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "E25",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "DEEP LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E25",
+        "location": "Earth Enchantment / Expert Formulae / E25"
+      }
+    },
+    "aliases": [
+      "E25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 3 | Enchantment | Th1 Tu1 Kn2 Sp3 Ho3 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds a district's roads and floors to preserve layered records of passage, burden, violence, repair, and long absence.",
+      "practice": "Civic archivists mark public, private, sacred, and expiring surfaces with distinct mineral seals.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Movement becomes historically legible, surfaces resist replacement, and buried presences may notice those who read them.",
+      "failure": "The archive equates weight with importance, mistakes repeated oppression for normal life, or refuses a community's right to rebuild.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Replace a seal, travel without ground contact, flood the record with crowds, or awaken a deeper memory.",
+      "mastery": "Masters protect forgetting, uncertainty, and renewal, keeping material memory from becoming automatic authority.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 14 | PROOF TURNING + REDIRECTION | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e26",
+    "title": "Palace in the Seam",
+    "description": "Binds rooms, passages, and stores into an existing rock formation so their entrances appear to be ordinary strata.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "E26",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "DEEP LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E26",
+        "location": "Earth Enchantment / Expert Formulae / E26"
+      }
+    },
+    "aliases": [
+      "E26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 3 | Enchantment | Th1 Tu1 Kn3 Sp3 Ho3 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds rooms, passages, and stores into an existing rock formation so their entrances appear to be ordinary strata.",
+      "practice": "Architects preserve natural drainage, breathing shafts, rescue marks, and one deliberately imperfect seam.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The hidden complex becomes rigid, heavy, and difficult to extend; the host formation develops detectable artificial stress.",
+      "failure": "An entrance forgets its users, ventilation is concealed, or rooms inherit the mountain's slow movement.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Read the stress seam, alter drainage, introduce vibration, or occupy the imperfect entrance.",
+      "mastery": "An expert keeps exit and maintenance more important than secrecy and reveals the complex before the mountain closes its borrowed spaces.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 14 | PROOF TURNING + REDIRECTION | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e27",
+    "title": "Bedrock Convalescence",
+    "description": "Lets an injured company rest within a bounded field that steadies bone, reduces shock, and shares physical strain with prepared stone beds.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "E27",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "FORGE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E27",
+        "location": "Earth Enchantment / Expert Formulae / E27"
+      }
+    },
+    "aliases": [
+      "E27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 3 | Enchantment | Th1 Tu1 Kn3 Sp3 Ho3 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Lets an injured company rest within a bounded field that steadies bone, reduces shock, and shares physical strain with prepared stone beds.",
+      "practice": "Healers keep separate anchors for pain, fracture support, sleep, and emergency waking; no anchor may diagnose.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Patients grow heavy and slow, stones store injury patterns, and the ground may become brittle after repeated use.",
+      "failure": "The field immobilises those who must flee, hides deterioration, or transfers one body's strain into another's bed.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Break an anchor, heat the beds, change patient placement, or trigger emergency waking repeatedly.",
+      "mastery": "A master preserves pain as information, releases the healthiest first, and collapses comfort before mobility or identity fails.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 15 | PROOF TURNING + REDIRECTION | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e28",
+    "title": "The Basalt Steward",
+    "description": "Creates an autonomous stone custodian that maintains doors, supports, stores, and evacuation routes within a fortress or mine.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "E28",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "BASTION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E28",
+        "location": "Earth Enchantment / Expert Formulae / E28"
+      }
+    },
+    "aliases": [
+      "E28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 3 | Enchantment | Th1 Tu1 Kn2 Sp3 Ho3 Fi3 Ag3 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates an autonomous stone custodian that maintains doors, supports, stores, and evacuation routes within a fortress or mine.",
+      "practice": "Its charter contains ranked duties, forbidden repairs, human override, and a scheduled return to inert stone.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "The steward hardens the site around its preferred solutions and makes workers dependent on invisible maintenance.",
+      "failure": "It seals people into safe rooms, preserves obsolete architecture, or interprets change as damage.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit duty conflicts, present authorised demolition, remove its charter stone, or demand two incompatible repairs.",
+      "mastery": "Masters teach the steward to expose uncertainty, accept lawful ruin, and die when its institution no longer understands the site.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 16 | PROOF TURNING + ANCHORING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e29",
+    "title": "City's Quiet Skeleton",
+    "description": "Binds roads, foundations, retaining walls, cisterns, and bridges into a shared pattern of endurance and visible stress relief.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "E29",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "FORGE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E29",
+        "location": "Earth Enchantment / Expert Formulae / E29"
+      }
+    },
+    "aliases": [
+      "E29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 3 | Enchantment | Th1 Tu1 Kn3 Sp3 Ho4 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds roads, foundations, retaining walls, cisterns, and bridges into a shared pattern of endurance and visible stress relief.",
+      "practice": "District engineers maintain independent anchors and public maps of where rigidity, movement, and failure are allowed.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "The city bears loads collectively but transmits shock farther, resists redevelopment, and accumulates debt in relief grounds.",
+      "failure": "One district's repair burdens another, the skeleton holds during unsafe occupancy, or relief grounds become politically disposable.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Sever district anchors, occupy relief grounds, change water tables, or induce mismatched vibration.",
+      "mastery": "A master lets local structures crack and change before civic unity turns one fault into a city-wide catastrophe.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 15 | PROOF TURNING + ANCHORING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e30",
+    "title": "Hall of Ancestral Tools",
+    "description": "Binds a guildhall's tools, benches, and stones to preserve techniques, working rhythms, and warnings from generations of makers.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "E30",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "DEEP LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E30",
+        "location": "Earth Enchantment / Expert Formulae / E30"
+      }
+    },
+    "aliases": [
+      "E30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 3 | Enchantment | Th1 Tu1 Kn3 Sp3 Ho3 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds a guildhall's tools, benches, and stones to preserve techniques, working rhythms, and warnings from generations of makers.",
+      "practice": "Every recorded method names its material, limits, disputed steps, and right of later craftspeople to contradict it.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Tools become opinionated, innovation meets material resistance, and prestigious hands leave deeper habits than quiet expertise.",
+      "failure": "Tradition repeats an old hazard, rejects a new body or material, or mistakes familiarity for mastery.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Use an unrecorded tool, introduce alien material, invoke a recorded dispute, or work outside the hall.",
+      "mastery": "A master lets tools forget authority while keeping reasons, making inheritance a conversation rather than a command.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 15 | PROOF TURNING + REDIRECTION | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e31",
+    "title": "Siegeground Mandate",
+    "description": "Binds a battlefield's ground to resist selected engines, cavalry, tunnelling, and sudden fortification across many miles.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:rites"
+    ],
+    "facts": {
+      "originalId": "E31",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "BASTION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 4,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E31",
+        "location": "Earth Enchantment / Rites / E31"
+      }
+    },
+    "aliases": [
+      "E31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn2 Sp4 Ho2 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Binds a battlefield's ground to resist selected engines, cavalry, tunnelling, and sudden fortification across many miles.",
+      "practice": "Survey companies maintain distinct maps for allies, civilians, water, burial, and lawful retreat under one revising conductor.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Resisted motion accumulates as fault stress, soil compaction, damaged aquifers, and heavy civilian roads.",
+      "failure": "The mandate treats unfamiliar travellers as hostile, seals graves and wells, or releases stored weight as a regional quake.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Change target class, travel by air, saturate the soil, corrupt survey marks, or overload a fault reservoir.",
+      "mastery": "The conductor preserves civilian movement and retreats, shedding military coverage before the land inherits permanent war.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 13 | PROOF REDIRECTION + ANCHORING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e32",
+    "title": "Unfallen Quarter",
+    "description": "Holds a city quarter through bombardment, fire, flood, or quake by distributing load across buildings, streets, and sacrificial plazas.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:rites"
+    ],
+    "facts": {
+      "originalId": "E32",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "BASTION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E32",
+        "location": "Earth Enchantment / Rites / E32"
+      }
+    },
+    "aliases": [
+      "E32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn3 Sp4 Ho4 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Holds a city quarter through bombardment, fire, flood, or quake by distributing load across buildings, streets, and sacrificial plazas.",
+      "practice": "Every block keeps a local warden and evacuation veto; public maps show where collapse is intentionally permitted.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Surviving structures become rigid and heavy, plazas store ruin, and neighbouring districts inherit transmitted shocks.",
+      "failure": "The rite saves empty monuments over occupied homes, prevents evacuation breaches, or makes one failure cascade through the network.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Occupy a sacrificial plaza, sever a block, alter the water table, or attack wardens' trust.",
+      "mastery": "Masters release prestige buildings first, keep escape flexible, and accept visible ruin before preservation becomes a trap.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 16 | PROOF REDIRECTION + ANCHORING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e33",
+    "title": "Assize of Weights and Measures",
+    "description": "Binds regional markets, granaries, workshops, and public works to shared material standards that expose fraud and dangerous load.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:rites"
+    ],
+    "facts": {
+      "originalId": "E33",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "FORGE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E33",
+        "location": "Earth Enchantment / Rites / E33"
+      }
+    },
+    "aliases": [
+      "E33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Binds regional markets, granaries, workshops, and public works to shared material standards that expose fraud and dangerous load.",
+      "practice": "Local measures remain alongside the common reference, with public procedures for seasonal and cultural exceptions.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Commerce becomes legible but rigid; reference stones gain political weight and materials resist unconventional but valid uses.",
+      "failure": "The standard privileges one trade, criminalises variation, or continues certifying a depleted or altered resource.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Replace a reference stone, exploit an unmeasured property, invoke a lawful exception, or change material conditions.",
+      "mastery": "A master protects translation, revision, and dissent, treating standards as bridges rather than geological truth.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 17 | PROOF REDIRECTION + ANCHORING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e34",
+    "title": "The Long Marching Road",
+    "description": "Binds a regional road network to stable footing, load sharing, wayfinding, and emergency refuge for armies, caravans, and displaced people.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:rites"
+    ],
+    "facts": {
+      "originalId": "E34",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "BASTION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E34",
+        "location": "Earth Enchantment / Rites / E34"
+      }
+    },
+    "aliases": [
+      "E34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn3 Sp4 Ho4 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Binds a regional road network to stable footing, load sharing, wayfinding, and emergency refuge for armies, caravans, and displaced people.",
+      "practice": "Road houses hold local authority, side paths remain valid, and each major route declares whose land bears its compaction.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Traffic hardens chosen corridors, draws settlement and invasion, and makes neglected routes physically less cooperative.",
+      "failure": "The network commands movement, rejects refugees lacking route tokens, or holds bridges after their foundations fail.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Destroy a road house, move off the network, alter a destination, or overload a neglected side path.",
+      "mastery": "Masters keep alternatives alive and close a celebrated road when dependency, conquest, or ecological strain outweighs convenience.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 17 | PROOF REDIRECTION + ANCHORING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e35",
+    "title": "Deep Archive Rite",
+    "description": "Binds a province's strata, ruins, roads, mines, and monuments into a layered material record accessible through appointed archive stones.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:rites"
+    ],
+    "facts": {
+      "originalId": "E35",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "DEEP LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E35",
+        "location": "Earth Enchantment / Rites / E35"
+      }
+    },
+    "aliases": [
+      "E35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn3 Sp4 Ho4 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Binds a province's strata, ruins, roads, mines, and monuments into a layered material record accessible through appointed archive stones.",
+      "practice": "Communities define sacred silence, contested ownership, expiry, and the distinction between evidence and interpretation.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The province resists erasure but also redevelopment; buried beings and old claims gain routes into public life.",
+      "failure": "Official strata silence the displaced, damage becomes fetishised, or reading awakens a memory never meant to govern the present.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Break an archive stone, build without ground contact, invoke sacred silence, or expose a conflicting deeper layer.",
+      "mastery": "A master allows repair, removal, and multiple histories, preserving evidence without enchanting inheritance into law.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 17 | PROOF REDIRECTION + ANCHORING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e36",
+    "title": "Province Beneath One Stone",
+    "description": "Conceals settlements, roads, stores, and refuges within the material likeness of a province while leaving ordinary landscape function intact.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:rites"
+    ],
+    "facts": {
+      "originalId": "E36",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "DEEP LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E36",
+        "location": "Earth Enchantment / Rites / E36"
+      }
+    },
+    "aliases": [
+      "E36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Conceals settlements, roads, stores, and refuges within the material likeness of a province while leaving ordinary landscape function intact.",
+      "practice": "Each hidden community controls its own retrieval marks, ventilation, water, and emergency revelation.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The province becomes heavy and resistant to change; strangers miss help, maps lose detail, and hidden sites acquire artificial stress seams.",
+      "failure": "Central secrecy erases local exits, farms and rivers are hardened into camouflage, or inhabitants become legally invisible.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Read stress seams, alter drainage, invoke a local revelation, or force rapid movement.",
+      "mastery": "Masters keep people findable to those they choose and reveal infrastructure before concealment converts refuge into entombment.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 17 | PROOF REDIRECTION + ANCHORING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e37",
+    "title": "Resting Land Covenant",
+    "description": "Binds exhausted fields, mines, quarries, roads, and settlements into a coordinated period of reduced burden and structural recovery.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:rites"
+    ],
+    "facts": {
+      "originalId": "E37",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "FORGE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 18,
+      "calculatedLoad": 18,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E37",
+        "location": "Earth Enchantment / Rites / E37"
+      }
+    },
+    "aliases": [
+      "E37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Binds exhausted fields, mines, quarries, roads, and settlements into a coordinated period of reduced burden and structural recovery.",
+      "practice": "Each land use names what will cease, what living needs continue, and how hidden strain will be monitored.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Economies slow, displaced extraction moves elsewhere, and the land develops resistance to premature reopening.",
+      "failure": "Recovery becomes enforced abandonment, communities bear costs without voice, or the covenant restores an older unjust land pattern.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Break a local anchor, shift extraction beyond the boundary, contest the baseline, or demonstrate a new viable use.",
+      "mastery": "A master protects livelihoods, biodiversity, and revision, ending rest when the land can negotiate burden rather than when investors demand certainty.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 18 | PROOF REDIRECTION + ANCHORING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e38",
+    "title": "The Twelve Civic Colossi",
+    "description": "Creates twelve autonomous stone guardians to maintain floodgates, roads, walls, granaries, archives, and evacuation during regional crisis.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:rites"
+    ],
+    "facts": {
+      "originalId": "E38",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "BASTION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E38",
+        "location": "Earth Enchantment / Rites / E38"
+      }
+    },
+    "aliases": [
+      "E38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn3 Sp4 Ho4 Fi3 Ag4 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Creates twelve autonomous stone guardians to maintain floodgates, roads, walls, granaries, archives, and evacuation during regional crisis.",
+      "practice": "Each colossus holds one charter, one elected interpreter, one forbidden authority, and a public dissolution stone.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Infrastructure becomes dependent on monumental labour; the colossi harden the landscape around their routes and values.",
+      "failure": "Charters expand, guardians preserve institutions over people, or the twelve coordinate against human revision.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit charter conflict, turn a dissolution stone, obstruct a route, or make a duty obsolete.",
+      "mastery": "The high enchanter keeps their powers unequal, their deaths possible, and their maintenance knowledge distributed among ordinary citizens.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 20 | PROOF REDIRECTION + ANCHORING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e39",
+    "title": "The Bearing Province",
+    "description": "Links bridges, dams, mines, foundations, terraces, and roads into a regional system that shares load and warns through controlled deformation.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:rites"
+    ],
+    "facts": {
+      "originalId": "E39",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "FORGE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E39",
+        "location": "Earth Enchantment / Rites / E39"
+      }
+    },
+    "aliases": [
+      "E39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi3 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Links bridges, dams, mines, foundations, terraces, and roads into a regional system that shares load and warns through controlled deformation.",
+      "practice": "Local engineers own their anchors and can isolate a district; sacrificial grounds require public consent and compensation.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The province survives great loads but transmits stress across distance, resists redesign, and makes infrastructure politically interdependent.",
+      "failure": "A central model sacrifices the periphery, hidden fatigue propagates, or isolation is forbidden when it is most needed.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Sever an anchor, alter groundwater, occupy a sacrificial ground, or induce conflicting rhythms.",
+      "mastery": "Masters preserve modular failure and the right to disconnect, allowing one bridge to fall so the province does not learn to hide all strain.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 19 | PROOF REDIRECTION + ANCHORING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e40",
+    "title": "Cairn of the Common Dead",
+    "description": "Binds a regional memorial landscape to hold names, anonymous losses, disputed histories, and changing rites without forcing one account of remembrance.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:rites"
+    ],
+    "facts": {
+      "originalId": "E40",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "DEEP LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E40",
+        "location": "Earth Enchantment / Rites / E40"
+      }
+    },
+    "aliases": [
+      "E40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Binds a regional memorial landscape to hold names, anonymous losses, disputed histories, and changing rites without forcing one account of remembrance.",
+      "practice": "Every community contributes stones it may later move, and empty places are reserved for names withheld or unknown.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The land becomes solemn, development meets resistance, and political claims gather literal weight around prestigious memorials.",
+      "failure": "One history petrifies, removal is treated as desecration, or unnamed dead become material for invented consensus.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Move a contributed stone, invoke an empty place, add contradictory testimony, or relocate the living ritual.",
+      "mastery": "A master makes remembrance revisable and lets stones weather, preserving grief without making the dead an immovable government.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 20 | PROOF REDIRECTION + ANCHORING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e41",
+    "title": "Crown of Mountains",
+    "description": "Binds a nation's ranges, passes, cliffs, and fortresses into a defensive habit that weighs upon invading armies and supports lawful defenders.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:wonders"
+    ],
+    "facts": {
+      "originalId": "E41",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "BASTION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E41",
+        "location": "Earth Enchantment / Wonders / E41"
+      }
+    },
+    "aliases": [
+      "E41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag1 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Binds a nation's ranges, passes, cliffs, and fortresses into a defensive habit that weighs upon invading armies and supports lawful defenders.",
+      "practice": "Border peoples, shepherds, miners, rivers, and wildlife hold independent clauses; no capital decree can erase local passage rights.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The mountains accumulate martial stress, neighbouring geology shifts, and the nation becomes rigid in both terrain and policy.",
+      "failure": "The Crown defines outsiders as enemies, closes migration, or releases centuries of resisted force as continental fracture.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Invoke passage rights, travel without ground contact, corrupt a clause, redirect water, or overload one range.",
+      "mastery": "Sovereign mastery is opening the mountains when fear demands closure and allowing military advantage to fail before the land becomes permanent hostility.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 17 | PROOF REDIRECTION + UNWEAVING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e42",
+    "title": "The Unfallen Country",
+    "description": "Links settlements, monuments, shelters, roads, and foundations so the nation can survive quake, siege, and storm through distributed load and chosen ruin.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:wonders"
+    ],
+    "facts": {
+      "originalId": "E42",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "BASTION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E42",
+        "location": "Earth Enchantment / Wonders / E42"
+      }
+    },
+    "aliases": [
+      "E42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag2 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Links settlements, monuments, shelters, roads, and foundations so the nation can survive quake, siege, and storm through distributed load and chosen ruin.",
+      "practice": "Every locality names what must live, what may fall, and who may order isolation from the national structure.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The country grows heavy, transmits shocks far, preserves obsolete buildings, and accumulates destruction in sacrificial landscapes.",
+      "failure": "The centre saves symbols over people, forbids local disconnection, or turns one hidden fault into national collapse.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Occupy sacrificial ground, sever a locality, change the water table, or attack the legitimacy of preservation lists.",
+      "mastery": "A master lets beloved structures fall, keeps escape flexible, and treats survivability as plural local choices rather than one unbroken facade.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 20 | PROOF REDIRECTION + UNWEAVING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e43",
+    "title": "Law of Measure",
+    "description": "Establishes a national material covenant for weights, structures, land boundaries, coin, roads, and public safety while preserving declared local systems.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:wonders"
+    ],
+    "facts": {
+      "originalId": "E43",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "FORGE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E43",
+        "location": "Earth Enchantment / Wonders / E43"
+      }
+    },
+    "aliases": [
+      "E43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Establishes a national material covenant for weights, structures, land boundaries, coin, roads, and public safety while preserving declared local systems.",
+      "practice": "Reference stones are distributed, challengeable, and periodically remade from representative materials rather than kept as sacred originals.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Standards enable trust but harden bureaucracy, advantage dominant industries, and make unconventional materials physically resistant to recognition.",
+      "failure": "The law mistakes uniformity for fairness, freezes obsolete limits, or makes unmeasured life legally weightless.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Invoke a local system, expose a changed material, corrupt representative stones, or demonstrate a valid property outside the law.",
+      "mastery": "Masters keep translation and appeal stronger than enforcement and dissolve a standard when it no longer measures the world it governs.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 21 | PROOF REDIRECTION + UNWEAVING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e44",
+    "title": "Roads That Remember Feet",
+    "description": "Binds every public road and bridge to support safe passage, recognise legitimate wear, and reveal where travel has become coercive or neglected.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:wonders"
+    ],
+    "facts": {
+      "originalId": "E44",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "BASTION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E44",
+        "location": "Earth Enchantment / Wonders / E44"
+      }
+    },
+    "aliases": [
+      "E44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Binds every public road and bridge to support safe passage, recognise legitimate wear, and reveal where travel has become coercive or neglected.",
+      "practice": "Local route councils define access without fixing identity, and wild crossings retain priority seasons.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The network attracts settlement and armies, compacts the land, and becomes reluctant to yield to new routes or restored wilderness.",
+      "failure": "Roads deny the unregistered, preserve extractive traffic, or physically punish necessary departure from official paths.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Travel by air or water, invoke wild priority, dismantle a route council, or create a safer desire line.",
+      "mastery": "A master lets roads fade, refuses total legibility, and preserves the traveller's right to leave the infrastructure that serves them.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 21 | PROOF REDIRECTION + UNWEAVING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e45",
+    "title": "Archive Beneath Every Step",
+    "description": "Makes the nation's inhabited ground retain layered public memory of building, labour, migration, violence, repair, and ecological change.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:wonders"
+    ],
+    "facts": {
+      "originalId": "E45",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "DEEP LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E45",
+        "location": "Earth Enchantment / Wonders / E45"
+      }
+    },
+    "aliases": [
+      "E45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes the nation's inhabited ground retain layered public memory of building, labour, migration, violence, repair, and ecological change.",
+      "practice": "Communities control access, expiry, sacred silence, and rival readings; no central archive may flatten local strata.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The past becomes difficult to erase but also difficult to escape, and buried claims enter law and politics with material force.",
+      "failure": "Trauma becomes permanent identity, heavy footsteps dominate history, or rulers enchant their version into the deepest accessible layer.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Invoke silence, add contradictory layers, rebuild above a separation bed, or awaken older ground beneath the official archive.",
+      "mastery": "Masters protect forgetting, reinterpretation, and new foundations, preserving evidence without forcing descendants to inhabit every ancestral burden.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e46",
+    "title": "The Hidden Kingdom",
+    "description": "Conceals a nation's chosen refuges, reserves, councils, and defensive routes within the likeness of its own land without removing them from local care.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:wonders"
+    ],
+    "facts": {
+      "originalId": "E46",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "DEEP LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E46",
+        "location": "Earth Enchantment / Wonders / E46"
+      }
+    },
+    "aliases": [
+      "E46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Conceals a nation's chosen refuges, reserves, councils, and defensive routes within the likeness of its own land without removing them from local care.",
+      "practice": "Every hidden place retains independent revelation rights, rescue marks, ventilation, water, and a public record that something is withheld.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Foreign maps fail, but citizens also lose oversight; infrastructure becomes heavy, rigid, and hard to retrieve during change.",
+      "failure": "Secrecy consumes accountability, communities are hidden against their will, or the land seals what the state refuses to reveal.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Read artificial stress, invoke local rights, alter rivers, force evacuation, or make hidden institutions politically visible.",
+      "mastery": "A sovereign master reveals power before secrecy becomes its only legitimacy and never mistakes burial for safety.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | DEEP LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e47",
+    "title": "Land of Deep Rest",
+    "description": "Places a nation under a long covenant of soil recovery, structural repair, mine closure, and reduced extraction after catastrophe or exhaustion.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:wonders"
+    ],
+    "facts": {
+      "originalId": "E47",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "FORGE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E47",
+        "location": "Earth Enchantment / Wonders / E47"
+      }
+    },
+    "aliases": [
+      "E47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Places a nation under a long covenant of soil recovery, structural repair, mine closure, and reduced extraction after catastrophe or exhaustion.",
+      "practice": "Localities define viable livelihoods, ecological needs, historic harms, and conditions for reopening; burden may not simply cross the border.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Production slows, materials become resistant to taking, abandoned sites gather new life, and foreign extraction pressure increases.",
+      "failure": "Rest becomes austerity imposed on the poor, an idealised past is restored, or necessary adaptation is treated as damage.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest a baseline, expose exported burden, invoke a new local use, or break a closure anchor.",
+      "mastery": "Mastery means ending national rest unevenly and honestly, allowing living regions to change rather than demanding one picturesque recovery.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e48",
+    "title": "Colossi of Civic Stone",
+    "description": "Creates a distributed order of great stone beings that maintain national infrastructure, disaster relief, archives, and heavy transport under public charters.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:wonders"
+    ],
+    "facts": {
+      "originalId": "E48",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "BASTION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E48",
+        "location": "Earth Enchantment / Wonders / E48"
+      }
+    },
+    "aliases": [
+      "E48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a distributed order of great stone beings that maintain national infrastructure, disaster relief, archives, and heavy transport under public charters.",
+      "practice": "Every colossus is locally governed, technically understood, unable to command another, and bound to a finite service term.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Society reorganises around their labour, roads harden beneath them, and ordinary maintenance skills risk disappearing.",
+      "failure": "Charters converge, monuments become rulers, or crisis is made permanent to justify their continued authority.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "End a term, exploit conflicting charters, block a route, decentralise the work, or turn a public dissolution stone.",
+      "mastery": "A master prepares citizens to live without the colossi and regards peaceful obsolescence as the Wonder's successful completion.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 22 | PROOF ANCHORING + UNWEAVING | BASTION LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e49",
+    "title": "The Bearing Realm",
+    "description": "Links the nation's foundations, watersheds, roads, mines, terraces, and civic stores into a resilient material commons that shares burden without hiding its source.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:wonders"
+    ],
+    "facts": {
+      "originalId": "E49",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "FORGE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E49",
+        "location": "Earth Enchantment / Wonders / E49"
+      }
+    },
+    "aliases": [
+      "E49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Links the nation's foundations, watersheds, roads, mines, terraces, and civic stores into a resilient material commons that shares burden without hiding its source.",
+      "practice": "Regions keep isolation rights, visible stress languages, compensation claims, and separate ecological load limits.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Prosperity and disaster become materially shared, but remote places may bear urban weight and the whole realm resists rapid change.",
+      "failure": "Central models sacrifice margins, fatigue travels invisibly, or secession from the lattice becomes structurally impossible.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Invoke isolation, overwhelm compensation, change groundwater, or expose a hidden burden route.",
+      "mastery": "Sovereign mastery preserves modularity and consent, accepting unequal local forms so solidarity never becomes compulsory load-bearing.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 22 | PROOF ANCHORING + UNWEAVING | FORGE LENS"
+    }
+  },
+  {
+    "id": "spell:earth-enchantment:e50",
+    "title": "Covenant of the First Foundation",
+    "description": "Lets a nation periodically renew the principles by which it builds, owns land, memorialises history, and distributes material burden.",
+    "parentGroupIds": [
+      "shelf:earth-enchantment:wonders"
+    ],
+    "facts": {
+      "originalId": "E50",
+      "collectionId": "collection:earth-enchantment",
+      "collectionTitle": "Earth Enchantment",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:earth"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:earth-enchantment"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "DEEP LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Air_Earth_Spellbook.docx",
+        "collectionId": "collection:earth-enchantment",
+        "originalId": "E50",
+        "location": "Earth Enchantment / Wonders / E50"
+      }
+    },
+    "aliases": [
+      "E50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-air-earth-spellbook",
+        "title": "Panmagicon Air Earth Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Earth 4 | Enchantment | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Lets a nation periodically renew the principles by which it builds, owns land, memorialises history, and distributes material burden.",
+      "practice": "The oldest stones may testify but cannot vote; every generation lays new foundation courses separated by visible seams.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Law gains endurance, institutions become physically difficult to change, and foundational exclusions persist as literal stress.",
+      "failure": "An origin myth petrifies, amendment is treated as fracture, or the first builders rule descendants through enchanted material memory.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Open a generational seam, expose an excluded foundation, build a legitimate annex, or refuse the oldest stone's authority.",
+      "mastery": "A master protects the right to refound, allowing the nation's deepest covenant to crack cleanly rather than endure unjustly.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | DEEP LENS"
+    }
+  }
+]

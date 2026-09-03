@@ -1,0 +1,4112 @@
+[
+  {
+    "id": "spell:bloom-grave-living-cycle:l01",
+    "title": "Mould Bite",
+    "description": "Releases a pinch of rapid mould that weakens one scrap of food, leather, dead wood, scab, or plant fibre and then becomes inert.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:lessons"
+    ],
+    "facts": {
+      "originalId": "L01",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:bloom-evocation",
+        "stream:grave-evocation"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Direct Intervention",
+      "doctrine": "BROOD LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L01",
+        "location": "Bloom + Grave: The Living Cycle / Lessons / L01"
+      }
+    },
+    "aliases": [
+      "L01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Evocation | Th2 Tu1 Kn0 Sp1 Ho0 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Releases a pinch of rapid mould that weakens one scrap of food, leather, dead wood, scab, or plant fibre and then becomes inert.",
+      "practice": "Feed the culture a sample of the target and ring the release dish with dry salt.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Nutrients move into spores, decay accelerates, and the inert promise leaves a fertile residue if moisture reaches it.",
+      "failure": "The mould mistakes living tissue for waste, spreads beyond the salt, or ends before revealing the target's weakness.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Dry or burn the culture, change the substrate, break its sample identity, or flood it with competing microbes.",
+      "mastery": "A master sheds spread and speed before selectivity, leaving visible harmless bloom rather than hidden viable spores.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 6 | PROOF HOLDING + BRAIDING | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l02",
+    "title": "Lichen Shield",
+    "description": "Grows a thin lichen crust that absorbs one brief heat, scrape, toxin splash, or decay influence and seals the spent layer.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:lessons"
+    ],
+    "facts": {
+      "originalId": "L02",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-abjuration",
+        "stream:bloom-enchantment",
+        "stream:grave-abjuration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Protection And Repair",
+      "doctrine": "COMPOST LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L02",
+        "location": "Bloom + Grave: The Living Cycle / Lessons / L02"
+      }
+    },
+    "aliases": [
+      "L02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 2 | Abjuration > Enchantment | Th2 Tu2 Kn1 Sp1 Ho0 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Grows a thin lichen crust that absorbs one brief heat, scrape, toxin splash, or decay influence and seals the spent layer.",
+      "practice": "Press living lichen and clean ash together, leaving pores for breath and an edge that may peel freely.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The shield consumes moisture, accumulates rejected harm as dead tissue, and begins adapting to repeated exposure.",
+      "failure": "It seals a wound, grows into the subject, or converts stored toxin into reproductive advantage.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Peel the edge, dry the lichen, introduce an untrained harm, or disrupt its ash boundary.",
+      "mastery": "An expert sheds thickness and coverage before pores, and destroys spent tissue before protection becomes evolution.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 8 | PROOF HOLDING + BRAIDING | COMPOST LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l03",
+    "title": "Compost Knot",
+    "description": "Binds kitchen scraps, leaves, ash, and soil into a small orderly composting cycle that signals when to turn, wet, rest, or harvest.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:lessons"
+    ],
+    "facts": {
+      "originalId": "L03",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-enchantment",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Control And Regulation",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L03",
+        "location": "Bloom + Grave: The Living Cycle / Lessons / L03"
+      }
+    },
+    "aliases": [
+      "L03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Enchantment | Th2 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Binds kitchen scraps, leaves, ash, and soil into a small orderly composting cycle that signals when to turn, wet, rest, or harvest.",
+      "practice": "Include at least four kinds of remains and leave one uncomposted token as the limit of the Knot.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Heat, microbes, smell, and nutrients concentrate; nearby decay slows while the heap develops a preference for familiar waste.",
+      "failure": "The cycle sterilises itself, attracts vermin, consumes the limit token, or treats living roots as unfinished compost.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Remove one material, cool the heap, move the limit token, or introduce a competing decomposer.",
+      "mastery": "A master preserves uneven rot and ordinary observation, ending the enchantment before the heap becomes an appetite.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 8 | PROOF HOLDING + BRAIDING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l04",
+    "title": "Mycelial Step",
+    "description": "Turns a patch of leaf litter, rot, or soft soil into a springy mycelial pad for one quiet leap, landing, or lifted burden.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:lessons"
+    ],
+    "facts": {
+      "originalId": "L04",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:bloom-alteration",
+        "stream:grave-alteration"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Movement And Flow",
+      "doctrine": "BROOD LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L04",
+        "location": "Bloom + Grave: The Living Cycle / Lessons / L04"
+      }
+    },
+    "aliases": [
+      "L04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Alteration | Th2 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Turns a patch of leaf litter, rot, or soft soil into a springy mycelial pad for one quiet leap, landing, or lifted burden.",
+      "practice": "Plant two fungal cords between departure and arrival and name which cord may die first.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The pad consumes decay, spreads spores, and continues knitting ground for several breaths after use.",
+      "failure": "It grips the foot, fruits explosively, or carries the traveller toward richer rot rather than the marked landing.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Dry the pad, cut a cord, salt the landing, or change the traveller's load.",
+      "mastery": "A master lets height and distance fail before grip and kills the pad while it remains a bridge rather than habitat.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 7 | PROOF HOLDING + BRAIDING | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l05",
+    "title": "Sporeprint Reading",
+    "description": "Calls a temporary sporeprint that shows which living, dead, diseased, or decomposing thing most recently exchanged matter with a small object.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:lessons"
+    ],
+    "facts": {
+      "originalId": "L05",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:bloom-divination",
+        "stream:grave-divination"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Perception And Memory",
+      "doctrine": "COMPOST LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L05",
+        "location": "Bloom + Grave: The Living Cycle / Lessons / L05"
+      }
+    },
+    "aliases": [
+      "L05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 2 | Divination | Th2 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Calls a temporary sporeprint that shows which living, dead, diseased, or decomposing thing most recently exchanged matter with a small object.",
+      "practice": "Lay the object beneath dark glass with one clean and one decayed comparison sample.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The connection runs both ways: the source may stir, germinate, or become aware of the reader's biological presence.",
+      "failure": "Old contamination dominates, living and dead states overlap, or the print mistakes storage for origin.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Sterilise the object, introduce new spores, remove a comparison, or follow the reciprocal germination toward the reader.",
+      "mastery": "A master reports several possible exchanges and destroys the print before knowledge becomes inoculation.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 7 | PROOF HOLDING + BRAIDING | COMPOST LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l06",
+    "title": "Lichen Veil",
+    "description": "Covers a still hand-sized object, scar, mark, or opening with ordinary lichen, bark scale, mould, and weathered decay.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:lessons"
+    ],
+    "facts": {
+      "originalId": "L06",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:bloom-veiling",
+        "stream:grave-veiling"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L06",
+        "location": "Bloom + Grave: The Living Cycle / Lessons / L06"
+      }
+    },
+    "aliases": [
+      "L06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Veiling | Th2 Tu1 Kn0 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Covers a still hand-sized object, scar, mark, or opening with ordinary lichen, bark scale, mould, and weathered decay.",
+      "practice": "Match local succession and preserve one sterile retrieval seam beneath the disguise.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The veil consumes surface material, hides evidence from allies, and makes the subject biologically interesting to grazers.",
+      "failure": "The seam is colonised, concealment spreads, or the veil preserves a perfect patch of age that looks false.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Wet, scrape, heat, graze, or examine succession at the boundary.",
+      "mastery": "An expert leaves irregularity and lets the veil die before concealment becomes a new living claim upon the subject.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 7 | PROOF HOLDING + BRAIDING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l07",
+    "title": "Fever Eater",
+    "description": "Grows a small fungus in a clay cup that draws off one defined fever pulse, toxin phase, or inflammatory surge and then dies.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:lessons"
+    ],
+    "facts": {
+      "originalId": "L07",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:bloom-abjuration",
+        "stream:bloom-restoration",
+        "stream:grave-abjuration",
+        "stream:grave-restoration"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "COMPOST LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L07",
+        "location": "Bloom + Grave: The Living Cycle / Lessons / L07"
+      }
+    },
+    "aliases": [
+      "L07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Abjuration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 2 | Restoration > Abjuration | Th2 Tu2 Kn1 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Grows a small fungus in a clay cup that draws off one defined fever pulse, toxin phase, or inflammatory surge and then dies.",
+      "practice": "The patient names the distress while a healer names which useful defence must remain.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Heat and biological activity move into the fungus, which becomes briefly infectious and leaves the patient heavy.",
+      "failure": "The eater suppresses immunity, feeds on healthy metabolism, or survives its promised death.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Break the cup, cool the culture, invoke the preserved defence, or introduce a competing medicine.",
+      "mastery": "A master keeps the fungus outside the body, ends treatment early, and preserves symptoms needed for diagnosis.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 9 | PROOF HOLDING + BRAIDING | COMPOST LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l08",
+    "title": "Beetle Servitor",
+    "description": "Assembles a thumb-sized beetle from husk, bone dust, seed, and living insects to carry one scrap along a marked route.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:lessons"
+    ],
+    "facts": {
+      "originalId": "L08",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-enchantment",
+        "stream:grave-conjuration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 1
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L08",
+        "location": "Bloom + Grave: The Living Cycle / Lessons / L08"
+      }
+    },
+    "aliases": [
+      "L08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Conjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Conjuration > Enchantment | Th2 Tu2 Kn1 Sp1 Ho1 Fi1 Ag1 Co1 | Carrier: personal or supervised.",
+      "purpose": "Assembles a thumb-sized beetle from husk, bone dust, seed, and living insects to carry one scrap along a marked route.",
+      "practice": "Give it one food source, one destination, one forbidden material, and a sunset death.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The route loses small life and decay, the beetle leaves fertile droppings, and its behaviour becomes inheritable if it breeds.",
+      "failure": "It eats the burden, mistakes a corpse for route material, or hides before dissolution.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Remove food, break the mark, introduce a predator, or invoke sunset.",
+      "mastery": "A master grants one safe refusal and ensures the servitor cannot reproduce its duty.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 10 | PROOF HOLDING + BRAIDING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l09",
+    "title": "Warm Compost Bed",
+    "description": "Creates a warm living bed from clean compost, moss, and ash that eases cold, fatigue, and minor stiffness during one rest.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:lessons"
+    ],
+    "facts": {
+      "originalId": "L09",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-enchantment",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Infrastructure",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L09",
+        "location": "Bloom + Grave: The Living Cycle / Lessons / L09"
+      }
+    },
+    "aliases": [
+      "L09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Enchantment | Th2 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Creates a warm living bed from clean compost, moss, and ash that eases cold, fatigue, and minor stiffness during one rest.",
+      "practice": "Separate heat, hygiene, breath, and waking edges, and set a stone for the sleeper's chosen end time.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The bed consumes decay, releases spores and scent, and begins adapting around the sleeper's body.",
+      "failure": "It masks illness, roots clothing, overheats, or resists waking because rest feeds the cycle.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Turn the stone, cool the compost, break the moss layer, or stand on bare ground.",
+      "mastery": "A master keeps warmth below appetite and ends comfort before the bed learns the sleeper as habitat.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 8 | PROOF HOLDING + BRAIDING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l10",
+    "title": "Wakegarden",
+    "description": "Grows a small circle of flowers, fungi, and insects whose timing reflects remembered habits of one recently dead creature or person.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:lessons"
+    ],
+    "facts": {
+      "originalId": "L10",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-divination",
+        "stream:grave-conjuration",
+        "stream:grave-divination"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "BROOD LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L10",
+        "location": "Bloom + Grave: The Living Cycle / Lessons / L10"
+      }
+    },
+    "aliases": [
+      "L10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Conjuration",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Conjuration > Divination | Th2 Tu2 Kn1 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Grows a small circle of flowers, fungi, and insects whose timing reflects remembered habits of one recently dead creature or person.",
+      "practice": "Use lawful remains, name uncertainty, and keep an empty place for what memory cannot recover.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The deceased gains a faint reciprocal route, decomposition is redirected, and mourners influence the garden's behaviour.",
+      "failure": "Expectation becomes personality, grief feeds endless bloom, or the garden is treated as the returned person.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Remove a source, leave the circle, introduce contradictory memory, or close the reciprocal route.",
+      "mastery": "A master keeps resemblance symbolic and lets the garden die before consolation becomes counterfeit resurrection.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 9 | PROOF HOLDING + BRAIDING | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l11",
+    "title": "Blight Lash",
+    "description": "Projects a living strand that rapidly overgrows and decays one rope, wooden joint, crop row, leather harness, or exposed patch of tissue.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:practical-workings"
+    ],
+    "facts": {
+      "originalId": "L11",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:bloom-alteration",
+        "stream:bloom-evocation",
+        "stream:grave-alteration",
+        "stream:grave-evocation"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Direct Intervention",
+      "doctrine": "BROOD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 0,
+        "span": 2,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L11",
+        "location": "Bloom + Grave: The Living Cycle / Practical Workings / L11"
+      }
+    },
+    "aliases": [
+      "L11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Evocation > Alteration | Th2 Tu2 Kn0 Sp2 Ho0 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Projects a living strand that rapidly overgrows and decays one rope, wooden joint, crop row, leather harness, or exposed patch of tissue.",
+      "practice": "Braid fresh vine with dead fibre and mark what must remain viable at both ends.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Growth and rot consume nutrients, spread spores, and leave a fertile wound likely to sprout later.",
+      "failure": "The lash continues through connected living systems, alternates healing and damage, or roots in the caster.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Cut the braid, salt the wound, remove nutrients, or interrupt contact between living and dead material.",
+      "mastery": "Experts shed persistence and spread before aim, leaving an obvious sterile scar rather than a self-propagating victory.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 9 | PROOF BRAIDING + TURNING | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l12",
+    "title": "Fungal Bulwark",
+    "description": "Raises a thick wall of fungal tissue, dead wood, bone mineral, and root that absorbs impact, poison, heat, and decay.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:practical-workings"
+    ],
+    "facts": {
+      "originalId": "L12",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-abjuration",
+        "stream:bloom-enchantment",
+        "stream:grave-conjuration",
+        "stream:grave-abjuration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Protection And Repair",
+      "doctrine": "COMPOST LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L12",
+        "location": "Bloom + Grave: The Living Cycle / Practical Workings / L12"
+      }
+    },
+    "aliases": [
+      "L12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Conjuration",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 2 | Conjuration > Abjuration > Enchantment | Th2 Tu3 Kn1 Sp2 Ho1 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Raises a thick wall of fungal tissue, dead wood, bone mineral, and root that absorbs impact, poison, heat, and decay.",
+      "practice": "Divide living repair, dead armour, breathable pores, waste, and emergency collapse among separate anchors.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The bulwark consumes local remains and fertility, stores rejected harm, and releases spores downwind.",
+      "failure": "Pores close, damage becomes food, the wall grows toward occupants, or collapse spreads contaminated matter.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Dry a living anchor, burn dead armour, overload waste, attack through pores, or invoke emergency collapse.",
+      "mastery": "A master sacrifices repair and height before breath or exit, then treats the spent wall as hazardous ecology.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 12 | PROOF BRAIDING + TURNING | COMPOST LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l13",
+    "title": "Succession Garden",
+    "description": "Regulates a damaged plot through planned stages of pioneer growth, grazing, decay, soil building, and mature habitat.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:practical-workings"
+    ],
+    "facts": {
+      "originalId": "L13",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-alteration",
+        "stream:bloom-enchantment",
+        "stream:grave-alteration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Control And Regulation",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L13",
+        "location": "Bloom + Grave: The Living Cycle / Practical Workings / L13"
+      }
+    },
+    "aliases": [
+      "L13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Enchantment > Alteration | Th2 Tu2 Kn2 Sp2 Ho1 Fi2 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Regulates a damaged plot through planned stages of pioneer growth, grazing, decay, soil building, and mature habitat.",
+      "practice": "Every stage has a keeper, an expiry, a disturbance route, and species that may refuse the sequence.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The garden accelerates competition, displaces nearby organisms, and develops momentum toward its declared climax.",
+      "failure": "One stage becomes permanent, the model excludes unexpected recovery, or useful disturbance is treated as failure.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Remove a keeper, introduce a novel species, alter soil, or invoke a disturbance route.",
+      "mastery": "A master allows the garden to contradict its plan and ends control when succession can improvise safely.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 13 | PROOF BRAIDING + TURNING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l14",
+    "title": "Root-and-Rot Road",
+    "description": "Transforms dead wood, leaf mould, old bone, and living roots into a temporary yielding path across marsh, rubble, forest, or battlefield remains.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:practical-workings"
+    ],
+    "facts": {
+      "originalId": "L14",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-alteration",
+        "stream:bloom-enchantment",
+        "stream:grave-alteration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Movement And Flow",
+      "doctrine": "BROOD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L14",
+        "location": "Bloom + Grave: The Living Cycle / Practical Workings / L14"
+      }
+    },
+    "aliases": [
+      "L14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Alteration > Enchantment | Th2 Tu2 Kn1 Sp2 Ho1 Fi3 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Transforms dead wood, leaf mould, old bone, and living roots into a temporary yielding path across marsh, rubble, forest, or battlefield remains.",
+      "practice": "Route tenders name lawful material, burial exclusions, load limits, side escapes, and where the road must return to decay.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The path consumes remains, spreads organisms, disturbs graves, and draws future roots along its convenient line.",
+      "failure": "It incorporates protected dead, digests itself beneath travellers, or grows toward richer remains.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Invoke burial, dry the route, break a root line, change load, or offer a safer decay ground.",
+      "mastery": "Masters slow and divide the road before continuity violates the dead or turns travel into ecological appetite.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 12 | PROOF BRAIDING + TURNING | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l15",
+    "title": "Carrion Oracle",
+    "description": "Reads a carcass, compost heap, battlefield residue, or fallen tree through insects, fungi, and decay stages to reveal time, cause, visitors, and displaced matter.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:practical-workings"
+    ],
+    "facts": {
+      "originalId": "L15",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:bloom-divination",
+        "stream:grave-divination"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Perception And Memory",
+      "doctrine": "COMPOST LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L15",
+        "location": "Bloom + Grave: The Living Cycle / Practical Workings / L15"
+      }
+    },
+    "aliases": [
+      "L15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 2 | Divination | Th2 Tu1 Kn1 Sp2 Ho1 Fi3 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Reads a carcass, compost heap, battlefield residue, or fallen tree through insects, fungi, and decay stages to reveal time, cause, visitors, and displaced matter.",
+      "practice": "Keep living colonisers, weather, handling, and magical influence as separate layers.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Observation changes decomposition, attracts scavengers, and creates reciprocal routes to predators, dead memory, and disease.",
+      "failure": "The most visible coloniser becomes the whole account, cause and aftermath merge, or the oracle spreads contamination.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Remove a layer, sterilise part of the site, introduce false succession, or answer along the reciprocal route.",
+      "mastery": "A master preserves uncertainty and lets decomposition continue rather than freeze remains into permanent evidence.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 11 | PROOF BRAIDING + TURNING | COMPOST LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l16",
+    "title": "Understory Disguise",
+    "description": "Wraps a small group or shelter in ordinary deadfall, fungi, insects, saplings, scent, and decay appropriate to the local understory.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:practical-workings"
+    ],
+    "facts": {
+      "originalId": "L16",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-veiling",
+        "stream:grave-conjuration",
+        "stream:grave-veiling"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L16",
+        "location": "Bloom + Grave: The Living Cycle / Practical Workings / L16"
+      }
+    },
+    "aliases": [
+      "L16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Conjuration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Veiling > Conjuration | Th2 Tu2 Kn2 Sp2 Ho1 Fi2 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Wraps a small group or shelter in ordinary deadfall, fungi, insects, saplings, scent, and decay appropriate to the local understory.",
+      "practice": "Preserve breath, rescue, fire, graves, and a sterile internal path while borrowing only local species.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The disguise consumes habitat, attracts wildlife, conceals injury and death, and may establish after the group leaves.",
+      "failure": "It grows across exits, treats people as carrion, or hides warning signs from allies.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Burn or dry an edge, follow displaced animals, invoke the sterile path, or alter season.",
+      "mastery": "A master accepts visual exposure before concealment compromises breath, care, or the dignity of remains.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 13 | PROOF BRAIDING + TURNING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l17",
+    "title": "Scar Tissue Orchard",
+    "description": "Grows replacement bark, skin support, connective fibre, and protective symbionts across damaged trees, animals, or structures using preserved scar as guide.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:practical-workings"
+    ],
+    "facts": {
+      "originalId": "L17",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-restoration",
+        "stream:grave-conjuration",
+        "stream:grave-restoration"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "BROOD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L17",
+        "location": "Bloom + Grave: The Living Cycle / Practical Workings / L17"
+      }
+    },
+    "aliases": [
+      "L17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Conjuration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Restoration > Conjuration | Th2 Tu2 Kn2 Sp2 Ho1 Fi3 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Grows replacement bark, skin support, connective fibre, and protective symbionts across damaged trees, animals, or structures using preserved scar as guide.",
+      "practice": "Healers distinguish function, pain, identity, useful scar, and tissue that must never be repeated.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Nutrients shift into regrowth, old damage patterns return, and new tissue carries viable organisms.",
+      "failure": "The orchard erases warning scars, restores an old disease, overgrows mobility, or spreads one subject's pattern to another.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Invoke protected scar, cut nutrient flow, separate subjects, or introduce a newer viable form.",
+      "mastery": "A master restores capacity and choice rather than smoothness, leaving the body able to revise its own healing.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 13 | PROOF BRAIDING + TURNING | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l18",
+    "title": "Spore Shepherd",
+    "description": "Creates an autonomous drifting colony that guides decomposition, detects blight, carries inoculation, and reports where a mapped landscape cannot recycle safely.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:practical-workings"
+    ],
+    "facts": {
+      "originalId": "L18",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-enchantment",
+        "stream:bloom-divination",
+        "stream:grave-conjuration",
+        "stream:grave-enchantment",
+        "stream:grave-divination"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "BROOD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 2,
+        "contradiction": 1
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L18",
+        "location": "Bloom + Grave: The Living Cycle / Practical Workings / L18"
+      }
+    },
+    "aliases": [
+      "L18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Conjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Conjuration > Enchantment > Divination | Th2 Tu3 Kn1 Sp2 Ho1 Fi2 Ag2 Co1 | Carrier: personal with a focus.",
+      "purpose": "Creates an autonomous drifting colony that guides decomposition, detects blight, carries inoculation, and reports where a mapped landscape cannot recycle safely.",
+      "practice": "Give it permitted hosts, forbidden crops, seasonal rest, return vessels, and no authority to breed beyond one cycle.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Spores move genes and disease, local decay is displaced, and the Shepherd makes observed hosts aware of the route.",
+      "failure": "It diagnoses by infecting, favours abundant decay, or reproduces its charter into wild descendants.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Dry a corridor, close return vessels, introduce competing fungi, or invoke seasonal rest.",
+      "mastery": "A master narrows its range under novelty and ends the colony before successful service becomes a lineage.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 14 | PROOF BRAIDING + TURNING | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l19",
+    "title": "Mycelial Works",
+    "description": "Grows a network that composts waste, filters soil, carries signals, repairs minor cracks, and redistributes nutrients across a worksite.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:practical-workings"
+    ],
+    "facts": {
+      "originalId": "L19",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-enchantment",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Infrastructure",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 3,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L19",
+        "location": "Bloom + Grave: The Living Cycle / Practical Workings / L19"
+      }
+    },
+    "aliases": [
+      "L19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Enchantment | Th2 Tu1 Kn2 Sp2 Ho3 Fi2 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Grows a network that composts waste, filters soil, carries signals, repairs minor cracks, and redistributes nutrients across a worksite.",
+      "practice": "Separate waste, food, structure, disease, communication, and dormancy into visible service beds.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The site becomes biologically interdependent, dry spaces weaken, and the network develops preference for regular inputs.",
+      "failure": "Waste becomes appetite, signals carry contagion, or repair tissue prevents necessary demolition.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Quarantine a bed, trigger dormancy, change substrate, sever a corridor, or restore manual service.",
+      "mastery": "Experts preserve modular failure and ordinary alternatives, refusing to make one fungus the hidden owner of infrastructure.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 14 | PROOF BRAIDING + TURNING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l20",
+    "title": "Feast of Falling Leaves",
+    "description": "Calls a town's safe fallen leaves, fruit, grain remnants, fungi, and seeds into a public feast that returns waste to soil afterward.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:practical-workings"
+    ],
+    "facts": {
+      "originalId": "L20",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-restoration",
+        "stream:grave-conjuration",
+        "stream:grave-restoration"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L20",
+        "location": "Bloom + Grave: The Living Cycle / Practical Workings / L20"
+      }
+    },
+    "aliases": [
+      "L20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Conjuration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Conjuration > Restoration | Th2 Tu2 Kn2 Sp2 Ho1 Fi3 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Calls a town's safe fallen leaves, fruit, grain remnants, fungi, and seeds into a public feast that returns waste to soil afterward.",
+      "practice": "Households declare what is surplus, unsafe, sacred, or needed for winter; composting is part of the ceremony.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Future fertility and stored food are spent, scavengers gather, and abundance masks unequal reserves.",
+      "failure": "The feast consumes seed stock, spreads illness, or makes refusal appear antisocial.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Withhold a share, invoke winter need, close a communal dish, or compost without eating.",
+      "mastery": "A master leaves visible leftovers and protected reserves, making restraint and return as celebratory as consumption.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 14 | PROOF BRAIDING + TURNING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l21",
+    "title": "Necrotic Bloom",
+    "description": "Releases a wave that forces rapid growth and immediate decay through selected organic material, breaking formations, crops, timber, flesh, and living enchantments.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "L21",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:bloom-alteration",
+        "stream:bloom-evocation",
+        "stream:grave-alteration",
+        "stream:grave-evocation"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Direct Intervention",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 3,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L21",
+        "location": "Bloom + Grave: The Living Cycle / Expert Formulae / L21"
+      }
+    },
+    "aliases": [
+      "L21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 2 | Evocation > Alteration | Th2 Tu2 Kn1 Sp3 Ho0 Fi3 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Releases a wave that forces rapid growth and immediate decay through selected organic material, breaking formations, crops, timber, flesh, and living enchantments.",
+      "practice": "Target jurists separate living enemies, food, soil, bodies, protected species, and the fertility sink before release.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Nutrients become spores and rot heat, mutations spread, and the ground inherits a violent rhythm of birth and ending.",
+      "failure": "The wave cycles repeatedly, protected life joins through roots, or decay becomes fuel for a stronger second bloom.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break target relation, sterilise a corridor, remove nutrients, or disrupt the fertility sink.",
+      "mastery": "A master sheds cycles, spread, and intensity before discrimination, leaving sterile visible damage rather than a self-renewing weapon.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 13 | PROOF BRAIDING + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l22",
+    "title": "Palisade of Bone and Briar",
+    "description": "Raises a defensive ring of bone mineral, dead wood, thorn, fungus, and living repair that opens through declared gates.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "L22",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-abjuration",
+        "stream:bloom-enchantment",
+        "stream:grave-conjuration",
+        "stream:grave-abjuration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Protection And Repair",
+      "doctrine": "COMPOST LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L22",
+        "location": "Bloom + Grave: The Living Cycle / Expert Formulae / L22"
+      }
+    },
+    "aliases": [
+      "L22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Conjuration",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 2 | Conjuration > Abjuration > Enchantment | Th2 Tu3 Kn2 Sp3 Ho2 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Raises a defensive ring of bone mineral, dead wood, thorn, fungus, and living repair that opens through declared gates.",
+      "practice": "Remains, living source, gate identity, disease, fire, and final burial each belong to separate keepers.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The ring displaces graves and habitat, stores rejected force, and grows stronger where violence feeds it.",
+      "failure": "Gates close, the dead gain claims, the palisade feeds on defenders, or repair preserves a cursed shape.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke burial, burn a dead section, starve living repair, corrupt a gate, or release stored force outward.",
+      "mastery": "Experts abandon continuity before access and dismantle the wall with the same care owed to a battlefield cemetery.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 16 | PROOF BRAIDING + REDIRECTION | COMPOST LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l23",
+    "title": "Ecology of Predators",
+    "description": "Binds predators, prey, disease, scavengers, and decay into a responsive system that regulates a vast estate, reserve, or frontier.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "L23",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-alteration",
+        "stream:bloom-enchantment",
+        "stream:grave-alteration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Control And Regulation",
+      "doctrine": "BROOD LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L23",
+        "location": "Bloom + Grave: The Living Cycle / Expert Formulae / L23"
+      }
+    },
+    "aliases": [
+      "L23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Enchantment > Alteration | Th2 Tu2 Kn3 Sp3 Ho2 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds predators, prey, disease, scavengers, and decay into a responsive system that regulates a vast estate, reserve, or frontier.",
+      "practice": "Every trophic role has independent limits, refuges, migration, human appeal, and permission to fail locally.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Death and reproduction accelerate, neighbouring ecologies lose organisms, and policy becomes entangled with appetite.",
+      "failure": "Predation defines undesired people as prey, disease becomes regulation, or the system suppresses all disturbance except its own.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Open refuges, alter food timing, remove a role, introduce novelty, or disconnect a district.",
+      "mastery": "A master preserves escape, fluctuation, and moral boundaries, refusing to call cruelty balance merely because numbers stabilise.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 16 | PROOF BRAIDING + REDIRECTION | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l24",
+    "title": "Mouldway",
+    "description": "Turns fallen timber, ruins, corpses, and leaf mould into a migrating soft road that carries a caravan while composting behind itself.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "L24",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-alteration",
+        "stream:grave-conjuration",
+        "stream:grave-alteration"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Movement And Flow",
+      "doctrine": "BROOD LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L24",
+        "location": "Bloom + Grave: The Living Cycle / Expert Formulae / L24"
+      }
+    },
+    "aliases": [
+      "L24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Conjuration",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Alteration > Conjuration | Th2 Tu2 Kn2 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Turns fallen timber, ruins, corpses, and leaf mould into a migrating soft road that carries a caravan while composting behind itself.",
+      "practice": "Route councils govern remains, burial, host land, quarantine, load, and where the road may fruit into habitat.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The way consumes history, spreads organisms, changes soil, and invites settlement along its fertile wake.",
+      "failure": "It digests protected dead, becomes a plague corridor, or refuses barren ground and strands travellers.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Invoke burial, dry a segment, revoke host consent, change load, or ground the road into a managed forest.",
+      "mastery": "Masters stop before necessity becomes desecration and preserve ordinary routes that do not require the world to be edible.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 16 | PROOF BRAIDING + REDIRECTION | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l25",
+    "title": "Ancestral Seed",
+    "description": "Germinates a temporary living form from lawful remains to reveal inherited traits, remembered environments, unfinished relations, and possible descendants.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "L25",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-divination",
+        "stream:grave-conjuration",
+        "stream:grave-divination"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Perception And Memory",
+      "doctrine": "COMPOST LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L25",
+        "location": "Bloom + Grave: The Living Cycle / Expert Formulae / L25"
+      }
+    },
+    "aliases": [
+      "L25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Conjuration",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 2 | Divination > Conjuration | Th2 Tu2 Kn2 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Germinates a temporary living form from lawful remains to reveal inherited traits, remembered environments, unfinished relations, and possible descendants.",
+      "practice": "Keep source, interpretation, grief, biological hazard, and the right not to continue the lineage separate.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The dead gain a route into living tissue, the seed consumes reproductive possibility, and observers influence what appears.",
+      "failure": "A symbolic trait becomes destiny, disease returns, or the seed is treated as a person or rightful heir.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Destroy the growth, introduce contradictory lineage, close reciprocity, or refuse descent.",
+      "mastery": "A master keeps the form sterile and provisional, preserving inheritance as information rather than command.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 16 | PROOF BRAIDING + REDIRECTION | COMPOST LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l26",
+    "title": "City Under Lichen",
+    "description": "Covers a district in layered age, moss, repair, decay, abandoned habitat, and living routine so hostile observers mistake it for ruin.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "L26",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:enchantment",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:bloom-enchantment",
+        "stream:bloom-veiling",
+        "stream:grave-enchantment",
+        "stream:grave-veiling"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "COMPOST LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L26",
+        "location": "Bloom + Grave: The Living Cycle / Expert Formulae / L26"
+      }
+    },
+    "aliases": [
+      "L26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Enchantment",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 2 | Veiling > Enchantment | Th2 Tu2 Kn3 Sp3 Ho2 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Covers a district in layered age, moss, repair, decay, abandoned habitat, and living routine so hostile observers mistake it for ruin.",
+      "practice": "Residents control breath, rescue, sanitation, internal history, lawful revelation, and which dead may be represented.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The district becomes cold and biologically dense, poverty may be aestheticised, and civic harm hides inside convincing decay.",
+      "failure": "The veil suppresses maintenance, treats inhabitants as remnants, or grows more authentic as the city actually fails.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke revelation, restore a bright service, disrupt succession, follow living supply, or challenge the represented dead.",
+      "mastery": "A master reveals need before concealment rewards neglect and never makes people perform ruin for safety.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 16 | PROOF BRAIDING + REDIRECTION | COMPOST LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l27",
+    "title": "Phoenix Garden",
+    "description": "Restores a burned grove, ruined household, injured community, or devastated habitat through staged ash, pioneer growth, memory, and renewed fertility.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "L27",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-restoration",
+        "stream:grave-conjuration",
+        "stream:grave-restoration"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 18,
+      "calculatedLoad": 18,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L27",
+        "location": "Bloom + Grave: The Living Cycle / Expert Formulae / L27"
+      }
+    },
+    "aliases": [
+      "L27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Conjuration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Restoration > Conjuration | Th2 Tu2 Kn3 Sp3 Ho2 Fi4 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Restores a burned grove, ruined household, injured community, or devastated habitat through staged ash, pioneer growth, memory, and renewed fertility.",
+      "practice": "Survivors define what must return, what may remain dead, what new life is welcome, and what loss must stay visible.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Old species and claims reappear, donor ecologies are depleted, and renewal risks feeding on grief.",
+      "failure": "The garden recreates vulnerability, resurrects invasive life, or treats survivors' adaptation as damage.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest the reference, protect a ruin, interrupt donor flow, or allow unmanaged succession.",
+      "mastery": "Masters restore the ability to change, not the scene before disaster, and keep ash as witness rather than fuel for myth.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 18 | PROOF BRAIDING + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l28",
+    "title": "Corpseflower Colossus",
+    "description": "Creates a great autonomous being of bone, root, fungus, carrion insects, and flowering tissue for rescue, excavation, battle, and ecological repair.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "L28",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-alteration",
+        "stream:bloom-enchantment",
+        "stream:grave-conjuration",
+        "stream:grave-alteration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 3,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L28",
+        "location": "Bloom + Grave: The Living Cycle / Expert Formulae / L28"
+      }
+    },
+    "aliases": [
+      "L28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Conjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 2 | Conjuration > Enchantment > Alteration | Th2 Tu3 Kn2 Sp3 Ho2 Fi3 Ag3 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates a great autonomous being of bone, root, fungus, carrion insects, and flowering tissue for rescue, excavation, battle, and ecological repair.",
+      "practice": "Its remains, appetite, duties, refuges, breeding impossibility, human command, and burial are independently governed.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The Colossus consumes dead and living matter, spreads disease and seed, and makes landscapes adapt around its path.",
+      "failure": "It harvests people as material, decides death is repair, or reproduces through fragments despite prohibition.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Invoke burial, separate components, starve one appetite, exploit duty conflict, or trigger sterile decomposition.",
+      "mastery": "A master keeps the being composite and mortal, dismantling it before coherent self-preservation becomes sovereignty.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 20 | PROOF BRAIDING + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l29",
+    "title": "Self-Renewing City",
+    "description": "Binds buildings, gardens, waste, burial, food, repair, and demolition into a civic cycle that grows, dies, composts, and rebuilds locally.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "L29",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-abjuration",
+        "stream:bloom-restoration",
+        "stream:bloom-enchantment",
+        "stream:grave-abjuration",
+        "stream:grave-restoration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Infrastructure",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 3,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L29",
+        "location": "Bloom + Grave: The Living Cycle / Expert Formulae / L29"
+      }
+    },
+    "aliases": [
+      "L29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Abjuration",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Enchantment > Restoration > Abjuration | Th2 Tu3 Kn3 Sp3 Ho4 Fi3 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds buildings, gardens, waste, burial, food, repair, and demolition into a civic cycle that grows, dies, composts, and rebuilds locally.",
+      "practice": "Districts control succession, heritage, disease, manual alternatives, sacred remains, and the right to disconnect.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The city consumes its own past, institutions become biological, and residents inherit recurring forms and appetites.",
+      "failure": "Useful buildings are declared dead, demolition feeds central growth, or the city restores an unjust urban pattern.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Isolate a district, protect a ruin, interrupt compost, introduce manual construction, or contest the proper cycle.",
+      "mastery": "Masters preserve empty lots, permanent monuments, and irreversible endings, keeping renewal from becoming compulsory repetition.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 20 | PROOF BRAIDING + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l30",
+    "title": "Theatre of Reincarnation",
+    "description": "Creates living masks, plants, and insects through which performers explore possible continuities between a dead life and new bodies without claiming literal return.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "L30",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:divination",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-divination",
+        "stream:bloom-veiling",
+        "stream:grave-conjuration",
+        "stream:grave-divination",
+        "stream:grave-veiling"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L30",
+        "location": "Bloom + Grave: The Living Cycle / Expert Formulae / L30"
+      }
+    },
+    "aliases": [
+      "L30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Conjuration",
+      "Divination",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Conjuration > Divination > Veiling | Th2 Tu3 Kn3 Sp3 Ho2 Fi4 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates living masks, plants, and insects through which performers explore possible continuities between a dead life and new bodies without claiming literal return.",
+      "practice": "Sources, conjecture, consent, anonymity, cultural ownership, and final dissolution are announced before performance.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Audience expectation shapes the forms, the dead gain a reciprocal route, and symbolic traits may become fertile.",
+      "failure": "Performance is taken as proof, a performer inherits unwanted identity, or a mask survives as claimant.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Remove the mask, introduce contradictory memory, close reciprocity, or invoke final dissolution.",
+      "mastery": "A master keeps fiction, grief, and metaphysics visibly distinct and lets no beautiful resemblance acquire legal personhood.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 19 | PROOF BRAIDING + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l31",
+    "title": "Plague Orchard",
+    "description": "Cultivates and releases controlled competing diseases, immune ecologies, vectors, and decay to break an army, invasive species, or catastrophic pathogen across a theatre.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:rites"
+    ],
+    "facts": {
+      "originalId": "L31",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:bloom-alteration",
+        "stream:bloom-evocation",
+        "stream:grave-alteration",
+        "stream:grave-evocation"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Direct Intervention",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 4,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 3
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L31",
+        "location": "Bloom + Grave: The Living Cycle / Rites / L31"
+      }
+    },
+    "aliases": [
+      "L31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 2 | Alteration > Evocation | Th2 Tu2 Kn2 Sp4 Ho1 Fi3 Ag0 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Cultivates and releases controlled competing diseases, immune ecologies, vectors, and decay to break an army, invasive species, or catastrophic pathogen across a theatre.",
+      "practice": "Host classes, civilians, wildlife, mutation, antidote, retreat, and post-rite extinction remain under separate conductors.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Evolution accelerates, reservoirs form, fertility shifts, and the land inherits a history of weaponised disease.",
+      "failure": "Competition creates a stronger pathogen, antidotes fail, or target identity becomes ancestry and spreads through populations.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break a host relation, change environment, isolate a reservoir, invoke retreat, or release an external competitor.",
+      "mastery": "The conductor abandons victory before containment and accepts the moral impossibility of a perfectly obedient plague.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 17 | PROOF RECONCILIATION + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l32",
+    "title": "Sanctuary of the Second Skin",
+    "description": "Wraps a refugee city, hospital region, or damaged population in adaptive living protection that rejects disease, poison, hostile magic, and repeated trauma.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:rites"
+    ],
+    "facts": {
+      "originalId": "L32",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-abjuration",
+        "stream:bloom-restoration",
+        "stream:bloom-enchantment",
+        "stream:grave-abjuration",
+        "stream:grave-restoration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Protection And Repair",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 3
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L32",
+        "location": "Bloom + Grave: The Living Cycle / Rites / L32"
+      }
+    },
+    "aliases": [
+      "L32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Abjuration",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 2 | Restoration > Abjuration > Enchantment | Th2 Tu3 Kn3 Sp4 Ho3 Fi3 Ag0 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Wraps a refugee city, hospital region, or damaged population in adaptive living protection that rejects disease, poison, hostile magic, and repeated trauma.",
+      "practice": "People retain consent, ordinary sensation, cultural difference, exit, disability, and the right not to be biologically optimised.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The sanctuary consumes fertility and remains, accumulates rejected harm, and makes protected bodies dependent on its ecology.",
+      "failure": "The second skin becomes identity, excludes newcomers, suppresses warning, or treats grief and difference as pathology.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke exit, introduce a protected variation, overload residue, detach a district, or return ordinary exposure gradually.",
+      "mastery": "Masters preserve vulnerability and choice, letting protection thin before it defines the acceptable human body.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 21 | PROOF RECONCILIATION + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l33",
+    "title": "Great Succession",
+    "description": "Guides a devastated province through pioneer life, soil creation, settlement, forest, disturbance, decay, and several possible mature ecologies.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:rites"
+    ],
+    "facts": {
+      "originalId": "L33",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-alteration",
+        "stream:bloom-restoration",
+        "stream:bloom-enchantment",
+        "stream:grave-alteration",
+        "stream:grave-restoration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Control And Regulation",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 3
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L33",
+        "location": "Bloom + Grave: The Living Cycle / Rites / L33"
+      }
+    },
+    "aliases": [
+      "L33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Alteration",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 2 | Enchantment > Alteration > Restoration | Th2 Tu3 Kn4 Sp4 Ho3 Fi3 Ag0 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Guides a devastated province through pioneer life, soil creation, settlement, forest, disturbance, decay, and several possible mature ecologies.",
+      "practice": "Survivors, new inhabitants, species custodians, land users, and future climates control different stages and branching points.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Each recovery state displaces another possibility, donor life is consumed, and institutions form around the planned sequence.",
+      "failure": "The rite makes one climax inevitable, erases adaptations born in ruin, or restarts stages whenever reality diverges.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Invoke a branch, preserve a ruin, introduce novelty, withdraw a stage keeper, or release ordinary succession.",
+      "mastery": "The conductor ends guidance while outcomes remain uncertain, judging surprise as successful recovery rather than loss of control.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 22 | PROOF RECONCILIATION + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l34",
+    "title": "Pilgrimage of Returning Bones",
+    "description": "Carries lawful remains through a moving ecology of memorial trees, scavengers, fungi, flowers, and descendant rituals toward chosen burial or return.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:rites"
+    ],
+    "facts": {
+      "originalId": "L34",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-restoration",
+        "stream:bloom-enchantment",
+        "stream:grave-conjuration",
+        "stream:grave-restoration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Movement And Flow",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 3
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L34",
+        "location": "Bloom + Grave: The Living Cycle / Rites / L34"
+      }
+    },
+    "aliases": [
+      "L34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Conjuration",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Restoration > Conjuration > Enchantment | Th2 Tu3 Kn3 Sp4 Ho3 Fi4 Ag0 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Carries lawful remains through a moving ecology of memorial trees, scavengers, fungi, flowers, and descendant rituals toward chosen burial or return.",
+      "practice": "Families, anonymous dead, hosts, ecologies, evidence, and final destinations retain separate authority.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The route spreads genes and memory, changes land, gives the dead presence, and draws descendants into inherited obligation.",
+      "failure": "Remains are misidentified, pilgrimage becomes territorial claim, or memorial life is treated as reincarnation.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Contest identity, alter destination, invoke anonymous burial, separate the ecology, or release descendants from duty.",
+      "mastery": "Masters preserve uncertainty and let some bones remain unreturned rather than invent belonging.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 22 | PROOF RECONCILIATION + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l35",
+    "title": "Ledger of Every Lineage",
+    "description": "Maps a region's living kinships, extinct branches, diseases, adoptions, ecological descent, and inherited obligations through temporary seed and bone signs.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:rites"
+    ],
+    "facts": {
+      "originalId": "L35",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:bloom-enchantment",
+        "stream:bloom-divination",
+        "stream:grave-enchantment",
+        "stream:grave-divination"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Perception And Memory",
+      "doctrine": "COMPOST LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L35",
+        "location": "Bloom + Grave: The Living Cycle / Rites / L35"
+      }
+    },
+    "aliases": [
+      "L35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 2 | Divination > Enchantment | Th2 Tu2 Kn3 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Maps a region's living kinships, extinct branches, diseases, adoptions, ecological descent, and inherited obligations through temporary seed and bone signs.",
+      "practice": "People control privacy, kinship beyond blood, sacred omission, correction, and whether lineage may influence law.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Observation changes breeding, the dead gain reciprocal claims, and official categories harden around living families.",
+      "failure": "Biology replaces relationship, extinction becomes shame, or the Ledger assigns destiny and property by descent.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Invoke chosen kinship, withdraw a sign, present contradiction, break reciprocity, or reject legal use.",
+      "mastery": "A master protects unrecorded family and refuses to let ancestry become a state-owned route into the future.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 20 | PROOF RECONCILIATION + REDIRECTION | COMPOST LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l36",
+    "title": "Forest That Forgets the Road",
+    "description": "Erases the ecological, material, remembered, and funerary signs of roads, camps, fortifications, and settlements across a valley by returning them to living succession.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:rites"
+    ],
+    "facts": {
+      "originalId": "L36",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:bloom-abjuration",
+        "stream:bloom-veiling",
+        "stream:grave-abjuration",
+        "stream:grave-veiling"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 3
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L36",
+        "location": "Bloom + Grave: The Living Cycle / Rites / L36"
+      }
+    },
+    "aliases": [
+      "L36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Abjuration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Veiling > Abjuration | Th2 Tu2 Kn4 Sp4 Ho3 Fi3 Ag0 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Erases the ecological, material, remembered, and funerary signs of roads, camps, fortifications, and settlements across a valley by returning them to living succession.",
+      "practice": "Local communities preserve graves, rescue, evidence, sacred ruins, and any road they still choose to remember.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "History is composted, wildlife and disease move, and hidden wrongdoing becomes difficult to recover.",
+      "failure": "The forest buries inhabited places, erases ownership and atrocity, or treats human memory as an invasive species.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke a protected trace, reopen a route, burn a corridor, introduce archival evidence, or refuse forgetting.",
+      "mastery": "A master leaves deliberate scars and ruins, allowing life to reclaim land without making reclamation an alibi.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 21 | PROOF RECONCILIATION + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l37",
+    "title": "Rite of Returning Spring",
+    "description": "Restores a region after famine, blight, fire, war, or magical winter through staged seed, decomposers, pollinators, prey, predators, and human livelihood.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:rites"
+    ],
+    "facts": {
+      "originalId": "L37",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-restoration",
+        "stream:grave-conjuration",
+        "stream:grave-restoration"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "BROOD LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L37",
+        "location": "Bloom + Grave: The Living Cycle / Rites / L37"
+      }
+    },
+    "aliases": [
+      "L37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Conjuration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Restoration > Conjuration | Th2 Tu2 Kn4 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Restores a region after famine, blight, fire, war, or magical winter through staged seed, decomposers, pollinators, prey, predators, and human livelihood.",
+      "practice": "Each community defines viable renewal, protected loss, donor limits, new adaptation, and which past must not return.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Donor ecologies are depleted, old diseases and claims reappear, and rapid abundance reshapes politics.",
+      "failure": "The rite restores the cause of collapse, erases scarcity adaptations, or makes survivors guests in a resurrected landscape.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest the reference, protect a ruin, expose donor harm, interrupt a trophic stage, or allow wild succession.",
+      "mastery": "Masters return capacity, not nostalgia, and stop while the region still contains several futures.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 21 | PROOF RECONCILIATION + REDIRECTION | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l38",
+    "title": "Sevenfold Chimera",
+    "description": "Creates seven autonomous composite beings for disease control, pollination, corpse recovery, rescue, soil repair, defence, and their own dissolution.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:rites"
+    ],
+    "facts": {
+      "originalId": "L38",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-alteration",
+        "stream:bloom-enchantment",
+        "stream:grave-conjuration",
+        "stream:grave-alteration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 3
+      },
+      "sourceLoad": 25,
+      "calculatedLoad": 25,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L38",
+        "location": "Bloom + Grave: The Living Cycle / Rites / L38"
+      }
+    },
+    "aliases": [
+      "L38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Conjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 2 | Conjuration > Alteration > Enchantment | Th2 Tu3 Kn3 Sp4 Ho3 Fi3 Ag4 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Creates seven autonomous composite beings for disease control, pollination, corpse recovery, rescue, soil repair, defence, and their own dissolution.",
+      "practice": "Each has distinct remains, appetite, lineage, advocate, forbidden work, territory, and lawful death.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The region reorganises around them, source species lose possibility, and death becomes part of engineered labour.",
+      "failure": "Duties merge, chimeras breed, one consumes another, or dissolution is deferred by permanent emergency.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit charter conflict, alter habitat, invoke forbidden work, separate components, or complete lawful death.",
+      "mastery": "The high practitioner keeps them unequal, sterile or freely mortal, and prepares society to outlive their usefulness.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 25 | PROOF RECONCILIATION + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l39",
+    "title": "City of Seasons",
+    "description": "Binds a city into civic seasons of building, growth, harvest, rest, demolition, compost, mourning, and renewal.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:rites"
+    ],
+    "facts": {
+      "originalId": "L39",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-abjuration",
+        "stream:bloom-enchantment",
+        "stream:grave-conjuration",
+        "stream:grave-abjuration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Infrastructure",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 3
+      },
+      "sourceLoad": 25,
+      "calculatedLoad": 25,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L39",
+        "location": "Bloom + Grave: The Living Cycle / Rites / L39"
+      }
+    },
+    "aliases": [
+      "L39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Conjuration",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Enchantment > Abjuration > Conjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi3 Ag2 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Binds a city into civic seasons of building, growth, harvest, rest, demolition, compost, mourning, and renewal.",
+      "practice": "Districts choose calendars, protected continuity, sacred endings, manual systems, and the right to remain out of phase.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Infrastructure and law become cyclical, material is reused, and citizens inherit disruptions determined by the enchanted calendar.",
+      "failure": "The city destroys what still serves, forces grief on schedule, or makes renewal restore the same hierarchy.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Invoke local phase, protect a structure, interrupt compost, continue a service, or withdraw a district.",
+      "mastery": "A master protects asynchronous life and genuine novelty, allowing the civic cycle itself to end.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 25 | PROOF RECONCILIATION + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l40",
+    "title": "Festival of Ancestors' Bloom",
+    "description": "Causes memorial trees, grave flowers, heirloom seeds, and funerary fungi to express several remembered traits and stories during a provincial festival.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:rites"
+    ],
+    "facts": {
+      "originalId": "L40",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:restoration",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-restoration",
+        "stream:bloom-divination",
+        "stream:grave-conjuration",
+        "stream:grave-restoration",
+        "stream:grave-divination"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 3
+      },
+      "sourceLoad": 25,
+      "calculatedLoad": 25,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L40",
+        "location": "Bloom + Grave: The Living Cycle / Rites / L40"
+      }
+    },
+    "aliases": [
+      "L40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Conjuration",
+      "Restoration",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Conjuration > Divination > Restoration | Th2 Tu3 Kn4 Sp4 Ho3 Fi4 Ag2 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Causes memorial trees, grave flowers, heirloom seeds, and funerary fungi to express several remembered traits and stories during a provincial festival.",
+      "practice": "Families control participation, contradiction, anonymity, cultural form, and the final return to ordinary growth.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The dead gain presence, living expectations shape biology, and inherited claims become emotionally and materially vivid.",
+      "failure": "The festival invents consensus, makes descendants perform ancestry, or produces fertile forms treated as reincarnations.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Withdraw a family, introduce contradiction, sterilise a form, close reciprocity, or end the festival.",
+      "mastery": "Masters let memory bloom differently in different places and return the dead to silence without declaring any version final.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 25 | PROOF RECONCILIATION + REDIRECTION | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l41",
+    "title": "The Green Death",
+    "description": "Releases a nation-scale wave of growth, plague, predation, decomposition, and dormancy against an invading empire, unnatural horde, or existential blight.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:wonders"
+    ],
+    "facts": {
+      "originalId": "L41",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:bloom-abjuration",
+        "stream:bloom-alteration",
+        "stream:bloom-evocation",
+        "stream:grave-abjuration",
+        "stream:grave-alteration",
+        "stream:grave-evocation"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Direct Intervention",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 4
+      },
+      "sourceLoad": 23,
+      "calculatedLoad": 23,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L41",
+        "location": "Bloom + Grave: The Living Cycle / Wonders / L41"
+      }
+    },
+    "aliases": [
+      "L41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Abjuration",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 2 | Evocation > Alteration > Abjuration | Th2 Tu3 Kn3 Sp4 Ho2 Fi4 Ag1 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Releases a nation-scale wave of growth, plague, predation, decomposition, and dormancy against an invading empire, unnatural horde, or existential blight.",
+      "practice": "Target peoples, civilians, allies, species, crops, waters, retreat, antidote, and future restoration hold independent vetoes.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Evolution and extinction accelerate, soils and climates change, diseases gain reservoirs, and national identity becomes biological warfare.",
+      "failure": "The Wonder defines ancestry as enemy, feeds upon peace, crosses borders, or cycles forever between outbreak and regrowth.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Change target relation, break conductors, isolate reservoirs, invoke retreat, release antidote, or open the system to foreign ecology.",
+      "mastery": "Sovereign mastery is refusing the weapon, or ending it before victory, accepting conquest rather than teaching life and death a permanent national enemy.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 23 | PROOF RECONCILIATION + UNWEAVING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l42",
+    "title": "Realm That Heals by Dying",
+    "description": "Allows a nation to recover from plague, war, ecological collapse, or magical corruption through planned endings, decomposition, preserved refuges, and diverse renewal.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:wonders"
+    ],
+    "facts": {
+      "originalId": "L42",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:abjuration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-abjuration",
+        "stream:bloom-restoration",
+        "stream:grave-conjuration",
+        "stream:grave-abjuration",
+        "stream:grave-restoration"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Protection And Repair",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 4
+      },
+      "sourceLoad": 27,
+      "calculatedLoad": 27,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L42",
+        "location": "Bloom + Grave: The Living Cycle / Wonders / L42"
+      }
+    },
+    "aliases": [
+      "L42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Conjuration",
+      "Abjuration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Restoration > Abjuration > Conjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag2 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Allows a nation to recover from plague, war, ecological collapse, or magical corruption through planned endings, decomposition, preserved refuges, and diverse renewal.",
+      "practice": "Regions define what may die, what must persist, what can return, who bears loss, and which new adaptations have standing.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Institutions, landscapes, and species are sacrificed; donor life is consumed; grief and fertility become national resources.",
+      "failure": "The state declares inconvenient people obsolete, restoration repeats the old order, or necessary death becomes a civic virtue.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke protected continuity, contest sacrifice, expose unequal burden, preserve a ruin, or allow unplanned recovery.",
+      "mastery": "A master keeps endings voluntary where possible and judges renewal by expanded choice, not by how elegantly the nation consumes its wounds.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 27 | PROOF RECONCILIATION + UNWEAVING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l43",
+    "title": "Covenant of Succession",
+    "description": "Establishes national rules by which farms, forests, cities, institutions, species, offices, and cultural forms may mature, decline, end, and yield space.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:wonders"
+    ],
+    "facts": {
+      "originalId": "L43",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-abjuration",
+        "stream:bloom-alteration",
+        "stream:bloom-enchantment",
+        "stream:grave-abjuration",
+        "stream:grave-alteration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Control And Regulation",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 4
+      },
+      "sourceLoad": 28,
+      "calculatedLoad": 28,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L43",
+        "location": "Bloom + Grave: The Living Cycle / Wonders / L43"
+      }
+    },
+    "aliases": [
+      "L43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Abjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Enchantment > Alteration > Abjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag3 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Establishes national rules by which farms, forests, cities, institutions, species, offices, and cultural forms may mature, decline, end, and yield space.",
+      "practice": "Every succession protects dependants, dissent, unexpected renewal, local calendars, evidence, and the right not to be declared obsolete.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Change gains legitimacy but also bureaucracy; endings accumulate claims, and planned successors gain unfair physical advantage.",
+      "failure": "The Covenant turns history into schedule, eliminates wild succession, or lets rulers label opponents a dead stage.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Invoke protected continuity, present novelty, refuse the successor, contest the stage, or end the Covenant locally.",
+      "mastery": "Sovereign mastery keeps succession descriptive and revisable, never allowing the cycle to decide who deserves a future.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 28 | PROOF RECONCILIATION + UNWEAVING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l44",
+    "title": "Roads of Migration and Return",
+    "description": "Creates national living corridors for seasonal migration, refugee passage, funerary return, animal movement, seed, food, and eventual homecoming.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:wonders"
+    ],
+    "facts": {
+      "originalId": "L44",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-alteration",
+        "stream:bloom-enchantment",
+        "stream:grave-conjuration",
+        "stream:grave-alteration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Movement And Flow",
+      "doctrine": "BROOD LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 3
+      },
+      "sourceLoad": 27,
+      "calculatedLoad": 27,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L44",
+        "location": "Bloom + Grave: The Living Cycle / Wonders / L44"
+      }
+    },
+    "aliases": [
+      "L44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Conjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 1 | Alteration > Conjuration > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag3 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates national living corridors for seasonal migration, refugee passage, funerary return, animal movement, seed, food, and eventual homecoming.",
+      "practice": "Hosts, travellers, descendants, ecosystems, quarantine, burial, settlement, and return rights share authority.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Routes spread genes, disease, grief, trade, and territorial claims while drawing nutrients from their margins.",
+      "failure": "Return becomes compulsory, migration is engineered for labour, roads consume graves, or hosts lose control of living infrastructure.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Revoke passage, invoke burial, alter season, quarantine a route, settle consensually, or let a corridor die.",
+      "mastery": "Masters protect the right not to return and keep ordinary paths open for journeys that should not become national biology.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 27 | PROOF RECONCILIATION + UNWEAVING | BROOD LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l45",
+    "title": "Memory in Every Seed",
+    "description": "Makes the nation's crops, forests, heirloom plants, fungi, and memorial gardens carry accessible fragments of ecological and human history.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:wonders"
+    ],
+    "facts": {
+      "originalId": "L45",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-enchantment",
+        "stream:bloom-divination",
+        "stream:grave-conjuration",
+        "stream:grave-enchantment",
+        "stream:grave-divination"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Perception And Memory",
+      "doctrine": "COMPOST LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 3
+      },
+      "sourceLoad": 27,
+      "calculatedLoad": 27,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L45",
+        "location": "Bloom + Grave: The Living Cycle / Wonders / L45"
+      }
+    },
+    "aliases": [
+      "L45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Conjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 2 | Divination > Enchantment > Conjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag3 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes the nation's crops, forests, heirloom plants, fungi, and memorial gardens carry accessible fragments of ecological and human history.",
+      "practice": "Communities control access, sacred omission, contradiction, biological hazard, expiry, and whether memory may reproduce.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The past becomes fertile, observers influence traits, ancestral claims enter food and land, and hidden disease can return.",
+      "failure": "Official history is bred into staples, children inherit compulsory memory, or seeds become legal ancestors.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Invoke omission, sterilise a memory line, introduce contradiction, break reciprocity, or grow unenchanted seed.",
+      "mastery": "A master protects ordinary biology and forgetting, ensuring memory can be learned without making every harvest an inheritance claim.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 27 | PROOF RECONCILIATION + UNWEAVING | COMPOST LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l46",
+    "title": "The Forgotten Wilderness",
+    "description": "Returns selected lands to wild succession while excluding roads, extraction, mapped ownership, military observation, and institutional memory from finding them easily.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:wonders"
+    ],
+    "facts": {
+      "originalId": "L46",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:abjuration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-abjuration",
+        "stream:bloom-veiling",
+        "stream:grave-conjuration",
+        "stream:grave-abjuration",
+        "stream:grave-veiling"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 4
+      },
+      "sourceLoad": 28,
+      "calculatedLoad": 28,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L46",
+        "location": "Bloom + Grave: The Living Cycle / Wonders / L46"
+      }
+    },
+    "aliases": [
+      "L46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Conjuration",
+      "Abjuration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Veiling > Abjuration > Conjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag3 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Returns selected lands to wild succession while excluding roads, extraction, mapped ownership, military observation, and institutional memory from finding them easily.",
+      "practice": "Indigenous and local communities retain relation, access, history, rescue, and the right to refuse imposed wilderness.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The nation loses knowledge and resources, hidden harm may persist, and the land gains ecological autonomy through civic omission.",
+      "failure": "People are erased with infrastructure, atrocity is buried, or rulers create wilderness by expelling the poor.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke local relation, restore evidence, reopen a path, introduce lawful memory, or reveal the land's ongoing inhabitants.",
+      "mastery": "Sovereign mastery protects inhabited wildness and leaves enough record for justice, never making forgetting the price of nature.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 28 | PROOF RECONCILIATION + UNWEAVING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l47",
+    "title": "Resurrection of a Country",
+    "description": "Returns a destroyed or dispersed nation toward viable peoplehood through land recovery, language, institutions, ancestry, food, ritual, and new living adaptation.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:wonders"
+    ],
+    "facts": {
+      "originalId": "L47",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-alteration",
+        "stream:bloom-restoration",
+        "stream:grave-conjuration",
+        "stream:grave-alteration",
+        "stream:grave-restoration"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L47",
+        "location": "Bloom + Grave: The Living Cycle / Wonders / L47"
+      }
+    },
+    "aliases": [
+      "L47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Conjuration",
+      "Alteration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Restoration > Conjuration > Alteration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Returns a destroyed or dispersed nation toward viable peoplehood through land recovery, language, institutions, ancestry, food, ritual, and new living adaptation.",
+      "practice": "Survivors, descendants, present inhabitants, neighbours, the anonymous dead, and future citizens hold separate definitions of return.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Old claims and diseases reappear, present lives are displaced, donor fertility is consumed, and national identity becomes biologically potent.",
+      "failure": "The Wonder recreates the regime that caused ruin, treats descendants as copies, or expels current inhabitants to restore a sacred picture.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest the reference nation, invoke present rights, preserve ruins, introduce new citizenship, or refuse ancestral form.",
+      "mastery": "A master resurrects capacity for self-definition, not a corpse of history, and accepts a country that returns unrecognisable.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l48",
+    "title": "Parliament of the Living and Dead",
+    "description": "Creates a national assembly of living communities, species, ancestors, extinct lineages, future generations, and ecological successors through bounded representatives.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:wonders"
+    ],
+    "facts": {
+      "originalId": "L48",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-enchantment",
+        "stream:bloom-divination",
+        "stream:grave-conjuration",
+        "stream:grave-enchantment",
+        "stream:grave-divination"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L48",
+        "location": "Bloom + Grave: The Living Cycle / Wonders / L48"
+      }
+    },
+    "aliases": [
+      "L48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Conjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Conjuration > Divination > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a national assembly of living communities, species, ancestors, extinct lineages, future generations, and ecological successors through bounded representatives.",
+      "practice": "No representative may claim a whole category; silence, contradiction, expiry, and the living veto over coercive dead claims are constitutional.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Politics becomes biologically and ancestrally entangled, representation changes evolution, and the dead gain durable presence.",
+      "failure": "Ancestors rule descendants, charismatic species dominate, future people are invented, or institutions breed agreeable representatives.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Challenge a seat, invoke silence, expose change, dissolve a representative, or refuse translation.",
+      "mastery": "A master protects the unrepresented and keeps every voice advisory enough that life remains free to surprise government.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l49",
+    "title": "The Great Cycle Engine",
+    "description": "Links national food, waste, burial, soil, forestry, urban renewal, disease control, and ecological restoration into one vast circulation of matter and ending.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:wonders"
+    ],
+    "facts": {
+      "originalId": "L49",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:bloom-abjuration",
+        "stream:bloom-alteration",
+        "stream:bloom-restoration",
+        "stream:bloom-enchantment",
+        "stream:grave-abjuration",
+        "stream:grave-alteration",
+        "stream:grave-restoration",
+        "stream:grave-enchantment"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Infrastructure",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 4,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 30,
+      "calculatedLoad": 30,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L49",
+        "location": "Bloom + Grave: The Living Cycle / Wonders / L49"
+      }
+    },
+    "aliases": [
+      "L49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Abjuration",
+      "Alteration",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 + Grave 1 | Enchantment > Alteration > Restoration > Abjuration | Th2 Tu4 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Links national food, waste, burial, soil, forestry, urban renewal, disease control, and ecological restoration into one vast circulation of matter and ending.",
+      "practice": "Regions retain isolation, sacred remains, manual alternatives, ecological limits, refusal, and authority to waste rather than recycle.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Efficiency becomes dependency, disease and policy travel, local difference shrinks, and people risk being treated as material flows.",
+      "failure": "The Engine consumes what society still values, makes poverty into feedstock, or restores the same hierarchy each cycle.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Invoke isolation, protect waste, break a flow, introduce novelty, preserve a ruin, or withdraw regional consent.",
+      "mastery": "Sovereign mastery keeps loss, gift, excess, and irreversibility outside the machine, accepting waste so the nation never becomes perfectly edible.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 30 | PROOF RECONCILIATION + UNWEAVING | SUCCESSION LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-grave-living-cycle:l50",
+    "title": "The Wheel That Turns Once",
+    "description": "Allows a nation, ecosystem, or civilisation to pass through one sovereign death and rebirth, ending an age and releasing an unprecedented living order from its remains.",
+    "parentGroupIds": [
+      "shelf:bloom-grave-living-cycle:wonders"
+    ],
+    "facts": {
+      "originalId": "L50",
+      "collectionId": "collection:bloom-grave-living-cycle",
+      "collectionTitle": "Bloom + Grave: The Living Cycle",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:bloom",
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:restoration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration",
+        "stream:bloom-restoration",
+        "stream:bloom-evocation",
+        "stream:grave-conjuration",
+        "stream:grave-restoration",
+        "stream:grave-evocation"
+      ],
+      "compositeId": "composite:bloom-grave",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SUCCESSION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-grave-living-cycle",
+        "originalId": "L50",
+        "location": "Bloom + Grave: The Living Cycle / Wonders / L50"
+      }
+    },
+    "aliases": [
+      "L50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Conjuration",
+      "Restoration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 + Grave 2 | Restoration > Evocation > Conjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Allows a nation, ecosystem, or civilisation to pass through one sovereign death and rebirth, ending an age and releasing an unprecedented living order from its remains.",
+      "practice": "No conductor controls both ending and return; survivors, the dead, neighbours, dissenters, and unknown future life hold independent vetoes and refuges.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Identity, climate, species, law, memory, and fertility are rewritten; what returns may not recognise what paid for it.",
+      "failure": "The Wheel repeats, resurrects an idealised past, consumes protected survivors, or makes novelty into a destiny no living person chose.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Break either half of the rite, preserve an untaken refuge, contest continuity, deny the return name, or let the age end without rebirth.",
+      "mastery": "The supreme practitioner keeps the Wheel capable of stopping after death, accepts a future without the old nation's name, and never turns twice.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | SUCCESSION LENS"
+    }
+  }
+]

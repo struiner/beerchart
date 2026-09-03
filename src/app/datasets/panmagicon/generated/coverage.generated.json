@@ -1,0 +1,33 @@
+{
+  "aspects": 8,
+  "schools": 8,
+  "streams": {
+    "total": 64,
+    "authored": 8,
+    "defined": 56
+  },
+  "composites": {
+    "authored": 4,
+    "possiblePairs": 28
+  },
+  "collections": {
+    "authored": 12,
+    "plannedTotal": 92
+  },
+  "spells": {
+    "authored": 600,
+    "planned": 4600,
+    "percent": 13.04
+  },
+  "shelves": {
+    "Lessons": 120,
+    "Practical Workings": 120,
+    "Expert Formulae": 120,
+    "Rites": 120,
+    "Wonders": 120
+  },
+  "load": {
+    "min": 4,
+    "max": 30
+  }
+}

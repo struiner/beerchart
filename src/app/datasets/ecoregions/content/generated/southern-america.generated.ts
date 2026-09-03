@@ -650,5 +650,87 @@ export const contentBundle = {
         }
       ]
     }
-  }
+  },
+  "relatedEntities": [
+    {
+      "id": "species:red-mangrove",
+      "title": "Red mangrove",
+      "description": "Rhizophora mangle",
+      "linkedEntryIds": [
+        "ecoregion:615",
+        "ecoregion:612",
+        "ecoregion:614"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:black-mangrove",
+      "title": "Black mangrove",
+      "description": "Avicennia germinans",
+      "linkedEntryIds": [
+        "ecoregion:615",
+        "ecoregion:612",
+        "ecoregion:614"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:white-mangrove",
+      "title": "White mangrove",
+      "description": "Laguncularia racemosa",
+      "linkedEntryIds": [
+        "ecoregion:615",
+        "ecoregion:612",
+        "ecoregion:614"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:button-mangrove",
+      "title": "Button mangrove",
+      "description": "Conocarpus erectus",
+      "linkedEntryIds": [
+        "ecoregion:615",
+        "ecoregion:612",
+        "ecoregion:614"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:mangrove-warbler",
+      "title": "Mangrove warbler",
+      "description": "Setophaga petechia erithachorides",
+      "linkedEntryIds": [
+        "ecoregion:615"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:american-crocodile",
+      "title": "American crocodile",
+      "description": "Crocodylus acutus",
+      "linkedEntryIds": [
+        "ecoregion:615"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "country:EC",
+      "title": "Ecuador",
+      "description": "ISO 3166-1 alpha-2: EC",
+      "linkedEntryIds": [
+        "ecoregion:615"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "country:PE",
+      "title": "Peru",
+      "description": "ISO 3166-1 alpha-2: PE",
+      "linkedEntryIds": [
+        "ecoregion:615"
+      ],
+      "linkedGroupIds": []
+    }
+  ]
 } as const satisfies TaxonomyContentBundle;

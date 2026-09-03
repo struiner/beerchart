@@ -140,7 +140,18 @@ export function composeTaxonomyProfile<
     const entry = input.indexes.entryById.get(id);
     return entry ? [item(entry)] : [];
   });
+  const groups = (input.indexes.groupIdsByRelatedEntityId.get(related.id) ?? []).flatMap((id) => {
+    const group = input.indexes.groupById.get(id);
+    return group ? [{ id: group.id, title: group.title, description: group.description }] : [];
+  });
   const sections: ProfileSectionViewModel[] = [
+    {
+      kind: 'entity-list',
+      id: 'groups',
+      title: input.module.vocabulary.groupPlural,
+      entityKind: 'group',
+      items: groups,
+    },
     {
       kind: 'entity-list',
       id: 'entries',

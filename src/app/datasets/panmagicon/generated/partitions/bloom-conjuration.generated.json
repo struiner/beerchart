@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "spell:bloom-conjuration:b01",
+    "title": "Thorn Flick",
+    "description": "Calls a single thorn from available plant matter and snaps it toward a nearby hand, rope, fruit, or paper target.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "B01",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "FANG LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 4,
+      "calculatedLoad": 4,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B01",
+        "location": "Bloom Conjuration / Lessons / B01"
+      }
+    },
+    "aliases": [
+      "B01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 | Conjuration | Th1 Tu1 Kn0 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Calls a single thorn from available plant matter and snaps it toward a nearby hand, rope, fruit, or paper target.",
+      "practice": "Hold a live seed between two fingers, name a clear backstop, and leave the seed unbroken until release.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The seed loses one possible shoot, nearby leaves pale slightly, and the thorn remains fertile enough to root in damp soil.",
+      "failure": "The thorn branches in flight, takes softness for living tissue, or draws too much growth from the nearest plant.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Cover the target, remove living source material, catch the thorn in dry wool, or offer a richer patch of soil.",
+      "mastery": "A master spends sharpness and range before aim, and can return the unused possibility to the seed when the target changes.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 4 | PROOF HEARING + HOLDING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b02",
+    "title": "Leafskin Ward",
+    "description": "Grows a palm-wide layer of overlapping leaves that softens one blow, hot surface, scrape, or brief exposure.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "B02",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "GROVE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B02",
+        "location": "Bloom Conjuration / Lessons / B02"
+      }
+    },
+    "aliases": [
+      "B02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 | Conjuration | Th1 Tu1 Kn1 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Grows a palm-wide layer of overlapping leaves that softens one blow, hot surface, scrape, or brief exposure.",
+      "practice": "Press a fresh leaf to the protected place and name what must remain uncovered for breath, sight, or movement.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Moisture and nutrients are drawn from nearby growth, while the ward attracts insects and begins rooting if held too long.",
+      "failure": "Leaves cover a needed opening, thicken against harmless contact, or carry rash and pests from their source.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Dry the ward, salt its edge, remove the source leaf, or attack with a condition it was not taught.",
+      "mastery": "An expert keeps the ward porous and lets it shed leaf by leaf before protection becomes a living restraint.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 5 | PROOF HEARING + HOLDING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b03",
+    "title": "Gardener's Measure",
+    "description": "Summons three indicator sprouts whose colour and posture show whether light, water, nutrients, or crowding most limits a small growing space.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "B03",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "GROVE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B03",
+        "location": "Bloom Conjuration / Lessons / B03"
+      }
+    },
+    "aliases": [
+      "B03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 | Conjuration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Summons three indicator sprouts whose colour and posture show whether light, water, nutrients, or crowding most limits a small growing space.",
+      "practice": "Plant equal seeds in local soil and ask only one comparative question before they emerge.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The sprouts consume real fertility and bias the bed toward the condition they display.",
+      "failure": "A diseased seed becomes the standard, the sprouts compete with the crop, or several limitations are flattened into one answer.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Remove one seed, change the soil after planting, add a stronger limiting factor, or compare with an unenchanted bed.",
+      "mastery": "A master reads disagreement among the sprouts and composts them before the diagnosis becomes part of the problem.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 6 | PROOF HEARING + HOLDING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b04",
+    "title": "Vine Step",
+    "description": "Calls a loop of vine beneath one foot to lift, steady, or pull a traveller across a small gap or up one ledge.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "B04",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "FANG LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B04",
+        "location": "Bloom Conjuration / Lessons / B04"
+      }
+    },
+    "aliases": [
+      "B04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 | Conjuration | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Calls a loop of vine beneath one foot to lift, steady, or pull a traveller across a small gap or up one ledge.",
+      "practice": "Place a seed or cutting at both ends and declare which anchor may tear free first.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The cuttings spend stored growth, the surface is punctured by roots, and the vine continues tightening toward light.",
+      "failure": "The wrong anchor grows stronger, the loop catches an ally, or the vine climbs after the traveller instead of releasing.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Cut the weaker anchor, darken the landing, salt the roots, or change the traveller's weight.",
+      "mastery": "A master lets distance fail before grip and severs the vine while it is still a tool rather than a hungry bridge.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 5 | PROOF HEARING + HOLDING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b05",
+    "title": "Pollen Witness",
+    "description": "Calls a dusting of bright pollen onto places recently touched by warm living skin within a small room.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "B05",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "SPRING LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B05",
+        "location": "Bloom Conjuration / Lessons / B05"
+      }
+    },
+    "aliases": [
+      "B05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 | Conjuration | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Calls a dusting of bright pollen onto places recently touched by warm living skin within a small room.",
+      "practice": "Open one flowering bud and keep the caster's hands wrapped until the reading is complete.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The bud is rendered temporarily sterile, every marked surface gains viable pollen, and the observer becomes the brightest trace.",
+      "failure": "Heat, pets, insects, and old touch overlap; the pollen roots in damp material or reveals private innocent contact.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Wash surfaces, seed false warmth, remove the bud, or follow the caster's brighter trace.",
+      "mastery": "A master limits the question by time and surface, then destroys surplus pollen before evidence becomes invasion.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 5 | PROOF HEARING + HOLDING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b06",
+    "title": "Mosscloak",
+    "description": "Covers a still hand-sized object in local moss, lichen, bark, or leaf litter so it belongs visually to its surroundings.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "B06",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SPRING LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B06",
+        "location": "Bloom Conjuration / Lessons / B06"
+      }
+    },
+    "aliases": [
+      "B06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 | Conjuration | Th1 Tu1 Kn0 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Covers a still hand-sized object in local moss, lichen, bark, or leaf litter so it belongs visually to its surroundings.",
+      "practice": "Touch the object to three nearby living textures and preserve one uncovered retrieval mark.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The disguise consumes surface moisture, carries spores, and begins treating the object as habitat.",
+      "failure": "Growth covers the retrieval mark, roots into a mechanism, or attracts the animals that feed upon it.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Move the object, dry it, expose it to unfamiliar light, or follow insects gathering at the false habitat.",
+      "mastery": "A master keeps growth shallow and sterile, accepting visible edges before concealment becomes colonisation.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 5 | PROOF HEARING + HOLDING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b07",
+    "title": "Poultice Sprout",
+    "description": "Calls a medicinal shoot whose sap cools a burn, slows bleeding, or draws minor irritation from one small wound.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "B07",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "GROVE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B07",
+        "location": "Bloom Conjuration / Lessons / B07"
+      }
+    },
+    "aliases": [
+      "B07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 | Conjuration | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Calls a medicinal shoot whose sap cools a burn, slows bleeding, or draws minor irritation from one small wound.",
+      "practice": "Plant a seed in clean cloth moistened by the patient and name the symptom, not the disease.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The shoot consumes nutrients from seed and patient, carries the patient's scent, and wilts into biologically active waste.",
+      "failure": "It masks a deep injury, draws healthy inflammation, or roots into damaged tissue.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Remove the cloth, dry the seed, change the named symptom, or apply a stronger competing medicine.",
+      "mastery": "A master stops when information improves rather than when pain vanishes, preserving the body's warning and choice.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 6 | PROOF HEARING + HOLDING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b08",
+    "title": "Seedling Familiar",
+    "description": "Calls a tiny mobile sprout that follows light, warmth, or one familiar scent and taps when it reaches the chosen source.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "B08",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "FANG LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B08",
+        "location": "Bloom Conjuration / Lessons / B08"
+      }
+    },
+    "aliases": [
+      "B08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 | Conjuration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag1 Co0 | Carrier: personal or supervised.",
+      "purpose": "Calls a tiny mobile sprout that follows light, warmth, or one familiar scent and taps when it reaches the chosen source.",
+      "practice": "Grow it from a seed handled by the target and give it one path condition and one return condition.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The seedling borrows moisture and trace fertility along its route, leaving a thread of rootlets behind.",
+      "failure": "It follows a stronger similar scent, roots instead of returning, or interprets the caster as its preferred warmth.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Change the light, mask the scent, cut the root thread, or offer rich soil.",
+      "mastery": "A master grants one uncertainty response such as stop and flower, then dismisses it before simple preference becomes attachment.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 7 | PROOF HEARING + HOLDING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b09",
+    "title": "Kitchen Plot",
+    "description": "Produces a brief flush of edible herbs, sprouts, or mushrooms from a prepared box sufficient to season or supplement one meal.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "B09",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "GROVE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B09",
+        "location": "Bloom Conjuration / Lessons / B09"
+      }
+    },
+    "aliases": [
+      "B09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 | Conjuration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Produces a brief flush of edible herbs, sprouts, or mushrooms from a prepared box sufficient to season or supplement one meal.",
+      "practice": "Fill the box with honest compost, clean water, and a seed share from the intended diners.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Fertility is consumed rapidly, nearby stored produce ages, and leftovers remain capable of spreading.",
+      "failure": "The plot amplifies an allergen, exhausts the box into sterile fibre, or draws nutrients from the diners rather than the compost.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Remove the seed share, salt the box, change the requested crop, or introduce competing decomposers.",
+      "mastery": "A master conjures variety and restraint, leaving the box more fertile than a novice's abundant harvest would.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 6 | PROOF HEARING + HOLDING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b10",
+    "title": "Garland of Welcome",
+    "description": "Grows a small garland whose flowers open differently for a guest, returning friend, grieving visitor, or stranger seeking shelter.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "B10",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SPRING LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B10",
+        "location": "Bloom Conjuration / Lessons / B10"
+      }
+    },
+    "aliases": [
+      "B10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 1 | Conjuration | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Grows a small garland whose flowers open differently for a guest, returning friend, grieving visitor, or stranger seeking shelter.",
+      "practice": "Hosts declare categories aloud and leave one unclassified bud for people who fit none of them.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The doorway gains scent and pollen, social expectations become visible, and the garland consumes a season's bloom from its cuttings.",
+      "failure": "The categories shame complexity, the garland responds to reputation instead of need, or the unclassified bud is treated as suspicion.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Enter without crossing the threshold, change the cuttings, refuse the categories, or carry a stronger floral identity.",
+      "mastery": "A master lets every flower remain partly closed and treats the garland as hospitality, never as judgment.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 6 | PROOF HEARING + HOLDING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b11",
+    "title": "Briar Volley",
+    "description": "Calls a fan of living briars across several paces to mark, entangle, sting, or drive back a rank without sustaining a permanent thicket.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "B11",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "FANG LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 2,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B11",
+        "location": "Bloom Conjuration / Practical Workings / B11"
+      }
+    },
+    "aliases": [
+      "B11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 | Conjuration | Th1 Tu1 Kn0 Sp2 Ho0 Fi2 Ag1 Co0 | Carrier: personal with a focus.",
+      "purpose": "Calls a fan of living briars across several paces to mark, entangle, sting, or drive back a rank without sustaining a permanent thicket.",
+      "practice": "Bury three root bundles behind the caster and designate a clear decay strip beyond the target line.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The bundles lose future growth, soil fertility shifts toward the briars, and broken thorns may establish aggressive colonies.",
+      "failure": "The fan roots around allies, selects warmth over allegiance, or remains alive beyond the decay strip.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Burn or salt a root bundle, raise a hard floor, cut the decay strip, or lure growth toward richer soil.",
+      "mastery": "Experts shed thorn and density before aim, leaving an escapable hedge rather than preserving battlefield perfection.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 7 | PROOF HOLDING + TURNING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b12",
+    "title": "Sheltergrove",
+    "description": "Raises a temporary grove that provides shade, windbreak, concealment, edible leaves, and living cover for a camp or worksite.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "B12",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "GROVE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B12",
+        "location": "Bloom Conjuration / Practical Workings / B12"
+      }
+    },
+    "aliases": [
+      "B12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 | Conjuration | Th1 Tu1 Kn1 Sp2 Ho1 Fi2 Ag1 Co0 | Carrier: personal with a focus.",
+      "purpose": "Raises a temporary grove that provides shade, windbreak, concealment, edible leaves, and living cover for a camp or worksite.",
+      "practice": "Map fire lanes, roots, water, exits, and the date of dismantling before planting the central pole.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The grove draws water and nutrients from surrounding land, attracts wildlife, and changes local humidity and disease pressure.",
+      "failure": "Roots enter foundations, shelter becomes tinder, or the grove refuses dismantling because inhabitants treat it as home.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Remove the central pole, cut water, introduce grazing, or invoke the declared dismantling date.",
+      "mastery": "A master designs succession and departure from the beginning, leaving soil and habitat rather than a dead green shell.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 9 | PROOF HOLDING + TURNING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b13",
+    "title": "Grazing Covenant",
+    "description": "Calls a balanced mix of forage, thorn, scent, and minor grazing life to regulate a pasture, verge, orchard, or firebreak.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "B13",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "GROVE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B13",
+        "location": "Bloom Conjuration / Practical Workings / B13"
+      }
+    },
+    "aliases": [
+      "B13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 | Conjuration | Th1 Tu1 Kn2 Sp2 Ho1 Fi2 Ag1 Co0 | Carrier: personal with a focus.",
+      "purpose": "Calls a balanced mix of forage, thorn, scent, and minor grazing life to regulate a pasture, verge, orchard, or firebreak.",
+      "practice": "Separate crop, wild margin, water, and resting ground into visible plots with local keepers.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Nutrients move between plots, new competitors arrive, and the covenant develops seasonal appetite.",
+      "failure": "One useful species dominates, grazing crosses into crops, or the system treats fences as ecological wounds to be healed over.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Change a plot, remove a keeper, introduce a new herbivore, or interrupt one breeding cycle.",
+      "mastery": "Masters preserve disturbance and empty niches, accepting untidy ground rather than enchanting one ideal balance.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 10 | PROOF HOLDING + TURNING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b14",
+    "title": "Rootway Ferry",
+    "description": "Grows a sequence of roots, pads, and hanging vines that carries a group across marsh, rubble, steep ground, or shallow water.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "B14",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "FANG LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B14",
+        "location": "Bloom Conjuration / Practical Workings / B14"
+      }
+    },
+    "aliases": [
+      "B14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 | Conjuration | Th1 Tu1 Kn1 Sp2 Ho1 Fi3 Ag1 Co0 | Carrier: personal with a focus.",
+      "purpose": "Grows a sequence of roots, pads, and hanging vines that carries a group across marsh, rubble, steep ground, or shallow water.",
+      "practice": "Route tenders mark load bands, resting nodes, escape sides, and where the living causeway may take nutrients.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The route alters drainage, compacts habitat, and spreads propagules between its endpoints.",
+      "failure": "It grows toward better soil, carries disease, or closes around travellers when formation changes.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Salt a node, change load, cut the nutrient route, or lure the growth toward a brighter destination.",
+      "mastery": "A master slows and divides the ferry before steering fails, and uproots the route when convenience begins becoming habitat conquest.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 10 | PROOF HOLDING + TURNING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b15",
+    "title": "Orchard Oracle",
+    "description": "Calls diagnostic blossoms whose scent and fruiting pattern reveal stress, disease, pollination gaps, and hidden competition across a farm or garden.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "B15",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "SPRING LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B15",
+        "location": "Bloom Conjuration / Practical Workings / B15"
+      }
+    },
+    "aliases": [
+      "B15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 | Conjuration | Th1 Tu1 Kn1 Sp2 Ho1 Fi3 Ag1 Co0 | Carrier: personal with a focus.",
+      "purpose": "Calls diagnostic blossoms whose scent and fruiting pattern reveal stress, disease, pollination gaps, and hidden competition across a farm or garden.",
+      "practice": "Graft one neutral branch into each major plot and keep observations separate from expected yield.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The oracle consumes reproductive potential, attracts pollinators away from crops, and makes local weakness visible to pests.",
+      "failure": "It predicts what growers hope to see, confuses drought with disease, or spreads the very pathogen it displays.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Remove a branch, mask scent, introduce false pollen, or compare with unmanaged plots.",
+      "mastery": "An expert publishes uncertainty and destroys diagnostic fruit before knowledge becomes a new vector of harm.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 10 | PROOF HOLDING + TURNING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b16",
+    "title": "Green Absence",
+    "description": "Grows a moving corridor of ordinary leaves, insects, shade, and scent through which a party can pass without appearing ecologically foreign.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "B16",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SPRING LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B16",
+        "location": "Bloom Conjuration / Practical Workings / B16"
+      }
+    },
+    "aliases": [
+      "B16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 | Conjuration | Th1 Tu1 Kn2 Sp2 Ho1 Fi2 Ag1 Co0 | Carrier: personal with a focus.",
+      "purpose": "Grows a moving corridor of ordinary leaves, insects, shade, and scent through which a party can pass without appearing ecologically foreign.",
+      "practice": "Use local seed, preserve a rescue scent, and declare which warning species must still notice the travellers.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The corridor consumes habitat, displaces small life to its edges, and hides allies from ordinary search and care.",
+      "failure": "Growth covers the rescue scent, invasive seed escapes, or perfect belonging attracts predators and pollinators.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Change season, introduce a nonlocal grazer, follow displaced edge life, or invoke the warning species.",
+      "mastery": "A master accepts partial exposure before concealment erases warning, retrieval, or ecological consent.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 10 | PROOF HOLDING + TURNING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b17",
+    "title": "Field Hospital Bloom",
+    "description": "Raises a bounded garden of coagulant moss, cooling leaves, antiseptic sap, food shoots, and calming scent for many casualties.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "B17",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "GROVE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B17",
+        "location": "Bloom Conjuration / Practical Workings / B17"
+      }
+    },
+    "aliases": [
+      "B17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 | Conjuration | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag1 Co0 | Carrier: personal with a focus.",
+      "purpose": "Raises a bounded garden of coagulant moss, cooling leaves, antiseptic sap, food shoots, and calming scent for many casualties.",
+      "practice": "Healers keep treatment beds separate by need, allergy, contamination, and consent; waste plots lie downwind.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The garden consumes soil and water, exchanges microbes among patients, and develops appetite for bodily residue.",
+      "failure": "Relief hides deterioration, one remedy spreads to incompatible bodies, or the garden begins rooting into wounds.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Isolate a bed, cut the waste plot, dry the central roots, or introduce conventional treatment outside the Pattern.",
+      "mastery": "Masters keep diagnosis human, preserve pain as information, and close abundant growth before dependency or cross-infection takes hold.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 11 | PROOF HOLDING + TURNING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b18",
+    "title": "Pollinator Choir",
+    "description": "Calls a mixed swarm of bees, moths, flies, birds, and tiny spirits to pollinate a mapped set of crops and wild plants.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "B18",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "FANG LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B18",
+        "location": "Bloom Conjuration / Practical Workings / B18"
+      }
+    },
+    "aliases": [
+      "B18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 | Conjuration | Th1 Tu1 Kn1 Sp2 Ho1 Fi2 Ag3 Co0 | Carrier: personal with a focus.",
+      "purpose": "Calls a mixed swarm of bees, moths, flies, birds, and tiny spirits to pollinate a mapped set of crops and wild plants.",
+      "practice": "Each species receives distinct forage, nesting, rest, and exclusion zones rather than one command.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Pollination is displaced from neighbouring land, pollen crosses boundaries, and the summoned lives establish preferences.",
+      "failure": "The choir favours one profitable crop, spreads disease, or remains after flowering because nesting succeeded.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Remove a forage patch, change floral timing, interrupt the return call, or offer richer wild bloom.",
+      "mastery": "A master preserves species disagreement and dismisses only those that can leave without collapsing the ecology they entered.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 11 | PROOF HOLDING + TURNING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b19",
+    "title": "Living Granary",
+    "description": "Grows a breathing store of roots, husks, fungi, and cool leaves that preserves seed, food, and medicine while replacing small losses.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "B19",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "GROVE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 3,
+        "fineness": 2,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B19",
+        "location": "Bloom Conjuration / Practical Workings / B19"
+      }
+    },
+    "aliases": [
+      "B19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 | Conjuration | Th1 Tu1 Kn2 Sp2 Ho3 Fi2 Ag1 Co0 | Carrier: personal with a focus.",
+      "purpose": "Grows a breathing store of roots, husks, fungi, and cool leaves that preserves seed, food, and medicine while replacing small losses.",
+      "practice": "Separate eating stock, planting stock, sacred seed, and experimental cultures with independent keepers.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The granary consumes water and fertility, evolves around stored goods, and makes surrounding pests more resourceful.",
+      "failure": "It germinates reserves, treats rot as useful succession, or replaces diverse seed with its most successful lineage.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Dry a chamber, remove a keeper culture, change temperature, or open the store to ordinary air.",
+      "mastery": "Experts keep mortality and manual stores within the system, refusing preservation that turns food security into one living dependency.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 12 | PROOF HOLDING + TURNING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b20",
+    "title": "Festival of First Fruit",
+    "description": "Causes orchards, gardens, and public planters to offer a small simultaneous first harvest for a communal festival.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "B20",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SPRING LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B20",
+        "location": "Bloom Conjuration / Practical Workings / B20"
+      }
+    },
+    "aliases": [
+      "B20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 2 | Conjuration | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag1 Co0 | Carrier: personal with a focus.",
+      "purpose": "Causes orchards, gardens, and public planters to offer a small simultaneous first harvest for a communal festival.",
+      "practice": "Every plot declares what it can spare, which species must not be forced, and how the feast returns fertility.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Later yield is reduced, pollinators and pests shift toward the event, and abundance gains political symbolism.",
+      "failure": "Poor plots are shamed, fruit ripens before safety, or ceremonial demand consumes seed needed for future seasons.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Withhold a plot, delay one crop, compost the offering, or expose an unrepresented hunger.",
+      "mastery": "A master leaves some branches unripe and makes restraint visible as part of the celebration.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 11 | PROOF HOLDING + TURNING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b21",
+    "title": "Predator Garden",
+    "description": "Calls a layered ecology of thorns, venom, constricting vines, hunting insects, and scent lures to deny a battlefield sector.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "B21",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "FANG LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 3,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B21",
+        "location": "Bloom Conjuration / Expert Formulae / B21"
+      }
+    },
+    "aliases": [
+      "B21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 3 | Conjuration | Th1 Tu1 Kn1 Sp3 Ho0 Fi3 Ag1 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Calls a layered ecology of thorns, venom, constricting vines, hunting insects, and scent lures to deny a battlefield sector.",
+      "practice": "Separate living targets, routes, durations, prey classes, and post-battle dissolution among specialist keepers.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The garden consumes soil, spreads predators outward, and adapts toward the easiest available prey.",
+      "failure": "Enemy and ally ecologies merge, target rules become diet, or the garden reproduces beyond military need.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Burn nutrient anchors, remove prey scent, flood the soil, introduce a stronger predator, or break the keeper network.",
+      "mastery": "A master sheds species, appetite, and territory before discrimination, leaving a damaged but recoverable ecosystem rather than a victorious plague.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 10 | PROOF TURNING + REDIRECTION | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b22",
+    "title": "Living Rampart",
+    "description": "Raises a mobile defensive wall of trunks, woven roots, thorn canopy, and absorbent tissue that opens for marked allies.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "B22",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "GROVE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B22",
+        "location": "Bloom Conjuration / Expert Formulae / B22"
+      }
+    },
+    "aliases": [
+      "B22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 3 | Conjuration | Th1 Tu1 Kn2 Sp3 Ho2 Fi3 Ag1 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Raises a mobile defensive wall of trunks, woven roots, thorn canopy, and absorbent tissue that opens for marked allies.",
+      "practice": "Root crews, gate keepers, water tenders, and fire wardens each hold an independent part of the Pattern.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The rampart drains water and fertility, displaces existing habitat, and thickens around repeated attacks.",
+      "failure": "Gates grow shut, wounded tissue becomes disease, or the wall follows its water source away from those it protects.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Cut root crews, poison water, exploit an unmarked ally, burn dead tissue, or attack from bare stone.",
+      "mastery": "Experts sacrifice height and continuity before friendly recognition, keeping exits alive even when defence thins.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 13 | PROOF TURNING + REDIRECTION | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b23",
+    "title": "Menagerie of Balance",
+    "description": "Calls interacting plants, grazers, predators, decomposers, and pollinators to regulate pests, fertility, erosion, and fire across a large estate.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "B23",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "GROVE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B23",
+        "location": "Bloom Conjuration / Expert Formulae / B23"
+      }
+    },
+    "aliases": [
+      "B23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 3 | Conjuration | Th1 Tu1 Kn3 Sp3 Ho2 Fi3 Ag1 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Calls interacting plants, grazers, predators, decomposers, and pollinators to regulate pests, fertility, erosion, and fire across a large estate.",
+      "practice": "Every trophic role has a mortal steward, a population ceiling, and a declared route out of the system.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Nearby ecologies lose organisms and opportunity, while the estate gains new disease, competition, and evolutionary pressure.",
+      "failure": "The most useful species becomes sovereign, ceilings produce hunger, or one missing role drives compensating overgrowth.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Remove a steward, open an exit route, introduce a novel competitor, or alter resource timing.",
+      "mastery": "A master preserves fluctuation, local extinction, and human revision, refusing to confuse a stable diagram with a living place.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 14 | PROOF TURNING + REDIRECTION | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b24",
+    "title": "Marching Orchard",
+    "description": "Grows a migrating chain of fruiting trees, root sleds, shade, and forage that travels with an army, caravan, or displaced population.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "B24",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "FANG LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B24",
+        "location": "Bloom Conjuration / Expert Formulae / B24"
+      }
+    },
+    "aliases": [
+      "B24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 3 | Conjuration | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag1 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Grows a migrating chain of fruiting trees, root sleds, shade, and forage that travels with an army, caravan, or displaced population.",
+      "practice": "Route councils declare host consent, water, seed quarantine, harvest rights, and where each generation of trees may remain.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The orchard drains land along its path, spreads genes and pests, changes migration routes, and creates settlement pressure.",
+      "failure": "It refuses poor ground, roots through sacred sites, or makes travellers dependent on a route that becomes an invasion.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Revoke host consent, interrupt water, quarantine seed, split the caravan, or offer a viable resting forest.",
+      "mastery": "Masters ground part of the orchard early and slow the people before continuity becomes ecological conquest.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 14 | PROOF TURNING + REDIRECTION | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b25",
+    "title": "Parliament of Spores",
+    "description": "Calls representative fungal and microbial blooms that reveal decomposition, disease, soil exchange, and hidden symbiosis across a region.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "B25",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "SPRING LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B25",
+        "location": "Bloom Conjuration / Expert Formulae / B25"
+      }
+    },
+    "aliases": [
+      "B25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 3 | Conjuration | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag1 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Calls representative fungal and microbial blooms that reveal decomposition, disease, soil exchange, and hidden symbiosis across a region.",
+      "practice": "Laboratories, farmers, healers, wildlands, and waste keepers maintain separate cultures and veto uncontrolled release.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The Parliament consumes samples, changes local microbial balance, and makes observers part of its exchange network.",
+      "failure": "Fast-growing cultures speak for the unseen majority, diagnosis becomes contamination, or the assembly rewards whatever feeds it.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Sterilise a chamber, withdraw a culture, change substrate, or introduce a dormant competitor.",
+      "mastery": "A master protects blank categories and ends the gathering before representation becomes colonisation.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 14 | PROOF TURNING + REDIRECTION | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b26",
+    "title": "Camouflage Biome",
+    "description": "Creates a temporary living habitat that hides a fortress, convoy, or settlement within ordinary ecological pattern across many senses.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "B26",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SPRING LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B26",
+        "location": "Bloom Conjuration / Expert Formulae / B26"
+      }
+    },
+    "aliases": [
+      "B26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 3 | Conjuration | Th1 Tu1 Kn3 Sp3 Ho2 Fi3 Ag1 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates a temporary living habitat that hides a fortress, convoy, or settlement within ordinary ecological pattern across many senses.",
+      "practice": "Ecologists preserve drainage, migration, warning calls, rescue marks, and the distinction between habitat and occupied structure.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The biome consumes land and water, attracts wildlife, changes disease pressure, and makes inhabitants harder to rescue or govern.",
+      "failure": "It conceals vents and exits, treats buildings as wounds, or becomes more valuable to life than the people intended to hide.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Alter season, follow displaced wildlife, introduce fire, read artificial nutrient flows, or invoke rescue marks.",
+      "mastery": "A master reveals structures before concealment requires killing the habitat that learned to belong there.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 14 | PROOF TURNING + REDIRECTION | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b27",
+    "title": "Regrowth Ward",
+    "description": "Maintains a field of replacement tissue, medicinal organisms, nourishment, and adaptive shelter around a hospital, burned wood, or damaged settlement.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "B27",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "GROVE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B27",
+        "location": "Bloom Conjuration / Expert Formulae / B27"
+      }
+    },
+    "aliases": [
+      "B27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 3 | Conjuration | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag1 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Maintains a field of replacement tissue, medicinal organisms, nourishment, and adaptive shelter around a hospital, burned wood, or damaged settlement.",
+      "practice": "Healers, ecologists, builders, and patients keep separate definitions of viable regrowth and unwanted return.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Nutrients are drawn from wide surroundings, mutation accelerates, and restored life competes with survivors and new uses.",
+      "failure": "The ward regrows an old disease, replaces scar with vulnerable tissue, or calls life where rest and decay are needed.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest the viable state, remove a nutrient route, introduce a protected scar, or open the field to ordinary succession.",
+      "mastery": "Experts restore capacity to heal rather than a perfected past, leaving scars that carry warning and ownership.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 15 | PROOF TURNING + REDIRECTION | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b28",
+    "title": "Chimera Steward",
+    "description": "Creates an autonomous composite creature able to tend crops, track disease, carry loads, defend dependants, and adapt within a bounded estate.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "B28",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "FANG LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B28",
+        "location": "Bloom Conjuration / Expert Formulae / B28"
+      }
+    },
+    "aliases": [
+      "B28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 3 | Conjuration | Th1 Tu1 Kn2 Sp3 Ho2 Fi3 Ag4 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates an autonomous composite creature able to tend crops, track disease, carry loads, defend dependants, and adapt within a bounded estate.",
+      "practice": "Its body plan, appetite, breeding status, duties, refusals, and lawful death are designed by different keepers.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "Traits and nutrients are displaced from source lineages, the chimera develops preference, and the estate reorganises around its labour.",
+      "failure": "Duty becomes instinct, adaptation escapes its charter, or the steward breeds a successor without consent.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit conflicting needs, remove a keeper trait, change diet, isolate it from the estate, or invoke lawful death.",
+      "mastery": "A master preserves play, refusal, sterility or chosen lineage, and dismantles dependency before gratitude becomes ownership.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 16 | PROOF TURNING + ANCHORING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b29",
+    "title": "The Green Aqueduct",
+    "description": "Grows a network of roots, reeds, filtering organisms, shade trees, and living cisterns that moves and cleans water through a city district.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "B29",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "GROVE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B29",
+        "location": "Bloom Conjuration / Expert Formulae / B29"
+      }
+    },
+    "aliases": [
+      "B29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 3 | Conjuration | Th1 Tu1 Kn3 Sp3 Ho4 Fi3 Ag1 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Grows a network of roots, reeds, filtering organisms, shade trees, and living cisterns that moves and cleans water through a city district.",
+      "practice": "Water rights, overflow, disease, maintenance, wildlife, and drought behaviour remain under separate civic stewards.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "The system consumes land and nutrients, changes groundwater, attracts life, and becomes vulnerable to blight and seasonal dormancy.",
+      "failure": "Roots invade buildings, purification removes useful minerals, or one organism becomes an invisible single point of failure.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Alter water chemistry, sever a root district, introduce a grazer, or trigger dormancy.",
+      "mastery": "Masters keep mechanical bypasses and ecological diversity, accepting imperfect water before civic life depends on one enchanted species.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 16 | PROOF TURNING + ANCHORING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b30",
+    "title": "Dreaming Conservatory",
+    "description": "Grows a living theatre whose flowers, scents, insects, and responsive vines externalise an audience's shared hopes, fears, and imagined futures.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "B30",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SPRING LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B30",
+        "location": "Bloom Conjuration / Expert Formulae / B30"
+      }
+    },
+    "aliases": [
+      "B30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 3 | Conjuration | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag1 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Grows a living theatre whose flowers, scents, insects, and responsive vines externalise an audience's shared hopes, fears, and imagined futures.",
+      "practice": "Artists define safety, consent, private silence, exit paths, and which emotions may never become reproductive material.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The conservatory consumes attention and fertility, audience expectations shape living forms, and some forms remain viable afterward.",
+      "failure": "Popular desire overwhelms private experience, fear breeds predators, or the garden presents one future as natural destiny.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Leave the conservatory, close scent routes, introduce contradictory seed, or refuse collective interpretation.",
+      "mastery": "A master keeps symbolism sterile and visibly provisional, allowing incompatible futures to bloom without selecting a winner.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 15 | PROOF TURNING + REDIRECTION | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b31",
+    "title": "Siege of Ten Thousand Roots",
+    "description": "Calls roots, briars, burrowing life, fungi, and rapid woodland to overrun fortifications, roads, engines, and supply ground across a battlefield.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:rites"
+    ],
+    "facts": {
+      "originalId": "B31",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "FANG LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 4,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B31",
+        "location": "Bloom Conjuration / Rites / B31"
+      }
+    },
+    "aliases": [
+      "B31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn2 Sp4 Ho1 Fi3 Ag1 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Calls roots, briars, burrowing life, fungi, and rapid woodland to overrun fortifications, roads, engines, and supply ground across a battlefield.",
+      "practice": "Target jurists, civilian wardens, soil keepers, disease crews, and dissolution teams carry independent Knots.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The rite consumes regional fertility and water, displaces ecologies, spreads disease, and leaves a new forest with memories of war.",
+      "failure": "Roots enter refuges, useful crops join the attack, or the summoned biome survives by feeding on the defeated population.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break nutrient routes, salt key anchors, burn selected corridors, introduce grazing, or corrupt target maps.",
+      "mastery": "The conductor abandons conquest and Span before civilian distinction, then accepts years of restoration as part of using living siege.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 13 | PROOF REDIRECTION + ANCHORING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b32",
+    "title": "Refuge Forest",
+    "description": "Raises a province-scale forest of shelter, food, medicine, water capture, camouflage, and living barriers around displaced populations.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:rites"
+    ],
+    "facts": {
+      "originalId": "B32",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "GROVE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B32",
+        "location": "Bloom Conjuration / Rites / B32"
+      }
+    },
+    "aliases": [
+      "B32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn3 Sp4 Ho3 Fi3 Ag1 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Raises a province-scale forest of shelter, food, medicine, water capture, camouflage, and living barriers around displaced populations.",
+      "practice": "Refugees, host communities, wild species, fire crews, and future land users retain separate rights and exit plans.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The forest transforms ownership, climate, disease, water, and migration; nearby regions lose seed and fertility.",
+      "failure": "Shelter becomes enclosure, hosts are displaced, invasive growth crosses borders, or dependence prevents return.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Revoke local plots, interrupt water, open firebreaks, introduce native succession, or offer viable settlement beyond the rite.",
+      "mastery": "Masters let the refuge become many different places or fade, refusing to preserve emergency identity as a permanent nation within trees.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 16 | PROOF REDIRECTION + ANCHORING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b33",
+    "title": "Watershed Garden",
+    "description": "Calls a regional mosaic of wetlands, forests, grazers, roots, and decomposers to regulate flood, drought, erosion, fertility, and fire.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:rites"
+    ],
+    "facts": {
+      "originalId": "B33",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "GROVE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B33",
+        "location": "Bloom Conjuration / Rites / B33"
+      }
+    },
+    "aliases": [
+      "B33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag1 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Calls a regional mosaic of wetlands, forests, grazers, roots, and decomposers to regulate flood, drought, erosion, fertility, and fire.",
+      "practice": "Upstream, downstream, farming, wildland, urban, and nonhuman claims are carried by separate circles.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Water and nutrients are redistributed, land use changes, disease vectors move, and neighbouring basins inherit displaced extremes.",
+      "failure": "The best-measured claim dominates, one species becomes infrastructure, or the garden protects cities by sacrificing remote land.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Withdraw a circle, alter a migration route, introduce a new climate regime, or expose an externalised burden.",
+      "mastery": "A master preserves seasonal disorder and revisability, allowing some flood and fire so regulation does not become ecological imprisonment.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 17 | PROOF REDIRECTION + ANCHORING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b34",
+    "title": "Pilgrim Grove",
+    "description": "Guides a mass pilgrimage or migration through a moving chain of food, shade, medicine, pollination, and temporary habitat.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:rites"
+    ],
+    "facts": {
+      "originalId": "B34",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "FANG LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B34",
+        "location": "Bloom Conjuration / Rites / B34"
+      }
+    },
+    "aliases": [
+      "B34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag1 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Guides a mass pilgrimage or migration through a moving chain of food, shade, medicine, pollination, and temporary habitat.",
+      "practice": "Every host region controls passage, harvest, quarantine, rooting, departure, and what living gifts may remain.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The rite spreads genes, pests, practices, and settlement pressure while drawing fertility along the route.",
+      "failure": "The grove makes welcome compulsory, outruns hosts, carries plague, or roots into political territory.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Revoke passage, break quarantine, interrupt a seed line, alter destination, or ground the grove into a consensual settlement.",
+      "mastery": "The conductor stops movement before hospitality fails and can divide the living route without turning people into competing swarms.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 17 | PROOF REDIRECTION + ANCHORING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b35",
+    "title": "Census of Living Threads",
+    "description": "Calls representative blooms from species, lineages, symbioses, diseases, and ecological roles across a province to reveal what lives and what is vanishing.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:rites"
+    ],
+    "facts": {
+      "originalId": "B35",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "SPRING LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B35",
+        "location": "Bloom Conjuration / Rites / B35"
+      }
+    },
+    "aliases": [
+      "B35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag1 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Calls representative blooms from species, lineages, symbioses, diseases, and ecological roles across a province to reveal what lives and what is vanishing.",
+      "practice": "Communities, scientists, healers, farmers, and wild custodians govern samples, uncertainty, sacred omission, and release.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Sampling consumes reproductive possibility, makes rare life visible to collectors, and forms reciprocal biological links.",
+      "failure": "Abundant organisms speak for all life, hidden species are declared absent, or the census changes breeding and policy merely by naming value.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Invoke omission, introduce dormant stages, withdraw a sample, disrupt taxonomy, or follow reciprocal links to the census site.",
+      "mastery": "Masters keep unknown life unknown, expire categories, and refuse to make legibility a precondition of protection.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 17 | PROOF REDIRECTION + ANCHORING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b36",
+    "title": "Valley That Hides Its People",
+    "description": "Wraps settlements, roads, agriculture, smoke, scent, and movement inside a functioning regional ecology that appears uninhabited to hostile observation.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:rites"
+    ],
+    "facts": {
+      "originalId": "B36",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SPRING LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B36",
+        "location": "Bloom Conjuration / Rites / B36"
+      }
+    },
+    "aliases": [
+      "B36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag1 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Wraps settlements, roads, agriculture, smoke, scent, and movement inside a functioning regional ecology that appears uninhabited to hostile observation.",
+      "practice": "Local communities control rescue marks, warning species, disease, fire, visibility, and the right to reveal themselves.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The valley consumes resources, displaces wildlife, erases public oversight, and makes inhabitants part of the camouflage.",
+      "failure": "The ecology conceals famine or coercion, rescue signals disappear, or people are treated as threats to their own habitat disguise.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Follow nutrient anomalies, alter season, invoke local revelation, introduce new predators, or force evacuation.",
+      "mastery": "A master keeps civic life visible internally and reveals institutions before secrecy requires sacrificing either people or habitat.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 17 | PROOF REDIRECTION + ANCHORING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b37",
+    "title": "Plaguebreak Bloom",
+    "description": "Raises a regional ecology of medicines, competing microbes, immune training, food, sanitation organisms, and recovery habitat during epidemic.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:rites"
+    ],
+    "facts": {
+      "originalId": "B37",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "GROVE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 18,
+      "calculatedLoad": 18,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B37",
+        "location": "Bloom Conjuration / Rites / B37"
+      }
+    },
+    "aliases": [
+      "B37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag1 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Raises a regional ecology of medicines, competing microbes, immune training, food, sanitation organisms, and recovery habitat during epidemic.",
+      "practice": "Clinics, households, waste systems, wild reservoirs, and vulnerable groups keep separate thresholds and refusal rights.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Disease pressure shifts, resistance evolves, microbes spread beyond patients, and fertility is consumed at immense scale.",
+      "failure": "The cure becomes a new pathogen, population immunity is enforced, or healthy carriers are made ecological enemies.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Isolate a culture, change host conditions, remove a nutrient route, invoke refusal, or introduce conventional containment.",
+      "mastery": "Masters preserve diversity of treatment and end successful organisms before the emergency makes their dominance permanent.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 18 | PROOF REDIRECTION + ANCHORING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b38",
+    "title": "The Seven Garden Beasts",
+    "description": "Creates seven great autonomous organisms for regional pollination, pest control, rescue, transport, firebreak, soil repair, and defence.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:rites"
+    ],
+    "facts": {
+      "originalId": "B38",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "FANG LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B38",
+        "location": "Bloom Conjuration / Rites / B38"
+      }
+    },
+    "aliases": [
+      "B38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn3 Sp4 Ho3 Fi3 Ag4 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Creates seven great autonomous organisms for regional pollination, pest control, rescue, transport, firebreak, soil repair, and defence.",
+      "practice": "Each beast has one charter, one habitat, one mortal advocate, one breeding limit, and a scheduled dissolution hearing.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The region reorganises around their appetite and labour, source species lose traits, and political authority follows their routes.",
+      "failure": "Charters expand, beasts breed, one role consumes another, or crisis is prolonged to justify them.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit charter conflict, alter habitat, revoke breeding rights, starve a duty, or complete dissolution.",
+      "mastery": "The high conjurer preserves unequal powers and ordinary mortality, judging a beast's peaceful obsolescence as success.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 19 | PROOF REDIRECTION + ANCHORING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b39",
+    "title": "City That Grows",
+    "description": "Grows housing, shade, food, filtration, medicine, roads, and repair tissue as one distributed living civic organism.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:rites"
+    ],
+    "facts": {
+      "originalId": "B39",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "GROVE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B39",
+        "location": "Bloom Conjuration / Rites / B39"
+      }
+    },
+    "aliases": [
+      "B39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi3 Ag3 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Grows housing, shade, food, filtration, medicine, roads, and repair tissue as one distributed living civic organism.",
+      "practice": "Districts control species, pruning, fire, disease, accessibility, manual alternatives, and the right to disconnect.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The city consumes land and water, develops appetites, resists redesign, and makes citizens dependent on biological infrastructure.",
+      "failure": "Central growth chokes poor districts, maintenance becomes feeding, or the city treats demolition and dissent as wounds.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Quarantine a district, trigger dormancy, sever root rights, introduce manual infrastructure, or alter civic diet.",
+      "mastery": "Masters preserve dead material, empty lots, local failure, and the ability to dismantle what once grew beautifully.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 20 | PROOF REDIRECTION + ANCHORING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b40",
+    "title": "Feast of Returning Spring",
+    "description": "Brings coordinated flowering, first food, animal return, music-bearing insects, and public gardens across a province after winter or catastrophe.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:rites"
+    ],
+    "facts": {
+      "originalId": "B40",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SPRING LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B40",
+        "location": "Bloom Conjuration / Rites / B40"
+      }
+    },
+    "aliases": [
+      "B40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag3 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Brings coordinated flowering, first food, animal return, music-bearing insects, and public gardens across a province after winter or catastrophe.",
+      "practice": "Every community declares timing, allergies, sacred dormancy, food need, and which species must not be forced.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Later seasons pay the fertility cost, migration shifts, pests awaken, and political unity attaches itself to biological timing.",
+      "failure": "Spring comes too early, ceremonial bloom masks hunger, or one regional calendar overrides another.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Delay a district, invoke dormancy, alter pollinator routes, withhold seed, or expose an unrepresented season.",
+      "mastery": "A master makes uneven return part of the rite and preserves winter where rest is still necessary.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 20 | PROOF REDIRECTION + ANCHORING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b41",
+    "title": "Green Host of the Realm",
+    "description": "Calls the nation's forests, crops, insects, beasts, roots, and dormant seed into a coordinated defensive ecology against invasion or existential threat.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "B41",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "FANG LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B41",
+        "location": "Bloom Conjuration / Wonders / B41"
+      }
+    },
+    "aliases": [
+      "B41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn3 Sp4 Ho2 Fi4 Ag2 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Calls the nation's forests, crops, insects, beasts, roots, and dormant seed into a coordinated defensive ecology against invasion or existential threat.",
+      "practice": "Regions, species custodians, food councils, refugees, and future restoration authorities carry independent vetoes.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "War consumes fertility, spreads predators and disease, rewrites migration, and teaches the land a lasting category of enemy.",
+      "failure": "The Host attacks foreign species and citizens, converts food into weapon, or refuses peace because threat sustains its abundance.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break regional consensus, alter target identity, starve military niches, invoke restoration authority, or offer viable demobilisation habitat.",
+      "mastery": "Sovereign mastery is ending the living army early and accepting military defeat before the nation's ecology becomes permanent xenophobia.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 17 | PROOF REDIRECTION + UNWEAVING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b42",
+    "title": "The National Canopy",
+    "description": "Grows a federated shelter of forest, wetland, food, medicine, firebreak, and cooling habitat across every inhabited region.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "B42",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "GROVE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B42",
+        "location": "Bloom Conjuration / Wonders / B42"
+      }
+    },
+    "aliases": [
+      "B42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Grows a federated shelter of forest, wetland, food, medicine, firebreak, and cooling habitat across every inhabited region.",
+      "practice": "Localities control species, density, sunlight, agriculture, fire, wildlife, and the right to remain open ground.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Climate and water shift, landscapes become politically interdependent, and displaced ecologies crowd borders.",
+      "failure": "The canopy erases grasslands, favours cities, spreads blight nationally, or turns shade and food into central leverage.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke open-ground rights, quarantine a region, change fire regime, sever root corridors, or expose displaced habitat.",
+      "mastery": "Masters preserve treeless life, regional difference, and manual alternatives, refusing a single beautiful biome as national virtue.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 21 | PROOF REDIRECTION + UNWEAVING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b43",
+    "title": "Covenant of Appetite",
+    "description": "Makes national consumption, agriculture, fertility, predation, and waste biologically legible and partially self-regulating through summoned ecological roles.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "B43",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "GROVE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B43",
+        "location": "Bloom Conjuration / Wonders / B43"
+      }
+    },
+    "aliases": [
+      "B43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes national consumption, agriculture, fertility, predation, and waste biologically legible and partially self-regulating through summoned ecological roles.",
+      "practice": "Human and nonhuman needs, hunger, luxury, sacred use, and future fertility are represented by separate institutions.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Waste becomes food, but organisms and markets adapt; burdens move abroad and appetite gains physical enforcement.",
+      "failure": "The state defines legitimate hunger, engineered scarcity disciplines dissent, or efficiency eliminates resilience and generosity.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Invoke an unrepresented need, expose imported burden, disrupt a trophic role, or refuse biological accounting.",
+      "mastery": "A master protects excess, hospitality, wild appetite, and the right not to be optimised, keeping ecology from becoming ration law.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 22 | PROOF REDIRECTION + UNWEAVING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b44",
+    "title": "Roads of Root and Wing",
+    "description": "Creates national corridors for people, animals, seed, pollinators, food, and emergency shelter that grow and migrate with seasonal need.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "B44",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "FANG LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B44",
+        "location": "Bloom Conjuration / Wonders / B44"
+      }
+    },
+    "aliases": [
+      "B44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates national corridors for people, animals, seed, pollinators, food, and emergency shelter that grow and migrate with seasonal need.",
+      "practice": "Communities, migrants, farms, wild species, and quarantine councils share route authority and closure rights.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The roads spread genes, disease, settlement, predators, and political influence while drawing fertility from their margins.",
+      "failure": "Movement becomes compulsory, migration serves trade, or route organisms establish imperial claims over host land.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Revoke passage, alter season, interrupt seed exchange, invoke quarantine, or let a corridor return to wild succession.",
+      "mastery": "Masters keep many slow routes and allow paths to die, resisting the fantasy that all living movement should be made efficient.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 22 | PROOF REDIRECTION + UNWEAVING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b45",
+    "title": "The Living Census",
+    "description": "Makes the nation's species, lineages, diseases, symbioses, crops, and threatened ecologies periodically present through representative living signs.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "B45",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "SPRING LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B45",
+        "location": "Bloom Conjuration / Wonders / B45"
+      }
+    },
+    "aliases": [
+      "B45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes the nation's species, lineages, diseases, symbioses, crops, and threatened ecologies periodically present through representative living signs.",
+      "practice": "Local custodians govern naming, sacred omission, sample death, uncertainty, and whether presence may imply ownership.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Rare life becomes visible and vulnerable, taxonomies shape breeding, and the census itself redistributes reproductive potential.",
+      "failure": "Unknown life is declared absent, state categories replace living relation, or representation becomes compulsory biological registration.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Invoke omission, present contradictory lineage, withdraw a sign, reject the taxonomy, or trace reciprocity back to the capital.",
+      "mastery": "A master protects the uncounted and never lets recognition become the price of survival.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b46",
+    "title": "The Invisible Biosphere",
+    "description": "Conceals chosen refuges, reserves, communities, and strategic works within a nation-scale pattern of ordinary life, decay, scent, and seasonal change.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "B46",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SPRING LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B46",
+        "location": "Bloom Conjuration / Wonders / B46"
+      }
+    },
+    "aliases": [
+      "B46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Conceals chosen refuges, reserves, communities, and strategic works within a nation-scale pattern of ordinary life, decay, scent, and seasonal change.",
+      "practice": "Every hidden place retains independent revelation, rescue, ecological health, and public acknowledgement that something is withheld.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The biosphere becomes surveillance camouflage, ecosystems bear secrecy, and hidden power grows difficult to audit.",
+      "failure": "The state hides suffering and extraction, citizens vanish into habitat categories, or concealment destroys the life that sustains it.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Read nutrient anomalies, invoke local revelation, introduce ecological novelty, disrupt season, or expose missing civic records.",
+      "mastery": "A sovereign master reveals institutions before camouflage becomes legitimacy and preserves enough trace for rescue, memory, and justice.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | SPRING LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b47",
+    "title": "The Great Regreening",
+    "description": "Restores a devastated nation's capacity for forests, soils, wetlands, crops, wildlife, and human livelihood through a century of guided living arrival.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "B47",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "GROVE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B47",
+        "location": "Bloom Conjuration / Wonders / B47"
+      }
+    },
+    "aliases": [
+      "B47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Restores a devastated nation's capacity for forests, soils, wetlands, crops, wildlife, and human livelihood through a century of guided living arrival.",
+      "practice": "Regions define viable futures rather than one historical baseline, with rights for survivors, new adaptations, and neighbouring ecologies.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Fertility and species are displaced from elsewhere, climate changes, and introduced life competes with ruins, memory, and present use.",
+      "failure": "The Wonder resurrects an idealised landscape, erases adaptations born in catastrophe, or exports depletion across the world.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest a future state, expose a donor ecology, invoke a survivor right, interrupt a corridor, or allow unmanaged succession.",
+      "mastery": "Masters regreen unevenly, leave scars and open ground, and stop conjuring when the land can surprise its caretakers again.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b48",
+    "title": "Parliament of Species",
+    "description": "Creates enduring representative organisms and ecological interpreters through which the nation's living communities can influence law, land, health, and development.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "B48",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "FANG LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B48",
+        "location": "Bloom Conjuration / Wonders / B48"
+      }
+    },
+    "aliases": [
+      "B48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates enduring representative organisms and ecological interpreters through which the nation's living communities can influence law, land, health, and development.",
+      "practice": "No representative may claim an entire species, wild silence has standing, and every seat expires with ecological change.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Political attention alters evolution, charismatic life gains power, and human institutions begin breeding the constituents they prefer.",
+      "failure": "The Parliament domesticates nature, simplifies ecosystems into voices, or gives predators and pathogens authority over vulnerable people.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Challenge a representation, invoke wild silence, expose ecological change, dissolve a seat, or refuse translation.",
+      "mastery": "A master protects incoherence and nonrepresentation, ensuring that life influences government without becoming another engineered electorate.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 22 | PROOF ANCHORING + UNWEAVING | FANG LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b49",
+    "title": "The Living Commons",
+    "description": "Links food, seed, medicine, pollination, soil, waste, shelter, and ecological repair into a federated national living infrastructure.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "B49",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "GROVE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B49",
+        "location": "Bloom Conjuration / Wonders / B49"
+      }
+    },
+    "aliases": [
+      "B49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Links food, seed, medicine, pollination, soil, waste, shelter, and ecological repair into a federated national living infrastructure.",
+      "practice": "Local commons control access, species, quarantine, harvest, manual backups, and the right to disconnect.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Need and abundance become shared, but disease and dependency travel widely; remote ecosystems may carry urban appetite.",
+      "failure": "Central optimisation creates monoculture, local refusal becomes famine, or living infrastructure acquires institutional hunger.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Invoke disconnection, introduce ecological diversity, expose hidden burden, trigger dormancy, or restore manual systems.",
+      "mastery": "Sovereign mastery keeps the commons plural, redundant, mortal, and politically revisable, accepting inefficiency so no organism owns survival.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 22 | PROOF ANCHORING + UNWEAVING | GROVE LENS"
+    }
+  },
+  {
+    "id": "spell:bloom-conjuration:b50",
+    "title": "Garden of a Thousand Futures",
+    "description": "Allows every consenting region to cultivate several living models of its possible climate, agriculture, settlement, species, and culture before choosing how to adapt.",
+    "parentGroupIds": [
+      "shelf:bloom-conjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "B50",
+      "collectionId": "collection:bloom-conjuration",
+      "collectionTitle": "Bloom Conjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:bloom"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:bloom-conjuration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SPRING LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:bloom-conjuration",
+        "originalId": "B50",
+        "location": "Bloom Conjuration / Wonders / B50"
+      }
+    },
+    "aliases": [
+      "B50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Bloom 4 | Conjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Allows every consenting region to cultivate several living models of its possible climate, agriculture, settlement, species, and culture before choosing how to adapt.",
+      "practice": "Each future has boundaries, expiry, nonhuman custodians, and protection from being mistaken for prophecy.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Possibilities consume real land and fertility, escape into the present, and attract investment and identity.",
+      "failure": "One beautiful future becomes destiny, failed models are treated as doomed peoples, or experimental life invades the nation it was meant to advise.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Close a garden, introduce contradiction, invoke expiry, change regional consent, or release ordinary succession.",
+      "mastery": "A master preserves failed and incompatible futures as knowledge while refusing to let any garden prove what the nation must become.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | SPRING LENS"
+    }
+  }
+]

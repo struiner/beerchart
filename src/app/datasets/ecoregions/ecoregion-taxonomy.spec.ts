@@ -142,7 +142,7 @@ describe('ecological enrichment', () => {
   });
 
   it('tracks published realm coverage independently from lower-level record presence', () => {
-    expect(Object.keys(enrichmentCoverage)).toHaveLength(208);
+    expect(Object.keys(enrichmentCoverage)).toHaveLength(354);
     expect(coverageStateFor('realm:indomalaya')).toBe('published');
     expect(coverageStateFor('ecoregion:309')).toBe('reviewed');
     expect(coverageStateFor('realm:antarctica')).toBe('published');
@@ -385,5 +385,47 @@ describe('ecological enrichment', () => {
     expect(
       southernAmerica.profileExtensions?.['ecoregion:615']?.some(({ id }) => id === 'summary'),
     ).toBe(true);
+  });
+
+  it('resolves every displayed ecological reference to a profile with related tiles', async () => {
+    const provider = ecoregionTaxonomy.contentProvider!;
+    const bundles = new Map(
+      await Promise.all(
+        ecoregionContentPartitionIds.map(
+          async (partitionId) => [partitionId, await provider.loadPartition(partitionId)] as const,
+        ),
+      ),
+    );
+
+    for (const bundle of bundles.values()) {
+      for (const sections of Object.values(bundle.profileExtensions ?? {})) {
+        for (const section of sections) {
+          if (section.kind !== 'related-entities') continue;
+          for (const item of section.items) {
+            const owner = provider.resolvePartition({ kind: 'related-entity', id: item.id });
+            expect(owner, item.id).not.toBeNull();
+            const entity = bundles.get(owner!)?.relatedEntities?.find(({ id }) => id === item.id);
+            expect(entity, item.id).toBeDefined();
+            expect(
+              (entity?.linkedEntryIds.length ?? 0) + (entity?.linkedGroupIds?.length ?? 0),
+              item.id,
+            ).toBeGreaterThan(0);
+          }
+        }
+      }
+    }
+
+    expect(provider.resolvePartition({ kind: 'related-entity', id: 'country:IN' })).toBe(
+      'indomalaya',
+    );
+    const kereruOwner = provider.resolvePartition({
+      kind: 'related-entity',
+      id: 'species:kereru',
+    });
+    expect(kereruOwner).toBe('australasia');
+    expect(
+      bundles.get(kereruOwner!)?.relatedEntities?.find(({ id }) => id === 'species:kereru')
+        ?.linkedGroupIds,
+    ).toContain('bioregion:au1');
   });
 });

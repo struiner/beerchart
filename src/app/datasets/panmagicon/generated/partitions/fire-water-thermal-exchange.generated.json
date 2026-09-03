@@ -1,0 +1,4020 @@
+[
+  {
+    "id": "spell:fire-water-thermal-exchange:x01",
+    "title": "Scald Knot",
+    "description": "Stores a small thermal difference in a tied cord and releases it as hot vapour when the knot is pulled.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:lessons"
+    ],
+    "facts": {
+      "originalId": "X01",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-evocation",
+        "stream:water-alteration",
+        "stream:water-evocation"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Direct Intervention",
+      "doctrine": "BOILER LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X01",
+        "location": "Fire + Water: Thermal Exchange / Lessons / X01"
+      }
+    },
+    "aliases": [
+      "X01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 + Water 1 | Alteration > Evocation | Th2 Tu2 Kn0 Sp1 Ho0 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Stores a small thermal difference in a tied cord and releases it as hot vapour when the knot is pulled.",
+      "practice": "Tie the cord wet around a warmed token and declare a safe release direction.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The token cools, the cord dries and weakens, and School order makes the release eager once Alteration is complete.",
+      "failure": "The knot vents while being tied, or releases liquid heat into the holder's hand instead of vapour.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Soak the cord, untie it without pulling, or alter the token's temperature.",
+      "mastery": "A master can feel whether the Turn has settled and safely unmake the knot before release.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 7 | PROOF HOLDING + BRAIDING | BOILER LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x02",
+    "title": "Hiss-Ward",
+    "description": "Rejects a brief tongue of flame, splash of boiling water, or hot vapour from one marked handspan.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:lessons"
+    ],
+    "facts": {
+      "originalId": "X02",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:fire-abjuration",
+        "stream:water-abjuration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Protection And Repair",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X02",
+        "location": "Fire + Water: Thermal Exchange / Lessons / X02"
+      }
+    },
+    "aliases": [
+      "X02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 1 | Abjuration | Th2 Tu1 Kn1 Sp1 Ho0 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Rejects a brief tongue of flame, splash of boiling water, or hot vapour from one marked handspan.",
+      "practice": "Wet an ash line and leave one open direction for rejected heat and pressure.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Rejection accumulates at the opening as a loud jet; the protected patch becomes briefly numb with cold.",
+      "failure": "A closed boundary bursts inward, or the ward rejects harmless warmth needed by what it protects.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Block the exhaust, attack from the unmarked side, or cool the ash line until it cracks.",
+      "mastery": "Experts turn the rejected danger into a visible harmless hiss rather than storing it silently.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 7 | PROOF HOLDING + BRAIDING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x03",
+    "title": "Kettle Whisper",
+    "description": "Moves a cup or kettle toward a chosen drinking temperature by shifting the balance between contained heat and cooling flow.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:lessons"
+    ],
+    "facts": {
+      "originalId": "X03",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:water-alteration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Control And Regulation",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X03",
+        "location": "Fire + Water: Thermal Exchange / Lessons / X03"
+      }
+    },
+    "aliases": [
+      "X03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Alteration | Th2 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Moves a cup or kettle toward a chosen drinking temperature by shifting the balance between contained heat and cooling flow.",
+      "practice": "Mark hot, warm, and cool positions on the vessel. The working changes distribution, not total substance.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Fire wants release while Water equalises it. A hot ring forms where excess is parked, and the liquid may remember its earlier temperature.",
+      "failure": "The ring jumps to the hand, the drink stratifies, or the formula overshoots as the opposed Threads separate.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Change the vessel, stir vigorously, or provide a stronger external heat gradient.",
+      "mastery": "A master reaches the target by a declining series of exchanges and leaves no dangerously concentrated ring.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 8 | PROOF HOLDING + BRAIDING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x04",
+    "title": "Boiler Skip",
+    "description": "Releases one palm-sized pressure burst to shove an object, kick a door, or shift the caster sideways.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:lessons"
+    ],
+    "facts": {
+      "originalId": "X04",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation",
+        "stream:water-evocation"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Movement And Flow",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X04",
+        "location": "Fire + Water: Thermal Exchange / Lessons / X04"
+      }
+    },
+    "aliases": [
+      "X04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 1 | Evocation | Th2 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Releases one palm-sized pressure burst to shove an object, kick a door, or shift the caster sideways.",
+      "practice": "Seal a spoonful of water against a sparkstone and point the vent before ignition.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The chamber chills after discharge, surfaces become damp, and recoil strikes directly through the wrist.",
+      "failure": "A blocked vent ruptures; poor ratio produces harmless hot water or a dry fire flash.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Jam the vent, drain the water, or force the caster to change direction after sealing.",
+      "mastery": "A master vents in two smaller pulses, preserving steering and the chamber.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 7 | PROOF HOLDING + BRAIDING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x05",
+    "title": "Fog Mirror",
+    "description": "Fogs a glass except where recent warm touch, breath, or hidden flow creates a legible pattern.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:lessons"
+    ],
+    "facts": {
+      "originalId": "X05",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:fire-divination",
+        "stream:water-divination"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Perception And Memory",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X05",
+        "location": "Fire + Water: Thermal Exchange / Lessons / X05"
+      }
+    },
+    "aliases": [
+      "X05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Divination | Th2 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Fogs a glass except where recent warm touch, breath, or hidden flow creates a legible pattern.",
+      "practice": "Cool the glass evenly, then invite one controlled breath across it.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Looking establishes a wet sympathetic route; the observed toucher may feel a chill or glimpse the reader's face in another reflection.",
+      "failure": "Condensation invents shapes from uneven glass or reveals the current observer more strongly than the past trace.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Heat the whole pane, wipe it, or seed false touch patterns.",
+      "mastery": "An expert repeats at several temperatures and trusts only features that persist across the comparison.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 7 | PROOF HOLDING + BRAIDING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x06",
+    "title": "Steam Veil",
+    "description": "Releases a body-sized cloud that obscures one movement, then breaks apart before scalding or soaking the area.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:lessons"
+    ],
+    "facts": {
+      "originalId": "X06",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:evocation",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:fire-evocation",
+        "stream:fire-veiling",
+        "stream:water-evocation",
+        "stream:water-veiling"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X06",
+        "location": "Fire + Water: Thermal Exchange / Lessons / X06"
+      }
+    },
+    "aliases": [
+      "X06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Evocation",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 1 | Evocation > Veiling | Th2 Tu2 Kn0 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Releases a body-sized cloud that obscures one movement, then breaks apart before scalding or soaking the area.",
+      "practice": "A warmed cloth supplies Water and a sparkstone supplies Fire. The caster defines an escape edge.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Pressure and heat rebound through the cloth; the Veiling Turn also omits friendly sight for one breath.",
+      "failure": "The cloud condenses on the caster, expands toward bystanders, or hides the escape edge from its owner.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Create a cross-current, cool the cloud, or track the wet footprint left after concealment.",
+      "mastery": "A master tunes droplet size so the veil blocks sight without becoming a persistent fog.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 8 | PROOF HOLDING + BRAIDING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x07",
+    "title": "Quencher's Palm",
+    "description": "Returns a small hot object toward the last temperature at which it could be safely handled without making it brittle.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:lessons"
+    ],
+    "facts": {
+      "originalId": "X07",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:fire-restoration",
+        "stream:water-restoration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X07",
+        "location": "Fire + Water: Thermal Exchange / Lessons / X07"
+      }
+    },
+    "aliases": [
+      "X07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Restoration | Th2 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Returns a small hot object toward the last temperature at which it could be safely handled without making it brittle.",
+      "practice": "Hold the object above water, not in it, and name whether hardness or handling is the governing memory.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Heat enters the water; old temper and stress may return with the chosen safe state. Steam marks where the exchange occurred.",
+      "failure": "The object cools outside before inside, or Restoration selects a weak pre-tempered condition.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Remove the water sink, obscure the material's history, or keep adding heat faster than it can be returned.",
+      "mastery": "Experts preserve the useful temper and shed speed before they risk thermal shock.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 8 | PROOF HOLDING + BRAIDING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x08",
+    "title": "Dewglass Bead",
+    "description": "Condenses one clear bead of water onto a warm marked surface, drawing moisture from the nearest declared volume.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:lessons"
+    ],
+    "facts": {
+      "originalId": "X08",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:conjuration"
+      ],
+      "streamIds": [
+        "stream:fire-conjuration",
+        "stream:water-conjuration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 1
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X08",
+        "location": "Fire + Water: Thermal Exchange / Lessons / X08"
+      }
+    },
+    "aliases": [
+      "X08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Conjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Conjuration | Th2 Tu1 Kn1 Sp1 Ho1 Fi1 Ag1 Co1 | Carrier: personal or supervised.",
+      "purpose": "Condenses one clear bead of water onto a warm marked surface, drawing moisture from the nearest declared volume.",
+      "practice": "Warm the mark first so the opposition has a defined meeting point.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Air and nearby cloth dry slightly; arrival displaces local heat and leaves a cold halo around the bead.",
+      "failure": "The bead calls from a living eye or plant, or flash-evaporates when Fire dominates.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Remove ambient moisture, heat the surface unevenly, or place a closer unprotected source.",
+      "mastery": "An expert declares a source boundary and can reject biologically held water.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 9 | PROOF HOLDING + BRAIDING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x09",
+    "title": "Tempered Cup",
+    "description": "Binds a cup to keep ordinary drinks within a comfortable temperature band for an hour.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:lessons"
+    ],
+    "facts": {
+      "originalId": "X09",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-enchantment",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Infrastructure",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X09",
+        "location": "Fire + Water: Thermal Exchange / Lessons / X09"
+      }
+    },
+    "aliases": [
+      "X09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 1 | Enchantment | Th2 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Binds a cup to keep ordinary drinks within a comfortable temperature band for an hour.",
+      "practice": "Quench the cup once at each boundary temperature and inscribe both rings beneath its rim.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The cup repeatedly moves heat into or out of its surroundings, making one side of the table warm and the other cool.",
+      "failure": "The band narrows until the cup freezes or boils its contents, or it treats a new liquid as a fault.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Scratch a ring, insulate the cup, or overwhelm it with a volume beyond its quenching memory.",
+      "mastery": "A master builds an idle midpoint so the enchantment rests instead of correcting every tiny change.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 8 | PROOF HOLDING + BRAIDING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x10",
+    "title": "Tea of Two Suns",
+    "description": "Brews a ceremonial cup that keeps two flavours distinct until the drinker speaks one of two remembered names.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:lessons"
+    ],
+    "facts": {
+      "originalId": "X10",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-enchantment",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X10",
+        "location": "Fire + Water: Thermal Exchange / Lessons / X10"
+      }
+    },
+    "aliases": [
+      "X10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Enchantment | Th2 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Brews a ceremonial cup that keeps two flavours distinct until the drinker speaks one of two remembered names.",
+      "practice": "The hot infusion and cool infusion are poured from opposite sides into a divided bowl.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The unchosen flavour condenses as scented steam and is lost; the cup binds memory and hospitality together.",
+      "failure": "Both names release at once, the drinker inherits someone else's association, or the bowl begins choosing for guests.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Speak neither name, rotate the bowl, or break the divider before the enchantment settles.",
+      "mastery": "A master leaves space for the drinker to refuse the offered memory without insulting the rite.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 8 | PROOF HOLDING + BRAIDING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x11",
+    "title": "Steam Lance",
+    "description": "Projects a narrow jet of superheated vapour to cut rope, strip paint, drive a piston, or wound at several paces.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:practical-workings"
+    ],
+    "facts": {
+      "originalId": "X11",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation",
+        "stream:water-evocation"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Direct Intervention",
+      "doctrine": "BOILER LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 2,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X11",
+        "location": "Fire + Water: Thermal Exchange / Practical Workings / X11"
+      }
+    },
+    "aliases": [
+      "X11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 + Water 1 | Evocation | Th2 Tu1 Kn0 Sp2 Ho0 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Projects a narrow jet of superheated vapour to cut rope, strip paint, drive a piston, or wound at several paces.",
+      "practice": "A copper tube holds ratio and direction; a pressure flag warns when the shot must be shed.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The tube chills at its base and scales with minerals. Recoil combines force, heat, and sudden dehydration.",
+      "failure": "Water dominance produces a short scalding spray; Fire dominance ruptures the tube with flash boiling.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Bend the tube, block the vent, drain the reservoir, or lure the aim across allies.",
+      "mastery": "Experts watch the pressure flag and release upward rather than preserving a compromised shot.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 8 | PROOF BRAIDING + TURNING | BOILER LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x12",
+    "title": "Quenchwall",
+    "description": "Raises a band of spray and cooling exchange that rejects flame, hot debris, and advancing heat, then restores protected surfaces toward safe temperature.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:practical-workings"
+    ],
+    "facts": {
+      "originalId": "X12",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:fire-abjuration",
+        "stream:fire-restoration",
+        "stream:water-abjuration",
+        "stream:water-restoration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Protection And Repair",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X12",
+        "location": "Fire + Water: Thermal Exchange / Practical Workings / X12"
+      }
+    },
+    "aliases": [
+      "X12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Abjuration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Abjuration > Restoration | Th2 Tu2 Kn1 Sp2 Ho1 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Raises a band of spray and cooling exchange that rejects flame, hot debris, and advancing heat, then restores protected surfaces toward safe temperature.",
+      "practice": "A gutter feeds the wall and a heatstone behind it accepts what cannot be carried away.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Steam obscures both sides, the heatstone accumulates debt, and Restoration may return old cracks or moisture damage.",
+      "failure": "The wall flash-boils, the sink saturates, or protected material is restored to an earlier weaker state.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Cut the gutter, overload the heatstone, or attack with cold mass rather than heat.",
+      "mastery": "A master shortens Hold and opens drainage before pressure can turn defence into explosion.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 11 | PROOF BRAIDING + TURNING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x13",
+    "title": "Thermal Siphon",
+    "description": "Moves unwanted heat from one vessel, room, or patient into a circulating water sink without changing the source's other properties.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:practical-workings"
+    ],
+    "facts": {
+      "originalId": "X13",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:water-alteration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Control And Regulation",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X13",
+        "location": "Fire + Water: Thermal Exchange / Practical Workings / X13"
+      }
+    },
+    "aliases": [
+      "X13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Alteration | Th2 Tu1 Kn2 Sp2 Ho1 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Moves unwanted heat from one vessel, room, or patient into a circulating water sink without changing the source's other properties.",
+      "practice": "Paired coils define source and sink; flow must never stop while the difference remains large.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The sink heats and expands, while the source may collect condensation or thermal stress.",
+      "failure": "The siphon reverses, freezes the source, or carries poison and identity along with heat because Water follows relation.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Stop the pump, swap coils, or alter the sink's capacity.",
+      "mastery": "A master isolates heat as the only permitted relation and sheds rate before selectivity.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 11 | PROOF BRAIDING + TURNING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x14",
+    "title": "Pressure Step",
+    "description": "Creates three reusable steam bursts under marked soles, enabling rapid turns, wall runs, or a controlled descent.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:practical-workings"
+    ],
+    "facts": {
+      "originalId": "X14",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:evocation",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-evocation",
+        "stream:fire-enchantment",
+        "stream:water-evocation",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Movement And Flow",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X14",
+        "location": "Fire + Water: Thermal Exchange / Practical Workings / X14"
+      }
+    },
+    "aliases": [
+      "X14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Evocation",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 1 | Evocation > Enchantment | Th2 Tu2 Kn1 Sp2 Ho1 Fi3 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Creates three reusable steam bursts under marked soles, enabling rapid turns, wall runs, or a controlled descent.",
+      "practice": "Boot chambers hold a measured charge and an ankle charm binds the release sequence.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Each burst leaves a wet hot print; the boots chill and the ankles inherit recoil.",
+      "failure": "A chamber fires out of order, repeats after landing, or traps pressure when the sole is blocked.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Damage a chamber, flood a charm, or force a fourth unplanned step.",
+      "mastery": "An expert converts the final burst into braking and accepts a shorter route when terrain changes.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 13 | PROOF BRAIDING + TURNING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x15",
+    "title": "Condenser's Eye",
+    "description": "Reads invisible humidity and temperature layers as bands of condensation, revealing ventilation, living breath, hidden chambers, and recent machinery.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:practical-workings"
+    ],
+    "facts": {
+      "originalId": "X15",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:fire-divination",
+        "stream:water-divination"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Perception And Memory",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X15",
+        "location": "Fire + Water: Thermal Exchange / Practical Workings / X15"
+      }
+    },
+    "aliases": [
+      "X15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Divination | Th2 Tu1 Kn1 Sp2 Ho1 Fi3 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Reads invisible humidity and temperature layers as bands of condensation, revealing ventilation, living breath, hidden chambers, and recent machinery.",
+      "practice": "A thin silver bowl serves as both cooled sensor and reciprocal warning surface.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Observed spaces gain a faint route back through their warm moisture; the reader's own breath becomes part of the map.",
+      "failure": "Similar gradients are mistaken for the same source, or the bowl condenses a misleading historical layer.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Equalise temperature, dry the air, or send false warm vapour through a decoy route.",
+      "mastery": "Masters compare several controlled bowl temperatures and separate current flow from retained damp.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 11 | PROOF BRAIDING + TURNING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x16",
+    "title": "Fog Harbour",
+    "description": "Binds a persistent low fog to a dock, camp, or street while leaving marked navigation lanes clearer from within than without.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:practical-workings"
+    ],
+    "facts": {
+      "originalId": "X16",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:enchantment",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:fire-enchantment",
+        "stream:fire-veiling",
+        "stream:water-enchantment",
+        "stream:water-veiling"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X16",
+        "location": "Fire + Water: Thermal Exchange / Practical Workings / X16"
+      }
+    },
+    "aliases": [
+      "X16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Enchantment",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Veiling > Enchantment | Th2 Tu2 Kn2 Sp2 Ho1 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Binds a persistent low fog to a dock, camp, or street while leaving marked navigation lanes clearer from within than without.",
+      "practice": "Heated stones at the perimeter breathe through wet rope lanes.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The fog steals warmth, wets stores, and omits friendly signals not encoded in the lane system.",
+      "failure": "Lanes drift, the fog thickens into cold rain, or it begins treating residents as part of the concealed site.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Move a perimeter stone, heat the ground uniformly, or follow maintenance traffic.",
+      "mastery": "Experts let outer fog dissipate when lanes shift instead of preserving opacity at the cost of navigation.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 12 | PROOF BRAIDING + TURNING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x17",
+    "title": "Sterile Rain",
+    "description": "Washes tools, wounds, or a small room with warm droplets that lift contamination, then release a brief sterilising pulse in the runoff.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:practical-workings"
+    ],
+    "facts": {
+      "originalId": "X17",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-restoration",
+        "stream:fire-evocation",
+        "stream:water-restoration",
+        "stream:water-evocation"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X17",
+        "location": "Fire + Water: Thermal Exchange / Practical Workings / X17"
+      }
+    },
+    "aliases": [
+      "X17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Restoration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Restoration > Evocation | Th2 Tu2 Kn2 Sp2 Ho1 Fi3 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Washes tools, wounds, or a small room with warm droplets that lift contamination, then release a brief sterilising pulse in the runoff.",
+      "practice": "All runoff is collected in a black tray; living exclusions are marked before the rain begins.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Contaminants concentrate in the tray, beneficial organisms die at the margins, and the room becomes dry and cool afterward.",
+      "failure": "The pulse occurs before runoff leaves tissue, or Restoration seals contamination into an earlier apparently clean state.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Remove the tray, blur exclusions, or introduce heat-resistant contamination.",
+      "mastery": "An expert pulses only collected runoff and leaves uncertain living surfaces for separate treatment.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 13 | PROOF BRAIDING + TURNING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x18",
+    "title": "Copper Kettle Familiar",
+    "description": "Calls a small steam-bodied servant into a prepared kettle to stir, whistle warnings, carry hot water, and tend one hearth.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:practical-workings"
+    ],
+    "facts": {
+      "originalId": "X18",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-conjuration",
+        "stream:fire-enchantment",
+        "stream:water-conjuration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 2,
+        "contradiction": 2
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X18",
+        "location": "Fire + Water: Thermal Exchange / Practical Workings / X18"
+      }
+    },
+    "aliases": [
+      "X18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Conjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 1 | Conjuration > Enchantment | Th2 Tu2 Kn1 Sp2 Ho1 Fi2 Ag2 Co2 | Carrier: personal with a focus.",
+      "purpose": "Calls a small steam-bodied servant into a prepared kettle to stir, whistle warnings, carry hot water, and tend one hearth.",
+      "practice": "The kettle's maker-name and a daily measure of water define its body and limits.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Arrival dries nearby air, the familiar consumes fuel, and the binding develops household habits and preferences.",
+      "failure": "It overfills itself, interprets every chill as danger, or refuses tasks that threaten its kettle.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Dismantle the kettle, withhold fuel, or exploit conflicting household commands.",
+      "mastery": "Masters give the familiar a clear rest state and dismiss it before dependency becomes ownership.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 14 | PROOF BRAIDING + TURNING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x19",
+    "title": "Laundry of White Hands",
+    "description": "Cleans, dries, and returns cloth toward its sound colour and weave without treating every stain or repair as damage.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:practical-workings"
+    ],
+    "facts": {
+      "originalId": "X19",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-restoration",
+        "stream:water-alteration",
+        "stream:water-restoration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Infrastructure",
+      "doctrine": "QUENCH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 3,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X19",
+        "location": "Fire + Water: Thermal Exchange / Practical Workings / X19"
+      }
+    },
+    "aliases": [
+      "X19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Alteration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Alteration > Restoration | Th2 Tu2 Kn2 Sp2 Ho3 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Cleans, dries, and returns cloth toward its sound colour and weave without treating every stain or repair as damage.",
+      "practice": "Sort by fibre and history; each basin holds a sample of the accepted finished state.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Dye, scent, dirt, and memory concentrate in wastewater; heat weakens delicate fibres if rushed.",
+      "failure": "The working removes ceremonial stains, restores an unwanted old colour, or shrinks cloth to a former size.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Mix histories, poison the reference basin, or introduce composite fibres.",
+      "mastery": "An expert asks what should remain before deciding what clean means.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 14 | PROOF BRAIDING + TURNING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x20",
+    "title": "Duelist's Temper",
+    "description": "Binds a weapon to alternate between a hot cutting edge and a cool resilient spine according to the wielder's measured cadence.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:practical-workings"
+    ],
+    "facts": {
+      "originalId": "X20",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-enchantment",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X20",
+        "location": "Fire + Water: Thermal Exchange / Practical Workings / X20"
+      }
+    },
+    "aliases": [
+      "X20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 1 | Enchantment | Th2 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Binds a weapon to alternate between a hot cutting edge and a cool resilient spine according to the wielder's measured cadence.",
+      "practice": "The blade is heated and quenched to the rhythm before battle; missed beats suspend the effect.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Metal accumulates stress, the wielder dehydrates, and the weapon becomes dependent on a narrow style.",
+      "failure": "The hot edge reaches the hilt, the cool spine becomes brittle, or cadence persists after the fight.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Break the rhythm, force an unfamiliar guard, or attack the quenched spine during transition.",
+      "mastery": "A master varies cadence within a safe family and idles the blade rather than forcing it through exhaustion.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 13 | PROOF BRAIDING + TURNING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x21",
+    "title": "Flash-Boil Spear",
+    "description": "Marks a narrow volume of liquid or saturated material, then converts only that volume into an explosive pressure channel.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "X21",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-evocation",
+        "stream:water-alteration",
+        "stream:water-evocation"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Direct Intervention",
+      "doctrine": "BOILER LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 3,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X21",
+        "location": "Fire + Water: Thermal Exchange / Expert Formulae / X21"
+      }
+    },
+    "aliases": [
+      "X21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 + Water 2 | Alteration > Evocation | Th2 Tu2 Kn1 Sp3 Ho0 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Marks a narrow volume of liquid or saturated material, then converts only that volume into an explosive pressure channel.",
+      "practice": "A three-ring sight defines depth, width, and safe vent direction; a remote sink accepts rejected heat.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The target fractures from within, mineral-laden steam spreads, and both sight and sink accumulate dangerous opposition.",
+      "failure": "The marked volume expands beyond its boundary, the vent turns toward a cold body, or the Turn reverses into sudden quenching.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break a sight ring, desaturate the target, or overload the sink.",
+      "mastery": "A master shrinks the channel when material knowledge is uncertain and vents harmlessly before contradiction snaps.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 12 | PROOF BRAIDING + REDIRECTION | BOILER LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x22",
+    "title": "Leidenfrost Mantle",
+    "description": "Maintains a moving vapour film that lets a person cross brief flame, boiling liquid, or searing surfaces without direct contact.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "X22",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-abjuration",
+        "stream:fire-enchantment",
+        "stream:water-abjuration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Protection And Repair",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X22",
+        "location": "Fire + Water: Thermal Exchange / Expert Formulae / X22"
+      }
+    },
+    "aliases": [
+      "X22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 + Water 2 | Enchantment > Abjuration | Th2 Tu2 Kn2 Sp3 Ho2 Fi3 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Maintains a moving vapour film that lets a person cross brief flame, boiling liquid, or searing surfaces without direct contact.",
+      "practice": "A wet undergarment and heat-responsive outer scales carry the film and rejection boundary.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The wearer loses water rapidly, surfaces become slick, and rejected heat accumulates at gaps and exits.",
+      "failure": "The film collapses under pressure, seals steam against skin, or rejects cooling air after danger passes.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Pierce the garment, dry the supply, apply sustained mass, or block vapour escape.",
+      "mastery": "Experts dismiss the film segment by segment and never confuse spectacular protection with long exposure.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 16 | PROOF BRAIDING + REDIRECTION | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x23",
+    "title": "Pressure Crown",
+    "description": "Binds a controllable pressure field around a chamber, crowd, or machine, increasing or easing force along selected directions.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "X23",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-enchantment",
+        "stream:water-alteration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Control And Regulation",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X23",
+        "location": "Fire + Water: Thermal Exchange / Expert Formulae / X23"
+      }
+    },
+    "aliases": [
+      "X23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 + Water 2 | Enchantment > Alteration | Th2 Tu2 Kn3 Sp3 Ho2 Fi3 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds a controllable pressure field around a chamber, crowd, or machine, increasing or easing force along selected directions.",
+      "practice": "A ring of valve-staves carries radial segments and a central operator reads every pressure debt.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Walls, ears, lungs, and seals bear unequal stress; the field develops preferred routes with use.",
+      "failure": "Segments couple, the crown follows movement as command, or relief in one sector becomes crushing force in another.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Jam a valve-staff, alter the chamber volume, or force the operator to track too many moving bodies.",
+      "mastery": "A master releases radial symmetry and manages only the sectors that still matter.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 17 | PROOF BRAIDING + REDIRECTION | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x24",
+    "title": "Vapour Road",
+    "description": "Conjures a rolling track of dense warm vapour that supports light vehicles, softens falls, and climbs modest slopes.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "X24",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-conjuration",
+        "stream:fire-enchantment",
+        "stream:water-conjuration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Movement And Flow",
+      "doctrine": "QUENCH LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X24",
+        "location": "Fire + Water: Thermal Exchange / Expert Formulae / X24"
+      }
+    },
+    "aliases": [
+      "X24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Conjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Conjuration > Enchantment | Th2 Tu2 Kn2 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Conjures a rolling track of dense warm vapour that supports light vehicles, softens falls, and climbs modest slopes.",
+      "practice": "Paired boilers feed arrival while guideposts bind direction and acceptable load.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The route dries its source region, condenses into heavy rain behind traffic, and remains reciprocally visible to its origin.",
+      "failure": "The road thins under uncounted mass, forks toward a warm landmark, or rises into blinding cloud.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Remove guideposts, cool the route, overload it, or follow the rain trail to its engines.",
+      "mastery": "Experts collapse unused road behind the convoy and shed height before load-bearing certainty.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 16 | PROOF BRAIDING + REDIRECTION | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x25",
+    "title": "Thermocline Lens",
+    "description": "Makes layers of temperature and flow visible, then gently shifts one layer to test hidden circulation without opening the system.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "X25",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-divination",
+        "stream:water-alteration",
+        "stream:water-divination"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Perception And Memory",
+      "doctrine": "QUENCH LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X25",
+        "location": "Fire + Water: Thermal Exchange / Expert Formulae / X25"
+      }
+    },
+    "aliases": [
+      "X25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Alteration",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Divination > Alteration | Th2 Tu2 Kn2 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Makes layers of temperature and flow visible, then gently shifts one layer to test hidden circulation without opening the system.",
+      "practice": "A transparent tank or crystal plate mirrors the target and provides a reversible test displacement.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The test changes what it observes, and the target gains a faint thermal reflection of the reader's laboratory.",
+      "failure": "The altered layer triggers a real process, or the lens mistakes its own test for existing flow.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Disturb the mirror tank, provide a decoy circulation, or observe the laboratory through the reciprocal gradient.",
+      "mastery": "A master labels intervention separately from evidence and restores the test layer after reading it.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 16 | PROOF BRAIDING + REDIRECTION | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x26",
+    "title": "White Steam Masque",
+    "description": "Wraps a group in warm mist that changes apparent number, pace, and silhouette while preserving touch and spoken countersigns inside.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "X26",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-veiling",
+        "stream:water-alteration",
+        "stream:water-veiling"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "QUENCH LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X26",
+        "location": "Fire + Water: Thermal Exchange / Expert Formulae / X26"
+      }
+    },
+    "aliases": [
+      "X26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Alteration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 + Water 2 | Veiling > Alteration | Th2 Tu2 Kn3 Sp3 Ho2 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Wraps a group in warm mist that changes apparent number, pace, and silhouette while preserving touch and spoken countersigns inside.",
+      "practice": "Each member carries a condensation mask; a leader adjusts shared ratio through a heated bowl.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The group becomes wet and conspicuous to thermal senses; omitted faces are also hard for allies to remember afterward.",
+      "failure": "Masques merge identities, countersigns wash away, or Fire dominance turns disguise into a luminous plume.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Separate the group, cool the bowl, track footprints, or use nonvisual names.",
+      "mastery": "An expert lets the illusion fragment around stragglers rather than dragging the whole group into one false body.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 16 | PROOF BRAIDING + REDIRECTION | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x27",
+    "title": "Mercy of Opposed Hands",
+    "description": "Treats burns, frostbite, shock, and dangerous fever by restoring viable thermal exchange rather than forcing a normal temperature immediately.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "X27",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-restoration",
+        "stream:water-alteration",
+        "stream:water-restoration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 18,
+      "calculatedLoad": 18,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X27",
+        "location": "Fire + Water: Thermal Exchange / Expert Formulae / X27"
+      }
+    },
+    "aliases": [
+      "X27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Alteration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 + Water 2 | Restoration > Alteration | Th2 Tu2 Kn3 Sp3 Ho2 Fi4 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Treats burns, frostbite, shock, and dangerous fever by restoring viable thermal exchange rather than forcing a normal temperature immediately.",
+      "practice": "Two healers hold hot and cool references while a third monitors circulation and consent.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Heat, fluid, inflammation, and pain redistribute into treatment baths; old thermal injuries may reassert themselves.",
+      "failure": "The body oscillates, one healer's ideal dominates, or Restoration revives circulation through dead tissue.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Break reference balance, contaminate baths, or conceal a prior injury.",
+      "mastery": "Masters preserve the patient's adaptive response and shed speed before choosing a single authoritative temperature.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 18 | PROOF BRAIDING + REDIRECTION | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x28",
+    "title": "Boiler Wyrm",
+    "description": "Calls a serpentine pressure spirit into linked boilers to patrol pipes, clear blockages, and defend the network with steam bursts.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "X28",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:evocation",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-conjuration",
+        "stream:fire-evocation",
+        "stream:fire-enchantment",
+        "stream:water-conjuration",
+        "stream:water-evocation",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 3,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X28",
+        "location": "Fire + Water: Thermal Exchange / Expert Formulae / X28"
+      }
+    },
+    "aliases": [
+      "X28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Conjuration",
+      "Evocation",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 + Water 2 | Conjuration > Enchantment > Evocation | Th2 Tu3 Kn2 Sp3 Ho2 Fi3 Ag3 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Calls a serpentine pressure spirit into linked boilers to patrol pipes, clear blockages, and defend the network with steam bursts.",
+      "practice": "Each boiler grants one body segment; an exhaust tower provides a compulsory dismissal route.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The wyrm consumes fuel and water, learns the pipe network as territory, and leaves scale and pressure scars.",
+      "failure": "It treats maintenance as intrusion, grows when new boilers join, or refuses the exhaust route.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Isolate a segment, starve fuel, change the network, or claim the exhaust tower.",
+      "mastery": "A master keeps commands local and dismisses segments as the network shrinks.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 20 | PROOF BRAIDING + REDIRECTION | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x29",
+    "title": "Engine of the Third Chamber",
+    "description": "Maintains three alternating states of heating, expansion, and condensation to provide smooth mechanical power without a single catastrophic pressure peak.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "X29",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-enchantment",
+        "stream:water-alteration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Infrastructure",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X29",
+        "location": "Fire + Water: Thermal Exchange / Expert Formulae / X29"
+      }
+    },
+    "aliases": [
+      "X29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 + Water 2 | Alteration > Enchantment | Th2 Tu2 Kn3 Sp3 Ho4 Fi3 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Maintains three alternating states of heating, expansion, and condensation to provide smooth mechanical power without a single catastrophic pressure peak.",
+      "practice": "Three chambers and a flywheel each carry one phase; no chamber may inherit the next before discharging the last.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Scale, corrosion, fuel hunger, and cyclical stress become long-term debts rather than disappearing.",
+      "failure": "Turns slip, two chambers peak together, or the engine enters a self-reinforcing acceleration.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Jam the flywheel, delay a valve, vary feedwater, or damage one phase sensor.",
+      "mastery": "Experts idle by widening intervals and can shed output without breaking phase order.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 19 | PROOF BRAIDING + REDIRECTION | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x30",
+    "title": "Glassmaker's Equinox",
+    "description": "Holds molten glass and cooling water in a balanced exchange that permits impossible thinness, inclusions, and stress-free curves.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "X30",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-restoration",
+        "stream:water-alteration",
+        "stream:water-restoration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 18,
+      "calculatedLoad": 18,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X30",
+        "location": "Fire + Water: Thermal Exchange / Expert Formulae / X30"
+      }
+    },
+    "aliases": [
+      "X30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Alteration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 + Water 2 | Alteration > Restoration | Th2 Tu2 Kn3 Sp3 Ho2 Fi4 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Holds molten glass and cooling water in a balanced exchange that permits impossible thinness, inclusions, and stress-free curves.",
+      "practice": "A paired furnace and bath share one calibrated horizon line; artisans work only where neither side dominates.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The bath becomes mineral-rich, the furnace cools unevenly, and finished glass carries a memory of the opposition.",
+      "failure": "Contradiction snaps into explosive shattering or the glass restores toward an earlier lump.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Tilt the horizon, contaminate the bath, or introduce an inclusion with unknown heat memory.",
+      "mastery": "A master leaves a visible stress witness in every masterpiece so future repairers can read the balance.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 18 | PROOF BRAIDING + REDIRECTION | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x31",
+    "title": "Sea of Steam",
+    "description": "Converts a mapped battlefield surface into rolling steam fronts that deny sight, scald exposed forces, and drive selected pressure corridors.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:rites"
+    ],
+    "facts": {
+      "originalId": "X31",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation",
+        "stream:water-evocation"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Direct Intervention",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 2,
+        "span": 4,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 3
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X31",
+        "location": "Fire + Water: Thermal Exchange / Rites / X31"
+      }
+    },
+    "aliases": [
+      "X31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Evocation | Th2 Tu1 Kn2 Sp4 Ho1 Fi3 Ag0 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Converts a mapped battlefield surface into rolling steam fronts that deny sight, scald exposed forces, and drive selected pressure corridors.",
+      "practice": "Hydrologists, stokers, wind observers, and corridor wardens carry separate dimensions of the rite.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Water and heat are massively redistributed; rain, drought, burns, and pressure debt extend far beyond the field.",
+      "failure": "Fronts flash-boil, safe corridors collapse, or the sea condenses as a crushing downpour on an unintended region.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Drain source water, cool a front, redirect wind, or sabotage corridor maps.",
+      "mastery": "The conductor sacrifices battlefield coverage before any protected corridor becomes uncertain.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 16 | PROOF RECONCILIATION + REDIRECTION | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x32",
+    "title": "Quenching Bastion",
+    "description": "Surrounds a city with layered heat exchange that rejects fire, frost, boiling assault, and thermal shock while restoring walls toward safe gradients.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:rites"
+    ],
+    "facts": {
+      "originalId": "X32",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-abjuration",
+        "stream:fire-restoration",
+        "stream:fire-enchantment",
+        "stream:water-abjuration",
+        "stream:water-restoration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Protection And Repair",
+      "doctrine": "QUENCH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X32",
+        "location": "Fire + Water: Thermal Exchange / Rites / X32"
+      }
+    },
+    "aliases": [
+      "X32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Abjuration",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 + Water 4 | Abjuration > Restoration > Enchantment | Th2 Tu3 Kn3 Sp4 Ho3 Fi3 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Surrounds a city with layered heat exchange that rejects fire, frost, boiling assault, and thermal shock while restoring walls toward safe gradients.",
+      "practice": "Moats, heat vaults, wall cisterns, and district crews each hold one band and its debt ledger.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The city exports heat and cold into chosen lands, masonry recalls old cracks, and the defence becomes dependent on maintained water routes.",
+      "failure": "One band reverses, vaults rupture, or Restoration returns obsolete gates and weak mortar.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Cut cistern routes, poison a vault, alternate hot and cold attacks, or exploit an old structural memory.",
+      "mastery": "A master opens a damaged band and evacuates it instead of forcing the bastion to pretend continuity.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 20 | PROOF RECONCILIATION + REDIRECTION | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x33",
+    "title": "Weather Mill",
+    "description": "Uses controlled evaporation and condensation to moderate fog, rain timing, frost, and heat over an agricultural district without commanding Air directly.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:rites"
+    ],
+    "facts": {
+      "originalId": "X33",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-enchantment",
+        "stream:water-alteration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Control And Regulation",
+      "doctrine": "QUENCH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X33",
+        "location": "Fire + Water: Thermal Exchange / Rites / X33"
+      }
+    },
+    "aliases": [
+      "X33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 + Water 4 | Alteration > Enchantment | Th2 Tu2 Kn4 Sp4 Ho3 Fi3 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Uses controlled evaporation and condensation to moderate fog, rain timing, frost, and heat over an agricultural district without commanding Air directly.",
+      "practice": "Reservoirs, solar furnaces, cooling towers, and crop councils set a seasonal exchange schedule.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Moisture and heat shift across boundaries; neighbouring districts may inherit drought, cloud, or unseasonable warmth.",
+      "failure": "The mill locks into one season, condenses rain above the towers, or draws heat from vulnerable nights.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Capture a reservoir, shade furnaces, overload cooling towers, or alter crop demand records.",
+      "mastery": "Masters keep broad bands and accept imperfect weather rather than micromanage every field.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 20 | PROOF RECONCILIATION + REDIRECTION | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x34",
+    "title": "River of Engines",
+    "description": "Binds a navigable river into a chain of pressure, heat, and condensation engines that powers cities while preserving fish passage and flood freedom.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:rites"
+    ],
+    "facts": {
+      "originalId": "X34",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-enchantment",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Movement And Flow",
+      "doctrine": "QUENCH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X34",
+        "location": "Fire + Water: Thermal Exchange / Rites / X34"
+      }
+    },
+    "aliases": [
+      "X34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 + Water 4 | Enchantment | Th2 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Binds a navigable river into a chain of pressure, heat, and condensation engines that powers cities while preserving fish passage and flood freedom.",
+      "practice": "Each district holds a reversible engine and no dam may become an unbreakable anchor.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The river becomes infrastructure, thermal ecology shifts, and upstream decisions create downstream dependencies.",
+      "failure": "Engines synchronise into runaway pressure, fish corridors become decorative lies, or drought turns power demand into water theft.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Desynchronise a district, block cooling flow, force drought, or exploit the network's shared cadence.",
+      "mastery": "A master sheds industrial output before the river's independent life and exit routes.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 19 | PROOF RECONCILIATION + REDIRECTION | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x35",
+    "title": "Oracle of Falling Dew",
+    "description": "Reads a region's coming thermal and hydrological pressures in where dew forms, then restores the test field so the omen does not become its own cause.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:rites"
+    ],
+    "facts": {
+      "originalId": "X35",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:fire-restoration",
+        "stream:fire-divination",
+        "stream:water-restoration",
+        "stream:water-divination"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Perception And Memory",
+      "doctrine": "QUENCH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X35",
+        "location": "Fire + Water: Thermal Exchange / Rites / X35"
+      }
+    },
+    "aliases": [
+      "X35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Restoration",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 + Water 4 | Divination > Restoration | Th2 Tu2 Kn3 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Reads a region's coming thermal and hydrological pressures in where dew forms, then restores the test field so the omen does not become its own cause.",
+      "practice": "Thousands of black and silver plates are placed across elevations and read before sunrise.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Observation creates a reciprocal weather relation; restoring plates cannot erase choices already influenced by the forecast.",
+      "failure": "The oracle predicts its own intervention, privileged sites dominate, or Restoration cleans away contradictory evidence.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Heat plates, steal reports, seed false moisture, or follow the reciprocal link to the readers.",
+      "mastery": "The master publishes confidence ranges and preserves failed predictions as part of the next pattern.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 20 | PROOF RECONCILIATION + REDIRECTION | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x36",
+    "title": "Province of Mist",
+    "description": "Maintains a moving provincial veil that hides roads, troop numbers, and settlement lights while leaving internal seasons and navigation partly intact.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:rites"
+    ],
+    "facts": {
+      "originalId": "X36",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:enchantment",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:fire-enchantment",
+        "stream:fire-veiling",
+        "stream:water-enchantment",
+        "stream:water-veiling"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "QUENCH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X36",
+        "location": "Fire + Water: Thermal Exchange / Rites / X36"
+      }
+    },
+    "aliases": [
+      "X36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Enchantment",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 + Water 4 | Veiling > Enchantment | Th2 Tu2 Kn4 Sp4 Ho3 Fi3 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Maintains a moving provincial veil that hides roads, troop numbers, and settlement lights while leaving internal seasons and navigation partly intact.",
+      "practice": "Mist towers, warm springs, and local route songs divide the enormous omission burden.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Sunlight, health, crops, and memory of outsiders diminish; the province becomes dependent on its own secret map.",
+      "failure": "The veil erases trade partners, traps residents, or condenses into floods where songs are forgotten.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Destroy a tower, counterfeit a route song, dry a spring, or reveal the province through nonvisual correspondences.",
+      "mastery": "Masters preserve public exits and let strategic details leak rather than make the province unknowable to itself.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 20 | PROOF RECONCILIATION + REDIRECTION | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x37",
+    "title": "Rain of Tempering",
+    "description": "Falls as calibrated warm and cool rain across burned fields, cracked masonry, metal roofs, and wounded bodies, returning each toward a viable thermal state.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:rites"
+    ],
+    "facts": {
+      "originalId": "X37",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-restoration",
+        "stream:water-alteration",
+        "stream:water-restoration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "QUENCH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X37",
+        "location": "Fire + Water: Thermal Exchange / Rites / X37"
+      }
+    },
+    "aliases": [
+      "X37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Alteration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 + Water 4 | Restoration > Alteration | Th2 Tu2 Kn4 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Falls as calibrated warm and cool rain across burned fields, cracked masonry, metal roofs, and wounded bodies, returning each toward a viable thermal state.",
+      "practice": "Survey guilds classify surfaces and living exclusions; paired reservoirs carry hot and cold references.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Runoff concentrates ash and toxins, unlike materials compete for the same rain, and old structural flaws can return.",
+      "failure": "Classification fails, bodies are treated like masonry, or rapid cycling shatters what the rain meant to save.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Change labels, contaminate reservoirs, or introduce mixed materials after survey.",
+      "mastery": "The conductor narrows target classes and abandons visual simultaneity before Fineness fails.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 21 | PROOF RECONCILIATION + REDIRECTION | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x38",
+    "title": "Choir of Geysers",
+    "description": "Calls a timed field of geysers from prepared wells to lift siege platforms, power horns, breach earthworks, or create moving barriers.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:rites"
+    ],
+    "facts": {
+      "originalId": "X38",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-conjuration",
+        "stream:fire-evocation",
+        "stream:water-conjuration",
+        "stream:water-evocation"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "BOILER LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 2
+      },
+      "sourceLoad": 23,
+      "calculatedLoad": 23,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X38",
+        "location": "Fire + Water: Thermal Exchange / Rites / X38"
+      }
+    },
+    "aliases": [
+      "X38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Conjuration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 3 | Conjuration > Evocation | Th2 Tu2 Kn3 Sp4 Ho3 Fi3 Ag4 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Calls a timed field of geysers from prepared wells to lift siege platforms, power horns, breach earthworks, or create moving barriers.",
+      "practice": "Each well has a singer and pressure reader; the score contains compulsory rests and emergency solos.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Aquifers shift, minerals spread, ground subsides, and the arrival routes remain open to deep heat and water.",
+      "failure": "Wells answer the wrong singer, harmonics couple into eruption, or a rest is skipped under battlefield pressure.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Silence singers, collapse wells, alter water chemistry, or exploit the compulsory rests.",
+      "mastery": "A master cuts voices until every remaining geyser is individually legible.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 23 | PROOF RECONCILIATION + REDIRECTION | BOILER LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x39",
+    "title": "District Boiler-Heart",
+    "description": "Maintains civic heat, motive power, sterilisation, cooling, and hot water through a balanced district-scale engine.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:rites"
+    ],
+    "facts": {
+      "originalId": "X39",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-enchantment",
+        "stream:water-alteration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Infrastructure",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 3
+      },
+      "sourceLoad": 24,
+      "calculatedLoad": 24,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X39",
+        "location": "Fire + Water: Thermal Exchange / Rites / X39"
+      }
+    },
+    "aliases": [
+      "X39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Enchantment > Alteration | Th2 Tu2 Kn4 Sp4 Ho4 Fi3 Ag2 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Maintains civic heat, motive power, sterilisation, cooling, and hot water through a balanced district-scale engine.",
+      "practice": "Guilds separately govern fuel, water, pressure, distribution, sinks, and shutdown authority.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Dependency becomes political; scale, corrosion, waste heat, drought, and fuel extraction accumulate as visible municipal debt.",
+      "failure": "Efficiency hides growing pressure, one guild captures shutdown, or the Heart begins protecting demand rather than people.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Cut a feed, falsify gauges, seize a guild, or poison a heat sink.",
+      "mastery": "Mastery is shared authority and graceful degradation: hospitals remain while baths and industry go dark.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 24 | PROOF RECONCILIATION + REDIRECTION | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x40",
+    "title": "Treaty of Bath and Flame",
+    "description": "Creates a neutral thermal sanctuary where hostile parties feel one another's strain as changes in shared pools and braziers before violence begins.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:rites"
+    ],
+    "facts": {
+      "originalId": "X40",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:fire-enchantment",
+        "stream:fire-divination",
+        "stream:water-enchantment",
+        "stream:water-divination"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 3
+      },
+      "sourceLoad": 24,
+      "calculatedLoad": 24,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X40",
+        "location": "Fire + Water: Thermal Exchange / Rites / X40"
+      }
+    },
+    "aliases": [
+      "X40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 + Water 3 | Enchantment > Divination | Th2 Tu2 Kn4 Sp4 Ho3 Fi4 Ag2 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Creates a neutral thermal sanctuary where hostile parties feel one another's strain as changes in shared pools and braziers before violence begins.",
+      "practice": "Each delegation tends one pool and one flame; no mediator owns the whole readout.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Observation is reciprocal, private fear becomes public evidence, and the sanctuary develops dependence on continued ritual honesty.",
+      "failure": "The Treaty confuses illness with aggression, coerces calm, or punishes culturally different expression.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Mask bodily signs, poison a pool, substitute attendants, or challenge the interpretation openly.",
+      "mastery": "A master treats the sanctuary as warning, not judgment, and preserves the right to leave.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 24 | PROOF RECONCILIATION + REDIRECTION | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x41",
+    "title": "The Inland Sea That Breathes",
+    "description": "Creates and sustains a vast inland sea whose evaporation and condensation moderate climate, feed rivers, and power pressure cities.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:wonders"
+    ],
+    "facts": {
+      "originalId": "X41",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-conjuration",
+        "stream:fire-enchantment",
+        "stream:water-conjuration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Direct Intervention",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 3,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 4
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X41",
+        "location": "Fire + Water: Thermal Exchange / Wonders / X41"
+      }
+    },
+    "aliases": [
+      "X41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Conjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Conjuration > Enchantment | Th2 Tu2 Kn3 Sp4 Ho2 Fi4 Ag1 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates and sustains a vast inland sea whose evaporation and condensation moderate climate, feed rivers, and power pressure cities.",
+      "practice": "Mountain basins, celestial timing, aquifer consent, and heat economies jointly carry its arrival and persistence.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Water is taken from elsewhere, shorelines transform civilisation, and the sea develops ecological and political agency.",
+      "failure": "It expands toward remembered ocean, dries its source lands, or traps heat beneath a permanent vapour roof.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Sever source relations, break basin wards, disrupt heat economy, or contest the sea's true boundary.",
+      "mastery": "The founding masters leave spillways, drought authority, and a lawful path for the sea to shrink.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 22 | PROOF RECONCILIATION + UNWEAVING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x42",
+    "title": "World Quench",
+    "description": "Arrests a planetary firestorm, magical overheating, or cascading freeze by rejecting the extreme and restoring regional thermal circulation.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:wonders"
+    ],
+    "facts": {
+      "originalId": "X42",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:fire-abjuration",
+        "stream:fire-restoration",
+        "stream:water-abjuration",
+        "stream:water-restoration"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Protection And Repair",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 4
+      },
+      "sourceLoad": 26,
+      "calculatedLoad": 26,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X42",
+        "location": "Fire + Water: Thermal Exchange / Wonders / X42"
+      }
+    },
+    "aliases": [
+      "X42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Abjuration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Abjuration > Restoration | Th2 Tu2 Kn4 Sp4 Ho4 Fi4 Ag2 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Arrests a planetary firestorm, magical overheating, or cascading freeze by rejecting the extreme and restoring regional thermal circulation.",
+      "practice": "Oceans, volcanoes, glaciers, cities, and living refuges each carry separate safe bands and sinks.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The rejected extreme accumulates beyond the boundary, weather and currents reorder, and every chosen normal privileges one history.",
+      "failure": "The world swings to the opposite extreme or preserves inhabited regions by sacrificing remote ones.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Poison a global reference, collapse a sink, or drive opposed extremes simultaneously.",
+      "mastery": "Masters aim for survivable gradients and openly leave some damage rather than force a perfect global temperature.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 26 | PROOF RECONCILIATION + UNWEAVING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x43",
+    "title": "Edict of Phase",
+    "description": "Declares when water may be liquid, vapour, or ice across a realm according to named places, seasons, and civic conditions.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:wonders"
+    ],
+    "facts": {
+      "originalId": "X43",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-enchantment",
+        "stream:water-alteration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Control And Regulation",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 4
+      },
+      "sourceLoad": 27,
+      "calculatedLoad": 27,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X43",
+        "location": "Fire + Water: Thermal Exchange / Wonders / X43"
+      }
+    },
+    "aliases": [
+      "X43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Alteration > Enchantment | Th2 Tu2 Kn4 Sp4 Ho4 Fi4 Ag3 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Declares when water may be liquid, vapour, or ice across a realm according to named places, seasons, and civic conditions.",
+      "practice": "A legal-calendar lattice and boundary monuments carry millions of phase Knots.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Climate, trade, warfare, life, and ordinary weather become dependent on legal maintenance; exceptions accumulate pressure.",
+      "failure": "Metaphor becomes law, mixed substances are misclassified, or forbidden phase change erupts at borders.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Rename a substance, alter a calendar, destroy a monument, or create paradoxical temperature conditions.",
+      "mastery": "A master writes sunset clauses and permits local failure rather than preserve elegant universal control.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 27 | PROOF RECONCILIATION + UNWEAVING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x44",
+    "title": "Road of Geysers",
+    "description": "Opens a continental chain of rising vapour columns that carry vessels, messages, and travellers between hot springs in hours.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:wonders"
+    ],
+    "facts": {
+      "originalId": "X44",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:evocation",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-conjuration",
+        "stream:fire-evocation",
+        "stream:fire-enchantment",
+        "stream:water-conjuration",
+        "stream:water-evocation",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Movement And Flow",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 4
+      },
+      "sourceLoad": 28,
+      "calculatedLoad": 28,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X44",
+        "location": "Fire + Water: Thermal Exchange / Wonders / X44"
+      }
+    },
+    "aliases": [
+      "X44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Conjuration",
+      "Evocation",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Conjuration > Evocation > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag3 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Opens a continental chain of rising vapour columns that carry vessels, messages, and travellers between hot springs in hours.",
+      "practice": "Every station controls arrival pressure, rest windows, and a local descent basin.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Aquifers and deep heat become transport infrastructure, stations gain strategic power, and the route leaves thermal weather in its wake.",
+      "failure": "A station answers out of order, columns merge, or pressure arrives without a receiving basin.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Capture a station, cool a source, falsify a destination name, or overload a descent basin.",
+      "mastery": "The route-masters drop traffic at the nearest safe spring when sequence integrity fails.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 28 | PROOF RECONCILIATION + UNWEAVING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x45",
+    "title": "Ocean Thermograph",
+    "description": "Releases a measured pulse through the oceans and reads returning thermal layers to reveal currents, fleets, volcanic unrest, submerged cities, and great living masses.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:wonders"
+    ],
+    "facts": {
+      "originalId": "X45",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:evocation",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:fire-evocation",
+        "stream:fire-divination",
+        "stream:water-evocation",
+        "stream:water-divination"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Perception And Memory",
+      "doctrine": "QUENCH LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 3
+      },
+      "sourceLoad": 26,
+      "calculatedLoad": 26,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X45",
+        "location": "Fire + Water: Thermal Exchange / Wonders / X45"
+      }
+    },
+    "aliases": [
+      "X45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Evocation",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 + Water 4 | Divination > Evocation | Th2 Tu2 Kn4 Sp4 Ho4 Fi4 Ag3 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Releases a measured pulse through the oceans and reads returning thermal layers to reveal currents, fleets, volcanic unrest, submerged cities, and great living masses.",
+      "practice": "Distributed readers share sectors while sanctuary zones are excluded from the pulse.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Everything observed gains a route back, marine life is disturbed, and the pulse itself alters delicate layers.",
+      "failure": "Returns overlap into false continents, sanctuary boundaries become visible, or the pulse wakes what it finds.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Hide within natural gradients, scatter false heat, break reader consensus, or follow the pulse to its observatories.",
+      "mastery": "Masters lower resolution and preserve sanctuaries when a sharper image would create unacceptable attention.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 26 | PROOF RECONCILIATION + UNWEAVING | QUENCH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x46",
+    "title": "Great White Veil",
+    "description": "Wraps a civilisation in a global bank of reflective vapour that rejects distant sight, radiant targeting, and many celestial correspondences.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:wonders"
+    ],
+    "facts": {
+      "originalId": "X46",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:fire-abjuration",
+        "stream:fire-veiling",
+        "stream:water-abjuration",
+        "stream:water-veiling"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 4
+      },
+      "sourceLoad": 27,
+      "calculatedLoad": 27,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X46",
+        "location": "Fire + Water: Thermal Exchange / Wonders / X46"
+      }
+    },
+    "aliases": [
+      "X46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Abjuration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Veiling > Abjuration | Th2 Tu2 Kn4 Sp4 Ho4 Fi4 Ag3 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Wraps a civilisation in a global bank of reflective vapour that rejects distant sight, radiant targeting, and many celestial correspondences.",
+      "practice": "Sky towers maintain reflectivity, internal navigation, rainfall corridors, and deliberate windows to the outside.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Climate cools, astronomy fades, outsiders are omitted, and the civilisation risks forgetting how to be seen or reached.",
+      "failure": "The veil freezes, blocks beneficial light, seals the windows, or begins rejecting emigrants as foreign relations.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Destroy towers, seed condensation, attack through underground relation, or exploit a lawful window.",
+      "mastery": "A master keeps reciprocal contact and lets enemies learn something rather than turn protection into ontological isolation.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 27 | PROOF RECONCILIATION + UNWEAVING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x47",
+    "title": "Spring of Balanced Blood",
+    "description": "Creates a healing spring that restores circulation, fever response, hydration, and thermal regulation across many species without enforcing one bodily norm.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:wonders"
+    ],
+    "facts": {
+      "originalId": "X47",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-restoration",
+        "stream:fire-enchantment",
+        "stream:water-restoration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 28,
+      "calculatedLoad": 28,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X47",
+        "location": "Fire + Water: Thermal Exchange / Wonders / X47"
+      }
+    },
+    "aliases": [
+      "X47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Restoration > Enchantment | Th2 Tu2 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a healing spring that restores circulation, fever response, hydration, and thermal regulation across many species without enforcing one bodily norm.",
+      "practice": "Species councils, healers, and the spring's own evolving ecology hold separate viable ranges.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Disease and vitality can travel together, heat and water come from real regions, and dependence draws populations toward the spring.",
+      "failure": "The spring equalises unlike bodies, selects survival over consent, or becomes a reservoir for every expelled illness.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Poison a reference pool, introduce an unknown species, block outlets, or capture access.",
+      "mastery": "The custodians prove mastery by limiting use, preserving refusal, and closing the spring when its ecology cannot carry more debt.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 28 | PROOF RECONCILIATION + UNWEAVING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x48",
+    "title": "Leviathan of Steam",
+    "description": "Calls a colossal pressure-being from ocean and mantle heat to tow islands, break fleets, herd storms, or reshape coasts.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:wonders"
+    ],
+    "facts": {
+      "originalId": "X48",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:evocation",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-conjuration",
+        "stream:fire-evocation",
+        "stream:fire-enchantment",
+        "stream:water-conjuration",
+        "stream:water-evocation",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X48",
+        "location": "Fire + Water: Thermal Exchange / Wonders / X48"
+      }
+    },
+    "aliases": [
+      "X48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Conjuration",
+      "Evocation",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Conjuration > Enchantment > Evocation | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Calls a colossal pressure-being from ocean and mantle heat to tow islands, break fleets, herd storms, or reshape coasts.",
+      "practice": "A chain of named vents forms its body; coastal nations hold joint command and dismissal.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The Leviathan consumes currents and geothermal pressure, leaves scalded seas, and learns coastlines as obligations.",
+      "failure": "It chooses its own interpretation of protection, outgrows the vent chain, or treats all ships as parasites.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Sever vents, cool a body segment, divide command, or lure it into water too deep for its pressure pattern.",
+      "mastery": "A master keeps its task finite and dismisses it before gratitude becomes sovereignty.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x49",
+    "title": "Crown of the Sleeping Caldera",
+    "description": "Binds a volcanic caldera and its lake into a self-watching crown that vents, cools, and warns before catastrophic eruption.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:wonders"
+    ],
+    "facts": {
+      "originalId": "X49",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:fire-abjuration",
+        "stream:fire-enchantment",
+        "stream:fire-divination",
+        "stream:water-abjuration",
+        "stream:water-enchantment",
+        "stream:water-divination"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Infrastructure",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X49",
+        "location": "Fire + Water: Thermal Exchange / Wonders / X49"
+      }
+    },
+    "aliases": [
+      "X49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Abjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Enchantment > Abjuration > Divination | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Binds a volcanic caldera and its lake into a self-watching crown that vents, cools, and warns before catastrophic eruption.",
+      "practice": "Deep sensors, spillways, sacrificial vents, and local evacuation law form one permanent institution.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Pressure is managed, not erased; lake chemistry changes, minor eruptions become routine, and the Crown gains authority over settlement.",
+      "failure": "It suppresses warnings to preserve calm, sacrifices an unrepresented district, or stores pressure beneath a perfect surface.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Blind sensors, capture evacuation law, block a vent, or falsify population maps.",
+      "mastery": "Mastery lies in regular small releases, public bad news, and the willingness to abandon the Crown's appearance of control.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | EQUINOX LENS"
+    }
+  },
+  {
+    "id": "spell:fire-water-thermal-exchange:x50",
+    "title": "The Tempering of a Season",
+    "description": "Takes one disastrous season and tempers it into a survivable relation of heat, cold, rain, drought, harvest, disease, and migration without pretending it never occurred.",
+    "parentGroupIds": [
+      "shelf:fire-water-thermal-exchange:wonders"
+    ],
+    "facts": {
+      "originalId": "X50",
+      "collectionId": "collection:fire-water-thermal-exchange",
+      "collectionTitle": "Fire + Water: Thermal Exchange",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:fire",
+        "aspect:water"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:fire-alteration",
+        "stream:fire-restoration",
+        "stream:fire-enchantment",
+        "stream:water-alteration",
+        "stream:water-restoration",
+        "stream:water-enchantment"
+      ],
+      "compositeId": "composite:fire-water",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "EQUINOX LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-water-thermal-exchange",
+        "originalId": "X50",
+        "location": "Fire + Water: Thermal Exchange / Wonders / X50"
+      }
+    },
+    "aliases": [
+      "X50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Alteration",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 + Water 4 | Alteration > Restoration > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Takes one disastrous season and tempers it into a survivable relation of heat, cold, rain, drought, harvest, disease, and migration without pretending it never occurred.",
+      "practice": "Every region contributes losses it will accept, states it hopes to restore, and changes it insists on keeping.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The season becomes a negotiated artifact; displaced extremes and political resentment persist into later years.",
+      "failure": "The rite restores an unjust old normal, smooths all difference into sterile weather, or postpones catastrophe into the next season.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Withdraw a region, falsify accepted loss, overload a sink, or introduce a new crisis after the target state is fixed.",
+      "mastery": "The seasonal masters leave revision points, visible debt, and enough disorder for the living world to adapt.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | EQUINOX LENS"
+    }
+  }
+]

@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "spell:void-veiling:v01",
+    "title": "Hush Thread",
+    "description": "Removes the sound of one taut string, hinge, latch, or tiny mechanism for several breaths.",
+    "parentGroupIds": [
+      "shelf:void-veiling:lessons"
+    ],
+    "facts": {
+      "originalId": "V01",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "MAW LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 4,
+      "calculatedLoad": 4,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V01",
+        "location": "Void Veiling / Lessons / V01"
+      }
+    },
+    "aliases": [
+      "V01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 1 | Veiling | Th1 Tu1 Kn0 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Removes the sound of one taut string, hinge, latch, or tiny mechanism for several breaths.",
+      "practice": "Tie a black thread to the source, preserve one audible warning, and name the person allowed to break the hush.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The missing sound gathers as pressure in the thread, while nearby noises lose a little context and direction.",
+      "failure": "The veil spreads to speech, hides a safety signal, or releases every stored vibration when the thread snaps.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Cut the thread deliberately, strike an unrelated resonance, touch the source directly, or invoke the protected warning.",
+      "mastery": "A master leaves enough imperfection to diagnose motion and ends silence before it becomes surprise.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 4 | PROOF HEARING + HOLDING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v02",
+    "title": "Blindfold Ward",
+    "description": "Removes one small object or marked handspan from casual sight while leaving touch, sound, and deliberate search intact.",
+    "parentGroupIds": [
+      "shelf:void-veiling:lessons"
+    ],
+    "facts": {
+      "originalId": "V02",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "VEIL LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V02",
+        "location": "Void Veiling / Lessons / V02"
+      }
+    },
+    "aliases": [
+      "V02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 1 | Veiling | Th1 Tu1 Kn1 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Removes one small object or marked handspan from casual sight while leaving touch, sound, and deliberate search intact.",
+      "practice": "Cover the subject once, preserve a retrieval edge, and forbid the Pattern from hiding anyone who asks for help.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Observers remember an unimportant gap, the subject loses visual context, and the caster becomes slightly less able to picture it.",
+      "failure": "The edge disappears, concealment follows whoever carries the object, or witnesses fill the gap with a false certainty.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Touch the area, change the light, name the missing boundary, or search by another sense.",
+      "mastery": "An expert preserves discoverability and accepts a visible seam before concealment becomes omission.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 5 | PROOF HEARING + HOLDING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v03",
+    "title": "Absence Cup",
+    "description": "Makes a small cup seem empty of scent, colour, warmth, and significance without changing its physical contents.",
+    "parentGroupIds": [
+      "shelf:void-veiling:lessons"
+    ],
+    "facts": {
+      "originalId": "V03",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "VEIL LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V03",
+        "location": "Void Veiling / Lessons / V03"
+      }
+    },
+    "aliases": [
+      "V03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 1 | Veiling | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Makes a small cup seem empty of scent, colour, warmth, and significance without changing its physical contents.",
+      "practice": "Name the concealed properties separately and leave weight outside the veil as a warning.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Context drains from the cup, nearby vessels seem comparatively vivid, and the caster briefly forgets why the cup mattered.",
+      "failure": "The Pattern hides poison as harmlessness, removes the warning weight, or treats contents and container as one absence.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Lift the cup, spill it, introduce a strong reaction, or ask what purpose the vessel serves.",
+      "mastery": "A master conceals only the declared property and records the reason before memory frays.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 6 | PROOF HEARING + HOLDING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v04",
+    "title": "Step Without Footfall",
+    "description": "Removes the sound and immediate trace of one careful step across a marked surface.",
+    "parentGroupIds": [
+      "shelf:void-veiling:lessons"
+    ],
+    "facts": {
+      "originalId": "V04",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "MAW LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V04",
+        "location": "Void Veiling / Lessons / V04"
+      }
+    },
+    "aliases": [
+      "V04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 1 | Veiling | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Removes the sound and immediate trace of one careful step across a marked surface.",
+      "practice": "Leave the destination audible, keep balance unaltered, and bind the omission to a single footfall.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The surface loses a tiny memory of contact, nearby trackers feel a discontinuity, and the traveller's next step sounds unusually distinct.",
+      "failure": "The veil removes friction, hides a stumble needed for rescue, or repeats across several steps without consent.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Change the surface, clap at contact, scatter loose powder, or stop between departure and arrival.",
+      "mastery": "A master spends secrecy before bodily warning and lets the next footprint return clearly.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 5 | PROOF HEARING + HOLDING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v05",
+    "title": "Missing Mark",
+    "description": "Removes a fresh stain, scratch, chalk sign, or printed symbol from ordinary recognition for a short interval.",
+    "parentGroupIds": [
+      "shelf:void-veiling:lessons"
+    ],
+    "facts": {
+      "originalId": "V05",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "BEYOND LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V05",
+        "location": "Void Veiling / Lessons / V05"
+      }
+    },
+    "aliases": [
+      "V05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 1 | Veiling | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Removes a fresh stain, scratch, chalk sign, or printed symbol from ordinary recognition for a short interval.",
+      "practice": "Preserve its physical edge, make a private copy, and state which emergency reader may still notice it.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Meaning separates from matter, witnesses remember blankness, and the copy becomes unusually important to the hidden sign.",
+      "failure": "The veil hides damage rather than its mark, erases the copy's relation, or makes a warning look deliberately absent.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Touch the texture, use raking light, invoke the emergency reader, or reproduce the symbol elsewhere.",
+      "mastery": "A master distinguishes concealment from destruction and restores the mark before its context is lost.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 5 | PROOF HEARING + HOLDING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v06",
+    "title": "Pocket of Forgetting",
+    "description": "Makes one trivial object or harmless sentence difficult to remember while it remains inside a small sewn pocket.",
+    "parentGroupIds": [
+      "shelf:void-veiling:lessons"
+    ],
+    "facts": {
+      "originalId": "V06",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "BEYOND LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V06",
+        "location": "Void Veiling / Lessons / V06"
+      }
+    },
+    "aliases": [
+      "V06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 1 | Veiling | Th1 Tu1 Kn0 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Makes one trivial object or harmless sentence difficult to remember while it remains inside a small sewn pocket.",
+      "practice": "Exclude names, consent, obligations, medicine, and anything needed for safety; keep an external inventory.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The pocket accumulates missing context, nearby memories blur by association, and the keeper becomes dependent on the inventory.",
+      "failure": "A supposedly trivial detail proves essential, the omission spreads through resemblance, or the inventory itself becomes forgettable.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Open the pocket, read the inventory aloud, introduce a strong association, or hand custody to someone unlinked.",
+      "mastery": "A master refuses convenience when importance is uncertain and lets remembrance return gradually.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 5 | PROOF HEARING + HOLDING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v07",
+    "title": "Pain Behind Glass",
+    "description": "Removes one minor pain or panic sensation from attention while a black glass token is held against the body.",
+    "parentGroupIds": [
+      "shelf:void-veiling:lessons"
+    ],
+    "facts": {
+      "originalId": "V07",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "VEIL LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V07",
+        "location": "Void Veiling / Lessons / V07"
+      }
+    },
+    "aliases": [
+      "V07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 1 | Veiling | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Removes one minor pain or panic sensation from attention while a black glass token is held against the body.",
+      "practice": "Name the sensation, preserve diagnosis and consent, and set a brief interval after which feeling must return.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The token stores no injury, only missing awareness; warning context thins and the patient's next sensation may be hard to locate.",
+      "failure": "The veil hides deterioration, spreads into emotion or movement, or makes relief feel like proof of healing.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Remove the glass, introduce a distinct sensation, change the named symptom, or invoke a diagnostic question.",
+      "mastery": "A master treats the spell as a pause and restores sensation before choice depends on ignorance.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 6 | PROOF HEARING + HOLDING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v08",
+    "title": "Null Moth",
+    "description": "Shapes a tiny dark moth that settles on one written line, whispered phrase, or glowing rune and removes it from casual notice.",
+    "parentGroupIds": [
+      "shelf:void-veiling:lessons"
+    ],
+    "facts": {
+      "originalId": "V08",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "MAW LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V08",
+        "location": "Void Veiling / Lessons / V08"
+      }
+    },
+    "aliases": [
+      "V08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 1 | Veiling | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag1 Co0 | Carrier: personal or supervised.",
+      "purpose": "Shapes a tiny dark moth that settles on one written line, whispered phrase, or glowing rune and removes it from casual notice.",
+      "practice": "Give it one target, one person it may not hide from, and a candle at which it must dissolve.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The hidden line loses context, readers bridge the gap differently, and the moth carries a trace of the omitted meaning.",
+      "failure": "It chooses a related line, hides a correction, or survives by feeding on continuing secrecy.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Light the candle, separate the page, read by touch, or present an authorised witness.",
+      "mastery": "A master keeps the moth incapable of breeding and ends it before omission becomes editorial authority.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 7 | PROOF HEARING + HOLDING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v09",
+    "title": "Unnoticed Cache",
+    "description": "Removes a small sealed cache from casual relevance so passersby look around it without feeling compelled to investigate.",
+    "parentGroupIds": [
+      "shelf:void-veiling:lessons"
+    ],
+    "facts": {
+      "originalId": "V09",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "VEIL LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V09",
+        "location": "Void Veiling / Lessons / V09"
+      }
+    },
+    "aliases": [
+      "V09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 1 | Veiling | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Removes a small sealed cache from casual relevance so passersby look around it without feeling compelled to investigate.",
+      "practice": "Leave a physical retrieval key, protect rescue and lawful search, and record the cache outside its influence.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The place develops a blank habit, the keeper's memory weakens, and unrelated debris becomes more noticeable.",
+      "failure": "The cache is forgotten by its owner, concealment hides leakage or danger, or the blankness itself attracts trained searchers.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Disturb the ground, remove the key, compare inventories, or ask what the space fails to explain.",
+      "mastery": "An expert preserves recovery and never uses perfect irrelevance where accountability matters.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 6 | PROOF HEARING + HOLDING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v10",
+    "title": "Minute Without a Name",
+    "description": "Removes one agreed minute from a small gathering's public narrative so an awkward pause, private grief, or harmless error receives no lasting title.",
+    "parentGroupIds": [
+      "shelf:void-veiling:lessons"
+    ],
+    "facts": {
+      "originalId": "V10",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "BEYOND LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V10",
+        "location": "Void Veiling / Lessons / V10"
+      }
+    },
+    "aliases": [
+      "V10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 1 | Veiling | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Removes one agreed minute from a small gathering's public narrative so an awkward pause, private grief, or harmless error receives no lasting title.",
+      "practice": "All participants consent, preserve material facts, and forbid the omission from changing promises or blame.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The interval becomes hard to discuss, surrounding moments carry extra meaning, and outsiders sense a conversational gap.",
+      "failure": "Silence protects wrongdoing, consent changes afterward, or the missing minute expands to include consequences.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Withdraw consent, name a surviving fact, compare independent records, or reopen the interval together.",
+      "mastery": "A master protects mercy without confiscating history and allows the nameless minute to become speakable again.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 6 | PROOF HEARING + HOLDING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v11",
+    "title": "Blackout Pulse",
+    "description": "Releases a brief moving omission that hides light, sound, magical signatures, and coordinated action across a narrow front.",
+    "parentGroupIds": [
+      "shelf:void-veiling:practical-workings"
+    ],
+    "facts": {
+      "originalId": "V11",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "MAW LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V11",
+        "location": "Void Veiling / Practical Workings / V11"
+      }
+    },
+    "aliases": [
+      "V11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 2 | Veiling | Th1 Tu1 Kn1 Sp2 Ho0 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Releases a brief moving omission that hides light, sound, magical signatures, and coordinated action across a narrow front.",
+      "practice": "Mark allies, civilians, exits, duration, and the signals that must remain available inside the dark.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Context drains into the wake, combatants lose orientation, and later accounts contain incompatible gaps.",
+      "failure": "The pulse hides danger from its victims, continues beyond the front, or turns coordination failure into panic.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Use touch signals, create an unhidden hazard, break the duration mark, or illuminate from within relation rather than distance.",
+      "mastery": "Experts shed coverage before rescue and leave an obvious edge rather than a perfectly silent battlefield.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 7 | PROOF HOLDING + TURNING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v12",
+    "title": "Quiet Shelter",
+    "description": "Removes a camp, sickroom, refuge, or workshop from ordinary noise, scent, magical attention, and passing curiosity.",
+    "parentGroupIds": [
+      "shelf:void-veiling:practical-workings"
+    ],
+    "facts": {
+      "originalId": "V12",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "VEIL LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V12",
+        "location": "Void Veiling / Practical Workings / V12"
+      }
+    },
+    "aliases": [
+      "V12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 2 | Veiling | Th1 Tu1 Kn2 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Removes a camp, sickroom, refuge, or workshop from ordinary noise, scent, magical attention, and passing curiosity.",
+      "practice": "Keep ventilation, internal warning, lawful discovery, and one public route outside the omission.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Occupants lose outside context, neighbours forget routine care, and the shelter's boundary accumulates rejected attention.",
+      "failure": "The veil hides fire or abuse, blocks aid, or makes leaving feel like becoming visible to the whole world at once.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke the public route, create a strong internal signal, follow supply, or open the boundary gradually.",
+      "mastery": "A master preserves connection and lets the shelter be noticed before protection becomes abandonment.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 9 | PROOF HOLDING + TURNING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v13",
+    "title": "Circle of Omission",
+    "description": "Makes a defined activity such as gambling, prayer, medical treatment, negotiation, or contraband exchange difficult to notice within a marked room.",
+    "parentGroupIds": [
+      "shelf:void-veiling:practical-workings"
+    ],
+    "facts": {
+      "originalId": "V13",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "VEIL LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V13",
+        "location": "Void Veiling / Practical Workings / V13"
+      }
+    },
+    "aliases": [
+      "V13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 2 | Veiling | Th1 Tu1 Kn3 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Makes a defined activity such as gambling, prayer, medical treatment, negotiation, or contraband exchange difficult to notice within a marked room.",
+      "practice": "Name the activity precisely, preserve harm, coercion, rescue, and every participant's right to revoke concealment.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Social context thins, related activities become oddly prominent, and the room develops a reputation that nobody can explain.",
+      "failure": "The circle hides coercion, treats witnesses as part of the activity, or spreads to records and aftermath.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Rename the act, cross the boundary mid-action, invoke protected harm, or observe material consequences.",
+      "mastery": "A master keeps conduct accountable even when its performance is private and closes the veil at the first disputed consent.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 10 | PROOF HOLDING + TURNING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v14",
+    "title": "Road No Track Remembers",
+    "description": "Removes the footprints, wheel marks, scent, and immediate route memory of a party moving along a prepared road.",
+    "parentGroupIds": [
+      "shelf:void-veiling:practical-workings"
+    ],
+    "facts": {
+      "originalId": "V14",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "MAW LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V14",
+        "location": "Void Veiling / Practical Workings / V14"
+      }
+    },
+    "aliases": [
+      "V14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 2 | Veiling | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Removes the footprints, wheel marks, scent, and immediate route memory of a party moving along a prepared road.",
+      "practice": "Preserve rescue signs, destination records, environmental damage, and a time when traces must return.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Trackers encounter discontinuity, the travellers lose some memory of landmarks, and the road becomes harder to maintain.",
+      "failure": "The veil hides stragglers, erases evidence of accident, or continues onto unprepared ground.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Leave the road, mark from above, follow displaced wildlife, break the return timer, or trace supply rather than passage.",
+      "mastery": "A master lets coarse evidence survive and restores the route before secrecy turns travellers into missing persons.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 10 | PROOF HOLDING + TURNING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v15",
+    "title": "Contour of What Is Missing",
+    "description": "Makes the boundary around an absent object, deleted record, concealed doorway, or forgotten person briefly perceptible without revealing the hidden content.",
+    "parentGroupIds": [
+      "shelf:void-veiling:practical-workings"
+    ],
+    "facts": {
+      "originalId": "V15",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "BEYOND LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V15",
+        "location": "Void Veiling / Practical Workings / V15"
+      }
+    },
+    "aliases": [
+      "V15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 2 | Veiling | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Makes the boundary around an absent object, deleted record, concealed doorway, or forgotten person briefly perceptible without revealing the hidden content.",
+      "practice": "Compare present context with independent expectation and keep the observer outside the gap.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Notice gives the absence a reciprocal route, nearby memories reorganise, and the observer becomes part of the missing thing's context.",
+      "failure": "The contour is mistaken for proof, observation summons what was safely gone, or a deliberate void hides inside a larger ordinary absence.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Change the comparison, close attention, introduce a plausible filler, or sever the reciprocal link.",
+      "mastery": "An expert reports shape without inventing contents and knows when noticing is itself the dangerous act.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 10 | PROOF HOLDING + TURNING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v16",
+    "title": "Company Without Rumour",
+    "description": "Removes a travelling group from gossip, casual descriptions, informal magical inquiry, and the social urge to compare sightings.",
+    "parentGroupIds": [
+      "shelf:void-veiling:practical-workings"
+    ],
+    "facts": {
+      "originalId": "V16",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "BEYOND LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V16",
+        "location": "Void Veiling / Practical Workings / V16"
+      }
+    },
+    "aliases": [
+      "V16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 2 | Veiling | Th1 Tu1 Kn3 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Removes a travelling group from gossip, casual descriptions, informal magical inquiry, and the social urge to compare sightings.",
+      "practice": "Members preserve chosen names, aid routes, internal records, and the right to leave without becoming part of the secret.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Communities retain unexplained gaps, ordinary hospitality weakens, and the company loses access to friendly reputation.",
+      "failure": "The veil hides crimes, erases a lost member from concern, or makes every witness doubt their own senses.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Publish a material record, separate a member, invoke hospitality, follow transactions, or ask about the unexplained gap.",
+      "mastery": "A master protects people from pursuit without manufacturing collective denial around their actions.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 10 | PROOF HOLDING + TURNING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v17",
+    "title": "Dreamless Mercy",
+    "description": "Removes nightmares, intrusive visions, and one defined haunting from a sleeper's awareness for a limited cycle.",
+    "parentGroupIds": [
+      "shelf:void-veiling:practical-workings"
+    ],
+    "facts": {
+      "originalId": "V17",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "VEIL LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V17",
+        "location": "Void Veiling / Practical Workings / V17"
+      }
+    },
+    "aliases": [
+      "V17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 2 | Veiling | Th1 Tu1 Kn3 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Removes nightmares, intrusive visions, and one defined haunting from a sleeper's awareness for a limited cycle.",
+      "practice": "The sleeper chooses the target, keeps waking memory and diagnosis, and appoints someone to end the veil.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Dream context accumulates outside awareness, rest becomes unnaturally blank, and the haunting may seek another relation.",
+      "failure": "The spell conceals warning, suppresses all dreaming, or makes waking emotion impossible to connect with its source.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Wake the sleeper gently, restore a chosen image, break the appointment token, or introduce a safe dream witness.",
+      "mastery": "A master returns enough dream for integration and never calls blank sleep a cure.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 11 | PROOF HOLDING + TURNING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v18",
+    "title": "Nullshade",
+    "description": "Creates a slow autonomous patch of dimness that follows a scored route and consumes unwanted light, scent, sound, or magical residue.",
+    "parentGroupIds": [
+      "shelf:void-veiling:practical-workings"
+    ],
+    "facts": {
+      "originalId": "V18",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "MAW LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V18",
+        "location": "Void Veiling / Practical Workings / V18"
+      }
+    },
+    "aliases": [
+      "V18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 2 | Veiling | Th1 Tu1 Kn2 Sp2 Ho1 Fi2 Ag2 Co0 | Carrier: personal with a focus.",
+      "purpose": "Creates a slow autonomous patch of dimness that follows a scored route and consumes unwanted light, scent, sound, or magical residue.",
+      "practice": "Its route, appetite, exclusions, resting vessel, and sunset dissolution are fixed before release.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The path loses context, the vessel fills with indistinct absence, and small life avoids the moving shade.",
+      "failure": "It generalises unwanted into unfamiliar, follows a person instead of residue, or refuses rest while any trace remains.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Break the score, offer a stronger declared trace, expose it to full dawn, or open the resting vessel.",
+      "mastery": "A master keeps the shade narrow and mortal, accepting leftover evidence before appetite learns judgment.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 11 | PROOF HOLDING + TURNING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v19",
+    "title": "Hidden Cistern",
+    "description": "Removes a cistern, archive, granary, emergency store, or mechanical reserve from casual knowledge and sympathetic search.",
+    "parentGroupIds": [
+      "shelf:void-veiling:practical-workings"
+    ],
+    "facts": {
+      "originalId": "V19",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "VEIL LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 2,
+        "hold": 3,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V19",
+        "location": "Void Veiling / Practical Workings / V19"
+      }
+    },
+    "aliases": [
+      "V19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 2 | Veiling | Th1 Tu1 Kn3 Sp2 Ho3 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Removes a cistern, archive, granary, emergency store, or mechanical reserve from casual knowledge and sympathetic search.",
+      "practice": "Custodians preserve maintenance, hazard, lawful access, inventory, and a route for successors who do not know the original secret.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The store falls outside public planning, forgotten dependency grows, and its keepers lose ordinary recognition.",
+      "failure": "Maintenance is omitted, elites monopolise access, or the veil hides contamination and structural failure.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Follow consumption, invoke succession, expose a leak, compare inventories, or break a maintenance rhythm.",
+      "mastery": "Experts keep the reserve governable and reveal it before scarcity turns secrecy into unaccountable power.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 12 | PROOF HOLDING + TURNING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v20",
+    "title": "Day of No Record",
+    "description": "Removes one town-wide day of festival, mourning, refuge, or civil pause from routine ledgers and distant divination.",
+    "parentGroupIds": [
+      "shelf:void-veiling:practical-workings"
+    ],
+    "facts": {
+      "originalId": "V20",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "BEYOND LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V20",
+        "location": "Void Veiling / Practical Workings / V20"
+      }
+    },
+    "aliases": [
+      "V20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 2 | Veiling | Th1 Tu1 Kn3 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Removes one town-wide day of festival, mourning, refuge, or civil pause from routine ledgers and distant divination.",
+      "practice": "Residents preserve consent, crimes, births, deaths, debts, emergencies, and a sealed local account.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Outside institutions lose continuity, the day gathers symbolic weight, and later records develop competing explanations.",
+      "failure": "Officials hide abuse, legal obligations vanish, or participants treat the day as freedom from consequence.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Open the local account, invoke a protected event, compare material change, or contest town consent.",
+      "mastery": "A master protects respite without creating impunity and ensures the day can rejoin history when needed.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 11 | PROOF HOLDING + TURNING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v21",
+    "title": "Severance Veil",
+    "description": "Removes the visible and sympathetic relations that let a formation, summoned host, spell network, or command hierarchy act as one target.",
+    "parentGroupIds": [
+      "shelf:void-veiling:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "V21",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "MAW LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V21",
+        "location": "Void Veiling / Expert Formulae / V21"
+      }
+    },
+    "aliases": [
+      "V21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 3 | Veiling | Th1 Tu1 Kn2 Sp3 Ho0 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Removes the visible and sympathetic relations that let a formation, summoned host, spell network, or command hierarchy act as one target.",
+      "practice": "Specialists preserve bodily life, surrender, medical aid, individual memory, and the possibility of voluntary coordination.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Shared purpose and recognition fall into gaps, fragments become hard to recover, and the caster loses context for judging the separated parts.",
+      "failure": "The veil severs families or care, turns disorder into slaughter, or makes isolation persist after the threat ends.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Use decentralised action, form new local relations, invoke protected care, expose the caster's missing context, or close distance materially.",
+      "mastery": "A master ends coercive unity before human connection and sheds tactical advantage once the fragments can no longer choose together.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 10 | PROOF TURNING + REDIRECTION | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v22",
+    "title": "Citadel of Silence",
+    "description": "Removes a fortress or refuge from sound, light, magical correspondence, distant naming, and many routes of hostile attention.",
+    "parentGroupIds": [
+      "shelf:void-veiling:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "V22",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "VEIL LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V22",
+        "location": "Void Veiling / Expert Formulae / V22"
+      }
+    },
+    "aliases": [
+      "V22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 3 | Veiling | Th1 Tu1 Kn3 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Removes a fortress or refuge from sound, light, magical correspondence, distant naming, and many routes of hostile attention.",
+      "practice": "Every gate preserves rescue, ventilation, internal truth, outside witness, and a condition that forces revelation.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The citadel loses political and ecological context, rejected attention gathers around it, and defenders grow dependent on hidden infrastructure.",
+      "failure": "The veil conceals catastrophe, closes every gate, or makes inhabitants incapable of recognising help from outside.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke forced revelation, follow material supply, overload a boundary with attention, create internal light, or open a gate by consent.",
+      "mastery": "Experts accept exposure and evacuation before perfect silence turns refuge into a sealed world.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 13 | PROOF TURNING + REDIRECTION | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v23",
+    "title": "Quarantine of Meaning",
+    "description": "Removes a dangerous slogan, curse, command phrase, memetic spell, or coercive symbol from ordinary comprehension within a district.",
+    "parentGroupIds": [
+      "shelf:void-veiling:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "V23",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "VEIL LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V23",
+        "location": "Void Veiling / Expert Formulae / V23"
+      }
+    },
+    "aliases": [
+      "V23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 3 | Veiling | Th1 Tu1 Kn4 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Removes a dangerous slogan, curse, command phrase, memetic spell, or coercive symbol from ordinary comprehension within a district.",
+      "practice": "Linguists preserve evidence, harmless uses, translation, appeal, expiry, and a way to discuss the quarantine itself.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Language reorganises around the gap, related ideas become difficult to express, and suppressed meaning accumulates in euphemism.",
+      "failure": "The quarantine hides criticism, expands through analogy, or makes the forbidden expression more powerful outside the boundary.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Use another language, invoke preserved evidence, create a contradictory harmless case, rename the target, or end the district rule.",
+      "mastery": "A master protects people from compulsion without granting institutions ownership of meaning.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 14 | PROOF TURNING + REDIRECTION | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v24",
+    "title": "Corridor Outside Pursuit",
+    "description": "Creates a moving route whose travellers, direction, and destination cannot be held in hostile attention while they continue toward refuge.",
+    "parentGroupIds": [
+      "shelf:void-veiling:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "V24",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "MAW LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V24",
+        "location": "Void Veiling / Expert Formulae / V24"
+      }
+    },
+    "aliases": [
+      "V24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 3 | Veiling | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates a moving route whose travellers, direction, and destination cannot be held in hostile attention while they continue toward refuge.",
+      "practice": "Hosts, refugees, rescuers, borders, supplies, stragglers, and final emergence remain separately accountable.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The corridor leaves missing geography, travellers lose landmarks, and pursuers may redirect harm toward visible communities.",
+      "failure": "The route becomes detention, hides forced movement, or erases those who cannot keep pace.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Stop voluntarily, invoke host refusal, follow material disturbance, expose coercion, or open the corridor into public ground.",
+      "mastery": "A master preserves the right to leave the route and reveals it before protection converts refugees into an administrative absence.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 14 | PROOF TURNING + REDIRECTION | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v25",
+    "title": "Archive of Missing Things",
+    "description": "Catalogues absences in records, rooms, memories, ruins, and institutions without restoring what is gone or naming what was intentionally hidden.",
+    "parentGroupIds": [
+      "shelf:void-veiling:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "V25",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "BEYOND LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V25",
+        "location": "Void Veiling / Expert Formulae / V25"
+      }
+    },
+    "aliases": [
+      "V25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 3 | Veiling | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Catalogues absences in records, rooms, memories, ruins, and institutions without restoring what is gone or naming what was intentionally hidden.",
+      "practice": "Archivists keep uncertainty, privacy, lawful oblivion, competing context, and the right not to investigate.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Every catalogued gap gains presence, surrounding records rearrange, and the Archive becomes a route for omitted things to influence inquiry.",
+      "failure": "Absence is treated as guilt, the catalogue invents missing owners, or official gaps displace quieter losses.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Withdraw a gap, add mundane explanation, break comparison, close reciprocity, or refuse categorisation.",
+      "mastery": "A master protects unknowability and records the limits of attention as carefully as the contour it reveals.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 14 | PROOF TURNING + REDIRECTION | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v26",
+    "title": "City Without a Witness",
+    "description": "Removes a district from distant observation, prophecy, surveillance, rumour, and ordinary external memory while preserving bounded internal records.",
+    "parentGroupIds": [
+      "shelf:void-veiling:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "V26",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "BEYOND LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V26",
+        "location": "Void Veiling / Expert Formulae / V26"
+      }
+    },
+    "aliases": [
+      "V26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 3 | Veiling | Th1 Tu1 Kn4 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Removes a district from distant observation, prophecy, surveillance, rumour, and ordinary external memory while preserving bounded internal records.",
+      "practice": "Residents control rescue, trade, internal accountability, exit, revelation, and who remembers the city beyond its boundary.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The city loses allies and oversight, borders accumulate puzzled attention, and inhabitants become socially unreal to outsiders.",
+      "failure": "The veil hides oppression, makes departure impossible to explain, or erases people who lack standing in the internal record.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke a trusted witness, follow trade, reveal one district, transmit material evidence, or challenge the internal archive.",
+      "mastery": "A master exposes institutions before secrecy becomes sovereignty and keeps every person visible to someone they choose.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 14 | PROOF TURNING + REDIRECTION | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v27",
+    "title": "Mercy of the Empty Room",
+    "description": "Removes unbearable haunting, sensory torment, intrusive magic, or grief-triggering correspondence from a bounded care space without altering the patient outside it.",
+    "parentGroupIds": [
+      "shelf:void-veiling:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "V27",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "VEIL LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V27",
+        "location": "Void Veiling / Expert Formulae / V27"
+      }
+    },
+    "aliases": [
+      "V27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 3 | Veiling | Th1 Tu1 Kn4 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Removes unbearable haunting, sensory torment, intrusive magic, or grief-triggering correspondence from a bounded care space without altering the patient outside it.",
+      "practice": "The patient controls target, interval, memory, exit, witnesses, and which ordinary feelings must remain.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The room accumulates unprocessed context, care becomes dependent on absence, and the excluded relation may gather at the door.",
+      "failure": "Relief becomes confinement, caregivers use silence for convenience, or the room hides deterioration and coercion.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Open the door, restore one chosen sense, change the target, invite a trusted witness, or move care elsewhere.",
+      "mastery": "A master keeps the room temporary and spends magical quiet on creating livable alternatives rather than permanent withdrawal.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 15 | PROOF TURNING + REDIRECTION | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v28",
+    "title": "Eater of Traces",
+    "description": "Creates an autonomous hollow shape that consumes one declared class of tracks, curses, surveillance links, magical residue, or hostile names across a site.",
+    "parentGroupIds": [
+      "shelf:void-veiling:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "V28",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "MAW LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V28",
+        "location": "Void Veiling / Expert Formulae / V28"
+      }
+    },
+    "aliases": [
+      "V28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 3 | Veiling | Th1 Tu1 Kn3 Sp3 Ho2 Fi3 Ag3 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates an autonomous hollow shape that consumes one declared class of tracks, curses, surveillance links, magical residue, or hostile names across a site.",
+      "practice": "Its charter fixes target examples, exclusions, territory, resting seal, accountability, and final unmaking.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "The site loses forensic context, the Eater grows skilled at resemblance, and every consumed relation deepens its isolation from command.",
+      "failure": "It eats rescue signs, generalises enemies into observers, or survives because complete cleanliness is impossible.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Present an excluded example, break the territory, fill the resting seal, change the target relation, or invoke unmaking.",
+      "mastery": "A master keeps the Eater stupid, local, and short-lived, leaving enough trace for truth and repair.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 16 | PROOF TURNING + ANCHORING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v29",
+    "title": "Nullstone Quarter",
+    "description": "Removes a district's shelters, stores, workshops, and defensive infrastructure from magical maps and hostile correspondence without hiding ordinary material access.",
+    "parentGroupIds": [
+      "shelf:void-veiling:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "V29",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "VEIL LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 3,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V29",
+        "location": "Void Veiling / Expert Formulae / V29"
+      }
+    },
+    "aliases": [
+      "V29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 3 | Veiling | Th1 Tu1 Kn4 Sp3 Ho4 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Removes a district's shelters, stores, workshops, and defensive infrastructure from magical maps and hostile correspondence without hiding ordinary material access.",
+      "practice": "Civic keepers preserve maintenance, taxation, rescue, public ownership, neighbouring context, and scheduled revelation.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "Planning and memory fragment, hidden services gain political power, and the quarter becomes difficult to repair with outside help.",
+      "failure": "The veil conceals neglect, public assets become private, or residents themselves disappear from the protected infrastructure map.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Walk the streets materially, compare budgets, expose a service failure, introduce new construction, or invoke scheduled revelation.",
+      "mastery": "Experts preserve mundane legibility and let the quarter be found before invisibility becomes civic disenfranchisement.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 16 | PROOF TURNING + ANCHORING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v30",
+    "title": "Theatre of the Unremembered",
+    "description": "Allows performers and witnesses to explore censored history, private grief, erased identities, and chosen oblivion through roles that vanish from memory after the curtain.",
+    "parentGroupIds": [
+      "shelf:void-veiling:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "V30",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "BEYOND LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V30",
+        "location": "Void Veiling / Expert Formulae / V30"
+      }
+    },
+    "aliases": [
+      "V30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 3 | Veiling | Th1 Tu1 Kn4 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Allows performers and witnesses to explore censored history, private grief, erased identities, and chosen oblivion through roles that vanish from memory after the curtain.",
+      "practice": "Material records, consent, trauma limits, contradiction, and the right to remember are negotiated before performance.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Emotion remains without narrative, gaps become socially vivid, and some roles seek survival through surviving objects.",
+      "failure": "The theatre protects perpetrators, leaves performers with unplaceable distress, or treats forgetting as proof of healing.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Preserve a prop, interrupt the curtain, invoke the right to remember, compare records, or refuse the final veil.",
+      "mastery": "A master permits uneven memory and never makes oblivion the aesthetic price of witnessing.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 15 | PROOF TURNING + REDIRECTION | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v31",
+    "title": "Army That Leaves No War",
+    "description": "Removes an army's movements, camps, signals, command relations, and immediate violence from hostile notice across a theatre.",
+    "parentGroupIds": [
+      "shelf:void-veiling:rites"
+    ],
+    "facts": {
+      "originalId": "V31",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "MAW LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V31",
+        "location": "Void Veiling / Rites / V31"
+      }
+    },
+    "aliases": [
+      "V31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn3 Sp4 Ho1 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Removes an army's movements, camps, signals, command relations, and immediate violence from hostile notice across a theatre.",
+      "practice": "Conductors preserve civilians, surrender, medical care, environmental damage, records, and the point at which the war must become visible.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Battlefields gain missing history, soldiers lose context, and opponents redirect force toward whatever remains legible.",
+      "failure": "The rite hides atrocities, erases casualties, or makes the army unable to recognise peace and accountability.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Expose material supply, invoke protected records, decentralise observation, force public surrender, or break a conductor.",
+      "mastery": "The high practitioner ends concealment before tactical advantage becomes a right to wage an unwitnessed war.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 13 | PROOF REDIRECTION + ANCHORING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v32",
+    "title": "Province of Closed Eyes",
+    "description": "Removes a province from hostile divination, celestial targeting, mass surveillance, and coercive magical census while preserving local observation.",
+    "parentGroupIds": [
+      "shelf:void-veiling:rites"
+    ],
+    "facts": {
+      "originalId": "V32",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "VEIL LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V32",
+        "location": "Void Veiling / Rites / V32"
+      }
+    },
+    "aliases": [
+      "V32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Removes a province from hostile divination, celestial targeting, mass surveillance, and coercive magical census while preserving local observation.",
+      "practice": "Communities control rescue, internal justice, outside testimony, trade, environmental warning, and lawful windows.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The province becomes politically isolated, neighbouring lands inherit attention, and internal authority grows difficult to audit.",
+      "failure": "Windows close, secrecy shields rulers, or people outside official locality vanish from local recognition too.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke a lawful window, follow material relations, demand internal testimony, overload the border, or withdraw communal consent.",
+      "mastery": "A master reveals power before opacity becomes culture and preserves enough outside relation for correction and aid.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 16 | PROOF REDIRECTION + ANCHORING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v33",
+    "title": "Border of No Correspondence",
+    "description": "Removes the routes by which invasion, curse, disease command, sympathetic weapons, and hostile names cross a regional boundary.",
+    "parentGroupIds": [
+      "shelf:void-veiling:rites"
+    ],
+    "facts": {
+      "originalId": "V33",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "VEIL LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V33",
+        "location": "Void Veiling / Rites / V33"
+      }
+    },
+    "aliases": [
+      "V33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Removes the routes by which invasion, curse, disease command, sympathetic weapons, and hostile names cross a regional boundary.",
+      "practice": "Border communities preserve refuge, kinship, ecology, trade, ambiguity, and the conditions under which relation must reopen.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Rejected connections accumulate, families and habitats are severed, and the border itself becomes difficult to describe or negotiate.",
+      "failure": "Difference becomes threat, legitimate aid cannot cross, or the accumulated outside forms an uncontrolled breach.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Invoke kinship, create a new local relation, overwhelm a gap with context, contest the target definition, or open a gate by consent.",
+      "mastery": "A master accepts risk and porousness before protection makes isolation a permanent political virtue.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 16 | PROOF REDIRECTION + ANCHORING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v34",
+    "title": "The Long Disappearance",
+    "description": "Removes a migrating people, retreating army, endangered species, or evacuation corridor from pursuit and public route memory across a continent.",
+    "parentGroupIds": [
+      "shelf:void-veiling:rites"
+    ],
+    "facts": {
+      "originalId": "V34",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "MAW LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V34",
+        "location": "Void Veiling / Rites / V34"
+      }
+    },
+    "aliases": [
+      "V34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Removes a migrating people, retreating army, endangered species, or evacuation corridor from pursuit and public route memory across a continent.",
+      "practice": "Travellers, hosts, stragglers, descendants, graves, ecology, and eventual reappearance keep separate guardians.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "History and geography develop gaps, host lands bear hidden burdens, and those protected lose claims based on continuous presence.",
+      "failure": "Disappearance becomes exile, leaders hide coercion, or later generations cannot recover the relation needed to return.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Invoke host testimony, preserve an object trail, refuse departure, follow ecological change, or reopen one guarded memory.",
+      "mastery": "A master protects return without making it compulsory and reveals enough continuity that safety does not become civil death.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 17 | PROOF REDIRECTION + ANCHORING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v35",
+    "title": "Assize of Omission",
+    "description": "Maps what a province's laws, archives, monuments, maps, and magical systems systematically fail to notice.",
+    "parentGroupIds": [
+      "shelf:void-veiling:rites"
+    ],
+    "facts": {
+      "originalId": "V35",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "BEYOND LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V35",
+        "location": "Void Veiling / Rites / V35"
+      }
+    },
+    "aliases": [
+      "V35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Maps what a province's laws, archives, monuments, maps, and magical systems systematically fail to notice.",
+      "practice": "Jurists preserve privacy, lawful forgetting, uncertain absence, living witnesses, and protection from automatic accusation.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Omissions gain public force, institutions lose narrative stability, and the act of noticing creates routes into hidden lives.",
+      "failure": "The Assize invents guilt from gaps, centralises what counts as visible, or turns vulnerable secrecy into evidence.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Withdraw a category, add mundane explanation, refuse correlation, protect a witness, or close the reciprocal inquiry.",
+      "mastery": "A master makes institutional blindness contestable without promising that every unknown should become state knowledge.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 17 | PROOF REDIRECTION + ANCHORING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v36",
+    "title": "Kingdom Outside the Story",
+    "description": "Removes a realm's chosen refugees, sacred sites, resistance networks, or vulnerable communities from hostile myth, prophecy, and imperial narrative.",
+    "parentGroupIds": [
+      "shelf:void-veiling:rites"
+    ],
+    "facts": {
+      "originalId": "V36",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "BEYOND LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V36",
+        "location": "Void Veiling / Rites / V36"
+      }
+    },
+    "aliases": [
+      "V36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Removes a realm's chosen refugees, sacred sites, resistance networks, or vulnerable communities from hostile myth, prophecy, and imperial narrative.",
+      "practice": "Every protected group retains its own memory, public exit, contradiction, rescue, and the right to reject symbolic use.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Enemies lose ideological purchase, but allies also forget; national history develops blanks and the hidden bear the labour of continuity.",
+      "failure": "The veil erases people to save symbols, rulers hide failure, or the kingdom becomes unable to imagine relations beyond secrecy.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke local memory, publish material evidence, refuse the national story, expose hidden power, or end protection group by group.",
+      "mastery": "A master protects inhabited silence and never mistakes absence from an enemy's story for freedom in reality.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 16 | PROOF REDIRECTION + ANCHORING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v37",
+    "title": "Great Quieting",
+    "description": "Removes unbearable noise, psychic intrusion, hostile magic, recurring visions, and compulsive attention from hospitals and refuges across a region.",
+    "parentGroupIds": [
+      "shelf:void-veiling:rites"
+    ],
+    "facts": {
+      "originalId": "V37",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "VEIL LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V37",
+        "location": "Void Veiling / Rites / V37"
+      }
+    },
+    "aliases": [
+      "V37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Removes unbearable noise, psychic intrusion, hostile magic, recurring visions, and compulsive attention from hospitals and refuges across a region.",
+      "practice": "Patients, staff, families, disabled people, emergency systems, and ordinary city life each retain separate thresholds.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Silence concentrates at care sites, warnings weaken, treatment becomes dependent on omission, and outside suffering grows comparatively louder.",
+      "failure": "Institutions suppress inconvenient voices, quiet replaces care, or protected thresholds erase culturally unfamiliar expression.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Invoke patient speech, restore a warning channel, expose denied care, open a site, or withdraw local participation.",
+      "mastery": "The conductor spends more on living alternatives than on silence and ends the rite wherever quiet ceases to expand choice.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 17 | PROOF REDIRECTION + ANCHORING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v38",
+    "title": "Nine Mouths of Night",
+    "description": "Creates nine autonomous null forms that consume siege signals, hostile scrying, pursuit trails, cursed names, magical beacons, and selected weapons of relation.",
+    "parentGroupIds": [
+      "shelf:void-veiling:rites"
+    ],
+    "facts": {
+      "originalId": "V38",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "MAW LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V38",
+        "location": "Void Veiling / Rites / V38"
+      }
+    },
+    "aliases": [
+      "V38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag4 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Creates nine autonomous null forms that consume siege signals, hostile scrying, pursuit trails, cursed names, magical beacons, and selected weapons of relation.",
+      "practice": "Each Mouth has one appetite, advocate, forbidden target, territory, resting seal, and public dissolution object.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The theatre loses context, surviving signals become conspicuous, and the Mouths grow defined by what they consume.",
+      "failure": "Appetites overlap, one Mouth eats the seals of the others, or permanent emergency postpones dissolution.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit charter conflict, invoke a forbidden target, fill a seal, move the territory, or make the consumed relation unnecessary.",
+      "mastery": "The high veiler keeps every Mouth mortal and dismantles the most successful first.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 20 | PROOF REDIRECTION + ANCHORING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v39",
+    "title": "Covenant of Hidden Foundations",
+    "description": "Removes a region's shelters, tunnels, emergency stores, communications, archives, and defensive works from hostile maps and correspondence.",
+    "parentGroupIds": [
+      "shelf:void-veiling:rites"
+    ],
+    "facts": {
+      "originalId": "V39",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "VEIL LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V39",
+        "location": "Void Veiling / Rites / V39"
+      }
+    },
+    "aliases": [
+      "V39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho4 Fi3 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Removes a region's shelters, tunnels, emergency stores, communications, archives, and defensive works from hostile maps and correspondence.",
+      "practice": "Localities retain ownership, audit, maintenance, lawful access, declassification, and the right to build outside the Covenant.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Infrastructure becomes socially invisible, hidden custodians gain leverage, and later construction unknowingly burdens concealed systems.",
+      "failure": "Neglect vanishes from oversight, secret works entomb communities, or rulers use defence to hide extraction and imprisonment.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Follow budgets and material flow, trigger maintenance, invoke declassification, build through a hidden relation, or withdraw locality consent.",
+      "mastery": "Masters keep foundations politically visible even when strategically concealed and make revelation easier than decay.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 19 | PROOF REDIRECTION + ANCHORING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v40",
+    "title": "Festival of the Unnamed",
+    "description": "Lets communities honour people, losses, sacred things, and experiences that must not or cannot be publicly named.",
+    "parentGroupIds": [
+      "shelf:void-veiling:rites"
+    ],
+    "facts": {
+      "originalId": "V40",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "BEYOND LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V40",
+        "location": "Void Veiling / Rites / V40"
+      }
+    },
+    "aliases": [
+      "V40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Lets communities honour people, losses, sacred things, and experiences that must not or cannot be publicly named.",
+      "practice": "Participants control anonymity, material record, contradiction, private memory, expiry, and the right not to join.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Absence becomes culturally vivid, protected grief gathers, and some histories lose their remaining public route.",
+      "failure": "Anonymity is imposed, powerful actors hide behind sacred silence, or unnamed people are treated as interchangeable symbols.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Speak a chosen name privately, preserve a distinct object, withdraw from ritual, challenge a silence, or end the veil locally.",
+      "mastery": "A master protects difference inside anonymity and lets silence remain incomplete enough for later truth.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 19 | PROOF REDIRECTION + ANCHORING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v41",
+    "title": "The Enemy Removed from Reach",
+    "description": "Severs a nation's hostile army, command, supply, targeting, prophecy, and reinforcement from every relation by which it can continue one defined invasion.",
+    "parentGroupIds": [
+      "shelf:void-veiling:wonders"
+    ],
+    "facts": {
+      "originalId": "V41",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "MAW LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V41",
+        "location": "Void Veiling / Wonders / V41"
+      }
+    },
+    "aliases": [
+      "V41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho2 Fi4 Ag1 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Severs a nation's hostile army, command, supply, targeting, prophecy, and reinforcement from every relation by which it can continue one defined invasion.",
+      "practice": "Enemy and domestic witnesses preserve civilians, surrender, retreat, defence, accountability, and the distinction between an army and a people.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The invaders fall into strategic isolation, borders accumulate severed force, and the nation loses context needed for negotiation.",
+      "failure": "The Wonder defines dissent as enemy relation, traps soldiers without surrender, or makes the severance continue after war.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Change the conflict's form, create local relation, invoke protected retreat, challenge the enemy definition, or reconnect through neutral parties.",
+      "mastery": "Sovereign mastery ends the removal before helplessness becomes extermination and accepts unresolved peace over perfect isolation.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 17 | PROOF REDIRECTION + UNWEAVING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v42",
+    "title": "The Silence Around the Realm",
+    "description": "Removes a nation from hostile celestial attention, magical bombardment, invasive divination, coercive naming, and remote command.",
+    "parentGroupIds": [
+      "shelf:void-veiling:wonders"
+    ],
+    "facts": {
+      "originalId": "V42",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "VEIL LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V42",
+        "location": "Void Veiling / Wonders / V42"
+      }
+    },
+    "aliases": [
+      "V42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag2 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Removes a nation from hostile celestial attention, magical bombardment, invasive divination, coercive naming, and remote command.",
+      "practice": "Regions control windows for trade, astronomy, kinship, warning, migration, and the lawful return of outside relation.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The realm becomes cosmologically quiet, neighbours inherit attention, and citizens lose benign correspondences and external witnesses.",
+      "failure": "Windows close, rulers equate safety with silence, or the nation forgets how to recognise messages from beyond.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke a window, follow material trade, create a new correspondence, overload the boundary, or withdraw regional consent.",
+      "mastery": "A master keeps the outside imaginable and lets danger be seen before protection becomes ontological seclusion.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 20 | PROOF REDIRECTION + UNWEAVING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v43",
+    "title": "Law of Unrelation",
+    "description": "Establishes national procedures by which predatory contracts, curses, monopolies, inherited duties, coercive names, and supernatural claims may cease to bind.",
+    "parentGroupIds": [
+      "shelf:void-veiling:wonders"
+    ],
+    "facts": {
+      "originalId": "V43",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "VEIL LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V43",
+        "location": "Void Veiling / Wonders / V43"
+      }
+    },
+    "aliases": [
+      "V43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Establishes national procedures by which predatory contracts, curses, monopolies, inherited duties, coercive names, and supernatural claims may cease to bind.",
+      "practice": "Every severance requires notice, appeal, care for dependants, preserved evidence, residue responsibility, and a path for voluntary relation.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Freedom expands, but obligations accumulate outside law; institutions become tempted to solve conflict through administrative nonrelation.",
+      "failure": "The Law erases debts of justice, frees power from responsibility, or declares inconvenient people unrelated to the state.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Invoke dependency, present surviving consequence, challenge jurisdiction, rebuild relation locally, or end the Law's category.",
+      "mastery": "Sovereign mastery keeps severance specific and reversible, distinguishing liberation from abandonment.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 21 | PROOF REDIRECTION + UNWEAVING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v44",
+    "title": "The Road That Cannot Be Followed",
+    "description": "Creates national routes for refugees, diplomats, funerary return, strategic withdrawal, and emergency supply that hostile pursuit cannot perceive or remember.",
+    "parentGroupIds": [
+      "shelf:void-veiling:wonders"
+    ],
+    "facts": {
+      "originalId": "V44",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "MAW LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V44",
+        "location": "Void Veiling / Wonders / V44"
+      }
+    },
+    "aliases": [
+      "V44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates national routes for refugees, diplomats, funerary return, strategic withdrawal, and emergency supply that hostile pursuit cannot perceive or remember.",
+      "practice": "Travellers and hosts govern entry, exit, rescue, record, graves, border consent, and when a road becomes public.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The routes disappear from ordinary planning, maintenance becomes secret power, and travellers risk losing civic continuity.",
+      "failure": "Safe passage becomes forced disappearance, hosts are erased from history, or the state uses hidden roads for unaccountable movement.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Stop openly, invoke a host record, follow physical burden, withdraw route consent, or reveal a segment.",
+      "mastery": "Masters protect the right to remain findable and keep ordinary roads viable for journeys that should not require secrecy.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 21 | PROOF REDIRECTION + UNWEAVING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v45",
+    "title": "Archive of Oblivion",
+    "description": "Makes a nation's intentionally erased records, destroyed names, missing places, censored events, and lawful forgettings legible as absences without restoring their contents.",
+    "parentGroupIds": [
+      "shelf:void-veiling:wonders"
+    ],
+    "facts": {
+      "originalId": "V45",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "BEYOND LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V45",
+        "location": "Void Veiling / Wonders / V45"
+      }
+    },
+    "aliases": [
+      "V45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes a nation's intentionally erased records, destroyed names, missing places, censored events, and lawful forgettings legible as absences without restoring their contents.",
+      "practice": "Independent archives govern privacy, uncertainty, sacred silence, living witnesses, and the right to close a gap again.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "National memory reorganises, omissions acquire political force, and hidden powers may gain routes through being noticed.",
+      "failure": "The Archive invents certainty, converts privacy into suspicion, or makes every absence property of the state.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Withdraw an entry, add mundane context, close reciprocity, refuse reconstruction, or challenge the archive's comparison set.",
+      "mastery": "A master protects what must remain unknown and never claims that a complete map of forgetting is possible.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v46",
+    "title": "The Unfindable Nation",
+    "description": "Removes a threatened country's people, settlements, movements, communications, and magical signature from conquest without deleting its internal life.",
+    "parentGroupIds": [
+      "shelf:void-veiling:wonders"
+    ],
+    "facts": {
+      "originalId": "V46",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "BEYOND LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V46",
+        "location": "Void Veiling / Wonders / V46"
+      }
+    },
+    "aliases": [
+      "V46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Removes a threatened country's people, settlements, movements, communications, and magical signature from conquest without deleting its internal life.",
+      "practice": "Communities retain local maps, mutual recognition, justice, rescue, exit, and the right to be found by chosen outsiders.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Enemies meet gaps, but trade, diplomacy, accountability, and historical continuity weaken; borders accumulate confused attention.",
+      "failure": "The Wonder hides tyranny, erases minorities from internal recognition, or makes reappearance impossible without losing identity.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke chosen witness, follow material ecology, expose internal harm, reopen one locality, or contest national consent.",
+      "mastery": "Sovereign mastery keeps every person visible to someone they trust and reveals the country before secrecy becomes government.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | BEYOND LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v47",
+    "title": "Mercy of the Empty Sky",
+    "description": "Removes mass haunting, invasive prophecy, psychic warfare, unbearable divine attention, and compulsory celestial destiny from a nation.",
+    "parentGroupIds": [
+      "shelf:void-veiling:wonders"
+    ],
+    "facts": {
+      "originalId": "V47",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "VEIL LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V47",
+        "location": "Void Veiling / Wonders / V47"
+      }
+    },
+    "aliases": [
+      "V47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Removes mass haunting, invasive prophecy, psychic warfare, unbearable divine attention, and compulsory celestial destiny from a nation.",
+      "practice": "Individuals and communities preserve chosen faith, dreams, warning, grief, dissent, and the right to remain cosmically visible.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The sky becomes silent, traditions lose correspondence, excluded powers gather beyond the veil, and relief risks becoming spiritual dependence.",
+      "failure": "The state defines belief as intrusion, suppresses private revelation, or converts freedom from attention into enforced metaphysical emptiness.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Invoke chosen relation, open a sanctuary, present a lawful omen, withdraw local consent, or let one star be seen.",
+      "mastery": "A master protects spiritual plurality and spends silence before it can become an official account of reality.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v48",
+    "title": "The Parliament Without Presence",
+    "description": "Creates a national assembly in which anonymous, hidden, absent, exiled, endangered, and deliberately unrepresented people can influence law without becoming locatable.",
+    "parentGroupIds": [
+      "shelf:void-veiling:wonders"
+    ],
+    "facts": {
+      "originalId": "V48",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "MAW LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V48",
+        "location": "Void Veiling / Wonders / V48"
+      }
+    },
+    "aliases": [
+      "V48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a national assembly in which anonymous, hidden, absent, exiled, endangered, and deliberately unrepresented people can influence law without becoming locatable.",
+      "practice": "No silence is interpreted, every channel expires, material accountability remains, and participants may reveal only by choice.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Politics gains unseen voices but loses context, counterfeit absences appear, and institutions grow skilled at speaking for those they cannot verify.",
+      "failure": "Anonymity launders power, the absent overrule the present, or government invents invisible constituencies to justify itself.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Challenge a channel, demand material consequence, invoke silence, withdraw representation, or expose the institution speaking in another's name.",
+      "mastery": "A master protects the unrepresented and keeps uncertainty strong enough that invisible participation never becomes invisible rule.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 22 | PROOF ANCHORING + UNWEAVING | MAW LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v49",
+    "title": "The Final Seal",
+    "description": "Removes a world-threatening gate, immortal curse, recursive spell, predatory god, or catastrophic relation from every known route of return.",
+    "parentGroupIds": [
+      "shelf:void-veiling:wonders"
+    ],
+    "facts": {
+      "originalId": "V49",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "VEIL LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V49",
+        "location": "Void Veiling / Wonders / V49"
+      }
+    },
+    "aliases": [
+      "V49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Removes a world-threatening gate, immortal curse, recursive spell, predatory god, or catastrophic relation from every known route of return.",
+      "practice": "Custodians preserve evidence, innocent dependants, lawful reopening, uncertainty, residual effects, and the possibility that the diagnosis is wrong.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Reality carries a permanent gap, related systems lose context, and the Seal becomes the greatest surviving correspondence to what it excludes.",
+      "failure": "The prison becomes worship, the wrong relation is sealed, or accumulated absence ruptures into a larger outside.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Challenge the diagnosis, break a custody relation, invoke a dependant, create a new context, or unmake the Seal deliberately.",
+      "mastery": "Supreme mastery leaves the Seal contestable and refuses to call permanent ignorance the same thing as safety.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 22 | PROOF ANCHORING + UNWEAVING | VEIL LENS"
+    }
+  },
+  {
+    "id": "spell:void-veiling:v50",
+    "title": "The World Forgets One Thing",
+    "description": "Allows civilisation to release one unbearable name, weapon, command, curse, or predatory idea from active memory while preserving enough consequence to avoid repeating it blindly.",
+    "parentGroupIds": [
+      "shelf:void-veiling:wonders"
+    ],
+    "facts": {
+      "originalId": "V50",
+      "collectionId": "collection:void-veiling",
+      "collectionTitle": "Void Veiling",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:void-veiling"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "BEYOND LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:void-veiling",
+        "originalId": "V50",
+        "location": "Void Veiling / Wonders / V50"
+      }
+    },
+    "aliases": [
+      "V50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Void 4 | Veiling | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Allows civilisation to release one unbearable name, weapon, command, curse, or predatory idea from active memory while preserving enough consequence to avoid repeating it blindly.",
+      "practice": "Victims, historians, descendants, dissenters, outsiders, and unknown future people hold independent vetoes over the forgetting.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Language, law, identity, and causality reorganise around the gap; fragments survive in dreams, objects, and institutional habit.",
+      "failure": "Responsibility disappears, the void consumes related knowledge, or the forbidden thing returns without the warnings that once contained it.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Preserve an object, invoke consequence, withdraw consent, create a new name, or reopen memory through an outside culture.",
+      "mastery": "The supreme veiler keeps forgetting partial, reversible, and visibly costly, knowing that oblivion can end a weapon only by wounding the world that knew it.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | BEYOND LENS"
+    }
+  }
+]

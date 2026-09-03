@@ -157,6 +157,14 @@ export function validateTaxonomyModule<
         );
       }
     }
+    for (const groupId of entity.linkedGroupIds ?? []) {
+      if (!groupIds.has(groupId)) {
+        error(
+          'unknown-related-group',
+          `Related entity "${entity.id}" references unknown group "${groupId}".`,
+        );
+      }
+    }
   }
   const projection = module.interpretation.projection;
   if (projection.kind === 'hierarchical') {

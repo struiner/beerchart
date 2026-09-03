@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "spell:grave-abjuration:g01",
+    "title": "Withering Touch",
+    "description": "Ends the active growth of one weed, mould patch, minor parasite, or fresh wooden shoot without destroying older material.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "G01",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "ROT LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 4,
+      "calculatedLoad": 4,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G01",
+        "location": "Grave Abjuration / Lessons / G01"
+      }
+    },
+    "aliases": [
+      "G01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 1 | Abjuration | Th1 Tu1 Kn0 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Ends the active growth of one weed, mould patch, minor parasite, or fresh wooden shoot without destroying older material.",
+      "practice": "Circle the target with ash and state what living continuation must remain outside the ending.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Rejected vitality gathers at the ash line, nearby decay quickens, and the caster inherits a brief heaviness.",
+      "failure": "The boundary follows roots into a crop, treats healing as growth, or leaves a reservoir of hungry vitality.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break the ash, move the living boundary, add vigorous new growth, or carry the target into fresh soil.",
+      "mastery": "A master narrows the ending to one process and disperses accumulated vitality before it seeks another host.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 4 | PROOF HEARING + HOLDING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g02",
+    "title": "Quietus Ward",
+    "description": "Marks a palm-wide boundary that ends the motion of one small falling, rolling, biting, or striking object as it crosses.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "G02",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G02",
+        "location": "Grave Abjuration / Lessons / G02"
+      }
+    },
+    "aliases": [
+      "G02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 1 | Abjuration | Th1 Tu1 Kn1 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Marks a palm-wide boundary that ends the motion of one small falling, rolling, biting, or striking object as it crosses.",
+      "practice": "Place a bone chip behind the protected point and name one class of motion that may continue.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Rejected momentum gathers as cold tremor in the chip and the warded surface becomes unnaturally still.",
+      "failure": "The ward stops a friendly hand, accumulates too many tiny motions, or releases them together when the chip cracks.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Approach slowly, remove the chip, use admitted motion, or overwhelm the boundary with harmless debris.",
+      "mastery": "An expert lengthens the stop and releases stored motion into empty ground before protection becomes a second impact.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 5 | PROOF HEARING + HOLDING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g03",
+    "title": "Rotkeeper's Limit",
+    "description": "Stops decay, fermentation, rust, or drying at a named boundary on one small object or jar.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "G03",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G03",
+        "location": "Grave Abjuration / Lessons / G03"
+      }
+    },
+    "aliases": [
+      "G03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 1 | Abjuration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Stops decay, fermentation, rust, or drying at a named boundary on one small object or jar.",
+      "practice": "Mark the acceptable edge of change with wax and leave a waste cup for rejected process.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Decay accumulates in the cup, the preserved portion grows rigid, and ordinary ageing continues elsewhere more quickly.",
+      "failure": "The limit preserves contamination, treats useful fermentation as rot, or breaks when the waste cup fills.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Melt the wax, empty the cup, introduce fresh culture, or change temperature across the boundary.",
+      "mastery": "A master preserves safe change rather than perfect stasis and reopens the process before accumulated ending turns poisonous.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 6 | PROOF HEARING + HOLDING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g04",
+    "title": "Last Step",
+    "description": "Ends one person's stumble, slide, uncontrolled turn, or brief pursuit of momentum after a marked final footfall.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "G04",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "ROT LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G04",
+        "location": "Grave Abjuration / Lessons / G04"
+      }
+    },
+    "aliases": [
+      "G04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 1 | Abjuration | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Ends one person's stumble, slide, uncontrolled turn, or brief pursuit of momentum after a marked final footfall.",
+      "practice": "Dust the stopping place with ash and name which direction may continue after arrival.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The body grows heavy, the ground stores a small jolt, and future steps hesitate near the mark.",
+      "failure": "The spell ends balance as well as motion, stops too early, or anchors the traveller to unsafe ground.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Erase the mark, lift the traveller, change direction, or cross without a footfall.",
+      "mastery": "A master surrenders exact position and spreads the ending over several steps rather than demanding a perfect stop.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 5 | PROOF HEARING + HOLDING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g05",
+    "title": "Ashen Trace",
+    "description": "Dismisses fresh noise, warmth, and surface disturbance from a small site so older residue, wear, and last contact become visible.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "G05",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G05",
+        "location": "Grave Abjuration / Lessons / G05"
+      }
+    },
+    "aliases": [
+      "G05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 1 | Abjuration | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Dismisses fresh noise, warmth, and surface disturbance from a small site so older residue, wear, and last contact become visible.",
+      "practice": "Cover the site with a sieve and name the interval of newness to be excluded.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Recent evidence gathers as grey dust at the boundary, while whatever is revealed gains a faint route to the observer.",
+      "failure": "The chosen interval removes the event sought, old damage is mistaken for last action, or the dust is treated as proof without context.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Break the sieve, add a newer disturbance, scatter the boundary dust, or invoke a different interval.",
+      "mastery": "A master shows the omission beside the remainder and never lets absence pretend to be a complete account.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 5 | PROOF HEARING + HOLDING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g06",
+    "title": "Shroud of No Remains",
+    "description": "Dismisses scent, loose hair, shed skin, footprints, and fresh residue from one small action or resting place.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "G06",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G06",
+        "location": "Grave Abjuration / Lessons / G06"
+      }
+    },
+    "aliases": [
+      "G06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 1 | Abjuration | Th1 Tu1 Kn0 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Dismisses scent, loose hair, shed skin, footprints, and fresh residue from one small action or resting place.",
+      "practice": "Collect one deliberate trace in a black cloth and leave it as a retrieval token.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The rejected signs accumulate in the cloth, friendly trackers lose them too, and the place becomes unnaturally clean.",
+      "failure": "The shroud takes the retrieval token, erases evidence of injury, or releases all traces when opened.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Unwrap the cloth, add a durable mark, observe the blankness, or track the person beyond the bounded action.",
+      "mastery": "An expert leaves ordinary imperfection and preserves signs needed for rescue, consent, and later truth.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 5 | PROOF HEARING + HOLDING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g07",
+    "title": "Pain's End",
+    "description": "Concludes one minor pain spasm, lingering sting, hiccup, or tremor for a short interval without treating its cause.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "G07",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G07",
+        "location": "Grave Abjuration / Lessons / G07"
+      }
+    },
+    "aliases": [
+      "G07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 1 | Abjuration | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Concludes one minor pain spasm, lingering sting, hiccup, or tremor for a short interval without treating its cause.",
+      "practice": "The subject names the sensation and one warning that must remain perceptible.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Rejected pain collects as cold numbness at the boundary and may return more sharply when the interval ends.",
+      "failure": "The spell ends useful warning, expands into sensation generally, or allows injury to worsen unnoticed.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Invoke the preserved warning, move the boundary, introduce new pain, or end the interval early.",
+      "mastery": "A master keeps diagnosis outside the Pattern and restores sensation before relief becomes permission to ignore harm.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 6 | PROOF HEARING + HOLDING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g08",
+    "title": "Pallbearer Mark",
+    "description": "Creates a slow-moving ash mark that follows a scored line and extinguishes one declared flame, noise, or minor enchantment at its end.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "G08",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "ROT LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G08",
+        "location": "Grave Abjuration / Lessons / G08"
+      }
+    },
+    "aliases": [
+      "G08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 1 | Abjuration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag1 Co0 | Carrier: personal or supervised.",
+      "purpose": "Creates a slow-moving ash mark that follows a scored line and extinguishes one declared flame, noise, or minor enchantment at its end.",
+      "practice": "Draw the route in grave dust and give the mark no authority to select another ending.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The route chills, extinguished force gathers in the dust, and nearby memories of the effect become briefly vivid.",
+      "failure": "The mark chooses a similar source, continues past the destination, or snuffs a necessary warning.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Break the route, scatter the dust, offer a stronger matching effect, or move the destination.",
+      "mastery": "A master gives the mark one refusal and dismisses it when identity becomes uncertain rather than granting broader judgment.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 7 | PROOF HEARING + HOLDING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g09",
+    "title": "Sealed Grave",
+    "description": "Closes one crack, jar, small tomb, or cache against insects, scent, seepage, and casual spiritual attention.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "G09",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G09",
+        "location": "Grave Abjuration / Lessons / G09"
+      }
+    },
+    "aliases": [
+      "G09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 1 | Abjuration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Closes one crack, jar, small tomb, or cache against insects, scent, seepage, and casual spiritual attention.",
+      "practice": "Set four ash seals and designate one lawful opening action before closing.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Rejected pressure, decay, and memory accumulate at the seals, while the contents become harder for allies to sense.",
+      "failure": "The lawful opening is forgotten, gas gathers, or the seal treats necessary mourning and maintenance as intrusion.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Perform the opening action, break one seal, change internal pressure, or call a named memory from within.",
+      "mastery": "A master leaves ventilation, record, and recoverability stronger than secrecy.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 6 | PROOF HEARING + HOLDING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g10",
+    "title": "Bell for What Is Finished",
+    "description": "Makes a small bell ring once when a named task, vigil, argument, performance, or period has truly ceased in a room.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:lessons"
+    ],
+    "facts": {
+      "originalId": "G10",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G10",
+        "location": "Grave Abjuration / Lessons / G10"
+      }
+    },
+    "aliases": [
+      "G10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 1 | Abjuration | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Makes a small bell ring once when a named task, vigil, argument, performance, or period has truly ceased in a room.",
+      "practice": "Name observable conditions for ending and one person allowed to say that continuation still matters.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Unfinished intention gathers as tension in the clapper, and participants feel the social weight of closure.",
+      "failure": "The bell rewards silence rather than completion, ends debate by authority, or refuses to ring because grief has no clean boundary.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Invoke the named dissenter, alter a condition, remove the bell, or continue the task in another form.",
+      "mastery": "A master lets the bell remain silent without treating ambiguity as failure and never uses closure to overrule the living.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 6 | PROOF HEARING + HOLDING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g11",
+    "title": "Rankbreak Quietus",
+    "description": "Ends the coordinated momentum of a charging rank, stampede, machine line, or advancing shield wall across a narrow front.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "G11",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "ROT LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G11",
+        "location": "Grave Abjuration / Practical Workings / G11"
+      }
+    },
+    "aliases": [
+      "G11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 2 | Abjuration | Th1 Tu1 Kn1 Sp2 Ho0 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Ends the coordinated momentum of a charging rank, stampede, machine line, or advancing shield wall across a narrow front.",
+      "practice": "Bury three end-stones beneath the lane and mark exits through which individuals may continue safely.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Rejected motion and collective purpose accumulate in the stones, chilling ground and intensifying unfinished aggression.",
+      "failure": "The exits close, individuals are stopped violently, or stored momentum returns as panic and crushing pressure.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Approach without shared cadence, lift a stone, occupy an exit, or feed many small coordinated motions.",
+      "mastery": "Experts end formation before bodies, widening escape and sacrificing tactical certainty before the boundary becomes slaughter.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 7 | PROOF HOLDING + TURNING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g12",
+    "title": "Graveward Wall",
+    "description": "Raises a boundary that concludes arrows, flame, sound, vermin, disease vapour, or hostile spirits crossing a chosen arc.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "G12",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G12",
+        "location": "Grave Abjuration / Practical Workings / G12"
+      }
+    },
+    "aliases": [
+      "G12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 2 | Abjuration | Th1 Tu1 Kn2 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Raises a boundary that concludes arrows, flame, sound, vermin, disease vapour, or hostile spirits crossing a chosen arc.",
+      "practice": "Separate each threat class into its own funerary token and keep one open relief direction.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Rejected forces gather as cold residue, silence, and unresolved presence around the wall.",
+      "failure": "Threat classes merge, relief closes, or the wall accumulates enough hostility to become a haunted hazard.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Remove a token, attack outside the arc, use an unnamed medium, or force the residue inward.",
+      "mastery": "A master narrows the arc and releases residue deliberately before protection learns to define the world as intrusion.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 9 | PROOF HOLDING + TURNING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g13",
+    "title": "Decay Quarantine",
+    "description": "Ends the spread of rot, rust, infestation, fermentation, corpse influence, or mould at a mapped worksite boundary.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "G13",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G13",
+        "location": "Grave Abjuration / Practical Workings / G13"
+      }
+    },
+    "aliases": [
+      "G13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 2 | Abjuration | Th1 Tu1 Kn3 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Ends the spread of rot, rust, infestation, fermentation, corpse influence, or mould at a mapped worksite boundary.",
+      "practice": "Map living, useful, sacred, and waste processes separately and appoint a keeper for each exclusion.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Rejected decay accumulates at the edge, preserved matter stiffens, and neighbouring sites age faster.",
+      "failure": "The boundary traps contagion with people, stops compost and healing, or ruptures as concentrated rot.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Open a waste gate, change the map, introduce a new carrier, or remove one keeper.",
+      "mastery": "Masters preserve controlled decay within the site and shrink the quarantine before accumulation becomes a weapon.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 10 | PROOF HOLDING + TURNING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g14",
+    "title": "Stillmarch Boundary",
+    "description": "Creates a moving line that ends hostile pursuit, uncontrolled retreat, rolling debris, or forced movement as it crosses.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "G14",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "ROT LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G14",
+        "location": "Grave Abjuration / Practical Workings / G14"
+      }
+    },
+    "aliases": [
+      "G14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 2 | Abjuration | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Creates a moving line that ends hostile pursuit, uncontrolled retreat, rolling debris, or forced movement as it crosses.",
+      "practice": "Four bearers maintain direction, admitted travellers, stopping distance, and a rear release corridor.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The line stores momentum and intention as fatigue in its bearers and cold pressure in the road.",
+      "failure": "It halts allies, turns retreat into capture, or accumulates enough motion to throw the boundary forward.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Break bearer cadence, approach obliquely, use admitted identity, or overload the release corridor.",
+      "mastery": "A master lets enemies pass singly rather than preserve a perfect stop once discrimination weakens.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 10 | PROOF HOLDING + TURNING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g15",
+    "title": "Inheritance Sieve",
+    "description": "Dismisses recent handling, repair, dirt, and noise from an heirloom or ruin so older construction, wear, and inherited claims become legible.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "G15",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G15",
+        "location": "Grave Abjuration / Practical Workings / G15"
+      }
+    },
+    "aliases": [
+      "G15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 2 | Abjuration | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Dismisses recent handling, repair, dirt, and noise from an heirloom or ruin so older construction, wear, and inherited claims become legible.",
+      "practice": "Set layers of ash for each excluded era and keep all removed residue in labelled cloths.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The object grows cold and rigid, suppressed histories gather materially, and forgotten claimants may feel the inquiry.",
+      "failure": "The chosen eras privilege official history, repair is mistaken for corruption, or removed residue is destroyed as waste.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Restore a cloth, contest an era, add a newer legitimate layer, or invoke a claimant.",
+      "mastery": "An expert preserves alteration beside inheritance and uses the sieve to open debate, not decide ownership.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 10 | PROOF HOLDING + TURNING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g16",
+    "title": "Nameless Burial",
+    "description": "Excludes a corpse, cache, ruin, or trail from ordinary scent, memory cues, scavengers, and funerary attention for a limited journey or vigil.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "G16",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G16",
+        "location": "Grave Abjuration / Practical Workings / G16"
+      }
+    },
+    "aliases": [
+      "G16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 2 | Abjuration | Th1 Tu1 Kn3 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Excludes a corpse, cache, ruin, or trail from ordinary scent, memory cues, scavengers, and funerary attention for a limited journey or vigil.",
+      "practice": "Keep the true name or retrieval relation with a trusted bearer outside the shroud.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Mourning and ecological processes gather at the boundary, while allies become less able to remember practical details.",
+      "failure": "The bearer forgets, the shroud suppresses rightful grief, or accumulated scavengers and memory arrive together at release.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Call the true relation, break the boundary, introduce a stronger funerary claim, or follow the blankness.",
+      "mastery": "A master preserves lawful discovery and ends concealment before omission becomes erasure of personhood.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 10 | PROOF HOLDING + TURNING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g17",
+    "title": "Fever's Funeral",
+    "description": "Concludes one defined fever cycle, poison action, parasite stage, or runaway inflammatory process in a patient.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "G17",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G17",
+        "location": "Grave Abjuration / Practical Workings / G17"
+      }
+    },
+    "aliases": [
+      "G17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 2 | Abjuration | Th1 Tu1 Kn3 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Concludes one defined fever cycle, poison action, parasite stage, or runaway inflammatory process in a patient.",
+      "practice": "Healers name the harmful process, useful defences, uncertain causes, and conditions for immediate reopening.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Rejected heat and biological activity gather in cooling vessels; the patient becomes heavy and temporarily less responsive.",
+      "failure": "The spell ends immune defence, traps toxin, or treats adaptation as disease.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Break a vessel, invoke an uncertain cause, introduce a new stage, or restore ordinary metabolism.",
+      "mastery": "A master ends only the dangerous continuation and returns the body to its own struggle before magical relief becomes dependence.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 11 | PROOF HOLDING + TURNING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g18",
+    "title": "Pallbearer Shade",
+    "description": "Shapes an autonomous moving boundary that patrols a site and dismisses declared vermin, lingering spells, sparks, and restless remnants.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "G18",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "ROT LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G18",
+        "location": "Grave Abjuration / Practical Workings / G18"
+      }
+    },
+    "aliases": [
+      "G18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 2 | Abjuration | Th1 Tu1 Kn2 Sp2 Ho1 Fi2 Ag2 Co0 | Carrier: personal with a focus.",
+      "purpose": "Shapes an autonomous moving boundary that patrols a site and dismisses declared vermin, lingering spells, sparks, and restless remnants.",
+      "practice": "Give it examples, exclusions, a fixed route, a rest tomb, and a sunset dissolution.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Rejected presences accumulate in the rest tomb, the site grows still, and ordinary small life avoids the route.",
+      "failure": "The Shade broadens vermin into strangers, confuses harmless memory with haunting, or refuses dissolution while work remains.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Change the route, open the tomb, present an excluded example, or invoke sunset.",
+      "mastery": "A master makes uncertainty trigger return rather than dismissal and never rewards endless vigilance.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 11 | PROOF HOLDING + TURNING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g19",
+    "title": "Ossuary Seal",
+    "description": "Closes a crypt, archive, battlefield pit, or dangerous ruin against theft, seepage, haunting, and accidental inheritance.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "G19",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 2,
+        "hold": 3,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G19",
+        "location": "Grave Abjuration / Practical Workings / G19"
+      }
+    },
+    "aliases": [
+      "G19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 2 | Abjuration | Th1 Tu1 Kn3 Sp2 Ho3 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Closes a crypt, archive, battlefield pit, or dangerous ruin against theft, seepage, haunting, and accidental inheritance.",
+      "practice": "Name living custodians, ventilation, mourning access, maintenance, and a lawful process for reopening.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Claims and residue accumulate at the boundary, the site becomes materially still, and nearby descendants dream of exclusion.",
+      "failure": "The seal preserves harm, denies rightful access, or concentrates unfinished memory into one breach point.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Invoke custody, complete reopening, alter ventilation, return an object, or answer a descendant's dream.",
+      "mastery": "Experts keep stewardship and revision easier than secrecy, allowing a sealed place to rejoin history.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 12 | PROOF HOLDING + TURNING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g20",
+    "title": "Day of Closed Doors",
+    "description": "Causes a settlement's marked doors to refuse one declared activity for a day, such as trade, pursuit, celebration, work, or public accusation.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "G20",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G20",
+        "location": "Grave Abjuration / Practical Workings / G20"
+      }
+    },
+    "aliases": [
+      "G20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 2 | Abjuration | Th1 Tu1 Kn3 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Causes a settlement's marked doors to refuse one declared activity for a day, such as trade, pursuit, celebration, work, or public accusation.",
+      "practice": "Every household chooses participation, an emergency exception, and what ordinary need must continue.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Interrupted activity gathers as social and magical pressure at thresholds; excluded people may bear unequal cost.",
+      "failure": "The rite becomes coercive mourning, emergency clauses vanish, or closure merely drives activity into hidden spaces.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Invoke exception, use an unmarked entrance, withdraw a household, or transform the activity into another form.",
+      "mastery": "A master protects refusal and makes reopening part of the public act, never confusing silence with reconciliation.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 11 | PROOF HOLDING + TURNING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g21",
+    "title": "Severing Field",
+    "description": "Ends selected chains of command, hostile enchantments, summoned persistence, and coordinated aggression within a battlefield sector.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "G21",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "ROT LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G21",
+        "location": "Grave Abjuration / Expert Formulae / G21"
+      }
+    },
+    "aliases": [
+      "G21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 3 | Abjuration | Th1 Tu1 Kn2 Sp3 Ho0 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Ends selected chains of command, hostile enchantments, summoned persistence, and coordinated aggression within a battlefield sector.",
+      "practice": "Specialists keep people, orders, magic, memory, and bodily life as separate exclusion layers.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Rejected obligation and force accumulate at the boundary, soldiers lose legitimate coordination, and unfinished purposes haunt the ground.",
+      "failure": "The field ends medical command, severs identity, or converts dissolved discipline into panic and atrocity.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Use decentralised action, cross layers separately, break a specialist, or force accumulated purpose back inward.",
+      "mastery": "A master ends coercive relation before individual capacity and collapses Span before the field becomes indiscriminate social death.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 10 | PROOF TURNING + REDIRECTION | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g22",
+    "title": "Citadel of Last Stone",
+    "description": "Surrounds a fortress, refuge, or formation with layered endings that stop impact, fire, poison, pursuit, and hostile spiritual claim.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "G22",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G22",
+        "location": "Grave Abjuration / Expert Formulae / G22"
+      }
+    },
+    "aliases": [
+      "G22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 3 | Abjuration | Th1 Tu1 Kn3 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Surrounds a fortress, refuge, or formation with layered endings that stop impact, fire, poison, pursuit, and hostile spiritual claim.",
+      "practice": "Each threat has a gate, residue sink, mortal keeper, and condition under which protection must end.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The citadel becomes cold and isolated, residue accumulates, supplies age strangely, and allies lose contact.",
+      "failure": "Gates close permanently, protection traps catastrophe inside, or the last stone becomes a single catastrophic breach.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Overload a sink, invoke an end condition, introduce an unnamed threat, or sever a keeper.",
+      "mastery": "Experts accept breached walls and outside help before a perfect citadel becomes its inhabitants' tomb.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 13 | PROOF TURNING + REDIRECTION | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g23",
+    "title": "Boundary of Decay",
+    "description": "Regulates rot, infection, ageing, fermentation, corrosion, and funerary presence across a district by ending each process at declared thresholds.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "G23",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G23",
+        "location": "Grave Abjuration / Expert Formulae / G23"
+      }
+    },
+    "aliases": [
+      "G23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 3 | Abjuration | Th1 Tu1 Kn4 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Regulates rot, infection, ageing, fermentation, corrosion, and funerary presence across a district by ending each process at declared thresholds.",
+      "practice": "Healers, brewers, farmers, archivists, mourners, and waste keepers hold incompatible but equal clauses.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Processes accumulate at borders, preserved matter grows brittle, and some decay is displaced into poorer districts.",
+      "failure": "The cleanest constituency wins, healthy turnover stops, or stored rot breaks through as epidemic and collapse.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Withdraw a clause, open a decay corridor, change thresholds, or expose exported burden.",
+      "mastery": "A master keeps visible, lawful places for ending and renewal, preserving enough decay for life and history to move.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 14 | PROOF TURNING + REDIRECTION | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g24",
+    "title": "March Ending Field",
+    "description": "Ends forced movement, pursuit, rout, deportation, or military advance across a shifting line while permitting consensual passage.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "G24",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "ROT LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G24",
+        "location": "Grave Abjuration / Expert Formulae / G24"
+      }
+    },
+    "aliases": [
+      "G24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 3 | Abjuration | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Ends forced movement, pursuit, rout, deportation, or military advance across a shifting line while permitting consensual passage.",
+      "practice": "Witnesses separately hold consent, coercion, urgency, identity, and safe stopping distance.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Rejected motion and command gather as exhaustion and unresolved intent along the line.",
+      "failure": "Consent is inferred from compliance, refugees are stopped with pursuers, or the line freezes a population in danger.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Contest consent, cross without command, break a witness, change urgency, or open a humanitarian corridor.",
+      "mastery": "A master preserves escape and individual choice, letting strategic containment fail before the boundary becomes captivity.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 14 | PROOF TURNING + REDIRECTION | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g25",
+    "title": "Assize of Ash",
+    "description": "Removes recent noise, rebuilding, propaganda, and ritual from ruins and remains so older layers of death, ownership, and unfinished obligation can be examined.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "G25",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G25",
+        "location": "Grave Abjuration / Expert Formulae / G25"
+      }
+    },
+    "aliases": [
+      "G25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 3 | Abjuration | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Removes recent noise, rebuilding, propaganda, and ritual from ruins and remains so older layers of death, ownership, and unfinished obligation can be examined.",
+      "practice": "Jurists keep every excluded layer available for return and grant living communities vetoes over sacred exposure.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The dead become aware of inquiry, current life is temporarily displaced from interpretation, and old claims gain force.",
+      "failure": "The deepest layer is treated as truest, repair becomes evidence of guilt, or the Assize summons obligation without context.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Restore a layer, invoke living veto, present contradictory remains, or close the inquiry.",
+      "mastery": "Masters let several inheritances coexist and refuse to convert material memory into automatic verdict.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 14 | PROOF TURNING + REDIRECTION | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g26",
+    "title": "City of Forgotten Graves",
+    "description": "Conceals a district, army, or refuge by excluding its scent, footsteps, heat residue, minor deaths, and remembered routes from hostile pursuit.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "G26",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G26",
+        "location": "Grave Abjuration / Expert Formulae / G26"
+      }
+    },
+    "aliases": [
+      "G26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 3 | Abjuration | Th1 Tu1 Kn4 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Conceals a district, army, or refuge by excluding its scent, footsteps, heat residue, minor deaths, and remembered routes from hostile pursuit.",
+      "practice": "Separate rescue, mourning, civic record, internal orientation, and lawful revelation into protected channels.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The hidden become hard to care for and govern, deaths go unrecorded, and omitted traces accumulate at the perimeter.",
+      "failure": "The city forgets its own exits and losses, secrecy hides abuse, or accumulated memory returns as mass haunting.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke a protected channel, follow the perimeter, introduce novel observation, or demand lawful revelation.",
+      "mastery": "A master preserves internal history and reveals power before concealment turns inhabitants into socially dead people.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 14 | PROOF TURNING + REDIRECTION | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g27",
+    "title": "Mercy of the Last Breath",
+    "description": "Ends unbearable pain, panic, invasive magic, or prolongation around the dying while preserving speech, consent, and chosen relationships.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "G27",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G27",
+        "location": "Grave Abjuration / Expert Formulae / G27"
+      }
+    },
+    "aliases": [
+      "G27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 3 | Abjuration | Th1 Tu1 Kn4 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Ends unbearable pain, panic, invasive magic, or prolongation around the dying while preserving speech, consent, and chosen relationships.",
+      "practice": "Healers, patient, family, and witness keep separate clauses; no silence may be interpreted as consent.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Rejected suffering accumulates in vigil stones, death becomes more present, and survivors inherit unresolved emotional residue.",
+      "failure": "The Pattern hastens death, ends communication, privileges family desire, or treats disability as unfinished dying.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Invoke patient speech, remove a stone, contest a clause, or return ordinary sensation.",
+      "mastery": "A master holds mercy without deciding the person's ending and releases the spell whenever consent cannot be renewed.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 15 | PROOF TURNING + REDIRECTION | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g28",
+    "title": "Keeper of Unfinished Things",
+    "description": "Creates an autonomous funerary boundary that gathers abandoned spells, unclosed vows, dangerous remnants, and incomplete deaths without resolving them.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "G28",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "ROT LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G28",
+        "location": "Grave Abjuration / Expert Formulae / G28"
+      }
+    },
+    "aliases": [
+      "G28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 3 | Abjuration | Th1 Tu1 Kn3 Sp3 Ho2 Fi3 Ag3 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates an autonomous funerary boundary that gathers abandoned spells, unclosed vows, dangerous remnants, and incomplete deaths without resolving them.",
+      "practice": "Its charter names what may be held, who may inspect, what cannot be judged, and when the Keeper must dissolve.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "Unfinished relations accumulate, the site grows cold, and institutions become tempted to store difficult obligations indefinitely.",
+      "failure": "The Keeper classifies dissent as unfinished duty, becomes a prison for memory, or refuses dissolution because its collection is never complete.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Remove an item lawfully, challenge a category, open the archive, or invoke dissolution.",
+      "mastery": "A master preserves uncertainty and empties the Keeper regularly, treating storage as a pause rather than an ending.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 16 | PROOF TURNING + ANCHORING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g29",
+    "title": "Necropolis Lock",
+    "description": "Seals a great cemetery, battlefield, plague pit, or ancestral complex against theft, uncontrolled haunting, contagion, and political exploitation.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "G29",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 3,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G29",
+        "location": "Grave Abjuration / Expert Formulae / G29"
+      }
+    },
+    "aliases": [
+      "G29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 3 | Abjuration | Th1 Tu1 Kn4 Sp3 Ho4 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Seals a great cemetery, battlefield, plague pit, or ancestral complex against theft, uncontrolled haunting, contagion, and political exploitation.",
+      "practice": "Living custodians, descendants, public historians, ecologists, and the unclaimed dead hold separate access clauses.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "Memory and decay accumulate at boundaries, land use freezes, and excluded descendants feel the lock in dreams.",
+      "failure": "One custodian owns the dead, contagion is preserved, or concentrated claims break out through a neglected gate.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Invoke access, change custody, complete a funerary duty, open an ecological corridor, or answer the dreams.",
+      "mastery": "Experts keep the necropolis connected to living history and make every lock easier to revise than to worship.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 16 | PROOF TURNING + ANCHORING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g30",
+    "title": "Rite of Empty Thrones",
+    "description": "Ends the ceremonial, magical, and inherited authority of a ruler, office, idol, or dynasty within a bounded institution.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "G30",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G30",
+        "location": "Grave Abjuration / Expert Formulae / G30"
+      }
+    },
+    "aliases": [
+      "G30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 3 | Abjuration | Th1 Tu1 Kn4 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Ends the ceremonial, magical, and inherited authority of a ruler, office, idol, or dynasty within a bounded institution.",
+      "practice": "Separate person, office, law, memory, dependants, and succession before any claim is dismissed.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Rejected authority accumulates in regalia and followers, while the institution enters a dangerous period of symbolic weightlessness.",
+      "failure": "The rite erases lawful continuity, ends duties with privilege, or merely drives authority into an unaccountable form.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Invoke a preserved duty, present legitimate succession, remove regalia, or relocate the institution.",
+      "mastery": "A master ends claims without pretending power disappears and leaves enough continuity for ordinary people to live through the vacancy.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 15 | PROOF TURNING + REDIRECTION | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g31",
+    "title": "Army's Last Morning",
+    "description": "Ends an army's coordinated capacity to march, command, reinforce, and sustain hostile action across a theatre without directly killing its soldiers.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:rites"
+    ],
+    "facts": {
+      "originalId": "G31",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "ROT LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G31",
+        "location": "Grave Abjuration / Rites / G31"
+      }
+    },
+    "aliases": [
+      "G31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn3 Sp4 Ho1 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Ends an army's coordinated capacity to march, command, reinforce, and sustain hostile action across a theatre without directly killing its soldiers.",
+      "practice": "Command, supply, coercion, medical care, surrender, and civilian movement remain separate under multiple conductors.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Rejected purpose and momentum accumulate as exhaustion, desertion, haunted camps, and dangerous abandoned materiel.",
+      "failure": "The rite ends surrender channels, collapses medical care, or turns disorganisation into massacre.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Decentralise command, dissolve formation voluntarily, corrupt a conductor, or invoke protected surrender.",
+      "mastery": "Masters preserve life and departure before victory, accepting an enemy's escape rather than making cessation indistinguishable from death.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 13 | PROOF REDIRECTION + ANCHORING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g32",
+    "title": "Pale Aegis",
+    "description": "Creates a provincial boundary against plague, invasion, wildfire, hostile spirits, and catastrophic continuation by assigning each an ending route.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:rites"
+    ],
+    "facts": {
+      "originalId": "G32",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G32",
+        "location": "Grave Abjuration / Rites / G32"
+      }
+    },
+    "aliases": [
+      "G32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Creates a provincial boundary against plague, invasion, wildfire, hostile spirits, and catastrophic continuation by assigning each an ending route.",
+      "practice": "Communities, hospitals, roads, wildlife, trade, and funerary care hold local gates and independent closure rights.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Threats accumulate at borders, the province becomes isolated, trade and migration die, and residue burdens neighbours.",
+      "failure": "The Aegis defines outsiders as catastrophe, seals people with danger, or makes emergency closure permanent.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke local gates, transform the threat, open humanitarian routes, overload a border, or withdraw communal consent.",
+      "mastery": "The conductor keeps ordinary exchange alive and opens the province before protection becomes a culture of living death.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 16 | PROOF REDIRECTION + ANCHORING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g33",
+    "title": "Plague's Border",
+    "description": "Ends transmission chains of a named epidemic across a region while preserving treatment, caregiving, essential movement, and ecological reservoirs.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:rites"
+    ],
+    "facts": {
+      "originalId": "G33",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G33",
+        "location": "Grave Abjuration / Rites / G33"
+      }
+    },
+    "aliases": [
+      "G33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Ends transmission chains of a named epidemic across a region while preserving treatment, caregiving, essential movement, and ecological reservoirs.",
+      "practice": "Epidemiologists, patients, carers, communities, animals, waste systems, and civil rights hold separate Knots.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Infection accumulates in controlled sinks, social contact withers, and excluded disease seeks new hosts and routes.",
+      "failure": "The rite defines patients as plague, suppresses useful immunity, drives spread underground, or exports contagion.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Change transmission mode, invoke protected care, overwhelm a sink, expose hidden spread, or contest the disease definition.",
+      "mastery": "Masters end routes rather than people and loosen control as knowledge improves, refusing a clean map bought with permanent exclusion.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 16 | PROOF REDIRECTION + ANCHORING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g34",
+    "title": "Ending the Long Retreat",
+    "description": "Concludes a mass rout, forced migration, pursuit, or panic across a province by creating safe stopping grounds and ending coercive momentum.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:rites"
+    ],
+    "facts": {
+      "originalId": "G34",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "ROT LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G34",
+        "location": "Grave Abjuration / Rites / G34"
+      }
+    },
+    "aliases": [
+      "G34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Concludes a mass rout, forced migration, pursuit, or panic across a province by creating safe stopping grounds and ending coercive momentum.",
+      "practice": "Travellers, hosts, pursuers, families, supply, consent, and future movement each have separate witnesses.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Roads store exhaustion and unfinished direction, settlements absorb displaced people, and political claims gather around stopping grounds.",
+      "failure": "The rite turns refuge into detention, separates families, or ends movement before safety and welcome exist.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Contest a ground, reopen a route, change host consent, break a witness, or invoke protected continuation.",
+      "mastery": "A master lets some movement continue and abandons geographic neatness before stopping becomes imprisonment.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 17 | PROOF REDIRECTION + ANCHORING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g35",
+    "title": "Assize of the Dead",
+    "description": "Dismisses propaganda, recent ritual, and official reconstruction from a province's remains long enough to hear competing ancestral, anonymous, ecological, and material claims.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:rites"
+    ],
+    "facts": {
+      "originalId": "G35",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G35",
+        "location": "Grave Abjuration / Rites / G35"
+      }
+    },
+    "aliases": [
+      "G35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Dismisses propaganda, recent ritual, and official reconstruction from a province's remains long enough to hear competing ancestral, anonymous, ecological, and material claims.",
+      "practice": "Living communities govern exposure, sacred silence, return of excluded layers, and which claims may influence law.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The dead become politically present, present use is interrupted, and rejected histories accumulate at the rite's edges.",
+      "failure": "Ancestors rule descendants, prestigious remains outweigh the nameless, or the Assize mistakes oldest for rightful.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Restore a layer, invoke living veto, present new remains, or close a claim without resolving it.",
+      "mastery": "Masters protect the present from inheritance while protecting evidence from convenient forgetting.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 17 | PROOF REDIRECTION + ANCHORING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g36",
+    "title": "Province Without Footprints",
+    "description": "Excludes a province's selected movement, camps, works, deaths, and routes from hostile scent, memory, tracking, and material history.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:rites"
+    ],
+    "facts": {
+      "originalId": "G36",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G36",
+        "location": "Grave Abjuration / Rites / G36"
+      }
+    },
+    "aliases": [
+      "G36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Excludes a province's selected movement, camps, works, deaths, and routes from hostile scent, memory, tracking, and material history.",
+      "practice": "Localities retain rescue, mourning, audit, revelation, and ordinary ecological trace under separate guardians.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Omitted evidence accumulates at borders, internal accountability weakens, and residents lose shared orientation.",
+      "failure": "The rite hides famine, graves, and coercion, erases rescue routes, or releases a century of trace at once.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke local revelation, read border residue, introduce new observation, or demand an internal audit.",
+      "mastery": "A master leaves public omissions and reveals institutions before a hidden province becomes incapable of remembering itself.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 16 | PROOF REDIRECTION + ANCHORING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g37",
+    "title": "Great Hospice Rite",
+    "description": "Creates a regional field in which unbearable pain, panic, intrusive magic, and lonely prolongation may end without silencing consent, care, or unfinished relationship.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:rites"
+    ],
+    "facts": {
+      "originalId": "G37",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G37",
+        "location": "Grave Abjuration / Rites / G37"
+      }
+    },
+    "aliases": [
+      "G37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Creates a regional field in which unbearable pain, panic, intrusive magic, and lonely prolongation may end without silencing consent, care, or unfinished relationship.",
+      "practice": "Patients control their own clauses; healers, families, faiths, and civil witnesses may support but never substitute.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Suffering accumulates in memorial grounds, death becomes culturally near, and health institutions may rely on magical quiet.",
+      "failure": "The rite pressures the vulnerable toward closure, ends useful symptoms, or makes social neglect feel like mercy.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Invoke patient revision, remove a memorial stone, expose neglected care, or restore ordinary sensation.",
+      "mastery": "The conductor protects the right to continue, keeping relief from becoming policy about whose life is burdensome.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 17 | PROOF REDIRECTION + ANCHORING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g38",
+    "title": "The Nine Pallbearers",
+    "description": "Creates nine autonomous funerary powers to end plague routes, wild magic, war remnants, hauntings, dangerous machines, curses, unlawful claims, ecological collapse, and their own service.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:rites"
+    ],
+    "facts": {
+      "originalId": "G38",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "ROT LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G38",
+        "location": "Grave Abjuration / Rites / G38"
+      }
+    },
+    "aliases": [
+      "G38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag4 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Creates nine autonomous funerary powers to end plague routes, wild magic, war remnants, hauntings, dangerous machines, curses, unlawful claims, ecological collapse, and their own service.",
+      "practice": "Each Pallbearer has one charter, one advocate, one forbidden ending, and a public dissolution object.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Their work concentrates residue, normalises institutional quiet, and makes society dependent on magical conclusion.",
+      "failure": "Charters overlap, crisis becomes permanent, or the ninth refuses to end the others.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit charter conflict, invoke a forbidden ending, turn a dissolution object, or make the duty obsolete.",
+      "mastery": "The high abjurer keeps every Pallbearer mortal and regards peaceful disbanding as the rite's finest success.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 20 | PROOF REDIRECTION + ANCHORING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g39",
+    "title": "Covenant of Sealed Tombs",
+    "description": "Coordinates crypts, plague pits, battlefields, archives, prisons, hazardous ruins, and ancestral sites under a regional law of containment and reopening.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:rites"
+    ],
+    "facts": {
+      "originalId": "G39",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G39",
+        "location": "Grave Abjuration / Rites / G39"
+      }
+    },
+    "aliases": [
+      "G39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi3 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Coordinates crypts, plague pits, battlefields, archives, prisons, hazardous ruins, and ancestral sites under a regional law of containment and reopening.",
+      "practice": "Every site retains local custody, ecological passage, evidence rights, mourning, maintenance, and challenge.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Residue and claims accumulate, land becomes unavailable, and central authority gains power by deciding what remains sealed.",
+      "failure": "Containment hides crime, preservation blocks justice, or neglected boundaries fail together.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Invoke local reopening, transfer custody, expose a hidden site, restore ecological flow, or challenge the regional law.",
+      "mastery": "Masters keep seals temporary, specific, and publicly contestable, refusing to make the past a permanent closed territory.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 19 | PROOF REDIRECTION + ANCHORING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g40",
+    "title": "Festival of Departed Names",
+    "description": "Ends the enforced silence around selected dead, losses, vanished communities, and completed eras by dismissing official omission for one public season.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:rites"
+    ],
+    "facts": {
+      "originalId": "G40",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G40",
+        "location": "Grave Abjuration / Rites / G40"
+      }
+    },
+    "aliases": [
+      "G40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Ends the enforced silence around selected dead, losses, vanished communities, and completed eras by dismissing official omission for one public season.",
+      "practice": "Communities choose names, anonymity, contradiction, private grief, and when the festival must release its claims.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Remembered presence gathers, public identity shifts, and those omitted from the festival become painfully visible as gaps.",
+      "failure": "Ceremony standardises grief, names become political property, or the dead continue speaking after participants need quiet.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Invoke anonymity, present contradiction, leave the festival, end the season, or refuse public remembrance.",
+      "mastery": "A master lets remembrance be uneven and temporary, returning the dead to silence without treating silence as erasure.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 19 | PROOF REDIRECTION + ANCHORING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g41",
+    "title": "The War That Cannot Continue",
+    "description": "Ends a nation's capacity to sustain one defined war by severing command, supply, mobilisation, propaganda, inherited claims, and magical persistence without ending civilian life.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "G41",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "ROT LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G41",
+        "location": "Grave Abjuration / Wonders / G41"
+      }
+    },
+    "aliases": [
+      "G41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho2 Fi4 Ag1 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Ends a nation's capacity to sustain one defined war by severing command, supply, mobilisation, propaganda, inherited claims, and magical persistence without ending civilian life.",
+      "practice": "Enemy and domestic witnesses preserve surrender, defence, care, dissent, accountability, and the distinction between war and people.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Rejected violence accumulates in borders, veterans, weapons, institutions, and unresolved political purpose.",
+      "failure": "The Wonder defines resistance as war, disables self-defence, or buries conflict until it erupts without law.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Change the war's form, invoke protected defence, challenge its definition, dissolve command voluntarily, or reopen political relation.",
+      "mastery": "Sovereign mastery is ending one's own victorious war as readily as the enemy's and accepting unresolved peace over magically enforced silence.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 17 | PROOF REDIRECTION + UNWEAVING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g42",
+    "title": "Pale Peace",
+    "description": "Creates a national field that concludes cycles of revenge, armed pursuit, inherited feud, and supernatural retaliation while preserving testimony, justice, and defence.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "G42",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G42",
+        "location": "Grave Abjuration / Wonders / G42"
+      }
+    },
+    "aliases": [
+      "G42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag2 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a national field that concludes cycles of revenge, armed pursuit, inherited feud, and supernatural retaliation while preserving testimony, justice, and defence.",
+      "practice": "Victims, accused, descendants, courts, communities, and future dissent hold clauses no ruler may merge.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Violence gathers as cold civic residue, institutions become still, and unresolved harm risks being mistaken for reconciliation.",
+      "failure": "The Peace silences victims, ends protest, freezes unjust property, or makes conflict return outside recognised categories.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke testimony, expose unaddressed harm, refuse a clause, transform the conflict, or break central legitimacy.",
+      "mastery": "A master protects noisy justice and permits lawful conflict, never asking Grave to prove that people have forgiven.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 20 | PROOF REDIRECTION + UNWEAVING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g43",
+    "title": "Law of Endings",
+    "description": "Establishes national procedures by which offices, debts, sentences, monopolies, emergencies, enchantments, and inherited duties must be allowed to end.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "G43",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G43",
+        "location": "Grave Abjuration / Wonders / G43"
+      }
+    },
+    "aliases": [
+      "G43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Establishes national procedures by which offices, debts, sentences, monopolies, emergencies, enchantments, and inherited duties must be allowed to end.",
+      "practice": "Every ending requires notice, appeal, preserved care, responsibility for residue, and a route for legitimate renewal.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Institutions lose immortality but accumulate displaced claim and nostalgia; abrupt endings burden the vulnerable.",
+      "failure": "The Law becomes a tool for erasing rights, ends obligations without repair, or treats all continuity as corruption.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Invoke appeal, demonstrate dependency, renew lawfully, expose unpaid residue, or refuse central jurisdiction.",
+      "mastery": "Sovereign mastery keeps the Law capable of ending itself and distinguishes release from abandonment.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 21 | PROOF REDIRECTION + UNWEAVING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g44",
+    "title": "The Last Road",
+    "description": "Creates a national network of safe endings for retreat, migration, exile, pilgrimage, dying, obsolete trade, and decommissioned infrastructure.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "G44",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "ROT LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G44",
+        "location": "Grave Abjuration / Wonders / G44"
+      }
+    },
+    "aliases": [
+      "G44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a national network of safe endings for retreat, migration, exile, pilgrimage, dying, obsolete trade, and decommissioned infrastructure.",
+      "practice": "Localities govern arrival, departure, burial, return, hospitality, and which roads must remain unfinished.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Routes gather grief and abandoned purpose, settlements change around endpoints, and travellers may be pressured to accept closure.",
+      "failure": "The Road becomes deportation, fixes exile, ends journeys before welcome, or turns dying into administrative traffic.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Leave the road, invoke return, contest an endpoint, change host consent, or keep a route deliberately open.",
+      "mastery": "A master protects the right not to finish and lets roads fade without deciding the traveller's meaning.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 21 | PROOF REDIRECTION + UNWEAVING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g45",
+    "title": "Archive of Ash",
+    "description": "Makes the nation's ruins, remains, ended institutions, extinct practices, and anonymous dead legible by excluding later noise without making any layer sovereign.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "G45",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G45",
+        "location": "Grave Abjuration / Wonders / G45"
+      }
+    },
+    "aliases": [
+      "G45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes the nation's ruins, remains, ended institutions, extinct practices, and anonymous dead legible by excluding later noise without making any layer sovereign.",
+      "practice": "Local archives control sacred silence, return of excluded material, contradiction, expiry, and whether a trace may enter law.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The dead become nationally present, rebuilding slows, and rulers may weaponise selected ruins.",
+      "failure": "The Archive defines the nation by loss, treats ancient claims as ownership, or silences lives that left little material residue.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Invoke silence, restore a layer, add oral contradiction, expose selection, or close a national inquiry.",
+      "mastery": "Masters preserve evidence and forgetting together, refusing a seamless graveyard as the country's truest face.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g46",
+    "title": "Kingdom Beyond Pursuit",
+    "description": "Excludes the nation's chosen refuges, councils, movements, and vulnerable people from hostile pursuit through scent, memory, lineage, spirit, and material trace.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "G46",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G46",
+        "location": "Grave Abjuration / Wonders / G46"
+      }
+    },
+    "aliases": [
+      "G46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Excludes the nation's chosen refuges, councils, movements, and vulnerable people from hostile pursuit through scent, memory, lineage, spirit, and material trace.",
+      "practice": "Every hidden community retains revelation, rescue, internal record, justice, and the right to leave concealment.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Enemies meet blankness, but citizens lose oversight; omitted trace accumulates at borders and in national memory.",
+      "failure": "The kingdom hides abuse, makes refugees socially dead, or forgets the people whose safety justified secrecy.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke local revelation, follow accumulated residue, introduce novel pursuit, demand audit, or leave the hidden relation.",
+      "mastery": "A sovereign master reveals power before concealment becomes government and keeps every protected person visible to someone they trust.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | UNDERWORLD LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g47",
+    "title": "Mercy of the Quiet Realm",
+    "description": "Ensures nationwide access to relief from unbearable pain, haunting, intrusive magic, prolonged dying, and inherited funerary coercion without making death a civic expectation.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "G47",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G47",
+        "location": "Grave Abjuration / Wonders / G47"
+      }
+    },
+    "aliases": [
+      "G47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Ensures nationwide access to relief from unbearable pain, haunting, intrusive magic, prolonged dying, and inherited funerary coercion without making death a civic expectation.",
+      "practice": "Individual consent, disability rights, care provision, family, faith, and public oversight remain institutionally separate.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Suffering is concentrated in memorial repositories, medicine may stagnate, and the culture becomes unusually intimate with endings.",
+      "failure": "Mercy replaces care, vulnerable people feel obliged to disappear, or the state defines which lives are unfinished burdens.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Invoke continued life, expose denied care, contest consent, close a repository, or withdraw local participation.",
+      "mastery": "Sovereign mastery spends more on living alternatives than on magical ending and protects every person's right to remain difficult to conclude.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g48",
+    "title": "The Ancestors Released",
+    "description": "Ends the binding authority of ancestral curses, dynastic destinies, inherited oaths, funerary guardians, and compulsory remembrance across a nation.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "G48",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "ROT LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G48",
+        "location": "Grave Abjuration / Wonders / G48"
+      }
+    },
+    "aliases": [
+      "G48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Ends the binding authority of ancestral curses, dynastic destinies, inherited oaths, funerary guardians, and compulsory remembrance across a nation.",
+      "practice": "Communities distinguish cherished relation from coercive claim and choose what memory, ritual, and property may continue.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Ancestral presence accumulates at release sites, identities lose structure, and old protections may vanish with old demands.",
+      "failure": "The Wonder severs culture, erases restitution, frees harmful heirs from responsibility, or casts the dead into hostile isolation.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Invoke chosen remembrance, preserve a duty, contest release, reopen a lineage relation, or shelter displaced ancestors.",
+      "mastery": "A master frees descendants without declaring inheritance meaningless and provides the dead somewhere to be remembered without ruling.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 22 | PROOF ANCHORING + UNWEAVING | ROT LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g49",
+    "title": "The Final Boundary",
+    "description": "Creates a federated national boundary against plague, invasion, predatory magic, uncontrolled resurrection, and catastrophic processes that must not cross.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "G49",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "ANCESTOR LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G49",
+        "location": "Grave Abjuration / Wonders / G49"
+      }
+    },
+    "aliases": [
+      "G49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a federated national boundary against plague, invasion, predatory magic, uncontrolled resurrection, and catastrophic processes that must not cross.",
+      "practice": "Regions control gates, definitions, refuge, trade, ecology, evidence, and when the boundary itself must end.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Threats and excluded people accumulate at borders, neighbours bear displacement, and the nation hardens into an inside and outside.",
+      "failure": "Difference becomes danger, gates serve elites, or the boundary preserves the catastrophe it contains.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Invoke regional control, change the process, open refuge, overwhelm residue, or end the national definition.",
+      "mastery": "Sovereign mastery keeps borders porous to life and temporary in law, accepting risk before safety becomes permanent exclusion.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 22 | PROOF ANCHORING + UNWEAVING | ANCESTOR LENS"
+    }
+  },
+  {
+    "id": "spell:grave-abjuration:g50",
+    "title": "Death of an Age",
+    "description": "Concludes a national era by ending the magical, legal, ceremonial, and inherited continuities that keep its institutions, wars, hierarchies, and myths alive.",
+    "parentGroupIds": [
+      "shelf:grave-abjuration:wonders"
+    ],
+    "facts": {
+      "originalId": "G50",
+      "collectionId": "collection:grave-abjuration",
+      "collectionTitle": "Grave Abjuration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:grave"
+      ],
+      "schoolIds": [
+        "school:abjuration"
+      ],
+      "streamIds": [
+        "stream:grave-abjuration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "UNDERWORLD LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Bloom_Grave_Spellbook.docx",
+        "collectionId": "collection:grave-abjuration",
+        "originalId": "G50",
+        "location": "Grave Abjuration / Wonders / G50"
+      }
+    },
+    "aliases": [
+      "G50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Abjuration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-bloom-grave-spellbook",
+        "title": "Panmagicon Bloom Grave Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Grave 4 | Abjuration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Concludes a national era by ending the magical, legal, ceremonial, and inherited continuities that keep its institutions, wars, hierarchies, and myths alive.",
+      "practice": "No ending is valid without care for dependants, evidence, unfinished justice, local refusal, and several incompatible beginnings.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Authority, memory, and identity accumulate in monuments and displaced people; the nation enters a dangerous interval without settled meaning.",
+      "failure": "The Wonder erases responsibility, destroys useful continuity, or allows new rulers to declare opponents remnants of the dead age.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Preserve a duty, invoke local refusal, expose unpaid residue, continue a practice openly, or deny the new era's legitimacy.",
+      "mastery": "The supreme abjurer leaves the ending incomplete enough for history to argue and ensures the Wonder can never decide what the next age must be.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | UNDERWORLD LENS"
+    }
+  }
+]

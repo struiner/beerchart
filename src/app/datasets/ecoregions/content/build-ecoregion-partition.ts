@@ -1,4 +1,8 @@
-import type { ProfileSectionViewModel, TaxonomyContentBundle } from '../../../taxonomy/public-api';
+import type {
+  ProfileSectionViewModel,
+  RelatedEntity,
+  TaxonomyContentBundle,
+} from '../../../taxonomy/public-api';
 import { bioregionEnrichment } from '../enrichment/bioregions';
 import { ecologicalCountries } from '../enrichment/countries';
 import type { EcologicalEnrichment } from '../enrichment/ecological-enrichment';
@@ -12,6 +16,7 @@ import { subrealmEnrichment } from '../enrichment/subrealms';
 import { ecoregionSourceById } from '../source/source-registry';
 import { ecoregionPartitionByTargetId } from './partition-ownership.generated';
 import { ecoregionDashboardMedia } from './dashboard-media';
+import { ecologicalReferencePartitionById } from './ecological-reference-ownership';
 
 const allRecords = [
   ...realmEnrichment,
@@ -169,7 +174,7 @@ export function buildEcoregionPartition(partitionId: string): TaxonomyContentBun
   const partitionCompositions = livingCompositions.filter(
     ({ ecoregionId }) => ecoregionPartitionByTargetId[ecoregionId] === partitionId,
   );
-  const relatedEntities = canonicalTaxa
+  const canonicalRelatedEntities = canonicalTaxa
     .filter(
       ({ lifecycle, profileOwnerPartitionId }) =>
         lifecycle === 'published' && profileOwnerPartitionId === partitionId,
@@ -182,10 +187,65 @@ export function buildEcoregionPartition(partitionId: string): TaxonomyContentBun
         .filter(({ lifecycle, taxonId }) => lifecycle === 'published' && taxonId === taxon.id)
         .map(({ ecoregionId }) => ecoregionId),
     }));
+  const ecologicalReferences = [
+    ...ecologicalSpecies.map((species) => ({
+      id: species.id,
+      title: species.commonName,
+      description: species.scientificName,
+      linkedEntryIds: ecoregionEnrichment
+        .filter(
+          ({ targetId, characteristicSpeciesIds }) =>
+            approved(targetId) && characteristicSpeciesIds?.includes(species.id),
+        )
+        .map(({ targetId }) => targetId),
+      linkedGroupIds: allRecords
+        .filter(
+          ({ targetId, characteristicSpeciesIds }) =>
+            approved(targetId) &&
+            !targetId.startsWith('ecoregion:') &&
+            characteristicSpeciesIds?.includes(species.id),
+        )
+        .map(({ targetId }) => targetId),
+    })),
+    ...ecologicalCountries.map((country) => ({
+      id: `country:${country.id}`,
+      title: country.name,
+      description: `ISO 3166-1 alpha-2: ${country.code}`,
+      linkedEntryIds: ecoregionEnrichment
+        .filter(
+          ({ targetId, countryIds }) => approved(targetId) && countryIds?.includes(country.id),
+        )
+        .map(({ targetId }) => targetId),
+      linkedGroupIds: allRecords
+        .filter(
+          ({ targetId, countryIds }) =>
+            approved(targetId) &&
+            !targetId.startsWith('ecoregion:') &&
+            countryIds?.includes(country.id),
+        )
+        .map(({ targetId }) => targetId),
+    })),
+  ].filter(({ id }) => ecologicalReferencePartitionById[id] === partitionId);
+  const relatedEntities = [...canonicalRelatedEntities, ...ecologicalReferences].reduce<
+    Map<string, RelatedEntity>
+  >((entities, entity) => {
+    const existing = entities.get(entity.id);
+    const linkedGroupIds =
+      'linkedGroupIds' in entity && Array.isArray(entity.linkedGroupIds)
+        ? entity.linkedGroupIds
+        : [];
+    entities.set(entity.id, {
+      ...existing,
+      ...entity,
+      linkedEntryIds: [...new Set([...(existing?.linkedEntryIds ?? []), ...entity.linkedEntryIds])],
+      linkedGroupIds: [...new Set([...(existing?.linkedGroupIds ?? []), ...linkedGroupIds])],
+    });
+    return entities;
+  }, new Map());
   return {
     profileExtensions,
     media,
     ...(Object.keys(compositions).length ? { livingCompositions: compositions } : {}),
-    ...(relatedEntities.length ? { relatedEntities } : {}),
+    ...(relatedEntities.size ? { relatedEntities: [...relatedEntities.values()] } : {}),
   };
 }

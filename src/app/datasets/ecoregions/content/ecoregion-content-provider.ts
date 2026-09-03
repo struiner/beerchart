@@ -1,6 +1,7 @@
 import type { TaxonomyContentBundle, TaxonomyContentProvider } from '../../../taxonomy/public-api';
 import { ecoregionPartitionByTargetId } from './partition-ownership.generated';
 import { livingCompositionPartitionByTaxonId } from './living-composition-ownership';
+import { ecologicalReferencePartitionById } from './ecological-reference-ownership';
 
 type Loader = () => Promise<TaxonomyContentBundle>;
 const loaders: Readonly<Record<string, Loader>> = {
@@ -37,6 +38,7 @@ export const ecoregionContentProvider: TaxonomyContentProvider = {
     return (
       ecoregionPartitionByTargetId[target.id] ??
       livingCompositionPartitionByTaxonId[target.id] ??
+      ecologicalReferencePartitionById[target.id] ??
       null
     );
   },

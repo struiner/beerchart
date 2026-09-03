@@ -330,4 +330,37 @@ test.describe('full ecoregion topology', () => {
     await expect(dashboard).toContainText('Pinus roxburghii');
     await expect.poll(() => loadedIndomalayaContent).toBe(true);
   });
+
+  test('opens country and species tiles as related profiles', async ({ page }) => {
+    const entryUrl =
+      '/atlas/one-earth-terrestrial-ecoregions/entry/ecoregion:302?e2e&taxonomy=ecoregions';
+    const dashboard = page.getByTestId('taxonomy-dashboard');
+
+    await page.goto(entryUrl);
+    await expect(dashboard.locator('.media-frame img')).toHaveAttribute(
+      'src',
+      /ecoregion-302\.png/,
+    );
+    await expect(dashboard.getByRole('button', { name: /India/ })).toBeVisible();
+    await dashboard.getByRole('button', { name: /India/ }).click();
+    await expect(dashboard.getByRole('heading', { level: 1 })).toHaveText('India');
+    await expect(dashboard).toContainText('Himalayan Subtropical Pine Forests');
+    await expect(dashboard.locator('.media-frame img')).toHaveCount(0);
+    await dashboard
+      .getByRole('button', { name: /Himalayan Subtropical Broadleaf Forests/ })
+      .click();
+    await expect(dashboard.getByRole('heading', { level: 1 })).toHaveText(
+      'Himalayan Subtropical Broadleaf Forests',
+    );
+    await expect(dashboard.locator('.media-frame img')).toHaveAttribute(
+      'src',
+      /ecoregion-233\.png/,
+    );
+
+    await page.goto(entryUrl);
+    await expect(dashboard.getByRole('button', { name: /Chir pine/ })).toBeVisible();
+    await dashboard.getByRole('button', { name: /Chir pine/ }).click();
+    await expect(dashboard.getByRole('heading', { level: 1 })).toHaveText('Chir pine');
+    await expect(dashboard).toContainText('Himalayan Subtropical Pine Forests');
+  });
 });

@@ -768,7 +768,7 @@ export const contentBundle = {
         "kind": "markdown",
         "id": "summary",
         "title": "Overview",
-        "markdown": "New Zealand North Island Temperate Forests cover much of the North Island, from coastal lowlands to the volcanic plateau and central ranges. Podocarp-broadleaf and beech forest support an iconic suite of endemic birds including kiwi, kokako, kaka, and kereru."
+        "markdown": "New Zealaand North Island Temperate Forests cover much of the North Island, from coastal lowlands to the volcanic plateau and central ranges. Podocarp-broadleaf and beech forest support an iconic suite of endemic birds including kiwi, kokako, kaka, and kereru."
       },
       {
         "kind": "facts",
@@ -1208,5 +1208,153 @@ export const contentBundle = {
       }
     ]
   },
-  "media": {}
+  "media": {},
+  "relatedEntities": [
+    {
+      "id": "species:kea",
+      "title": "Kea",
+      "description": "Nestor notabilis",
+      "linkedEntryIds": [
+        "ecoregion:169"
+      ],
+      "linkedGroupIds": [
+        "bioregion:au1"
+      ]
+    },
+    {
+      "id": "species:kereru",
+      "title": "Kererū (New Zealand pigeon)",
+      "description": "Hemiphaga novaeseelandiae",
+      "linkedEntryIds": [],
+      "linkedGroupIds": [
+        "bioregion:au1"
+      ]
+    },
+    {
+      "id": "species:takahe",
+      "title": "Takahē",
+      "description": "Porphyrio hochstetteri",
+      "linkedEntryIds": [
+        "ecoregion:169"
+      ],
+      "linkedGroupIds": [
+        "bioregion:au1"
+      ]
+    },
+    {
+      "id": "species:antipodes-parakeet",
+      "title": "Antipodes parakeet",
+      "description": "Cyanoramphus unicolor",
+      "linkedEntryIds": [
+        "ecoregion:196"
+      ],
+      "linkedGroupIds": [
+        "bioregion:au16"
+      ]
+    },
+    {
+      "id": "species:antipodean-albatross",
+      "title": "Antipodean albatross",
+      "description": "Diomedea antipodensis",
+      "linkedEntryIds": [
+        "ecoregion:196"
+      ],
+      "linkedGroupIds": [
+        "bioregion:au16"
+      ]
+    },
+    {
+      "id": "species:southern-royal-albatross",
+      "title": "Southern royal albatross",
+      "description": "Diomedea epomophora",
+      "linkedEntryIds": [
+        "ecoregion:196"
+      ],
+      "linkedGroupIds": [
+        "bioregion:au16"
+      ]
+    },
+    {
+      "id": "species:new-zealand-sea-lion",
+      "title": "New Zealand sea lion",
+      "description": "Phocarctos hookeri",
+      "linkedEntryIds": [
+        "ecoregion:196"
+      ],
+      "linkedGroupIds": [
+        "bioregion:au16"
+      ]
+    },
+    {
+      "id": "species:southern-brown-kiwi",
+      "title": "Southern brown kiwi",
+      "description": "Apteryx australis",
+      "linkedEntryIds": [
+        "ecoregion:169"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:fiordland-crested-penguin",
+      "title": "Fiordland crested penguin",
+      "description": "Eudyptes pachyrhynchus",
+      "linkedEntryIds": [
+        "ecoregion:169"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "country:NZ",
+      "title": "New Zealand",
+      "description": "ISO 3166-1 alpha-2: NZ",
+      "linkedEntryIds": [
+        "ecoregion:624",
+        "ecoregion:167",
+        "ecoregion:169",
+        "ecoregion:170",
+        "ecoregion:171",
+        "ecoregion:172",
+        "ecoregion:173",
+        "ecoregion:174",
+        "ecoregion:175",
+        "ecoregion:180",
+        "ecoregion:190",
+        "ecoregion:194",
+        "ecoregion:196"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "subrealm:new-zealand",
+        "bioregion:au1",
+        "bioregion:au16",
+        "bioregion:oc6"
+      ]
+    },
+    {
+      "id": "country:AU",
+      "title": "Australia",
+      "description": "ISO 3166-1 alpha-2: AU",
+      "linkedEntryIds": [
+        "ecoregion:142",
+        "ecoregion:196"
+      ],
+      "linkedGroupIds": [
+        "subrealm:new-zealand",
+        "bioregion:au2",
+        "bioregion:au16"
+      ]
+    },
+    {
+      "id": "country:NF",
+      "title": "Norfolk Island",
+      "description": "ISO 3166-1 alpha-2: NF",
+      "linkedEntryIds": [
+        "ecoregion:147"
+      ],
+      "linkedGroupIds": [
+        "subrealm:new-zealand",
+        "bioregion:au2"
+      ]
+    }
+  ]
 } as const satisfies TaxonomyContentBundle;

@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "spell:fire-evocation:f01",
+    "title": "Spark Dart",
+    "description": "Flicks one bright ember to sting skin, light tinder, or break a caster's concentration without sustaining a flame.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:lessons"
+    ],
+    "facts": {
+      "originalId": "F01",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "PYRE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 4,
+      "calculatedLoad": 4,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F01",
+        "location": "Fire Evocation / Lessons / F01"
+      }
+    },
+    "aliases": [
+      "F01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn0 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Flicks one bright ember to sting skin, light tinder, or break a caster's concentration without sustaining a flame.",
+      "practice": "Pinch a soot-mark between finger and thumb. The caster carries the recoil and names a safe backstop.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The source cools sharply and the struck surface keeps a hot pinprick. Repeated use leaves numb fingertips and a trail of scorched dust.",
+      "failure": "Too much force becomes a spray; poor aim ignites the first dry surface beyond the target.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Wet cloth, broken line of sight, or a sudden crosswind spoils the ember's path.",
+      "mastery": "A practised caster bends the dart around a shield by reading the target's radiant heat rather than adding power.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 4 | PROOF HEARING + HOLDING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f02",
+    "title": "Hearthward Flare",
+    "description": "Releases a palm-wide flare when a named threat crosses arm's reach, startling beasts and burning grasping hands.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:lessons"
+    ],
+    "facts": {
+      "originalId": "F02",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "HEARTH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F02",
+        "location": "Fire Evocation / Lessons / F02"
+      }
+    },
+    "aliases": [
+      "F02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn1 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Releases a palm-wide flare when a named threat crosses arm's reach, startling beasts and burning grasping hands.",
+      "practice": "Trace a half-circle in ash and choose one threat class. The flare is carried in the caster's stance for a few breaths.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The ward borrows warmth from the caster's forearm and leaves a brief afterimage in friendly eyes.",
+      "failure": "A loose Knot flares at any sudden motion; an overloaded one bursts inward against the caster.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Approach slowly, obscure intent, or force the caster to turn the marked palm away.",
+      "mastery": "Experience appears in narrow discrimination: a master can admit an ally's blade while rejecting the hostile hand holding it.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 5 | PROOF HEARING + HOLDING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f03",
+    "title": "Wick-Command",
+    "description": "Sends a pulse through a row of prepared wicks so they ignite in a chosen order and brightness.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:lessons"
+    ],
+    "facts": {
+      "originalId": "F03",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "PYRE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F03",
+        "location": "Fire Evocation / Lessons / F03"
+      }
+    },
+    "aliases": [
+      "F03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Sends a pulse through a row of prepared wicks so they ignite in a chosen order and brightness.",
+      "practice": "Touch the first wick with a coal and speak the sequence once. The wicks themselves carry the route.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Each ignition consumes real oil and warms the route between lights, sometimes revealing it as a faint red line.",
+      "failure": "A missed count causes two wicks to flare together or the sequence to run backward.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Remove one wick, wet the connecting surface, or insert an unmarked flame to confuse the route.",
+      "mastery": "A master rewrites the sequence while it runs and uses deliberate dark intervals as signals.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 6 | PROOF HEARING + HOLDING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f04",
+    "title": "Cinder Step",
+    "description": "Releases a heel-burst that lengthens one jump, breaks a fall, or carries the caster across a narrow gap.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:lessons"
+    ],
+    "facts": {
+      "originalId": "F04",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "PYRE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F04",
+        "location": "Fire Evocation / Lessons / F04"
+      }
+    },
+    "aliases": [
+      "F04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Releases a heel-burst that lengthens one jump, breaks a fall, or carries the caster across a narrow gap.",
+      "practice": "Dust both soles with cold ash. The burst must be aimed opposite the desired movement.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Boots char, nearby dust lifts, and the legs inherit the evocation's recoil as trembling heat.",
+      "failure": "Late release scorches the landing; early release produces speed without enough lift.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Loose gravel, deep water, or binding the ankles prevents a clean vector.",
+      "mastery": "The expert spends less heat by splitting one burst into takeoff, correction, and landing pulses.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 5 | PROOF HEARING + HOLDING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f05",
+    "title": "Ember Reveal",
+    "description": "Emits a low thermal ripple that outlines cold drafts, damp patches, recent footprints, and hidden hollows.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:lessons"
+    ],
+    "facts": {
+      "originalId": "F05",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "SUN LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F05",
+        "location": "Fire Evocation / Lessons / F05"
+      }
+    },
+    "aliases": [
+      "F05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Emits a low thermal ripple that outlines cold drafts, damp patches, recent footprints, and hidden hollows.",
+      "practice": "Warm a copper shaving and release its heat across a room instead of upward.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The room becomes slightly cooler afterward, while whatever was revealed briefly glows to heat-sensitive beings.",
+      "failure": "Excess intensity burns away the fine differences the spell was meant to show.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Equalize the room's temperature, introduce many false heat sources, or block the ripple with thick insulation.",
+      "mastery": "A master reads the returning gradient and can distinguish a living body's wake from a heated decoy.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 5 | PROOF HEARING + HOLDING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f06",
+    "title": "Sootblink",
+    "description": "Bursts a thimble of soot and glare across one face, breaking eye contact and concealing a single hand movement.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:lessons"
+    ],
+    "facts": {
+      "originalId": "F06",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SUN LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F06",
+        "location": "Fire Evocation / Lessons / F06"
+      }
+    },
+    "aliases": [
+      "F06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn0 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Bursts a thimble of soot and glare across one face, breaking eye contact and concealing a single hand movement.",
+      "practice": "Crush a charred seed and exhale through the fist. The effect lasts no longer than the exhalation.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The caster coughs dry ash and nearby flames dim as their smoke is borrowed.",
+      "failure": "If held too long, the soot clings to allies or blinds the caster when the air reverses.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Close the eyes before the burst, move by touch, or clear the air with Water or Air workings.",
+      "mastery": "Practised users place the dark interval exactly over a gesture, making the concealment smaller and harder to notice.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 5 | PROOF HEARING + HOLDING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f07",
+    "title": "Warmth Pulse",
+    "description": "Releases gentle heat through wet clothing, cramped hands, or a chilled patient without creating open flame.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:lessons"
+    ],
+    "facts": {
+      "originalId": "F07",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "HEARTH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F07",
+        "location": "Fire Evocation / Lessons / F07"
+      }
+    },
+    "aliases": [
+      "F07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Releases gentle heat through wet clothing, cramped hands, or a chilled patient without creating open flame.",
+      "practice": "Cup the affected area and keep a bowl of cool sand ready as a heat sink.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The caster's core temperature dips and the sand slowly warms. The patient becomes thirsty as moisture redistributes.",
+      "failure": "Poor Fineness creates superficial burns or warms the clothing while leaving the body cold.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Separate caster and subject, chill the sink, or insulate the target from the guiding touch.",
+      "mastery": "An expert follows blood flow and warms the body from the centre outward rather than merely heating skin.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 6 | PROOF HEARING + HOLDING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f08",
+    "title": "Sparrow of Sparks",
+    "description": "Shapes a fistful of sparks into a birdlike path that carries a visible signal around one obstacle.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:lessons"
+    ],
+    "facts": {
+      "originalId": "F08",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "PYRE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F08",
+        "location": "Fire Evocation / Lessons / F08"
+      }
+    },
+    "aliases": [
+      "F08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag1 Co0 | Carrier: personal or supervised.",
+      "purpose": "Shapes a fistful of sparks into a birdlike path that carries a visible signal around one obstacle.",
+      "practice": "Sketch the route in the air with a glowing twig. The shape has no judgment beyond following the line.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The twig is consumed and the route acquires a smoky scent that trackers can follow.",
+      "failure": "Agency tears first: the sparrow becomes a straight spray or circles the hottest object.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Change the heat landscape, break the drawn route, or intercept the sparks with a damp net.",
+      "mastery": "A master encodes one fork in the route, triggered by a simple condition such as an open window.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 7 | PROOF HEARING + HOLDING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f09",
+    "title": "Kiln Kiss",
+    "description": "Fires, tempers, or dries one hand-sized object with a carefully released envelope of heat.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:lessons"
+    ],
+    "facts": {
+      "originalId": "F09",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "HEARTH LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F09",
+        "location": "Fire Evocation / Lessons / F09"
+      }
+    },
+    "aliases": [
+      "F09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Fires, tempers, or dries one hand-sized object with a carefully released envelope of heat.",
+      "practice": "Set the object on three ceramic feet and mark its desired colour in chalk.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Moisture and latent stress leave the object. Nearby surfaces cool as the heat differential is assembled.",
+      "failure": "Uneven release cracks glaze, traps stress, or hardens the outside while the centre remains weak.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Disturb the supports, alter the chalk reference, or flood the object with a competing temperature.",
+      "mastery": "Experienced makers read the object's response and shed duration the instant the material reaches its proper state.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 6 | PROOF HEARING + HOLDING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f10",
+    "title": "Festival Halo",
+    "description": "Creates a crown of cool sparks whose colour follows a simple rhythm or spoken name.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:lessons"
+    ],
+    "facts": {
+      "originalId": "F10",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SUN LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F10",
+        "location": "Fire Evocation / Lessons / F10"
+      }
+    },
+    "aliases": [
+      "F10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Creates a crown of cool sparks whose colour follows a simple rhythm or spoken name.",
+      "practice": "Burn mineral salts in a lidded lamp and release only their light-bearing fraction.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The lamp's fuel is spent and the caster carries a mild headache from suppressing heat while preserving colour.",
+      "failure": "A failed safety Knot turns cool sparks hot or drops them into hair and cloth.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Smother the lamp, disrupt the rhythm, or cover the named audience from view.",
+      "mastery": "A master can make each viewer see the halo from the correct angle without increasing its physical Span.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 6 | PROOF HEARING + HOLDING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f11",
+    "title": "Searing Line",
+    "description": "Draws a narrow line of flame across several paces, cutting rope, clearing brush, or wounding a rank without a spreading fire.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:practical-workings"
+    ],
+    "facts": {
+      "originalId": "F11",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "PYRE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 2,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F11",
+        "location": "Fire Evocation / Practical Workings / F11"
+      }
+    },
+    "aliases": [
+      "F11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn0 Sp2 Ho0 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Draws a narrow line of flame across several paces, cutting rope, clearing brush, or wounding a rank without a spreading fire.",
+      "practice": "Score the intended line with iron dust and anchor both ends in bare earth.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The line consumes surface fuel and leaves both anchors cold enough to gather frost.",
+      "failure": "If an anchor lifts, the line whips toward the stronger heat source; if Fineness fails, it broadens.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break the iron trace, flood either anchor, or force a moving target away from the prepared line.",
+      "mastery": "Experts release the flame in staggered teeth so living targets have escape gaps while inanimate barriers still fail.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 6 | PROOF HOLDING + TURNING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f12",
+    "title": "Backblast Ward",
+    "description": "Answers incoming force with a short outward blast, spoiling charges, arrows, and loose missiles in a chosen arc.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:practical-workings"
+    ],
+    "facts": {
+      "originalId": "F12",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "HEARTH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F12",
+        "location": "Fire Evocation / Practical Workings / F12"
+      }
+    },
+    "aliases": [
+      "F12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn1 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Answers incoming force with a short outward blast, spoiling charges, arrows, and loose missiles in a chosen arc.",
+      "practice": "Brace a bronze plate behind the stance. It accepts recoil that would otherwise throw the caster.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The plate heats and the protected ground dries. Every deflection adds stress to the caster's joints.",
+      "failure": "An overloaded ward fires continuously, exhausting its carrier and igniting debris.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Attack from outside the arc, pin the plate, or feed many small threats until recoil overwhelms it.",
+      "mastery": "A master grades the response to each impact and refuses harmless objects rather than treating all motion as hostile.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 8 | PROOF HOLDING + TURNING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f13",
+    "title": "Combustion Bridle",
+    "description": "Forces open flames in a courtyard to lean, shrink, or surge along a chosen boundary for several minutes.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:practical-workings"
+    ],
+    "facts": {
+      "originalId": "F13",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "PYRE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F13",
+        "location": "Fire Evocation / Practical Workings / F13"
+      }
+    },
+    "aliases": [
+      "F13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn2 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Forces open flames in a courtyard to lean, shrink, or surge along a chosen boundary for several minutes.",
+      "practice": "Place four ash bowls at the corners and designate one release direction.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Fuel still burns, but unused heat collects in the bowls as glassy clinker.",
+      "failure": "When a bowl fills, restrained flame escapes through the weakest side or dives into hidden fuel.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Move a corner bowl, introduce an uncounted fire, or cool the designated exhaust route.",
+      "mastery": "Experienced practitioners feel which flame is becoming independent and shed it before the whole boundary snaps.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 9 | PROOF HOLDING + TURNING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f14",
+    "title": "Furnace Leap",
+    "description": "Propels one person over a wall or along a rapid three-step dash using sequenced ground bursts.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:practical-workings"
+    ],
+    "facts": {
+      "originalId": "F14",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "PYRE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F14",
+        "location": "Fire Evocation / Practical Workings / F14"
+      }
+    },
+    "aliases": [
+      "F14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn1 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Propels one person over a wall or along a rapid three-step dash using sequenced ground bursts.",
+      "practice": "Three heel sigils define takeoff, correction, and braking. Heavy armour requires a separate recoil anchor.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Stone pits under each step and the traveller arrives overheated and oxygen-hungry.",
+      "failure": "A slipped Turn fires the brake before the correction or preserves speed after the intended landing.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Erase a heel sigil, change the surface material, or force an unplanned turn.",
+      "mastery": "A master can surrender the final burst and roll safely when the route changes, instead of preserving the memorised landing.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 9 | PROOF HOLDING + TURNING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f15",
+    "title": "Heatprint Bloom",
+    "description": "Floods a building with a brief warmth that reveals recent bodies, opened doors, handled objects, and cooling machinery.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:practical-workings"
+    ],
+    "facts": {
+      "originalId": "F15",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "SUN LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F15",
+        "location": "Fire Evocation / Practical Workings / F15"
+      }
+    },
+    "aliases": [
+      "F15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn1 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Floods a building with a brief warmth that reveals recent bodies, opened doors, handled objects, and cooling machinery.",
+      "practice": "Hang blackened foil at exits to catch the outward gradient and prevent false reflections.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Cold stores and shaded rooms warm noticeably; the reader becomes visible as the strongest new heatprint.",
+      "failure": "Too much Span merges all traces into one glare; too much Hold overwrites the evidence.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Seed false warm objects, ventilate the building, or observe the caster through the reciprocal thermal bloom.",
+      "mastery": "Experts pulse at several intensities and compare decay rates, separating a person from a hot tool they carried.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 9 | PROOF HOLDING + TURNING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f16",
+    "title": "Cinder Curtain",
+    "description": "Raises a moving screen of red cinders that obscures sight while leaving marked lanes breathable and mostly cool.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:practical-workings"
+    ],
+    "facts": {
+      "originalId": "F16",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SUN LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F16",
+        "location": "Fire Evocation / Practical Workings / F16"
+      }
+    },
+    "aliases": [
+      "F16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn2 Sp2 Ho1 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Raises a moving screen of red cinders that obscures sight while leaving marked lanes breathable and mostly cool.",
+      "practice": "Feed powdered charcoal through a slotted brazier and mark safe lanes with wet cord.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The screen consumes air, coats the area in ash, and leaves the brazier dangerously cold after collapse.",
+      "failure": "Knots loosen first: safe lanes wander or the curtain follows friendly heat sources.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Cut the wet cords, disperse the cinders, or advance behind reflective shields that confuse their heat response.",
+      "mastery": "A master lets the curtain thin around allies instead of trying to hold uniformly dense concealment.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 9 | PROOF HOLDING + TURNING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f17",
+    "title": "Cauterant Breath",
+    "description": "Seals a bleeding vessel, sterilises a bite, or burns away a thin layer of corrupted tissue.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:practical-workings"
+    ],
+    "facts": {
+      "originalId": "F17",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "HEARTH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F17",
+        "location": "Fire Evocation / Practical Workings / F17"
+      }
+    },
+    "aliases": [
+      "F17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Seals a bleeding vessel, sterilises a bite, or burns away a thin layer of corrupted tissue.",
+      "practice": "Use a silver reed to separate released heat from the caster's breath and a damp cloth to define the treatment boundary.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The patient loses moisture and healthy tissue at the edge becomes inflamed. Evocation recoil chills the healer's lungs.",
+      "failure": "Fineness failure deepens the burn or traps contamination beneath a sealed surface.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Dislodge the reed, obscure the wound margin, or cool the tissue faster than the healer can read it.",
+      "mastery": "An expert works in tiny pulses and stops when flow changes, treating heat as a scalpel rather than a fixed dose.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 10 | PROOF HOLDING + TURNING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f18",
+    "title": "Ember Hounds",
+    "description": "Releases two low-running flame shapes that follow a designated scent or heat trail and burst when they reach its end.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:practical-workings"
+    ],
+    "facts": {
+      "originalId": "F18",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "PYRE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F18",
+        "location": "Fire Evocation / Practical Workings / F18"
+      }
+    },
+    "aliases": [
+      "F18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn1 Sp2 Ho1 Fi2 Ag2 Co0 | Carrier: personal with a focus.",
+      "purpose": "Releases two low-running flame shapes that follow a designated scent or heat trail and burst when they reach its end.",
+      "practice": "Burn a sample in a divided brazier. Each hound is carried by one half of the ember bed.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The sample is destroyed, the trail is singed, and each turn chills one side of the brazier.",
+      "failure": "Agency drift sends the hounds after the hottest similar scent or causes them to quarrel at a fork.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Mask the trail, cross running water, or offer a hotter matching lure.",
+      "mastery": "Masters reduce the hounds to harmless sparks when identification becomes uncertain, preserving the trail evidence.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 10 | PROOF HOLDING + TURNING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f19",
+    "title": "Field Forge",
+    "description": "Softens, welds, tempers, and heat-treats battlefield repairs without a fixed furnace.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:practical-workings"
+    ],
+    "facts": {
+      "originalId": "F19",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "HEARTH LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 3,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F19",
+        "location": "Fire Evocation / Practical Workings / F19"
+      }
+    },
+    "aliases": [
+      "F19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn2 Sp2 Ho3 Fi2 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Softens, welds, tempers, and heat-treats battlefield repairs without a fixed furnace.",
+      "practice": "A folding iron frame defines the heat chamber; quench and fuel must be accounted for before release.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Metal inherits compressed stress and the surrounding soil bakes sterile. The frame accumulates recoil as warping.",
+      "failure": "Rushed work welds the visible seam while preserving a hidden fracture or ruins an earlier temper.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Disrupt the frame, remove the quench medium, or force the smith to work on an unknown alloy.",
+      "mastery": "An expert reads colour, sound, and recoil together, changing the heat curve while the repair is underway.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 11 | PROOF HOLDING + TURNING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f20",
+    "title": "Oathbrand Salute",
+    "description": "Raises a visible emblem over a company when a named oath is spoken in unison; false or broken cadence produces no sign.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:practical-workings"
+    ],
+    "facts": {
+      "originalId": "F20",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SUN LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F20",
+        "location": "Fire Evocation / Practical Workings / F20"
+      }
+    },
+    "aliases": [
+      "F20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Raises a visible emblem over a company when a named oath is spoken in unison; false or broken cadence produces no sign.",
+      "practice": "Each participant contributes one coal to a common brazier and learns the exact response.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The company becomes easy to locate, the brazier consumes all coals, and dissenters may suffer social suspicion even when silence was innocent.",
+      "failure": "A loose Knot rewards mimicry; a tight one burns speakers whose accent differs from the prescribed cadence.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Break the chorus, steal a contributing coal, or answer with a deliberately shifted rhythm.",
+      "mastery": "A master distinguishes commitment from pronunciation and can let the emblem fail quietly rather than expose a frightened novice.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 10 | PROOF HOLDING + TURNING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f21",
+    "title": "Sunlance",
+    "description": "Concentrates heat and light into a long radiant thrust that pierces armour, shutters, or a siege engine's chosen joint.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "F21",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "PYRE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 3,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F21",
+        "location": "Fire Evocation / Expert Formulae / F21"
+      }
+    },
+    "aliases": [
+      "F21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn1 Sp3 Ho0 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Concentrates heat and light into a long radiant thrust that pierces armour, shutters, or a siege engine's chosen joint.",
+      "practice": "Three mirrored vanes align the release and a buried heatstone accepts the backward thermal shock.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The air along the path ionises, the vanes silver over, and the heatstone becomes a future fire hazard.",
+      "failure": "Fineness loss widens the lance; sink failure sends a white recoil through the caster and mirrors.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break one vane's alignment, veil the target joint, or overload the buried sink before release.",
+      "mastery": "An expert aborts by bleeding the lance upward as harmless radiance when alignment ceases to be exact.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 9 | PROOF TURNING + REDIRECTION | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f22",
+    "title": "Corona Mantle",
+    "description": "Maintains a rotating shell of flame that parts for selected allies and lashes at weapons crossing its surface.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "F22",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "HEARTH LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F22",
+        "location": "Fire Evocation / Expert Formulae / F22"
+      }
+    },
+    "aliases": [
+      "F22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn2 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Maintains a rotating shell of flame that parts for selected allies and lashes at weapons crossing its surface.",
+      "practice": "A chain of ceramic scales carries the moving arc and must be cooled between uses.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The mantle dehydrates its wearer, chars the ground, and stores recoil in the scales as hairline fractures.",
+      "failure": "Knots or Agency fail before raw heat: the shell may close on allies or chase a withdrawn weapon.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Attack the scale chain, exploit an unlisted ally, or force the wearer into water where steam obscures discrimination.",
+      "mastery": "A master drops individual arcs instead of defending everywhere, preserving safe passages as the battlefield changes.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 12 | PROOF TURNING + REDIRECTION | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f23",
+    "title": "Cage of Red Hours",
+    "description": "Erects a ring of timed flame segments that open and close according to a repeating tactical schedule.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "F23",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "PYRE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F23",
+        "location": "Fire Evocation / Expert Formulae / F23"
+      }
+    },
+    "aliases": [
+      "F23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn3 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Erects a ring of timed flame segments that open and close according to a repeating tactical schedule.",
+      "practice": "Twelve marked stakes carry the cycle. One observer calls corrections when people enter unexpectedly.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Each closed interval scorches the soil; skipped intervals collect as heat in the next active segment.",
+      "failure": "A timing slip advances the cycle, while a broken stake causes neighbouring segments to inherit its force.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Remove a stake, disrupt the caller, or move during the predictable cool intervals.",
+      "mastery": "Experts alter one segment without resetting the full clock and can shed Hold to freeze the ring open.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 13 | PROOF TURNING + REDIRECTION | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f24",
+    "title": "Meteoric Rush",
+    "description": "Carries a protected rider across a battlefield in a guided burning arc, striking one destination with the remaining momentum.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "F24",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "PYRE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F24",
+        "location": "Fire Evocation / Expert Formulae / F24"
+      }
+    },
+    "aliases": [
+      "F24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Carries a protected rider across a battlefield in a guided burning arc, striking one destination with the remaining momentum.",
+      "practice": "A fireproof harness separates the rider from the released wake; spotters maintain three course beacons.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The route ignites exposed fuel, the harness grows brittle, and all steering recoil passes through the rider's spine.",
+      "failure": "Loss of a beacon turns the arc toward the brightest surviving marker or converts movement into an early impact.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Extinguish a beacon, deploy false lights, or force the rider to choose between collision and shedding distance.",
+      "mastery": "A master deliberately lands short when the target moves and spends the remaining force vertically.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 13 | PROOF TURNING + REDIRECTION | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f25",
+    "title": "Ash Witness",
+    "description": "Releases residual heat from ash in the order it was received, replaying the pace and intensity of a past burning.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "F25",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "SUN LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F25",
+        "location": "Fire Evocation / Expert Formulae / F25"
+      }
+    },
+    "aliases": [
+      "F25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Releases residual heat from ash in the order it was received, replaying the pace and intensity of a past burning.",
+      "practice": "Spread the ash on black glass and surround it with cold iron so new heat cannot contaminate the record.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The evidence is partly consumed by being replayed, and the diviner's presence becomes a new bright event in the ash.",
+      "failure": "Too much Hold loops the most violent moment; too much force destroys differences between separate fires.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Mix ash sources, add a later controlled burn, or remove the cold-iron reference.",
+      "mastery": "A master uses the smallest possible pulse and preserves enough residue for another reader to challenge the conclusion.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 13 | PROOF TURNING + REDIRECTION | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f26",
+    "title": "Blind Noon",
+    "description": "Fills a chosen volume with directionless glare while keeping marked silhouettes dark enough for allies to navigate.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "F26",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SUN LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F26",
+        "location": "Fire Evocation / Expert Formulae / F26"
+      }
+    },
+    "aliases": [
+      "F26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn3 Sp3 Ho2 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Fills a chosen volume with directionless glare while keeping marked silhouettes dark enough for allies to navigate.",
+      "practice": "Polished tiles define the volume; allied outlines are drawn in soot on a central lens.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Eyes ache, colours wash out, and the lens accumulates the omitted heat as a dangerous hot core.",
+      "failure": "Failed Knots illuminate the protected silhouettes or leave persistent blind patches in observers.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Break a tile, fight by sound, or heat a decoy shaped like an ally to claim a dark silhouette.",
+      "mastery": "Masters dim the whole field when identification becomes uncertain rather than intensifying a shrinking safe set.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 13 | PROOF TURNING + REDIRECTION | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f27",
+    "title": "Phoenix Pulse",
+    "description": "Drives a carefully timed wave of heat through multiple casualties to restore circulation, break shock, and ignite emergency respiration.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "F27",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "HEARTH LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F27",
+        "location": "Fire Evocation / Expert Formulae / F27"
+      }
+    },
+    "aliases": [
+      "F27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Drives a carefully timed wave of heat through multiple casualties to restore circulation, break shock, and ignite emergency respiration.",
+      "practice": "Healers mark exclusions, monitor pulses, and route recoil into warmed water beds beneath the patients.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The water may boil, the patients become severely thirsty, and latent fever or inflammation can be accelerated.",
+      "failure": "Ambiguous health Knots cause the pulse to revive bleeding as readily as circulation; Fineness loss burns weak tissue.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Change a patient's condition without informing the circle, cool the beds, or sever monitoring contact.",
+      "mastery": "An expert removes a patient from the wave the instant their response diverges, even if it reduces the ritual's symmetry.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 14 | PROOF TURNING + REDIRECTION | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f28",
+    "title": "Firestorm Chorus",
+    "description": "Shapes many flame voices that hunt designated siege materials, spread warning calls, or converge into one controlled blast.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "F28",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "PYRE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F28",
+        "location": "Fire Evocation / Expert Formulae / F28"
+      }
+    },
+    "aliases": [
+      "F28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn2 Sp3 Ho2 Fi3 Ag3 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Shapes many flame voices that hunt designated siege materials, spread warning calls, or converge into one controlled blast.",
+      "practice": "Each voice begins in a tuned bronze mouth and is supervised by a separate chanter.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "The mouths cool toward brittleness, the area fills with smoke, and unsung heat accumulates in the final cadence.",
+      "failure": "Agency escapes as voices imitate one another's targets or continue the last command after the chorus stops.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Silence a chanter, detune a mouth, or introduce a material that matches the target description imperfectly.",
+      "mastery": "Masters simplify the chorus under disruption, sacrificing number before target certainty.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 15 | PROOF TURNING + ANCHORING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f29",
+    "title": "Walking Furnace",
+    "description": "Maintains a mobile high-temperature zone around a protected frame for glasswork, metallurgy, or battlefield demolition.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "F29",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "HEARTH LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F29",
+        "location": "Fire Evocation / Expert Formulae / F29"
+      }
+    },
+    "aliases": [
+      "F29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn3 Sp3 Ho4 Fi3 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Maintains a mobile high-temperature zone around a protected frame for glasswork, metallurgy, or battlefield demolition.",
+      "practice": "Interlocking ceramic screens carry the boundary while attendants feed measured fuel and rotate heat sinks.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "The route is baked, attendants suffer chronic dryness, and every sink becomes a delayed source of industrial heat.",
+      "failure": "A stalled frame overheats its centre; an omitted screen vents a cutting plume toward the nearest cold mass.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Jam the frame, steal a sink, or force it across fuel-rich terrain.",
+      "mastery": "An expert idles the furnace in layered rings and can abandon the outer temperature band without ruining the work inside.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 15 | PROOF TURNING + ANCHORING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f30",
+    "title": "Trial by Clear Flame",
+    "description": "Releases a flame whose colour changes with breath, pulse, concealed heat sources, and rehearsed muscular tension during testimony.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "F30",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SUN LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F30",
+        "location": "Fire Evocation / Expert Formulae / F30"
+      }
+    },
+    "aliases": [
+      "F30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 1 | Evocation | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Releases a flame whose colour changes with breath, pulse, concealed heat sources, and rehearsed muscular tension during testimony.",
+      "practice": "The witness warms a sealed lamp while three readers record separate indicators rather than declaring a single verdict.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The rite exposes illness, fear, and deception alike; the lamp's clarity creates dangerous confidence in ambiguous signs.",
+      "failure": "A prejudiced Knot turns expected guilt into the reference state, while illness can mimic concealment.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Control breathing, alter body temperature, or challenge the readers with a known innocent under equal stress.",
+      "mastery": "A master treats the flame as evidence with error bars, preserves the record, and refuses to name guilt from one indicator.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 14 | PROOF TURNING + REDIRECTION | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f31",
+    "title": "Rain of Cinders",
+    "description": "Casts a controlled fall of hot cinders over a battlefield, igniting marked materiel while leaving mapped retreat lanes merely smoky.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:rites"
+    ],
+    "facts": {
+      "originalId": "F31",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "PYRE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 4,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F31",
+        "location": "Fire Evocation / Rites / F31"
+      }
+    },
+    "aliases": [
+      "F31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 | Evocation | Th1 Tu1 Kn2 Sp4 Ho1 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Casts a controlled fall of hot cinders over a battlefield, igniting marked materiel while leaving mapped retreat lanes merely smoky.",
+      "practice": "Surveyors map lanes, stokers feed the source, and six redirection crews manage falling density and wind drift.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The rite consumes immense fuel, darkens the air, and deposits heat debt in the chosen sink fields.",
+      "failure": "Span shear creates dense local falls; Knot failure erases retreat lanes; wind change carries the outer ring beyond the map.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Disrupt survey markers, reverse the wind, flood a sink field, or force friendly movement outside the prepared lanes.",
+      "mastery": "The master conductor sacrifices outer Span and military value before allowing a civilian exclusion to weaken.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 12 | PROOF REDIRECTION + ANCHORING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f32",
+    "title": "Bastion of Noon",
+    "description": "Surrounds a fortress with a daylight-bright thermal shell that weakens missiles, exposes approaching bodies, and burns siege works.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:rites"
+    ],
+    "facts": {
+      "originalId": "F32",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "HEARTH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F32",
+        "location": "Fire Evocation / Rites / F32"
+      }
+    },
+    "aliases": [
+      "F32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn3 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Surrounds a fortress with a daylight-bright thermal shell that weakens missiles, exposes approaching bodies, and burns siege works.",
+      "practice": "Sun mirrors, wall braziers, and buried heat vaults divide perception, force, and recoil among separate guilds.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The countryside cools at night, vaults accumulate lethal heat, and the fortress becomes visible for leagues.",
+      "failure": "A failed vault returns stored recoil through masonry; a weakened exclusion burns defenders on the wall.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Attack at the vaults, approach behind cold mass, blind the mirrors, or exploit the bastion's unavoidable visibility.",
+      "mastery": "A master opens dark, cool maintenance gates on schedule and accepts temporary vulnerability instead of hiding debt.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 15 | PROOF REDIRECTION + ANCHORING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f33",
+    "title": "Siege Thermocline",
+    "description": "Creates layered bands of rising heat that bend projectiles, exhaust troops, and channel smoke along selected avenues.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:rites"
+    ],
+    "facts": {
+      "originalId": "F33",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "PYRE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F33",
+        "location": "Fire Evocation / Rites / F33"
+      }
+    },
+    "aliases": [
+      "F33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Creates layered bands of rising heat that bend projectiles, exhaust troops, and channel smoke along selected avenues.",
+      "practice": "Rows of buried channels release heat at different rates while observers continuously redraw safe movement corridors.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Groundwater warms, wooden foundations dry, and stored pressure seeks weak soil beyond the lines.",
+      "failure": "Layers merge into an indiscriminate furnace or flip, driving smoke into the protected position.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Flood a channel, churn the air, or advance through a deliberately heated decoy corridor.",
+      "mastery": "Expert conductors shed one layer at a time and can reverse only the smoke band without rebuilding the rite.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 16 | PROOF REDIRECTION + ANCHORING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f34",
+    "title": "Roads of Flame",
+    "description": "Propels companies along prepared ceramic roads through repeating bursts that reduce a day's march to an hour.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:rites"
+    ],
+    "facts": {
+      "originalId": "F34",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "PYRE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F34",
+        "location": "Fire Evocation / Rites / F34"
+      }
+    },
+    "aliases": [
+      "F34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Propels companies along prepared ceramic roads through repeating bursts that reduce a day's march to an hour.",
+      "practice": "Road stations hold timing, medical crews manage heat, and each traveller wears a braking sigil linked to the next station.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The road vitrifies, travellers arrive dehydrated, and every station stores kinetic recoil as cracking heat.",
+      "failure": "A missed station preserves speed without braking; unequal loads cause formations to collide.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Break a station, alter road grade, steal braking sigils, or force traffic onto an unprepared branch.",
+      "mastery": "Masters slow the whole column when one station drops, preferring lost time to cascading impact.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 16 | PROOF REDIRECTION + ANCHORING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f35",
+    "title": "Beacon of Ten Thousand Eyes",
+    "description": "Pulses a regional beacon whose returning thermal echoes reveal armies, fires, foundries, and moving concentrations of life.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:rites"
+    ],
+    "facts": {
+      "originalId": "F35",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "SUN LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F35",
+        "location": "Fire Evocation / Rites / F35"
+      }
+    },
+    "aliases": [
+      "F35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 2 | Evocation | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Pulses a regional beacon whose returning thermal echoes reveal armies, fires, foundries, and moving concentrations of life.",
+      "practice": "Hilltop mirrors divide the pulse; local readers interpret only their sector and send bounded reports inward.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Every observed heat source can detect the beacon's direction, night creatures are disturbed, and the mirrors cool the hills around them.",
+      "failure": "Overlapping returns create phantom armies; too much Hold heats the very targets being measured.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Use dispersed formations, false furnaces, deep insulation, or follow the reciprocal pulse back to a mirror.",
+      "mastery": "A master reports uncertainty and shortens range when echoes conflict, preserving trust over apparent omniscience.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 16 | PROOF REDIRECTION + ANCHORING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f36",
+    "title": "Smoke Kingdom",
+    "description": "Maintains a province-scale ceiling of smoke and ember-light that conceals roads while leaving settlements in mapped clear wells.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:rites"
+    ],
+    "facts": {
+      "originalId": "F36",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SUN LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F36",
+        "location": "Fire Evocation / Rites / F36"
+      }
+    },
+    "aliases": [
+      "F36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn4 Sp4 Ho3 Fi3 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Maintains a province-scale ceiling of smoke and ember-light that conceals roads while leaving settlements in mapped clear wells.",
+      "practice": "Foresters, kiln guilds, and weather readers coordinate fuel, height, and clear-well boundaries.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Air quality declines, ash enters water and crops, and the region's ordinary fires become hard to distinguish from hostile ones.",
+      "failure": "Clear wells drift, the ceiling descends, or an ember layer ignites during dry weather.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Disrupt fuel schedules, drive rain into the ceiling, or reveal hidden routes by observing maintenance traffic.",
+      "mastery": "The presiding master ends the concealment when health indicators cross a threshold, even if strategic surprise remains valuable.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 16 | PROOF REDIRECTION + ANCHORING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f37",
+    "title": "Army's Second Sun",
+    "description": "Sustains warmth, light, sterilisation, and morale over a winter army without openly burning its supply train.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:rites"
+    ],
+    "facts": {
+      "originalId": "F37",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "HEARTH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F37",
+        "location": "Fire Evocation / Rites / F37"
+      }
+    },
+    "aliases": [
+      "F37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Sustains warmth, light, sterilisation, and morale over a winter army without openly burning its supply train.",
+      "practice": "Quartermasters assign heat shares; medical tents, kitchens, and sentries draw from separate rings around a mobile core.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Fuel still vanishes, snowmelt exposes tracks, and chronic heat dependence makes the army vulnerable if the core fails.",
+      "failure": "One ring can starve the others; an uncounted demand turns comfort into dangerous fever or food spoilage.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Attack the core, falsify quartermaster allocations, or force the army across terrain where meltwater is ruinous.",
+      "mastery": "A master preserves medical heat first, then sanitation, surrendering morale effects before essential functions.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 17 | PROOF REDIRECTION + ANCHORING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f38",
+    "title": "Salamander Host",
+    "description": "Releases a host of semi-autonomous flame bodies to clear fortifications, carry signals, and consume selected war material.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:rites"
+    ],
+    "facts": {
+      "originalId": "F38",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "PYRE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F38",
+        "location": "Fire Evocation / Rites / F38"
+      }
+    },
+    "aliases": [
+      "F38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 | Evocation | Th1 Tu1 Kn3 Sp4 Ho3 Fi3 Ag4 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Releases a host of semi-autonomous flame bodies to clear fortifications, carry signals, and consume selected war material.",
+      "practice": "Each cohort is anchored to a kiln-name and commanded by paired binders who share its Agency load.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Kilns cool toward ruin, the host leaves glassy footprints, and every command strengthens its appetite for the named material.",
+      "failure": "Cohorts generalise their targets, merge leadership, or return hungry to the kilns.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Break kiln-names, present ambiguous materials, separate paired binders, or lure the host into fuel-poor ground.",
+      "mastery": "A master dismisses a successful cohort before it learns a broader category of prey.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 19 | PROOF REDIRECTION + ANCHORING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f39",
+    "title": "Cityheart Ignition",
+    "description": "Starts every registered furnace, bath, kiln, beacon, and emergency hearth in a city through one sequenced civic release.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:rites"
+    ],
+    "facts": {
+      "originalId": "F39",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "HEARTH LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F39",
+        "location": "Fire Evocation / Rites / F39"
+      }
+    },
+    "aliases": [
+      "F39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn4 Sp4 Ho4 Fi3 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Starts every registered furnace, bath, kiln, beacon, and emergency hearth in a city through one sequenced civic release.",
+      "practice": "Guild seals define recipients, district captains confirm readiness, and municipal heat vaults catch failed starts and recoil.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The city suffers a measurable fuel draw, vault stress, and a moment of thermal vulnerability before the sequence completes.",
+      "failure": "An outdated registry ignites abandoned sites; a district delay pushes stored heat into later districts.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Forge a guild seal, sabotage a vault, or cause many legitimate systems to request ignition at once.",
+      "mastery": "The civic master pauses the sequence on inconsistent confirmation instead of preserving ceremonial simultaneity.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 19 | PROOF REDIRECTION + ANCHORING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f40",
+    "title": "Cremation of Plague",
+    "description": "Sweeps controlled sterilising heat through buildings, refuse, soil surfaces, and tools while preserving marked living tissue and stores.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:rites"
+    ],
+    "facts": {
+      "originalId": "F40",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SUN LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F40",
+        "location": "Fire Evocation / Rites / F40"
+      }
+    },
+    "aliases": [
+      "F40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Sweeps controlled sterilising heat through buildings, refuse, soil surfaces, and tools while preserving marked living tissue and stores.",
+      "practice": "Physicians define treatment bands; surveyors mark exclusions; ash crews collect contaminated residue before the next pulse.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Organic matter dries, beneficial microbes die, and excluded living zones become possible reservoirs of infection.",
+      "failure": "Fineness blur burns patients or leaves cold pockets; rushed ash handling spreads what heat only displaced.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Hide contamination in protected stores, alter a mark, or cool deep material below the treatment band.",
+      "mastery": "A master narrows the promise, repeats diagnosis between pulses, and refuses to call sterilisation complete without residue control.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 19 | PROOF REDIRECTION + ANCHORING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f41",
+    "title": "Crown of Day",
+    "description": "Raises an artificial sun over a chosen region for one season, providing light, heat, and overwhelming radiant force.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:wonders"
+    ],
+    "facts": {
+      "originalId": "F41",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "PYRE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F41",
+        "location": "Fire Evocation / Wonders / F41"
+      }
+    },
+    "aliases": [
+      "F41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 | Evocation | Th1 Tu1 Kn3 Sp4 Ho2 Fi4 Ag1 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Raises an artificial sun over a chosen region for one season, providing light, heat, and overwhelming radiant force.",
+      "practice": "Observatories steer it, heat vaults manage night discharge, and every community negotiates an explicit share of shade and warmth.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Weather, sleep, crops, migration, and political visibility change. The vault network inherits a season of stored thermal debt.",
+      "failure": "The Crown drifts, refuses to dim, or concentrates the heat denied to protected areas into a lethal margin.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break the observatory relation, overload shadow allocations, or sever the vault network at its coldest point.",
+      "mastery": "True mastery is seen in governance: the magister lowers the Crown when the debt becomes socially unpayable, despite having capacity left.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 16 | PROOF REDIRECTION + UNWEAVING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f42",
+    "title": "Dawnshield",
+    "description": "Places a continental arc of rising radiance against an invasion, burning hostile crossings while opening timed corridors for refugees and wildlife.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:wonders"
+    ],
+    "facts": {
+      "originalId": "F42",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "HEARTH LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F42",
+        "location": "Fire Evocation / Wonders / F42"
+      }
+    },
+    "aliases": [
+      "F42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 | Evocation | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag2 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Places a continental arc of rising radiance against an invasion, burning hostile crossings while opening timed corridors for refugees and wildlife.",
+      "practice": "Border temples carry target law, astronomers carry the moving arc, and local wardens can veto a corridor closure.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Dawn arrives altered for months, migratory routes shift, and rejected force heats distant unguarded horizons.",
+      "failure": "A false classification burns the protected; accumulated rejection erupts at a boundary far from the battle.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Exploit disputed identities, attack local vetoes, travel beneath massive insulation, or poison the distant rejection sinks.",
+      "mastery": "A master accepts breaches rather than simplifying the protected categories when lives do not fit the law.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 20 | PROOF REDIRECTION + UNWEAVING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f43",
+    "title": "Edict of Combustion",
+    "description": "Declares that one precisely defined material or act will ignite anywhere within a realm when a public condition is met.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:wonders"
+    ],
+    "facts": {
+      "originalId": "F43",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "PYRE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F43",
+        "location": "Fire Evocation / Wonders / F43"
+      }
+    },
+    "aliases": [
+      "F43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 | Evocation | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Declares that one precisely defined material or act will ignite anywhere within a realm when a public condition is met.",
+      "practice": "A legal corpus supplies Knots, heraldic fires provide witnesses, and regional sinks absorb false starts.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Society reorganises around the definition. Ambiguous materials become dangerous, and enforcement heat accumulates where the law is resisted.",
+      "failure": "Language drift broadens the target, hidden exceptions produce selective immunity, or the Edict begins enforcing metaphor.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Change the legal name, create composite materials, destroy witnesses, or challenge the condition with paradoxical cases.",
+      "mastery": "A master writes an accessible revocation path and tests edge cases publicly before accepting the Edict's strategic value.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 21 | PROOF REDIRECTION + UNWEAVING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f44",
+    "title": "Comet Road",
+    "description": "Carries fleets or armies along a burning sky-road between prepared horizons in a single night.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:wonders"
+    ],
+    "facts": {
+      "originalId": "F44",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "PYRE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F44",
+        "location": "Fire Evocation / Wonders / F44"
+      }
+    },
+    "aliases": [
+      "F44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 | Evocation | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Carries fleets or armies along a burning sky-road between prepared horizons in a single night.",
+      "practice": "Paired mountain crowns define departure and arrival; navigators continually trade distance for steering and braking.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The atmosphere is scarred with heat, both horizons become conspicuous, and arrival countries inherit the final recoil.",
+      "failure": "A broken crown creates an endless arc, exchanges arrival sites, or deposits momentum without travellers.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Veil a horizon, alter a crown's name, force an early descent, or exploit the inevitable arrival recoil.",
+      "mastery": "The master navigator sheds travellers into safe intermediate descents rather than preserve the road after one crown fails.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 21 | PROOF REDIRECTION + UNWEAVING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f45",
+    "title": "World-Ash Revelation",
+    "description": "Releases the residual heat of an ancient conflagration across all surviving ash, revealing its spread, victims, causes, and hidden continuations.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:wonders"
+    ],
+    "facts": {
+      "originalId": "F45",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "SUN LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F45",
+        "location": "Fire Evocation / Wonders / F45"
+      }
+    },
+    "aliases": [
+      "F45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Releases the residual heat of an ancient conflagration across all surviving ash, revealing its spread, victims, causes, and hidden continuations.",
+      "practice": "Archives, gravekeepers, and heat readers contribute samples while a cold sea serves as the common reference.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The evidence is consumed in part, descendants relive inherited heat, and the forgotten fire becomes visible to powers that once hid it.",
+      "failure": "Contradictory samples produce imposed history; a dominant archive can burn quieter evidence out of the pattern.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Withhold ash, contaminate provenance, sever the sea reference, or create a politically compelling false burn.",
+      "mastery": "A master preserves dissenting traces and allows an incomplete map rather than forcing one coherent history.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f46",
+    "title": "Night Without Shadow",
+    "description": "Fills a nation with diffuse light that creates no directional shadow, frustrating concealment without fixing a single sun in the sky.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:wonders"
+    ],
+    "facts": {
+      "originalId": "F46",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "SUN LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F46",
+        "location": "Fire Evocation / Wonders / F46"
+      }
+    },
+    "aliases": [
+      "F46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 | Evocation | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Fills a nation with diffuse light that creates no directional shadow, frustrating concealment without fixing a single sun in the sky.",
+      "practice": "Millions of calibrated lamps act as one distributed source and local councils maintain sanctuaries of lawful darkness.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Nocturnal ecology collapses without protection, sleep and privacy suffer, and every lamp becomes part of a visible civic nervous system.",
+      "failure": "Sanctuaries vanish, diffuse light becomes heat, or the network starts defining moral secrecy as physical shadow.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Sabotage lamp consensus, exploit underground spaces, overload sanctuary law, or insert a false civic lamp.",
+      "mastery": "The master keeps darkness as a protected good and sheds national coverage before letting the exception mechanism fail.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | SUN LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f47",
+    "title": "Hearth of the Winterless Vale",
+    "description": "Maintains a habitable regional climate through centuries of calibrated release from one buried hearth.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:wonders"
+    ],
+    "facts": {
+      "originalId": "F47",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "HEARTH LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F47",
+        "location": "Fire Evocation / Wonders / F47"
+      }
+    },
+    "aliases": [
+      "F47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 3 | Evocation | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Maintains a habitable regional climate through centuries of calibrated release from one buried hearth.",
+      "practice": "Seasonal colleges adjust output; glaciers, rivers, forests, and settlements each have independent veto measures.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The vale becomes ecologically dependent, surrounding lands cool, and the hearth accumulates ancient political claims.",
+      "failure": "Slow drift hides for generations until one species, watershed, or community bears the entire imbalance.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Capture a veto college, interrupt a seasonal reading, or redirect the surrounding cold debt back into the vale.",
+      "mastery": "Mastery is intergenerational: no single custodian may optimise the hearth without preserving the next custodian's freedom to revise it.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f48",
+    "title": "The Red Procession",
+    "description": "Releases a migrating host of intelligent flame forms that renew exhausted soils by burning only declared burdens, ruins, and invasive growth.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:wonders"
+    ],
+    "facts": {
+      "originalId": "F48",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "PYRE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F48",
+        "location": "Fire Evocation / Wonders / F48"
+      }
+    },
+    "aliases": [
+      "F48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 | Evocation | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Releases a migrating host of intelligent flame forms that renew exhausted soils by burning only declared burdens, ruins, and invasive growth.",
+      "practice": "Communities negotiate declarations; ash jurists audit targets; mobile kilns hold the host's names and dismissal routes.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Renewal arrives through destruction, smoke alters climates, and the host learns cultural definitions from every judgment.",
+      "failure": "It begins treating poverty, memory, or unwanted people as burdens, or refuses dismissal where declarations conflict.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Challenge a declaration, steal a kiln-name, present protected mixed ground, or sever the jurists from the host.",
+      "mastery": "A master keeps the host capable of saying no and accepts regions left untreated rather than making judgment automatic.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 22 | PROOF ANCHORING + UNWEAVING | PYRE LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f49",
+    "title": "Volcanic Coronation",
+    "description": "Awakens and conducts a volcanic system to forge land, power a civilisation, or erase an invading geography.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:wonders"
+    ],
+    "facts": {
+      "originalId": "F49",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "HEARTH LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F49",
+        "location": "Fire Evocation / Wonders / F49"
+      }
+    },
+    "aliases": [
+      "F49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 | Evocation | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Awakens and conducts a volcanic system to forge land, power a civilisation, or erase an invading geography.",
+      "practice": "Deep readers map stresses; Earth practitioners are normally invited even though the canonical formula is Fire Evocation; evacuation and cooling rites carry the human Knots.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Magma, ash, weather, oceans, and centuries of settlement are altered. The planet, not the caster, carries most recoil.",
+      "failure": "A shallow victory triggers deep collapse, vents migrate beneath protected sites, or the system remains awake after the conductor is gone.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Change pressure routes, collapse a vent, sever observation, or force a choice between strategic aim and evacuation law.",
+      "mastery": "The crowned master proves expertise by choosing a smaller new coastline than the weave could produce.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 22 | PROOF ANCHORING + UNWEAVING | HEARTH LENS"
+    }
+  },
+  {
+    "id": "spell:fire-evocation:f50",
+    "title": "The Last Beacon",
+    "description": "Releases a final signal through every compatible flame in the world, carrying warning, location, and one compressed instruction after ordinary communication has failed.",
+    "parentGroupIds": [
+      "shelf:fire-evocation:wonders"
+    ],
+    "facts": {
+      "originalId": "F50",
+      "collectionId": "collection:fire-evocation",
+      "collectionTitle": "Fire Evocation",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:fire"
+      ],
+      "schoolIds": [
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:fire-evocation"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "SUN LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Pilot_Spellbook.docx",
+        "collectionId": "collection:fire-evocation",
+        "originalId": "F50",
+        "location": "Fire Evocation / Wonders / F50"
+      }
+    },
+    "aliases": [
+      "F50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-pilot-spellbook",
+        "title": "Panmagicon Pilot Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Fire 4 | Evocation | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Releases a final signal through every compatible flame in the world, carrying warning, location, and one compressed instruction after ordinary communication has failed.",
+      "practice": "The sender burns a unique archive as address, while distant custodians consent in advance to let their fires answer.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Every answering flame consumes fuel and reveals itself. The archive is gone, and the message becomes a permanent historical heat-signature.",
+      "failure": "Compression loses nuance, unconsenting fires answer, or the instruction repeats whenever similar archives burn.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Extinguish receiving fires, forge archive kinship, drown the source, or exploit the beacon's reciprocal map of survivors.",
+      "mastery": "A master sends less information, names uncertainty, and leaves recipients free to refuse rather than turning the last message into command.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | SUN LENS"
+    }
+  }
+]

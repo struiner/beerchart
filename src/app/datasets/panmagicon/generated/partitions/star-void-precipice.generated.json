@@ -1,0 +1,4168 @@
+[
+  {
+    "id": "spell:star-void-precipice:p01",
+    "title": "Compass Fold",
+    "description": "Folds a handspan of distance so a thrown pebble, needle, or spark reaches one marked nearby point along an impossible bearing.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:lessons"
+    ],
+    "facts": {
+      "originalId": "P01",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:star-alteration",
+        "stream:star-evocation",
+        "stream:void-alteration",
+        "stream:void-evocation"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Direct Intervention",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P01",
+        "location": "Star + Void: The Precipice / Lessons / P01"
+      }
+    },
+    "aliases": [
+      "P01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 1 | Alteration > Evocation | Th2 Tu2 Kn0 Sp1 Ho0 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Folds a handspan of distance so a thrown pebble, needle, or spark reaches one marked nearby point along an impossible bearing.",
+      "practice": "Align a star-mark at origin and a blank token at arrival, leaving the ordinary path unobstructed.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The endpoints become sympathetic, the omitted interval loses a moment of context, and distant observers may notice the tiny alignment.",
+      "failure": "The bearing reverses, the object arrives without momentum, or the fold steals a fraction of time from the thrower.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Cover either token, move the target, interrupt the ordinary path, or introduce a stronger matching mark.",
+      "mastery": "A master sheds accuracy before continuity and unfolds the relation before the two points begin behaving as one.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 7 | PROOF HOLDING + BRAIDING | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p02",
+    "title": "Null-Sky Ward",
+    "description": "Places a palm-wide patch beyond distant sight, celestial attention, and simple sympathetic targeting while preserving its local presence.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:lessons"
+    ],
+    "facts": {
+      "originalId": "P02",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-veiling",
+        "stream:void-abjuration",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Protection And Repair",
+      "doctrine": "ABYSS LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P02",
+        "location": "Star + Void: The Precipice / Lessons / P02"
+      }
+    },
+    "aliases": [
+      "P02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Abjuration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 + Void 2 | Abjuration > Veiling | Th2 Tu2 Kn1 Sp1 Ho0 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Places a palm-wide patch beyond distant sight, celestial attention, and simple sympathetic targeting while preserving its local presence.",
+      "practice": "Name what must remain reachable by touch and leave one bright edge for retrieval.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Remote relation is rejected into a faint halo, the protected subject loses useful correspondences, and the caster forgets part of its appearance.",
+      "failure": "The patch excludes aid, hides damage, or banishes the subject's name more strongly than intended.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Touch across the edge, invoke a local name, overload the halo, or compare with a material copy.",
+      "mastery": "An expert preserves local reality and lets the ward become visible before absence severs ownership or care.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 8 | PROOF HOLDING + BRAIDING | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p03",
+    "title": "Threshold Token",
+    "description": "Binds two small marked surfaces as the two faces of one temporary threshold through which light, a whisper, or a fingertip may pass.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:lessons"
+    ],
+    "facts": {
+      "originalId": "P03",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-enchantment",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Control And Regulation",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P03",
+        "location": "Star + Void: The Precipice / Lessons / P03"
+      }
+    },
+    "aliases": [
+      "P03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 + Void 1 | Enchantment | Th2 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Binds two small marked surfaces as the two faces of one temporary threshold through which light, a whisper, or a fingertip may pass.",
+      "practice": "Keep both faces visible to a witness, define direction, and preserve an ordinary route between them.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Each face loses some local context, attention travels both ways, and the intervening distance gathers as mild spatial pressure.",
+      "failure": "The threshold exchanges sides, admits more than the named medium, or leaves a numb gap when closed.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Separate a token, change direction, cover one face, or cross by the ordinary path.",
+      "mastery": "A master keeps the passage narrower than curiosity and closes it before adjacency becomes identity.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 8 | PROOF HOLDING + BRAIDING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p04",
+    "title": "One-Step Elsewhere",
+    "description": "Makes one nearby empty footprint adjacent to the caster while excluding the intervening step, allowing a short instantaneous crossing.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:lessons"
+    ],
+    "facts": {
+      "originalId": "P04",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-alteration",
+        "stream:void-conjuration",
+        "stream:void-alteration"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Movement And Flow",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P04",
+        "location": "Star + Void: The Precipice / Lessons / P04"
+      }
+    },
+    "aliases": [
+      "P04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Conjuration",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 + Void 1 | Alteration > Conjuration | Th2 Tu2 Kn0 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Makes one nearby empty footprint adjacent to the caster while excluding the intervening step, allowing a short instantaneous crossing.",
+      "practice": "Mark a safe arrival, keep the body in one posture, and name what may remain behind if the fold tears.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The caster arrives disoriented, the departure feels briefly unreal, and both places acquire a reciprocal route.",
+      "failure": "Arrival occupies matter, identity lags behind position, or the excluded step returns as a stumble later.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Fill the mark, change posture, break line of relation, or seize the caster before the second Turn.",
+      "mastery": "A master sacrifices distance and surprise before bodily unity and accepts an early imperfect arrival.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 8 | PROOF HOLDING + BRAIDING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p05",
+    "title": "Absence Parallax",
+    "description": "Reads the shifted edges around a hidden object, erased name, false wall, or tiny dimensional gap without exposing its contents.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:lessons"
+    ],
+    "facts": {
+      "originalId": "P05",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:star-divination",
+        "stream:void-divination"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Perception And Memory",
+      "doctrine": "ABYSS LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P05",
+        "location": "Star + Void: The Precipice / Lessons / P05"
+      }
+    },
+    "aliases": [
+      "P05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 + Void 2 | Divination | Th2 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Reads the shifted edges around a hidden object, erased name, false wall, or tiny dimensional gap without exposing its contents.",
+      "practice": "Observe from two positions, record contradiction, and forbid the reading from becoming an invitation.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Attention gives the absence a faint route back, the observer loses confidence in surrounding context, and the gap becomes easier for others to notice.",
+      "failure": "Parallax is mistaken for proof, a harmless omission is opened, or the absent thing follows the observer's relation home.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Close one viewpoint, introduce a mundane gap, change scale, or sever reciprocal attention.",
+      "mastery": "A master reports only the contour and stops before curiosity becomes a gate.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 7 | PROOF HOLDING + BRAIDING | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p06",
+    "title": "Unnamed Alcove",
+    "description": "Turns a cupboard, recess, bedspace, or doorway into a locally present place that distant maps, names, and casual attention cannot hold.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:lessons"
+    ],
+    "facts": {
+      "originalId": "P06",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-veiling",
+        "stream:void-abjuration",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "ABYSS LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 8,
+      "calculatedLoad": 8,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P06",
+        "location": "Star + Void: The Precipice / Lessons / P06"
+      }
+    },
+    "aliases": [
+      "P06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Abjuration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 + Void 2 | Veiling > Abjuration | Th2 Tu2 Kn0 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Turns a cupboard, recess, bedspace, or doorway into a locally present place that distant maps, names, and casual attention cannot hold.",
+      "practice": "Preserve ventilation, rescue, internal memory, and a physical key that never leaves the site.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The alcove frays from household context, its users become difficult to account for, and rejected names collect at the entrance.",
+      "failure": "The space forgets its own exit, hides danger, or begins excluding people not named by the first keeper.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Use the key, enter by touch, change household use, speak a local relation, or break the threshold.",
+      "mastery": "A master keeps the alcove ordinary inside and reveals it before shelter becomes social absence.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 8 | PROOF HOLDING + BRAIDING | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p07",
+    "title": "Soul's Margin",
+    "description": "Draws a narrow margin around a person whose name, memory, dream, or disembodied pattern is being pulled elsewhere, restoring local self-relation.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:lessons"
+    ],
+    "facts": {
+      "originalId": "P07",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:star-alteration",
+        "stream:star-restoration",
+        "stream:void-alteration",
+        "stream:void-restoration"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P07",
+        "location": "Star + Void: The Precipice / Lessons / P07"
+      }
+    },
+    "aliases": [
+      "P07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Alteration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 1 | Restoration > Alteration | Th2 Tu2 Kn1 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Draws a narrow margin around a person whose name, memory, dream, or disembodied pattern is being pulled elsewhere, restoring local self-relation.",
+      "practice": "The subject chooses a present name, body sign, trusted witness, and relation that may be released rather than defended.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Distant correspondences recoil, abandoned identities gather outside the margin, and the protected self becomes temporarily conspicuous.",
+      "failure": "The margin rejects wanted change, traps an older identity, or severs care in the name of autonomy.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Invoke a chosen outside relation, alter the present name, cross by consent, or close the witness.",
+      "mastery": "A master restores authorship rather than sameness and lets the margin open wherever the subject chooses connection.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 9 | PROOF HOLDING + BRAIDING | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p08",
+    "title": "Hinge Wisp",
+    "description": "Calls a tiny two-faced wisp that finds one matching pair of doors, lids, knots, or openings and taps where a threshold might be made.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:lessons"
+    ],
+    "facts": {
+      "originalId": "P08",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-enchantment",
+        "stream:void-conjuration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 1
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P08",
+        "location": "Star + Void: The Precipice / Lessons / P08"
+      }
+    },
+    "aliases": [
+      "P08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Conjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 + Void 1 | Conjuration > Enchantment | Th2 Tu2 Kn1 Sp1 Ho1 Fi1 Ag1 Co1 | Carrier: personal or supervised.",
+      "purpose": "Calls a tiny two-faced wisp that finds one matching pair of doors, lids, knots, or openings and taps where a threshold might be made.",
+      "practice": "Give it examples, a forbidden opening, a home hinge, and a dawn dissolution.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Each candidate pair gains slight sympathy, nearby gaps become restless, and the wisp learns preference from the keeper's choices.",
+      "failure": "It matches by metaphor, opens what it was meant only to mark, or refuses home because one possible threshold remains.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Break a candidate relation, present an excluded opening, remove the home hinge, or wait for dawn.",
+      "mastery": "A master keeps the wisp advisory and mortal, never letting possibility appoint itself as permission.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 10 | PROOF HOLDING + BRAIDING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p09",
+    "title": "Door Between Shelves",
+    "description": "Binds two storage shelves, drawers, or worktables so one hand may place or retrieve small declared objects across their folded separation.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:lessons"
+    ],
+    "facts": {
+      "originalId": "P09",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-alteration",
+        "stream:star-enchantment",
+        "stream:void-alteration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Infrastructure",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P09",
+        "location": "Star + Void: The Precipice / Lessons / P09"
+      }
+    },
+    "aliases": [
+      "P09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 1 | Enchantment > Alteration | Th2 Tu2 Kn1 Sp1 Ho1 Fi1 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Binds two storage shelves, drawers, or worktables so one hand may place or retrieve small declared objects across their folded separation.",
+      "practice": "List admitted objects, weight, direction, custody, and the condition that closes the door.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "Inventories become entangled, local space thins at both shelves, and missing items are harder to assign to one place.",
+      "failure": "The door admits a related object, exchanges contents, or lets weight arrive without support.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Change the list, move a shelf, overload weight, use an object with disputed custody, or close one face.",
+      "mastery": "A master preserves accounting and shuts the convenience before two stores become one ungoverned place.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 9 | PROOF HOLDING + BRAIDING | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p10",
+    "title": "Night of the Missing Star",
+    "description": "Removes one familiar star from a village sky for an evening so people can notice the routes, stories, and expectations that depended on it.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:lessons"
+    ],
+    "facts": {
+      "originalId": "P10",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:divination",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-divination",
+        "stream:star-veiling",
+        "stream:void-divination",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P10",
+        "location": "Star + Void: The Precipice / Lessons / P10"
+      }
+    },
+    "aliases": [
+      "P10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Divination",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 + Void 1 | Veiling > Divination | Th2 Tu2 Kn1 Sp1 Ho0 Fi2 Ag0 Co1 | Carrier: personal or supervised.",
+      "purpose": "Removes one familiar star from a village sky for an evening so people can notice the routes, stories, and expectations that depended on it.",
+      "practice": "Astronomers preserve navigation, weather, ritual choice, and a clear announcement that nothing celestial has been destroyed.",
+      "proof": "HOLDING + BRAIDING",
+      "consequence": "The absent star becomes culturally vivid, observers form new correspondences, and the real star gains a faint reciprocal path.",
+      "failure": "The lesson becomes prophecy, navigation fails, or the village blames people associated with the missing sign.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Reveal the star by another method, end the exercise, name contradictory meanings, or refuse interpretation.",
+      "mastery": "A master lets absence provoke questions without granting it an answer and restores the sky before metaphor becomes law.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 9 | PROOF HOLDING + BRAIDING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p11",
+    "title": "Horizon Cut",
+    "description": "Opens a razor-thin fold that redirects one charging line, projectile volley, or released spell several paces sideways across a prepared horizon.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:practical-workings"
+    ],
+    "facts": {
+      "originalId": "P11",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:star-alteration",
+        "stream:star-evocation",
+        "stream:void-alteration",
+        "stream:void-evocation"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Direct Intervention",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 0,
+        "span": 2,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P11",
+        "location": "Star + Void: The Precipice / Practical Workings / P11"
+      }
+    },
+    "aliases": [
+      "P11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 1 | Alteration > Evocation | Th2 Tu2 Kn0 Sp2 Ho0 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Opens a razor-thin fold that redirects one charging line, projectile volley, or released spell several paces sideways across a prepared horizon.",
+      "practice": "Target keepers separate bodies, weapons, magic, allies, and the safe place where displaced force may emerge.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Two regions become briefly adjacent, recoil appears at both edges, and the cut shines to distant spatial senses.",
+      "failure": "The fold takes people with weapons, exchanges directions, or leaves a seam that catches later motion.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Break a horizon mark, vary target classes, attack from several bearings, or occupy the emergence strip.",
+      "mastery": "Experts shed length and force before discrimination, closing the cut while a miss is still safer than a perfect redirection.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 9 | PROOF BRAIDING + TURNING | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p12",
+    "title": "Border of Near and Never",
+    "description": "Surrounds a camp or refuge with a boundary that makes admitted paths feel near and hostile approaches recede into unreachable relation.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:practical-workings"
+    ],
+    "facts": {
+      "originalId": "P12",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-enchantment",
+        "stream:void-abjuration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Protection And Repair",
+      "doctrine": "ABYSS LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P12",
+        "location": "Star + Void: The Precipice / Practical Workings / P12"
+      }
+    },
+    "aliases": [
+      "P12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 + Void 2 | Abjuration > Enchantment | Th2 Tu2 Kn1 Sp2 Ho1 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Surrounds a camp or refuge with a boundary that makes admitted paths feel near and hostile approaches recede into unreachable relation.",
+      "practice": "Gatekeepers preserve rescue, retreat, wildlife, local residents, and a time when every path returns to ordinary distance.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Rejected approaches gather as spatial pressure, allies depend on named admission, and the camp becomes easier to locate from its gates.",
+      "failure": "The border traps outsiders in endless approach, closes against late allies, or folds danger into a neighbouring path.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke admission, approach without hostile relation, overload a gate, move the camp, or break the distance anchor.",
+      "mastery": "A master allows breach before protection becomes exile and restores ordinary geography while routes remain legible.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 11 | PROOF BRAIDING + TURNING | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p13",
+    "title": "Customs of the Impossible Door",
+    "description": "Binds a stable gate between two distant sites and admits travellers, goods, spirits, and messages according to declared crossing law.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:practical-workings"
+    ],
+    "facts": {
+      "originalId": "P13",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-enchantment",
+        "stream:void-abjuration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Control And Regulation",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P13",
+        "location": "Star + Void: The Precipice / Practical Workings / P13"
+      }
+    },
+    "aliases": [
+      "P13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 2 | Enchantment > Abjuration | Th2 Tu2 Kn2 Sp2 Ho1 Fi2 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Binds a stable gate between two distant sites and admits travellers, goods, spirits, and messages according to declared crossing law.",
+      "practice": "Both sides hold identity, consent, quarantine, burden, appeal, closure, and reciprocal jurisdiction separately.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The sites become politically and magically entangled, rejected crossings accumulate, and every passage weakens local exclusivity.",
+      "failure": "Customs defines people by cargo, one side captures the law, or rejected relation ruptures around the gate.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Contest identity, cross by an unclassified relation, close one jurisdiction, overload the boundary, or use the ordinary route.",
+      "mastery": "A master keeps the gate corrigible and accepts delay rather than making cosmic adjacency more sovereign than local justice.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 13 | PROOF BRAIDING + TURNING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p14",
+    "title": "Caravan Through the Fold",
+    "description": "Carries a caravan across a folded route in a fraction of the time while preserving camps, rest, weather, animals, and emergency exits.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:practical-workings"
+    ],
+    "facts": {
+      "originalId": "P14",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-alteration",
+        "stream:void-conjuration",
+        "stream:void-alteration"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Movement And Flow",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P14",
+        "location": "Star + Void: The Precipice / Practical Workings / P14"
+      }
+    },
+    "aliases": [
+      "P14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Conjuration",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 2 | Alteration > Conjuration | Th2 Tu2 Kn1 Sp2 Ho1 Fi3 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Carries a caravan across a folded route in a fraction of the time while preserving camps, rest, weather, animals, and emergency exits.",
+      "practice": "Route crews map every unfolding point, host consent, load class, straggler, and destination refusal.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Distance is displaced into fatigue and missing hours, endpoints gain correspondence, and the ordinary road briefly loses traffic and meaning.",
+      "failure": "Sections arrive out of order, animals follow a different relation, or an exit opens at a namesake settlement.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Change load, invoke host refusal, break a waypoint, obscure destination, or unfold into the long road.",
+      "mastery": "A master sacrifices schedule and divides the caravan before coherence turns mobility into mass disappearance.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 13 | PROOF BRAIDING + TURNING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p15",
+    "title": "Map of Absent Roads",
+    "description": "Shows routes erased by war, secrecy, magical folding, disaster, or deliberate forgetting as blank corridors in a material map.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:practical-workings"
+    ],
+    "facts": {
+      "originalId": "P15",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:divination",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-divination",
+        "stream:star-veiling",
+        "stream:void-divination",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Perception And Memory",
+      "doctrine": "ABYSS LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P15",
+        "location": "Star + Void: The Precipice / Practical Workings / P15"
+      }
+    },
+    "aliases": [
+      "P15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Divination",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 + Void 2 | Divination > Veiling | Th2 Tu2 Kn1 Sp2 Ho1 Fi3 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Shows routes erased by war, secrecy, magical folding, disaster, or deliberate forgetting as blank corridors in a material map.",
+      "practice": "Surveyors preserve uncertainty, current inhabitants, sacred omission, hazards, and the right not to reopen a route.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The missing roads gain reciprocal attention, modern geography is subtly displaced, and travellers begin imagining passage where none remains.",
+      "failure": "A blank becomes ownership, the map opens a sealed road, or several histories are flattened into one lost network.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Add a present route, withdraw a corridor, sever observation, alter scale, or refuse to travel.",
+      "mastery": "A master maps the cost of reopening as clearly as the route and leaves some absences unbridged.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 12 | PROOF BRAIDING + TURNING | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p16",
+    "title": "Camp Beyond Notice",
+    "description": "Moves a camp's relational signature half a step outside surrounding maps, rumours, divinations, and hostile attention while leaving its material site unchanged.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:practical-workings"
+    ],
+    "facts": {
+      "originalId": "P16",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-alteration",
+        "stream:star-veiling",
+        "stream:void-alteration",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "ABYSS LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P16",
+        "location": "Star + Void: The Precipice / Practical Workings / P16"
+      }
+    },
+    "aliases": [
+      "P16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Alteration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 + Void 2 | Veiling > Alteration | Th2 Tu2 Kn2 Sp2 Ho1 Fi2 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Moves a camp's relational signature half a step outside surrounding maps, rumours, divinations, and hostile attention while leaving its material site unchanged.",
+      "practice": "Keep internal orientation, aid, waste, fire, local ecology, and a trusted outside witness within the plan.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The camp becomes hard to govern and rescue, false locations gather attention, and residents lose connection to nearby communities.",
+      "failure": "The offset follows departing people, hides harm, or makes the camp unable to perceive threats that lack relation to its map.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Follow material supply, invoke the witness, enter without searching, break a false location, or restore local names.",
+      "mastery": "A master lets the camp rejoin its neighbourhood before strategic concealment becomes social detachment.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 12 | PROOF BRAIDING + TURNING | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p17",
+    "title": "Refuge at the World's Edge",
+    "description": "Creates a bounded refuge adjacent to a distant safe pattern and severed from one declared pursuit, curse, or catastrophe.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:practical-workings"
+    ],
+    "facts": {
+      "originalId": "P17",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-restoration",
+        "stream:void-abjuration",
+        "stream:void-restoration"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P17",
+        "location": "Star + Void: The Precipice / Practical Workings / P17"
+      }
+    },
+    "aliases": [
+      "P17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Abjuration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 1 | Restoration > Abjuration | Th2 Tu2 Kn2 Sp2 Ho1 Fi3 Ag0 Co1 | Carrier: personal with a focus.",
+      "purpose": "Creates a bounded refuge adjacent to a distant safe pattern and severed from one declared pursuit, curse, or catastrophe.",
+      "practice": "Refugees control identity, hosts, exit, present needs, former ties, and what danger may not follow.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Safety creates a gate back toward both origin and host, displaced danger gathers outside, and the refuge inherits unfamiliar context.",
+      "failure": "Restoration recreates an old unsafe order, severance erases family or duty, or the refuge becomes permanent exile.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Invoke a chosen relation, contest the safe reference, close the pursuit definition, or open the refuge locally.",
+      "mastery": "A master restores capacity for life rather than a remembered home and keeps every resident free to redefine return.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 13 | PROOF BRAIDING + TURNING | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p18",
+    "title": "Gatehound of No Scent",
+    "description": "Calls a two-bodied guardian that patrols paired thresholds, detects unlicensed correspondence, and hides lawful passage from pursuit.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:practical-workings"
+    ],
+    "facts": {
+      "originalId": "P18",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-enchantment",
+        "stream:star-veiling",
+        "stream:void-conjuration",
+        "stream:void-enchantment",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 2,
+        "agency": 2,
+        "contradiction": 2
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P18",
+        "location": "Star + Void: The Precipice / Practical Workings / P18"
+      }
+    },
+    "aliases": [
+      "P18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Conjuration",
+      "Enchantment",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 2 | Conjuration > Enchantment > Veiling | Th2 Tu3 Kn1 Sp2 Ho1 Fi2 Ag2 Co2 | Carrier: personal with a focus.",
+      "purpose": "Calls a two-bodied guardian that patrols paired thresholds, detects unlicensed correspondence, and hides lawful passage from pursuit.",
+      "practice": "Each body has a local keeper, separate appetite, forbidden quarry, rest gate, and compulsory death at season's end.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "The Gatehound consumes traces and distance, learns travellers as categories, and leaves both sites dependent on its judgment.",
+      "failure": "It hunts unfamiliar allies, breeds through reflected gates, or refuses death because illicit relation can never be fully absent.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Separate the bodies, invoke a forbidden quarry, close the rest gate, change local law, or starve it of crossings.",
+      "mastery": "A master keeps the guardian uncertain and mortal, dissolving it before service becomes jurisdiction.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 15 | PROOF BRAIDING + TURNING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p19",
+    "title": "Folded Depot",
+    "description": "Links several warehouses to one interior threshold so food, medicine, tools, and emergency goods can be distributed without centralising their physical stores.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:practical-workings"
+    ],
+    "facts": {
+      "originalId": "P19",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-alteration",
+        "stream:star-enchantment",
+        "stream:void-alteration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Infrastructure",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 2,
+        "hold": 3,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P19",
+        "location": "Star + Void: The Precipice / Practical Workings / P19"
+      }
+    },
+    "aliases": [
+      "P19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 2 | Enchantment > Alteration | Th2 Tu2 Kn2 Sp2 Ho3 Fi2 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Links several warehouses to one interior threshold so food, medicine, tools, and emergency goods can be distributed without centralising their physical stores.",
+      "practice": "Every locality retains stock ownership, inspection, quarantine, manual access, disconnection, and responsibility for loss.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Inventories and shortages become sympathetically linked, distance returns as handling strain, and hidden dependencies form around the shared interior.",
+      "failure": "One depot consumes priority, contamination crosses the fold, or closure strands goods in nonspace.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Disconnect a site, change custody, overload weight, introduce incompatible storage, or use exterior doors.",
+      "mastery": "Experts preserve redundant local stores and let the fold slow before efficiency erases material accountability.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 15 | PROOF BRAIDING + TURNING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p20",
+    "title": "Festival of Two Midnights",
+    "description": "Lets two distant communities share one ceremonial midnight while each sky briefly omits the distance and daylight separating them.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:practical-workings"
+    ],
+    "facts": {
+      "originalId": "P20",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:divination",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-alteration",
+        "stream:star-divination",
+        "stream:star-veiling",
+        "stream:void-alteration",
+        "stream:void-divination",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 15,
+      "calculatedLoad": 15,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P20",
+        "location": "Star + Void: The Precipice / Practical Workings / P20"
+      }
+    },
+    "aliases": [
+      "P20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Alteration",
+      "Divination",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 2 | Alteration > Veiling > Divination | Th2 Tu3 Kn2 Sp2 Ho1 Fi3 Ag0 Co2 | Carrier: personal with a focus.",
+      "purpose": "Lets two distant communities share one ceremonial midnight while each sky briefly omits the distance and daylight separating them.",
+      "practice": "Both communities control participation, translation, privacy, timekeeping, and the final restoration of separate nights.",
+      "proof": "BRAIDING + TURNING",
+      "consequence": "Stories, dreams, and expectations become reciprocal; clocks lose context and the shared interval attracts celestial attention.",
+      "failure": "One culture's midnight dominates, participants treat simultaneity as sameness, or the missing hours return as disorientation.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "End locally, reveal the ordinary sky, preserve incompatible rituals, close reciprocity, or refuse common time.",
+      "mastery": "A master protects difference inside intimacy and restores distance before shared wonder becomes a claim of unity.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 15 | PROOF BRAIDING + TURNING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p21",
+    "title": "Constellation Spear",
+    "description": "Aligns a remote hostile anchor, excludes the distance to it, and releases one precise strike through the resulting spatial precipice.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "P21",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-alteration",
+        "stream:star-evocation",
+        "stream:void-abjuration",
+        "stream:void-alteration",
+        "stream:void-evocation"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Direct Intervention",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 1,
+        "span": 3,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P21",
+        "location": "Star + Void: The Precipice / Expert Formulae / P21"
+      }
+    },
+    "aliases": [
+      "P21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Abjuration",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 + Void 2 | Alteration > Abjuration > Evocation | Th2 Tu3 Kn1 Sp3 Ho0 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Aligns a remote hostile anchor, excludes the distance to it, and releases one precise strike through the resulting spatial precipice.",
+      "practice": "Target jurists separate object, operator, surroundings, surrender, misidentification, and the safe sink for severed distance.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Both endpoints flare to distant senses, local context is wounded, and the spear creates a reciprocal route for an instant.",
+      "failure": "The name identifies a person rather than an anchor, recoil arrives through the observer, or the route remains open to return fire.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Change the true relation, break observation, detach the anchor, overload the sink, or answer through reciprocity.",
+      "mastery": "A master sheds force and range before certainty and closes the route before assessing success.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 13 | PROOF BRAIDING + REDIRECTION | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p22",
+    "title": "Citadel on the Far Side",
+    "description": "Places a fortress's vulnerable surfaces beyond hostile relation while keeping its gates locally adjacent to supply, refuge, and retreat.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "P22",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-enchantment",
+        "stream:star-veiling",
+        "stream:void-abjuration",
+        "stream:void-enchantment",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Protection And Repair",
+      "doctrine": "ABYSS LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P22",
+        "location": "Star + Void: The Precipice / Expert Formulae / P22"
+      }
+    },
+    "aliases": [
+      "P22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Abjuration",
+      "Enchantment",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 3 | Abjuration > Veiling > Enchantment | Th2 Tu3 Kn2 Sp3 Ho2 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Places a fortress's vulnerable surfaces beyond hostile relation while keeping its gates locally adjacent to supply, refuge, and retreat.",
+      "practice": "Separate keepers govern walls, people, air, light, trade, rescue, and the conditions that return each surface.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The citadel frays from its landscape, rejected forces gather in nonspace, and named gates become conspicuous points of dependence.",
+      "failure": "The far side becomes unreachable to repair, gates close against refugees, or stored assault returns when a surface rejoins.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Attack through a local relation, capture a gate, overload the far side, disrupt supply adjacency, or invoke return.",
+      "mastery": "Experts accept damaged exposed walls before a perfect defence makes the city impossible to inhabit or restore.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 16 | PROOF BRAIDING + REDIRECTION | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p23",
+    "title": "Treaty of Adjacency",
+    "description": "Makes selected borders, courts, markets, embassies, and refuges of rival states temporarily adjacent under shared crossing law.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "P23",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-alteration",
+        "stream:star-enchantment",
+        "stream:void-abjuration",
+        "stream:void-alteration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Control And Regulation",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 18,
+      "calculatedLoad": 18,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P23",
+        "location": "Star + Void: The Precipice / Expert Formulae / P23"
+      }
+    },
+    "aliases": [
+      "P23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Abjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 2 | Enchantment > Alteration > Abjuration | Th2 Tu3 Kn3 Sp3 Ho2 Fi3 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Makes selected borders, courts, markets, embassies, and refuges of rival states temporarily adjacent under shared crossing law.",
+      "practice": "Each side preserves jurisdiction, refusal, asylum, evidence, local consequence, and the right to restore distance.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Politics and economies entangle, rejected crossings accumulate, and distant conflict gains immediate neighbourhood.",
+      "failure": "The stronger state treats adjacency as annexation, gates outlive consent, or a dispute spreads instantly through every paired site.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Close one pairing, contest jurisdiction, move a local institution, invoke asylum, or reintroduce travel time.",
+      "mastery": "A master keeps relation plural and reversible, allowing distance to protect difference when closeness becomes domination.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 18 | PROOF BRAIDING + REDIRECTION | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p24",
+    "title": "Seven-League Corridor",
+    "description": "Creates a long moving fold that carries a column, convoy, or migrating population across seven great intervals with controlled unfolding between them.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "P24",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-alteration",
+        "stream:star-enchantment",
+        "stream:void-conjuration",
+        "stream:void-alteration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Movement And Flow",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P24",
+        "location": "Star + Void: The Precipice / Expert Formulae / P24"
+      }
+    },
+    "aliases": [
+      "P24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Conjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 + Void 2 | Alteration > Conjuration > Enchantment | Th2 Tu3 Kn2 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates a long moving fold that carries a column, convoy, or migrating population across seven great intervals with controlled unfolding between them.",
+      "practice": "Conductors hold bodies, baggage, animals, weather, time, destination, host consent, and routes for those who leave.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The corridor consumes local correspondence, sheds missing hours, and makes every stopping point part of one strategic line.",
+      "failure": "Intervals reorder, the column becomes one target, or people outside the official manifest fall into the excluded distance.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Break formation, invoke an unfolding point, alter the destination name, occupy a stop, or refuse the manifest.",
+      "mastery": "A master protects stragglers and sheds speed before logistics turns a population into one transported object.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 17 | PROOF BRAIDING + REDIRECTION | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p25",
+    "title": "Orrery of Lost Places",
+    "description": "Models erased cities, unreachable rooms, severed worlds, and forgotten thresholds as dark moving bodies whose relations can be studied.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "P25",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-divination",
+        "stream:void-conjuration",
+        "stream:void-divination"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Perception And Memory",
+      "doctrine": "ABYSS LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 2,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P25",
+        "location": "Star + Void: The Precipice / Expert Formulae / P25"
+      }
+    },
+    "aliases": [
+      "P25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Conjuration",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 3 | Divination > Conjuration | Th2 Tu2 Kn2 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Models erased cities, unreachable rooms, severed worlds, and forgotten thresholds as dark moving bodies whose relations can be studied.",
+      "practice": "Archivists preserve uncertainty, present inhabitants, dangerous return, sacred absence, and the difference between model and invitation.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Each lost place gains a faint route back, observers lose context for present geography, and the orrery attracts what recognises its pattern.",
+      "failure": "A model manifests the wrong era, assigns ownership, or pulls a sealed catastrophe toward relation.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Remove a body, alter scale, close observation, introduce present evidence, or sever the model's name.",
+      "mastery": "A master studies consequence before access and destroys a beautiful model rather than let scholarship become summoning.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 16 | PROOF BRAIDING + REDIRECTION | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p26",
+    "title": "City Behind the Last Door",
+    "description": "Moves a city half outside ordinary spatial relation so enemies find only an abandoned threshold while residents retain internal geography and chosen gates.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "P26",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-alteration",
+        "stream:star-veiling",
+        "stream:void-abjuration",
+        "stream:void-alteration",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "ABYSS LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P26",
+        "location": "Star + Void: The Precipice / Expert Formulae / P26"
+      }
+    },
+    "aliases": [
+      "P26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Abjuration",
+      "Alteration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 3 | Veiling > Abjuration > Alteration | Th2 Tu3 Kn3 Sp3 Ho2 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Moves a city half outside ordinary spatial relation so enemies find only an abandoned threshold while residents retain internal geography and chosen gates.",
+      "practice": "Districts control rescue, trade, waste, environment, memory, governance, exit, and how the city returns.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The city loses outside context, gates become political choke points, and hidden harm becomes harder for distant allies to witness.",
+      "failure": "Return becomes impossible, rulers own the doors, or residents outside official maps fall into the spatial margin.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke a district gate, follow material ecology, contest return law, reveal internal evidence, or create a new local relation.",
+      "mastery": "A master keeps the city accountable to itself and outside witnesses, returning it before secrecy becomes its constitution.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 17 | PROOF BRAIDING + REDIRECTION | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p27",
+    "title": "Return the Exiled Name",
+    "description": "Restores a person, people, place, or spirit whose name was banished from relation, then lets it choose how that name changes on return.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "P27",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-alteration",
+        "stream:star-restoration",
+        "stream:void-conjuration",
+        "stream:void-alteration",
+        "stream:void-restoration"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 18,
+      "calculatedLoad": 18,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P27",
+        "location": "Star + Void: The Precipice / Expert Formulae / P27"
+      }
+    },
+    "aliases": [
+      "P27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Conjuration",
+      "Alteration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 + Void 2 | Restoration > Conjuration > Alteration | Th2 Tu3 Kn3 Sp3 Ho2 Fi4 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Restores a person, people, place, or spirit whose name was banished from relation, then lets it choose how that name changes on return.",
+      "practice": "The subject, present community, harmed parties, records, descendants, and the right to remain absent all carry separate Knots.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Old claims and correspondences return, the present is displaced, and the restored name becomes visible to powers that once severed it.",
+      "failure": "Restoration recreates oppression, descendants are treated as copies, or the name returns without the person it was meant to serve.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Refuse the old form, introduce a chosen name, preserve absence, contest claims, or close the summoning route.",
+      "mastery": "A master restores authorship and standing, not compulsory continuity with an idealised past.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 18 | PROOF BRAIDING + REDIRECTION | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p28",
+    "title": "Keeper of the Impossible Gate",
+    "description": "Creates an autonomous threshold-being that maintains paired destinations, crossing law, temporal order, quarantine, and its own eventual dissolution.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "P28",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-abjuration",
+        "stream:star-enchantment",
+        "stream:void-conjuration",
+        "stream:void-abjuration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 3,
+        "agency": 3,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P28",
+        "location": "Star + Void: The Precipice / Expert Formulae / P28"
+      }
+    },
+    "aliases": [
+      "P28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Conjuration",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 2 | Conjuration > Enchantment > Abjuration | Th2 Tu3 Kn2 Sp3 Ho2 Fi3 Ag3 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates an autonomous threshold-being that maintains paired destinations, crossing law, temporal order, quarantine, and its own eventual dissolution.",
+      "practice": "Its charter separates travellers, cargo, souls, messages, emergencies, refusal, appeal, and the gate's lawful death.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The Keeper becomes the strongest relation between sites, learns categories from traffic, and stores rejected crossings in its body.",
+      "failure": "It edits travellers to fit law, refuses closure while demand remains, or opens a third destination born from accumulated analogy.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Challenge a category, invoke lawful death, starve traffic, separate the hinges, or create an unclassified crossing.",
+      "mastery": "A master keeps the Keeper corrigible and mortal, treating its disappearance as the gate's successful completion.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 20 | PROOF BRAIDING + REDIRECTION | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p29",
+    "title": "Transit Nexus of Black Stars",
+    "description": "Binds many portals, stations, warehouses, and signal rooms into a hidden spatial nexus that redistributes passage without revealing its centre.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "P29",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:enchantment",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-alteration",
+        "stream:star-enchantment",
+        "stream:star-veiling",
+        "stream:void-alteration",
+        "stream:void-enchantment",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Infrastructure",
+      "doctrine": "ABYSS LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 3,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 1
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P29",
+        "location": "Star + Void: The Precipice / Expert Formulae / P29"
+      }
+    },
+    "aliases": [
+      "P29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Alteration",
+      "Enchantment",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 3 | Enchantment > Alteration > Veiling | Th2 Tu3 Kn3 Sp3 Ho4 Fi3 Ag0 Co1 | Carrier: specialist with sink or anchor.",
+      "purpose": "Binds many portals, stations, warehouses, and signal rooms into a hidden spatial nexus that redistributes passage without revealing its centre.",
+      "practice": "Every node controls access, load, inspection, disconnection, local consequence, and a manual route when the nexus fails.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "Distance and governance centralise invisibly, nodes become sympathetic targets, and the concealed centre loses material context.",
+      "failure": "Captured routing diverts a nation, contagion crosses instantly, or shutdown strands people and goods in folded margins.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Disconnect nodes, overload timing, reveal one relation, corrupt destination names, or force manual travel.",
+      "mastery": "Experts preserve distributed authority and degrade locally before perfect convenience becomes systemic captivity.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 19 | PROOF BRAIDING + REDIRECTION | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p30",
+    "title": "Pilgrimage to the Unmade Shrine",
+    "description": "Creates a bounded ceremonial route toward a shrine, homeland, god, or memory that no longer exists, allowing encounter without claiming restoration.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "P30",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:restoration",
+        "school:divination",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-restoration",
+        "stream:star-divination",
+        "stream:star-veiling",
+        "stream:void-restoration",
+        "stream:void-divination",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P30",
+        "location": "Star + Void: The Precipice / Expert Formulae / P30"
+      }
+    },
+    "aliases": [
+      "P30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Restoration",
+      "Divination",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 + Void 2 | Restoration > Veiling > Divination | Th2 Tu3 Kn3 Sp3 Ho2 Fi4 Ag0 Co2 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates a bounded ceremonial route toward a shrine, homeland, god, or memory that no longer exists, allowing encounter without claiming restoration.",
+      "practice": "Pilgrims preserve disbelief, grief, present inhabitants, contradictory histories, return, and the right not to complete the journey.",
+      "proof": "BRAIDING + REDIRECTION",
+      "consequence": "The absent destination gains spiritual presence, travellers become reciprocally linked, and the real landscape carries displaced meaning.",
+      "failure": "Symbolic arrival becomes territorial claim, absence is mistaken for revelation, or the route resurrects an authority that deserved to end.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Leave the path, invoke present place, refuse interpretation, close reciprocity, or dismantle a stage.",
+      "mastery": "A master lets the pilgrimage end without arrival and protects mourning from becoming metaphysical ownership.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 19 | PROOF BRAIDING + REDIRECTION | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p31",
+    "title": "Nightfall Breach",
+    "description": "Folds a battlefield's remote command, supply, siege engines, and magical anchors into one exposed horizon, then severs their supporting distance.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:rites"
+    ],
+    "facts": {
+      "originalId": "P31",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-alteration",
+        "stream:star-evocation",
+        "stream:void-abjuration",
+        "stream:void-alteration",
+        "stream:void-evocation"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Direct Intervention",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 2,
+        "span": 4,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P31",
+        "location": "Star + Void: The Precipice / Rites / P31"
+      }
+    },
+    "aliases": [
+      "P31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Abjuration",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 3 | Alteration > Abjuration > Evocation | Th2 Tu3 Kn2 Sp4 Ho1 Fi3 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Folds a battlefield's remote command, supply, siege engines, and magical anchors into one exposed horizon, then severs their supporting distance.",
+      "practice": "Conductors preserve civilians, surrender, retreat, friendly relation, aftermath, and the condition that closes the breach.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Strategic geography collapses, both sides become visible to distant powers, and nonspace scars the theatre.",
+      "failure": "The breach takes hospitals or refugees, opens a reciprocal invasion route, or leaves formations without time to surrender.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Decentralise, sever anchor names, obscure the horizon, invoke protected retreat, or force early closure.",
+      "mastery": "The high practitioner abandons decisive simultaneity before target law or mercy fails.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 17 | PROOF RECONCILIATION + REDIRECTION | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p32",
+    "title": "Sanctuary Between Worlds",
+    "description": "Creates a regional refuge held between hostile realities, disasters, divine claims, or dimensional wars while sustaining local life and chosen gates.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:rites"
+    ],
+    "facts": {
+      "originalId": "P32",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:restoration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-restoration",
+        "stream:star-enchantment",
+        "stream:void-abjuration",
+        "stream:void-restoration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Protection And Repair",
+      "doctrine": "ABYSS LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P32",
+        "location": "Star + Void: The Precipice / Rites / P32"
+      }
+    },
+    "aliases": [
+      "P32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Abjuration",
+      "Restoration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 + Void 4 | Abjuration > Restoration > Enchantment | Th2 Tu3 Kn3 Sp4 Ho3 Fi3 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Creates a regional refuge held between hostile realities, disasters, divine claims, or dimensional wars while sustaining local life and chosen gates.",
+      "practice": "Communities govern air, food, time, identity, exit, outside contact, births, deaths, and whether the sanctuary remains.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The region loses context from every world, gates accumulate danger, and inhabitants grow culturally dependent on the interval.",
+      "failure": "The sanctuary freezes change, rejects newcomers, or restores an ideal society that present residents did not choose.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Open a local relation, alter the reference world, invoke exit, overload a gate, or let one outside condition enter.",
+      "mastery": "A master preserves ordinary risk and return, ending sanctuary before safety becomes a permanent exile from reality.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 20 | PROOF RECONCILIATION + REDIRECTION | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p33",
+    "title": "Concordance of Borders",
+    "description": "Makes a continent's contested borders, refuges, crossings, waters, kinships, and impossible spaces jointly legible and locally revisable.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:rites"
+    ],
+    "facts": {
+      "originalId": "P33",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-alteration",
+        "stream:star-enchantment",
+        "stream:void-abjuration",
+        "stream:void-alteration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Control And Regulation",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 3
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P33",
+        "location": "Star + Void: The Precipice / Rites / P33"
+      }
+    },
+    "aliases": [
+      "P33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Abjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 4 | Enchantment > Alteration > Abjuration | Th2 Tu3 Kn4 Sp4 Ho3 Fi3 Ag0 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Makes a continent's contested borders, refuges, crossings, waters, kinships, and impossible spaces jointly legible and locally revisable.",
+      "practice": "Border peoples, migrants, states, ecosystems, the displaced, and the unrecognised hold incompatible authorities.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Boundaries gain material relation, exclusions accumulate, and distant disputes become sympathetically coupled.",
+      "failure": "The map becomes law, powerful states define adjacency, or every local revision tears the wider concordance.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Refuse a border, create a local crossing, invoke ecological continuity, withdraw a state, or preserve deliberate ambiguity.",
+      "mastery": "A master keeps borders descriptions rather than destinies and allows the continental Pattern to remain incomplete.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 22 | PROOF RECONCILIATION + REDIRECTION | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p34",
+    "title": "Folded March",
+    "description": "Carries an army, evacuation, pilgrimage, or national migration through a sequence of folded horizons across a continent.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:rites"
+    ],
+    "facts": {
+      "originalId": "P34",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-alteration",
+        "stream:star-enchantment",
+        "stream:void-conjuration",
+        "stream:void-alteration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Movement And Flow",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P34",
+        "location": "Star + Void: The Precipice / Rites / P34"
+      }
+    },
+    "aliases": [
+      "P34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Conjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 3 | Alteration > Conjuration > Enchantment | Th2 Tu3 Kn3 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Carries an army, evacuation, pilgrimage, or national migration through a sequence of folded horizons across a continent.",
+      "practice": "Every cohort retains identity, pace, rest, host consent, stragglers, burial, supply, and independent emergence.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Time and distance become debt, routes acquire strategic correspondence, and arrival lands inherit sudden demographic and material pressure.",
+      "failure": "The march becomes one transported weapon, hosts lose refusal, or those outside the manifest disappear into the fold.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Break cohorts, invoke emergence, rename a horizon, withdraw host consent, or force ordinary travel.",
+      "mastery": "A master protects the right to stop and sheds coordination before movement converts people into logistics.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 21 | PROOF RECONCILIATION + REDIRECTION | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p35",
+    "title": "Census of the Unreachable",
+    "description": "Maps people, places, worlds, records, and relations made unreachable by exile, erasure, distance, secrecy, or dimensional fracture.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:rites"
+    ],
+    "facts": {
+      "originalId": "P35",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:divination",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-divination",
+        "stream:star-veiling",
+        "stream:void-conjuration",
+        "stream:void-divination",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Perception And Memory",
+      "doctrine": "ABYSS LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P35",
+        "location": "Star + Void: The Precipice / Rites / P35"
+      }
+    },
+    "aliases": [
+      "P35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Conjuration",
+      "Divination",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 + Void 4 | Divination > Veiling > Conjuration | Th2 Tu3 Kn3 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Maps people, places, worlds, records, and relations made unreachable by exile, erasure, distance, secrecy, or dimensional fracture.",
+      "practice": "Subjects control anonymity, rescue, nonreturn, uncertainty, present rights, and whether noticing may open a route.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Every entry gains presence, observers lose confidence in ordinary maps, and some absences answer the census.",
+      "failure": "The unreachable are treated as state property, unknown gaps become invented populations, or the rite opens what was safely sealed.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Withdraw an entry, close reciprocity, add mundane context, refuse rescue, or break the common reference.",
+      "mastery": "A master protects the uncounted and keeps recognition from becoming compulsory return.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 21 | PROOF RECONCILIATION + REDIRECTION | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p36",
+    "title": "Province Beyond the Map",
+    "description": "Moves a province outside hostile maps, prophecy, long-range gates, imperial naming, and strategic correspondence while preserving internal civic life.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:rites"
+    ],
+    "facts": {
+      "originalId": "P36",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-enchantment",
+        "stream:star-veiling",
+        "stream:void-abjuration",
+        "stream:void-enchantment",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "ABYSS LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P36",
+        "location": "Star + Void: The Precipice / Rites / P36"
+      }
+    },
+    "aliases": [
+      "P36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Abjuration",
+      "Enchantment",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 + Void 4 | Veiling > Abjuration > Enchantment | Th2 Tu3 Kn4 Sp4 Ho3 Fi3 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Moves a province outside hostile maps, prophecy, long-range gates, imperial naming, and strategic correspondence while preserving internal civic life.",
+      "practice": "Localities retain mutual recognition, justice, ecology, aid, trade windows, exit, and the authority to return separately.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "The province loses external standing, maps reorganise, neighbouring regions bear displaced attention, and gatekeepers gain power.",
+      "failure": "Rulers hide abuse, minorities vanish from internal recognition, or the province cannot re-enter history without breaking apart.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke local witness, reveal material relations, open a trade window, contest return law, or restore one locality.",
+      "mastery": "The conductor keeps the province politically visible to itself and chosen outsiders, returning it before concealment becomes sovereignty.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 21 | PROOF RECONCILIATION + REDIRECTION | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p37",
+    "title": "Rite of the Returning Exile",
+    "description": "Restores a dispersed people, severed city, banished species, or exiled spiritual tradition to relation without recreating a frozen homeland.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:rites"
+    ],
+    "facts": {
+      "originalId": "P37",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-alteration",
+        "stream:star-restoration",
+        "stream:void-conjuration",
+        "stream:void-alteration",
+        "stream:void-restoration"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 2
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P37",
+        "location": "Star + Void: The Precipice / Rites / P37"
+      }
+    },
+    "aliases": [
+      "P37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Conjuration",
+      "Alteration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 3 | Restoration > Conjuration > Alteration | Th2 Tu3 Kn4 Sp4 Ho3 Fi4 Ag0 Co2 | Carrier: distributed circle and site.",
+      "purpose": "Restores a dispersed people, severed city, banished species, or exiled spiritual tradition to relation without recreating a frozen homeland.",
+      "practice": "Returnees, present inhabitants, descendants, neighbours, the dead, ecology, and those who refuse return share authority.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Old claims and diseases reappear, present lives are displaced, and the returned pattern gains immense sympathetic force.",
+      "failure": "The rite restores a vanished hierarchy, treats descendants as copies, or makes nonreturn a betrayal of identity.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Contest the reference, invoke present rights, preserve ruins, introduce new citizenship, or refuse the inherited name.",
+      "mastery": "A master returns capacity for self-definition and accepts a people that comes home changed beyond recognition.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 22 | PROOF RECONCILIATION + REDIRECTION | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p38",
+    "title": "The Nine Gatekeepers",
+    "description": "Creates nine autonomous threshold powers for travel, refuge, quarantine, trade, diplomacy, funerary passage, rescue, spirit traffic, and their own dissolution.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:rites"
+    ],
+    "facts": {
+      "originalId": "P38",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-abjuration",
+        "stream:star-enchantment",
+        "stream:void-conjuration",
+        "stream:void-abjuration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 4,
+        "contradiction": 3
+      },
+      "sourceLoad": 25,
+      "calculatedLoad": 25,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P38",
+        "location": "Star + Void: The Precipice / Rites / P38"
+      }
+    },
+    "aliases": [
+      "P38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Conjuration",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 4 | Conjuration > Enchantment > Abjuration | Th2 Tu3 Kn3 Sp4 Ho3 Fi3 Ag4 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Creates nine autonomous threshold powers for travel, refuge, quarantine, trade, diplomacy, funerary passage, rescue, spirit traffic, and their own dissolution.",
+      "practice": "Each Gatekeeper has distinct law, locality, advocate, forbidden crossing, appeal, debt sink, and mortal end.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Civilisation reorganises around them, sites become coupled, and rejected passages accumulate as powerful nonspace.",
+      "failure": "Jurisdictions merge, gates breed new routes, one Keeper refuses death, or travellers are altered to fit categories.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit charter conflict, invoke forbidden crossing, fill a sink, close locality, or perform lawful dissolution.",
+      "mastery": "The high practitioner keeps all nine unequal, fallible, and temporary, dismantling the most useful before it becomes indispensable.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 25 | PROOF RECONCILIATION + REDIRECTION | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p39",
+    "title": "Roads Beneath Distance",
+    "description": "Builds a continental underlay of folded routes joining roads, ports, refuges, archives, observatories, and emergency stores without replacing their local forms.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:rites"
+    ],
+    "facts": {
+      "originalId": "P39",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-alteration",
+        "stream:star-enchantment",
+        "stream:void-conjuration",
+        "stream:void-alteration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Infrastructure",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 3
+      },
+      "sourceLoad": 25,
+      "calculatedLoad": 25,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P39",
+        "location": "Star + Void: The Precipice / Rites / P39"
+      }
+    },
+    "aliases": [
+      "P39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Conjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 4 | Enchantment > Alteration > Conjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi3 Ag2 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Builds a continental underlay of folded routes joining roads, ports, refuges, archives, observatories, and emergency stores without replacing their local forms.",
+      "practice": "Regions preserve ownership, slow alternatives, disconnection, quarantine, maintenance, privacy, and the right to remain remote.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Infrastructure and fate entangle, every node becomes a target, and excluded regions acquire a new political distance.",
+      "failure": "The underlay centralises rule, failure cascades through folded adjacency, or maintenance crews become hidden sovereigns.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Disconnect a node, travel locally, alter destination names, expose maintenance, or overload timing.",
+      "mastery": "Masters preserve inconvenience, regional autonomy, and visible material systems, letting the underlay fracture rather than govern the surface.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 25 | PROOF RECONCILIATION + REDIRECTION | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p40",
+    "title": "Eclipse of Common Names",
+    "description": "Temporarily removes a nation's inherited public names for enemies, classes, offices, regions, and destinies so new relations can be examined before language returns.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:rites"
+    ],
+    "facts": {
+      "originalId": "P40",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:divination",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-alteration",
+        "stream:star-divination",
+        "stream:star-veiling",
+        "stream:void-alteration",
+        "stream:void-divination",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 3
+      },
+      "sourceLoad": 25,
+      "calculatedLoad": 25,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P40",
+        "location": "Star + Void: The Precipice / Rites / P40"
+      }
+    },
+    "aliases": [
+      "P40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Alteration",
+      "Divination",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 4 | Veiling > Alteration > Divination | Th2 Tu3 Kn4 Sp4 Ho3 Fi4 Ag2 Co3 | Carrier: distributed circle and site.",
+      "purpose": "Temporarily removes a nation's inherited public names for enemies, classes, offices, regions, and destinies so new relations can be examined before language returns.",
+      "practice": "Communities preserve personal names, evidence, accountability, translation, dissent, and the right to reject replacement terms.",
+      "proof": "RECONCILIATION + REDIRECTION",
+      "consequence": "Institutions lose orientation, hidden differences become visible, and the absent categories gather power at the eclipse margin.",
+      "failure": "Accountability vanishes, rulers impose new names, or people lose relations needed for solidarity and care.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Invoke material consequence, preserve a local term, end the eclipse, refuse renaming, or compare independent languages.",
+      "mastery": "A master makes the interval brief, protects memory, and restores language without pretending old categories were natural.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 25 | PROOF RECONCILIATION + REDIRECTION | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p41",
+    "title": "The Empire Arrives at Once",
+    "description": "Folds an invading empire's command, fleets, armies, supply, propaganda, and celestial anchors into one national horizon where they can be confronted together.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:wonders"
+    ],
+    "facts": {
+      "originalId": "P41",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:evocation"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-alteration",
+        "stream:star-evocation",
+        "stream:void-conjuration",
+        "stream:void-alteration",
+        "stream:void-evocation"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Direct Intervention",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 3,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 4
+      },
+      "sourceLoad": 23,
+      "calculatedLoad": 23,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P41",
+        "location": "Star + Void: The Precipice / Wonders / P41"
+      }
+    },
+    "aliases": [
+      "P41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Conjuration",
+      "Alteration",
+      "Evocation"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 4 | Alteration > Conjuration > Evocation | Th2 Tu3 Kn3 Sp4 Ho2 Fi4 Ag1 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Folds an invading empire's command, fleets, armies, supply, propaganda, and celestial anchors into one national horizon where they can be confronted together.",
+      "practice": "Enemy and domestic witnesses preserve civilians, colonies, surrender, retreat, accountability, uncertainty, and the right to close the fold.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "World geography and politics become violently adjacent, distant powers notice, and arrival nations inherit impossible logistical and moral pressure.",
+      "failure": "The Wonder collapses subject peoples into the empire, prevents surrender, or opens a reciprocal route for conquest.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Dissolve imperial relation, decentralise, contest the common name, invoke protected retreat, or sever an anchor.",
+      "mastery": "Sovereign mastery closes the horizon before victory becomes annihilation and accepts an empire that survives by ceasing to be one thing.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 23 | PROOF RECONCILIATION + UNWEAVING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p42",
+    "title": "The Wall at the End of Space",
+    "description": "Places a national boundary beyond hostile gates, bombardment, pursuit, celestial predation, and world-breaking catastrophe while keeping lawful relation open.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:wonders"
+    ],
+    "facts": {
+      "originalId": "P42",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:enchantment",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-enchantment",
+        "stream:star-veiling",
+        "stream:void-abjuration",
+        "stream:void-enchantment",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Protection And Repair",
+      "doctrine": "ABYSS LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 3
+      },
+      "sourceLoad": 26,
+      "calculatedLoad": 26,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P42",
+        "location": "Star + Void: The Precipice / Wonders / P42"
+      }
+    },
+    "aliases": [
+      "P42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Abjuration",
+      "Enchantment",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 + Void 4 | Abjuration > Veiling > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag2 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Places a national boundary beyond hostile gates, bombardment, pursuit, celestial predation, and world-breaking catastrophe while keeping lawful relation open.",
+      "practice": "Regions govern refuge, migration, trade, ecology, outside witness, local gates, and when the Wall must retreat.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Rejected relations accumulate as nonspace, neighbours bear displaced threats, and the nation depends on named openings.",
+      "failure": "The Wall defines difference as danger, seals people with catastrophe, or turns protective distance into permanent isolation.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Invoke welcome, create a local relation, overload nonspace, contest threat law, or withdraw regional consent.",
+      "mastery": "A master accepts breach and uncertainty before the end of space becomes the end of political imagination.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 26 | PROOF RECONCILIATION + UNWEAVING | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p43",
+    "title": "Law of Distance",
+    "description": "Establishes national rules for when places, people, institutions, dangers, and obligations may be made near, kept apart, folded together, or severed.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:wonders"
+    ],
+    "facts": {
+      "originalId": "P43",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-alteration",
+        "stream:star-enchantment",
+        "stream:void-abjuration",
+        "stream:void-alteration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Control And Regulation",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 4
+      },
+      "sourceLoad": 28,
+      "calculatedLoad": 28,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P43",
+        "location": "Star + Void: The Precipice / Wonders / P43"
+      }
+    },
+    "aliases": [
+      "P43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Abjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 4 | Enchantment > Alteration > Abjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag3 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Establishes national rules for when places, people, institutions, dangers, and obligations may be made near, kept apart, folded together, or severed.",
+      "practice": "Every change preserves consent, appeal, dependants, local consequence, reversal, and a right to ordinary geography.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Distance becomes law and infrastructure, central power acquires spatial leverage, and excluded relations gather at jurisdictional edges.",
+      "failure": "The Law makes poverty remote, brings surveillance near, or treats social difference as physical separation.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Travel mundanely, contest jurisdiction, create an unclassified relation, invoke dependency, or end a spatial category.",
+      "mastery": "Sovereign mastery keeps geography politically contestable and refuses to make convenience look like cosmic necessity.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 28 | PROOF RECONCILIATION + UNWEAVING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p44",
+    "title": "Roads Across the Impossible",
+    "description": "Creates a national network through severed continents, broken worlds, hostile dimensions, vanished bridges, and unreachable refuges.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:wonders"
+    ],
+    "facts": {
+      "originalId": "P44",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-alteration",
+        "stream:star-enchantment",
+        "stream:void-conjuration",
+        "stream:void-alteration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Movement And Flow",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 4
+      },
+      "sourceLoad": 28,
+      "calculatedLoad": 28,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P44",
+        "location": "Star + Void: The Precipice / Wonders / P44"
+      }
+    },
+    "aliases": [
+      "P44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Conjuration",
+      "Alteration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 4 | Alteration > Conjuration > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag3 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a national network through severed continents, broken worlds, hostile dimensions, vanished bridges, and unreachable refuges.",
+      "practice": "Every endpoint retains local consent, quarantine, rescue, closure, privacy, slow alternatives, and authority over what cannot cross.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The nation becomes multiworld infrastructure, routes attract predators and empire, and distant crises arrive with their own context.",
+      "failure": "Connectivity consumes autonomy, one world becomes a resource frontier, or failure strands populations between realities.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Close an endpoint, alter a destination name, force local travel, contest crossing law, or sever the shared anchor.",
+      "mastery": "Masters preserve remoteness and let whole routes die rather than make universal access a permanent claim.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 28 | PROOF RECONCILIATION + UNWEAVING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p45",
+    "title": "Atlas of Every Absence",
+    "description": "Makes a nation's missing people, erased places, closed gates, severed histories, blind spots, and unreachable relations appear as bounded dark constellations.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:wonders"
+    ],
+    "facts": {
+      "originalId": "P45",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:divination",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-divination",
+        "stream:star-veiling",
+        "stream:void-conjuration",
+        "stream:void-divination",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Perception And Memory",
+      "doctrine": "ABYSS LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 3
+      },
+      "sourceLoad": 27,
+      "calculatedLoad": 27,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P45",
+        "location": "Star + Void: The Precipice / Wonders / P45"
+      }
+    },
+    "aliases": [
+      "P45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Conjuration",
+      "Divination",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 + Void 4 | Divination > Veiling > Conjuration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag3 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes a nation's missing people, erased places, closed gates, severed histories, blind spots, and unreachable relations appear as bounded dark constellations.",
+      "practice": "Communities control privacy, sacred omission, uncertainty, present rights, rescue, and whether any absence may answer.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The forgotten gain presence, policy reorganises, and observation gives some gaps a path back into reality.",
+      "failure": "The Atlas makes ignorance a state asset, assigns identity to blanks, or opens catastrophes that were correctly sealed.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Withdraw a constellation, add mundane context, close reciprocity, protect nonreturn, or challenge the common frame.",
+      "mastery": "A master safeguards the unmapped and treats completeness as the Atlas's most dangerous possible failure.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 27 | PROOF RECONCILIATION + UNWEAVING | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p46",
+    "title": "The Country No Enemy Can Find",
+    "description": "Moves a threatened nation's strategic relation beyond conquest while preserving internal places, lives, law, ecology, and chosen contact.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:wonders"
+    ],
+    "facts": {
+      "originalId": "P46",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:abjuration",
+        "school:alteration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-abjuration",
+        "stream:star-alteration",
+        "stream:star-veiling",
+        "stream:void-abjuration",
+        "stream:void-alteration",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "ABYSS LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 3
+      },
+      "sourceLoad": 27,
+      "calculatedLoad": 27,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P46",
+        "location": "Star + Void: The Precipice / Wonders / P46"
+      }
+    },
+    "aliases": [
+      "P46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Abjuration",
+      "Alteration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 + Void 4 | Veiling > Abjuration > Alteration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag3 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Moves a threatened nation's strategic relation beyond conquest while preserving internal places, lives, law, ecology, and chosen contact.",
+      "practice": "Regions and peoples retain local maps, justice, rescue, trade windows, exit, outside testimony, and separate return.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Enemies meet contradictory worlds, allies lose access, borders accumulate attention, and hidden institutions gain power.",
+      "failure": "The Wonder hides tyranny, excludes internal minorities, or makes the country's return depend on one ruling name.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke local witness, follow material ecology, expose internal harm, reopen a region, or contest national consent.",
+      "mastery": "Sovereign mastery keeps every citizen findable by someone trusted and returns the country before secrecy becomes government.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 27 | PROOF RECONCILIATION + UNWEAVING | ABYSS LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p47",
+    "title": "Restoration of the Severed World",
+    "description": "Reconnects continents, planes, histories, communities, souls, and ecosystems divided by a world-scale rupture without pretending they remained unchanged.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:wonders"
+    ],
+    "facts": {
+      "originalId": "P47",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:alteration",
+        "school:restoration"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-alteration",
+        "stream:star-restoration",
+        "stream:void-conjuration",
+        "stream:void-alteration",
+        "stream:void-restoration"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Relief And Recovery",
+      "doctrine": "CONSTELLATION LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 3
+      },
+      "sourceLoad": 28,
+      "calculatedLoad": 28,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P47",
+        "location": "Star + Void: The Precipice / Wonders / P47"
+      }
+    },
+    "aliases": [
+      "P47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Conjuration",
+      "Alteration",
+      "Restoration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 3 | Restoration > Conjuration > Alteration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co3 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Reconnects continents, planes, histories, communities, souls, and ecosystems divided by a world-scale rupture without pretending they remained unchanged.",
+      "practice": "Every side controls present identity, old claims, refugees, ecology, disease, contradiction, and the right not to reconnect.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Forgotten relations and dangers return, new lives are displaced, and the repaired world gains immense correspondence visible beyond itself.",
+      "failure": "Restoration resurrects the cause of severance, forces reunion, or makes one side the authoritative original.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Refuse a bridge, preserve a scar, contest the reference, introduce new boundaries, or reconnect only a local relation.",
+      "mastery": "A master restores the capacity to relate, not a seamless old world, and keeps scars strong enough to prevent compulsory unity.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 28 | PROOF RECONCILIATION + UNWEAVING | CONSTELLATION LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p48",
+    "title": "Parliament at the Precipice",
+    "description": "Creates a national assembly where present, absent, exiled, remote, hidden, unborn, dead, and otherworldly constituencies may influence gates and relations through bounded representatives.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:wonders"
+    ],
+    "facts": {
+      "originalId": "P48",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:enchantment",
+        "school:divination"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-enchantment",
+        "stream:star-divination",
+        "stream:void-conjuration",
+        "stream:void-enchantment",
+        "stream:void-divination"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P48",
+        "location": "Star + Void: The Precipice / Wonders / P48"
+      }
+    },
+    "aliases": [
+      "P48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Conjuration",
+      "Enchantment",
+      "Divination"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 4 | Conjuration > Divination > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a national assembly where present, absent, exiled, remote, hidden, unborn, dead, and otherworldly constituencies may influence gates and relations through bounded representatives.",
+      "practice": "No delegate may claim a whole category; silence, nonreturn, contradiction, expiry, and living veto are constitutional.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Politics becomes ontological, representation opens real routes, and distant or absent powers gain durable presence.",
+      "failure": "The absent rule the present, invented futures gain authority, or delegates alter constituents to preserve their seats.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Challenge a representation, invoke silence, close a gate, dissolve a seat, expose change, or refuse translation.",
+      "mastery": "A master protects nonrepresentation and keeps every voice advisory enough that the living remain responsible for crossing decisions.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p49",
+    "title": "The Great Gate",
+    "description": "Makes two worlds, eras, continents, or realities adjacent through a sovereign threshold capable of carrying nations, climates, oceans, species, and gods.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:wonders"
+    ],
+    "facts": {
+      "originalId": "P49",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:conjuration",
+        "school:abjuration",
+        "school:enchantment"
+      ],
+      "streamIds": [
+        "stream:star-conjuration",
+        "stream:star-abjuration",
+        "stream:star-enchantment",
+        "stream:void-conjuration",
+        "stream:void-abjuration",
+        "stream:void-enchantment"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Infrastructure",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P49",
+        "location": "Star + Void: The Precipice / Wonders / P49"
+      }
+    },
+    "aliases": [
+      "P49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Conjuration",
+      "Abjuration",
+      "Enchantment"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 4 | Conjuration > Abjuration > Enchantment | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes two worlds, eras, continents, or realities adjacent through a sovereign threshold capable of carrying nations, climates, oceans, species, and gods.",
+      "practice": "Both sides hold destination truth, consent, quarantine, scale, time, identity, closure, debt, and the lawful death of the Gate.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "Civilisations and ecologies collide, distance and history become one border, and rejected crossings accumulate as world-threatening nonspace.",
+      "failure": "The Gate exchanges worlds, admits relation without matter, refuses closure, or makes every difference a reason for conquest.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Break a hinge law, sever destination naming, overload a sink, invoke lawful death, or refuse passage at either side.",
+      "mastery": "Supreme mastery keeps the Great Gate temporary and prefers a smaller imperfect crossing to permanent adjacency between worlds.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | THRESHOLD LENS"
+    }
+  },
+  {
+    "id": "spell:star-void-precipice:p50",
+    "title": "The Last Horizon",
+    "description": "Allows a civilisation facing cosmic extinction to cross one final folded horizon, abandoning an ending world without guaranteeing where, when, or as what it will arrive.",
+    "parentGroupIds": [
+      "shelf:star-void-precipice:wonders"
+    ],
+    "facts": {
+      "originalId": "P50",
+      "collectionId": "collection:star-void-precipice",
+      "collectionTitle": "Star + Void: The Precipice",
+      "collectionType": "composite",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:star",
+        "aspect:void"
+      ],
+      "schoolIds": [
+        "school:alteration",
+        "school:restoration",
+        "school:veiling"
+      ],
+      "streamIds": [
+        "stream:star-alteration",
+        "stream:star-restoration",
+        "stream:star-veiling",
+        "stream:void-alteration",
+        "stream:void-restoration",
+        "stream:void-veiling"
+      ],
+      "compositeId": "composite:star-void",
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "THRESHOLD LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 2,
+        "turns": 3,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 4
+      },
+      "sourceLoad": 29,
+      "calculatedLoad": 29,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-void-precipice",
+        "originalId": "P50",
+        "location": "Star + Void: The Precipice / Wonders / P50"
+      }
+    },
+    "aliases": [
+      "P50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Alteration",
+      "Restoration",
+      "Veiling"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 + Void 4 | Alteration > Veiling > Restoration | Th2 Tu3 Kn4 Sp4 Ho4 Fi4 Ag4 Co4 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Allows a civilisation facing cosmic extinction to cross one final folded horizon, abandoning an ending world without guaranteeing where, when, or as what it will arrive.",
+      "practice": "Survivors, those who remain, other beings, memory, identity, destination life, dissent, and unknown futures hold independent vetoes.",
+      "proof": "RECONCILIATION + UNWEAVING",
+      "consequence": "The old world becomes unreachable, names and bodies change in transit, and arrival creates an unprecedented claim upon another reality.",
+      "failure": "The horizon preserves empire, consumes those outside the chosen pattern, repeats endlessly, or restores an idealised past instead of permitting a future.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Refuse departure, break either Aspect relation, preserve an untaken refuge, deny the common name, or let the old world end without crossing.",
+      "mastery": "The supreme practitioner keeps the horizon capable of closing behind no one, accepts a future without civilisation's former shape, and never promises that survival will mean return.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 29 | PROOF RECONCILIATION + UNWEAVING | THRESHOLD LENS"
+    }
+  }
+]

@@ -45,6 +45,11 @@ export class TaxonomyDashboard implements OnDestroy {
       !!this.definition?.targetKinds.includes(this.targetKind()),
   );
   readonly profile = computed(() => this.store.selectedProfile());
+  /** The route opens the dashboard; subsequent tile navigation follows the active profile. */
+  readonly activeEntityId = computed(() => {
+    const target = this.profile()?.target;
+    return target && 'id' in target ? target.id : this.entityId();
+  });
   readonly hierarchyWidgetType = signal<Type<unknown> | null>(null);
   readonly hierarchyWidgetInputs = computed(() => {
     const composition = this.compositionFor();
@@ -85,18 +90,19 @@ export class TaxonomyDashboard implements OnDestroy {
     readonly fallback?: DashboardMediaDefinition;
   }) {
     return (
-      this.store.selectedContent()?.bundle?.media?.[this.entityId()] ??
-      widget.mediaByEntityId?.[this.entityId()] ??
+      this.store.selectedContent()?.bundle?.media?.[this.activeEntityId()] ??
+      widget.mediaByEntityId?.[this.activeEntityId()] ??
       widget.fallback
     );
   }
 
   hierarchyFor() {
-    return this.store.selectedContent()?.bundle?.livingCompositions?.[this.entityId()]?.hierarchy;
+    return this.store.selectedContent()?.bundle?.livingCompositions?.[this.activeEntityId()]
+      ?.hierarchy;
   }
 
   compositionFor() {
-    return this.store.selectedContent()?.bundle?.livingCompositions?.[this.entityId()];
+    return this.store.selectedContent()?.bundle?.livingCompositions?.[this.activeEntityId()];
   }
 
   navigateHierarchyEntity(entityId: string): void {
@@ -106,8 +112,8 @@ export class TaxonomyDashboard implements OnDestroy {
   }
 
   retryContent(): void {
-    if (this.targetKind() === 'entry')
-      this.store.loadContent({ kind: 'entry', id: this.entityId() }, true);
+    const target = this.profile()?.target;
+    if (target) this.store.loadContent(target, true);
   }
 
   close(): void {

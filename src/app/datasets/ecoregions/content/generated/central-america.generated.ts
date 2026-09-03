@@ -7019,5 +7019,722 @@ export const contentBundle = {
         "y": 0.5
       }
     }
-  }
+  },
+  "relatedEntities": [
+    {
+      "id": "species:cuban-trogon",
+      "title": "Cuban trogon",
+      "description": "Priotelus temnurus",
+      "linkedEntryIds": [],
+      "linkedGroupIds": [
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "species:hispaniolan-trogon",
+      "title": "Hispaniolan trogon",
+      "description": "Priotelus roseigaster",
+      "linkedEntryIds": [
+        "ecoregion:468"
+      ],
+      "linkedGroupIds": [
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "species:hispaniolan-solenodon",
+      "title": "Hispaniolan solenodon",
+      "description": "Solenodon paradoxus",
+      "linkedEntryIds": [
+        "ecoregion:468",
+        "ecoregion:532"
+      ],
+      "linkedGroupIds": [
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "species:hispaniolan-hutia",
+      "title": "Hispaniolan hutia",
+      "description": "Plagiodontia aedium",
+      "linkedEntryIds": [
+        "ecoregion:532"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:hispaniolan-parrot",
+      "title": "Hispaniolan parrot",
+      "description": "Amazona ventralis",
+      "linkedEntryIds": [
+        "ecoregion:468"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:ricords-iguana",
+      "title": "Ricord's iguana",
+      "description": "Cyclura ricordii",
+      "linkedEntryIds": [
+        "ecoregion:532"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:rhinoceros-iguana",
+      "title": "Rhinoceros iguana",
+      "description": "Cyclura cornuta",
+      "linkedEntryIds": [
+        "ecoregion:532"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:american-flamingo",
+      "title": "American flamingo",
+      "description": "Phoenicopterus ruber",
+      "linkedEntryIds": [
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:jaguar",
+      "title": "Jaguar",
+      "description": "Panthera onca",
+      "linkedEntryIds": [],
+      "linkedGroupIds": [
+        "bioregion:nt27"
+      ]
+    },
+    {
+      "id": "species:roseate-spoonbill",
+      "title": "Roseate spoonbill",
+      "description": "Platalea ajaja",
+      "linkedEntryIds": [],
+      "linkedGroupIds": [
+        "bioregion:nt27"
+      ]
+    },
+    {
+      "id": "species:ocelot",
+      "title": "Ocelot",
+      "description": "Leopardus pardalis",
+      "linkedEntryIds": [],
+      "linkedGroupIds": [
+        "bioregion:nt27"
+      ]
+    },
+    {
+      "id": "country:GT",
+      "title": "Guatemala",
+      "description": "ISO 3166-1 alpha-2: GT",
+      "linkedEntryIds": [
+        "ecoregion:613",
+        "ecoregion:450",
+        "ecoregion:451",
+        "ecoregion:502",
+        "ecoregion:527",
+        "ecoregion:528",
+        "ecoregion:553",
+        "ecoregion:605",
+        "ecoregion:617",
+        "ecoregion:494",
+        "ecoregion:519"
+      ],
+      "linkedGroupIds": [
+        "subrealm:central-america",
+        "bioregion:nt25",
+        "bioregion:nt27"
+      ]
+    },
+    {
+      "id": "country:SV",
+      "title": "El Salvador",
+      "description": "ISO 3166-1 alpha-2: SV",
+      "linkedEntryIds": [
+        "ecoregion:451",
+        "ecoregion:502",
+        "ecoregion:527",
+        "ecoregion:553",
+        "ecoregion:617"
+      ],
+      "linkedGroupIds": [
+        "subrealm:central-america",
+        "bioregion:nt25"
+      ]
+    },
+    {
+      "id": "country:HN",
+      "title": "Honduras",
+      "description": "ISO 3166-1 alpha-2: HN",
+      "linkedEntryIds": [
+        "ecoregion:613",
+        "ecoregion:450",
+        "ecoregion:451",
+        "ecoregion:527",
+        "ecoregion:553",
+        "ecoregion:573",
+        "ecoregion:617"
+      ],
+      "linkedGroupIds": [
+        "subrealm:central-america",
+        "bioregion:nt25"
+      ]
+    },
+    {
+      "id": "country:NI",
+      "title": "Nicaragua",
+      "description": "ISO 3166-1 alpha-2: NI",
+      "linkedEntryIds": [
+        "ecoregion:470",
+        "ecoregion:613",
+        "ecoregion:449",
+        "ecoregion:450",
+        "ecoregion:451",
+        "ecoregion:458",
+        "ecoregion:527",
+        "ecoregion:553",
+        "ecoregion:573",
+        "ecoregion:617"
+      ],
+      "linkedGroupIds": [
+        "subrealm:central-america",
+        "bioregion:nt25"
+      ]
+    },
+    {
+      "id": "country:CR",
+      "title": "Costa Rica",
+      "description": "ISO 3166-1 alpha-2: CR",
+      "linkedEntryIds": [
+        "ecoregion:470",
+        "ecoregion:471",
+        "ecoregion:506",
+        "ecoregion:613",
+        "ecoregion:449",
+        "ecoregion:455",
+        "ecoregion:458",
+        "ecoregion:527",
+        "ecoregion:617"
+      ],
+      "linkedGroupIds": [
+        "subrealm:central-america",
+        "bioregion:nt25"
+      ]
+    },
+    {
+      "id": "country:PA",
+      "title": "Panama",
+      "description": "ISO 3166-1 alpha-2: PA",
+      "linkedEntryIds": [
+        "ecoregion:615",
+        "ecoregion:454",
+        "ecoregion:461",
+        "ecoregion:470",
+        "ecoregion:471",
+        "ecoregion:506",
+        "ecoregion:541",
+        "ecoregion:613",
+        "ecoregion:617"
+      ],
+      "linkedGroupIds": [
+        "subrealm:central-america",
+        "bioregion:nt25"
+      ]
+    },
+    {
+      "id": "country:CO",
+      "title": "Colombia",
+      "description": "ISO 3166-1 alpha-2: CO",
+      "linkedEntryIds": [
+        "ecoregion:615",
+        "ecoregion:454",
+        "ecoregion:461",
+        "ecoregion:478",
+        "ecoregion:604",
+        "ecoregion:449",
+        "ecoregion:527"
+      ],
+      "linkedGroupIds": [
+        "subrealm:central-america",
+        "bioregion:nt25"
+      ]
+    },
+    {
+      "id": "country:CU",
+      "title": "Cuba",
+      "description": "ISO 3166-1 alpha-2: CU",
+      "linkedEntryIds": [
+        "ecoregion:459",
+        "ecoregion:530",
+        "ecoregion:554",
+        "ecoregion:579",
+        "ecoregion:600",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:DO",
+      "title": "Dominican Republic",
+      "description": "ISO 3166-1 alpha-2: DO",
+      "linkedEntryIds": [
+        "ecoregion:468",
+        "ecoregion:532",
+        "ecoregion:555",
+        "ecoregion:580",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:HT",
+      "title": "Haiti",
+      "description": "ISO 3166-1 alpha-2: HT",
+      "linkedEntryIds": [
+        "ecoregion:468",
+        "ecoregion:532",
+        "ecoregion:555",
+        "ecoregion:580",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:JM",
+      "title": "Jamaica",
+      "description": "ISO 3166-1 alpha-2: JM",
+      "linkedEntryIds": [
+        "ecoregion:472",
+        "ecoregion:535",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:PR",
+      "title": "Puerto Rico",
+      "description": "ISO 3166-1 alpha-2: PR",
+      "linkedEntryIds": [
+        "ecoregion:495",
+        "ecoregion:543",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:BS",
+      "title": "Bahamas",
+      "description": "ISO 3166-1 alpha-2: BS",
+      "linkedEntryIds": [
+        "ecoregion:552",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:TT",
+      "title": "Trinidad and Tobago",
+      "description": "ISO 3166-1 alpha-2: TT",
+      "linkedEntryIds": [],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:AG",
+      "title": "Antigua and Barbuda",
+      "description": "ISO 3166-1 alpha-2: AG",
+      "linkedEntryIds": [
+        "ecoregion:475",
+        "ecoregion:537",
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:DM",
+      "title": "Dominica",
+      "description": "ISO 3166-1 alpha-2: DM",
+      "linkedEntryIds": [
+        "ecoregion:517",
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:GD",
+      "title": "Grenada",
+      "description": "ISO 3166-1 alpha-2: GD",
+      "linkedEntryIds": [
+        "ecoregion:517",
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:KN",
+      "title": "Saint Kitts and Nevis",
+      "description": "ISO 3166-1 alpha-2: KN",
+      "linkedEntryIds": [
+        "ecoregion:475",
+        "ecoregion:599",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:LC",
+      "title": "Saint Lucia",
+      "description": "ISO 3166-1 alpha-2: LC",
+      "linkedEntryIds": [
+        "ecoregion:517",
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:VC",
+      "title": "Saint Vincent and the Grenadines",
+      "description": "ISO 3166-1 alpha-2: VC",
+      "linkedEntryIds": [
+        "ecoregion:517",
+        "ecoregion:599",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:BQ",
+      "title": "Caribbean Netherlands",
+      "description": "ISO 3166-1 alpha-2: BQ",
+      "linkedEntryIds": [
+        "ecoregion:537"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:CW",
+      "title": "Curaçao",
+      "description": "ISO 3166-1 alpha-2: CW",
+      "linkedEntryIds": [
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:SX",
+      "title": "Sint Maarten",
+      "description": "ISO 3166-1 alpha-2: SX",
+      "linkedEntryIds": [
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:AW",
+      "title": "Aruba",
+      "description": "ISO 3166-1 alpha-2: AW",
+      "linkedEntryIds": [
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:AI",
+      "title": "Anguilla",
+      "description": "ISO 3166-1 alpha-2: AI",
+      "linkedEntryIds": [
+        "ecoregion:537",
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:VG",
+      "title": "British Virgin Islands",
+      "description": "ISO 3166-1 alpha-2: VG",
+      "linkedEntryIds": [
+        "ecoregion:475",
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:VI",
+      "title": "U.S. Virgin Islands",
+      "description": "ISO 3166-1 alpha-2: VI",
+      "linkedEntryIds": [
+        "ecoregion:475",
+        "ecoregion:599",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:KY",
+      "title": "Cayman Islands",
+      "description": "ISO 3166-1 alpha-2: KY",
+      "linkedEntryIds": [
+        "ecoregion:530",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:TC",
+      "title": "Turks and Caicos Islands",
+      "description": "ISO 3166-1 alpha-2: TC",
+      "linkedEntryIds": [
+        "ecoregion:552",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:MQ",
+      "title": "Martinique",
+      "description": "ISO 3166-1 alpha-2: MQ",
+      "linkedEntryIds": [],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:GP",
+      "title": "Guadeloupe",
+      "description": "ISO 3166-1 alpha-2: GP",
+      "linkedEntryIds": [],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:BL",
+      "title": "Saint Barthélemy",
+      "description": "ISO 3166-1 alpha-2: BL",
+      "linkedEntryIds": [
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:MF",
+      "title": "Saint Martin",
+      "description": "ISO 3166-1 alpha-2: MF",
+      "linkedEntryIds": [
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean",
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:SR",
+      "title": "Suriname",
+      "description": "ISO 3166-1 alpha-2: SR",
+      "linkedEntryIds": [],
+      "linkedGroupIds": [
+        "bioregion:nt26"
+      ]
+    },
+    {
+      "id": "country:MX",
+      "title": "Mexico",
+      "description": "ISO 3166-1 alpha-2: MX",
+      "linkedEntryIds": [
+        "ecoregion:613",
+        "ecoregion:614",
+        "ecoregion:452",
+        "ecoregion:453",
+        "ecoregion:502",
+        "ecoregion:527",
+        "ecoregion:528",
+        "ecoregion:553",
+        "ecoregion:617",
+        "ecoregion:489",
+        "ecoregion:494",
+        "ecoregion:501",
+        "ecoregion:514",
+        "ecoregion:515",
+        "ecoregion:519",
+        "ecoregion:550",
+        "ecoregion:551",
+        "ecoregion:487",
+        "ecoregion:521",
+        "ecoregion:522",
+        "ecoregion:534",
+        "ecoregion:544",
+        "ecoregion:545",
+        "ecoregion:547",
+        "ecoregion:556",
+        "ecoregion:557",
+        "ecoregion:558",
+        "ecoregion:559",
+        "ecoregion:607",
+        "ecoregion:610",
+        "ecoregion:533"
+      ],
+      "linkedGroupIds": [
+        "subrealm:central-america",
+        "bioregion:nt25",
+        "bioregion:nt27",
+        "bioregion:nt28",
+        "bioregion:nt29"
+      ]
+    },
+    {
+      "id": "country:BZ",
+      "title": "Belize",
+      "description": "ISO 3166-1 alpha-2: BZ",
+      "linkedEntryIds": [
+        "ecoregion:613",
+        "ecoregion:494",
+        "ecoregion:519",
+        "ecoregion:564"
+      ],
+      "linkedGroupIds": [
+        "subrealm:central-america",
+        "bioregion:nt25",
+        "bioregion:nt27"
+      ]
+    },
+    {
+      "id": "country:FR",
+      "title": "France",
+      "description": "ISO 3166-1 alpha-2: FR",
+      "linkedEntryIds": [
+        "ecoregion:475",
+        "ecoregion:517",
+        "ecoregion:599",
+        "ecoregion:612",
+        "ecoregion:568"
+      ],
+      "linkedGroupIds": [
+        "bioregion:nt29"
+      ]
+    },
+    {
+      "id": "country:BB",
+      "title": "Barbados",
+      "description": "ISO 3166-1 alpha-2: BB",
+      "linkedEntryIds": [
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean"
+      ]
+    },
+    {
+      "id": "country:MS",
+      "title": "Montserrat",
+      "description": "ISO 3166-1 alpha-2: MS",
+      "linkedEntryIds": [
+        "ecoregion:475",
+        "ecoregion:537",
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": [
+        "subrealm:caribbean"
+      ]
+    },
+    {
+      "id": "country:NL",
+      "title": "Netherlands",
+      "description": "ISO 3166-1 alpha-2: NL",
+      "linkedEntryIds": [
+        "ecoregion:599"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "country:US",
+      "title": "United States",
+      "description": "ISO 3166-1 alpha-2: US",
+      "linkedEntryIds": [
+        "ecoregion:623",
+        "ecoregion:636",
+        "ecoregion:639",
+        "ecoregion:640",
+        "ecoregion:641",
+        "ecoregion:612"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "subrealm:oceanic-islands",
+        "bioregion:oc11"
+      ]
+    }
+  ]
 } as const satisfies TaxonomyContentBundle;

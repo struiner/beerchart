@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "spell:star-alteration:s01",
+    "title": "Threadmark",
+    "description": "Changes one loose thread, chalk line, or ray of light so it points toward a named nearby object.",
+    "parentGroupIds": [
+      "shelf:star-alteration:lessons"
+    ],
+    "facts": {
+      "originalId": "S01",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "GATE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 4,
+      "calculatedLoad": 4,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S01",
+        "location": "Star Alteration / Lessons / S01"
+      }
+    },
+    "aliases": [
+      "S01"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 | Alteration | Th1 Tu1 Kn0 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Changes one loose thread, chalk line, or ray of light so it points toward a named nearby object.",
+      "practice": "Name the object by a present relation, keep both ends visible, and leave the thread free to disagree.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "A faint sympathetic link forms between marker and target, making both slightly easier to notice from the other end.",
+      "failure": "The mark follows an older namesake, points through a person carrying the object, or pulls the target a finger-width toward alignment.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Rename the target, cut the marker, introduce a stronger namesake, or rotate the surrounding frame.",
+      "mastery": "A master preserves uncertainty as a visible tremor and ends the relation before direction becomes attraction.",
+      "sourceMeta": "LESSONS | DIRECT INTERVENTION | LOAD 4 | PROOF HEARING + HOLDING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s02",
+    "title": "Proper Place",
+    "description": "Tilts the chance that one dropped tool, key, or fragile object lands within a prepared handspan rather than beyond it.",
+    "parentGroupIds": [
+      "shelf:star-alteration:lessons"
+    ],
+    "facts": {
+      "originalId": "S02",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "MEASURE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S02",
+        "location": "Star Alteration / Lessons / S02"
+      }
+    },
+    "aliases": [
+      "S02"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 | Alteration | Th1 Tu1 Kn1 Sp1 Ho0 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Tilts the chance that one dropped tool, key, or fragile object lands within a prepared handspan rather than beyond it.",
+      "practice": "Draw the acceptable landing region and name which nearby person must not inherit the displaced misfortune.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Minor accidents become slightly likelier around the excluded margin, and the object remembers the marked place for several breaths.",
+      "failure": "The Pattern protects the object instead of a hand, moves the hazard into a bystander, or makes later drops seek the same spot.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Erase the region, catch the object elsewhere, add several equally proper places, or disturb the caster's footing.",
+      "mastery": "An expert spends certainty before safety and makes displaced probability explicit instead of calling the result luck.",
+      "sourceMeta": "LESSONS | PROTECTION AND REPAIR | LOAD 5 | PROOF HEARING + HOLDING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s03",
+    "title": "Fortune's Nudge",
+    "description": "Changes one genuinely uncertain choice between two near-equal outcomes so a declared option becomes modestly more likely.",
+    "parentGroupIds": [
+      "shelf:star-alteration:lessons"
+    ],
+    "facts": {
+      "originalId": "S03",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "MEASURE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S03",
+        "location": "Star Alteration / Lessons / S03"
+      }
+    },
+    "aliases": [
+      "S03"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 | Alteration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Changes one genuinely uncertain choice between two near-equal outcomes so a declared option becomes modestly more likely.",
+      "practice": "Use two equal counters, state the tolerated loss, and forbid repetition on the same decision.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The rejected possibility gathers as a small contrary chance in the next related event, while witnesses begin noticing a pattern.",
+      "failure": "A hidden third outcome is suppressed, the nudge becomes certainty, or the contrary chance falls on someone outside the wager.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Add a third option, expose unequal odds, repeat the decision in another form, or refuse the declared loss.",
+      "mastery": "A master knows when the uncertainty is not honest enough to alter and lets an inconvenient outcome stand.",
+      "sourceMeta": "LESSONS | CONTROL AND REGULATION | LOAD 6 | PROOF HEARING + HOLDING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s04",
+    "title": "Nearness Step",
+    "description": "Shortens the felt relation between two floor marks so one careful stride crosses a gap of several ordinary paces.",
+    "parentGroupIds": [
+      "shelf:star-alteration:lessons"
+    ],
+    "facts": {
+      "originalId": "S04",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "GATE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S04",
+        "location": "Star Alteration / Lessons / S04"
+      }
+    },
+    "aliases": [
+      "S04"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 | Alteration | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Shortens the felt relation between two floor marks so one careful stride crosses a gap of several ordinary paces.",
+      "practice": "Keep both marks in sight, clear the intervening path, and name where the omitted effort may settle.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The traveller arrives dizzy, the ordinary distance briefly resists later crossing, and both marks become sympathetically paired.",
+      "failure": "The step shortens direction rather than distance, exchanges the marks, or leaves part of the traveller's momentum behind.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Cover either mark, walk the long route, change their names, or force a turn between them.",
+      "mastery": "A master sheds convenience before bodily continuity and accepts an early landing when the relation begins to slip.",
+      "sourceMeta": "LESSONS | MOVEMENT AND FLOW | LOAD 5 | PROOF HEARING + HOLDING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s05",
+    "title": "Nameglint",
+    "description": "Changes reflected light around an object so one currently used name appears as a brief readable glint.",
+    "parentGroupIds": [
+      "shelf:star-alteration:lessons"
+    ],
+    "facts": {
+      "originalId": "S05",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "ORACLE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S05",
+        "location": "Star Alteration / Lessons / S05"
+      }
+    },
+    "aliases": [
+      "S05"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 | Alteration | Th1 Tu1 Kn0 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Changes reflected light around an object so one currently used name appears as a brief readable glint.",
+      "practice": "Ask for the name used in one declared relationship and keep the reflection smaller than the object.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The observer and subject gain a reciprocal naming link, while unused names become temporarily dimmer.",
+      "failure": "A title is mistaken for identity, an imposed name outranks a chosen one, or the glint reveals the observer's private term instead.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Turn away the light, invoke another valid relation, cover the subject, or answer with deliberate anonymity.",
+      "mastery": "A master reports which relationship supplied the name and never presents recognition as ownership.",
+      "sourceMeta": "LESSONS | PERCEPTION AND MEMORY | LOAD 5 | PROOF HEARING + HOLDING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s06",
+    "title": "False Constellation",
+    "description": "Rearranges a handful of reflected points into a harmless false pattern that misdirects a glance, simple omen, or basic celestial compass.",
+    "parentGroupIds": [
+      "shelf:star-alteration:lessons"
+    ],
+    "facts": {
+      "originalId": "S06",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "ORACLE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 5,
+      "calculatedLoad": 5,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S06",
+        "location": "Star Alteration / Lessons / S06"
+      }
+    },
+    "aliases": [
+      "S06"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 | Alteration | Th1 Tu1 Kn0 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Rearranges a handful of reflected points into a harmless false pattern that misdirects a glance, simple omen, or basic celestial compass.",
+      "practice": "Use only reflected light, preserve one true star as an exit, and declare when the pattern expires.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The false points become faintly related to whatever they depict, attracting attention and weak sympathetic effects.",
+      "failure": "The pattern acquires prophetic weight, hides the exit star, or guides an ally as convincingly as an enemy.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Change the viewing angle, extinguish a reflection, name the true star, or compare with an unaltered sky.",
+      "mastery": "An expert keeps the fiction locally useful and lets it contradict itself before anyone can build destiny upon it.",
+      "sourceMeta": "LESSONS | CONCEALMENT AND CLARITY | LOAD 5 | PROOF HEARING + HOLDING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s07",
+    "title": "Soul Compass",
+    "description": "Turns a balanced needle toward the nearest place where a willing named person feels most fully present.",
+    "parentGroupIds": [
+      "shelf:star-alteration:lessons"
+    ],
+    "facts": {
+      "originalId": "S07",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "MEASURE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S07",
+        "location": "Star Alteration / Lessons / S07"
+      }
+    },
+    "aliases": [
+      "S07"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 | Alteration | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Turns a balanced needle toward the nearest place where a willing named person feels most fully present.",
+      "practice": "Receive consent, include sleep and distress as separate states, and leave the subject a way to close the relation.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Attention travels both ways, the place gains emotional significance, and the needle carries a trace of the subject's disembodied pattern.",
+      "failure": "The compass points to memory rather than body, mistakes dependency for presence, or keeps following after consent ends.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Close the relation, change the subject's chosen name, surround the needle with stronger memories, or break its balance.",
+      "mastery": "A master accepts a motionless needle and never treats spiritual legibility as proof of location or health.",
+      "sourceMeta": "LESSONS | RELIEF AND RECOVERY | LOAD 6 | PROOF HEARING + HOLDING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s08",
+    "title": "Sign-Mote",
+    "description": "Shapes a mote of starlike light that circles one marked object and changes colour when a single stated condition becomes true.",
+    "parentGroupIds": [
+      "shelf:star-alteration:lessons"
+    ],
+    "facts": {
+      "originalId": "S08",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "GATE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S08",
+        "location": "Star Alteration / Lessons / S08"
+      }
+    },
+    "aliases": [
+      "S08"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 | Alteration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag1 Co0 | Carrier: personal or supervised.",
+      "purpose": "Shapes a mote of starlike light that circles one marked object and changes colour when a single stated condition becomes true.",
+      "practice": "Define an observable condition, one uncertainty response, and a sunset after which the mote must dissolve.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The condition becomes easier for distant sympathetic observers to notice, and the mote slowly influences events toward a legible answer.",
+      "failure": "It interprets metaphor, chooses a convenient condition, or survives because ambiguity keeps its task unfinished.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Obscure the mark, create a contradictory case, change the condition's wording, or expose the mote to dawn.",
+      "mastery": "A master uses the mote as a witness rather than an agent and dismisses it before observation begins manufacturing evidence.",
+      "sourceMeta": "LESSONS | SHAPED OR AUTONOMOUS EFFECT | LOAD 7 | PROOF HEARING + HOLDING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s09",
+    "title": "Lodestar Nail",
+    "description": "Changes a small nail or peg into a stable local reference for direction, level, and named orientation.",
+    "parentGroupIds": [
+      "shelf:star-alteration:lessons"
+    ],
+    "facts": {
+      "originalId": "S09",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "MEASURE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 1,
+        "fineness": 1,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S09",
+        "location": "Star Alteration / Lessons / S09"
+      }
+    },
+    "aliases": [
+      "S09"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 | Alteration | Th1 Tu1 Kn1 Sp1 Ho1 Fi1 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Changes a small nail or peg into a stable local reference for direction, level, and named orientation.",
+      "practice": "Set it by three independent measurements and record who may release its authority.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "Nearby tools begin agreeing with the nail, local errors accumulate at the edge of its influence, and the site becomes conspicuous to survey magic.",
+      "failure": "A mistaken reference hardens into truth, moving ground tears around it, or travellers trust it beyond its surveyed span.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Pull the nail, introduce a second reference, move the supporting surface, or reveal the original measurement error.",
+      "mastery": "An expert keeps the reference bounded, revisable, and weaker than direct observation.",
+      "sourceMeta": "LESSONS | INFRASTRUCTURE | LOAD 6 | PROOF HEARING + HOLDING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s10",
+    "title": "Birthday Star",
+    "description": "Changes one evening's ceiling lights or candles into a personal constellation celebrating several possible futures for a named guest.",
+    "parentGroupIds": [
+      "shelf:star-alteration:lessons"
+    ],
+    "facts": {
+      "originalId": "S10",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Lessons",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "ORACLE LENS",
+      "carrier": "personal or supervised.",
+      "scale": "Lessons",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 1,
+        "hold": 0,
+        "fineness": 2,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 6,
+      "calculatedLoad": 6,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S10",
+        "location": "Star Alteration / Lessons / S10"
+      }
+    },
+    "aliases": [
+      "S10"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Lessons",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 1 | Alteration | Th1 Tu1 Kn1 Sp1 Ho0 Fi2 Ag0 Co0 | Carrier: personal or supervised.",
+      "purpose": "Changes one evening's ceiling lights or candles into a personal constellation celebrating several possible futures for a named guest.",
+      "practice": "Friends contribute hopes separately, preserve one dark space, and forbid any pattern from being called prophecy.",
+      "proof": "HEARING + HOLDING",
+      "consequence": "The guest becomes briefly linked to the offered possibilities, while expectations gain visible emotional weight.",
+      "failure": "One future dominates, private hopes become public obligation, or resemblance to a real omen is mistaken for cosmic approval.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Extinguish a light, add an incompatible hope, leave the room, or name the display as art rather than fate.",
+      "mastery": "A master protects the unlit possibility and lets the constellation fade before celebration becomes assignment.",
+      "sourceMeta": "LESSONS | CULTURE AND ANOMALY | LOAD 6 | PROOF HEARING + HOLDING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s11",
+    "title": "Line of Falling Light",
+    "description": "Tilts a descending band of starlight so it strikes, dazzles, marks, or cuts along a chosen narrow line.",
+    "parentGroupIds": [
+      "shelf:star-alteration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "S11",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "GATE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 0,
+        "span": 2,
+        "hold": 0,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 7,
+      "calculatedLoad": 7,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S11",
+        "location": "Star Alteration / Practical Workings / S11"
+      }
+    },
+    "aliases": [
+      "S11"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 | Alteration | Th1 Tu1 Kn0 Sp2 Ho0 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Tilts a descending band of starlight so it strikes, dazzles, marks, or cuts along a chosen narrow line.",
+      "practice": "Astral mirrors define origin and backstop while a spotter keeps living crossings outside the relation.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "The line advertises both endpoints to distant observers and leaves surfaces mutually sympathetic along its path.",
+      "failure": "The band follows a reflected weapon, widens around bright armour, or treats the backstop as a second target.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Cloud the origin, rotate a mirror, cross with a stronger named line, or disturb the backstop.",
+      "mastery": "Experts shed brightness and duration before discrimination, leaving an obvious miss rather than a beautiful collateral strike.",
+      "sourceMeta": "PRACTICAL WORKINGS | DIRECT INTERVENTION | LOAD 7 | PROOF HOLDING + TURNING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s12",
+    "title": "Constellation Aegis",
+    "description": "Rearranges the relations among several marked shields so impact, heat, and hostile attention are distributed across the whole formation.",
+    "parentGroupIds": [
+      "shelf:star-alteration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "S12",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "MEASURE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 9,
+      "calculatedLoad": 9,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S12",
+        "location": "Star Alteration / Practical Workings / S12"
+      }
+    },
+    "aliases": [
+      "S12"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 | Alteration | Th1 Tu1 Kn1 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Rearranges the relations among several marked shields so impact, heat, and hostile attention are distributed across the whole formation.",
+      "practice": "Every bearer holds a voluntary link, a personal release knot, and a limit on what burden may be shared.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Pain, damage, visibility, and fortune circulate between bearers, creating lasting sympathy among survivors.",
+      "failure": "The strongest shield becomes a sink, one frightened bearer spreads panic, or a broken link transfers its burden violently.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Sever a mark, isolate one bearer, vary attack types, or force the formation to divide.",
+      "mastery": "A master allows unequal protection when equality would sacrifice the vulnerable and breaks the constellation before solidarity becomes compulsion.",
+      "sourceMeta": "PRACTICAL WORKINGS | PROTECTION AND REPAIR | LOAD 9 | PROOF HOLDING + TURNING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s13",
+    "title": "Oath Orbit",
+    "description": "Changes several promises into visible orbiting tokens whose distance reflects fulfilment, conflict, delay, and mutual dependence.",
+    "parentGroupIds": [
+      "shelf:star-alteration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "S13",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "MEASURE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S13",
+        "location": "Star Alteration / Practical Workings / S13"
+      }
+    },
+    "aliases": [
+      "S13"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 | Alteration | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Changes several promises into visible orbiting tokens whose distance reflects fulfilment, conflict, delay, and mutual dependence.",
+      "practice": "Each party states scope, expiry, appeal, and what cannot be inferred from silence.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Participants become sympathetically linked, neglected obligations gather attention, and later choices bend subtly around the shared pattern.",
+      "failure": "The orbit mistakes performance for consent, turns ambiguity into breach, or makes every unrelated act evidence about the oath.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Contest a token, introduce an unrecorded duty, close the relation, or refuse the orbit's interpretation.",
+      "mastery": "A master preserves renegotiation and lets the diagram become untidy rather than forcing lives to match a perfect promise.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONTROL AND REGULATION | LOAD 10 | PROOF HOLDING + TURNING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s14",
+    "title": "Horizon Bridge",
+    "description": "Shortens a mapped road, stair, or river crossing by aligning its endpoints through a temporary celestial bearing.",
+    "parentGroupIds": [
+      "shelf:star-alteration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "S14",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "GATE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S14",
+        "location": "Star Alteration / Practical Workings / S14"
+      }
+    },
+    "aliases": [
+      "S14"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 | Alteration | Th1 Tu1 Kn1 Sp2 Ho1 Fi4 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Shortens a mapped road, stair, or river crossing by aligning its endpoints through a temporary celestial bearing.",
+      "practice": "Survey rest points, rescue exits, moving obstacles, and the maximum distance that may return at once.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Ordinary travellers find the route longer afterward, both ends attract attention, and local geography acquires a weak reciprocal pull.",
+      "failure": "The bridge omits a bend with people upon it, aligns to an older endpoint, or returns stored distance as sudden exhaustion.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Move a marker, travel off bearing, obscure the horizon, or force a stop inside the shortened relation.",
+      "mastery": "A master restores distance gradually and sacrifices speed before the route can decide which travellers belong together.",
+      "sourceMeta": "PRACTICAL WORKINGS | MOVEMENT AND FLOW | LOAD 10 | PROOF HOLDING + TURNING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s15",
+    "title": "Relational Map",
+    "description": "Changes a map so distances expand or contract according to one declared relation such as aid, danger, kinship, trade, or magical influence.",
+    "parentGroupIds": [
+      "shelf:star-alteration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "S15",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "ORACLE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S15",
+        "location": "Star Alteration / Practical Workings / S15"
+      }
+    },
+    "aliases": [
+      "S15"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 | Alteration | Th1 Tu1 Kn1 Sp2 Ho1 Fi4 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Changes a map so distances expand or contract according to one declared relation such as aid, danger, kinship, trade, or magical influence.",
+      "practice": "Mapmakers preserve geographic scale beneath the overlay and identify whose relation is being measured.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Places depicted as near gain faint correspondence, observers influence the measure, and ignored routes become socially harder to imagine.",
+      "failure": "The map naturalises prejudice, confuses access with affection, or starts bending real travel toward its diagram.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Change the measuring relation, add omitted places, fold the map, or compare with a mundane survey.",
+      "mastery": "An expert publishes disagreement and prevents the useful map from becoming the territory's moral geometry.",
+      "sourceMeta": "PRACTICAL WORKINGS | PERCEPTION AND MEMORY | LOAD 10 | PROOF HOLDING + TURNING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s16",
+    "title": "Misnamed Company",
+    "description": "Changes the apparent names, banners, and relational signatures of a travelling group without altering faces or memories within it.",
+    "parentGroupIds": [
+      "shelf:star-alteration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "S16",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "ORACLE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S16",
+        "location": "Star Alteration / Practical Workings / S16"
+      }
+    },
+    "aliases": [
+      "S16"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 | Alteration | Th1 Tu1 Kn2 Sp2 Ho1 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Changes the apparent names, banners, and relational signatures of a travelling group without altering faces or memories within it.",
+      "practice": "Every member chooses a temporary name, keeps a private retrieval sign, and may leave the shared fiction alone.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "True names dim in distant records, false names acquire small histories, and allies must work harder to recognise the company.",
+      "failure": "The disguise binds people to assigned roles, one false history becomes real enough to claim them, or the group forgets a departing member.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke a chosen name, separate the group, present an incompatible record, or follow the retrieval signs.",
+      "mastery": "A master leaves contradictions visible and ends the shared identity before safety turns into social possession.",
+      "sourceMeta": "PRACTICAL WORKINGS | CONCEALMENT AND CLARITY | LOAD 10 | PROOF HOLDING + TURNING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s17",
+    "title": "Fate Rebraid",
+    "description": "Rearranges the near-term consequences of an injury, shock, curse, or disastrous coincidence so recovery has several viable paths.",
+    "parentGroupIds": [
+      "shelf:star-alteration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "S17",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "MEASURE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S17",
+        "location": "Star Alteration / Practical Workings / S17"
+      }
+    },
+    "aliases": [
+      "S17"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 | Alteration | Th1 Tu1 Kn2 Sp2 Ho1 Fi4 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Rearranges the near-term consequences of an injury, shock, curse, or disastrous coincidence so recovery has several viable paths.",
+      "practice": "Healers name present facts, protected losses, acceptable uncertainty, and futures the patient refuses.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Misfortune is redistributed into delay, scars, changed relationships, or future risk rather than erased.",
+      "failure": "The Pattern selects the most documented past, makes survival a debt, or moves harm into a caregiver's linked destiny.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Break a braid, refuse a future, introduce a new diagnosis, or sever the healer's sympathetic role.",
+      "mastery": "A master restores choice rather than the story everyone expected and keeps the patient able to revise the weave.",
+      "sourceMeta": "PRACTICAL WORKINGS | RELIEF AND RECOVERY | LOAD 11 | PROOF HOLDING + TURNING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s18",
+    "title": "Astral Familiar",
+    "description": "Changes a cluster of reflected lights into a small autonomous guide that follows named relations, carries signals, and marks dangerous correspondences.",
+    "parentGroupIds": [
+      "shelf:star-alteration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "S18",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "GATE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 2,
+        "hold": 1,
+        "fineness": 3,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S18",
+        "location": "Star Alteration / Practical Workings / S18"
+      }
+    },
+    "aliases": [
+      "S18"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 | Alteration | Th1 Tu1 Kn1 Sp2 Ho1 Fi3 Ag2 Co0 | Carrier: personal with a focus.",
+      "purpose": "Changes a cluster of reflected lights into a small autonomous guide that follows named relations, carries signals, and marks dangerous correspondences.",
+      "practice": "Give it a limited vocabulary, a home mirror, one forbidden name, and a compulsory return at dawn.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Every route remains faintly open, the Familiar develops preferences among names, and its observers become easier to find.",
+      "failure": "It confuses relation with affection, reveals a protected route, or refuses return because its task remains cosmically incomplete.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Break the home reflection, speak the forbidden name, overwhelm it with equal relations, or wait for dawn.",
+      "mastery": "A master keeps the Familiar curious but not entitled and dismisses it before accumulated routes become a private empire of knowledge.",
+      "sourceMeta": "PRACTICAL WORKINGS | SHAPED OR AUTONOMOUS EFFECT | LOAD 11 | PROOF HOLDING + TURNING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s19",
+    "title": "Waystone Network",
+    "description": "Aligns a chain of waystones so travellers, messages, and rescue parties experience reliable bearing and modestly shortened routes.",
+    "parentGroupIds": [
+      "shelf:star-alteration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "S19",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "MEASURE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 3,
+        "fineness": 3,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 12,
+      "calculatedLoad": 12,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S19",
+        "location": "Star Alteration / Practical Workings / S19"
+      }
+    },
+    "aliases": [
+      "S19"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 | Alteration | Th1 Tu1 Kn2 Sp2 Ho3 Fi3 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Aligns a chain of waystones so travellers, messages, and rescue parties experience reliable bearing and modestly shortened routes.",
+      "practice": "Local keepers control names, access, error reports, repairs, and the right to remove a stone.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "Every stone becomes a beacon and target, traffic shifts toward the network, and excluded paths lose public meaning.",
+      "failure": "One captured stone redirects the chain, an old name opens a false route, or convenience turns settlements into compulsory stops.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Rename or rotate a stone, travel between links, introduce a mobile reference, or revoke local custody.",
+      "mastery": "Experts preserve ordinary roads and design failure as local confusion rather than a continent-wide wrong turn.",
+      "sourceMeta": "PRACTICAL WORKINGS | INFRASTRUCTURE | LOAD 12 | PROOF HOLDING + TURNING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s20",
+    "title": "Festival of New Names",
+    "description": "Allows a town to celebrate chosen names, repaired reputations, new kinships, and deliberately altered social constellations for one public season.",
+    "parentGroupIds": [
+      "shelf:star-alteration:practical-workings"
+    ],
+    "facts": {
+      "originalId": "S20",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Practical Workings",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "ORACLE LENS",
+      "carrier": "personal with a focus.",
+      "scale": "Practical Workings",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 2,
+        "hold": 1,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 11,
+      "calculatedLoad": 11,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S20",
+        "location": "Star Alteration / Practical Workings / S20"
+      }
+    },
+    "aliases": [
+      "S20"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Practical Workings",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 2 | Alteration | Th1 Tu1 Kn2 Sp2 Ho1 Fi4 Ag0 Co0 | Carrier: personal with a focus.",
+      "purpose": "Allows a town to celebrate chosen names, repaired reputations, new kinships, and deliberately altered social constellations for one public season.",
+      "practice": "Participants control disclosure, contradiction, reversibility, and which institutions may recognise the change afterward.",
+      "proof": "HOLDING + TURNING",
+      "consequence": "New relations become magically legible, old records dim unevenly, and attention gathers around those whose transformations are most dramatic.",
+      "failure": "Ceremony outranks private continuity, nonparticipants are treated as unfinished, or temporary roles harden into public destiny.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Withdraw from the record, invoke an old relation privately, introduce incompatible witnesses, or end the season early.",
+      "mastery": "A master protects quiet change and lets some transformations remain unrecognised by the sky.",
+      "sourceMeta": "PRACTICAL WORKINGS | CULTURE AND ANOMALY | LOAD 11 | PROOF HOLDING + TURNING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s21",
+    "title": "Alignment Lance",
+    "description": "Forces weapons, hostile spells, and advancing bodies within a corridor to share one celestial bearing, exposing them to a single redirected strike.",
+    "parentGroupIds": [
+      "shelf:star-alteration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "S21",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "GATE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 1,
+        "span": 3,
+        "hold": 0,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 10,
+      "calculatedLoad": 10,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S21",
+        "location": "Star Alteration / Expert Formulae / S21"
+      }
+    },
+    "aliases": [
+      "S21"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Expert Formulae",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 | Alteration | Th1 Tu1 Kn1 Sp3 Ho0 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Forces weapons, hostile spells, and advancing bodies within a corridor to share one celestial bearing, exposing them to a single redirected strike.",
+      "practice": "Specialists separate people, equipment, magic, retreat, and surrender into independent relation layers.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Targets become mutually sympathetic, distant powers notice the alignment, and recoil distributes through every linked object.",
+      "failure": "Allies enter the line, the bearing follows command rather than threat, or one resistant target twists the entire corridor.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Change formation, break common naming, obscure the sky, or present several incompatible bearings.",
+      "mastery": "A master sheds span and elegance before target law, ending the constellation while escape remains possible.",
+      "sourceMeta": "EXPERT FORMULAE | DIRECT INTERVENTION | LOAD 10 | PROOF TURNING + REDIRECTION | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s22",
+    "title": "Citadel of True Bearings",
+    "description": "Rewrites relations around a fortress so missiles, teleportation, pursuit, and hostile divination arrive at declared false bearings while friendly routes remain true.",
+    "parentGroupIds": [
+      "shelf:star-alteration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "S22",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "MEASURE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S22",
+        "location": "Star Alteration / Expert Formulae / S22"
+      }
+    },
+    "aliases": [
+      "S22"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Expert Formulae",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 | Alteration | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Rewrites relations around a fortress so missiles, teleportation, pursuit, and hostile divination arrive at declared false bearings while friendly routes remain true.",
+      "practice": "Gatekeepers maintain separate frames for refuge, trade, defence, rescue, and lawful departure.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The citadel becomes a celestial landmark, false bearings burden neighbouring land, and inhabitants grow dependent on official orientation.",
+      "failure": "A gate frame becomes absolute, refugees are classified as hostile routes, or accumulated misdirection folds back through the walls.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Corrupt a frame, travel without a bearing, exploit a local name, or overload one neighbouring false destination.",
+      "mastery": "Experts accept navigable breaches and public uncertainty before perfect orientation becomes imprisonment.",
+      "sourceMeta": "EXPERT FORMULAE | PROTECTION AND REPAIR | LOAD 13 | PROOF TURNING + REDIRECTION | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s23",
+    "title": "Probability Garden",
+    "description": "Cultivates several bounded versions of a campaign, harvest, trial, or engineering plan so uncertain outcomes can be tested without declaring one destiny.",
+    "parentGroupIds": [
+      "shelf:star-alteration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "S23",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "MEASURE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S23",
+        "location": "Star Alteration / Expert Formulae / S23"
+      }
+    },
+    "aliases": [
+      "S23"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Expert Formulae",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 | Alteration | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Cultivates several bounded versions of a campaign, harvest, trial, or engineering plan so uncertain outcomes can be tested without declaring one destiny.",
+      "practice": "Each possibility has separate witnesses, costs, expiry, and protection from being mistaken for prophecy.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Attention and resources shift toward rehearsed futures, neglected outcomes grow stranger, and participants inherit emotional links to unreal events.",
+      "failure": "The most attractive branch consumes the rest, rehearsal causes its own evidence, or officials punish people for a future that never occurred.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Introduce novelty, close a branch, withdraw a witness, or demand decisions from present facts.",
+      "mastery": "A master preserves failed possibilities as knowledge while refusing to let any model become a claim upon the living.",
+      "sourceMeta": "EXPERT FORMULAE | CONTROL AND REGULATION | LOAD 14 | PROOF TURNING + REDIRECTION | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s24",
+    "title": "Folded Horizon",
+    "description": "Changes a day's journey between two visible horizons into an hour while preserving intermediate exits, weather, and relative direction.",
+    "parentGroupIds": [
+      "shelf:star-alteration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "S24",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "GATE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S24",
+        "location": "Star Alteration / Expert Formulae / S24"
+      }
+    },
+    "aliases": [
+      "S24"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Expert Formulae",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 | Alteration | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Changes a day's journey between two visible horizons into an hour while preserving intermediate exits, weather, and relative direction.",
+      "practice": "Navigators braid multiple bearings and assign keepers to distance, momentum, time, and every emergency unfolding point.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "The omitted road becomes briefly harder to reach, both regions gain correspondence, and travellers arrive carrying displaced fatigue and weather.",
+      "failure": "Horizons exchange, time compresses unevenly, or an emergency exit unfolds into a place related by name rather than geography.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Obscure a horizon, contest its name, force an unscheduled exit, or disturb the timekeeper.",
+      "mastery": "A master releases the fold in stages and accepts a long remainder rather than demand one perfect arrival.",
+      "sourceMeta": "EXPERT FORMULAE | MOVEMENT AND FLOW | LOAD 13 | PROOF TURNING + REDIRECTION | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s25",
+    "title": "Soul Assize",
+    "description": "Rearranges a bounded chamber of names, memories, vows, and spiritual traces so competing claims upon one disembodied soul become separately legible.",
+    "parentGroupIds": [
+      "shelf:star-alteration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "S25",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "ORACLE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S25",
+        "location": "Star Alteration / Expert Formulae / S25"
+      }
+    },
+    "aliases": [
+      "S25"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Expert Formulae",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 | Alteration | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Rearranges a bounded chamber of names, memories, vows, and spiritual traces so competing claims upon one disembodied soul become separately legible.",
+      "practice": "Jurists distinguish identity, possession, grief, testimony, destiny, and the soul's own possible refusal.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Every claimant gains a reciprocal route, observation changes the pattern, and old destinies acquire temporary force.",
+      "failure": "The clearest memory is treated as personhood, institutional names overpower private identity, or the Assize creates the soul it expected to find.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Invoke anonymity, remove a claimant, present contradiction, close reciprocity, or let the chamber remain unresolved.",
+      "mastery": "A master makes uncertainty an admissible outcome and never lets cosmic legibility substitute for consent.",
+      "sourceMeta": "EXPERT FORMULAE | PERCEPTION AND MEMORY | LOAD 13 | PROOF TURNING + REDIRECTION | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s26",
+    "title": "City of Borrowed Constellations",
+    "description": "Reassigns a city's visible patterns of movement, light, reputation, and celestial relation so hostile observers read several plausible cities instead of one.",
+    "parentGroupIds": [
+      "shelf:star-alteration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "S26",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "ORACLE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S26",
+        "location": "Star Alteration / Expert Formulae / S26"
+      }
+    },
+    "aliases": [
+      "S26"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Expert Formulae",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 | Alteration | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Reassigns a city's visible patterns of movement, light, reputation, and celestial relation so hostile observers read several plausible cities instead of one.",
+      "practice": "Districts preserve local names, emergency signals, internal maps, and the right not to impersonate another community.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Trade, prophecy, and attention split among the borrowed patterns, while the real city becomes harder for allies to understand.",
+      "failure": "A prestigious false city dominates, public services follow the wrong map, or borrowed destinies bring foreign enemies and obligations.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Reveal a district name, compare material routes, break light synchrony, or invoke a debt unique to the real city.",
+      "mastery": "A master preserves civic self-knowledge and lets disguise fail before borrowed identity becomes governance.",
+      "sourceMeta": "EXPERT FORMULAE | CONCEALMENT AND CLARITY | LOAD 14 | PROOF TURNING + REDIRECTION | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s27",
+    "title": "Second Destiny",
+    "description": "Rebraids the future of a person, company, species, or institution trapped by curse, prophecy, inherited office, or repeated catastrophe.",
+    "parentGroupIds": [
+      "shelf:star-alteration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "S27",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "MEASURE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S27",
+        "location": "Star Alteration / Expert Formulae / S27"
+      }
+    },
+    "aliases": [
+      "S27"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Expert Formulae",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 | Alteration | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Rebraids the future of a person, company, species, or institution trapped by curse, prophecy, inherited office, or repeated catastrophe.",
+      "practice": "The subject defines protected continuity, unacceptable repetition, several possible exits, and who may not choose on its behalf.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Old fate persists as a visible contrary current, linked lives are disturbed, and the new paths attract celestial attention.",
+      "failure": "The second destiny merely inverts the first, shifts compulsion onto descendants, or makes refusal count as failure.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Invoke an unbound choice, sever an inherited relation, introduce a future outside both stories, or close the celestial witness.",
+      "mastery": "A master creates room for ordinary accident and knows that freedom is not a better-scripted prophecy.",
+      "sourceMeta": "EXPERT FORMULAE | RELIEF AND RECOVERY | LOAD 14 | PROOF TURNING + REDIRECTION | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s28",
+    "title": "Constellation Steward",
+    "description": "Creates an autonomous figure of light and names that maintains routes, warnings, shared burdens, and changing alliances across a complex site.",
+    "parentGroupIds": [
+      "shelf:star-alteration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "S28",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "GATE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S28",
+        "location": "Star Alteration / Expert Formulae / S28"
+      }
+    },
+    "aliases": [
+      "S28"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Expert Formulae",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 | Alteration | Th1 Tu1 Kn2 Sp3 Ho2 Fi4 Ag3 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Creates an autonomous figure of light and names that maintains routes, warnings, shared burdens, and changing alliances across a complex site.",
+      "practice": "Its charter limits observation, intervention, memory, succession, and the conditions of its own unmaking.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "Relations become infrastructure, participants inherit one another's visibility, and the Steward grows skilled at predicting behaviour.",
+      "failure": "It treats dissent as misalignment, preserves obsolete alliances, or edits people to simplify the constellation it serves.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Challenge the charter, withdraw a name, create an unmodelled relation, blind one node, or invoke unmaking.",
+      "mastery": "A master keeps the Steward fallible, forgetful, and mortal enough that society can outgrow its map.",
+      "sourceMeta": "EXPERT FORMULAE | SHAPED OR AUTONOMOUS EFFECT | LOAD 16 | PROOF TURNING + ANCHORING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s29",
+    "title": "Ley of Moving Cities",
+    "description": "Rewrites the correspondence among roads, ports, seasonal camps, and city gates so several settlements can exchange position or function along a celestial circuit.",
+    "parentGroupIds": [
+      "shelf:star-alteration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "S29",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "MEASURE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S29",
+        "location": "Star Alteration / Expert Formulae / S29"
+      }
+    },
+    "aliases": [
+      "S29"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Expert Formulae",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 | Alteration | Th1 Tu1 Kn3 Sp3 Ho4 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Rewrites the correspondence among roads, ports, seasonal camps, and city gates so several settlements can exchange position or function along a celestial circuit.",
+      "practice": "Every locality controls arrival, departure, residents, graves, land claims, and what may remain behind.",
+      "proof": "TURNING + ANCHORING",
+      "consequence": "Economies and identities entangle, empty sites retain echoes, and distant powers can observe the moving circuit.",
+      "failure": "A city arrives without its hinterland, positions become inherited rank, or the circuit continues after one settlement refuses.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Break a gate relation, anchor a locality materially, alter the circuit name, or open a path outside the ley.",
+      "mastery": "Masters move functions before people, preserve the right to stay, and stop the circuit before mobility becomes constitutional fate.",
+      "sourceMeta": "EXPERT FORMULAE | INFRASTRUCTURE | LOAD 16 | PROOF TURNING + ANCHORING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s30",
+    "title": "Theatre of Possible Selves",
+    "description": "Lets performers inhabit several altered names, relationships, probabilities, and destinies to explore who a person or polity might become.",
+    "parentGroupIds": [
+      "shelf:star-alteration:expert-formulae"
+    ],
+    "facts": {
+      "originalId": "S30",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Expert Formulae",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "ORACLE LENS",
+      "carrier": "specialist with sink or anchor.",
+      "scale": "Expert Formulae",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 3,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 14,
+      "calculatedLoad": 14,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S30",
+        "location": "Star Alteration / Expert Formulae / S30"
+      }
+    },
+    "aliases": [
+      "S30"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Expert Formulae",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 3 | Alteration | Th1 Tu1 Kn3 Sp3 Ho2 Fi4 Ag0 Co0 | Carrier: specialist with sink or anchor.",
+      "purpose": "Lets performers inhabit several altered names, relationships, probabilities, and destinies to explore who a person or polity might become.",
+      "practice": "The theatre marks fiction, consent, return, public interpretation, and traits that must never leave the stage.",
+      "proof": "TURNING + REDIRECTION",
+      "consequence": "Audiences form sympathetic links, roles influence later choice, and some possibilities gain enough attention to persist.",
+      "failure": "A role claims the performer, resemblance becomes verdict, or authorities use the performance as evidence of hidden intent.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Break character, introduce contradiction, close the audience relation, or refuse the return name.",
+      "mastery": "A master protects transformation without pretending every imagined self is a truer one.",
+      "sourceMeta": "EXPERT FORMULAE | CULTURE AND ANOMALY | LOAD 14 | PROOF TURNING + REDIRECTION | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s31",
+    "title": "The Host Under One Star",
+    "description": "Aligns an army's weapons, signals, routes, morale, and command beneath one moving star so it can act across a vast theatre as a coherent force.",
+    "parentGroupIds": [
+      "shelf:star-alteration:rites"
+    ],
+    "facts": {
+      "originalId": "S31",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "GATE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 2,
+        "span": 4,
+        "hold": 1,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 13,
+      "calculatedLoad": 13,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S31",
+        "location": "Star Alteration / Rites / S31"
+      }
+    },
+    "aliases": [
+      "S31"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Rites",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn2 Sp4 Ho1 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Aligns an army's weapons, signals, routes, morale, and command beneath one moving star so it can act across a vast theatre as a coherent force.",
+      "practice": "Independent conductors preserve retreat, surrender, medical care, civilian distinction, and the right of formations to break relation.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Soldiers share fortune and visibility, the star becomes a strategic beacon, and individual failures reverberate through the host.",
+      "failure": "Coherence erases judgment, wounded units burden all others, or the star continues defining enemies after peace.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Obscure the star, decentralise command, sever a formation willingly, corrupt a signal name, or invoke protected surrender.",
+      "mastery": "The high practitioner accepts disorder before unity becomes possession and ends the sky relation while victory remains incomplete.",
+      "sourceMeta": "RITES | DIRECT INTERVENTION | LOAD 13 | PROOF REDIRECTION + ANCHORING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s32",
+    "title": "Celestial Mantle",
+    "description": "Rewrites the relations around a province so invasion, hostile divination, falling fire, and magical pursuit are redirected into prepared harmless bearings.",
+    "parentGroupIds": [
+      "shelf:star-alteration:rites"
+    ],
+    "facts": {
+      "originalId": "S32",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "MEASURE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S32",
+        "location": "Star Alteration / Rites / S32"
+      }
+    },
+    "aliases": [
+      "S32"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Rites",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Rewrites the relations around a province so invasion, hostile divination, falling fire, and magical pursuit are redirected into prepared harmless bearings.",
+      "practice": "Regions control refuge, open sky, trade, warning, neighbourly burden, and the conditions under which the mantle must thin.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The province becomes conspicuous, neighbouring lands inherit displaced attention, and inhabitants depend on mapped protection.",
+      "failure": "Threat definitions harden into xenophobia, a prepared bearing becomes saturated, or beneficial celestial contact is redirected away.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Contest a bearing, overload a sink, enter through local relation, change the sky map, or withdraw regional consent.",
+      "mastery": "A master preserves ordinary exposure and lets the mantle leak before protection becomes a cosmological border.",
+      "sourceMeta": "RITES | PROTECTION AND REPAIR | LOAD 16 | PROOF REDIRECTION + ANCHORING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s33",
+    "title": "Treaty of Orbits",
+    "description": "Binds rival states, fleets, or magical orders into changing relational orbits that expose aggression, distribute risk, and keep negotiation routes open.",
+    "parentGroupIds": [
+      "shelf:star-alteration:rites"
+    ],
+    "facts": {
+      "originalId": "S33",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "MEASURE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S33",
+        "location": "Star Alteration / Rites / S33"
+      }
+    },
+    "aliases": [
+      "S33"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Rites",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Binds rival states, fleets, or magical orders into changing relational orbits that expose aggression, distribute risk, and keep negotiation routes open.",
+      "practice": "Every party retains exit, dissent, private motion, redress, and a limit on inherited obligation.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Diplomacy becomes physically legible, smaller actors are drawn by larger masses, and shared consequences persist beyond treaties.",
+      "failure": "The strongest state becomes the sun, neutrality is treated as instability, or the orbit prevents necessary rupture.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Alter mass through alliance, invoke exit, introduce an unbound party, challenge the common centre, or suspend observation.",
+      "mastery": "A master permits collision, separation, and asymmetry rather than preserve peace as permanent celestial choreography.",
+      "sourceMeta": "RITES | CONTROL AND REGULATION | LOAD 17 | PROOF REDIRECTION + ANCHORING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s34",
+    "title": "Pilgrim Constellation",
+    "description": "Changes thousands of travellers, shrines, roads, and acts of hospitality into a moving constellation that shortens lawful pilgrimage and rescue routes.",
+    "parentGroupIds": [
+      "shelf:star-alteration:rites"
+    ],
+    "facts": {
+      "originalId": "S34",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "GATE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S34",
+        "location": "Star Alteration / Rites / S34"
+      }
+    },
+    "aliases": [
+      "S34"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Rites",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Changes thousands of travellers, shrines, roads, and acts of hospitality into a moving constellation that shortens lawful pilgrimage and rescue routes.",
+      "practice": "Hosts, travellers, local faiths, sceptics, borders, and seasonal closures each hold independent route authority.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Places become spiritually and economically linked, travel displaces attention, and those outside the pattern may become harder to reach.",
+      "failure": "The constellation creates compulsory devotion, bypasses host consent, or treats migrants and armies as pilgrims by analogy.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Close a shrine, alter a route story, travel without the sign, withdraw hospitality, or open a secular road.",
+      "mastery": "Masters protect the right not to arrive and let sacred distance remain where shortening would consume meaning or autonomy.",
+      "sourceMeta": "RITES | MOVEMENT AND FLOW | LOAD 16 | PROOF REDIRECTION + ANCHORING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s35",
+    "title": "Census of True Names",
+    "description": "Makes a region's active names, titles, kinships, civic roles, and disembodied claims appear as a living constellation for public correction.",
+    "parentGroupIds": [
+      "shelf:star-alteration:rites"
+    ],
+    "facts": {
+      "originalId": "S35",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "ORACLE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S35",
+        "location": "Star Alteration / Rites / S35"
+      }
+    },
+    "aliases": [
+      "S35"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Rites",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Makes a region's active names, titles, kinships, civic roles, and disembodied claims appear as a living constellation for public correction.",
+      "practice": "People govern anonymity, chosen relation, contradiction, expiration, and whether any name may influence law.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Recognition creates reciprocal links, forgotten names return, and official categories acquire cosmic-looking authority.",
+      "failure": "The census fixes identity, exposes the vulnerable, assigns property through names, or treats the unnamed as absent.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Invoke anonymity, change relation, withdraw a star, present incompatible naming, or reject legal interpretation.",
+      "mastery": "A master protects the uncounted and keeps the sky from making bureaucracy appear natural.",
+      "sourceMeta": "RITES | PERCEPTION AND MEMORY | LOAD 16 | PROOF REDIRECTION + ANCHORING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s36",
+    "title": "Veil of Errant Stars",
+    "description": "Rearranges a province's celestial bearings, prophetic signatures, and destination names so hostile navigation and fate-reading follow convincing false horizons.",
+    "parentGroupIds": [
+      "shelf:star-alteration:rites"
+    ],
+    "facts": {
+      "originalId": "S36",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "ORACLE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S36",
+        "location": "Star Alteration / Rites / S36"
+      }
+    },
+    "aliases": [
+      "S36"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Rites",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Rearranges a province's celestial bearings, prophetic signatures, and destination names so hostile navigation and fate-reading follow convincing false horizons.",
+      "practice": "Local astronomers preserve seasons, rescue, internal orientation, true exits, and public knowledge that the sky is altered.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "The false heavens attract real attention, navigation becomes culturally dependent, and beneficial omens may miss the province.",
+      "failure": "Residents lose their own sky, false destinies gain believers, or the veil directs enemies into neighbouring people.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Use material bearings, invoke a local star-name, compare several seasons, break an observatory, or follow displaced attention.",
+      "mastery": "A master lets the deception show seams and ends it before strategic fiction becomes a nation's theology.",
+      "sourceMeta": "RITES | CONCEALMENT AND CLARITY | LOAD 17 | PROOF REDIRECTION + ANCHORING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s37",
+    "title": "Reweaving the Fallen Banner",
+    "description": "Rebraids the relations, confidence, memory, and possible futures of a defeated region without restoring the regime or destiny that led it to ruin.",
+    "parentGroupIds": [
+      "shelf:star-alteration:rites"
+    ],
+    "facts": {
+      "originalId": "S37",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "MEASURE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 0,
+        "contradiction": 0
+      },
+      "sourceLoad": 17,
+      "calculatedLoad": 17,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S37",
+        "location": "Star Alteration / Rites / S37"
+      }
+    },
+    "aliases": [
+      "S37"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Rites",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag0 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Rebraids the relations, confidence, memory, and possible futures of a defeated region without restoring the regime or destiny that led it to ruin.",
+      "practice": "Survivors, dissenters, former enemies, the displaced, the dead, and future citizens hold separate threads.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Shared purpose returns unevenly, old symbols regain pull, and new futures remain entangled with the catastrophe.",
+      "failure": "The rite resurrects nationalism as fate, silences collaborators or victims, or makes unity the price of aid.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Refuse the banner, preserve regional difference, introduce a new symbol, expose an old claim, or leave a thread unbraided.",
+      "mastery": "The conductor restores capacity for collective choice, not obedience to a beautiful story of return.",
+      "sourceMeta": "RITES | RELIEF AND RECOVERY | LOAD 17 | PROOF REDIRECTION + ANCHORING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s38",
+    "title": "The Seven Astral Judges",
+    "description": "Creates seven autonomous star-forms that test contested routes, names, oaths, destinies, borders, probabilities, and soul claims across a realm.",
+    "parentGroupIds": [
+      "shelf:star-alteration:rites"
+    ],
+    "facts": {
+      "originalId": "S38",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "GATE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S38",
+        "location": "Star Alteration / Rites / S38"
+      }
+    },
+    "aliases": [
+      "S38"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Rites",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn3 Sp4 Ho3 Fi4 Ag4 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Creates seven autonomous star-forms that test contested routes, names, oaths, destinies, borders, probabilities, and soul claims across a realm.",
+      "practice": "Each Judge has a narrow jurisdiction, public contradiction, human advocate, expiry, and forbidden conclusion.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Judgments create real correspondences, distant observers notice the realm, and law begins bending toward celestial categories.",
+      "failure": "Jurisdictions merge, precedent becomes destiny, or the Judges alter people until cases fit their patterns.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Exploit a conflict, invoke forbidden conclusion, blind a Judge, withdraw a name, or abolish the relevant category.",
+      "mastery": "The high practitioner keeps every Judge answerable, temporary, and capable of being wrong in public.",
+      "sourceMeta": "RITES | SHAPED OR AUTONOMOUS EFFECT | LOAD 20 | PROOF REDIRECTION + ANCHORING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s39",
+    "title": "Crown of Waystones",
+    "description": "Aligns a nation's roads, ports, beacons, messengers, and rescue routes into a revisable celestial transport lattice.",
+    "parentGroupIds": [
+      "shelf:star-alteration:rites"
+    ],
+    "facts": {
+      "originalId": "S39",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "MEASURE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S39",
+        "location": "Star Alteration / Rites / S39"
+      }
+    },
+    "aliases": [
+      "S39"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Rites",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Aligns a nation's roads, ports, beacons, messengers, and rescue routes into a revisable celestial transport lattice.",
+      "practice": "Regions retain local custody, alternative roads, closure rights, error sinks, and the power to disconnect.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Movement and trade concentrate, every node becomes a target, and remote places are redefined by their relation to the capital lattice.",
+      "failure": "Efficiency erases local paths, captured nodes redirect the nation, or distance returns catastrophically when consensus fails.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Disconnect a region, rename a node, use unmarked travel, overload traffic, or disturb the crown's reference star.",
+      "mastery": "Masters preserve redundancy and let journeys remain slow where speed would turn connection into dependency.",
+      "sourceMeta": "RITES | INFRASTRUCTURE | LOAD 20 | PROOF REDIRECTION + ANCHORING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s40",
+    "title": "Night of Chosen Constellations",
+    "description": "Lets every consenting community in a realm display a temporary constellation of its histories, relations, aspirations, and deliberate unknowns.",
+    "parentGroupIds": [
+      "shelf:star-alteration:rites"
+    ],
+    "facts": {
+      "originalId": "S40",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Rites",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "ORACLE LENS",
+      "carrier": "distributed circle and site.",
+      "scale": "Rites",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 3,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 19,
+      "calculatedLoad": 19,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S40",
+        "location": "Star Alteration / Rites / S40"
+      }
+    },
+    "aliases": [
+      "S40"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Rites",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho3 Fi4 Ag2 Co0 | Carrier: distributed circle and site.",
+      "purpose": "Lets every consenting community in a realm display a temporary constellation of its histories, relations, aspirations, and deliberate unknowns.",
+      "practice": "No central reader may merge the skies, dark spaces are protected, and each display expires before dawn.",
+      "proof": "REDIRECTION + ANCHORING",
+      "consequence": "Communities become mutually visible, symbols gain sympathetic force, and political attention follows striking patterns.",
+      "failure": "The rite becomes a competition, imposed identities outshine quiet ones, or temporary skies are treated as maps of national destiny.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Leave the display dark, alter a symbol, refuse comparison, close a reciprocal link, or end locally before dawn.",
+      "mastery": "A master protects incoherence and ensures that recognition never becomes the price of belonging.",
+      "sourceMeta": "RITES | CULTURE AND ANOMALY | LOAD 19 | PROOF REDIRECTION + ANCHORING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s41",
+    "title": "The Star That Wins a War",
+    "description": "Rewrites the strategic relations of a nation so an invading force's command, supply, navigation, prophecy, and alliances all converge upon one declared point of failure.",
+    "parentGroupIds": [
+      "shelf:star-alteration:wonders"
+    ],
+    "facts": {
+      "originalId": "S41",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 1,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Direct Intervention",
+      "doctrine": "GATE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 3,
+        "span": 4,
+        "hold": 2,
+        "fineness": 4,
+        "agency": 1,
+        "contradiction": 0
+      },
+      "sourceLoad": 16,
+      "calculatedLoad": 16,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S41",
+        "location": "Star Alteration / Wonders / S41"
+      }
+    },
+    "aliases": [
+      "S41"
+    ],
+    "tags": [
+      "Direct Intervention",
+      "Wonders",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn3 Sp4 Ho2 Fi4 Ag1 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Rewrites the strategic relations of a nation so an invading force's command, supply, navigation, prophecy, and alliances all converge upon one declared point of failure.",
+      "practice": "Domestic and enemy witnesses preserve civilians, surrender, self-defence, aftermath, uncertainty, and the right to end the Wonder early.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The whole conflict becomes visible to distant powers, failures elsewhere are displaced, and victory acquires the gravity of destiny.",
+      "failure": "The star defines resistance as invasion, makes peace less likely than fulfilment, or draws every national problem into military relation.",
+      "safeShedding": "Shed intensity first, then Span; never surrender aim while force remains high.",
+      "counterplay": "Change the war's form, break a named relation, decentralise, invoke surrender, or refuse the point of failure.",
+      "mastery": "Sovereign mastery is extinguishing the star before victory becomes the nation's permanent explanation of itself.",
+      "sourceMeta": "WONDERS | DIRECT INTERVENTION | LOAD 16 | PROOF REDIRECTION + UNWEAVING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s42",
+    "title": "Firmament of Shelter",
+    "description": "Creates a national canopy of altered relation that redirects bombardment, hostile gates, celestial disaster, and magical pursuit while preserving open refuge and ordinary sky.",
+    "parentGroupIds": [
+      "shelf:star-alteration:wonders"
+    ],
+    "facts": {
+      "originalId": "S42",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 2,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Protection And Repair",
+      "doctrine": "MEASURE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 2,
+        "contradiction": 0
+      },
+      "sourceLoad": 20,
+      "calculatedLoad": 20,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S42",
+        "location": "Star Alteration / Wonders / S42"
+      }
+    },
+    "aliases": [
+      "S42"
+    ],
+    "tags": [
+      "Protection And Repair",
+      "Wonders",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag2 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a national canopy of altered relation that redirects bombardment, hostile gates, celestial disaster, and magical pursuit while preserving open refuge and ordinary sky.",
+      "practice": "Regions control bearings, sanctuary, migration, astronomy, external aid, and which risks cannot be exported.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The nation becomes a cosmic landmark, neighbours inherit displaced trajectories, and internal safety depends on shared naming.",
+      "failure": "The firmament closes, defines foreigners as incoming harm, or protects cities by concentrating danger over remote land.",
+      "safeShedding": "Shorten Hold or narrow the protected arc before allowing the boundary to become indiscriminate.",
+      "counterplay": "Contest a trajectory, enter by welcome, sever a regional name, overload a bearing, or invoke the protected ordinary sky.",
+      "mastery": "A master accepts holes and outside assistance before national shelter becomes metaphysical isolation.",
+      "sourceMeta": "WONDERS | PROTECTION AND REPAIR | LOAD 20 | PROOF REDIRECTION + UNWEAVING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s43",
+    "title": "Constitution of Names",
+    "description": "Establishes national rules by which persons, offices, places, species, communities, and spirits may be named, renamed, recognised, or left deliberately unbound.",
+    "parentGroupIds": [
+      "shelf:star-alteration:wonders"
+    ],
+    "facts": {
+      "originalId": "S43",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 3,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Control And Regulation",
+      "doctrine": "MEASURE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S43",
+        "location": "Star Alteration / Wonders / S43"
+      }
+    },
+    "aliases": [
+      "S43"
+    ],
+    "tags": [
+      "Control And Regulation",
+      "Wonders",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Establishes national rules by which persons, offices, places, species, communities, and spirits may be named, renamed, recognised, or left deliberately unbound.",
+      "practice": "Every category preserves consent, appeal, expiry, contradiction, local language, and protection for the unnamed.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Names gain material force, records become sympathetic infrastructure, and excluded identities accumulate beyond the constitutional map.",
+      "failure": "Recognition becomes ownership, offices overwrite persons, or the state declares whatever it cannot name unreal.",
+      "safeShedding": "Release peripheral targets and optional conditions before Fineness begins to blur.",
+      "counterplay": "Invoke anonymity, create incompatible naming, withdraw recognition, challenge jurisdiction, or dissolve a category.",
+      "mastery": "Sovereign mastery keeps the Constitution capable of forgetting its own terms and refuses to make legibility a condition of existence.",
+      "sourceMeta": "WONDERS | CONTROL AND REGULATION | LOAD 21 | PROOF REDIRECTION + UNWEAVING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s44",
+    "title": "Roads of Instant Dawn",
+    "description": "Folds a nation's principal routes so travellers, aid, armies, trade, and messages may cross between prepared horizons before the same dawn ends.",
+    "parentGroupIds": [
+      "shelf:star-alteration:wonders"
+    ],
+    "facts": {
+      "originalId": "S44",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 4,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Movement And Flow",
+      "doctrine": "GATE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S44",
+        "location": "Star Alteration / Wonders / S44"
+      }
+    },
+    "aliases": [
+      "S44"
+    ],
+    "tags": [
+      "Movement And Flow",
+      "Wonders",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Folds a nation's principal routes so travellers, aid, armies, trade, and messages may cross between prepared horizons before the same dawn ends.",
+      "practice": "Localities govern arrival, refusal, traffic, quarantine, privacy, and the continued existence of slow roads.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Distance becomes public infrastructure, destinations grow politically entangled, and omitted regions experience a new form of remoteness.",
+      "failure": "Speed centralises power, arrivals overwhelm consent, or lost distance returns as missing time and exhaustion.",
+      "safeShedding": "Surrender distance and arrive early rather than retaining speed without steering.",
+      "counterplay": "Close a horizon, travel slowly, rename a destination, overload an arrival, or break the dawn reference.",
+      "mastery": "Masters preserve latency, detours, and the right not to be reachable, letting the network slow before relation becomes rule.",
+      "sourceMeta": "WONDERS | MOVEMENT AND FLOW | LOAD 21 | PROOF REDIRECTION + UNWEAVING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s45",
+    "title": "The Atlas That Knows Us",
+    "description": "Makes the nation's places, peoples, routes, vows, spiritual presences, and changing relationships appear in a living celestial atlas.",
+    "parentGroupIds": [
+      "shelf:star-alteration:wonders"
+    ],
+    "facts": {
+      "originalId": "S45",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 5,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Perception And Memory",
+      "doctrine": "ORACLE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S45",
+        "location": "Star Alteration / Wonders / S45"
+      }
+    },
+    "aliases": [
+      "S45"
+    ],
+    "tags": [
+      "Perception And Memory",
+      "Wonders",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Makes the nation's places, peoples, routes, vows, spiritual presences, and changing relationships appear in a living celestial atlas.",
+      "practice": "Communities control omission, contradictory maps, private relation, expiry, and whether observation may influence law.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "The atlas creates reciprocal attention, changes travel and policy, and makes distant observers aware of the whole national pattern.",
+      "failure": "Representation fixes identity, empty spaces are treated as empty land, or the atlas edits reality to preserve a coherent picture.",
+      "safeShedding": "Reduce range and detail before accepting a false or reciprocal connection.",
+      "counterplay": "Withdraw a relation, publish a contradiction, introduce novelty, blind an observatory, or refuse to be mapped.",
+      "mastery": "A master protects the unrepresented and keeps knowledge descriptive enough that the country can surprise its own stars.",
+      "sourceMeta": "WONDERS | PERCEPTION AND MEMORY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s46",
+    "title": "The Constellation No Tyrant Can Read",
+    "description": "Rewrites the public pattern of a nation's dissent, refuge, mutual aid, and vulnerable communities so coercive divination sees no stable hierarchy to capture.",
+    "parentGroupIds": [
+      "shelf:star-alteration:wonders"
+    ],
+    "facts": {
+      "originalId": "S46",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 6,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Concealment And Clarity",
+      "doctrine": "ORACLE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 3,
+        "contradiction": 0
+      },
+      "sourceLoad": 21,
+      "calculatedLoad": 21,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S46",
+        "location": "Star Alteration / Wonders / S46"
+      }
+    },
+    "aliases": [
+      "S46"
+    ],
+    "tags": [
+      "Concealment And Clarity",
+      "Wonders",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag3 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Rewrites the public pattern of a nation's dissent, refuge, mutual aid, and vulnerable communities so coercive divination sees no stable hierarchy to capture.",
+      "practice": "Every hidden relation retains rescue, internal memory, voluntary visibility, and a route back into ordinary civic life.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Oppression loses its map, but allies also face uncertainty; false patterns acquire influence and the unrecorded bear more care work.",
+      "failure": "Secrecy becomes permanent government, communities are romanticised as symbols, or the Wonder hides abuse along with resistance.",
+      "safeShedding": "Let the veil thin evenly; do not preserve opacity by erasing friendly recognition.",
+      "counterplay": "Invoke local revelation, follow material support, challenge a false centre, withdraw from the pattern, or expose institutional harm.",
+      "mastery": "Sovereign mastery reveals power before concealment becomes legitimacy and never asks the vulnerable to remain unknowable forever.",
+      "sourceMeta": "WONDERS | CONCEALMENT AND CLARITY | LOAD 21 | PROOF REDIRECTION + UNWEAVING | ORACLE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s47",
+    "title": "Destiny Rewritten",
+    "description": "Allows a nation to escape a civilisation-ending prophecy, inherited curse, cosmic office, or repeating historical catastrophe by opening several genuinely novel futures.",
+    "parentGroupIds": [
+      "shelf:star-alteration:wonders"
+    ],
+    "facts": {
+      "originalId": "S47",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 7,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Relief And Recovery",
+      "doctrine": "MEASURE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S47",
+        "location": "Star Alteration / Wonders / S47"
+      }
+    },
+    "aliases": [
+      "S47"
+    ],
+    "tags": [
+      "Relief And Recovery",
+      "Wonders",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Allows a nation to escape a civilisation-ending prophecy, inherited curse, cosmic office, or repeating historical catastrophe by opening several genuinely novel futures.",
+      "practice": "Survivors, dissenters, descendants, neighbours, the dead, and unknown future people hold incompatible vetoes.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Old destiny becomes a powerful contrary current, present institutions lose certainty, and the new possibilities attract external attention.",
+      "failure": "One alternative hardens into compulsory salvation, rulers label opposition an agent of doom, or the curse shifts to another people.",
+      "safeShedding": "Reduce the number of subjects before relaxing the definition of a safe state.",
+      "counterplay": "Refuse the offered futures, sever the prophecy's witness, preserve an untaken path, introduce radical novelty, or accept part of the foretold loss.",
+      "mastery": "A master makes freedom larger than success and keeps the nation able to choose an unanticipated, less glorious future.",
+      "sourceMeta": "WONDERS | RELIEF AND RECOVERY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s48",
+    "title": "Parliament of Stars",
+    "description": "Creates a national assembly of bounded celestial representatives for regions, peoples, species, institutions, ancestors, travellers, and possible futures.",
+    "parentGroupIds": [
+      "shelf:star-alteration:wonders"
+    ],
+    "facts": {
+      "originalId": "S48",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 8,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Shaped Or Autonomous Effect",
+      "doctrine": "GATE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S48",
+        "location": "Star Alteration / Wonders / S48"
+      }
+    },
+    "aliases": [
+      "S48"
+    ],
+    "tags": [
+      "Shaped Or Autonomous Effect",
+      "Wonders",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Creates a national assembly of bounded celestial representatives for regions, peoples, species, institutions, ancestors, travellers, and possible futures.",
+      "practice": "No star may claim a whole category, silence has standing, every orbit expires, and human institutions retain final responsibility.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Representation creates sympathy, political decisions influence cosmic relations, and distant powers learn how the nation understands itself.",
+      "failure": "Brilliant stars dominate, invented futures vote over living people, or the Parliament alters constituents to simplify representation.",
+      "safeShedding": "Collapse Agency into a simple path, then dismiss the shape cleanly.",
+      "counterplay": "Challenge a seat, invoke darkness, change a relation, dissolve an orbit, or refuse celestial translation.",
+      "mastery": "A master protects nonrepresentation and keeps the Parliament advisory enough that politics remains a human burden.",
+      "sourceMeta": "WONDERS | SHAPED OR AUTONOMOUS EFFECT | LOAD 22 | PROOF ANCHORING + UNWEAVING | GATE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s49",
+    "title": "The World-Nail",
+    "description": "Anchors a continent's orientation, seasons, dimensional position, true names, and principal correspondences to one enormous revisable reference.",
+    "parentGroupIds": [
+      "shelf:star-alteration:wonders"
+    ],
+    "facts": {
+      "originalId": "S49",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 9,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Infrastructure",
+      "doctrine": "MEASURE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S49",
+        "location": "Star Alteration / Wonders / S49"
+      }
+    },
+    "aliases": [
+      "S49"
+    ],
+    "tags": [
+      "Infrastructure",
+      "Wonders",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Anchors a continent's orientation, seasons, dimensional position, true names, and principal correspondences to one enormous revisable reference.",
+      "practice": "Independent custodians hold geography, time, soul, ecology, magic, and the lawful removal of the Nail.",
+      "proof": "ANCHORING + UNWEAVING",
+      "consequence": "Stability becomes dependency, distant powers gain a target, and everything outside the reference accumulates relational stress.",
+      "failure": "The Nail privileges an old world, arrests legitimate change, or tears reality when custodians disagree after generations.",
+      "safeShedding": "Enter a stable idle state and release Span before an anchor begins storing uncontrolled debt.",
+      "counterplay": "Shift a custodian, create a rival reference, sever one correspondence, introduce continental motion, or begin lawful removal.",
+      "mastery": "Sovereign mastery leaves the world slightly mobile and spends stability before the Nail can turn contingency into cosmic law.",
+      "sourceMeta": "WONDERS | INFRASTRUCTURE | LOAD 22 | PROOF ANCHORING + UNWEAVING | MEASURE LENS"
+    }
+  },
+  {
+    "id": "spell:star-alteration:s50",
+    "title": "A New Constellation for Humankind",
+    "description": "Offers civilisation a shared celestial pattern for communication, migration, mutual warning, chosen kinship, and responsibility across worlds without imposing one empire or fate.",
+    "parentGroupIds": [
+      "shelf:star-alteration:wonders"
+    ],
+    "facts": {
+      "originalId": "S50",
+      "collectionId": "collection:star-alteration",
+      "collectionTitle": "Star Alteration",
+      "collectionType": "foundational",
+      "shelf": "Wonders",
+      "shelfPosition": 10,
+      "aspectIds": [
+        "aspect:star"
+      ],
+      "schoolIds": [
+        "school:alteration"
+      ],
+      "streamIds": [
+        "stream:star-alteration"
+      ],
+      "functionTag": "Culture And Anomaly",
+      "doctrine": "ORACLE LENS",
+      "carrier": "institution, unique site, and debt plan.",
+      "scale": "Wonders",
+      "tension": {
+        "threads": 1,
+        "turns": 1,
+        "knots": 4,
+        "span": 4,
+        "hold": 4,
+        "fineness": 4,
+        "agency": 4,
+        "contradiction": 0
+      },
+      "sourceLoad": 22,
+      "calculatedLoad": 22,
+      "provenance": {
+        "document": "Panmagicon_Star_Void_Spellbook.docx",
+        "collectionId": "collection:star-alteration",
+        "originalId": "S50",
+        "location": "Star Alteration / Wonders / S50"
+      }
+    },
+    "aliases": [
+      "S50"
+    ],
+    "tags": [
+      "Culture And Anomaly",
+      "Wonders",
+      "Alteration"
+    ],
+    "sources": [
+      {
+        "id": "panmagicon-star-void-spellbook",
+        "title": "Panmagicon Star Void Spellbook"
+      }
+    ],
+    "status": "documented",
+    "content": {
+      "formula": "Star 4 | Alteration | Th1 Tu1 Kn4 Sp4 Ho4 Fi4 Ag4 Co0 | Carrier: institution, unique site, and debt plan.",
+      "purpose": "Offers civilisation a shared celestial pattern for communication, migration, mutual warning, chosen kinship, and responsibility across worlds without imposing one empire or fate.",
+      "practice": "Cultures, nonhuman persons, isolated peoples, future descendants, and the right to remain outside are built into the founding relation.",
+      "proof": "REDIRECTION + UNWEAVING",
+      "consequence": "Humanity becomes visible as one pattern, local differences gain new links, and unknown powers may answer the declaration.",
+      "failure": "Unity erases dissent, the constellation defines who counts as human, or a beautiful future becomes an inherited command.",
+      "safeShedding": "End spectacle, symbolism, and audience effects before loosening safety Knots.",
+      "counterplay": "Refuse membership, create parallel constellations, change the name, close reciprocity, or let the pattern fragment.",
+      "mastery": "The supreme alterer preserves darkness between the stars, allowing connection without making a single shape the final meaning of humanity.",
+      "sourceMeta": "WONDERS | CULTURE AND ANOMALY | LOAD 22 | PROOF REDIRECTION + UNWEAVING | ORACLE LENS"
+    }
+  }
+]

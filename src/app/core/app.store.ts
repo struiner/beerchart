@@ -204,6 +204,18 @@ export class AppStore {
               : []),
             {
               kind: 'entity-list' as const,
+              id: 'groups',
+              title: this.module.vocabulary.groupPlural,
+              entityKind: 'group' as const,
+              items: (related.linkedGroupIds ?? []).flatMap((groupId) => {
+                const group = this.indexes.groupById.get(groupId);
+                return group
+                  ? [{ id: group.id, title: group.title, description: group.description }]
+                  : [];
+              }),
+            },
+            {
+              kind: 'entity-list' as const,
               id: 'entries',
               title: this.module.vocabulary.entryPlural,
               entityKind: 'entry' as const,

@@ -859,5 +859,188 @@ export const contentBundle = {
       }
     ]
   },
-  "media": {}
+  "media": {},
+  "relatedEntities": [
+    {
+      "id": "species:snowy-owl",
+      "title": "Snowy owl",
+      "description": "Bubo scandiacus",
+      "linkedEntryIds": [
+        "ecoregion:687"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa35"
+      ]
+    },
+    {
+      "id": "species:saiga-antelope",
+      "title": "Saiga antelope",
+      "description": "Saiga tatarica",
+      "linkedEntryIds": [
+        "ecoregion:732"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa34"
+      ]
+    },
+    {
+      "id": "species:corsac-fox",
+      "title": "Corsac fox",
+      "description": "Vulpes corsac",
+      "linkedEntryIds": [
+        "ecoregion:732"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa34"
+      ]
+    },
+    {
+      "id": "species:steppe-eagle",
+      "title": "Steppe eagle",
+      "description": "Aquila nipalensis",
+      "linkedEntryIds": [
+        "ecoregion:732",
+        "ecoregion:733"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa34"
+      ]
+    },
+    {
+      "id": "species:saker-falcon",
+      "title": "Saker falcon",
+      "description": "Falco cherrug",
+      "linkedEntryIds": [
+        "ecoregion:731"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:sociable-lapwing",
+      "title": "Sociable lapwing",
+      "description": "Vanellus gregarius",
+      "linkedEntryIds": [
+        "ecoregion:732"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa34"
+      ]
+    },
+    {
+      "id": "species:goitered-gazelle",
+      "title": "Goitered gazelle",
+      "description": "Gazella subgutturosa",
+      "linkedEntryIds": [
+        "ecoregion:733"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa34"
+      ]
+    },
+    {
+      "id": "species:argali",
+      "title": "Argali",
+      "description": "Ovis ammon",
+      "linkedEntryIds": [
+        "ecoregion:732",
+        "ecoregion:733"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa34"
+      ]
+    },
+    {
+      "id": "species:kazakh-pika",
+      "title": "Kazakh pika",
+      "description": "Ochotona opaca",
+      "linkedEntryIds": [
+        "ecoregion:733"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:marbled-polecat",
+      "title": "Marbled polecat",
+      "description": "Vormela peregusna",
+      "linkedEntryIds": [
+        "ecoregion:733"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:siberian-roe-deer",
+      "title": "Siberian roe deer",
+      "description": "Capreolus pygargus",
+      "linkedEntryIds": [
+        "ecoregion:687",
+        "ecoregion:731"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa35"
+      ]
+    },
+    {
+      "id": "species:yellow-breasted-bunting",
+      "title": "Yellow-breasted bunting",
+      "description": "Emberiza aureola",
+      "linkedEntryIds": [
+        "ecoregion:687",
+        "ecoregion:731"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa35"
+      ]
+    },
+    {
+      "id": "species:siberian-lime",
+      "title": "Siberian lime",
+      "description": "Tilia sibirica",
+      "linkedEntryIds": [
+        "ecoregion:687"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa35"
+      ]
+    },
+    {
+      "id": "species:demoiselle-crane",
+      "title": "Demoiselle crane",
+      "description": "Grus virgo",
+      "linkedEntryIds": [
+        "ecoregion:687"
+      ],
+      "linkedGroupIds": [
+        "bioregion:pa35"
+      ]
+    },
+    {
+      "id": "country:RU",
+      "title": "Russia",
+      "description": "ISO 3166-1 alpha-2: RU",
+      "linkedEntryIds": [
+        "ecoregion:687",
+        "ecoregion:731",
+        "ecoregion:732"
+      ],
+      "linkedGroupIds": [
+        "subrealm:kazakh-steppes-hemiboreal-forests",
+        "bioregion:pa34",
+        "bioregion:pa35"
+      ]
+    },
+    {
+      "id": "country:KZ",
+      "title": "Kazakhstan",
+      "description": "ISO 3166-1 alpha-2: KZ",
+      "linkedEntryIds": [
+        "ecoregion:731",
+        "ecoregion:732",
+        "ecoregion:733"
+      ],
+      "linkedGroupIds": [
+        "subrealm:kazakh-steppes-hemiboreal-forests",
+        "bioregion:pa34"
+      ]
+    }
+  ]
 } as const satisfies TaxonomyContentBundle;

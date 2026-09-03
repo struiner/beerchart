@@ -2872,5 +2872,686 @@ export const contentBundle = {
       }
     ]
   },
-  "media": {}
+  "media": {},
+  "relatedEntities": [
+    {
+      "id": "species:i-iwi",
+      "title": "'I'iwi (scarlet honeycreeper)",
+      "description": "Drepanis coccinea",
+      "linkedEntryIds": [
+        "ecoregion:623"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:ohia-lehua",
+      "title": "'Ōhi'a lehua",
+      "description": "Metrosideros polymorpha",
+      "linkedEntryIds": [
+        "ecoregion:623"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:koa",
+      "title": "Koa",
+      "description": "Acacia koa",
+      "linkedEntryIds": [
+        "ecoregion:623"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:loulu-palm",
+      "title": "Loulu fan palm",
+      "description": "Pritchardia spp.",
+      "linkedEntryIds": [
+        "ecoregion:623"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:palila",
+      "title": "Palila",
+      "description": "Loxioides bailleui",
+      "linkedEntryIds": [
+        "ecoregion:636",
+        "ecoregion:639"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:kokia-cookei",
+      "title": "Moloka'i tree cotton",
+      "description": "Kokia cookei",
+      "linkedEntryIds": [
+        "ecoregion:636"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:blackburns-sphinx-moth",
+      "title": "Blackburn's sphinx moth",
+      "description": "Manduca blackburni",
+      "linkedEntryIds": [
+        "ecoregion:636"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:hawaiian-hoary-bat",
+      "title": "Hawaiian hoary bat",
+      "description": "Lasiurus semotus",
+      "linkedEntryIds": [
+        "ecoregion:636"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:hawaiian-silversword",
+      "title": "Hawaiian silversword",
+      "description": "Argyroxiphium sandwicense",
+      "linkedEntryIds": [
+        "ecoregion:639"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:nene",
+      "title": "Nene",
+      "description": "Branta sandvicensis",
+      "linkedEntryIds": [
+        "ecoregion:639"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:ohai",
+      "title": "'Ōhai",
+      "description": "Sesbania tomentosa",
+      "linkedEntryIds": [
+        "ecoregion:640"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:mao-hau-hele",
+      "title": "Ma'o hau hele",
+      "description": "Hibiscus brackenridgei",
+      "linkedEntryIds": [
+        "ecoregion:640"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:laysan-albatross",
+      "title": "Laysan albatross",
+      "description": "Phoebastria immutabilis",
+      "linkedEntryIds": [
+        "ecoregion:640"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:laysan-finch",
+      "title": "Laysan finch",
+      "description": "Telespiza cantans",
+      "linkedEntryIds": [
+        "ecoregion:641"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:laysan-duck",
+      "title": "Laysan duck",
+      "description": "Anas laysanensis",
+      "linkedEntryIds": [
+        "ecoregion:641"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:nihoa-millerbird",
+      "title": "Nihoa Millerbird",
+      "description": "Acrocephalus familiaris kingi",
+      "linkedEntryIds": [
+        "ecoregion:641"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:pritchardia-remota",
+      "title": "Nihoa loulu",
+      "description": "Pritchardia remota",
+      "linkedEntryIds": [
+        "ecoregion:641"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:hawaiian-monk-seal",
+      "title": "Hawaiian monk seal",
+      "description": "Neomonachus schauinslandi",
+      "linkedEntryIds": [
+        "ecoregion:641"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:marquesan-kingfisher",
+      "title": "Marquesan kingfisher",
+      "description": "Todiramphus godeffroyi",
+      "linkedEntryIds": [
+        "ecoregion:625"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc2"
+      ]
+    },
+    {
+      "id": "species:ultramarine-lory",
+      "title": "Ultramarine lory",
+      "description": "Vini ultramarina",
+      "linkedEntryIds": [
+        "ecoregion:625"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc2"
+      ]
+    },
+    {
+      "id": "species:nuku-hiva-pigeon",
+      "title": "Nuku Hiva pigeon",
+      "description": "Ducula galeata",
+      "linkedEntryIds": [
+        "ecoregion:625"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc2"
+      ]
+    },
+    {
+      "id": "species:pelagodoxa-henryana",
+      "title": "Marquesan endemic palm (Pelagodoxa)",
+      "description": "Pelagodoxa henryana",
+      "linkedEntryIds": [
+        "ecoregion:625"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:blue-lorikeet",
+      "title": "Blue lorikeet",
+      "description": "Vini peruviana",
+      "linkedEntryIds": [
+        "ecoregion:620"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc3"
+      ]
+    },
+    {
+      "id": "species:kuhls-lorikeet",
+      "title": "Kuhl's lorikeet (Rimatara lorikeet)",
+      "description": "Vini kuhlii",
+      "linkedEntryIds": [
+        "ecoregion:620",
+        "ecoregion:619"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc3",
+        "bioregion:oc4"
+      ]
+    },
+    {
+      "id": "species:rarotonga-monarch",
+      "title": "Rarotonga monarch",
+      "description": "Pomarea dimidiata",
+      "linkedEntryIds": [
+        "ecoregion:620"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:atiu-swiftlet",
+      "title": "Atiu swiftlet",
+      "description": "Collocalia sawtelli",
+      "linkedEntryIds": [
+        "ecoregion:620"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:mangaia-kingfisher",
+      "title": "Mangaia kingfisher",
+      "description": "Todiramphus ruficollis",
+      "linkedEntryIds": [
+        "ecoregion:620"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:tahiti-monarch",
+      "title": "Tahiti monarch",
+      "description": "Pomarea nigra",
+      "linkedEntryIds": [
+        "ecoregion:630"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc3"
+      ]
+    },
+    {
+      "id": "species:society-islands-pigeon",
+      "title": "Society Islands pigeon",
+      "description": "Ducula aurorae",
+      "linkedEntryIds": [
+        "ecoregion:630"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:tahiti-swiftlet",
+      "title": "Tahiti swiftlet",
+      "description": "Aerodramus leucophaeus",
+      "linkedEntryIds": [
+        "ecoregion:630"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:mangareva-kingfisher",
+      "title": "Mangareva kingfisher",
+      "description": "Todiramphus gambieri",
+      "linkedEntryIds": [
+        "ecoregion:632"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc3"
+      ]
+    },
+    {
+      "id": "species:niau-kingfisher",
+      "title": "Niau kingfisher",
+      "description": "Todiramphus gertrudae",
+      "linkedEntryIds": [
+        "ecoregion:632"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:henderson-lory",
+      "title": "Henderson lory",
+      "description": "Vini stepheni",
+      "linkedEntryIds": [
+        "ecoregion:632"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:henderson-fruit-dove",
+      "title": "Henderson Island fruit dove",
+      "description": "Ptilinopus insularis",
+      "linkedEntryIds": [
+        "ecoregion:632"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:tuamotu-sandpiper",
+      "title": "Tuamotu sandpiper",
+      "description": "Prosobonia cancellata",
+      "linkedEntryIds": [
+        "ecoregion:632"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:bokikokiko-reed-warbler",
+      "title": "Bokikokiko reed warbler",
+      "description": "Acrocephalus aequinoctialis",
+      "linkedEntryIds": [
+        "ecoregion:619"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc4"
+      ]
+    },
+    {
+      "id": "species:coconut-crab",
+      "title": "Coconut crab",
+      "description": "Birgus latro",
+      "linkedEntryIds": [
+        "ecoregion:619",
+        "ecoregion:634"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc4"
+      ]
+    },
+    {
+      "id": "species:red-tailed-tropicbird",
+      "title": "Red-tailed tropicbird",
+      "description": "Phaethon rubricauda",
+      "linkedEntryIds": [
+        "ecoregion:619"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:many-colored-fruit-dove",
+      "title": "Many-colored fruit dove",
+      "description": "Ptilinopus perousii",
+      "linkedEntryIds": [
+        "ecoregion:629"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc5"
+      ]
+    },
+    {
+      "id": "species:manumea",
+      "title": "Manumea (tooth-billed pigeon)",
+      "description": "Didunculus strigirostris",
+      "linkedEntryIds": [
+        "ecoregion:629"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc5"
+      ]
+    },
+    {
+      "id": "species:maomao-honeyeater",
+      "title": "Mao (ma'oma'o) honeyeater",
+      "description": "Gymnomyza samoensis",
+      "linkedEntryIds": [
+        "ecoregion:629"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:samoan-flying-fox",
+      "title": "Samoan flying fox",
+      "description": "Pteropus samoensis",
+      "linkedEntryIds": [
+        "ecoregion:629"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:pacific-imperial-pigeon",
+      "title": "Pacific imperial pigeon",
+      "description": "Ducula pacifica",
+      "linkedEntryIds": [
+        "ecoregion:634"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc5"
+      ]
+    },
+    {
+      "id": "species:long-tailed-cuckoo",
+      "title": "Long-tailed cuckoo",
+      "description": "Urodynamis taitensis",
+      "linkedEntryIds": [
+        "ecoregion:634"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:fiji-crested-iguana",
+      "title": "Fiji crested iguana",
+      "description": "Brachylophus vitiensis",
+      "linkedEntryIds": [
+        "ecoregion:635"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc6"
+      ]
+    },
+    {
+      "id": "species:fiji-banded-iguana",
+      "title": "Fiji banded iguana",
+      "description": "Brachylophus fasciatus",
+      "linkedEntryIds": [
+        "ecoregion:631",
+        "ecoregion:635"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:taveuni-orange-dove",
+      "title": "Taveuni orange dove",
+      "description": "Ptilinopus victor",
+      "linkedEntryIds": [
+        "ecoregion:622"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc6"
+      ]
+    },
+    {
+      "id": "species:fiji-golden-dove",
+      "title": "Fiji golden dove",
+      "description": "Ptilinopus luteovirens",
+      "linkedEntryIds": [
+        "ecoregion:622"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:masked-shining-parrot",
+      "title": "Masked shining parrot",
+      "description": "Prosopeia personata",
+      "linkedEntryIds": [
+        "ecoregion:622"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:taveuni-silktail",
+      "title": "Taveuni silktail",
+      "description": "Lamprolia victoriae",
+      "linkedEntryIds": [
+        "ecoregion:622"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:tongan-whistler",
+      "title": "Tongan whistler",
+      "description": "Pachycephala jacquinoti",
+      "linkedEntryIds": [
+        "ecoregion:631"
+      ],
+      "linkedGroupIds": [
+        "bioregion:oc6"
+      ]
+    },
+    {
+      "id": "species:tongan-megapode",
+      "title": "Tongan megapode",
+      "description": "Megapodius pritchardii",
+      "linkedEntryIds": [
+        "ecoregion:631"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:kermadec-pohutukawa",
+      "title": "Kermadec pōhutukawa",
+      "description": "Metrosideros kermadecensis",
+      "linkedEntryIds": [
+        "ecoregion:624"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:kermadec-red-crowned-parakeet",
+      "title": "Kermadec red-crowned parakeet",
+      "description": "Cyanoramphus novaezelandiae cyanurus",
+      "linkedEntryIds": [
+        "ecoregion:624"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:poor-knights-lily",
+      "title": "Poor Knights lily",
+      "description": "Xeronema callistemon",
+      "linkedEntryIds": [
+        "ecoregion:624"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:fiji-cycad",
+      "title": "Fijian cycad",
+      "description": "Cycas seemannii",
+      "linkedEntryIds": [
+        "ecoregion:635"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "country:CL",
+      "title": "Chile",
+      "description": "ISO 3166-1 alpha-2: CL",
+      "linkedEntryIds": [
+        "ecoregion:628"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "subrealm:oceanic-islands",
+        "bioregion:oc1"
+      ]
+    },
+    {
+      "id": "country:CK",
+      "title": "Cook Islands",
+      "description": "ISO 3166-1 alpha-2: CK",
+      "linkedEntryIds": [
+        "ecoregion:620"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "bioregion:oc3"
+      ]
+    },
+    {
+      "id": "country:PF",
+      "title": "French Polynesia",
+      "description": "ISO 3166-1 alpha-2: PF",
+      "linkedEntryIds": [
+        "ecoregion:625",
+        "ecoregion:630",
+        "ecoregion:632",
+        "ecoregion:633"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "bioregion:oc2",
+        "bioregion:oc3"
+      ]
+    },
+    {
+      "id": "country:PN",
+      "title": "Pitcairn Islands",
+      "description": "ISO 3166-1 alpha-2: PN",
+      "linkedEntryIds": [
+        "ecoregion:632"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "bioregion:oc3"
+      ]
+    },
+    {
+      "id": "country:KI",
+      "title": "Kiribati",
+      "description": "ISO 3166-1 alpha-2: KI",
+      "linkedEntryIds": [
+        "ecoregion:619",
+        "ecoregion:634"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "bioregion:oc4",
+        "bioregion:oc5"
+      ]
+    },
+    {
+      "id": "country:WS",
+      "title": "Samoa",
+      "description": "ISO 3166-1 alpha-2: WS",
+      "linkedEntryIds": [
+        "ecoregion:629"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "bioregion:oc5"
+      ]
+    },
+    {
+      "id": "country:AS",
+      "title": "American Samoa",
+      "description": "ISO 3166-1 alpha-2: AS",
+      "linkedEntryIds": [
+        "ecoregion:629"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "bioregion:oc5"
+      ]
+    },
+    {
+      "id": "country:FJ",
+      "title": "Fiji",
+      "description": "ISO 3166-1 alpha-2: FJ",
+      "linkedEntryIds": [
+        "ecoregion:622",
+        "ecoregion:635"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "bioregion:oc6"
+      ]
+    },
+    {
+      "id": "country:TO",
+      "title": "Tonga",
+      "description": "ISO 3166-1 alpha-2: TO",
+      "linkedEntryIds": [
+        "ecoregion:631"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "bioregion:oc6"
+      ]
+    },
+    {
+      "id": "country:WF",
+      "title": "Wallis and Futuna",
+      "description": "ISO 3166-1 alpha-2: WF",
+      "linkedEntryIds": [
+        "ecoregion:622"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "bioregion:oc6"
+      ]
+    },
+    {
+      "id": "country:NU",
+      "title": "Niue",
+      "description": "ISO 3166-1 alpha-2: NU",
+      "linkedEntryIds": [
+        "ecoregion:631"
+      ],
+      "linkedGroupIds": [
+        "realm:oceania",
+        "bioregion:oc6"
+      ]
+    }
+  ]
 } as const satisfies TaxonomyContentBundle;

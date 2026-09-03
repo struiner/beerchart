@@ -177,5 +177,16 @@ export const contentBundle = {
         "y": 0.5
       }
     }
-  }
+  },
+  "relatedEntities": [
+    {
+      "id": "country:JP",
+      "title": "Japan",
+      "description": "ISO 3166-1 alpha-2: JP",
+      "linkedEntryIds": [
+        "ecoregion:682"
+      ],
+      "linkedGroupIds": []
+    }
+  ]
 } as const satisfies TaxonomyContentBundle;
