@@ -14297,4 +14297,3205 @@ export const ecoregionEnrichment: readonly EcologicalEnrichment[] = [
     sources: ['one-earth-eco-29'],
     status: 'authored',
   },
+  {
+    targetId: 'ecoregion:1',
+    summary: {
+      value:
+        'The Albertine Rift Montane Forests contain the highest levels of faunal endemism in Africa and harbour the mountain gorilla, one of the rarest animals in Africa. The ecoregion comprises a major mountain range running from the Lendu Plateau in DR Congo northward through mountains on the Uganda-eastern DR Congo border into western Rwanda and Burundi, and to isolated massifs in Tanzania and DR Congo on either side of Lake Tanganyika.',
+      sourceIds: ['one-earth-eco-1'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'major mountain range running from the Lendu Plateau in DR Congo in the north',
+        'mountains along the Uganda and eastern DR Congo border into western Rwanda and Burundi',
+        'isolated massifs in Tanzania and DR Congo on either side of Lake Tanganyika',
+        'protected areas including Bwindi-Impenetrable, Mgahinga Gorilla, Virunga, Kahuzi-Biega, Nyungwe, Kibale, and Volcanoes National Parks',
+      ],
+      sourceIds: ['one-earth-eco-1'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Temperate (montane) climate; average rainfall typically between 1,200 and 2,200 mm per annum, reaching about 3,000 mm per annum on the western slope of the Rwenzori.',
+        annualPrecipitationMm: { min: 1200, max: 3000 },
+      },
+      sourceIds: ['one-earth-eco-1'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'montane rainforest grading into bamboo and alpine zones with elevation',
+        'designated an Endemic Bird Area by BirdLife International for its bird assemblage',
+        'exceptional amphibian endemism with 34 strict endemic species',
+        'endemic mammalian community containing 34 strictly endemic species',
+      ],
+      sourceIds: ['one-earth-eco-1'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'highest levels of faunal endemism in Africa concentrated along the Albertine Rift',
+        'elevational zonation creating distinct montane habitat bands',
+        'mountain gorilla and other large primates relying on intact montane forest',
+        'isolated massifs around Lake Tanganyika acting as refugia for endemic species',
+      ],
+      sourceIds: ['one-earth-eco-1'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 3 against a conservation target of 46%. Protected areas include Bwindi-Impenetrable, Mgahinga Gorilla, Virunga, Kahuzi-Biega, Nyungwe, Kibale, and Volcanoes National Parks. Threats include agriculture clearance at the highest rural population density in Africa (roughly 1,000 people per km\u00B2), bushmeat hunting, firewood and charcoal collection, exotic species invasion, mining for coltan, oil exploration, and conflict impacts. Priority actions are establishing and refurbishing post-war parks, supporting sustainable livelihoods, and continuing Itombwe Massif zoning.',
+      sourceIds: ['one-earth-eco-1'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:mountain-gorilla',
+      'species:golden-monkey',
+      'species:owl-faced-monkey',
+      'species:ruwenzori-duiker',
+      'species:loests-monkey',
+      'species:ruwenzori-turaco',
+      'species:ruwenzori-otter-shrew',
+    ],
+    countryIds: ['CD', 'UG', 'BI', 'RW', 'TZ'],
+    sources: ['one-earth-eco-1'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:61',
+    summary: {
+      value:
+        'Centered on Lake Victoria, the largest freshwater lake in Africa, this ecoregion encompasses most of south-central Uganda, the eastern half of Rwanda, and extends marginally into Tanzania, Burundi, DR Congo, and Kenya. Its tropical humid savanna climate supports a species-rich avifauna, while Kibale forest is among the most primate-rich forests in Africa, supporting twelve species.',
+      sourceIds: ['one-earth-eco-61'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'centered on Lake Victoria, the largest freshwater lake in Africa and the second largest in the world by surface area',
+        'encompasses most of south-central Uganda and the eastern half of Rwanda',
+        'extends marginally into Tanzania, Burundi, DR Congo, and Kenya',
+        'includes Queen Elizabeth, Virunga, Lake Mburo, Murchison Falls, Akagera National Parks and Saiwa Swamp',
+      ],
+      sourceIds: ['one-earth-eco-61'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical humid savanna with annual mean maximum temperatures ranging from 24\u00B0 to 27\u00B0C and mean minimum temperatures ranging from 15\u00B0 to 18\u00B0C.',
+        annualPrecipitationMm: { min: 1000, max: 2000 },
+        temperatureC: { min: 15, max: 27 },
+      },
+      sourceIds: ['one-earth-eco-61'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'forest-savanna mosaic surrounding Lake Victoria',
+        'Papyrus swamp vegetation supporting the two strict endemic bird species',
+        'species-rich but limited avifauna with only two strict endemic species',
+        'primate-rich forest such as Kibale with twelve species',
+      ],
+      sourceIds: ['one-earth-eco-61'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Lake Victoria formed by tectonic uplift of the eastern and western rifts',
+        'lake supporting the livelihoods of roughly 30 million people through irrigated agriculture and fishing',
+        'Papyrus swamps sustaining endemic bird species',
+        'irrigated agriculture and riverine corridors linking forest and savanna habitats',
+      ],
+      sourceIds: ['one-earth-eco-61'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 8 against a conservation target of 13%. Protected areas include Queen Elizabeth, Virunga, Lake Mburo, Murchison Falls, and Akagera National Parks and Saiwa Swamp. Threats include refugee and pastoralist encroachment, unsustainable fishing, wetland clearance, agricultural intensification, and war impacts. Priority actions are supporting sustainable natural resource use, community-based ecological corridor restoration, and anti-poaching ranger deployment.',
+      sourceIds: ['one-earth-eco-61'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:papyrus-canary',
+      'species:foxs-weaver',
+      'species:shoebill',
+      'species:giraffe',
+      'species:african-elephant',
+    ],
+    countryIds: ['UG', 'RW', 'TZ', 'CD', 'BI', 'KE'],
+    sources: ['one-earth-eco-61'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:86',
+    summary: {
+      value:
+        'The Rwenzori-Virunga Montane Moorlands occupy the high-elevation portions, above 3,000 m, of the Rwenzori and Virunga Mountains, whose summit reaches 5,108 m at Margherita Peak, Africa\u2019s third tallest. These Afroalpine moorlands feature giant heathers, groundsels, ericas, and lobelias, with fourteen plant species strictly endemic to the Rwenzoris and five to the Virungas.',
+      sourceIds: ['one-earth-eco-86'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'high-elevation portions (above 3,000 m) of the Rwenzori and Virunga Mountains',
+        'Rwenzori range along the borders of southwestern Uganda and DR Congo',
+        'Virunga mountains at the borders of Rwanda, DR Congo, and Uganda',
+        'protected areas including Mgahinga Gorilla, Rwenzori Mountains, Volcanoes, and Virunga National Parks',
+      ],
+      sourceIds: ['one-earth-eco-86'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Afroalpine climate with temperatures varying daily from freezing to above freezing, and high rainfall associated with persistent cloud cover.',
+      },
+      sourceIds: ['one-earth-eco-86'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Afroalpine moorlands adapted to harsh climatic conditions',
+        'giant heathers, groundsels, ericas, and lobelias, some endemic',
+        'fourteen plant species strictly endemic to the Rwenzoris',
+        'five plant species strictly endemic to the Virungas',
+      ],
+      sourceIds: ['one-earth-eco-86'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'part of the Afroalpine archipelago-like region of extreme floristic impoverishment with high rates of endemism',
+        'altitudinal zonation above 3,000 m shaping moorland vegetation',
+        'giant rosette plants adapted to daily freeze-thaw cycles',
+        'border habitats occasionally used by mountain gorilla populations',
+      ],
+      sourceIds: ['one-earth-eco-86'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 10 against a conservation target of 100%. Protected areas include Mgahinga Gorilla, Rwenzori Mountains, Volcanoes, and Virunga National Parks, all part of World Heritage sites or biosphere reserves. Threats include encroachment, illegal wood and bamboo cutting, feral dogs, agricultural and pastoral activities on park borders, exotic plant invasion, and human-induced fire. Priority actions are promoting community conservation enterprises, improving cross-border law enforcement, and re-initiating sustainable ecotourism.',
+      sourceIds: ['one-earth-eco-86'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:rwenzori-black-fronted-duiker',
+      'species:stuhlmans-double-collared-sunbird',
+      'species:mountain-gorilla',
+    ],
+    countryIds: ['CD', 'UG', 'RW'],
+    sources: ['one-earth-eco-86'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:11',
+    summary: {
+      value:
+        'The Eastern Guinean Forests extend from the east banks of the Sassandra River in western Côte d\u2019Ivoire to the edge of Lake Volta in Ghana, with a small extension east of Lake Volta in the Togo Hills. Known by local people as \u201cmessengers of God,\u201d the king colobus monkey inhabits this ecoregion but only to the east of the Sassandra River. Four small mammals are strictly endemic here, including Wimmer\u2019s shrew, and the ecoregion supports around 120 endemic butterfly species.',
+      sourceIds: ['one-earth-eco-11'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'extends from the east banks of the Sassandra River in western Côte d\u2019Ivoire to the edge of Lake Volta in Ghana',
+        'small extension east of Lake Volta in the Togo Hills',
+        'protected areas include Kakum National Park, Bia National Park, Marahoué National Park, and Comoé National Park',
+        'numerous sacred groves across the region',
+      ],
+      sourceIds: ['one-earth-eco-11'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with annual rainfall of 1,500\u20132,500 mm and extreme temperatures ranging from 10\u00b0 to 43\u00b0C.',
+        annualPrecipitationMm: { min: 1500, max: 2500 },
+        temperatureC: { min: 10, max: 43 },
+      },
+      sourceIds: ['one-earth-eco-11'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'tropical lowland and transitional moist forests',
+        'guineo-congolian rainforest dominated forest cover',
+        'forest-savanna transition along the eastern margins',
+        'sacred groves retaining remnant native forest',
+      ],
+      sourceIds: ['one-earth-eco-11'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'king colobus monkey movements between treetops and ground as a habitual behaviour between the trees and the ground',
+        'high endemism with four strictly endemic small mammals and roughly 120 endemic butterfly species',
+        'west-east transition from guineo-congolian forest to drier forest-savanna vegetation',
+        'large mammal assemblages including pygmy hippopotamus and African forest elephant',
+      ],
+      sourceIds: ['one-earth-eco-11'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 10 against a conservation target of 23%. Protected areas include Kakum NP, Bia NP, Marahoué NP, and Comoé NP, along with numerous sacred groves. Threats include slash-and-burn agriculture for cocoa and coffee, commercial logging, bushmeat hunting, and urban expansion. Priority actions are upgrading managed areas to national parks, developing forest management plans, and supporting alternative livelihoods.',
+      sourceIds: ['one-earth-eco-11'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:king-colobus',
+      'species:wimmers-shrew',
+      'species:african-elephant',
+    ],
+    countryIds: ['BJ', 'CI', 'GH', 'TG'],
+    sources: ['one-earth-eco-11'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:14',
+    summary: {
+      value:
+        'The Guinean Montane Forests consist of an array of peaks and plateaus at high elevations, distinguishable against a backdrop of surrounding lowland forests and savannas. Bintumani Peak on Loma Mountain (1,947 m) is the highest peak west of Mount Cameroon, and most major rivers in West Africa have their origins within this ecoregion. Within it, 35 endemic plants including 11 paleoendemics have been recorded, with studies of the Loma Mountains cataloguing 1,576 plant species, nine of them endemic.',
+      sourceIds: ['one-earth-eco-14'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'array of peaks and plateaus at high elevations distinguishable against lowland forests and savannas',
+        'Bintumani Peak on Loma Mountain at 1,947 m, the highest peak west of Mount Cameroon',
+        'sources of most major West African rivers within the ecoregion',
+        'protected areas include Mount Nimba Strict Nature Reserve, a World Heritage Site',
+      ],
+      sourceIds: ['one-earth-eco-14'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Montane tropical climate with annual rainfall of 1,600\u20132,400 mm and temperatures ranging from 10\u00b0 to 33\u00b0C.',
+        annualPrecipitationMm: { min: 1600, max: 2400 },
+        temperatureC: { min: 10, max: 33 },
+      },
+      sourceIds: ['one-earth-eco-14'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Guinean montane forests of peaks and plateaus above surrounding lowlands',
+        '35 endemic plants recorded, including 11 paleoendemics',
+        'nine endemic plant species catalogued in Loma Mountains studies',
+        'high-elevation forest and associated montane flora',
+      ],
+      sourceIds: ['one-earth-eco-14'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'orographic rainfall from the highest peaks west of Mount Cameroon feeding West African river systems',
+        'exceptional plant endemicity with 35 endemic plants and 11 paleoendemics',
+        'endemic small mammals including the Mount Nimba otter shrew and two white-toothed shrew species',
+        'montane refugia supporting western chimpanzee, leopard, and the white-eyed prinia',
+      ],
+      sourceIds: ['one-earth-eco-14'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 9 against a conservation target of 38%. Protected areas include Mount Nimba Strict Nature Reserve, a World Heritage Site, Loma Mountains National Park, and the Massif du Ziama biosphere reserve. Threats include iron ore mining on Mount Nimba, fires, deforestation for agriculture, and the impacts of civil war. Priority actions are increasing investment in protected areas, conducting ecological investigations, and developing management plans that engage communities.',
+      sourceIds: ['one-earth-eco-14'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:mount-nimba-otter-shrew',
+      'species:white-eyed-prinia',
+      'species:western-chimpanzee',
+    ],
+    countryIds: ['CI', 'GN', 'LR', 'SL'],
+    sources: ['one-earth-eco-14'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:30',
+    summary: {
+      value:
+        'The Western Guinean Lowland Forests extend across four African countries and are inhabited by an impressive variety of species, many strictly endemic. The ecoregion covers one of the wettest parts of West Africa, with seasonal rains averaging 3,300 mm per year and the Freetown Peninsula receiving more than 5,000 mm. The forests support well over 3,000 plant species, at least 200 of which are endemic.',
+      sourceIds: ['one-earth-eco-30'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'extends across four African countries: Côte d\u2019Ivoire, Guinea, Liberia, and Sierra Leone',
+        'one of the wettest parts of West Africa',
+        'Freetown Peninsula receiving more than 5,000 mm of annual rainfall',
+        'protected areas include Taï Forest NP, Sapo NP, and the transboundary Gola NP',
+      ],
+      sourceIds: ['one-earth-eco-30'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'One of the wettest parts of West Africa, with seasonal rains averaging 3,300 mm per year and the Freetown Peninsula receiving more than 5,000 mm; temperatures range from 12\u00b0 to 33\u00b0C.',
+        annualPrecipitationMm: { min: 3300, max: 5000 },
+        temperatureC: { min: 12, max: 33 },
+      },
+      sourceIds: ['one-earth-eco-30'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'highly diverse lowland tropical forests',
+        'well over 3,000 plant species, at least 200 of them endemic',
+        'upper Guinean lowland forest formations',
+        'wet evergreen forest sustained by very heavy rainfall',
+      ],
+      sourceIds: ['one-earth-eco-30'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'exceptional endemicity with many strictly endemic species',
+        'high rainfall sustaining one of the wettest forest ecosystems in West Africa',
+        'flagship populations including white-necked rockfowl and pygmy hippopotamus',
+        'rich faunal assemblage including six endemic duikers, mongoose, and greenbul',
+      ],
+      sourceIds: ['one-earth-eco-30'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 4 against a conservation target of 34%. Protected areas include Taï Forest NP (3,300 km\u00B2), Sapo NP (1,292 km\u00B2), and the transboundary Gola NP. Threats include the impacts of civil war (uncontrolled logging, mining, and bushmeat hunting), commercial timber extraction, charcoal production, palm oil and rubber clearance, and bauxite and rutile mining. Priority actions are developing species action plans such as for the pygmy hippopotamus, strengthening forest protection, and improving law enforcement.',
+      sourceIds: ['one-earth-eco-30'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:white-necked-rockfowl',
+      'species:jentinks-duiker',
+      'species:zebra-duiker',
+      'species:liberian-mongoose',
+      'species:johnstons-genet',
+      'species:liberian-greenbul',
+      'species:gola-malimbe',
+    ],
+    countryIds: ['CI', 'GN', 'LR', 'SL'],
+    sources: ['one-earth-eco-30'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:44',
+    summary: {
+      value:
+        'The Guinean Forest-Savanna runs east to west across West Africa, reaching the coast at the Dahomey Gap, a narrow strip of semi-arid habitats in eastern Ghana and Benin. The landscape is typified by gently rolling plains with scattered inselbergs rising up to 1,500 m, and agricultural land covers around 40 percent of the ecoregion. Despite being illegal, hunting of the western chimpanzee still occurs for bushmeat, the pet trade, traditional beliefs, and crop protection.',
+      sourceIds: ['one-earth-eco-44'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'runs east to west across West Africa, reaching the coast at the Dahomey Gap',
+        'gently rolling plains with scattered inselbergs rising up to 1,500 m',
+        'narrow strip of semi-arid habitats in eastern Ghana and Benin at the Dahomey Gap',
+        'protected areas include Old Oyo NP, Bui NP, Badiar NP, and Marahoué NP',
+      ],
+      sourceIds: ['one-earth-eco-44'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Semi-arid to sub-humid tropical climate with annual rainfall of 1,000\u20132,000 mm and temperatures ranging from 14\u00b0 to 33\u00b0C.',
+        annualPrecipitationMm: { min: 1000, max: 2000 },
+        temperatureC: { min: 14, max: 33 },
+      },
+      sourceIds: ['one-earth-eco-44'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'mosaic of forest and savanna woodlands',
+        'semi-arid Dahomey Gap habitats',
+        'scattered inselbergs rising hundreds of meters above the plains',
+        'agricultural land covering around 40 percent of the ecoregion',
+      ],
+      sourceIds: ['one-earth-eco-44'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'forest-savanna transition supporting flagship red-flanked duiker and critically endangered western chimpanzee',
+        'inselbergs rising up to 1,500 m providing habitat refugia',
+        'endemic small mammals including Matthey\u2019s mouse and Jackson\u2019s fat mouse',
+        'eleven endemic reptile species',
+      ],
+      sourceIds: ['one-earth-eco-44'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 10 against a conservation target of 17%. Protected areas include Old Oyo National Park in Nigeria, Bui National Park in Ghana, Badiar National Park in Guinea, and Marahoué National Park in Côte d\u2019Ivoire, along with sacred groves. Threats include hunting through the bushmeat trade, habitat loss to agriculture and logging, frequent fires, and minimal tourism income for protected areas. Priority actions are enforcing wildlife laws and developing alternative livelihoods, restoring ecosystems, and promoting sustainable agriculture.',
+      sourceIds: ['one-earth-eco-44'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:red-flanked-duiker',
+      'species:western-chimpanzee',
+      'species:african-elephant',
+    ],
+    countryIds: ['SN', 'GM', 'GW', 'GN', 'SL', 'CI', 'GH', 'TG', 'BJ', 'NG', 'CM'],
+    sources: ['one-earth-eco-44'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:82',
+    summary: {
+      value:
+        'The Jos Plateau Forest-Grassland rises above the surrounding forest-grassland and savanna ecoregions of northern Nigeria, being the largest landmass above 1,000 m in the country. Though small, it contains a relatively large number of endemic species, with two small mammals strictly endemic, the Nigerian mole rat and Fox\u2019s shaggy rat. The mining boom of the 1960s left over a thousand mine ponds scattered across the abandoned tin minefields in this ecoregion.',
+      sourceIds: ['one-earth-eco-82'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'rises above the surrounding forest-grassland and savanna ecoregions of northern Nigeria',
+        'the largest landmass above 1,000 m in Nigeria',
+        'over a thousand mine ponds scattered across abandoned tin minefields',
+        'protected areas include Jarawa Hill FR, Panshanu FR, Jauro River FR, Guram River FR, and Limoro FR',
+      ],
+      sourceIds: ['one-earth-eco-82'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Cooler montane climate at high elevation with annual rainfall of 1,411\u20132,000 mm and temperatures ranging from 15.5\u00b0 to 30.5\u00b0C.',
+        annualPrecipitationMm: { min: 1411, max: 2000 },
+        temperatureC: { min: 15.5, max: 30.5 },
+      },
+      sourceIds: ['one-earth-eco-82'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'mosaic of forest and grassland on the high plateau',
+        'montane vegetation distinct from surrounding savanna',
+        'sacred groves retaining native cover',
+        'areas altered by abandoned tin minefields and mine ponds',
+      ],
+      sourceIds: ['one-earth-eco-82'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'highland isolation creating a relatively rich set of endemic species',
+        'two strictly endemic small mammals, the Nigerian mole rat and Fox\u2019s shaggy rat',
+        'endemic bird populations including the rock firefinch and Jos Plateau indigobird',
+        'only West African population of the klipspringer',
+      ],
+      sourceIds: ['one-earth-eco-82'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 10 against a conservation target of 9%. Protected areas include Jarawa Hill FR, Panshanu FR, Jauro River FR, Guram River FR, and Limoro FR, along with various sacred groves. Threats include tin mining with radioactive by-products, soil erosion (31 percent seriously affected), intense firewood collection, and agricultural intensification. Priority actions are establishing further protected areas, promoting sustainable agriculture, and monitoring illegal mining with land remediation.',
+      sourceIds: ['one-earth-eco-82'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:nigerian-mole-rat',
+      'species:foxs-shaggy-rat',
+      'species:rock-firefinch',
+      'species:jos-plateau-indigobird',
+    ],
+    countryIds: ['NG'],
+    sources: ['one-earth-eco-82'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:113',
+    summary: {
+      value:
+        'The Guinean Mangroves stretch along the coast of West Africa and hold one of the largest populations of the West African Manatee in Africa, found in Guinea-Bissau. High productivity and an extensive food web in the mangrove forests support migratory shorebird populations, important marine species, and offshore fisheries. Temperatures range from 15\u00b0 to 28\u00b0C in the north to 23\u00b0\u201332\u00b0C in Guinea, with annual rainfall varying from as low as 95 mm in the Senegal River Delta to approximately 9,000 mm in Sierra Leone.',
+      sourceIds: ['one-earth-eco-113'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'coastal mangrove forests extending through Senegal, Gambia, Guinea-Bissau, Guinea, Sierra Leone, Liberia, and Côte d\u2019Ivoire',
+        'one of the largest West African Manatee populations in Africa found in Guinea-Bissau',
+        'Senegal River Delta with low rainfall as low as 95 mm annually',
+        'protected areas include Delta du Saloum NP, Basse-Casamance, Bijagos Archipelago Biosphere Reserve, and Rio Cacheu Mangroves Natural Park',
+      ],
+      sourceIds: ['one-earth-eco-113'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical coastal climate with temperatures ranging from 15\u00b0 to 28\u00b0C in the north to between 23\u00b0 and 32\u00b0C in Guinea; annual rainfall varies greatly from 95 mm in the Senegal River Delta to approximately 9,000 mm in Sierra Leone.',
+        annualPrecipitationMm: { min: 95, max: 9000 },
+        temperatureC: { min: 15, max: 32 },
+      },
+      sourceIds: ['one-earth-eco-113'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'extensive West African mangrove forests',
+        'highly productive mangrove stands supporting an extensive food web',
+        'mangrove ecosystems fringing the coast and major river mouths',
+        'mangrove wood supporting local communities and fisheries',
+      ],
+      sourceIds: ['one-earth-eco-113'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'high productivity and an extensive food web supporting migratory shorebirds and offshore fisheries',
+        'one of the largest populations of the West African Manatee in Africa',
+        'nursery and feeding habitats for marine turtles including olive ridley, loggerhead, and green turtles',
+        'habitat for pygmy crocodile, Nile monitor, and Nile crocodile',
+      ],
+      sourceIds: ['one-earth-eco-113'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 7 against a conservation target of 35%. Protected areas include Delta du Saloum NP and Basse-Casamance in Senegal, the Bijagos Archipelago Biosphere Reserve and Rio Cacheu Mangroves Natural Park in Guinea-Bissau, the Tanbi Wetland Complex in Gambia, Iles Ehotile NP in Côte d\u2019Ivoire, and Lake Piso Multiple Sustainable Use Reserve in Liberia. Threats include rice farming conversion, urban expansion, road construction, shrimp farming, dam construction such as the Diama Dam, aquaculture eutrophication, mangrove wood extraction, and sea level rise from climate change. Priority actions are supporting community mangrove rehabilitation, using remote sensing for monitoring, and developing economic incentive policies.',
+      sourceIds: ['one-earth-eco-113'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:west-african-manatee',
+      'species:temmincks-red-colobus',
+      'species:nile-crocodile',
+    ],
+    countryIds: ['SN', 'GM', 'GW', 'GN', 'SL', 'LR', 'CI'],
+    sources: ['one-earth-eco-113'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:15',
+    summary: {
+      value:
+        'The Knysna-Amatole Montane Forests contain remnants of the southernmost African bush elephant population and some of the southernmost Afromontane forests in Africa. Year-round rainfall ranges from 525 mm to 1,500 mm annually with temperatures spanning 8.9\u00b0C to 23.8\u00b0C. This ecoregion is part of the archipelago-like Afromontane regional centre of plant endemism and harbors several strict and near-endemic species including the Knysna banana frog.',
+      sourceIds: ['one-earth-eco-15'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Afromontane forests along the southern coast of South Africa',
+        'Knysna forest (568 km\u00b2) on gentle to moderate slopes and Amatole forests (405 km\u00b2) at higher altitudes',
+        'elevations from 5 m to 1,250 m above sea level',
+        'part of the archipelago-like Afromontane regional centre of plant endemism',
+      ],
+      sourceIds: ['one-earth-eco-15'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Year-round rainfall with maxima in early and late summer, ranging from 525 mm to 1,500 mm annually. Mean daily maximum temperatures reach 23.8\u00b0C in February and minimum temperatures drop to 8.9\u00b0C.',
+        annualPrecipitationMm: { min: 525, max: 1500 },
+        temperatureC: { min: 8.9, max: 23.8 },
+      },
+      sourceIds: ['one-earth-eco-15'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'ironwood, stinkwood, and yellowwood canopy trees',
+        'Afromontane forests with low tree endemism but high diversity',
+        'forests unable to persist below 500 mm annual rainfall',
+        'associated geophytes and forest-floor flora',
+      ],
+      sourceIds: ['one-earth-eco-15'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Afromontane regional centre of plant endemism with few strictly endemic plant species',
+        'forest extent primarily limited by annual rainfall below 500 mm',
+        'endemic amphibian communities including the Knysna banana frog',
+        'remnant megaherbivore populations shaping forest structure',
+      ],
+      sourceIds: ['one-earth-eco-15'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 7 against a conservation target of 50%. Key protected areas include the Cape Floral Region Protected Areas (a UNESCO World Heritage Site) and the Garden Route National Park. Threats include clearing for agriculture and fire, invasive alien plants including the Argentine ant threatening the swift moth, invasive animals, and poaching and illegal ivory trade. Priority actions are establishing monitoring programs for the Knysna elephant, controlling and removing alien plants, and eliminating poaching and illegal ivory trade.',
+      sourceIds: ['one-earth-eco-15'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:knysna-banana-frog',
+      'species:african-elephant',
+      'species:common-leopard',
+      'species:knysna-turaco',
+      'species:knysna-dwarf-chameleon',
+      'species:knysna-woodpecker',
+      'species:bushbuck',
+    ],
+    countryIds: ['ZA'],
+    sources: ['one-earth-eco-15'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:88',
+    summary: {
+      value:
+        'The Albany Thickets are a dense, spiny shrubland with a canopy up to 2.5 m in height and abundant succulents, located along the Fish, Sundays, and Gamtoos River valleys in the eastern Cape. Inland valley temperatures range from 0\u00b0C to over 40\u00b0C with annual rainfall of 450 to 550 mm, while coastal areas are more moderate. This ecoregion is a complex transition zone where four phytochoria converge and is a center of endemism for succulent Euphorbia species, cycads, and geophytes.',
+      sourceIds: ['one-earth-eco-88'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'dense, spiny shrubland along the Fish, Sundays, and Gamtoos River valleys',
+        'eastern Cape of South Africa with consolidated dune sands near the coast',
+        'transition zone where four phytochoria converge',
+        'Addo Elephant NP and Mountain Zebra NP among key protected areas',
+      ],
+      sourceIds: ['one-earth-eco-88'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'high diurnal and annual temperature ranges with low, sporadic rainfall. Inland valley temperatures are extreme, ranging from 0\u00b0C to over 40\u00b0C, while coastal areas have a more moderate range from 10\u00b0C to 35\u00b0C.',
+        annualPrecipitationMm: { min: 450, max: 550 },
+        temperatureC: { min: 0, max: 40 },
+      },
+      sourceIds: ['one-earth-eco-88'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dense spiny shrubland with canopy up to 2.5 m tall',
+        'abundant succulents including endemic Euphorbia species, cycads, and geophytes',
+        'sheep fig, porkbush succulent, and diverse Aizoaceae',
+        'center of endemism for succulent Euphorbia, cycads, and geophytes',
+      ],
+      sourceIds: ['one-earth-eco-88'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'megaherbivore browsing and seed dispersal maintaining ecological balance',
+        'elephants promoting coppicing through chaotic foraging',
+        'hind-gut fermentation enabling rapid seed dispersal by herbivores',
+        'center of floral endemism with low faunal endemism rates',
+      ],
+      sourceIds: ['one-earth-eco-88'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 4 against a conservation target of 20%. Key protected areas include Addo Elephant NP (with 120 south-western black rhino as of 2015), Andries Vosloo Kudu NR, Mountain Zebra NP, and Lennox Sebe Game Reserve. Threats include conversion to pastoralism, crops, and urban areas, overgrazing by domestic goats, bush-clearance, resource exploitation, invasive species, and illegal plant trade in Encephalartos, Euphorbia, and Aizoaceae. Priority actions are promoting community participation in habitat restoration and identifying corridors to connect natural and protected areas.',
+      sourceIds: ['one-earth-eco-88'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:south-western-black-rhino',
+      'species:albany-adder',
+      'species:tasmans-girdled-lizard',
+      'species:african-elephant',
+      'species:common-leopard',
+      'species:knysna-woodpecker',
+      'species:cape-bulbul',
+      'species:martial-eagle',
+    ],
+    countryIds: ['ZA'],
+    sources: ['one-earth-eco-88'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:89',
+    summary: {
+      value:
+        'The Fynbos Shrubland forms part of the Cape Floristic Region with 5 endemic plant families, 160 endemic genera, and over 9,000 species. This fire-prone ecosystem receives predominantly winter rainfall between 650 mm and 2,000 mm annually with mild temperatures seldom exceeding 30\u00b0C. The critically endangered geometric tortoise, endemic to this ecoregion, is its flagship species.',
+      sourceIds: ['one-earth-eco-89'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Cape Floristic Region at the southwestern tip of Africa',
+        'fire-prone ecosystem of small-leaved, evergreen shrubs',
+        'comprises approximately 80 percent of the Cape Floristic Region',
+        'lowland and montane fynbos forms supporting high biodiversity',
+      ],
+      sourceIds: ['one-earth-eco-89'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Mediterranean climate with predominantly winter rainfall between 650 mm and 2,000 mm annually. Temperatures are generally mild, frost is seldom recorded, and summer maximum temperatures seldom exceed 30\u00b0C except in interior valleys.',
+        annualPrecipitationMm: { min: 650, max: 2000 },
+        temperatureC: { min: 5, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-89'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'restioids (Restionaceae) are the diagnostic plant type of fynbos',
+        'ericoids including small-leafed shrubs giving fynbos its heathlike appearance',
+        'proteoids including the king protea, South Africa national flower',
+        'geophytes with spectacular diversification across multiple plant families',
+      ],
+      sourceIds: ['one-earth-eco-89'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fire-driven ecosystem renewal maintaining species diversity',
+        '5 endemic plant families and 160 endemic genera unique to the Cape Floristic Region',
+        'Gondwanan relict lineages in both flora and invertebrate fauna',
+        'lowland fynbos nearly 95 percent lost to urban and agricultural expansion',
+      ],
+      sourceIds: ['one-earth-eco-89'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 7 against a conservation target of 47%. Protected areas include Anysberg, Baviaanskloof, and De Hoop NRs, Cederberg Private NR, Groot-Winterhoek and Cederberg Wilderness Areas, and Cape West Coast, Gouritz Cluster, and Kogelberg Biosphere Reserves. Threats include agriculture, invasive alien plants, urbanization around Cape Town and Nelson Mandela Bay, fragmentation, climate change, overgrazing, and uncontrolled fire. Priority actions are active native plant restoration, implementing an efficient controlled-fire system to control alien plants, and expanding the Western Cape protected area network.',
+      sourceIds: ['one-earth-eco-89'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:geometric-tortoise',
+      'species:cape-dune-mole-rat',
+      'species:cape-spiny-mouse',
+      'species:duthies-golden-mole',
+      'species:verreauxs-mouse',
+      'species:victorins-scrub-warbler',
+      'species:orange-breasted-sunbird',
+      'species:cape-sugarbird',
+    ],
+    countryIds: ['ZA'],
+    sources: ['one-earth-eco-89'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:90',
+    summary: {
+      value:
+        'The Renosterveld Shrubland is part of the Cape Floristic Region and contains one of the most species-rich assemblages of geophytes on Earth, comparable only to Madagascar and New Zealand. Annual rainfall ranges from 250 mm to 650 mm, transitioning to succulent karoo below and fynbos above, with summer temperatures seldom exceeding 30\u00b0C. The invertebrate fauna is rich with high endemism, including many Gondwanaland relict lineages.',
+      sourceIds: ['one-earth-eco-90'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'upland and lowland renosterveld shrubland of southwestern South Africa',
+        'West Coast forelands influenced by the cold Benguela Current and prone to fog',
+        'vegetation formerly inhabited by black rhinoceros',
+        'protected areas including Gouritz Cluster and Cape West Coast Biosphere Reserves',
+      ],
+      sourceIds: ['one-earth-eco-90'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Mediterranean climate with annual rainfall between 250 mm and 650 mm, replaced by succulent karoo below this range and fynbos above it. Summer temperatures seldom exceed 30\u00b0C. West Coast forelands are influenced by the cold Benguela Current and prone to fog.',
+        annualPrecipitationMm: { min: 250, max: 650 },
+        temperatureC: { min: 5, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-90'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'low shrub layer of 1\u20132 m tall dominated by renosterbos (Elytropappus rhinocerotis)',
+        'ericoids with a ground layer of grasses and seasonally active geophytes',
+        'Erica genus with 658 species representing extraordinary diversification',
+        'spectacular geophyte assemblages comparable only to Madagascar and New Zealand',
+      ],
+      sourceIds: ['one-earth-eco-90'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'massive taxonomic diversification with 13 genera exceeding 100 species',
+        'rich invertebrate fauna with high endemism and Gondwanaland relict lineages',
+        'vertebrate fauna neither especially rich nor distinctive',
+        'endemic mammals including Verreaux\u2019s mouse',
+      ],
+      sourceIds: ['one-earth-eco-90'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 1 against a conservation target of 27%, making this one of the most poorly protected biomes in the Cape Floristic Region. Protected areas include Gouritz Cluster Biosphere Reserve, Cape West Coast and Cape Winelands Biosphere Reserves, Vrolijkheid NR, and Touw and Radyn Dam NRs. Threats include invasive alien trees and shrubs, novel agriculture such as cut flowers and rooibos and honeybush tea, urbanization around Cape Town and Nelson Mandela Bay, and fragmentation. Priority actions are re-assessing Conservation Agriculture guidelines, controlling fertilizer application and nutrient run-off, and restoring renosterveld through clearing alien grass and trees and re-seeding.',
+      sourceIds: ['one-earth-eco-90'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:victorins-scrub-warbler',
+      'species:verreauxs-mouse',
+      'species:klipspringer',
+      'species:cape-grysbok',
+      'species:orange-breasted-sunbird',
+      'species:cape-sugarbird',
+    ],
+    countryIds: ['ZA'],
+    sources: ['one-earth-eco-90'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:110',
+    summary: {
+      value:
+        'The Succulent Karoo is the world\u2019s only plant hotspot that is entirely arid, hosting the richest succulent dwarf shrub vegetation with extremely high plant endemism. Reliable and predictable rainfall falls mostly in spring and autumn between 150 mm and 300 mm annually, while summer maximum temperatures frequently surpass 40\u00b0C. The explosive speciation of the Mesembryanthemaceae (Stone plants) produced approximately 1,800 species and 120 genera.',
+      sourceIds: ['one-earth-eco-110'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the major biogeographical domain of the Southern Karoo',
+        'arid landscape with weathered quartz regions providing camouflage for stone plants',
+        'near-endemic charismatic species including quiver tree, bastard quiver tree, and halfmens',
+        'protected areas including Namaqua NP, Goegap NR, and Tankwa-Karoo NP',
+      ],
+      sourceIds: ['one-earth-eco-110'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'distinctive arid climate unlike other deserts worldwide. Rainfall is reliable and predictable, falling mostly in spring and autumn between 150 mm and 300 mm annually. The ecoregion is not subject to fog and summer maximum temperatures frequently surpass 40\u00b0C.',
+        annualPrecipitationMm: { min: 150, max: 300 },
+        temperatureC: { min: 0, max: 40 },
+      },
+      sourceIds: ['one-earth-eco-110'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'world\u2019s richest succulent dwarf shrub vegetation',
+        'Mesembryanthemaceae (Stone plants) with approximately 1,800 species and 120 genera',
+        'high diversity of geophytes in Hyacinthaceae, Iridaceae, Amaryllidaceae, and Asphodelaceae',
+        'Crassulaceae and Aloaceae as major succulent families',
+      ],
+      sourceIds: ['one-earth-eco-110'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'explosive speciation in succulent dwarf shrubs, especially Mesembryanthemaceae',
+        'camouflage-driven selection along weathered quartz regions for stone plants',
+        'near-endemic reptile fauna adapted to arid conditions',
+        'important pollination networks including endemic oil-collector bees',
+      ],
+      sourceIds: ['one-earth-eco-110'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 3 against a conservation target of 24%. Protected areas include Namaqua National Park, Knersvlakte Nature Reserve, Goegap NR, Tankwa-Karoo NP, and Gouritz Cluster Biosphere Reserve. Threats include over-grazing, desertification, ostrich farming, agriculture in river valleys, illegal collection of succulents and geophytes, and climate change. Priority actions are encouraging best grazing practices through green branding of ostrich products, expanding the protected area corridor network, and rehabilitating rangelands.',
+      sourceIds: ['one-earth-eco-110'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:richtersveld-dwarf-leaf-toed-gecko',
+      'species:calvinia-thick-toed-gecko',
+      'species:klipspringer',
+      'species:cape-grysbok',
+      'species:common-duiker',
+      'species:greater-kudu',
+    ],
+    countryIds: ['ZA'],
+    sources: ['one-earth-eco-110'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:38',
+    summary: {
+      value:
+        'The Central Bushveld ecoregion covers approximately 15.6 million hectares across Botswana and South Africa, dominated by mopane and mixed bushveld savannas. It supports populations of elephant, giraffe, leopard, cheetah, and the threatened black rhinoceros, while its flagship species Juliana\u2019s golden mole is a near-endemic mammal restricted to the region. The Waterberg Mountains harbor strict reptile endemics including the Waterberg girdled lizard and Waterberg flat lizard.',
+      sourceIds: ['one-earth-eco-38'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'mopane and mixed bushveld savannas spanning Botswana and South Africa',
+        'Waterberg Mountains with endemic reptile fauna',
+        'Springbok Flats clay thorn bushveld',
+        'Pilanesberg volcanic ring complex and biosphere reserves',
+      ],
+      sourceIds: ['one-earth-eco-38'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical and seasonal climate with hot wet summers and cool dry winters. Annual rainfall ranges from 350 mm in drier areas to 900 mm in the Waterberg Mountains. Temperatures vary from -3\u00b0C to 40\u00b0C with an average of 21\u00b0C.',
+        annualPrecipitationMm: { min: 350, max: 900 },
+        temperatureC: { min: -3, max: 40 },
+      },
+      sourceIds: ['one-earth-eco-38'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'monospecific mopane (Colophospermum mopane) woodland',
+        'woodland savanna with Hyparrhenia grasses and silver clusterleaf trees',
+        'clay thorn bushveld with Acacia tortilis, A. nilotica, and A. nigrescens',
+        'Waterberg savanna with beachwood, common hookthorn, and Terminalia sericea',
+      ],
+      sourceIds: ['one-earth-eco-38'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'elephant browsing driving ecosystem dynamics through mopane woodland',
+        'fire-driven savanna renewal with uncontrolled August and September burns',
+        'strict reptile endemism concentrated in the Waterberg Mountains',
+        'invasive plant species altering native bushveld composition',
+      ],
+      sourceIds: ['one-earth-eco-38'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 3 against a conservation target of 26%. Protected areas include Pilanesberg National Park, Waterberg Biosphere, Vhembe Biosphere, Borakalalo NP, and Madikwe NR, though no protected areas exist in the Botswana portion. Threats include escalating rhino poaching, agricultural encroachment on the Springbok Flats, livestock overgrazing, predator and scavenger extermination campaigns, and uncontrolled fires. Priority actions are reducing poaching and strengthening law enforcement, controlling invasive species, and managing pollution.',
+      sourceIds: ['one-earth-eco-38'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:julianas-golden-mole',
+      'species:black-rhinoceros',
+      'species:cheetah',
+      'species:african-elephant',
+      'species:giraffe',
+      'species:waterberg-girdled-lizard',
+      'species:waterberg-flat-lizard',
+      'species:caracal',
+    ],
+    countryIds: ['BW', 'ZA'],
+    sources: ['one-earth-eco-38'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:40',
+    summary: {
+      value:
+        'The Drakensberg Escarpment Savanna and Thicket ecoregion covers approximately 3.5 million hectares along the eastern seaboard of South Africa, harboring species-rich thickets comparable in diversity to fynbos. Its flagship species the Kei cycad is a gymnosperm, while near-endemic fauna include the giant golden mole and Natal red rockhare. With less than 1% under formal protection and over 6,000 plant species including cycads and succulents, it faces intense pressure from human settlement and land degradation.',
+      sourceIds: ['one-earth-eco-40'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'coastal and sub-coastal thicket and savanna along the eastern Drakensberg Escarpment',
+        'species-rich thickets with cycad diversity rivaling fynbos in plant richness',
+        'scattered protected reserves including Oribi Gorge and Weenan NRs',
+        'landscape transitioning from subtropical forest patches to grassland mosaics',
+      ],
+      sourceIds: ['one-earth-eco-40'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Seasonal and relatively dry with most areas receiving less than 800 mm of rainfall per year, dropping to 450 mm in southern sections. Up to 75% of precipitation falls between October and March. Temperatures range from 12\u00b0C to 26\u00b0C and the coastal zone is virtually frost-free.',
+        annualPrecipitationMm: { min: 450, max: 800 },
+        temperatureC: { min: 12, max: 26 },
+      },
+      sourceIds: ['one-earth-eco-40'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'species-rich thickets with succulent genera including Euphorbia, Crassula, and Aloe',
+        'cycad diversity with Kei, Bushman\u2019s River, and Albany cycads',
+        '6,000 to 7,000 plant species with high endemism',
+        'forest patches and grassland mosaics along the escarpment',
+      ],
+      sourceIds: ['one-earth-eco-40'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'high endemism among reptiles and Lycaenid butterflies',
+        'predator and scavenger eradication disrupting trophic cascades',
+        'invasive alien plants including Chromolaena odorata and Lantana camara',
+        'unsustainable harvesting of medicinal and ornamental plants',
+      ],
+      sourceIds: ['one-earth-eco-40'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 1 against a conservation target of 7%, with less than 1% of the ecoregion under formal protection. Protected areas include Oribi Gorge NR, Entumeni NR, Weenan NR, Nkandla Forest Reserve, and Albert Falls GR. Threats include high human densities, landscape degradation, cultivation and overgrazing by goats, sheep, and cattle, predator and scavenger eradication campaigns targeting jackal, caracal, leopard, and Cape vulture, unsustainable plant harvesting, and invasive alien species. Priority actions are improving environmental regulations, promoting sustainable resource use, and restoring degraded thicket.',
+      sourceIds: ['one-earth-eco-40'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:bushbuck',
+      'species:common-duiker',
+      'species:greater-kudu',
+      'species:grey-rhebok',
+      'species:mountain-reedbuck',
+      'species:blue-duiker',
+      'species:natal-red-rockhare',
+      'species:cape-vulture',
+    ],
+    countryIds: ['ZA'],
+    sources: ['one-earth-eco-40'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:41',
+    summary: {
+      value:
+        'The Drakensberg Grasslands ecoregion spans approximately 11.5 million hectares of montane grasslands across South Africa and Lesotho, forming the southernmost extent of the Afromontane center of endemism. The bearded vulture finds its last stronghold in southern Africa within these high-altitude landscapes, while reptile and butterfly endemism is pronounced among strict endemics such as the Drakensberg dwarf chameleon and woodbush legless skink. Roughly 30% of plant species are endemic including the iconic spiral aloe of Lesotho.',
+      sourceIds: ['one-earth-eco-41'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'montane grasslands on wet exposed slopes with forest patches in valleys',
+        'basalt plateaus with treeless alpine vegetation above 2,000 meters',
+        'part of the Afromontane center of endemism at its southernmost extent',
+        'uKhahlamba-Drakensberg Park Ramsar site and multiple national reserves',
+      ],
+      sourceIds: ['one-earth-eco-41'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Cold and wet across most areas except the Lesotho Plateau rain shadow. Temperatures range from -13\u00b0C to 40\u00b0C with an average of 15\u00b0C, and summit temperatures can drop below -20\u00b0C. Annual rainfall varies from 450 mm in the southwest to over 1,900 mm at the highest altitudes.',
+        annualPrecipitationMm: { min: 450, max: 1900 },
+        temperatureC: { min: -13, max: 40 },
+      },
+      sourceIds: ['one-earth-eco-41'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'montane grassland with tussock grasses, creeping mat plants, and ericoid dwarf shrubs',
+        'Podocarpus and Widdringtonia forest patches in sheltered valleys',
+        'basalt plateau alpine vegetation with treeless grasslands',
+        'spiral aloe and other endemic succulents at high altitudes in Lesotho',
+      ],
+      sourceIds: ['one-earth-eco-41'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'bearded vulture as apex avian scavenger maintaining carcass removal cycles',
+        'strict reptile endemism driven by high-altitude isolation',
+        'grazing and fire maintaining treeless montane grasslands',
+        'medicinal plant overharvesting affecting pepperbark and other species',
+      ],
+      sourceIds: ['one-earth-eco-41'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 4 against a conservation target of 10%. Protected areas include the uKhahlamba-Drakensberg Park Ramsar site, Itala NR, Ncandu NR, Ntsikeni NR, Lammergeier Highlands NR, Malekgalonyan NR, Lesotho National Park, Natal Drakensberg NP, and Natal NP. Threats include agriculture and forestry expansion, grazing pressure replacing native grasses, fires, medicinal plant overharvesting including pepperbark, invasive species such as Chrysocoma ciliata, and soil erosion. Priority actions are strengthening herbal medicine harvest regulation, promoting sustainable agriculture, and supporting protected-area livelihoods.',
+      sourceIds: ['one-earth-eco-41'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:bearded-vulture',
+      'species:drakensberg-dwarf-chameleon',
+      'species:woodbush-legless-skink',
+      'species:mountain-reedbuck',
+      'species:grey-rhebok',
+      'species:orange-breasted-rockjumper',
+    ],
+    countryIds: ['ZA', 'LS'],
+    sources: ['one-earth-eco-41'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:48',
+    summary: {
+      value:
+        'The Limpopo Lowveld ecoregion covers approximately 8.2 million hectares across Mozambique, Eswatini, and South Africa, forming one of the world\u2019s key strongholds for both the southern white rhinoceros and the south-central black rhinoceros. The ecoregion hosts an extraordinary large mammal assemblage including elephant, hippopotamus, African buffalo, blue wildebeest, giraffe, and nyala alongside apex predators such as lion, cheetah, African wild dog, and spotted hyena. Its flagship species is the southern white rhinoceros.',
+      sourceIds: ['one-earth-eco-48'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'flat to gently undulating terrain at an average elevation of 450 meters',
+        'granite and gneiss bedrock with gabbro intrusions',
+        'mopane and Acacia woodland savannas driven by elephant browsing and fire',
+        'Springbok Flats clay thorn bushveld transitioning to lowveld bush',
+      ],
+      sourceIds: ['one-earth-eco-48'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical summer-rainfall zone with an average annual rainfall of approximately 630 mm, falling mainly as convective thunderstorms between October and May. Mean annual temperature is 22\u00b0C with hot summers and mild winters.',
+        annualPrecipitationMm: { min: 500, max: 800 },
+        temperatureC: { min: 5, max: 40 },
+      },
+      sourceIds: ['one-earth-eco-48'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dominant mix of winter-deciduous mopane and Acacia tortilis woodland',
+        'Acacia nilotica, A. nigrescens, A. gerrardii, and A. karoo thorn bushveld',
+        'herbaceous layer interspersed with woody stratum shaped by elephant browsing',
+        'turf grass, deck grass, and canary millet in grassland openings',
+      ],
+      sourceIds: ['one-earth-eco-48'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'global stronghold for southern white and south-central black rhinoceros populations',
+        'elephant browsing and fire shaping woodland-grassland mosaics',
+        'predator-prey dynamics among lion, cheetah, African wild dog, and ungulates',
+        'near-endemic reptile fauna including two-toed burrowing skink and Sabi quill-snouted snake',
+      ],
+      sourceIds: ['one-earth-eco-48'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 6 against a conservation target of 30%. Protected areas include Kruger National Park, Vhembe Biosphere, Kruger to Canyons Biosphere, Hluhluwe-Imfolozi NP, Manyoni Game Reserve, Mkuzi Game Reserve, and Mkhaya Game Reserve. Threats include rhino poaching for horn, retaliatory killing of African wild dogs by farmers, subsistence agriculture including maize and peanut cultivation, livestock overgrazing causing soil erosion and acidification, and excessive wood harvesting. Priority actions are developing alternative resource-based livelihoods, strengthening law enforcement and anti-poaching measures, and launching public and private conservation campaigns.',
+      sourceIds: ['one-earth-eco-48'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:southern-white-rhino',
+      'species:black-rhinoceros',
+      'species:cheetah',
+      'species:african-elephant',
+      'species:lion',
+      'species:hippopotamus',
+      'species:spotted-hyena',
+      'species:african-wild-dog',
+    ],
+    countryIds: ['MZ', 'SZ', 'ZA'],
+    sources: ['one-earth-eco-48'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:81',
+    summary: {
+      value:
+        'The Highveld Grasslands ecoregion covers approximately 24.3 million hectares across Lesotho, South Africa, and Eswatini on the high interior plateau of southern Africa at elevations of 1,400 to 1,800 meters. It represents the greatest expanse of remaining grassland in southern Africa and is home to the blue crane, South Africa\u2019s national bird, found in significant numbers across the landscape. Its fauna includes the ground pangolin, brown hyena, aardwolf, African striped weasel, and the strictly endemic giant spinytail lizard.',
+      sourceIds: ['one-earth-eco-81'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'high interior plateau (Highveld) at elevations of 1,400 to 1,800 meters',
+        'greatest expanse of remaining grassland in southern Africa',
+        'three main vegetation types: Kalahari-Karoo transition, sweet grasslands, and sour grasslands',
+        'protected areas including Mountain Zebra NP and Magaliesberg Biosphere',
+      ],
+      sourceIds: ['one-earth-eco-81'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'High-altitude plateau climate with mean maximum temperatures of 21\u00b0C to 24\u00b0C and mean minimum temperatures of 3\u00b0C to 6\u00b0C. Summer maximum temperatures can reach 38\u00b0C while winter minimums drop to -11\u00b0C. Annual rainfall ranges from 400 mm to 900 mm in summer, with frequent fires and frost suppressing woody vegetation.',
+        annualPrecipitationMm: { min: 400, max: 900 },
+        temperatureC: { min: -11, max: 38 },
+      },
+      sourceIds: ['one-earth-eco-81'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dominant grasses including Panicum coloratum, Themeda triandra, and Eragrostis curvula',
+        'sweet and sour grasslands maintained by fire, frost, and heavy grazing',
+        'forb-rich understorey with Helichrysum, Crabbea, and Rhynchosia species',
+        'Kalahari-Karoo highveld transition zone at western margins',
+      ],
+      sourceIds: ['one-earth-eco-81'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fire, frost, and grazing suppressing shrub and tree encroachment',
+        'near-endemic Botha\u2019s lark restricted to heavily grazed grassland',
+        'high mammal diversity with rare species including ground pangolin and brown hyena',
+        'historical extirpation and reintroduction of white rhinoceros and other ungulates',
+      ],
+      sourceIds: ['one-earth-eco-81'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 6 against a conservation target of 6%. Protected areas include Valei NR, Nooitgedacht Dam, Willem Pretorius, Rustfontein Dam, Koppies Dam, and Ermelo NR, with portions within the Magaliesberg Biosphere and Mountain Zebra NP. Threats include agricultural conversion to maize, overgrazing, urban expansion, fire, coal mining, afforestation with Eucalyptus, invasive black wattle, and gold mining with acid mine drainage. Priority actions are establishing protected area corridors, implementing rotational grazing, and restoring degraded ecosystems while eradicating invasive species.',
+      sourceIds: ['one-earth-eco-81'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:blue-crane',
+      'species:ground-pangolin',
+      'species:mountain-zebra',
+      'species:aardwolf',
+      'species:brown-hyena',
+      'species:giant-spinytail-lizard',
+      'species:african-striped-weasel',
+    ],
+    countryIds: ['LS', 'ZA', 'SZ'],
+    sources: ['one-earth-eco-81'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:2',
+    summary: {
+      value:
+        'The Cameroon Highlands Forests ecoregion covers the mountains along the Nigeria-Cameroon border, excluding Mount Cameroon, and grows on an extinct range of volcanoes with remnant craters and hot springs. An Afromontane archipelago regional center of endemism, it is of extremely high biological importance, with remarkable avian endemism including the flagship Bamenda apalis and roughly 40 strictly endemic amphibian species. Forest cover has declined by more than half since the 1960s, and the ecoregion remains one of the least formally protected in Africa.',
+      sourceIds: ['one-earth-eco-2'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'mountains of the Nigeria-Cameroon border region excluding Mount Cameroon',
+        'extinct range of volcanoes with remnant craters and hot springs',
+        'most mountains below 2,600 m with Mount Oku the highest point at 3,011 m',
+        'outliers northeast to the Mambila Plateau and northwest to the Obudu Plateau of Nigeria',
+      ],
+      sourceIds: ['one-earth-eco-2'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical in latitude but with mean maximum temperatures below 20\u00b0C because of high altitude. Near the coast in the south rainfall is about 4,000 mm per year, declining inland to 1,800 mm or less.',
+        annualPrecipitationMm: { min: 1800, max: 4000 },
+        temperatureC: { min: 5, max: 26 },
+      },
+      sourceIds: ['one-earth-eco-2'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'submontane forests from 900 to 1,800 m with montane communities above',
+        'montane mixture including montane forest, grassland, bamboo forest, and subalpine communities',
+        'subalpine vegetation above 2,800 m only on Mount Oku',
+        'typical species including Nuxia congesta, Podocarpus latifolius, Prunus africana, and Syzygium guineense',
+      ],
+      sourceIds: ['one-earth-eco-2'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'an Afromontane archipelago regional center of endemism',
+        'remarkable avian endemism including Bamenda apalis, Bangwa forest warbler, and white-throated mountain-babbler',
+        'about 40 strictly endemic amphibian species',
+        'healthy populations of drill, Preuss\u2019s red colobus, and the Nigeria-Cameroon chimpanzee',
+      ],
+      sourceIds: ['one-earth-eco-2'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a protection level of 1 against a conservation target of 47%, making this one of the least formally protected ecoregions in Africa, though local traditional rulers protect forest fragments. Key reserves include Nlonako Mountain faunal reserve, Gashaka Gumti National Park, and the Cross River/Okwangwo National Park. Threats include agriculture, fire, timber extraction, African cherry bark exploitation, and hunting, with forest cover down more than 50% since the 1960s and population densities up to 300 per km2 in the Bamenda Highlands.',
+      sourceIds: ['one-earth-eco-2'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:bamenda-apalis',
+      'species:drill',
+      'species:nigeria-cameroon-chimpanzee',
+      'species:preuss-red-colobus',
+    ],
+    countryIds: ['CM', 'NG'],
+    sources: ['one-earth-eco-2'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:4',
+    summary: {
+      value:
+        'The Comoros Forests ecoregion covers the islands of Ngazidja, Mwali, Nzwani, and Mayotte in the Mozambique Channel, roughly 300 km from both Madagascar and the East African mainland. A maritime tropical climate, the active volcano Mount Karthala, and rich laterite soils support semi-deciduous lowland and montane evergreen forests with about 1,000 native plant species, 30% endemic to the Comoros. Four strictly endemic birds and two strictly endemic fruit bats, including the flagship Livingstone\u2019s fruit bat, occur here.',
+      sourceIds: ['one-earth-eco-4'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'islands Ngazidja, Mwali, Nzwani, and Mayotte in the Mozambique Channel',
+        'about 300 km from both northern Madagascar and the East African mainland',
+        'Mount Karthala, an active volcano erupting every 10\u201320 years, highest point at 2,361 m',
+        'laterite soil rich in minerals but poor in humus and erosion-prone',
+      ],
+      sourceIds: ['one-earth-eco-4'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Maritime tropical with a warm, moist rainy season from November to April at about 25\u00b0C and a cooler, drier season from May to September near 18\u00b0C. Central higher elevations are cooler and wetter, receiving more than 5,000 mm per year, while the driest coastal areas receive about 1,000 mm, with frequent cyclones.',
+        annualPrecipitationMm: { min: 1000, max: 5000 },
+        temperatureC: { min: 18, max: 25 },
+      },
+      sourceIds: ['one-earth-eco-4'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'semi-deciduous forests that once blanketed the lowlands',
+        'montane evergreen moist forests above 800 m dominated by Ocotea comoriensis, Khaya comorensis, and Chrysophyllum biovinianum',
+        'families including Sapotaceae, Ebenaceae, Rubiaceae, Myrtaceae, Clusiaceae, Lauraceae, and Burseraceae',
+        'about 1,000 native plant species, 30% endemic to the Comoros, including the endangered palm Ravenea hildebrandtii',
+      ],
+      sourceIds: ['one-earth-eco-4'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'four strictly endemic bird species including the Comoro scops-owl and Mount Karthala white-eye',
+        'two strictly endemic fruit bats including Livingstone\u2019s fruit bat, found only on Ndzuani and Mwali',
+        'nine endemic reptiles including the Comoro flapnose chameleon and Mayotte chameleon',
+        'introduced mongoose, civets, cats, and rats preying on native fauna',
+      ],
+      sourceIds: ['one-earth-eco-4'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 100% with a protection level of 1, but none of the remaining forest is effectively protected. Protected areas include the Massif du Mont Ntringui/Bimbi on Ndzuani, Saziley/Charifou on Mayotte, Dziani Boudouni Ramsar site, Coelacanth Marine Park, and Moheli National Park. Threats include agriculture clearance, poaching of green sea turtles, day geckos and fruit bats, introduced predators and Lantana camara, and cyclones.',
+      sourceIds: ['one-earth-eco-4'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:livingstones-fruit-bat',
+      'species:comoro-scops-owl',
+      'species:karthala-white-eye',
+      'species:mayotte-chameleon',
+      'species:mongoose-lemur',
+    ],
+    countryIds: ['KM'],
+    sources: ['one-earth-eco-4'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:13',
+    summary: {
+      value:
+        'The Granitic Seychelles Forests ecoregion comprises the world\u2019s only mid-oceanic granitic islands, about 40 ancient granitic islands roughly 930 km northeast of Madagascar. Millions of years of isolation and diverse habitats produce exceptionally high endemism, including the jellyfish tree, one of the rarest plants in the world with fewer than 30 individuals confined to three hilltops of Mah\u00e9. The flagship Seychelles warbler and endemics such as the Seychelles magpie-robin, Seychelles scops-owl, and Seychelles paradise-flycatcher are confined to these and adjoining islands.',
+      sourceIds: ['one-earth-eco-13'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the only mid-oceanic granitic islands in the world',
+        'about 40 ancient granitic islands of roughly 750-million-year-old rocks with steep sides',
+        'Mahe the largest and tallest island at 145 km2 and 914 m high',
+        'other islands of old volcanic rocks and young raised coral reefs among roughly 115 islands',
+      ],
+      sourceIds: ['one-earth-eco-13'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Humid tropical with little seasonal temperature variation. Heavy monsoon rains fall from November to February, with cooler, drier months under the southeast trade winds, and mean annual rainfall ranging from 2,300 to 5,000 mm depending on elevation.',
+        annualPrecipitationMm: { min: 2300, max: 5000 },
+        temperatureC: { min: 24, max: 32 },
+      },
+      sourceIds: ['one-earth-eco-13'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'palms, pandans, and hardwoods below 610 m including Phoenicophorium borsigianum and Adenanthera pavonina',
+        'cloud-forest remnants above 600 m with plants related to Southeast Asian species',
+        'six endemic palms including the imperiled coco de mer restricted to Praslin and Curieuse',
+        'river valleys and marshes formerly rich in palms and screwpine',
+      ],
+      sourceIds: ['one-earth-eco-13'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'exceptionally high endemism from millions of years of isolation',
+        'native giant land tortoises now extinct, with Aldabra tortoises brought in as pets',
+        'two bird species confined to single islands, the Seychelles scops-owl and paradise-flycatcher',
+        'Seychelles magpie-robin recovering from 23 individuals in 1990 to more than 240 by 2012, downlisted from critically endangered',
+      ],
+      sourceIds: ['one-earth-eco-13'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 57% with a protection level of 2, though only tiny vegetation remnants remain. Key protected areas include the Vall\u00e9e de Mai World Heritage Site, Morne Seychellois National Park, and the Aride, Cousin, and La Digue Veuve special reserves. Threats include plantation conversion, introduced goats, pigs, cattle, cats, dogs, common mynahs, and tenrecs that predate natives, and introduced plants.',
+      sourceIds: ['one-earth-eco-13'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:seychelles-warbler',
+      'species:seychelles-magpie-robin',
+      'species:seychelles-scops-owl',
+      'species:seychelles-paradise-flycatcher',
+      'species:aldabra-giant-tortoise',
+    ],
+    countryIds: ['SC'],
+    sources: ['one-earth-eco-13'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:24',
+    summary: {
+      value:
+        'The Northeast Congolian Lowland Forest ecoregion occupies the humid lowlands of the DRC and CAR between the Albertine Rift Mountains and the Congo River, supporting one of the highest mammalian diversities in Africa. Combined with the Northwest Lowland forests it holds the highest primate species richness in Africa, with important lowland gorilla populations and strict endemics including the giant forest genet and the rare aquatic genet. The Ituri forest, partly protected within the Okapi Wildlife Reserve, holds the endemic cycad Encephalartos ituriensis.',
+      sourceIds: ['one-earth-eco-24'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lowlands between the Albertine Rift Mountains in the east and the Congo River to the south and west',
+        'transitional savannah to the north',
+        'mostly continuous forest exceeding 100,000 km2',
+        'lower, more seasonal relief toward the north with transitional submontane forest in the east',
+      ],
+      sourceIds: ['one-earth-eco-24'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Humid tropical with rainfall of 1,500 to 2,000 mm per year, declining eastward toward the Albertine Rift. A well-marked dry season occurs from January to March, with mean annual maximum temperatures of 27\u201333\u00b0C and minimums of 15\u201321\u00b0C depending on elevation.',
+        annualPrecipitationMm: { min: 1500, max: 2000 },
+        temperatureC: { min: 15, max: 33 },
+      },
+      sourceIds: ['one-earth-eco-24'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'mostly lowland moist forest with some transitional submontane forest in the east',
+        'drier transitional forest types in the north',
+        'tree species including Julbernardia seretii, Cynometra alexandri, and Gilbertiodendron dewevrei',
+        'Guineo-Congolian regional center of endemism with about 1,500 plant species in the Ituri region including the endemic cycad Encephalartos ituriensis',
+      ],
+      sourceIds: ['one-earth-eco-24'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'one of the highest mammalian diversities in Africa and the region\u2019s greatest primate species richness',
+        'strict endemics including the giant forest genet, aquatic genet, and mountain shrew',
+        'near-endemics including the okapi, owl-faced monkey, L\u2019Hoest\u2019s monkey, and pied bat',
+        'two strictly endemic birds, Neumann\u2019s coucal and the golden-naped weaver, and seven strictly endemic amphibians',
+      ],
+      sourceIds: ['one-earth-eco-24'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 80% with a protection level of 1. The Ituri forest is protected within the Okapi Wildlife Reserve, with additional protection at Maiko National Park, Yangambi Biosphere Reserve, and the Rubi-Tele and Maika Penege hunting reserves. Threats include mining for gold, diamonds, and coltan impacting Maiko, Ituri, and Kahuzi-Biega lowlands, bushmeat hunting, elephant poaching, logging concessions, and refugee agriculture.',
+      sourceIds: ['one-earth-eco-24'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:giant-forest-genet',
+      'species:aquatic-genet',
+      'species:okapi',
+      'species:african-forest-elephant',
+      'species:loests-monkey',
+    ],
+    countryIds: ['CD', 'CF'],
+    sources: ['one-earth-eco-24'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:26',
+    summary: {
+      value:
+        'The Northwest Congolian Lowland Forests ecoregion spans Cameroon, the Central African Republic, the Republic of Congo, and Gabon as one of the world\u2019s last tropical forest wildernesses. It is the richest ecoregion in Africa for primates, holding the largest population of lowland gorillas and supporting historically large, now greatly reduced populations of African forest elephants. Strictly endemic mammals include Dollman\u2019s tree mouse and Remy\u2019s shrew, while flagship western lowland gorillas face heavy poaching.',
+      sourceIds: ['one-earth-eco-26'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'vast intact rainforest across Cameroon, Gabon, Republic of Congo, and CAR',
+        'most terrain at 300 to 800 m, highest in the north and the Chaillu Massif in the south',
+        'bordered north and south by forest-savanna mosaics, east by swamp forest, and west grading into Congolian Coastal Forests',
+        'part of the world\u2019s last tropical forest wildernesses',
+      ],
+      sourceIds: ['one-earth-eco-26'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with high humidity year-round, mean annual rainfall of 1,400 to 2,000 mm in the central portion, and two distinct wet seasons. Mean annual maximum temperatures are 27\u201330\u00b0C and minimums 18\u201321\u00b0C.',
+        annualPrecipitationMm: { min: 1400, max: 2000 },
+        temperatureC: { min: 18, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-26'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'mixed moist semi-evergreen and single-dominant moist evergreen forest types',
+        'large emergents including Entandrophragma congoense, Pentaclethra eetveldeana, Pericopsis elata, and Gilbertiodendron dewevrei',
+        'shrub genus Drypetes, lianas, rattans, and raffia palms along river valleys',
+        'Guineo-Congolian lowland rainforest within the Guineo-Congolian regional center of endemism',
+      ],
+      sourceIds: ['one-earth-eco-26'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the richest ecoregion in Africa for primates, with the largest lowland gorilla population',
+        'historically large African forest elephant populations greatly reduced by poaching',
+        'strictly endemic mammals including Dollman\u2019s tree mouse and Remy\u2019s shrew',
+        'diverse bird fauna with 442 species at Odzala and at least 428 in the Tri-national area, including the recently discovered forest robin Stiphornis sanghensis',
+      ],
+      sourceIds: ['one-earth-eco-26'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 88% with a protection level of 3, with about one-third of frontier forests in a natural state. Protected areas include Lob\u00e9k\u00e9, Nouabal\u00e9-Ndoki, Odzala-Kokoua, Dzanga-Ndoki, Ndoki, Mbam et Dj\u00e9rem, the Dzanga-Sangha Special Reserve, Dja faunal reserve, and Ngotto classified forest. Threats include logging concessions and bushmeat hunting\u2014with duikers the primary quarry and leopards declining\u2014plus elephant, gorilla, and chimpanzee poaching and African grey parrot trade.',
+      sourceIds: ['one-earth-eco-26'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:western-lowland-gorilla',
+      'species:mandrill',
+      'species:grey-cheeked-mangabey',
+      'species:african-forest-elephant',
+      'species:dollmans-tree-mouse',
+    ],
+    countryIds: ['CM', 'CF', 'CG', 'GA'],
+    sources: ['one-earth-eco-26'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:52',
+    summary: {
+      value:
+        'The Northern Congolian Forest-Savanna ecoregion extends from the Cameroon Highlands east through CAR, northeastern DRC, South Sudan, and into northwestern Uganda. Repeated climatic fluctuations have expanded and contracted the forest-savanna boundary here, and today it supports a mix of savanna and forest mammals including elephants, giant eland, bongo, red-flanked duiker, and giraffe. Both the western black rhino and wild northern white rhino have been lost from the region, primarily from poaching.',
+      sourceIds: ['one-earth-eco-52'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'extends from the Cameroon Highlands east through CAR, northeastern DRC, South Sudan, and into northwestern Uganda',
+        'mostly a dissected plateau at about 500 m, rising to 700 m toward the Cameroon Highlands',
+        'Precambrian basement rocks with inselbergs',
+        'gallery forests along watercourses and remnant peripheral semi-evergreen rainforest in the south',
+      ],
+      sourceIds: ['one-earth-eco-52'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical savanna climate climatically transitional between the Sudanian and Guineo-Congolian regions, with a single wet and a single dry season. Mean annual precipitation is 1,200 to 1,600 mm per year, declining north into the East Sudanian Savanna, with temperatures from 34\u00b0C in the rainy season to 13\u00b0C in the dry season.',
+        annualPrecipitationMm: { min: 1200, max: 1600 },
+        temperatureC: { min: 13, max: 34 },
+      },
+      sourceIds: ['one-earth-eco-52'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'forest, woodland, and secondary grassland intergrading, controlled by precipitation, water stress, dry-season fire severity, and human activity',
+        'gallery forests along watercourses',
+        'widespread species including Berlina grandiflora, Cola laurifolia, Cynometra vogelii, and Pterocarpus santalinoides',
+        'moist wooded grasslands of Andropogon, Hyparrhenia, and Loudetia genera',
+      ],
+      sourceIds: ['one-earth-eco-52'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'repeated climatic fluctuations expanding and contracting rainforest and savanna',
+        'a mix of savanna and forest mammals including red-flanked duiker, giant eland, bongo, and northern savanna giraffe',
+        'both forest elephants in forest patches and savanna elephants in savanna woodlands',
+        'large predators including lions, with the western black rhino and wild northern white rhino now extinct primarily from poaching',
+      ],
+      sourceIds: ['one-earth-eco-52'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 16% with a protection level of 9. Protected areas include Garamba National Park, Mbam-Dj\u00e9rem and B\u00e9nou\u00e9 National Parks, Southern National Park, and the Bomu Wildlife Reserve. Threats include civil war, armed poaching gangs, and elephant ivory poaching, with about 3,000 elephants killed at Garamba between 2007 and 2014 and roughly 1,700 remaining, plus gallery-forest logging, fuelwood, and charcoal.',
+      sourceIds: ['one-earth-eco-52'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:african-elephant',
+      'species:giant-eland',
+      'species:bongo',
+      'species:red-flanked-duiker',
+      'species:lion',
+      'species:giraffe',
+    ],
+    countryIds: ['CF', 'SS', 'CM', 'CD', 'UG', 'NG'],
+    sources: ['one-earth-eco-52'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:91',
+    summary: {
+      value:
+        'The Aldabra Island Xeric Scrub ecoregion occupies one of the world\u2019s largest atolls, roughly 400 km northwest of Madagascar, and is home to the world\u2019s largest population of giant tortoises at about 152,000. These tortoises are the dominant grazers and act as ecosystem engineers, creating distinctive tortoise turf through grazing, seed dispersal, and nutrient cycling. The xeric scrub also holds two endemic land birds and ten endemic subspecies, including the Aldabra white-throated rail, the last flightless bird of the Western Indian Ocean.',
+      sourceIds: ['one-earth-eco-91'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'one of the largest atolls in the world, roughly 400 km northwest of Madagascar',
+        'four main islands, Grand Terre, Malabar, Picard, and Polymnie, plus lagoon islets',
+        'a rough circle enclosing a large shallow lagoon connected to the Indian Ocean by four channels',
+        'isolated coral atoll about 680 km east of the African mainland and 1,100 km southwest of the main Seychelles group',
+      ],
+      sourceIds: ['one-earth-eco-91'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with an average annual temperature of 27\u00b0C and variable rainfall of about 1,200 mm per year. A wet season runs from November to April and a drier season from May to October.',
+        annualPrecipitationMm: { min: 1200, max: 1200 },
+        temperatureC: { min: 22, max: 32 },
+      },
+      sourceIds: ['one-earth-eco-91'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dense, nearly monospecific Pemphis acidula thicket near the saline water table',
+        'mixed scrub of low trees, shrubs, herbs, and grasses covering the rest of the atoll',
+        'terrestrial flora of about nine fern species and 178 flowering plants, 38% endemic',
+        'many endemic invertebrates',
+      ],
+      sourceIds: ['one-earth-eco-91'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the world\u2019s largest giant tortoise population of about 152,000, one of the few areas where the dominant grazer is a reptile',
+        'giant tortoises acting as ecosystem engineers via grazing, seed dispersal, and nutrient cycling, creating tortoise turf',
+        'significant breeding populations of green turtles and hawksbill turtles',
+        'two endemic land birds and ten endemic subspecies among largely intact island avifauna',
+      ],
+      sourceIds: ['one-earth-eco-91'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 84% with a protection level of 10. Aldabra became a special reserve in 1981, a World Heritage Site in 1982, and a Ramsar site covering 439 km2, with a research station on Picard. Green turtle numbers are growing, but introduced rats, cats, and goats threaten nesting, and the black rat is a nest predator. Priority actions include climate and habitat modeling, alien species eradication, and ecotourism, facing sea-level rise, ocean acidification, and drought.',
+      sourceIds: ['one-earth-eco-91'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:aldabra-giant-tortoise',
+      'species:aldabra-white-throated-rail',
+      'species:aldabra-drongo',
+    ],
+    countryIds: ['SC'],
+    sources: ['one-earth-eco-91'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:20',
+    summary: {
+      value:
+        'The Mascarene Forests ecoregion encompasses diverse rainforests, cloud forests, swamp forests, and lowland dry forests across Mauritius, Réunion, and Rodrigues. These volcanic islands once hosted one of the richest floras and faunas of any oceanic archipelago, but have suffered catastrophic extinctions, including the entire Raphidae family, the dodo and Rodrigues solitaire. The ecoregion contains roughly 955 plant species, about 695 endemic, and 16 endemic bird species, with ongoing intensive conservation efforts.',
+      sourceIds: ['one-earth-eco-20'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'volcanic islands about 640-1,450 km east of Madagascar',
+        'Réunion (2,500 km², France) is the youngest with the still-active Piton de la Fournaise (2,631 m)',
+        'Mauritius (1,865 km²) ceased volcanic activity about 20,000 years ago, while Rodrigues is the oldest volcano',
+        'diverse terrain from lowland to montane, with coral reefs of about 750 km² and steep cirques and gorges on Réunion',
+      ],
+      sourceIds: ['one-earth-eco-20'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical to subtropical, warm and seasonal, with coastal temperatures of 22-27°C and much cooler, wetter conditions in the Réunion highlands. Réunion receives 4,000-10,000 mm/yr, Mauritius lowlands 750-2,400 mm/yr and uplands 2,400-4,500 mm/yr. Intense cyclones periodically affect all islands.',
+        annualPrecipitationMm: { min: 750, max: 10000 },
+        temperatureC: { min: 22, max: 27 },
+      },
+      sourceIds: ['one-earth-eco-20'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'extremely diverse, including wetlands, palm-rich woodland, lowland dry forest, rainforest, cloud forest, and montane evergreen forest',
+        'about 955 plant species with roughly 695 endemic, dominated by Ebenaceae, Rubiaceae, and Lauraceae',
+        'introduced species such as Chinese guava and Japanese cedar have replaced much native vegetation',
+        'heathland caps the highest Réunion mountains',
+      ],
+      sourceIds: ['one-earth-eco-20'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fruit bat pollination and seed dispersal are critical for native forest regeneration',
+        'seabird nutrient inputs enrich the islands',
+        'trophic disruption by invasive rats, cats, mongooses, and macaques caused over half of bird extinctions',
+        'introduced herbivores destroy native vegetation, and roughly 30% of endemic land snails are extinct with another 30% severely threatened',
+        'pollination networks disrupted by species losses',
+      ],
+      sourceIds: ['one-earth-eco-20'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 52% with a protection level of 7. Black River Gorges National Park (67 km²) on Mauritius is the largest protected area, joined by Réunion reserves including Mare Longue and Roche Ecrite, and small offshore islets managed as predator-free reserves. Priority actions include invasive alien species control, nonlethal fruit bat management, and habitat corridor expansion.',
+      sourceIds: ['one-earth-eco-20'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:reunion-cuckoo-shrike',
+      'species:reunion-harrier',
+      'species:mauritius-kestrel',
+      'species:pink-pigeon',
+      'species:echo-parakeet',
+      'species:mauritian-flying-fox',
+      'species:round-island-boa',
+      'species:trindade-petrel',
+    ],
+    countryIds: ['MU', 'RE'],
+    sources: ['one-earth-eco-20'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:67',
+    summary: {
+      value:
+        'This ecoregion covers the temperate grasslands of Amsterdam and Saint-Paul Islands, about 7,000 ha of two extremely remote subantarctic volcanic islands. It supports one of the world\u2019s rarest breeding birds, the Amsterdam albatross with only about 30 breeding pairs, along with significant populations of northern rockhopper penguins, subantarctic fur seals, and multiple albatross species. The original Phylica forest has been largely replaced by invasive meadow, though remnants persist.',
+      sourceIds: ['one-earth-eco-67'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Amsterdam Island (55 km², extinct volcano to 911 m) and Saint-Paul Island (7 km², 272 m with a flooded crater harbor)',
+        'both volcanic, about 80 km apart, roughly 3,000 km from any continent',
+        'steep coastal cliffs, rocky shores, lava fields, tussock grassland, and lowland meadow',
+        'Saint-Paul\u2019s flooded crater creates a dramatic enclosed harbor with vertical cliff walls',
+      ],
+      sourceIds: ['one-earth-eco-67'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Moderate oceanic climate with air temperatures from 11.2°C in August to 17°C in February, averaging 13.5°C, and sea surface temperatures of 12.7-17.4°C. Precipitation is about 1,114 mm/yr, mostly rain. Snow or hail occurs in winter at higher elevations, about 500 km north of the Antarctic convergence.',
+        annualPrecipitationMm: { min: 1114, max: 1114 },
+        temperatureC: { min: 11.2, max: 17 },
+      },
+      sourceIds: ['one-earth-eco-67'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'temperate grasslands dominate the lowlands',
+        'the native Phylica nitida (Rhamnaceae) tree, reaching 6-7 m, is the only native tree on any French sub-Antarctic island',
+        'residual Phylica forest on the eastern slope between Grand Bois and Chaudron',
+        'invasive lowland meadow now covers most of the formerly forested area, and invasive plants have significantly changed the landscape',
+      ],
+      sourceIds: ['one-earth-eco-67'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'seabird nutrient transfer via guano from about 10-11 breeding species, four of them extremely rare',
+        'rockhopper penguins perform large-scale winter movements of about 2,100 km over deep oceanic waters',
+        'lactating subantarctic fur seals forage up to 530 km, diving to catch myctophid fish at night',
+        'disease outbreaks and industrial longline fishing cause bycatch and pathogen mortality in albatrosses',
+        'feral cattle were the main vegetation threat until eradicated in 2010',
+      ],
+      sourceIds: ['one-earth-eco-67'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 99% with a protection level of 10. The islands are protected within the National Nature Reserve of French Southern Territories, a Ramsar site of 22,700 km². Priority actions include mitigating bycatch where the Amsterdam albatross feeds, long-term seabird population monitoring, and pathogen surveillance in seabird colonies. Only about 160-170 Amsterdam albatrosses survive, all restricted to the Peat Bog plateau at about 600 m.',
+      sourceIds: ['one-earth-eco-67'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:amsterdam-albatross',
+      'species:indian-yellow-nosed-albatross',
+      'species:sooty-albatross',
+      'species:northern-rockhopper-penguin',
+      'species:subantarctic-fur-seal',
+      'species:brown-skua',
+    ],
+    countryIds: ['TF'],
+    sources: ['one-earth-eco-67'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:68',
+    summary: {
+      value:
+        'This ecoregion encompasses all the Tristan da Cunha archipelago\u2019s shrublands and grasslands across approximately 17,000 ha. Gough Island hosts one of the most important seabird colonies on Earth, with about 20 breeding seabird species. The ecoregion is defined by its cool-temperate oceanic climate, volcanic geology, and extraordinary endemism in both birds and plants, despite the complete absence of native terrestrial reptiles, amphibians, or mammals.',
+      sourceIds: ['one-earth-eco-68'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'five volcanic islands on the east slope of the Mid-Atlantic Ridge',
+        'Tristan is volcanically active, about 1 million years old, with a snow-capped peak and crater lake',
+        'Gough Island about 425 km southeast is an eroded volcanic mass with one main island and offshore islets',
+        'Nightingale and Inaccessible are eroded volcanic cones with steep coastal cliffs, tussock grass slopes, and subantarctic grassland',
+      ],
+      sourceIds: ['one-earth-eco-68'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Cool-temperate oceanic with mean near-sea-level temperatures of 11.3-14.5°C and little seasonal variation but rapid weather changes, on the edge of the roaring forties wind belt. Tristan receives about 1,676 mm/yr of precipitation while the much wetter Gough Island receives about 3,397 mm/yr.',
+        annualPrecipitationMm: { min: 1676, max: 3397 },
+        temperatureC: { min: 11.3, max: 14.5 },
+      },
+      sourceIds: ['one-earth-eco-68'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'temperate grasslands of tussock grass, shrublands of Phylica scrub, and fern bush dominated by tree ferns (Cyathea)',
+        'numerous endemic plant species including tree ferns',
+        'Gough Island\u2019s fern bush is critical habitat for the Gough moorhen',
+        'volcanic soils that are often thin on steep slopes',
+      ],
+      sourceIds: ['one-earth-eco-68'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'massive seabird nutrient transfer, with guano deposition enriching the soils',
+        'Gough Island supports about 20 breeding seabird species including the entire world population of the Tristan albatross',
+        'invasive house mice on Gough predate over a million seabird chicks a year',
+        'subantarctic fur seals and southern elephant seals haul out on the coasts',
+        'no native terrestrial predators, so trophic dynamics are shaped entirely by the absence of mammals',
+      ],
+      sourceIds: ['one-earth-eco-68'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 48% with a protection level of 10. Gough Island, Inaccessible Island, and territorial waters are inscribed on the UNESCO World Heritage List (1995), though there is no protected area on Tristan Island itself. Priority actions include promoting sustainable local produce to reduce imports carrying invasive species, eradicating all rodents and invasive species, and building quarantine and biosecurity capacity.',
+      sourceIds: ['one-earth-eco-68'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:tristan-albatross',
+      'species:atlantic-yellow-nosed-albatross',
+      'species:sooty-albatross',
+      'species:northern-rockhopper-penguin',
+      'species:tristan-thrush',
+      'species:gough-finch',
+      'species:gough-moorhen',
+      'species:macaroni-penguin',
+    ],
+    countryIds: ['SH'],
+    sources: ['one-earth-eco-68'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:47',
+    summary: {
+      value:
+        'The Kalahari Acacia Woodlands occupy a broad band from northern Namibia across to Botswana just east of the Okavango Delta, on the centre of the Great African Plateau at about 1,000 m. This semi-arid ecoregion was once part of an important seasonal migration route for large herbivores such as blue wildebeest, eland, Burchell\u2019s zebra, buffalo, and hartebeest, but 1950s foot-and-mouth veterinary fences still disrupt migration and caused population collapses. It supports many charismatic savanna mammals and the flagship near-endemic black-faced babbler.',
+      sourceIds: ['one-earth-eco-47'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'broad band across northern Namibia into Botswana, east of the Okavango Delta, on the centre of the Great African Plateau at about 1,000 m',
+        'sandveld of low sand ridges with taller trees and hardveld of mopane and complex vegetation on changing soils',
+        'surface water scarce, with drainage mainly restricted to pans and dry valleys that only hold water after rain',
+        'spans the southern extent of the Zambezian centre of endemism',
+      ],
+      sourceIds: ['one-earth-eco-47'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Semi-arid continental with droughts on an approximate 7-year cycle. Rainfall is mainly summer (Oct-Mar) with little or no winter rain, from about 300 mm in the southwest to 600 mm in the north. Diurnal and seasonal temperature ranges are high, with below-freezing nights in June-July and summer temperatures above 40°C.',
+        annualPrecipitationMm: { min: 300, max: 600 },
+        temperatureC: { min: -5, max: 40 },
+      },
+      sourceIds: ['one-earth-eco-47'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dominant core trees Lonchocarpus nelsii, Terminalia sericea, Burkea africana, Combretum spp., Acacia erioloba, and A. luederitzii',
+        'sandveld ridges with Peltophorum africanum, Croton gratissimus, A. fleckii, and Combretum zeyheri',
+        'hardveld with Colophospermum mopane, Acacia nigrescens, Combretum apiculatum, and C. imberbe',
+        'relatively low flora and fauna richness and endemism',
+      ],
+      sourceIds: ['one-earth-eco-47'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'historical seasonal migration of large herbivores (wildebeest, eland, zebra, buffalo, and hartebeest) disrupted by veterinary cordon fences and causing population collapses',
+        'livestock expansion via borehole groundwater extraction and elimination of competing wildlife',
+        'fire as a natural process, but with mismanaged fire regimes',
+        'climate change increasing rainfall variability and extreme drought frequency',
+      ],
+      sourceIds: ['one-earth-eco-47'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 91% with a protection level of 6. Protected areas include part of the Khaudum National Park (Namibia), the Okavango Delta System Ramsar Site (Botswana), and community conservancies and forests such as Eiseb, Omuramba Ua, Nyae Nyae, and Ondjou. Threats include livestock agriculture expansion, overgrazing, veterinary fences, and climate change.',
+      sourceIds: ['one-earth-eco-47'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:black-faced-babbler',
+      'species:blue-wildebeest',
+      'species:roan-antelope',
+      'species:greater-kudu',
+      'species:eland',
+      'species:common-duiker',
+    ],
+    countryIds: ['BW', 'NA'],
+    sources: ['one-earth-eco-47'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:94',
+    summary: {
+      value:
+        'The Gariep Karoo is an extensive, open, arid region of low-shrub vegetation punctuated by rugged relief, extending from the middle of South Africa\u2019s Northern Cape over the Orange River into Namibia. It contains the Fish River Canyon, the second largest canyon in the world after the Grand Canyon and the largest in the southern hemisphere, along with major pan systems such as the Grootvloer-Verneukpan complex. The flagship species is the strictly endemic ferruginous lark.',
+      sourceIds: ['one-earth-eco-94'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'extensive arid low-shrub region with rugged relief, from central South Africa\u2019s Northern Cape northwards over the Orange River into Namibia',
+        'Fish River Canyon incises the plateau up to 550 m deep and 65 km wide, the largest canyon in the southern hemisphere',
+        'pan systems including the large Grootvloer-Verneukpan complex, which in wet years links the Orange and Sak river systems and enables fish interchange',
+      ],
+      sourceIds: ['one-earth-eco-94'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Arid with frequent droughts and large seasonal and daily temperature fluctuations. Mean maximum mid-summer (January) temperatures exceed 36°C while mean minimum mid-winter (July) temperatures fall below freezing. Annual rainfall is 50-500 mm, decreasing east-to-west and north-to-south, with occasional fog in the west and cooler, wetter higher mountain reaches.',
+        annualPrecipitationMm: { min: 50, max: 500 },
+        temperatureC: { min: 0, max: 36 },
+      },
+      sourceIds: ['one-earth-eco-94'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'succulent dwarf shrubs and tall stem-succulents including quiver trees (Aloidendron dichotomum)',
+        'abundant shrubs of Drosanthemum, Eriocephalus, Galenia, Pentzia, Pteronia, and Ruschia',
+        'perennial grasses of Aristida, Digitaria, Enneapogon, and Stipagrostis',
+        'riparian thicket near the Orange River with arid-adapted Shepherds tree (Boscia) and ringwood trees',
+      ],
+      sourceIds: ['one-earth-eco-94'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'relict arid fauna from past drier epochs along a continuous arid corridor across southeast and eastern Africa',
+        'formerly grazed by indigenous migratory ungulates, now by domestic sheep and goats within fences, altering plant composition and cover',
+        'poisoned carcasses targeting black-backed jackal and caracal that kill non-target raptors',
+        'invasive alien plants such as mesquite and tobacco tree altering ecology and hydrology, with mining along the Orange River contaminating soil and water',
+      ],
+      sourceIds: ['one-earth-eco-94'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 40% with a protection level of 1. Protected and managed land includes community conservancies and private reserves in Namibia (Han Awab, Khob Naub, Huibes, Gamaseb, Gondwana Private Reserve), parks such as Hardap, Naute, and Ais-Ais Hotsprings, plus Augrabies Falls National Park in South Africa. Priority actions include reintroducing black rhino to historical range, controlling alien species, and establishing further protected areas.',
+      sourceIds: ['one-earth-eco-94'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:ferruginous-lark',
+      'species:hartmanns-zebra',
+      'species:black-rhinoceros',
+      'species:giraffe',
+      'species:klipspringer',
+      'species:red-hartebeest',
+      'species:martial-eagle',
+    ],
+    countryIds: ['ZA', 'NA'],
+    sources: ['one-earth-eco-94'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:97',
+    summary: {
+      value:
+        'The Kalahari Xeric Savanna stretches across northwestern South Africa, southern Botswana, and central-southeastern Namibia on the level plains of the Kalahari Basin, interrupted by long parallel sand dunes. Temperatures are extreme, with winter nights down to -14°C and summer days above 45°C, and rainfall is remarkably patchy at 150-500 mm. Despite very low plant endemism it supports remarkable large-mammal diversity, including the famous black-maned Kalahari lion, and the flagship species is the gemsbok.',
+      sourceIds: ['one-earth-eco-97'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'level plains of the Kalahari Basin interrupted by long parallel red sand dunes in the south',
+        'reddish-brown, nutrient-poor Kalahari sands on elevations of 600-1,600 m, mostly above 1,000 m',
+        'latitude, high atmospheric pressure, and the Drakensberg barrier controlling climate',
+      ],
+      sourceIds: ['one-earth-eco-97'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Extreme temperature fluctuations, with up to 45°C change in a single day: winter nights plummet to -14°C and days soar to 30°C, while cold summer nights may drop to 5°C and daytime may exceed 45°C. Rainfall is remarkably patchy, highest in the northeast and lowest in the southwest, at 150-500 mm per year.',
+        annualPrecipitationMm: { min: 150, max: 500 },
+        temperatureC: { min: -14, max: 45 },
+      },
+      sourceIds: ['one-earth-eco-97'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'in less arid areas, open savanna of grasses (Schmidtia, Stipagrostis, Aristida, Eragrostis) interrupted by camelthorn, grey camelthorn, false umbrella thorn, blackthorn, shepherd\u2019s tree, and silver cluster-leaf trees',
+        'shrubs including Grewia flava, Ziziphus mucronata, Tarchonanthus camphoratus, Rhigozum trichotomum, Acacia hebeclada, and Lycium',
+        'in drier areas, large trees in ancient riverbeds, rolling red dunes with smaller trees, broom bushes, and dune reeds',
+        'among the lowest plant species richness per unit area in southern Africa, with less than 3% of plants endemic',
+      ],
+      sourceIds: ['one-earth-eco-97'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fire as a natural process, but mismanaged regimes degrading habitats, lowering species richness, and reducing nutrients',
+        'veterinary, farm, and border fences causing a precipitous decline of blue wildebeest and hartebeest since the 1960s by blocking migration',
+        'artificial waterholes compensating partly but often of poor quality',
+        'poisoned carcasses killing non-target raptors, and climate change raising temperatures and decreasing rainfall',
+      ],
+      sourceIds: ['one-earth-eco-97'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 52% with a protection level of 3. The largest reserve is the Central Kalahari (part) and adjoining Khutse Game Reserves (Botswana), with Kgalagadi Transfrontier Park uniting the Kalahari Gemsbok and Gemsbok National Parks (proclaimed 1931). Communal conservancies in Namibia include Ovitoto, Otjombinde, and Ozonahi. Priority actions include borehole management and reassessing or removing veterinary fences.',
+      sourceIds: ['one-earth-eco-97'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:gemsbok',
+      'species:lion',
+      'species:cheetah',
+      'species:spotted-hyena',
+      'species:brown-hyena',
+      'species:meerkat',
+      'species:cape-fox',
+      'species:black-backed-jackal',
+    ],
+    countryIds: ['BW', 'NA', 'ZA'],
+    sources: ['one-earth-eco-97'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:101',
+    summary: {
+      value:
+        'The Nama Karoo is a vast, open, arid region of low-shrub vegetation punctuated by rugged relief, on the central plateau of South Africa\u2019s Western, Northern, and Eastern Cape provinces inland of the Southern Fold Mountains. Historically it saw game migrations numbering in the millions, with springbok most numerous alongside blue wildebeest, blesbok, quagga, and eland, a spectacle ended by hunting and livestock grazing. The flagship species is the vulnerable martial eagle.',
+      sourceIds: ['one-earth-eco-101'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'vast, open, arid region with low-shrub vegetation and rugged relief on the central plateau of the Western, Northern, and Eastern Cape provinces, inland of the Southern Fold Mountains',
+        'the Orange River Basin is the main drainage system, with many ephemeral watercourses',
+        'droughts are common',
+      ],
+      sourceIds: ['one-earth-eco-101'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Harsh, with frequent droughts and large seasonal and daily temperature swings of about 25°C between day and night, with common frosts. Mean maximum mid-summer (January) temperatures exceed 30°C while mean minimum mid-winter (July) temperatures fall below freezing. Rainfall is unseasonal, generally peaking Dec-Mar, at 100-500 mm per year and decreasing east-to-west and north-to-south.',
+        annualPrecipitationMm: { min: 100, max: 500 },
+        temperatureC: { min: 0, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-101'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dwarf shrubs and grasses dominate, their relative abundance dictated by rainfall and soil',
+        'shrubs of Drosanthemum, Eriocephalus, Galenia, Pentzia, Pteronia, and Ruschia with perennial grasses of Aristida, Digitaria, Enneapogon, and Stipagrostis',
+        'trees and taller woody shrubs restricted mostly to watercourses, including Acacia karroo, Diospyros lycioides, Grewia robusta, Rhus lancea, and Tamarix usneoides',
+      ],
+      sourceIds: ['one-earth-eco-101'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'grass cover gradually increasing since 1962 with rising temperatures and CO2, promoting fuel continuity and increased fire frequency in a grass-fire feedback cycle',
+        'relict fauna of past drier epochs along a continuous arid corridor',
+        'invasive alien plants such as Prosopis (now the country\u2019s second most widespread invasive), Opuntia, and Atriplex altering ecology and hydrology',
+        'pesticides for brown locusts bioaccumulating in raptors',
+      ],
+      sourceIds: ['one-earth-eco-101'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 11% with a protection level of 2, with only about 1% of the ecoregion protected (Karoo and Camdeboo National Parks plus smaller reserves such as Oviston, Sondersorg, and Aberdeen and the Compassberg Protected Environment). Most of the ecoregion is livestock rangeland, still intact but partly severely degraded. Priority actions include a national strategy against invasive species, preventing man-made fires, and expanding the protected area network.',
+      sourceIds: ['one-earth-eco-101'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:martial-eagle',
+      'species:springbok',
+      'species:blue-wildebeest',
+      'species:eland',
+      'species:bat-eared-fox',
+      'species:black-backed-jackal',
+      'species:caracal',
+      'species:yellow-mongoose',
+    ],
+    countryIds: ['ZA'],
+    sources: ['one-earth-eco-101'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:98',
+    summary: {
+      value:
+        'The Kaokoveld Desert stretches along the west coast of southern Africa from the Uniab and Koigab Rivers of Namibia northwards into the Mo\u00e7\u00e2medes Desert of southern Angola, about 100 km wide from the Atlantic coast to the Great Escarpment. Its flagship is the relict gymnosperm Welwitschia mirabilis, whose individual plants are estimated at over 2,500 years old and rely on fog from the Benguela Current. The desert also supports desert black rhino, giraffe, black-faced impala, and other arid-adapted fauna.',
+      sourceIds: ['one-earth-eco-98'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'west-coast strip from the Uniab and Koigab River systems of Namibia north into southern Angola\u2019s Mo\u00e7\u00e2medes Desert, about 100 km wide from the Atlantic coast to the foot of the Great Escarpment',
+        'shifting sand dunes, gravel deserts, saline beaches, and scattered dry riverbeds',
+        'lies at the northern end of the Karoo-Namib regional centre of endemism',
+      ],
+      sourceIds: ['one-earth-eco-98'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Hyper-arid and highly unpredictable, falling within the northern summer-rainfall area with most rain as sporadic thunderstorms Oct-Mar and under 100 mm per year. The cool Benguela Current forms a stable fog layer blown inland up to 50 km. Coastal temperatures are suppressed while inland extremes fall below 0°C and rise above 50°C.',
+        annualPrecipitationMm: { min: 0, max: 100 },
+        temperatureC: { min: 0, max: 50 },
+      },
+      sourceIds: ['one-earth-eco-98'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'some areas devoid of vegetation (shifting dunes), with Acanthosicyos horridus colonizing sand',
+        'coastal gravels host colourful foliose and crustose lichen fields, while inland gravels support Zygophyllum simplex, Galenia africana, Sesuvium portulacastrum, and Stipagrostis subacaulis',
+        'sparse grassland of Salsola nollothensis, Indigofera cunenensis, Stipagrostis ramulosa, and Eragrostis cyperoides, with halophytic communities on saline beaches',
+        'ancient endemics include Welwitschia mirabilis, with families rich in endemics including Acanthaceae, Asclepiadaceae, Burseraceae, Fabaceae, Poaceae, and Vitaceae',
+      ],
+      sourceIds: ['one-earth-eco-98'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fog-driven moisture cycle in which the Benguela Current meets hot Namib air to sustain plants and animals',
+        'Welwitschia leaves chewed by antelopes and rhinos for moisture during drought',
+        'the solifuge sun spider Ceroma inerme displaying marine-adapted xerophilic behaviour foraging in the intertidal zone',
+        'elephant, rhino, and giraffe using riverbeds fringing the desert, with several species being relicts of a once-continuous arid belt across Africa',
+      ],
+      sourceIds: ['one-earth-eco-98'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 100% with a protection level of 10. Protection includes Skeleton Coast National Park (500 km), Namibe Partial Reserve and Iona National Park in Angola, with community conservancies such as Merienfluss and Orupembe. Threats include wildlife poaching (especially post-war Angola), seasonal overgrazing by Ovahimba cattle, and settlement and agriculture.',
+      sourceIds: ['one-earth-eco-98'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:black-rhinoceros',
+      'species:giraffe',
+      'species:springbok',
+      'species:gemsbok',
+      'species:damara-dik-dik',
+      'species:black-faced-impala',
+      'species:grays-lark',
+    ],
+    countryIds: ['AO', 'NA'],
+    sources: ['one-earth-eco-98'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:102',
+    summary: {
+      value:
+        'The Namaqualand-Richtersveld Steppe extends down the western coast of Namibia from L\u00fcderitz into South Africa, forming the Namaqualand-Namib Domain within the two-billion-year-old Namaqualand Metamorphic Province. It belongs to the world\u2019s only entirely arid plant hotspot, famed for its succulent diversity, lichen fields, and the flagship quiver tree. Endemism is especially rich among arachnids, beetles, aculeate Hymenoptera, and reptiles, while the only strictly endemic bird is Barlow\u2019s lark.',
+      sourceIds: ['one-earth-eco-102'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'western coast from L\u00fcderitz (Namibia) into South Africa',
+        'comprises the Namaqualand-Namib Domain of the Namaqualand Metamorphic Province of 1-2 billion-year-old granites and gneisses',
+        'encompasses the fog-affected coastal plain and adjacent escarpment, including the Gariep Centre (Richtersveld) extending into Namibia\u2019s Sperrgebiet',
+      ],
+      sourceIds: ['one-earth-eco-102'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Mild compared with other arid areas, with extremely rare frosts. Most rain falls in winter and is relatively reliable and predictable, with prolonged winter droughts rare. Annual rainfall ranges from 20 mm in the drier northwest to over 400 mm on the escarpment (most of the area under 150 mm), supplemented by heavy dewfalls and fog.',
+        annualPrecipitationMm: { min: 20, max: 400 },
+      },
+      sourceIds: ['one-earth-eco-102'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'the world\u2019s only entirely arid plant hotspot with outstanding succulent diversity, especially dwarf and contracted-leaved species of Mesembryanthemaceae, Crassulaceae, and Aloaceae, and high geophyte diversity',
+        'tree richness is poor (only about 35 species) but includes charismatic endemics such as the quiver tree, bastard quiver tree, and halfmens',
+        'roughly 355 endemic plant species and three endemic genera (Juttadinteria, Dracophilus, Arenifera)',
+        'lichen fields with the world\u2019s highest cover, density, and diversity of lichens',
+      ],
+      sourceIds: ['one-earth-eco-102'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fog and heavy dew supplement winter rainfall in the regional moisture regime',
+        'desiccation-adapted succulent water-storage physiology, as in the quiver tree (Aloidendron dichotomum) which can live about 200 years',
+        'high endemism concentrated in the Gariep Centre and Sperrgebiet',
+        'the diamond mining belt degrades the narrow coastal zone',
+      ],
+      sourceIds: ['one-earth-eco-102'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 52% with a protection level of 7. Protected areas include Richtersveld National Park, Ai-Ais Hot Springs, Namaqua National Park, Goegab Nature Reserve, and Sperrgebiet National Park inside the Protected Diamond Area closed since 1910. Threats include overgrazing, rangeland expansion, agriculture in perennial-river valleys, illegal succulent and geophyte collection, and mining for diamonds and other minerals.',
+      sourceIds: ['one-earth-eco-102'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:barlows-lark',
+      'species:steenbok',
+      'species:puff-adder',
+      'species:namaqua-thick-toed-gecko',
+    ],
+    countryIds: ['ZA', 'NA'],
+    sources: ['one-earth-eco-102'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:103',
+    summary: {
+      value:
+        'The Namib Desert is one of the most arid regions in the world, extending along the coastal plain of western Namibia from the Uniab River to L\u00fcderitz, 80-200 km inland to the Namib Escarpment. Its flagship is the head-stander or fog-basking beetle Onymacris unguicularis, which sits on its head collecting fog on its elytra for water. The cool Benguela Current suppresses rainfall but supplies fog up to about 100 km inland, sustaining a suite of desert-adapted species.',
+      sourceIds: ['one-earth-eco-103'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'coastal plain of western Namibia from the Uniab River to L\u00fcderitz, 80-200 km inland to the Namib Escarpment',
+        'southern Namib has expansive shifting dunes reaching about 300 m high',
+        'north of the Kuiseb River, dunes give way to Central Namib gravel plains dotted with granite and limestone inselbergs',
+        'isolated between ocean and escarpment and arid for millions of years',
+      ],
+      sourceIds: ['one-earth-eco-103'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Sparse, highly unpredictable rainfall of 5 mm per year in the west to about 85 mm in the east. The coast receives 2-20 mm with thick fog on more than 180 days per year, fog about 40 days per year some 50 km inland, and rarely further inland (rain 20-85 mm). Temperatures are low near the coast due to the Benguela Current but inland extremes fall below 0°C and above 50°C.',
+        annualPrecipitationMm: { min: 5, max: 85 },
+        temperatureC: { min: 0, max: 50 },
+      },
+      sourceIds: ['one-earth-eco-103'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'a few perennial grasses and the succulent Trianthema hereroensis, with hummocks of Acanthosicyos horridus between dunes and coast',
+        'coastal fog-belt shrubs such as Psilocaulon salicornioides, Zygophyllum clavatum, Salsola aphylla, and S. nollothensis, plus the pencil plant, dollar bush, and quiver trees (Aloidendron dichotomum)',
+        'the monotypic Welwitschia mirabilis, endemic to the Namib and Kaokoveld, has the longest-lived leaves of any plant (about 2,500 years)',
+        'high plant endemism and many arid adaptations',
+      ],
+      sourceIds: ['one-earth-eco-103'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fog-basking behaviour, including the head-stander beetle collecting water on its elytra',
+        'the dune system driven north by prevailing southerly winds and halted by Kuiseb River vegetation',
+        'long-term aridity producing a stable centre for desert species evolution',
+        'small rodents such as the dune hairy-footed gerbil and Grant\u2019s golden mole burrow, while wedge-snouted sand lizards and barking geckos dive beneath the sand',
+      ],
+      sourceIds: ['one-earth-eco-103'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 94% with a protection level of 10. Key protected areas include Namib-Naukluft National Park (the largest conservation area in southern Africa), Cape Cross Seal Reserve, the Erg du Namib World Heritage Site, NamibRand Private Reserve, Sperrgebiet, and Dorob National Parks. Threats include off-road driving, groundwater extraction, Topnaar livestock overgrazing, and mining.',
+      sourceIds: ['one-earth-eco-103'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:head-stander-beetle',
+      'species:hartmanns-zebra',
+      'species:gemsbok',
+      'species:springbok',
+      'species:grants-golden-mole',
+      'species:brown-hyena',
+    ],
+    countryIds: ['NA'],
+    sources: ['one-earth-eco-103'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:104',
+    summary: {
+      value:
+        'The Namibian Savanna Woodlands cover the narrow, deeply dissected escarpment inland of the Namib Desert, broadening south where it includes extensive Nama Karoo plateau. The flagship species is the Hartmann\u2019s zebra, the only large mammal endemic to Namibia and near-endemic to the ecoregion, threatened by annual harvesting for the skin trade. The Kaoko Escarpment here is a major endemism hotspot.',
+      sourceIds: ['one-earth-eco-104'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'narrow escarpment inland of the Namib Desert, broadening southwards onto the Nama Karoo plateau south of Mariental',
+        'the escarpment edge is deeply dissected with mountains including Baynes (2,038 m), Erongo (2,319 m), Naukluft (1,974 m), Spitzkoppe (1,759 m), and Gamsberg (2,347 m)',
+      ],
+      sourceIds: ['one-earth-eco-104'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Low rainfall of 60 mm (west) to 200 mm (east), most falling as summer thundershowers (Oct-Mar) with great inter-annual variation and the driest years the least predictable. Low humidity gives extreme temperatures, with lows to -9°C and mean monthly maxima occasionally above 40°C.',
+        annualPrecipitationMm: { min: 60, max: 200 },
+        temperatureC: { min: -9, max: 40 },
+      },
+      sourceIds: ['one-earth-eco-104'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'highly varied due to topography, soils, and microclimate',
+        'mopane savanna (Colophospermum mopane, Sesamothamnus benguellensis, S. guerichii) in the north and east',
+        'semi-desert-savanna transition with Euphorbia guerichiana, Cyphostemma, Adenolobus, quiver tree, Moringa ovalifolia, and Commiphora',
+        'south becomes dwarf shrub savanna (Rhigozum trichotomum, Acacia nebrownii, Boscia foetida, Catophractes alexandri), with the Kaoko Escarpment and Brandberg being endemism hotspots',
+      ],
+      sourceIds: ['one-earth-eco-104'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the Kaoko Escarpment is one of Namibia\u2019s two internationally recognized endemism hotspots, with high Namibian endemic invertebrates, amphibians, reptiles, mammals, and birds',
+        'desert-dwelling elephant and black rhino populations',
+        'bush encroachment reducing overall wildlife abundance',
+        'poaching threats to unfenced black rhino, off-road driving compacting and scarring soils, plant poaching of succulents, and mining altering the landscape',
+      ],
+      sourceIds: ['one-earth-eco-104'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 53% with a protection level of 8. Communal conservancies have operated in Kunene and Erongo since 1990, including Gaingu, Tsiseb, Torra, Puros, and Orupembe, joined by Buffalo and Namibe partial reserves and Chimalavera Natural Regional Park in Angola. Priority actions include enhancing law enforcement against illegal wildlife and plant trade, restoring mining-degraded land, and building community-based natural resource management capacity.',
+      sourceIds: ['one-earth-eco-104'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:hartmanns-zebra',
+      'species:black-rhinoceros',
+      'species:african-elephant',
+      'species:greater-kudu',
+      'species:springbok',
+      'species:gemsbok',
+    ],
+    countryIds: ['NA', 'AO'],
+    sources: ['one-earth-eco-104'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:58',
+    summary: {
+      value:
+        'The Southern Congolian Forest-Savanna covers much of south-central Democratic Republic of Congo and the northeast corner of Angola, a dynamic forest-savanna mosaic that has experienced more than 20 climatic fluctuations over the last 10 million years. A large-scale erosional event about 2,000-2,500 years ago, from greater rainfall seasonality, fragmented forests across the region. The flagship species is the bongo, one of the largest forest antelopes with bright white stripes on its chestnut sides for camouflage.',
+      sourceIds: ['one-earth-eco-58'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'rises gradually from the southern Congo Basin (300-400 m) onto the Central African Plateau (about 1,000 m)',
+        'deep river valleys provide relief, exposing pre-Cretaceous karoo sedimentary rock, with Quaternary Kalahari sands stretching across the south',
+        'long, ribbon-like forests run north-south along rivers fanning from the Congo Basin into savanna woodlands',
+      ],
+      sourceIds: ['one-earth-eco-58'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Annual mean maximum temperatures of 27-30°C and annual mean minimums of 18-21°C. Annual rainfall averages about 1,400 mm, with a drier southeast of about 1,200 mm and up to 1,600 mm on the northern margins and southern highlands supporting forest.',
+        annualPrecipitationMm: { min: 1200, max: 1600 },
+        temperatureC: { min: 18, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-58'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'characteristic ribbon forests along rivers, with larger trees of drier peripheral rainforest including Albizia zygia, Lovoa trichilioides, and Parkia filicoidea',
+        'southern part dominated by secondary grassland and wooded grassland with Andropogon schirensis, Hyparrhenia confinis, and Pennisetum unisetum',
+        'a zone of dynamic change between forest and savanna with few endemics and moderate species richness',
+      ],
+      sourceIds: ['one-earth-eco-58'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'a forest-savanna mosaic persisting since the last glacial maximum (about 20,000 years ago)',
+        'humans accelerate grassland spread by increasing fire frequency and intensity and clearing for agriculture, with elephants also contributing',
+        'deep river valleys and Kalahari sands underlie vegetation complexity, with frequent burning in southern Bandundu, Kasai, and Shaba provinces',
+        'high carbon-storage potential as grasslands develop into forests makes this a high conservation priority',
+      ],
+      sourceIds: ['one-earth-eco-58'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 11% with a protection level of 3, with only small areas protected including Bushimaie and Luama-Kivu Hunting Areas, Mangai Nature Reserve, and part of Lomami National Park. Ethnic strife and civil war in the DRC (1994-2003) hit hunting reserves with poaching and encroachment. Priority actions include building park staff capacity, developing alternative incomes to reduce land clearing, and expanding the protected area network.',
+      sourceIds: ['one-earth-eco-58'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:bongo',
+      'species:african-elephant',
+      'species:blue-duiker',
+      'species:yellow-backed-duiker',
+      'species:waterbuck',
+      'species:southern-reedbuck',
+      'species:hippopotamus',
+    ],
+    countryIds: ['CD', 'AO'],
+    sources: ['one-earth-eco-58'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:63',
+    summary: {
+      value:
+        'The Western Congolian Forest-Savanna covers the dissected plateaus bordering the lower Congo River across the Democratic Republic of Congo, Republic of Congo, and northern Angola. Its gallery forests and savanna are some of the most important habitats for iconic threatened African mammals - elephant, gorilla, chimpanzee, sun-tailed guenon, and Bouvier\u2019s red colobus. The flagship species is the strictly endemic white-headed robin-chat.',
+      sourceIds: ['one-earth-eco-63'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'dissected plateaus bordering the lower Congo River through the Democratic Republic of Congo, Republic of Congo, and northern Angola',
+        'north of the river the landscape rises onto plateaus averaging 650 m interspersed with canyons up to 300 m deep (L\u00e9fini Park)',
+        'Guineo-Congolian semi-evergreen forests extend far into savanna along broad Congo tributary valleys',
+      ],
+      sourceIds: ['one-earth-eco-63'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical with limited seasonality. Mean maximum temperatures are 30°C in the lowlands and 21°C on high plateaus, with mean minimums of about 21°C (lowlands) to 15°C (plateaus). Over the last 2.5 million years, ice-age climatic fluctuations caused forest expansion and contraction, with forest contracting 3,000-2,500 years ago and expanding again over the past 2,000 years.',
+        temperatureC: { min: 15, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-63'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'Guineo-Congolian semi-evergreen gallery forests of similar composition to interior Congolian rainforests',
+        'dense dry evergreen forest on the Bat\u00e9k\u00e9 Plateau, including Mabwati dense forest on Kalahari sands (Marquesia macroura, M. acuminata, Daniellia alsteeniana, Berlinia giorgii)',
+        'wooded grassland savanna',
+        'moderate species richness due to habitat interdigitation and large rivers and gallery forests',
+      ],
+      sourceIds: ['one-earth-eco-63'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'forest-savanna dynamics in which savanna areas are being colonized by young successional forest, with northern encroachment of forest into savanna replacing savanna fauna and flora with Congo Basin species',
+        'gallery forests acting as corridors for forest-dwelling wildlife',
+        'high hunting pressure (blue duiker, porcupine, red river hog, forest buffalo, civet, and primates), with logging roads intensifying access',
+        'a well-developed bushmeat trade affecting IUCN-listed species',
+      ],
+      sourceIds: ['one-earth-eco-63'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 26% with a protection level of 4. Protected areas include L\u00e9fini Wildlife Reserve, Loubetsi-Nyanga Ramsar, Tsoulou Wildlife Reserve, and Swa-Kibula Hunting Reserve (Congo), Plateau Bat\u00e9k\u00e9 and Lop\u00e9 National Parks and Ivindo (Gabon), and the For\u00eat de Luki UNESCO MAB (DRC), with no protected areas in Angola. Threats include subsistence farming, charcoal extraction, timber, hunting, and civil war.',
+      sourceIds: ['one-earth-eco-63'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:white-headed-robin-chat',
+      'species:western-lowland-gorilla',
+      'species:central-chimpanzee',
+      'species:sun-tailed-monkey',
+      'species:bouviers-red-colobus',
+      'species:african-elephant',
+      'species:lion',
+    ],
+    countryIds: ['AO', 'CD', 'CG', 'GA'],
+    sources: ['one-earth-eco-63'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:37',
+    summary: {
+      value:
+        'Ascension Scrub and Grasslands covers Ascension Island and its surrounding islets, a young volcanic island about one million years old with 44 dormant craters, basalt lava fields, and steep coastal cliffs. It is one of the Atlantic\u2019s most important seabird breeding sites and the stronghold of the endemic Ascension frigatebird, which is re-colonizing the main island following feral cat eradication in 2004.',
+      sourceIds: ['one-earth-eco-37'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Ascension Island (1,200 km northwest of St. Helena and 1,700 km from Africa) with surrounding islets and sea stacks',
+        'young volcanic island about one million years old with 44 dormant craters, basalt lava fields, cinder cones, and steep south and southeast coastal cliffs',
+        'one of the Atlantic\u2019s most important seabird breeding sites',
+      ],
+      sourceIds: ['one-earth-eco-37'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Subtropical, 10-32°C, with a hot season from January to the end of May and a cooler period June to December. Annual mean rainfall is about 709 mm, with showers year-round slightly heavier in January to April.',
+        annualPrecipitationMm: { min: 709, max: 709 },
+        temperatureC: { min: 10, max: 32 },
+      },
+      sourceIds: ['one-earth-eco-37'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'northern and western areas are barren desert with sparse grass, endemic Ascension spurge, and invasive prickly pear',
+        'endemic ferns including Marattia purpurascens, Asplenium ascensionis, Xiphopteris ascensionense, Pteris adscensionis, and Anogramma ascensionis',
+        'grass Sporobolus caespitosus, with introduced Mexican thorn bush threatening marine turtles',
+      ],
+      sourceIds: ['one-earth-eco-37'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'frigatebirds use thermal and wind patterns for efficient travel, and their non-waterproof plumage prevents diving, driving kleptoparasitic feeding from other seabirds',
+        'green turtles nest from December to June with trans-Atlantic migrations of more than 2,300 km',
+        'land crab breeding migrations from January to May entrained to the lunar cycle',
+        'feral cat eradication in 2004 enabled frigatebird return to the main island, with rat populations subsequently increasing',
+      ],
+      sourceIds: ['one-earth-eco-37'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 99% with a protection level of 2. There are eight protected areas on Ascension, including Green Mountain National Park, several coastal nature reserves, and the Boatswain Bird Island sanctuary. Threats include rats preying on seabirds, turtles, and land crabs, invasive Mexican thorn, sea level rise, and land development, with priority actions focused on rat control at nesting beaches and monitoring green turtles, frigatebirds, and sooty terns.',
+      sourceIds: ['one-earth-eco-37'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:ascension-frigatebird',
+      'species:red-footed-booby',
+      'species:brown-booby',
+      'species:masked-booby',
+      'species:sooty-tern',
+      'species:green-sea-turtle',
+      'species:hawksbill-sea-turtle',
+      'species:ascension-land-crab',
+    ],
+    countryIds: ['SH'],
+    sources: ['one-earth-eco-37'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:60',
+    summary: {
+      value:
+        'Saint Helena Scrub and Woodlands covers the deeply eroded summit of a 14-million-year-old composite volcano in the mid-Atlantic, with coastal cliffs, steep-sided valleys, and the island\u2019s highest point at Diana\u2019s Peak. Although fewer than one percent of its native semi-natural forest remains, the island retains 45 endemic plant species and the Saint Helena plover, the sole surviving endemic bird among eight originally present.',
+      sourceIds: ['one-earth-eco-60'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'St. Helena Island, 1,950 km west of the African coast, is the deeply eroded summit of a 14-million-year-old composite volcano covering 122 km\u00b2',
+        'coastal cliffs of 300 m and steep-sided valleys, with Diana\u2019s Peak at 823 m',
+        'striking volcanic formations including the Lot, Lot\u2019s Wife, and the Gates of Chaos',
+      ],
+      sourceIds: ['one-earth-eco-60'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Dry subtropical, 15-32°C, with an annual mean rainfall of only about 152 mm and scarce freshwater. Showers occur year-round, and the capital is Jamestown.',
+        annualPrecipitationMm: { min: 152, max: 152 },
+        temperatureC: { min: 15, max: 32 },
+      },
+      sourceIds: ['one-earth-eco-60'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        '431 higher plant species with 45 endemics, including the iconic St. Helena cabbage tree, redwood, dwarf ebony, and the ancient tree fern Dicksonia arborescens',
+        'New Zealand flax planted over much of the island still covers its interior, with less than one percent retaining native semi-natural forest',
+        'endemic plants at risk from invasive lantana, fleabane, wild mango, wild coffee, creeper, Bermudan cedar, blueweed, and Cape grass',
+        '157 endemic beetles including the ground beetle Aplothorax burchelli',
+      ],
+      sourceIds: ['one-earth-eco-60'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'one of the first documented environmental disasters, with human-driven overexploitation over more than 450 years',
+        'adaptive radiation in invertebrates, with 157 endemic beetle species',
+        'flora that are relicts of a primitive African flora dating from about 10 million years ago',
+      ],
+      sourceIds: ['one-earth-eco-60'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 100% with a protection level of 4. An Endemic Section was established by the island government along with a few conservation areas. Threats include invasive species encroachment, airport construction on wirebird breeding habitat, an intended hotel and golf course on one of the world\u2019s top five wirebird breeding sites, water scarcity, and drought, with priority actions targeting invasive eradication, improved dock capacity to intercept foreign material, and protected areas for the plover.',
+      sourceIds: ['one-earth-eco-60'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:st-helena-plover',
+      'species:green-sea-turtle',
+      'species:hawksbill-sea-turtle',
+      'species:red-billed-tropicbird',
+      'species:madeiran-storm-petrel',
+      'species:fairy-tern',
+    ],
+    countryIds: ['SH'],
+    sources: ['one-earth-eco-60'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:8',
+    summary: {
+      value:
+        'East African Montane Forests forms a chain of isolated volcanic mountains flanking the Great Rift Valley in East Africa, from Mount Kinyeti through Mount Elgon, the Aberdare Range, and Mount Kenya to Mount Kilimanjaro. These moist broadleaf forests above roughly 1,500 metres harbour flagship megafauna including the black rhinoceros and bongo, alongside numerous strictly endemic birds, reptiles, shrews, and rodents.',
+      sourceIds: ['one-earth-eco-8'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'chain of isolated volcanic mountains flanking the Great Rift Valley in East Africa',
+        'extends from Mount Kinyeti in Sudan through Mount Elgon (Uganda), the Aberdare Range and Mount Kenya (Kenya) to Mount Kilimanjaro (Tanzania)',
+        'elevations above about 1,500 m, their peaks separated into East African montane moorlands',
+      ],
+      sourceIds: ['one-earth-eco-8'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Temperate and seasonal, with night temperatures below 10°C in the cold season and daytime temperatures above 30°C in the warm season, with possible frosts at higher elevations. Rainfall is 1,200 to just under 3,000 mm per year, with wet seasons in October to December and March to June and a pronounced rainshadow on the eastern and southern faces.',
+        annualPrecipitationMm: { min: 1200, max: 3000 },
+        temperatureC: { min: 10, max: 32 },
+      },
+      sourceIds: ['one-earth-eco-8'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'submontane and montane forests of Ocotea usambarensis, Juniperus procera, Podocarpus falcatus, P. latifolius, Nuxia congesta, and Newtonia buchanii',
+        'higher altitudes with bamboo (Arundinarium alpine) and Hagenia abyssinica',
+        'bongo occurs in the Aberdare Mountains, the most eastern distribution of this rainforest species',
+      ],
+      sourceIds: ['one-earth-eco-8'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'pronounced rain shadow effects on the eastern and southern faces',
+        'volcanic soil fertility and altitudinal zonation of vegetation',
+        'cloud precipitation at high altitude and fire-maintained forest boundaries',
+      ],
+      sourceIds: ['one-earth-eco-8'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 36% with a protection level of 8. National parks include Mount Elgon (Uganda), Mount Kenya and Aberdare (Kenya), and Kilimanjaro and Arusha (Tanzania), with additional forest reserves. Threats include conversion to tea and coffee estates, conifer plantations, subsistence agriculture, population growth, fire, and elephant and rhino poaching, with priority actions targeting resource-use zones, demand reduction, and increased anti-poaching technology.',
+      sourceIds: ['one-earth-eco-8'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:black-rhinoceros',
+      'species:african-elephant',
+      'species:bongo',
+      'species:blue-monkey',
+      'species:guereza-lowland-colobus',
+      'species:common-leopard',
+    ],
+    countryIds: ['KE', 'SS', 'UG', 'TZ'],
+    sources: ['one-earth-eco-8'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:12',
+    summary: {
+      value:
+        'Ethiopian Montane Forests spans the rugged Ethiopian Highlands, from transitional forests at 500 to 1,500 metres to moist broadleaved forests at 1,800 to 3,000 metres, with the uniquely undisturbed Harenna Forest south of Bale Mountains National Park. The forests support flagship carnivores such as the African wild dog, lion, and leopard, as well as strictly endemic birds, bats, shrews, chameleons, and frogs.',
+      sourceIds: ['one-earth-eco-12'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'rugged Ethiopian Highlands',
+        'transitional forests from 500 to 1,500 m and moist broadleaved forests from 1,800 to 3,000 m',
+        'Harenna Forest south of Bale Mountains National Park is a uniquely undisturbed habitat, with plugged volcanic domes and dykes',
+      ],
+      sourceIds: ['one-earth-eco-12'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Mean maxima of 18-24°C and mean minima of 12-15°C. Transitional forests receive rainfall of about 2,000 mm per year, while higher elevations receive less than 1,700 mm, with humidity higher than expected due to cloud precipitation.',
+        annualPrecipitationMm: { min: 1700, max: 2000 },
+        temperatureC: { min: 12, max: 24 },
+      },
+      sourceIds: ['one-earth-eco-12'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'lower levels with Warburgia ugandensis, Croton macrostachyus, and Syzygium guineense',
+        'higher elevations dominated by Aningeria and Olea',
+        'wild Coffea arabica is the dominant understory shrub in Harenna Forest and is still harvested, alongside the endemic Maytenus harenensis',
+      ],
+      sourceIds: ['one-earth-eco-12'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Pliocene-Pleistocene climatic fluctuations, with glaciers forming on Ethiopian peaks during ice ages',
+        'church compounds preserve remnant ancient trees as evidence of a former extensive forest',
+        'wild coffee harvesting is a centuries-old practice',
+      ],
+      sourceIds: ['one-earth-eco-12'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 50% with a protection level of 2. Key sites include Bale Mountains National Park and several National Forest Priority Areas, many offering little actual protection, with the Harenna Forest now threatened by migrant influx. Threats include agriculture, fuelwood and timber extraction, soil erosion, overgrazing, and poor agricultural methods, with priority actions strengthening community-based conservation and enforcement in Bale Mountains National Park and Harenna Forest.',
+      sourceIds: ['one-earth-eco-12'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:african-wild-dog',
+      'species:lion',
+      'species:common-leopard',
+      'species:ethiopian-wolf',
+      'species:swaynes-hartebeest',
+      'species:blue-monkey',
+    ],
+    countryIds: ['ET'],
+    sources: ['one-earth-eco-12'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:50',
+    summary: {
+      value:
+        'Masai Xeric Grasslands and Shrublands covers northern Kenya and the extreme southwest of Ethiopia, a dry semi-desert that includes the highly arid Dida-Galgalu Desert and the shores of Lake Turkana, the world\u2019s largest permanent desert lake. Highly erratic rainfall of 200 to 400 millimetres a year sustains drought-tolerant grasslands, dwarf shrublands, and a striking assemblage of plains grazers, large predators, and endemic birds and reptiles.',
+      sourceIds: ['one-earth-eco-50'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'northern Kenya and the extreme southwest of Ethiopia',
+        'dry semi-desert including the highly arid Dida-Galgalu black lava desert and the shores of Lake Turkana, the world\u2019s largest permanent desert lake',
+        'gently undulating terrain from 200 to 700 m with scattered inselbergs and volcanic cones up to 1,700 m, plus the Omo River Delta',
+      ],
+      sourceIds: ['one-earth-eco-50'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Hot and dry most of the year, with a mean maximum of about 30°C and mean minimums of 18-21°C. A short wet season runs from March to June as the ITCZ moves north, and rainfall is highly erratic at 200-400 mm per year, making this one of Kenya\u2019s driest regions.',
+        annualPrecipitationMm: { min: 200, max: 400 },
+        temperatureC: { min: 18, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-50'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'semi-desert annual grasslands in high-rainfall years, with Aristida adscensionis and A. mutabilis dominant and absent during droughts',
+        'dwarf shrublands including Duosperma eremophilum on heavier soils and Indigofera spinosa on dunes',
+        'Lake Turkana shore rocky and sandy with little aquatic vegetation, with yellow spear grass and doum palms around the lake',
+      ],
+      sourceIds: ['one-earth-eco-50'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'phytoplankton blooms giving Lake Turkana its jade color',
+        'ITCZ-driven seasonal patterns',
+        'desertification driven by overgrazing, with black rhino exterminated through over-hunting',
+      ],
+      sourceIds: ['one-earth-eco-50'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 22% with a protection level of 3. Protected areas include Sibiloi National Park, Mount Kulal Biosphere Reserve, and several community conservancies in Kenya, plus Loelle National Park in South Sudan and controlled hunting areas in Ethiopia. Threats include rapid human and livestock population increases, overgrazing, soil erosion, desertification, and ethnic conflict over resources, with priority actions promoting alternatives to animal consumption and community grazing areas.',
+      sourceIds: ['one-earth-eco-50'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:reticulated-giraffe',
+      'species:beisa-oryx',
+      'species:grants-gazelle',
+      'species:topi',
+      'species:plains-zebra',
+      'species:lion',
+      'species:cheetah',
+      'species:nile-crocodile',
+    ],
+    countryIds: ['ET', 'KE', 'SS'],
+    sources: ['one-earth-eco-50'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:51',
+    summary: {
+      value:
+        'Northern Acacia-Commiphora Bushlands and Thickets is the largest ecoregion of the Horn of Africa bioregion, stretching from southeastern Sudan through northeastern Uganda and much of lowland Kenya to the coast. Part of the Somali-Masai centre of endemism, its highly flammable bushland supports flagship threatened mammals including Grevy\u2019s zebra, reticulated giraffe, beisa oryx, and the pancake tortoise.',
+      sourceIds: ['one-earth-eco-51'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the southeast corner of Sudan through northeastern Uganda and much of lowland Kenya to the coast',
+        'the largest ecoregion in the AT21 bioregion by area',
+        'part of the Somali-Masai regional centre of endemism',
+      ],
+      sourceIds: ['one-earth-eco-51'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Seasonal tropics controlled by the ITCZ, with mean maximums of about 30°C in the lowlands and about 24°C at higher elevations, and mean minimums of 18-21°C. Rainfall ranges from 200 mm near Lake Turkana to about 600 mm near the coast, with long rains from March to June and short rains from October to December, though rain seasons frequently fail.',
+        annualPrecipitationMm: { min: 200, max: 600 },
+        temperatureC: { min: 18, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-51'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'predominantly Acacia-Commiphora bushland and thicket',
+        'common genera include Acacia, Commiphora, Boswellia, Aristida, Stipa, and Chloris grasses',
+        'highly flammable during dry periods, with large areas burning annually',
+        'part of the Somali-Masai regional centre of endemism for plants',
+      ],
+      sourceIds: ['one-earth-eco-51'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'annual fire cycles and charcoal production shaping bushland structure',
+        'upstream water extraction from the Ewaso Nyiro River affecting wildlife',
+        'elephant population crash in Tsavo during the 1975-1980 drought and poaching',
+      ],
+      sourceIds: ['one-earth-eco-51'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 20% with a protection level of 9. Protected areas include South Turkana and Samburu National Reserves, Meru, Kora, Amboseli, Chyulu Hills, and the Tsavo East and West National Parks in Kenya, the Lake Natron Game Controlled Area and Mkomazi National Park in Tanzania, and reserves in Uganda. Threats include unsustainable water use, grassland burning, farmland expansion, ivory and rhino horn poaching, charcoal production, and over-harvesting of African blackwood, with priorities enforcing ivory markets and low-cost water management.',
+      sourceIds: ['one-earth-eco-51'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:grevys-zebra',
+      'species:reticulated-giraffe',
+      'species:beisa-oryx',
+      'species:gerenuk',
+      'species:lesser-kudu',
+      'species:black-rhinoceros',
+      'species:african-elephant',
+      'species:pancake-tortoise',
+    ],
+    countryIds: ['KE', 'SS', 'UG', 'TZ'],
+    sources: ['one-earth-eco-51'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:55',
+    summary: {
+      value:
+        'Somali Acacia-Commiphora Bushlands and Thickets covers much of the Horn of Africa east of the Ethiopian Highlands, including the Ogaden Desert and northeastern Kenyan semi-deserts, with only three permanent rivers. This arid landscape supports a remarkable concentration of endemic and threatened ungulates, including Hirola, dibatag, beira, Speke\u2019s gazelle, and the Critically Endangered Somali wild ass.',
+      sourceIds: ['one-earth-eco-55'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the majority of the Horn of Africa east of the Ethiopian Highlands, including the Ogaden Desert and northeastern Kenyan semi-deserts',
+        'mainly flat and low-lying, with more than fifty percent below 500 m and rising to the west and north',
+        'deep infertile sands in the Somali hinterland with Precambrian granite inselbergs, and only three permanent rivers: the Awash, Wabi Shebele, and Jubba',
+      ],
+      sourceIds: ['one-earth-eco-55'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Mean maximum temperatures of about 30°C with mean minimums of 15-18°C. Rainfall ranges from under 100 mm in the Ogaden Desert to about 600 mm near the Ethiopian Highlands, making the region very arid.',
+        annualPrecipitationMm: { min: 100, max: 600 },
+        temperatureC: { min: 15, max: 30 },
+      },
+      sourceIds: ['one-earth-eco-55'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'dry woodlands and scrub grading to grasslands and deserts',
+        'about 2,500 plant species, roughly half of them endemic',
+        'iconic plants include the frankincense tree Boswellia rivae, the myrrh source Commiphora guidottii, Steganotaenia commiphoroides, and the flask-shaped Hildegardia gillettii, with sub-centres of endemism on exposed limestone',
+        'the yeheb nut Cordeauxia edulis is declining from overgrazing',
+      ],
+      sourceIds: ['one-earth-eco-55'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'aromatic resin production of myrrh and frankincense',
+        'charcoal-driven deforestation in northern Somalia',
+        'riverine vegetation degradation and natural gas development near the Ethiopian-Somali border',
+      ],
+      sourceIds: ['one-earth-eco-55'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 17% with a protection level of 7. Protected areas include Nechisar National Park, Babile Elephant Sanctuary, and Yabello Sanctuary in Ethiopia and Malka Mari National Park in Kenya, with no protected areas in Somalia. Threats include overgrazing, settlement encroachment, invasive species, weak enforcement, charcoal production, riverine degradation, poaching, political instability, and irrigated farming, with priorities strengthening enforcement against charcoal deforestation and enhancing community participation.',
+      sourceIds: ['one-earth-eco-55'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:swaynes-hartebeest',
+      'species:hirola',
+      'species:dibatag',
+      'species:beira',
+      'species:spekes-gazelle',
+      'species:somali-wild-ass',
+      'species:striped-hyena',
+      'species:common-leopard',
+    ],
+    countryIds: ['ET', 'SO', 'KE'],
+    sources: ['one-earth-eco-55'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:78',
+    summary: {
+      value:
+        'East African Montane Moorlands crowns the peaks of the great equatorial volcanoes, including Kilimanjaro, Mount Kenya, the Aberdares, Mount Meru, and the ancient Mount Elgon, above the montane forest limit at about 3,000 metres. These harsh, frost-prone Afroalpine moorlands are floristically low in diversity but high in endemism, with scattered giant groundsels and lobelias and an island-like fauna of endemic frogs, reptiles, and birds.',
+      sourceIds: ['one-earth-eco-78'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'peaks of large volcanoes near the equator, including Kilimanjaro, Mount Kenya, the Aberdares, Mount Meru, and the ancient Mount Elgon',
+        'lower limit of about 3,000 m where the ecoregion transitions from the East African Montane Forests',
+        'organized around volcanic mountains that are all geologically recent',
+      ],
+      sourceIds: ['one-earth-eco-78'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Severe and extreme, described as summer every day and winter every night, with mean rainfall of only about 150 mm per year above 4,350 m on Kilimanjaro and a mean annual temperature of -1°C at 5,000 m. Nocturnal frosts occur above 4,000 m daily, with two rainfall peaks in April and November to December, and glaciers and snowfields are retreating on Kilimanjaro and Mount Kenya.',
+      },
+      sourceIds: ['one-earth-eco-78'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'montane moorland above the tree line with glaciers and rocks at the highest elevations',
+        'Dendrosenecios scattered through grasslands from 3,500 to 5,000 m, with tussock grasslands in fire-prone areas and Helichrysum scrub on dry and rocky sites',
+        'giant lobelia Lobelia rhynchopetalum reaching 6 m when flowering, plus acidic mires at lower altitudes',
+        'Afroalpine vegetation of low diversity but high endemism, with 2 endemics on Meru, 6 on Kilimanjaro, and 16 on Elgon',
+      ],
+      sourceIds: ['one-earth-eco-78'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'gigantism in plants such as Dendrosenecio and Lobelia as an adaptation to extreme cold and diurnal temperature swings',
+        'glacial retreat, with the Kilimanjaro ice cap predicted to disappear for the first time in 11,000 years',
+        'fire-maintained vegetation boundaries depressing the upper forest limit',
+      ],
+      sourceIds: ['one-earth-eco-78'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 99% with a protection level of 9. Protected areas include Mount Kenya, Aberdare, Arusha, Kilimanjaro, and Mount Elgon National Parks and the Chepkitale National Reserve, and the ecoregion lies mainly within parks because it is too high-altitude for farming. Hotspots for a threatened species include tourism-related litter, erosion, and woody vegetation cutting, with priority actions promoting community ecotourism, wildfire management, and pollution management.',
+      sourceIds: ['one-earth-eco-78'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:hunter-cisticola',
+      'species:jackson-francolin',
+      'species:kenya-river-frog',
+      'species:african-elephant',
+      'species:african-buffalo',
+      'species:common-leopard',
+    ],
+    countryIds: ['KE', 'TZ', 'UG'],
+    sources: ['one-earth-eco-78'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:79',
+    summary: {
+      value:
+        'Ethiopian Montane Grasslands and Woodlands covers most of the south and central Ethiopian Highlands between 1,800 and 3,000 metres, split into northern and southern massifs by the Great Rift Valley. Despite the loss of nearly all of its original highland forest, the region still harbours flagship endemics including the walia ibex, mountain nyala, and gelada, along with strictly endemic birds and amphibians.',
+      sourceIds: ['one-earth-eco-79'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the majority of the south and central Ethiopian Highlands, from 1,800 to 3,000 m',
+        'two main massifs, northern and southern, split by the Rift Valley about 13 million years ago and rising in the Eocene about 55 million years ago',
+        'a cloud forest belt from 2,000 to 2,500 m in the south',
+      ],
+      sourceIds: ['one-earth-eco-79'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'ITCZ-controlled, with warm moist air from the Indian Ocean from May to October bringing rain to the southern slopes and drier Red Sea winds for the remainder of the year mainly on the northern side. The highest rainfall of about 2,500 mm falls on the southwestern faces, with most areas receiving about 1,600 mm.',
+        annualPrecipitationMm: { min: 1600, max: 2500 },
+      },
+      sourceIds: ['one-earth-eco-79'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'a natural mixture of closed forest where rainfall is high, with grassland, bushland, and thicket elsewhere',
+        'cloud forest at 2,000 to 2,500 m with Podocarpus falcatus, Juniperus procera, and Olea africana',
+        'Hagenia and Schefflera on the Harenna Forest upper slopes with giant lobelias',
+        'only about one percent of the original Ethiopian highland forest remains, with surviving patches in church graveyards and on rocky and steep areas',
+      ],
+      sourceIds: ['one-earth-eco-79'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'high-altitude agriculture practiced for hundreds of years',
+        'church graveyards acting as refugia for ancient forest',
+        'hybridization threatening the walia ibex through free-ranging domestic goats',
+        'ITCZ seasonal moisture dynamics',
+      ],
+      sourceIds: ['one-earth-eco-79'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 17% with a protection level of 5. Protected areas include Bale Mountains and Simien Mountains National Parks, several National Forest Priority Areas, and the Arsi and Maze controlled hunting areas. Threats include agricultural encroachment, livestock overgrazing, settlement expansion, walia ibex hybridization with domestic goats, and logging of Podocarpus and Juniperus, with priority actions identifying protected area gaps and supporting community conservation to maintain walia ibex numbers.',
+      sourceIds: ['one-earth-eco-79'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:walia-ibex',
+      'species:mountain-nyala',
+      'species:gelada',
+      'species:bushbuck',
+      'species:common-leopard',
+    ],
+    countryIds: ['ET', 'ER', 'SD'],
+    sources: ['one-earth-eco-79'],
+    status: 'authored',
+  },
+  {
+    targetId: 'ecoregion:80',
+    summary: {
+      value:
+        'Ethiopian Montane Moorlands occupies the highest parts of the Ethiopian Highlands, from 3,000 to over 4,500 metres, a naturally fragmented Afroalpine realm that was covered by thick glaciers during the last ice age. Year-round frosts and strong winds shape a xeromorphic vegetation of giant lobelias, tree heathers, and cushion plants, and the ecoregion is the stronghold of the Ethiopian wolf, the world\u2019s rarest canid.',
+      sourceIds: ['one-earth-eco-80'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the higher parts of the Ethiopian Highlands, from 3,000 to over 4,500 m',
+        'naturally fragmented, occurring only on the highest portions of the highlands',
+        'thick glaciers covered the ecoregion during the last glaciation, with ice melting about 10,000 years ago and peak ice persisting until a few thousand years ago',
+      ],
+      sourceIds: ['one-earth-eco-80'],
+      derivation: 'source-value',
+    },
+    climate: {
+      value: {
+        character:
+          'Mean maximum temperatures of 6-12°C on the higher peaks with mean minimums below 0°C, and frosts common year-round especially in winter. Rainfall is highest in the southwest where the dry season can last only two months, but can be as little as 1,000 mm in the north where the dry season extends up to ten months.',
+        annualPrecipitationMm: { min: 1000, max: 2500 },
+        temperatureC: { min: 0, max: 12 },
+      },
+      sourceIds: ['one-earth-eco-80'],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'trees absent at the highest elevations, with bushes and shrubs including Hypericum revolutum',
+        'heathland scrub of Erica trimera and Erica arborea, with bare soil between shrubs holding Helichrysum, Alchemilla, Cerastium, Koeleria, and Aira',
+        'giant Lobelia rynchopetalum reaching 6 m when flowering',
+        'all plants show xeromorphic characteristics such as thick leathery leaves and reduced leaf surface area',
+      ],
+      sourceIds: ['one-earth-eco-80'],
+      derivation: 'source-value',
+    },
+    ecologicalProcesses: {
+      value: [
+        'post-glacial vegetation migration to higher altitudes',
+        'plant gigantism, including giant lobelias, tree heather, and giant St. John\u2019s wort, as an altitude adaptation',
+        'perennial plants evolved dry paper-like flowers to withstand harsh winds',
+        'Ethiopian wolf disease dynamics, with canine distemper and rabies from domestic dogs as the primary cause of decline',
+      ],
+      sourceIds: ['one-earth-eco-80'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 52% with a protection level of 7. Protected areas include Bale Mountains and Simien Mountains National Parks and the Arsi Controlled Hunting Area. Threats include high-altitude agriculture expansion, heather fires, livestock overgrazing, and Ethiopian wolf persecution, hybridization, and disease, with delicate Afroalpine vegetation not resilient to fire, and priority actions focusing on long-term disease management for the Ethiopian wolf and community-based conservation.',
+      sourceIds: ['one-earth-eco-80'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:ethiopian-wolf',
+      'species:walia-ibex',
+      'species:mountain-nyala',
+      'species:gelada',
+      'species:wattled-crane',
+      'species:african-elephant',
+    ],
+    countryIds: ['ET'],
+    sources: ['one-earth-eco-80'],
+    status: 'authored',
+  },
 ];
