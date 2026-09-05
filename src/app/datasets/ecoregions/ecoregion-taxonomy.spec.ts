@@ -142,7 +142,7 @@ describe('ecological enrichment', () => {
   });
 
   it('tracks published realm coverage independently from lower-level record presence', () => {
-    expect(Object.keys(enrichmentCoverage)).toHaveLength(418);
+    expect(Object.keys(enrichmentCoverage)).toHaveLength(459);
     expect(coverageStateFor('realm:indomalaya')).toBe('published');
     expect(coverageStateFor('ecoregion:309')).toBe('reviewed');
     expect(coverageStateFor('realm:antarctica')).toBe('published');

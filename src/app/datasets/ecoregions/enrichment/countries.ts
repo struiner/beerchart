@@ -144,6 +144,8 @@ export const ecologicalCountries: readonly EcologicalCountry[] = [
   { id: 'CD', code: 'CD', name: 'DR Congo' },
   { id: 'AO', code: 'AO', name: 'Angola' },
   { id: 'NA', code: 'NA', name: 'Namibia' },
+  { id: 'ZM', code: 'ZM', name: 'Zambia' },
+  { id: 'ZW', code: 'ZW', name: 'Zimbabwe' },
   { id: 'ST', code: 'ST', name: 'Sao Tome & Principe' },
   { id: 'CV', code: 'CV', name: 'Cape Verde' },
   { id: 'GH', code: 'GH', name: 'Ghana' },
