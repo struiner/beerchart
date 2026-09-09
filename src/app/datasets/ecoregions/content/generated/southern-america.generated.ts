@@ -195,6 +195,17 @@ export const contentBundle = {
     ]
   },
   "media": {
+    "ecoregion:500": {
+      "src": "/assets/ecoregions/ecoregion-500.png",
+      "alt": "Interpretive landscape illustration of Serra Do Mar Coastal Forests.",
+      "caption": "An interpretive landscape impression of Serra Do Mar Coastal Forests.",
+      "role": "interpretive",
+      "aspectRatio": "10:13",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
     "ecoregion:615": {
       "src": "/assets/ecoregions/ecoregion-615.png",
       "alt": "Interpretive landscape illustration of South American Pacific Mangroves.",

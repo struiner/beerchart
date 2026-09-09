@@ -18,14 +18,16 @@
     "ecoregions:biota-coverage": "tsx src/app/datasets/ecoregions/tools/report-biota-coverage.mts",
     "ecoregions:generate-content": "tsx src/app/datasets/ecoregions/tools/generate-content-partitions.mts",
     "ecoregions:check-content": "tsx src/app/datasets/ecoregions/tools/generate-content-partitions.mts --check",
-    "prebuild": "npm run check:boundaries && npm run ecoregions:check && npm run ecoregions:validate-enrichment && npm run ecoregions:validate-biota -- --changed && npm run ecoregions:check-content",
+    "prebuild": "npm run check:boundaries && npm run panmagicon:check && npm run ecoregions:check && npm run ecoregions:validate-enrichment && npm run ecoregions:validate-biota -- --changed && npm run ecoregions:check-content",
     "build": "ng build",
     "postbuild": "node tools/check-ecoregion-bundle.mjs",
     "ecoregions:bundle": "node tools/check-ecoregion-bundle.mjs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:e2e": "playwright test",
-    "taxonomy:validate": "tsx tools/validate-taxonomy.ts"
+    "taxonomy:validate": "tsx tools/validate-taxonomy.ts",
+    "panmagicon:generate": "python src/app/datasets/panmagicon/tools/generate-panmagicon.py",
+    "panmagicon:check": "python src/app/datasets/panmagicon/tools/generate-panmagicon.py --check"
   },
   "private": true,
   "packageManager": "npm@11.19.0",

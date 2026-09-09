@@ -5796,4 +5796,4194 @@ export const bioregionEnrichment: readonly EcologicalEnrichment[] = [
     ],
     status: 'authored',
   },
+  {
+    targetId: 'bioregion:nt10',
+    summary: {
+      value:
+        'Ecuadorean Dry Coastal Forests & Flooded Grasslands (NT10) centers on the Gulf of Guayaquil at the mouth of the Guayas River, where four terrestrial ecoregions meet coastal mangrove and marine areas across roughly 10.66 million hectares. Moist forests in the north give way to tropical dry forest, flooded grasslands, and savannas, with a warm, seasonally dry climate and wetter conditions toward the north.',
+      sourceIds: [
+        'one-earth-nt10',
+        'one-earth-eco-516',
+        'one-earth-eco-531',
+        'one-earth-eco-549',
+        'one-earth-eco-582',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'coastal plain and lowlands centered on the Gulf of Guayaquil at the Guayas River mouth',
+        'Andean foothills bordering the moist forests to the east',
+        'Pacific coastal mangrove and marine areas adjacent to the terrestrial ecoregions',
+        'flooded grasslands and savannas of the lowland Guayas Basin',
+        'dry forest lowlands below 300 m with outlying areas rising above 800 m',
+      ],
+      sourceIds: [
+        'one-earth-nt10',
+        'one-earth-eco-516',
+        'one-earth-eco-531',
+        'one-earth-eco-549',
+        'one-earth-eco-582',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'dense moist forest canopy with lianas and epiphytes in the wetter northern zones',
+        'tropical dry forest of Ceiba, mesquite, palo santo, and cacti',
+        'flooded grasslands and savannas with aquatic grasses in the lowlands',
+        'significant floral endemism concentrated in the dry forests',
+      ],
+      sourceIds: [
+        'one-earth-nt10',
+        'one-earth-eco-516',
+        'one-earth-eco-531',
+        'one-earth-eco-549',
+        'one-earth-eco-582',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:jaguar',
+      'species:ocelot',
+      'species:grey-cheeked-parakeet',
+      'species:rio-pescado-stubfoot-toad',
+      'species:pale-headed-brush-finch',
+      'species:peruvian-tern',
+      'species:equatorial-dog-faced-bat',
+    ],
+    countryIds: ['EC', 'PE', 'CO'],
+    sources: [
+      'one-earth-nt10',
+      'one-earth-eco-516',
+      'one-earth-eco-531',
+      'one-earth-eco-549',
+      'one-earth-eco-582',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt11',
+    summary: {
+      value:
+        'Andean Mountain Forests & Valleys (NT11) spans the upper half of the Andes from the top of the continent to northern Argentina, defined by tropical and subtropical broadleaf forests along the humid eastern flank and seventeen unique ecoregions. It holds the three sacred headwaters of the Amazon River across about 93 million hectares, with the mountain tapir as an iconic species and a high diversity of endemic birds.',
+      sourceIds: [
+        'one-earth-nt11',
+        'one-earth-eco-444',
+        'one-earth-eco-448',
+        'one-earth-eco-457',
+        'one-earth-eco-460',
+        'one-earth-eco-477',
+        'one-earth-eco-479',
+        'one-earth-eco-486',
+        'one-earth-eco-493',
+        'one-earth-eco-504',
+        'one-earth-eco-513',
+        'one-earth-eco-523',
+        'one-earth-eco-526',
+        'one-earth-eco-538',
+        'one-earth-eco-542',
+        'one-earth-eco-590',
+        'one-earth-eco-591',
+      'one-earth-eco-593',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'upper half of the Andes from the top of the continent to northern Argentina',
+        'humid eastern flanks of tropical and subtropical broadleaf forest',
+        'rain-shadow inter-Andean dry valleys with thorn forest and cactus scrub',
+        'treeless páramo grassland above the treeline',
+        'the three sacred headwaters of the Amazon River',
+      ],
+      sourceIds: [
+        'one-earth-nt11',
+        'one-earth-eco-444',
+        'one-earth-eco-448',
+        'one-earth-eco-457',
+        'one-earth-eco-460',
+        'one-earth-eco-477',
+        'one-earth-eco-479',
+        'one-earth-eco-486',
+        'one-earth-eco-493',
+        'one-earth-eco-504',
+        'one-earth-eco-513',
+        'one-earth-eco-523',
+        'one-earth-eco-526',
+        'one-earth-eco-538',
+        'one-earth-eco-542',
+        'one-earth-eco-590',
+        'one-earth-eco-591',
+        'one-earth-eco-593',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'tropical evergreen broadleaf montane forest',
+        'cloud forest and elfin woodland in the upper belt',
+        'Polylepis transitional forest at the treeline',
+        'treeless páramo of tussock grasses, cushion plants, and giant Espeletia rosettes',
+        'dry thorn forest and cactus scrub in rain-shadow valleys',
+      ],
+      sourceIds: [
+        'one-earth-nt11',
+        'one-earth-eco-444',
+        'one-earth-eco-448',
+        'one-earth-eco-457',
+        'one-earth-eco-460',
+        'one-earth-eco-477',
+        'one-earth-eco-479',
+        'one-earth-eco-486',
+        'one-earth-eco-493',
+        'one-earth-eco-504',
+        'one-earth-eco-513',
+        'one-earth-eco-523',
+        'one-earth-eco-526',
+        'one-earth-eco-538',
+        'one-earth-eco-542',
+        'one-earth-eco-590',
+        'one-earth-eco-591',
+        'one-earth-eco-593',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:mountain-tapir',
+      'species:spectacled-bear',
+      'species:jaguar',
+      'species:northern-pudu',
+      'species:diademed-tapaculo',
+      'species:cauca-guan',
+      'species:yellow-faced-parrotlet',
+      'species:gray-capped-hemispingus',
+    ],
+    countryIds: ['BO', 'CO', 'EC', 'PE', 'VE', 'AR'],
+    sources: [
+      'one-earth-nt11',
+      'one-earth-eco-444',
+      'one-earth-eco-448',
+      'one-earth-eco-457',
+      'one-earth-eco-460',
+      'one-earth-eco-477',
+      'one-earth-eco-479',
+      'one-earth-eco-486',
+      'one-earth-eco-493',
+      'one-earth-eco-504',
+      'one-earth-eco-513',
+      'one-earth-eco-523',
+      'one-earth-eco-526',
+      'one-earth-eco-538',
+      'one-earth-eco-542',
+      'one-earth-eco-590',
+      'one-earth-eco-591',
+      'one-earth-eco-593',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt17',
+    summary: {
+      value:
+        'Southern Amazonian Forests (NT17) stretches from the Marajó Archipelago through central Brazil to Bolivia, south of the Amazon River, spanning roughly 174 million hectares of mostly highly diverse tropical moist forest with drier transition forest bordering the Cerrado. The bioregion holds four ecoregions — Madeira-Tapajós, Mato Grosso dry forests, Tapajós-Xingu, and Xingu-Tocantins-Araguaia — and the Amazonian manatee is its iconic species, with a conservation target of 73%.',
+      sourceIds: [
+        'one-earth-nt17',
+        'one-earth-eco-476',
+        'one-earth-eco-481',
+        'one-earth-eco-507',
+        'one-earth-eco-518',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the lowland plain south of the Amazon River with many major and minor Amazon tributaries',
+        'the Madeira-Tapajós interfluve of central Amazonia',
+        'transitional dry forests and Cerrado-bordering woodlands of Mato Grosso',
+        'the Tapajós-Xingu interfluvial plain on the weathered Brazilian Shield',
+        'the Xingu, Tocantins, and Araguaia lowlands toward the Marajó Archipelago',
+      ],
+      sourceIds: [
+        'one-earth-nt17',
+        'one-earth-eco-476',
+        'one-earth-eco-481',
+        'one-earth-eco-507',
+        'one-earth-eco-518',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'highly diverse tropical moist forest with a dense high canopy and emergent trees',
+        'seasonally flooded forest along whitewater rivers',
+        'drier transition forest bordering the Cerrado',
+        'white-sand grasslands and campos on the upper Madeira and Tapajós Rivers',
+      ],
+      sourceIds: [
+        'one-earth-nt17',
+        'one-earth-eco-476',
+        'one-earth-eco-481',
+        'one-earth-eco-507',
+        'one-earth-eco-518',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:amazonian-manatee',
+      'species:jaguar',
+      'species:lowland-tapir',
+      'species:white-lipped-peccary',
+      'species:hyacinth-macaw',
+      'species:amazon-river-dolphin',
+      'species:white-nosed-saki',
+    ],
+    countryIds: ['BR', 'BO'],
+    sources: [
+      'one-earth-nt17',
+      'one-earth-eco-476',
+      'one-earth-eco-481',
+      'one-earth-eco-507',
+      'one-earth-eco-518',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt18',
+    summary: {
+      value:
+        'Western Amazonian Forests & Plains (NT18) extends north from Bolivia to the Amazon River in Peru, contained by the Andes to the west, across roughly 111 million hectares of moist and seasonally flooded tropical forest plus the Beni Savanna to the south. It contains four ecoregions including the Iquitos Várzea and Southwest Amazon moist forests, with the Amazon river dolphin, or boto, as its iconic species and a conservation target of 90%.',
+      sourceIds: [
+        'one-earth-nt18',
+        'one-earth-eco-469',
+        'one-earth-eco-505',
+        'one-earth-eco-512',
+        'one-earth-eco-565',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'western Amazon lowlands between the Andes and the Amazon River mainstem',
+        'the Ucayali, Marañon, and Madre de Dios river basins draining the Andean foothills',
+        'the extensively seasonally flooded Iquitos várzea plain',
+        'the upper Amazon interfluves of the Southwest Amazon moist forests',
+        'the tree-dotted Beni Savanna plains of lowland Bolivia',
+      ],
+      sourceIds: [
+        'one-earth-nt18',
+        'one-earth-eco-469',
+        'one-earth-eco-505',
+        'one-earth-eco-512',
+        'one-earth-eco-565',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'tall evergreen moist tropical forest on terra firme',
+        'várzea forest seasonally flooded by whitewater rivers',
+        'southern savanna grasslands with forest islands encircled by forest',
+        'riverine palm stands and flooded-forest transitions',
+      ],
+      sourceIds: [
+        'one-earth-nt18',
+        'one-earth-eco-469',
+        'one-earth-eco-505',
+        'one-earth-eco-512',
+        'one-earth-eco-565',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:amazon-river-dolphin',
+      'species:jaguar',
+      'species:lowland-tapir',
+      'species:capybara',
+      'species:yellow-tailed-woolly-monkey',
+      'species:blue-throated-macaw',
+      'species:maned-wolf',
+    ],
+    countryIds: ['PE', 'BO', 'BR'],
+    sources: [
+      'one-earth-nt18',
+      'one-earth-eco-469',
+      'one-earth-eco-505',
+      'one-earth-eco-512',
+      'one-earth-eco-565',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt19',
+    summary: {
+      value:
+        'Central Amazonian Forests (NT19) contains the central mainstem of the Amazon River and three major tributaries — the Japurá to the north and the Madeira and Purus to the south — forming the heart of the Amazon across nearly 127 million hectares. Seasonally flooded várzea and igapó forests line its rivers and streams, supporting the iconic ocellate river stingray, with a combined conservation target of 94%.',
+      sourceIds: [
+        'one-earth-nt19',
+        'one-earth-eco-483',
+        'one-earth-eco-446',
+        'one-earth-eco-503',
+        'one-earth-eco-496',
+        'one-earth-eco-474',
+        'one-earth-eco-482',
+        'one-earth-eco-497',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the central mainstem of the Amazon River with the Japurá, Madeira, and Purus tributaries',
+        'eastern and western halves unified by seasonally flooded forests along rivers and streams',
+        'many lakes formed at the junctions of the Amazon River and its major tributaries',
+        'low flooded plains of the Purus and Solimões várzeas',
+        'Andean foothill fringes of the Napo and Caquetá basins in the northwest',
+      ],
+      sourceIds: [
+        'one-earth-nt19',
+        'one-earth-eco-483',
+        'one-earth-eco-446',
+        'one-earth-eco-503',
+        'one-earth-eco-496',
+        'one-earth-eco-474',
+        'one-earth-eco-482',
+        'one-earth-eco-497',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'dense evergreen tropical rainforest with canopies near 30 m and emergents to 45–50 m',
+        'terra firme forest on well-drained uplands',
+        'várzea whitewater floodplain forest',
+        'igapó blackwater floodplain forest',
+        'extremely high floristic diversity with up to 250 tree species per hectare',
+      ],
+      sourceIds: [
+        'one-earth-nt19',
+        'one-earth-eco-483',
+        'one-earth-eco-446',
+        'one-earth-eco-503',
+        'one-earth-eco-496',
+        'one-earth-eco-474',
+        'one-earth-eco-482',
+        'one-earth-eco-497',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:ocellate-river-stingray',
+      'species:jaguar',
+      'species:lowland-tapir',
+      'species:capybara',
+      'species:bald-uakari',
+      'species:amazon-river-dolphin',
+      'species:pirarucu',
+    ],
+    countryIds: ['BR', 'CO', 'PE', 'EC'],
+    sources: [
+      'one-earth-nt19',
+      'one-earth-eco-483',
+      'one-earth-eco-446',
+      'one-earth-eco-503',
+      'one-earth-eco-496',
+      'one-earth-eco-474',
+      'one-earth-eco-482',
+      'one-earth-eco-497',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt20',
+    summary: {
+      value:
+        'Northern Amazonian Forests (NT20) lies between the Amazon River and the Guiana Shield, comprising the Rio Negro — the principal northern tributary of the Amazon — across roughly 105 million hectares of moist tropical forest. It contains five ecoregions from the Negro-Branco forests to the Gurupa Varzea and holds the capybara as its iconic species, with a conservation target of 93%.',
+      sourceIds: [
+        'one-earth-nt20',
+        'one-earth-eco-484',
+        'one-earth-eco-473',
+        'one-earth-eco-498',
+        'one-earth-eco-511',
+        'one-earth-eco-467',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'forested lowlands between the Amazon River and the crystalline uplands of the Guiana Shield',
+        'the Rio Negro and its blackwater tributaries crossing Colombia, Venezuela, and Brazil',
+        'white-sand campinarana patches of the Rio Negro basin',
+        'the Uatumã and Trombetas interfluves north of the Amazon',
+        'the Amazon delta várzea of Ilha Grande de Gurupá',
+      ],
+      sourceIds: [
+        'one-earth-nt20',
+        'one-earth-eco-484',
+        'one-earth-eco-473',
+        'one-earth-eco-498',
+        'one-earth-eco-511',
+        'one-earth-eco-467',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'evergreen moist tropical forest with high local tree diversity',
+        'várzea and igapó floodplain forest along whitewater and blackwater rivers',
+        'white-sand campinarana heath forest on nutrient-poor soils',
+        'piassaba-palm-rich forest and Brazil nut stands',
+      ],
+      sourceIds: [
+        'one-earth-nt20',
+        'one-earth-eco-484',
+        'one-earth-eco-473',
+        'one-earth-eco-498',
+        'one-earth-eco-511',
+        'one-earth-eco-467',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:capybara',
+      'species:jaguar',
+      'species:ocelot',
+      'species:lowland-tapir',
+      'species:black-headed-uakari',
+      'species:red-faced-spider-monkey',
+      'species:pied-tamarin',
+    ],
+    countryIds: ['BR', 'CO', 'VE', 'GY', 'SR'],
+    sources: [
+      'one-earth-nt20',
+      'one-earth-eco-484',
+      'one-earth-eco-473',
+      'one-earth-eco-498',
+      'one-earth-eco-511',
+      'one-earth-eco-467',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt21',
+    summary: {
+      value:
+        'Guianan Forests & Savanna (NT21) spans more than 106 million hectares of dense tropical forest and Guianan savanna across Venezuela, Colombia, Brazil, Guyana, Suriname, and French Guiana. The Guiana Highlands rise in rocky plateaus that feed the region’s many waterfalls, including Angel Falls, the world’s highest. One of the most biodiverse bioregions on Earth, it holds more than 13,000 plant species and 3,000 vertebrate species, roughly two-fifths endemic, with a conservation target of 94%.',
+      sourceIds: [
+        'one-earth-nt21',
+        'one-earth-eco-463',
+        'one-earth-eco-464',
+        'one-earth-eco-465',
+        'one-earth-eco-466',
+        'one-earth-eco-488',
+        'one-earth-eco-490',
+        'one-earth-eco-510',
+        'one-earth-eco-548',
+        'one-earth-eco-570',
+        'one-earth-eco-583',
+        'one-earth-eco-611',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Guiana Highlands, rocky plateaus that feed the region’s many waterfalls including Angel Falls',
+        'dense tropical forest across eastern Venezuela, the Guianas, and northern Brazil',
+        'Guianan savannas embedded within the forested matrix',
+        'flooded wetlands and mangrove fringes along the northern coast',
+        'a subrealm extending from the border of Venezuela and Colombia to the Atlantic coast',
+      ],
+      sourceIds: [
+        'one-earth-nt21',
+        'one-earth-eco-463',
+        'one-earth-eco-464',
+        'one-earth-eco-465',
+        'one-earth-eco-466',
+        'one-earth-eco-488',
+        'one-earth-eco-490',
+        'one-earth-eco-510',
+        'one-earth-eco-548',
+        'one-earth-eco-570',
+        'one-earth-eco-583',
+        'one-earth-eco-611',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'dense tropical forest renowned as one of the most biodiverse in the world',
+        'Guianan savannas scattered through the forest matrix',
+        'flooded swamp and wetland forests along rivers and coastal plains',
+        'mangrove belts on the Amazon-to-Caribbean coast',
+      ],
+      sourceIds: [
+        'one-earth-nt21',
+        'one-earth-eco-463',
+        'one-earth-eco-464',
+        'one-earth-eco-465',
+        'one-earth-eco-466',
+        'one-earth-eco-488',
+        'one-earth-eco-490',
+        'one-earth-eco-510',
+        'one-earth-eco-548',
+        'one-earth-eco-570',
+        'one-earth-eco-583',
+        'one-earth-eco-611',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:brilliant-thighed-poison-frog',
+      'species:jaguar',
+      'species:lowland-tapir',
+      'species:giant-otter',
+      'species:red-faced-spider-monkey',
+      'species:black-caiman',
+      'species:scarlet-ibis',
+      'species:harpy-eagle',
+    ],
+    countryIds: ['VE', 'CO', 'BR', 'GY', 'SR', 'GF'],
+    sources: [
+      'one-earth-nt21',
+      'one-earth-eco-463',
+      'one-earth-eco-464',
+      'one-earth-eco-465',
+      'one-earth-eco-466',
+      'one-earth-eco-488',
+      'one-earth-eco-490',
+      'one-earth-eco-510',
+      'one-earth-eco-548',
+      'one-earth-eco-570',
+      'one-earth-eco-583',
+      'one-earth-eco-611',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt22',
+    summary: {
+      value:
+        'Llanos & Dry Forests (NT22) covers nearly 45 million hectares of almost entirely open grassy plains crossed by the Orinoco and Apure rivers, with dry tropical forests in the Andean foothills of Colombia and Venezuela. The seasonally flooded llanos sustain the world’s largest side-necked turtle, the Arrau turtle, as the iconic species, alongside a conservation target of 40%.',
+      sourceIds: ['one-earth-nt22', 'one-earth-eco-520', 'one-earth-eco-572'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'almost entirely open grassy plains, the llanos, bounded by the Andes, the Venezuelan coastal range, and the Guiana Shield',
+        'the Orinoco and Apure rivers crossing the plains',
+        'dry tropical forests at the Andean foothills',
+        'a young lowland depression less than 10,000 years old',
+      ],
+      sourceIds: ['one-earth-nt22', 'one-earth-eco-520', 'one-earth-eco-572'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'extensive open grassy savannas and seasonally flooded grasslands',
+        'deciduous thorn forests on the Venezuelan side of the foothills',
+        'gallery forests and palm-rich wetlands along rivers',
+      ],
+      sourceIds: ['one-earth-nt22', 'one-earth-eco-520', 'one-earth-eco-572'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:arrau-turtle',
+      'species:capybara',
+      'species:jaguar',
+      'species:giant-anteater',
+      'species:orinoco-crocodile',
+      'species:red-footed-tortoise',
+      'species:ocelot',
+      'species:white-tailed-deer',
+    ],
+    countryIds: ['CO', 'VE'],
+    sources: ['one-earth-nt22', 'one-earth-eco-520', 'one-earth-eco-572'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt23',
+    summary: {
+      value:
+        'Venezuelan Coast (NT23) is a coastal, semi-arid bioregion spanning the Venezuelan coastline north of the Cordillera de la Costa and into the La Guajira peninsula of northeastern Colombia across roughly 23.7 million hectares. Strong xeric fauna and Margarita and Paria endemic isolates mark its twelve ecoregions, with Baird’s tapir as the iconic species and a conservation target of 48%.',
+      sourceIds: [
+        'one-earth-nt23',
+        'one-earth-eco-447',
+        'one-earth-eco-456',
+        'one-earth-eco-499',
+        'one-earth-eco-536',
+        'one-earth-eco-539',
+        'one-earth-eco-546',
+        'one-earth-eco-594',
+        'one-earth-eco-597',
+        'one-earth-eco-602',
+        'one-earth-eco-603',
+        'one-earth-eco-606',
+        'one-earth-eco-611',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Venezuelan coastline north of the Cordillera de la Costa',
+        'the La Guajira peninsula of northeastern Colombia shared with Venezuela',
+        'semi-arid coastal plains and xeric scrub belts',
+        'islands and peninsulas including Margarita, Araya, and Paria',
+        'the Sierra Nevada de Santa Marta as an isolated coastal sky-island in the southwest',
+      ],
+      sourceIds: [
+        'one-earth-nt23',
+        'one-earth-eco-447',
+        'one-earth-eco-456',
+        'one-earth-eco-499',
+        'one-earth-eco-536',
+        'one-earth-eco-539',
+        'one-earth-eco-546',
+        'one-earth-eco-594',
+        'one-earth-eco-597',
+        'one-earth-eco-602',
+        'one-earth-eco-603',
+        'one-earth-eco-606',
+        'one-earth-eco-611',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'deserts and xeric shrublands as the dominant primary biome',
+        'dry and montane forests on coastal cordilleras and sky-islands',
+        'páramo grasslands above treeline on the Sierra Nevada de Santa Marta',
+        'mangrove belts shared with the Amazon-Orinoco-Southern Caribbean complex',
+      ],
+      sourceIds: [
+        'one-earth-nt23',
+        'one-earth-eco-447',
+        'one-earth-eco-456',
+        'one-earth-eco-499',
+        'one-earth-eco-536',
+        'one-earth-eco-539',
+        'one-earth-eco-546',
+        'one-earth-eco-594',
+        'one-earth-eco-597',
+        'one-earth-eco-602',
+        'one-earth-eco-603',
+        'one-earth-eco-606',
+        'one-earth-eco-611',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:bairds-tapir',
+      'species:cotton-top-tamarin',
+      'species:geoffroys-spider-monkey',
+      'species:caribbean-manatee',
+      'species:green-sea-turtle',
+      'species:hawksbill-sea-turtle',
+      'species:leatherback-turtle',
+    ],
+    countryIds: ['VE', 'CO'],
+    sources: [
+      'one-earth-nt23',
+      'one-earth-eco-447',
+      'one-earth-eco-456',
+      'one-earth-eco-499',
+      'one-earth-eco-536',
+      'one-earth-eco-539',
+      'one-earth-eco-546',
+      'one-earth-eco-594',
+      'one-earth-eco-597',
+      'one-earth-eco-602',
+      'one-earth-eco-603',
+      'one-earth-eco-606',
+      'one-earth-eco-611',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt13',
+    summary: {
+      value:
+        'Cerrado Savannas (NT13) covers more than one-fifth of Brazil’s land area as the largest savanna region in South America, spanning roughly 194 million hectares across two ecoregions, Campos Rupestres Montane Savanna and the Cerrado. It is one of the richest tropical savannas on Earth, with about 10,000 plant species, 200 mammal species, and 10 endemic bird species, with the maned wolf and giant armadillo among its iconic fauna. One Earth reports a conservation target of 13% with a protection level of 9.',
+      sourceIds: ['one-earth-nt13', 'one-earth-eco-566', 'one-earth-eco-567'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'plateaus and tablelands from 500 to 1,700 m elevation',
+        'the Espinhaço Range as a pre-Cambrian crystalline plateau (566)',
+        'gallery forests along streams and rivers',
+        'ecotonal transitions toward moist Atlantic forests and dry Chaco–Caatinga habitats',
+      ],
+      sourceIds: ['one-earth-nt13', 'one-earth-eco-566', 'one-earth-eco-567'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical seasonal climate with a pronounced wet–dry cycle; the page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt13'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'campos rupestres rock-field savanna on the Espinhaço Range (566)',
+        'cerrado s.l., from open campo limpo grasslands to cerradão woodland',
+        'gallery forests and palm-rich wetlands along watercourses',
+      ],
+      sourceIds: ['one-earth-nt13', 'one-earth-eco-566', 'one-earth-eco-567'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'one of the richest tropical savannas on Earth',
+        'an ecological mixing theater between Amazon and Atlantic moist forests and Chaco–Caatinga dry habitats',
+        'a center of plant and vertebrate endemism in campos rupestres rock fields',
+      ],
+      sourceIds: ['one-earth-nt13', 'one-earth-eco-566', 'one-earth-eco-567'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a combined conservation target of 13% with a protection level of 9, relatively well protected compared with other Neotropical bioregions. Chapada dos Veadeiros and Emas national parks anchor protection of the Cerrado, while mining, cattle ranching, and agricultural expansion remain the main pressures.',
+      sourceIds: ['one-earth-nt13', 'one-earth-eco-566', 'one-earth-eco-567'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:maned-wolf',
+      'species:giant-armadillo',
+      'species:jaguar',
+      'species:giant-anteater',
+      'species:blue-eyed-ground-dove',
+    ],
+    countryIds: ['BR'],
+    sources: ['one-earth-nt13', 'one-earth-eco-566', 'one-earth-eco-567'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt14',
+    summary: {
+      value:
+        'Brazilian Atlantic Moist Forests (NT14) spans nearly the entire length of Brazil’s eastern coast as roughly 123 million hectares of tropical broadleaf forest reaching into the heart of the Cerrado across twelve ecoregions, including Serra do Mar, Bahia Coastal Forests, and Southern Atlantic Brazilian Mangroves. Hundreds of rare and endemic species occur here, with about 20,000 plant species and roughly 450 tree species per hectare, with the maned three-toed sloth as iconic fauna. One Earth reports a conservation target of 29% with a protection level of 3.',
+      sourceIds: [
+        'one-earth-nt14',
+        'one-earth-eco-439',
+        'one-earth-eco-440',
+        'one-earth-eco-441',
+        'one-earth-eco-442',
+        'one-earth-eco-443',
+        'one-earth-eco-462',
+        'one-earth-eco-491',
+        'one-earth-eco-492',
+        'one-earth-eco-500',
+        'one-earth-eco-509',
+        'one-earth-eco-609',
+        'one-earth-eco-616',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a nearly continuous eastern coastal strip with scattered interior massifs',
+        'the Serra do Mar escarpment and coastal plain from 20 m to 1,500 m summits',
+        'inland plateaus and forested depressions of the Brazilian Plateau',
+        'oceanic islands including Fernando de Noronha and the Trindade–Martin Vaz archipelago',
+      ],
+      sourceIds: [
+        'one-earth-nt14',
+        'one-earth-eco-439',
+        'one-earth-eco-440',
+        'one-earth-eco-441',
+        'one-earth-eco-442',
+        'one-earth-eco-443',
+        'one-earth-eco-462',
+        'one-earth-eco-491',
+        'one-earth-eco-492',
+        'one-earth-eco-500',
+        'one-earth-eco-509',
+        'one-earth-eco-609',
+        'one-earth-eco-616',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Humid to subtropical climates along the tropical Atlantic slope; the page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt14'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Atlantic tropical broadleaf moist forest with emergents above 30 m',
+        'semi-deciduous and seasonal forests toward the Cerrado margin',
+        'coastal restinga sand forests, mangroves, and Araucaria forest',
+        'island scrub, secondary forest, and volcanic rock vegetation on isolated islets',
+      ],
+      sourceIds: [
+        'one-earth-nt14',
+        'one-earth-eco-439',
+        'one-earth-eco-440',
+        'one-earth-eco-441',
+        'one-earth-eco-442',
+        'one-earth-eco-443',
+        'one-earth-eco-462',
+        'one-earth-eco-491',
+        'one-earth-eco-492',
+        'one-earth-eco-500',
+        'one-earth-eco-509',
+        'one-earth-eco-609',
+        'one-earth-eco-616',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'an avian and plant center of endemism spanning several endemic bird areas',
+        'migration corridors between moist and semi-deciduous Atlantic forests and the Cerrado',
+        'oceanic isolation driving endemism on archipelagos such as Fernando de Noronha',
+      ],
+      sourceIds: [
+        'one-earth-nt14',
+        'one-earth-eco-439',
+        'one-earth-eco-440',
+        'one-earth-eco-441',
+        'one-earth-eco-442',
+        'one-earth-eco-443',
+        'one-earth-eco-462',
+        'one-earth-eco-491',
+        'one-earth-eco-492',
+        'one-earth-eco-500',
+        'one-earth-eco-509',
+        'one-earth-eco-609',
+        'one-earth-eco-616',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a combined conservation target of 29% with a protection level of 3, placing the Atlantic forest among the most degraded bioregions, with many remnants holding under 1% of their original cover. The largest and best-protected tracts remain in the Serra do Mar, while mining, urban expansion, timber extraction, and forest conversion continue to threaten the remainder.',
+      sourceIds: ['one-earth-nt14'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:maned-sloth',
+      'species:southern-muriqui',
+      'species:golden-lion-tamarin',
+      'species:brown-howler',
+      'species:ocelot',
+    ],
+    countryIds: ['BR'],
+    sources: [
+      'one-earth-nt14',
+      'one-earth-eco-439',
+      'one-earth-eco-440',
+      'one-earth-eco-441',
+      'one-earth-eco-442',
+      'one-earth-eco-443',
+      'one-earth-eco-462',
+      'one-earth-eco-491',
+      'one-earth-eco-492',
+      'one-earth-eco-500',
+      'one-earth-eco-509',
+      'one-earth-eco-609',
+      'one-earth-eco-616',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt15',
+    summary: {
+      value:
+        'Brazilian Atlantic Dry Forests (NT15) incorporates Brazil’s southeastern cape and adjacent marine areas across roughly 100 million hectares, a mosaic of four ecoregions — Caatinga, Brazilian Atlantic Dry Forests, Maranhão Babaçu Forests, and Caatinga Enclaves Moist Forests — dominated by shrublands, cacti, and thorny woodlands. Its marine biodiversity is rich, with 57% of fish species endemic, and the black bearded saki stands as the iconic species. One Earth reports a conservation target of 14% with a protection level of 5.',
+      sourceIds: ['one-earth-nt15', 'one-earth-eco-445', 'one-earth-eco-524', 'one-earth-eco-525', 'one-earth-eco-540'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'drought-prone flats and plateaus of northeastern Brazil',
+        'the São Francisco River depression and lowlands',
+        'the east–west transition from Atlantic forest to Cerrado and Amazon flanks',
+        'serra uplands such as Chapada do Araripe and Serra de Baturité rising out of dry shrubland',
+      ],
+      sourceIds: ['one-earth-nt15', 'one-earth-eco-445', 'one-earth-eco-524', 'one-earth-eco-525', 'one-earth-eco-540'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Hot and dry climate across a mosaic of drought-deciduous forest and thorn scrub; the page states no numeric precipitation or temperature values for the bioregion itself.',
+      },
+      sourceIds: ['one-earth-nt15'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'caatinga dry forest and thorn scrub, from low shrubby growth to 25–30 m tall forest',
+        'tropical dry deciduous and semi-deciduous forest on limestone soils (524)',
+        'babassu palm–dominated transition forest (540)',
+        'semi-deciduous moist forest islands within the caatinga matrix (445)',
+      ],
+      sourceIds: ['one-earth-nt15', 'one-earth-eco-445', 'one-earth-eco-524', 'one-earth-eco-525', 'one-earth-eco-540'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'one of the largest dry forest regions in South America',
+        'a concentration of threatened parrots, titi monkeys, and endemic birds across remnant forests',
+        'an ecotonal mixing zone between Atlantic forests, Cerrado, and Amazonia',
+      ],
+      sourceIds: ['one-earth-nt15', 'one-earth-eco-445', 'one-earth-eco-524', 'one-earth-eco-525', 'one-earth-eco-540'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a combined conservation target of 14% with a protection level of 5. More than half of the caatinga and most flat-land dry forest have been converted, with charcoal demand, agriculture, and cattle ranching the leading pressures, while parks such as Serra da Capivara anchor regional protection.',
+      sourceIds: ['one-earth-nt15', 'one-earth-eco-524', 'one-earth-eco-525'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:black-bearded-saki',
+      'species:scarlet-ibis',
+      'species:lears-macaw',
+      'species:buff-breasted-tody-tyrant',
+      'species:maned-wolf',
+    ],
+    countryIds: ['BR'],
+    sources: ['one-earth-nt15', 'one-earth-eco-445', 'one-earth-eco-524', 'one-earth-eco-525', 'one-earth-eco-540'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt16',
+    summary: {
+      value:
+        'Amazon River Estuary (NT16) covers the delta at the end of the Amazon’s roughly 4,000-mile journey in northern Brazil, joining the Tocantins River and the Marajó Archipelago across more than 31 million hectares, with four ecoregions spanning tidal várzea forest, terra firme and igapó, restinga, and mangrove habitats. It is the easternmost Amazonian bioregion, with the scarlet ibis as the iconic species among rich floodplain and island fauna. One Earth reports a conservation target of 63% with a protection level of 5.',
+      sourceIds: ['one-earth-nt16', 'one-earth-eco-480', 'one-earth-eco-508', 'one-earth-eco-485', 'one-earth-eco-611'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Amazon delta and the Marajó Archipelago labyrinth of sedimentary islands',
+        'low tidal floodplains and poorly drained clay-soiled várzea',
+        'flat alluvial plains shaped by Amazon River dynamics',
+        'a narrow band of beach and restinga forests along the eastern coast',
+      ],
+      sourceIds: ['one-earth-nt16', 'one-earth-eco-480', 'one-earth-eco-508', 'one-earth-eco-485'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Equatorial climate with monsoon rainfall and a strong marine influence; the page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt16'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'tidal várzea flooded forest with buriti, açaí, and manatee-bush thickets (480)',
+        'terra firme, igapó, and várzea moist forest in the Tocantins–Pindare lowlands (508)',
+        'restinga dune and sand-coastal vegetation (485)',
+        'Amazon-Orinoco-Southern Caribbean mangrove belts (611)',
+      ],
+      sourceIds: ['one-earth-nt16', 'one-earth-eco-480', 'one-earth-eco-508', 'one-earth-eco-485', 'one-earth-eco-611'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'saltwater–freshwater mixing and nutrient cycling through tidal várzea',
+        'fruit-dispersal webs built around large fishes such as tambaqui and pirarucu',
+        'massive seasonal flooding that keeps forests underwater much of the year',
+      ],
+      sourceIds: ['one-earth-nt16', 'one-earth-eco-480', 'one-earth-eco-508', 'one-earth-eco-485'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a combined conservation target of 63% with a protection level of 5. The Marajó Archipelago Environmental Protection Area anchors the region, while cattle and water buffalo ranching, logging, and settlement expansion remain the leading threats to flooded forest and restinga habitats.',
+      sourceIds: ['one-earth-nt16', 'one-earth-eco-480', 'one-earth-eco-508', 'one-earth-eco-485'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:scarlet-ibis',
+      'species:caribbean-manatee',
+      'species:tambaqui',
+      'species:pirarucu',
+      'species:green-sea-turtle',
+    ],
+    countryIds: ['BR'],
+    sources: ['one-earth-nt16', 'one-earth-eco-480', 'one-earth-eco-508', 'one-earth-eco-485', 'one-earth-eco-611'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt1',
+    summary: {
+      value:
+        'Chilean Mixed Forests (NT1) covers roughly 41 million hectares across the western half of Patagonia, encompassing myriad waterways and coastal rainforests, the Chilean Lake District, and the large glaciers of the southernmost Andes, together containing the Magellanic Subpolar Forests (561) and Valdivian Temperate Forests (563). The flagship Chilean huemul shares these forests with pudu, puma, and both the South American gray fox and Andean fox. One Earth reports a conservation target of 45% with a protection level of 7.',
+      sourceIds: ['one-earth-nt1'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the western half of Patagonia with myriad waterways and coastal rainforests',
+        'the Chilean Lake District',
+        'large glaciers and ice caps at the southernmost Andes',
+        'a narrow strip between the western Andes slope and the Pacific',
+      ],
+      sourceIds: ['one-earth-nt1'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Cool temperate maritime climates with precipitation strongly influenced by the Andes rain shadow and distance from the Pacific; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt1'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'coastal evergreen temperate rainforests',
+        'Magellanic subpolar and Valdivian broadleaf forests',
+        'deciduous beech woodlands and Magellanic moorland toward the archipelago',
+        'glaciers, snowfields, and alpine vegetation at the southern Andes',
+      ],
+      sourceIds: ['one-earth-nt1'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the Andes rain shadow driving a sharp west–east moisture gradient',
+        'glacial and ice-cap processes shaping the southernmost Andes',
+        'a temperate-forest center of endemism for birds, amphibians, and deer',
+      ],
+      sourceIds: ['one-earth-nt1'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 45% with a protection level of 7. Protection is anchored by parks such as Laguna San Rafael, Bernardo O\'Higgins, Torres del Paine, and Cabo de Hornos in Chile and Los Glaciares and Tierra del Fuego in Argentina, while habitat conversion, burning and logging, the Carretera Austral, rising tourism, and the introduced North American beaver are the leading pressures.',
+      sourceIds: ['one-earth-nt1'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:chilean-huemul',
+      'species:southern-pudu',
+      'species:puma',
+      'species:andean-fox',
+      'species:south-american-gray-fox',
+      'species:kelp-goose',
+      'species:striated-caracara',
+    ],
+    countryIds: ['CL', 'AR'],
+    sources: ['one-earth-nt1'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt2',
+    summary: {
+      value:
+        'Patagonia Steppe & Low Mountains (NT2) spans roughly 93 million hectares across most of Argentina’s temperate grassland biome between the Andes and the Espinal, extending into Chile and the Falkland Islands, and contains the Low Monte (577) and Patagonian Steppe (578) ecoregions. The flagship southern river otter reflects the bioregion’s freshwater and coastal-marine linkages. One Earth reports a conservation target of 54% with a protection level of 1.',
+      sourceIds: ['one-earth-nt2'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the vast Patagonian steppe lowlands of southern Argentina',
+        'low mountain ranges and the Atlantic shore',
+        'the southern Andes margin shared with Chile',
+        'Islas Malvinas (Falkland Islands) and southern Atlantic marine areas',
+      ],
+      sourceIds: ['one-earth-nt2'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Cold, dry, windswept steppe climates in the rain shadow of the Andes; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt2'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'dry xerophytic dwarf and cushion shrub steppe (Acantholippia, Benthamiella, Nassauvia, Verbena)',
+        'desert scrub of the Low Monte with Larrea and Bulnesia',
+        'grass-steppe transitions toward the Espinal',
+      ],
+      sourceIds: ['one-earth-nt2'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'sheep grazing driving desertification and soil erosion',
+        'strong westerly winds and rain-shadow aridity east of the Andes',
+        'freshwater and coastal-marine connectivity around the flagship southern river otter',
+      ],
+      sourceIds: ['one-earth-nt2'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 54% with a protection level of 1, among the least-protected bioregions in this batch. Laguna Blanca, Nahuel Huapi, Perito Moreno, and Los Glaciares anchor protection, while overgrazing, poaching of guanaco and rhea, and fox and puma hunting and poisoning remain the leading threats.',
+      sourceIds: ['one-earth-nt2'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:southern-river-otter',
+      'species:guanaco',
+      'species:patagonian-mara',
+      'species:hooded-grebe',
+      'species:puma',
+      'species:south-american-gray-fox',
+      'species:chilean-huemul',
+      'species:patagonian-weasel',
+    ],
+    countryIds: ['AR', 'CL', 'FK'],
+    sources: ['one-earth-nt2'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt3',
+    summary: {
+      value:
+        'Rio de la Plata Grasslands (NT3) covers more than 111 million hectares of pampas, espinal, and flooded savannas across central Argentina and Uruguay, assembled from the Uruguayan Savanna, Espinal, Humid Pampas, Paraná Flooded Savanna, and Southern Cone Mesopotamian Savanna ecoregions. The flagship marsh deer shares these plains with capybara, pampas deer, greater rhea, and pampas fox. One Earth reports a conservation target of 24% with a protection level of 1.',
+      sourceIds: ['one-earth-nt3'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the humid pampas of eastern Argentina',
+        'thorny espinal plains east of the Andes',
+        'the Paraná and Paraguay river floodplains and delta',
+        'Uruguayan rolling savannas along the northern shore of the Río de la Plata',
+      ],
+      sourceIds: ['one-earth-nt3'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Warm temperate to subtropical climates, humid to the east and drier toward the west and south; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt3'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'moderate grasslands of the humid pampas (Stipa, Piptochaetium, Aristida, Paspalum)',
+        'carob- and caldén-dominated espinal woodland and shrubland',
+        'palm savannas and gallery forests of the Uruguayan savanna',
+        'seasonally inundated floodplain vegetation of the Paraná',
+      ],
+      sourceIds: ['one-earth-nt3'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'a south-temperate grassland–wetland continuum of continental bird importance',
+        'seasonal flood-pulse hydrology in the Paraná and Paraguay floodplains',
+        'migrant-bird staging and wetland corridors',
+      ],
+      sourceIds: ['one-earth-nt3'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 24% with a protection level of 1, with the Humid Pampas carrying the lowest target of the batch at 4%. Protection is largely inadequate, anchored by reserves such as Otamendi and the Mar Chiquita Ramsar site, while cattle ranching, agriculture conversion, wetland drainage, and burning are the dominant pressures.',
+      sourceIds: ['one-earth-nt3'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:marsh-deer',
+      'species:capybara',
+      'species:pampas-deer',
+      'species:greater-rhea',
+      'species:pampas-fox',
+      'species:yellow-cardinal',
+      'species:southern-screamer',
+      'species:black-and-white-monjita',
+    ],
+    countryIds: ['AR', 'UY'],
+    sources: ['one-earth-nt3'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt4',
+    summary: {
+      value:
+        'Chaco Grasslands (NT4) covers more than 108 million hectares of the Gran Chaco across much of Paraguay and northern Argentina, a dry-forest and savanna mosaic named from the Quechua word for hunting land, containing the Dry Chaco (569) and Humid Chaco (571) ecoregions. The flagship Chacoan peccary, long known only as a fossil, survives alongside the giant anteater and maned wolf. One Earth reports a conservation target of 48% with a protection level of 3.',
+      sourceIds: ['one-earth-nt4'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the plains and low ranges of the Gran Chaco',
+        'thorn forest and impenetrable thickets of the Dry Chaco',
+        'flood-origin woodland–savanna mosaics of the Humid Chaco',
+        'several large salt flats in the south',
+      ],
+      sourceIds: ['one-earth-nt4'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Subtropical semi-arid to humid climates along a strong west–east rainfall gradient; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt4'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'savanna and thorn forest with quebracho and Bulnesia sarmientoi',
+        'willow-leaf red and white quebracho woodland',
+        'flooded bogs with black and white carob, spiny hackberry, and caranday palm',
+        'bayonet bromeliads and star cactus thickets',
+      ],
+      sourceIds: ['one-earth-nt4'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'a Pleistocene-paced arid–humid–semiarid oscillation',
+        'one of the great Neotropical corridors of large-mammal and bird fauna',
+        'productive seasonal hunting grounds recognized by the Guarani name Gran Chaco',
+      ],
+      sourceIds: ['one-earth-nt4'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 48% with a protection level of 3. Defensores del Chaco National Park and private reserves in Paraguay plus Pilcomayo, Baritú, Calilegua, and El Rey parks in Argentina anchor protection, while cattle and goat grazing, Trans-Chaco road access, hunting, and quebracho logging are the main pressures.',
+      sourceIds: ['one-earth-nt4'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:chacoan-peccary',
+      'species:giant-anteater',
+      'species:maned-wolf',
+      'species:marsh-deer',
+      'species:white-lipped-peccary',
+      'species:capybara',
+      'species:greater-rhea',
+      'species:yacare-caiman',
+    ],
+    countryIds: ['PY', 'AR'],
+    sources: ['one-earth-nt4'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt5',
+    summary: {
+      value:
+        'Andean Mountain Grasslands (NT5) spans the central Andes from central Argentina to central Peru, centered on the Altiplano—the world’s second-highest plateau—and the Lake Titicaca basin, across roughly 82.8 million hectares and five ecoregions: Central Andean Dry Puna, Central Andean Puna, Central Andean Wet Puna, High Monte, and Southern Andean Steppe. The flagship Andean cat hunts the puna alongside vicuña, lesser rhea, and long-tailed chinchilla. One Earth reports a conservation target of 45% with a protection level of 4.',
+      sourceIds: ['one-earth-nt5'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the high Andean plateau (Altiplano) and its margins',
+        'the Lake Titicaca basin',
+        'dry puna, wet puna, and southern Andean steppe belts',
+        'volcanic plateaus and canyons of the high-monte foothills',
+      ],
+      sourceIds: ['one-earth-nt5'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Cold, high-elevation semi-arid to arid climates with extreme diurnal temperature swings; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt5'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'puna bunchgrasses, tolares, and yaretales',
+        'Polylepis woodland in sheltered ravines',
+        'bofedal wetlands and peat bogs',
+        'xeric high-monte scrub of the Andean foothills',
+      ],
+      sourceIds: ['one-earth-nt5'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'elevation-driven zonation from wet puna to high-monte scrub',
+        'high-Andean saline lakes supporting breeding flamingos',
+        'a center of endemism for rodents, camelids, and puna birds',
+      ],
+      sourceIds: ['one-earth-nt5'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 45% with a protection level of 4. Protected areas include Sajama in Bolivia, Manu and the Lake Titicaca Reserve in Peru, and Laguna Brava, San Guillermo, and Aconcagua in Argentina, while livestock grazing and burning, mining pollution, and road and urban expansion are the leading pressures.',
+      sourceIds: ['one-earth-nt5'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:andean-cat',
+      'species:vicuna',
+      'species:lesser-rhea',
+      'species:royal-cinclodes',
+      'species:long-tailed-chinchilla',
+      'species:guanaco',
+      'species:andean-fox',
+      'species:puma',
+    ],
+    countryIds: ['AR', 'BO', 'CL', 'PE'],
+    sources: ['one-earth-nt5'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt6',
+    summary: {
+      value:
+        'Chilean Matorral (NT6) occupies the central Chilean coastal strip around Santiago and the Valparaíso region, with its northern range near La Serena and Coquimbo, covering roughly 14.9 million hectares and a single ecoregion, Chilean Matorral (596). It is the only Mediterranean-climate biome in South America, and the giant hummingbird stands as the flagship species. One Earth reports a conservation target of 28% with a protection level of 0, the least-protected bioregion in this batch.',
+      sourceIds: ['one-earth-nt6'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the central Chilean coastal strip around Santiago and Valparaíso',
+        'coastal ranges near La Serena and Coquimbo',
+        'the Andes foothill margin of central Chile',
+      ],
+      sourceIds: ['one-earth-nt6'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Mediterranean climate with warm dry summers and cool wet winters—the only such climate in South America; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt6'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'sclerophyllous scrub and espinal woodland',
+        'coastal matorral and thorn scrub',
+        'endemic scrub associations of central Chile',
+      ],
+      sourceIds: ['one-earth-nt6'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the only Mediterranean-climate system in South America',
+        'a heavy concentration of Chilean endemic birds and mammals',
+        'coastal–Andes moisture and temperature gradients',
+      ],
+      sourceIds: ['one-earth-nt6'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 28% with a protection level of 0/10, the least-protected biome in Chile. Agriculture, grazing, logging, urbanization, invasive European rabbits, and exotic plants are the leading threats to the remaining matorral.',
+      sourceIds: ['one-earth-nt6'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:giant-hummingbird',
+      'species:humboldt-penguin',
+      'species:southern-pudu',
+      'species:andean-cat',
+      'species:andean-fox',
+      'species:puma',
+      'species:pichi-armadillo',
+      'species:degu',
+    ],
+    countryIds: ['CL'],
+    sources: ['one-earth-nt6'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt7',
+    summary: {
+      value:
+        'Juan Fernandez & Desventuradas Islands (NT7) comprises the Juan Fernandez archipelago and the uninhabited Desventuradas (San Félix and San Ambrosio) islands more than 670 km off the Chilean coast, together with large surrounding marine areas, across only about 16,000 hectares of land and two ecoregions (560, 562). The endemic Juan Fernandez firecrown hummingbird is the flagship in a region of very high plant and bird endemism. One Earth reports a conservation target of 94% with a protection level of 9.',
+      sourceIds: ['one-earth-nt7'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Juan Fernandez (Robinson Crusoe) archipelago',
+        'the Desventuradas islands of San Félix and San Ambrosio',
+        'steep volcanic ridges and marine cliffs',
+        'extensive surrounding marine areas',
+      ],
+      sourceIds: ['one-earth-nt7'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Oceanic subtropical climates with a strong maritime influence; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt7'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'endemic temperate relict forest on the Juan Fernandez islands',
+        'extremely arid sparse scrub on the Desventuradas',
+        'very high endemic plant diversity, roughly half or more of the Juan Fernandez flora',
+      ],
+      sourceIds: ['one-earth-nt7'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'oceanic isolation driving exceptional plant and bird endemism',
+        'seabird-dominated nutrient dynamics across island and marine realms',
+        'marine-reserve protection of surrounding waters',
+      ],
+      sourceIds: ['one-earth-nt7'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 94% with a protection level of 9. Juan Fernandez National Park, a UNESCO Biosphere Reserve, and the Nazca-Desventuradas Marine Park—among the largest marine reserves in the Americas—anchor protection, while feral goats, rabbits, and introduced mammals threaten the island ecosystems.',
+      sourceIds: ['one-earth-nt7'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:juan-fernandez-firecrown',
+      'species:masafuera-rayadito',
+      'species:peregrine-falcon',
+    ],
+    countryIds: ['CL'],
+    sources: ['one-earth-nt7'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt8',
+    summary: {
+      value:
+        'South American Coastal Deserts (NT8) runs along the western strip of Peru and northern Chile between the Pacific and the Andes foothills, roughly 29 million hectares of the world’s driest non-polar desert, with fog-fed lomas vegetation and the Atacama (598) and Sechura (608) deserts. The near-threatened Sechuran fox is the flagship species. One Earth reports a conservation target of 20% with a protection level of 2.',
+      sourceIds: ['one-earth-nt8'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the coastal strip of Peru and northern Chile west of the Andes',
+        'the hyperarid Atacama Desert',
+        'the Sechura Desert of northern Peru and adjacent Chile',
+        'fog-fed coastal lomas and oasis wetlands',
+      ],
+      sourceIds: ['one-earth-nt8'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Hyperarid desert with fog-driven coastal moisture; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt8'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'fog-fed bromeliad and herb-rich lomas communities',
+        'sparse xeric desert scrub',
+        'coastal wetlands and river oases',
+      ],
+      sourceIds: ['one-earth-nt8'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'coastal fog (camanchaca) sustaining rare lomas ecosystems',
+        'one of the driest biomes on Earth',
+        'an isolation-driven center of desert endemism',
+      ],
+      sourceIds: ['one-earth-nt8'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 20% with a protection level of 2. Cerros de Amotape, San Fernando, Paracas, and Pan de Azúcar anchor some protection, while urbanization, mining pollution, overgrazing, wetland reclamation, and wood extraction are the leading pressures.',
+      sourceIds: ['one-earth-nt8'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sechuran-fox',
+      'species:darwins-leaf-eared-mouse',
+      'species:south-american-gray-fox',
+      'species:peruvian-plantcutter',
+      'species:white-winged-guan',
+      'species:peru-pacific-iguana',
+    ],
+    countryIds: ['PE', 'CL'],
+    sources: ['one-earth-nt8'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt9',
+    summary: {
+      value:
+        'Galapagos Islands (NT9) comprises 61 volcanic islands roughly 1,000 km west of Ecuador in the Pacific, covering about 803,000 hectares with one ecoregion, Galapagos Islands Xeric Scrub (601). The Galapagos giant tortoise is the flagship of an island fauna in which 20 of 22 resident reptiles are endemic. One Earth reports a conservation target of 100% with a protection level of 10.',
+      sourceIds: ['one-earth-nt9'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        '61 volcanic islands and islets',
+        'xeric scrub and coastal zones',
+        'lava fields and recent volcanic terrain',
+        'large surrounding marine areas',
+      ],
+      sourceIds: ['one-earth-nt9'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Cool oceanic seasonality in which the driest season is the cool season from June to December; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt9'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'xeric scrub and dry-forest remnants',
+        'coastal halophyte and mangrove zones',
+        'an endemic flora of about 180 species among roughly 500 natives',
+      ],
+      sourceIds: ['one-earth-nt9'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'extreme isolation driving remarkable reptile and bird endemism',
+        'oceanic cold-water upwelling supporting marine megafauna',
+        'flagship evolutionary radiations of giant tortoises and Darwin’s finches',
+      ],
+      sourceIds: ['one-earth-nt9'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 100% with a protection level of 10. Galapagos National Park, a UNESCO World Heritage site since 1978 and Biosphere Reserve since 1984, protects the archipelago, while invasive goats, introduced plants, and the human footprint on five inhabited islands remain the chief threats.',
+      sourceIds: ['one-earth-nt9'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:galapagos-giant-tortoise',
+      'species:galapagos-marine-iguana',
+      'species:galapagos-penguin',
+      'species:galapagos-sea-lion',
+      'species:galapagos-fur-seal',
+      'species:lava-gull',
+    ],
+    countryIds: ['EC'],
+    sources: ['one-earth-nt9'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt12',
+    summary: {
+      value:
+        'Pantanal Flooded Grasslands & Dry Forests (NT12) centers on the Paraguay River floodplain wetland and adjacent dry forests across Bolivia, Brazil, and Paraguay, roughly 40 million hectares of the world’s largest tropical wetland, a UNESCO World Heritage site, containing the Chiquitano Dry Forests (529) and Pantanal (584) ecoregions. The jaguar is the flagship amid giant otter, giant armadillo, marsh deer, and hyacinth macaw. One Earth reports a conservation target of 69% with a protection level of 3.',
+      sourceIds: ['one-earth-nt12'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Paraguay River floodplain',
+        'seasonally inundated grasslands and forest islands',
+        'the Chiquitano dry-forest transition toward the Cerrado',
+        'a low alluvial plain at 75–200 m elevation',
+      ],
+      sourceIds: ['one-earth-nt12'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Warm tropical seasonal climate with a pronounced flood pulse that can submerge up to 78% of the basin; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-nt12'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'seasonally flooded grassland and savanna',
+        'Chiquitano transitional dry forest',
+        'riverine forest, gallery woodland, and tree islands',
+      ],
+      sourceIds: ['one-earth-nt12'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the seasonal flood pulse cycling nutrients across the basin',
+        'the world’s largest tropical wetland complex',
+        'a refugium for jaguar, giant otter, and giant armadillo',
+      ],
+      sourceIds: ['one-earth-nt12'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 69% with a protection level of 3. Pantanal National Park and reserves around Otuquis and San Matías cover part of the basin, while agricultural expansion, the Hidrovia waterway project, pesticide runoff, and gold-mining mercury contamination are the leading threats.',
+      sourceIds: ['one-earth-nt12'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:jaguar',
+      'species:giant-otter',
+      'species:giant-armadillo',
+      'species:marsh-deer',
+      'species:pampas-deer',
+      'species:hyacinth-macaw',
+      'species:capybara',
+      'species:southern-tamandua',
+    ],
+    countryIds: ['BO', 'BR', 'PY'],
+    sources: ['one-earth-nt12'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na10',
+    summary: {
+      value:
+        'Northeastern American Mixed Forests (NA10) spans roughly 44 million hectares from the top of New Brunswick to the Blue Ridge in the mid-Atlantic United States, uniting the Gulf of Saint Lawrence Lowland, New England-Acadian, and Northeast US Coastal Forests ecoregions. The moose is the flagship of these heavily forested, long-logged temperate lands. One Earth reports a conservation target of 61% with a protection level of 1.',
+      sourceIds: ['one-earth-na10'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'temperate broadleaf lowlands from New Brunswick to the mid-Atlantic',
+        'the coastal plain of the Northeast United States',
+        'Acadian and New England hills and lowlands',
+        'the Gulf of St. Lawrence shores of Maritime Canada',
+      ],
+      sourceIds: ['one-earth-na10'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Humid temperate continental climate with maritime influence along the Atlantic coast; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-na10'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'northern hardwood and mixedwood forest',
+        'Acadian coastal and New England transitional forest',
+        'coastal oak and pine woodland grading into lowland spruce-fir',
+      ],
+      sourceIds: ['one-earth-na10'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'a long logging history dating to European settlement',
+        'extensive fragmentation across a densely settled region',
+        'coastal-maritime influence on forest composition and climate',
+      ],
+      sourceIds: ['one-earth-na10'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 61% with a protection level of 1. Significant logging and shoreline development pressure the three constituent ecoregions.',
+      sourceIds: ['one-earth-na10'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:moose',
+      'species:white-tailed-deer',
+      'species:american-black-bear',
+      'species:piping-plover',
+      'species:bog-turtle',
+      'species:bobcat',
+    ],
+    countryIds: ['CA', 'US'],
+    sources: ['one-earth-na10'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na11',
+    summary: {
+      value:
+        'Northern Great Lakes Forests (NA11) runs as a forest band from Quebec to Minnesota covering about 87.5 million hectares per its statistics, uniting the Eastern Canadian Temperate-Boreal Transition, Eastern Great Lakes Lowland, Upper Midwest Forest-Savanna, and Western Great Lakes Forests ecoregions. The eastern timber wolf is the flagship of this Algonquin-to-Isle Royale country. One Earth reports a conservation target of 56% with a protection level of 2.',
+      sourceIds: ['one-earth-na11'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a forested band from Quebec to Minnesota',
+        'the western Great Lakes coastline',
+        'the Algonquin and Boundary Waters country',
+        'the Isle Royale archipelago',
+        'an ~87.5 million hectare stat-block figure against the page prose claim of ~193 million hectares',
+      ],
+      sourceIds: ['one-earth-na11'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Humid continental climate of the Great Lakes basin with strong lake effects on snowfall and frost; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-na11'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'northern hardwood and mixedwood forest',
+        'Great Lakes lowland forest',
+        'forest-savanna transition woodland',
+        'boreal-temperate transition forest',
+      ],
+      sourceIds: ['one-earth-na11'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'lake-effect moderation of temperature and snowfall',
+        'Isle Royale wolf-moose predator-prey dynamics',
+        'old-growth remnants amid a long logging history',
+      ],
+      sourceIds: ['one-earth-na11'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 56% with a protection level of 2. Logging, fragmentation, and lake-shore development remain the leading pressures.',
+      sourceIds: ['one-earth-na11'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:eastern-timber-wolf',
+      'species:canada-lynx',
+      'species:puma',
+      'species:moose',
+      'species:loggerhead-shrike',
+      'species:iowa-pleistocene-snail',
+    ],
+    countryIds: ['CA', 'US'],
+    sources: ['one-earth-na11'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na12',
+    summary: {
+      value:
+        'Northern Prairie & Aspen Forests (NA12) spans roughly 113 million hectares of the northern Great Plains across Manitoba, Saskatchewan, and Alberta and the Dakotas, Minnesota, Nebraska, Montana, and Wyoming, uniting the Canadian Aspen Forests and Parklands, Northern Shortgrass Prairie, and Northern Tallgrass Prairie ecoregions. The black-tailed prairie dog is the flagship of these largely private lands. One Earth reports a conservation target of 26% with a protection level of 1.',
+      sourceIds: ['one-earth-na12'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the northern Great Plains of Canada and the United States',
+        'the aspen parkland ecotone',
+        'shortgrass tablelands and river breaks',
+        'the tallgrass lake-bed plain of glacial Lake Agassiz',
+      ],
+      sourceIds: ['one-earth-na12'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Semi-arid continental grassland climate with harsh winters and warm summers; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-na12'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'aspen parkland groves and prairie openings',
+        'shortgrass prairie',
+        'tallgrass prairie remnants',
+        'pothole wetlands',
+      ],
+      sourceIds: ['one-earth-na12'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the most extensive boreal-grassland ecotone on Earth',
+        'prairie-dog and bison dynamics on the plains',
+        'grassland fire and grazing regimes',
+      ],
+      sourceIds: ['one-earth-na12'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 26% with a protection level of 1, among the lowest in this batch. Grassland conversion and a small protected footprint are the chief concerns.',
+      sourceIds: ['one-earth-na12'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:black-tailed-prairie-dog',
+      'species:american-bison',
+      'species:pronghorn',
+      'species:black-footed-ferret',
+      'species:gray-wolf',
+      'species:puma',
+      'species:le-contes-sparrow',
+    ],
+    countryIds: ['CA', 'US'],
+    sources: ['one-earth-na12'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na13',
+    summary: {
+      value:
+        'Greater Rockies & Mountain Forests (NA13) covers roughly 70 million hectares of the northern Rocky Mountains from Yellowstone in the United States north to Lake Williston in British Columbia, assembling the Central British Columbia Mountain, Northern Rockies Conifer, South Central Rockies, and Montana Valley and Foothill Grasslands ecoregions. The grizzly bear is the flagship of this transboundary block. One Earth reports a conservation target of 59% with a protection level of 3.',
+      sourceIds: ['one-earth-na13'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the northern Rocky Mountains of Canada and the United States',
+        'the Greater Yellowstone Ecosystem',
+        'Montana and Wyoming valley-and-foothill grasslands',
+        'the glaciated ranges flanking Lake Williston',
+      ],
+      sourceIds: ['one-earth-na13'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Cold montane climate with strong elevation gradients from valley grassland to alpine; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-na13'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Rocky Mountain conifer forest',
+        'valley and foothill grassland',
+        'subalpine parkland and alpine vegetation',
+      ],
+      sourceIds: ['one-earth-na13'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'a transboundary corridor for large carnivores',
+        'bison, elk, and wolf dynamics in the Greater Yellowstone Ecosystem',
+        'grassland-valley transitions in the Montana foothills',
+      ],
+      sourceIds: ['one-earth-na13'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 59% with a protection level of 3, anchored by Yellowstone and Grand Teton and the Glacier-Waterton-Banff-Jasper national park chain.',
+      sourceIds: ['one-earth-na13'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:grizzly-bear',
+      'species:woodland-caribou',
+      'species:canada-lynx',
+      'species:gray-wolf',
+      'species:wolverine',
+      'species:american-bison',
+      'species:puma',
+      'species:westslope-cutthroat-trout',
+    ],
+    countryIds: ['CA', 'US'],
+    sources: ['one-earth-na13'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na14',
+    summary: {
+      value:
+        'Northwest Intermountain Conifer Forests (NA14) binds the Fraser Plateau and Basin Conifer Forests and Okanogan Dry Forests ecoregions across roughly 15.7 million hectares of interior British Columbia. The American badger is the flagship of these dry, valley-incised conifer lands. One Earth reports a conservation target of 45% with a protection level of 3.',
+      sourceIds: ['one-earth-na14'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Fraser Plateau and basin',
+        'the Chilcotin basalt country',
+        'the Okanagan/Okanogan valley system',
+        'dry interior plateaus and incised valleys',
+      ],
+      sourceIds: ['one-earth-na14'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Dry interior-BC continental climate with marked rain-shadow valleys, cold winters, and warm summers; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-na14'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'interior Douglas-fir and ponderosa pine forest',
+        'dry valley grassland and open pine woodland',
+        'plateau lodgepole pine and spruce forest',
+      ],
+      sourceIds: ['one-earth-na14'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'an interior rain-shadow gradient from wet plateau to dry valley floor',
+        'fire-maintained open pine woodlands',
+        'a proposed valley conservation corridor',
+      ],
+      sourceIds: ['one-earth-na14'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 45% with a protection level of 3. More than 30 federal and about 60 provincial species at risk concentrate in the Okanagan area, where a north-to-south conservation corridor has been proposed.',
+      sourceIds: ['one-earth-na14'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:american-badger',
+      'species:woodland-caribou',
+      'species:barrows-goldeneye',
+      'species:puma',
+    ],
+    countryIds: ['CA'],
+    sources: ['one-earth-na14'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na15',
+    summary: {
+      value:
+        'Pacific Northwest Coastal Forests (NA15) covers roughly 29.7 million hectares of coastal temperate rainforest from northern California through Oregon, Washington, and British Columbia, assembling the British Columbia Coastal, Central Pacific Northwest Coastal, Klamath-Siskiyou, Northern California Coastal, Puget Lowland, and Haida Gwaii Conifer Forest ecoregions. The Haida ermine is the flagship of this coast. One Earth reports a conservation target of 55% with a protection level of 3.',
+      sourceIds: ['one-earth-na15'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a coastal temperate rainforest fringe from northern California to Haida Gwaii',
+        'the Olympic Peninsula and the Washington-British Columbia coast',
+        'the Klamath-Siskiyou transition ranges',
+        'the Puget Sound and Georgia Basin lowlands',
+        'the Haida Gwaii archipelago',
+      ],
+      sourceIds: ['one-earth-na15'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Cool, wet oceanic climate of the coastal temperate rainforest, mild near the sea and wet year-round; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-na15'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'giant Sitka spruce and western hemlock rainforest',
+        'coast redwood groves',
+        'Douglas-fir and western redcedar lowland forest',
+        'some of the most diverse conifer forests on Earth',
+      ],
+      sourceIds: ['one-earth-na15'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'fog-drip and orographic rainfall sustaining the rainforest',
+        'island endemism in the Haida Gwaii archipelago',
+        'near-elimination of old growth driving major conservation planning',
+      ],
+      sourceIds: ['one-earth-na15'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 55% with a protection level of 3. Olympic National Park and large British Columbia reserves anchor protection, while old-growth logging and introduced species remain the chief threats.',
+      sourceIds: ['one-earth-na15'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:haida-ermine',
+      'species:mountain-goat',
+      'species:american-black-bear',
+      'species:puma',
+      'species:marbled-murrelet',
+      'species:sea-otter',
+      'species:fisher',
+      'species:northern-spotted-owl',
+    ],
+    countryIds: ['CA', 'US'],
+    sources: ['one-earth-na15'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na16',
+    summary: {
+      value:
+        'Cascades Mountain Forests & Valleys (NA16) spans roughly 16.2 million hectares of the Cascade Range from northern California through Oregon and Washington to the British Columbia border, combining the Central-Southern Cascades, Eastern Cascades, North Cascades, and Willamette Valley Oak Savanna ecoregions. The mountain beaver, sole survivor of an ancient rodent lineage, is the flagship. One Earth reports a conservation target of 47% with a protection level of 4.',
+      sourceIds: ['one-earth-na16'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Cascade Range spine from Mt. Lassen to Mt. Rainier',
+        'the rain-shadow eastern slopes of the Cascades',
+        'the rugged, glaciated North Cascades',
+        'the Willamette Valley between the Cascades and the Coast Range',
+      ],
+      sourceIds: ['one-earth-na16'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'A pronounced west-to-east gradient from heavy maritime precipitation to a dry rain shadow; the bioregion page states no numeric precipitation or temperature values.',
+      },
+      sourceIds: ['one-earth-na16'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Cascadian conifer forest',
+        'old-growth ponderosa pine woodland on the eastern slopes',
+        'glacier-carved North Cascades conifer forest',
+        'oak savanna and prairie in the Willamette Valley',
+      ],
+      sourceIds: ['one-earth-na16'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'volcanic and glacial dynamics along the High Cascades',
+        'rain-shadow aridity east of the crest',
+        'frequent low-severity fire maintaining ponderosa pine woodland',
+        'Kalapuya cultural fire maintaining valley oak savanna',
+      ],
+      sourceIds: ['one-earth-na16'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 47% with a protection level of 4. Most of the ecoregion has been heavily logged, old-growth and roadless areas remain scarce, and the valley floor is among the continent’s most human-modified landscapes.',
+      sourceIds: ['one-earth-na16'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:mountain-beaver',
+      'species:northern-spotted-owl',
+      'species:elk',
+      'species:black-tailed-deer',
+      'species:white-headed-woodpecker',
+      'species:mule-deer',
+      'species:puma',
+      'species:american-black-bear',
+    ],
+    countryIds: ['CA', 'US'],
+    sources: ['one-earth-na16'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na17',
+    summary: {
+      value:
+        'Columbia Plateau & Blue Mountains (NA17) spans roughly 15.5 million hectares of intermontane country bounded by the Rocky Mountains to the east and the Cascades to the west, combining the Blue Mountains Forests and Palouse Prairie ecoregions. High-altitude prairie and conifer forests on volcanic mountains hold a large portion of the Snake River drainage. The American black bear is the flagship, and One Earth reports a conservation target of 27% with a protection level of 3.',
+      sourceIds: ['one-earth-na17'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the intermontane Columbia Plateau and Blue Mountains',
+        'a large portion of the Snake River drainage',
+        'high-altitude prairie and volcanic mountain forests',
+      ],
+      sourceIds: ['one-earth-na17'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only and no numeric precipitation or temperature values; the interior basin has cold winters and warm summers.',
+      },
+      sourceIds: ['one-earth-na17'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'ponderosa pine and mixed conifer forest',
+        'perennial grassland and shrub-steppe prairie',
+        'riparian woodland along the Snake River',
+      ],
+      sourceIds: ['one-earth-na17'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'volcanic geology of the Columbia Plateau',
+        'Snake River drainage linking mountain and steppe',
+        'the region\u2019s prairie-conifer forest mosaic',
+      ],
+      sourceIds: ['one-earth-na17'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 27% with a protection level of 3. The two component ecoregions face very different conditions: the Palouse Prairie has lost nearly all its grassland while the Blue Mountains retain substantial forest cover.',
+      sourceIds: ['one-earth-na17'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:american-black-bear',
+      'species:elk',
+      'species:mule-deer',
+      'species:bighorn-sheep',
+      'species:pronghorn',
+      'species:great-gray-owl',
+      'species:white-headed-woodpecker',
+      'species:golden-eagle',
+    ],
+    countryIds: ['US'],
+    sources: ['one-earth-na17'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na18',
+    summary: {
+      value:
+        'Great Basin & Columbia Steppe (NA18) spans roughly 50.3 million hectares of internally drained basins encircled by mountains, from the Mojave Desert boundary northward, combining the Great Basin Shrub Steppe, Snake-Columbia Shrub Steppe, and Great Basin Montane Forests ecoregions. Desert shrub-steppe with small forested mountain islands incorporates the Great Salt Lake in central Utah. The pronghorn is the flagship, and One Earth reports a conservation target of 82% with a protection level of 1.',
+      sourceIds: ['one-earth-na18'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'internally drained basins encircled by mountains',
+        'the Great Salt Lake in central Utah',
+        'desert shrub-steppe with small forested mountain islands',
+      ],
+      sourceIds: ['one-earth-na18'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only and no numeric precipitation or temperature values; the steppe is arid with cold winters and hot summers.',
+      },
+      sourceIds: ['one-earth-na18'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'sagebrush shrub steppe',
+        'salt desert scrub',
+        'scattered montane forest islands',
+      ],
+      sourceIds: ['one-earth-na18'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'internally drained basin hydrology',
+        'the Great Salt Lake as a remnant of Pleistocene pluvial lakes',
+        'sagebrush-steppe dynamics',
+      ],
+      sourceIds: ['one-earth-na18'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 82% with a protection level of 1, among the highest conservation targets of the North American bioregions, reflecting the low protection level across this arid, largely intact basin.',
+      sourceIds: ['one-earth-na18'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:pronghorn',
+      'species:mule-deer',
+      'species:bighorn-sheep',
+      'species:greater-sage-grouse',
+      'species:burrowing-owl',
+      'species:pygmy-rabbit',
+      'species:spotted-bat',
+      'species:coyote',
+    ],
+    countryIds: ['US'],
+    sources: ['one-earth-na18'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na19',
+    summary: {
+      value:
+        'Colorado Plateau & Mountain Forests (NA19) spans roughly 72 million hectares of mountain-encircled plateaus and basins from Arizona north to Wyoming, combining the Arizona Mountains Forests, Colorado Rockies Forests, Wasatch and Uinta Montane Forests, Colorado Plateau Shrublands, and Wyoming Basin Shrub Steppe ecoregions. Desert shrublands and shrub-steppe dominate the lowlands while forested mountains rise above them. The elk is the flagship, and One Earth reports a conservation target of 57% with a protection level of 2.',
+      sourceIds: ['one-earth-na19'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'high plateaus and basins enclosed by mountains',
+        'deep canyons and forested ranges',
+        'shrub-steppe lowlands',
+      ],
+      sourceIds: ['one-earth-na19'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only and no numeric precipitation or temperature values; the climate ranges from cold mountain to arid basin.',
+      },
+      sourceIds: ['one-earth-na19'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'sagebrush shrub-steppe',
+        'pinyon-juniper woodland',
+        'montane conifer forest',
+      ],
+      sourceIds: ['one-earth-na19'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'elevational gradients between desert lowlands and forested mountains',
+        'the Colorado River and Wyoming interior basins',
+        'more than a thousand years of Native American stewardship',
+      ],
+      sourceIds: ['one-earth-na19'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 57% with a protection level of 2, with protection spread unevenly across the bioregion and energy development and grazing among the leading pressures.',
+      sourceIds: ['one-earth-na19'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:elk',
+      'species:puma',
+      'species:mule-deer',
+      'species:american-black-bear',
+      'species:canada-lynx',
+      'species:mexican-spotted-owl',
+      'species:pronghorn',
+      'species:california-condor',
+    ],
+    countryIds: ['US'],
+    sources: ['one-earth-na19'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na20',
+    summary: {
+      value:
+        'Southern Prairie Mixed Grasslands (NA20) spans roughly 98.6 million hectares of the lower Great Plains from Nebraska south to southern Texas, bounded by the Rocky Mountains to the west, combining the Western Shortgrass Prairie, Nebraska Sand Hills Mixed Grasslands, Central-Southern US Mixed Grasslands, Cross-Timbers Savanna-Woodland, and Edwards Plateau Savanna ecoregions. The grassland belt has been largely converted to farmland. The sandhill crane is the flagship, and One Earth reports a conservation target of 38% with a protection level of 0.',
+      sourceIds: ['one-earth-na20'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the lower Great Plains from Nebraska to southern Texas',
+        'shortgrass, mixed-grass, and tallgrass prairie',
+        'dune fields and limestone plateaus',
+      ],
+      sourceIds: ['one-earth-na20'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only and no numeric precipitation or temperature values; the climate grades from semi-arid steppe in the west to subhumid subtropical in the south.',
+      },
+      sourceIds: ['one-earth-na20'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'shortgrass and mixed-grass prairie',
+        'tallgrass prairie',
+        'post oak savanna and juniper-oak woodland',
+      ],
+      sourceIds: ['one-earth-na20'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the grassland-savanna transition from west to east',
+        'fire and large-herbivore ecology of the Great Plains',
+        'extensive conversion of prairie to farmland',
+      ],
+      sourceIds: ['one-earth-na20'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 38% with a protection level of 0, the lowest protection level reported for the North American bioregions, with the grasslands largely converted to farmland and scattered preserves such as the Wichita Mountains National Wildlife Refuge anchoring bison recovery.',
+      sourceIds: ['one-earth-na20'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sandhill-crane',
+      'species:american-bison',
+      'species:black-tailed-prairie-dog',
+      'species:pronghorn',
+      'species:mountain-plover',
+      'species:mexican-free-tailed-bat',
+      'species:black-capped-vireo',
+      'species:golden-cheeked-warbler',
+    ],
+    countryIds: ['US'],
+    sources: ['one-earth-na20'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na21',
+    summary: {
+      value:
+        'Midwestern Tallgrass Prairie & Forest Transition (NA21) spans roughly 59.9 million hectares extending eastward from the Missouri River where the Great Plains give way to open forests across Illinois, combining the Central US Forest-Grasslands Transition, Central Tallgrass Prairie, and Flint Hills Tallgrass Prairie ecoregions. The bioregion incorporates the western half of Lake Michigan and a large section of the Missouri River. The Blanding\u2019s turtle is the flagship, and One Earth reports a conservation target of 3% with a protection level of 7.',
+      sourceIds: ['one-earth-na21'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the transition from tallgrass prairie to eastern forest',
+        'the Missouri River corridor and the western half of Lake Michigan',
+        'rolling tallgrass prairie hills',
+      ],
+      sourceIds: ['one-earth-na21'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only and no numeric precipitation or temperature values; the climate is continental with warm summers and cold winters.',
+      },
+      sourceIds: ['one-earth-na21'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'tallgrass prairie',
+        'oak-hickory forest edge',
+        'prairie wetland and riverine communities',
+      ],
+      sourceIds: ['one-earth-na21'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'forest-grassland transition dynamics',
+        'fire and grazing on the prairie',
+        'Missouri River hydrology',
+      ],
+      sourceIds: ['one-earth-na21'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 3% with a protection level of 7. The landscape is among the most converted in North America, but protected prairie networks such as the TNC Nachusa Grasslands anchor grassland bird and bison recovery.',
+      sourceIds: ['one-earth-na21'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:blandings-turtle',
+      'species:greater-prairie-chicken',
+      'species:american-bison',
+      'species:northern-harrier',
+      'species:dickcissel',
+      'species:eastern-meadowlark',
+      'species:upland-sandpiper',
+      'species:henslows-sparrow',
+    ],
+    countryIds: ['US'],
+    sources: ['one-earth-na21'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na22',
+    summary: {
+      value:
+        'Ozarks Mixed Forests (NA22) spans roughly 17.6 million hectares of the Ozark mountains and highlands between the pine woods to the south and the central grassland-forest transition to the north, combining the Ozark Highlands Mixed Forests and Ozark Mountain Forests ecoregions. Bordered on the east by the lower Mississippi Valley, the bioregion includes most of the Arkansas River. The eastern collared lizard is the flagship, and One Earth reports a conservation target of 48% with a protection level of 1.',
+      sourceIds: ['one-earth-na22'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Ozark mountains and highlands',
+        'the Arkansas River and the lower Mississippi Valley border',
+        'karst caves and spring systems',
+      ],
+      sourceIds: ['one-earth-na22'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only and no numeric precipitation or temperature values; the climate is humid warm temperate with hot summers and mild to cool winters.',
+      },
+      sourceIds: ['one-earth-na22'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'oak-hickory and shortleaf pine forest',
+        'pine-bluestem woodland',
+        'cave, glade, and spring-fed stream communities',
+      ],
+      sourceIds: ['one-earth-na22'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'karst hydrology of the Ozark highlands',
+        'high endemism in caves and mountain streams',
+        'a transition zone between eastern and western biota',
+      ],
+      sourceIds: ['one-earth-na22'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 48% with a protection level of 1, with substantial intact forest outside protected areas and cave faunas of global significance.',
+      sourceIds: ['one-earth-na22'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:eastern-collared-lizard',
+      'species:salem-cave-crayfish',
+      'species:southern-cavefish',
+      'species:fourche-mountain-salamander',
+      'species:ouachita-madtom',
+      'species:red-cockaded-woodpecker',
+      'species:bachmans-sparrow',
+      'species:greater-roadrunner',
+    ],
+    countryIds: ['US'],
+    sources: ['one-earth-na22'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na23',
+    summary: {
+      value:
+        'Interior Plateau & Southern Great Lakes Forests (NA23) spans roughly 35.2 million hectares between the Appalachian Mountains to the east and the central grassland-forest transition to the west, combining the Interior Plateau US Hardwood Forests and Southern Great Lakes Forests ecoregions. The bioregion of broadleaf forest extends north to include the eastern half of Lake Michigan and the entirety of Lake Erie. The gray bat is the flagship, and One Earth reports a conservation target of 25% with a protection level of 1.',
+      sourceIds: ['one-earth-na23'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Interior Plateau and southern Great Lakes lowlands',
+        'the eastern half of Lake Michigan and all of Lake Erie',
+        'rolling broadleaf forest country',
+      ],
+      sourceIds: ['one-earth-na23'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only and no numeric precipitation or temperature values; the climate is warm continental grading to cold temperate.',
+      },
+      sourceIds: ['one-earth-na23'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'broadleaf deciduous forest',
+        'beech and sugar maple forest',
+        'oak-hickory woodland',
+      ],
+      sourceIds: ['one-earth-na23'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the karst cave systems of the Interior Plateau',
+        'Great Lakes lake-effect climate',
+        'extensive historical conversion of the landscape',
+      ],
+      sourceIds: ['one-earth-na23'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 25% with a protection level of 1. Very little old-growth forest remains after more than a century of industrial and agricultural land use, with the Mammoth-Flint Ridge cave system among the region\u2019s most significant refuges.',
+      sourceIds: ['one-earth-na23'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:gray-bat',
+      'species:indiana-bat',
+      'species:northern-cavefish',
+      'species:eastern-screech-owl',
+      'species:downy-woodpecker',
+    ],
+    countryIds: ['US'],
+    sources: ['one-earth-na23'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na24',
+    summary: {
+      value:
+        'Appalachia & Allegheny Interior Forests (NA24) spans roughly 58.5 million hectares of broadleaf forest from central Alabama to the highlands of central New York along the Blue Ridge Mountains, combining the Allegheny Highlands Forests, Appalachian Mixed Mesophytic Forests, Appalachian Piedmont Forests, and Appalachian-Blue Ridge Forests ecoregions. Numerous rivers and small lakes dissect the ancient mountains. The hellbender is the flagship, and One Earth reports a conservation target of 56% with a protection level of 1.',
+      sourceIds: ['one-earth-na24'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the Blue Ridge and Allegheny highlands',
+        'a band from central Alabama to central New York',
+        'numerous rivers and small lakes',
+      ],
+      sourceIds: ['one-earth-na24'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only and no numeric precipitation or temperature values; the climate ranges from warm temperate in the south to cold temperate in the north.',
+      },
+      sourceIds: ['one-earth-na24'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'broadleaf deciduous forest',
+        'mesic cove and northern hardwood forest',
+        'high-elevation spruce-fir forest',
+      ],
+      sourceIds: ['one-earth-na24'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'some of the world\u2019s richest temperate biodiversity',
+        'freshwater biodiversity hotspots of the southern Appalachians',
+        'major centers of salamander evolution',
+      ],
+      sourceIds: ['one-earth-na24'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 56% with a protection level of 1, with a high share of natural habitat remaining even as the region faces invasive pests such as the woolly adelgid and continued suburban sprawl.',
+      sourceIds: ['one-earth-na24'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:hellbender',
+      'species:copperhead',
+      'species:paddlefish',
+      'species:white-tailed-deer',
+      'species:american-black-bear',
+      'species:bobcat',
+    ],
+    countryIds: ['US'],
+    sources: ['one-earth-na24'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na25',
+    summary: {
+      value:
+        'The Southeast Savannas & Riparian Forests bioregion covers 73,226 thousand hectares across the Atlantic seaboard and Southeast US, uniting the Mississippi Lowland Forests, Atlantic Coastal Pine Barrens, Mid-Atlantic US Coastal Savannas, and Southeast US Conifer Savannas. Its floodplain forests, pine barrens, and longleaf savannas border marine areas of the Atlantic Ocean and Gulf of Mexico and once supported the ivory-billed woodpecker. One Earth reports a conservation target of 15% with a protection level of 4.',
+      sourceIds: ['one-earth-na25'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'covers the Atlantic seaboard and Southeast US',
+        'includes the Atlantic coastal pine barrens and the Mississippi lowland forests',
+        'adjacent marine areas in the Atlantic Ocean and Gulf of Mexico',
+      ],
+      sourceIds: ['one-earth-na25'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only and no numeric precipitation or temperature values; the component ecoregions span warm temperate to subtropical climates.',
+      },
+      sourceIds: ['one-earth-na25'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'floodplain bottomland forests and bald cypress swamps',
+        'pitch pine barrens and Atlantic white cedar swamps',
+        'longleaf pine savannas and woodlands',
+      ],
+      sourceIds: ['one-earth-na25'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'spans four ecoregions from the Atlantic seaboard to the Mississippi lowlands',
+        'includes some of the oldest bald cypress trees and one of the ancient canebrakes',
+      ],
+      sourceIds: ['one-earth-na25'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 15% with a protection level of 4, with the component ecoregions ranging from largely intact swamps to heavily converted savannas and marshes.',
+      sourceIds: ['one-earth-na25'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:red-cockaded-woodpecker',
+      'species:gopher-tortoise',
+      'species:american-alligator',
+      'species:brown-headed-nuthatch',
+      'species:pine-barrens-tree-frog',
+      'species:eastern-indigo-snake',
+    ],
+    countryIds: ['US'],
+    sources: ['one-earth-na25'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na26',
+    summary: {
+      value:
+        'The Bermuda bioregion is a single island ecoregion of only 4 thousand hectares, more than 1,000 km from the Atlantic seaboard and unique within the Northern America realm. The Bermuda petrel, thought extinct by the mid-1600s and rediscovered in 1951, is the iconic species of this island of northernmost Atlantic mangrove swamps and coral reefs. One Earth reports a 1% protection target with no protection level listed.',
+      sourceIds: ['one-earth-na26'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a single island ecoregion more than 1,000 km from the Atlantic seaboard',
+        'unique within the Northern America realm',
+        'marine areas surrounding the island',
+      ],
+      sourceIds: ['one-earth-na26'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the island climate is tropical, closely bordering subtropical, with no recorded frosts or freezes.',
+      },
+      sourceIds: ['one-earth-na26'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'subtropical conifer forests and mangrove swamps',
+        'the northernmost mangrove swamps and tropical coral reefs in the Atlantic',
+      ],
+      sourceIds: ['one-earth-na26'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the Bermuda petrel, rediscovered in 1951 after being thought extinct since the mid-1600s',
+        'a unique island fauna including the endemic Bermuda skink and white-eyed vireo subspecies',
+      ],
+      sourceIds: ['one-earth-na26'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a 1% protection target with no protection level listed for this small, densely populated island bioregion.',
+      sourceIds: ['one-earth-na26'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:bermuda-petrel',
+      'species:bermuda-skink',
+      'species:white-eyed-vireo',
+      'species:diamondback-terrapin',
+    ],
+    countryIds: ['BM'],
+    sources: ['one-earth-na26'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na27',
+    summary: {
+      value:
+        'The Western Gulf Coastal Grasslands bioregion covers 9,107 thousand hectares along the Gulf coast of Texas, the only example of the subtropical grasslands biome in Northern America. Its single ecoregion is home to the iconic Attwater\u2019s prairie chicken and the endangered whooping crane. One Earth reports a conservation target of 29% with a protection level of 6, with adjacent marine areas in the Gulf of Mexico.',
+      sourceIds: ['one-earth-na27'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'runs along the Gulf coast of Texas',
+        'the only example of the subtropical grasslands biome in Northern America',
+        'adjacent marine area in the Gulf of Mexico',
+      ],
+      sourceIds: ['one-earth-na27'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the climate ranges from humid subtropical to subhumid and semiarid subtropical, progressively drier to the west.',
+      },
+      sourceIds: ['one-earth-na27'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Gulf coastal prairies and marshes',
+        'barrier islands, estuarine lagoons, and intertidal marshes',
+      ],
+      sourceIds: ['one-earth-na27'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the only subtropical grasslands biome in Northern America',
+        'more than 80% of Gulf coastal prairie lost in Louisiana and nearly that much in Texas',
+      ],
+      sourceIds: ['one-earth-na27'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 29% with a protection level of 6, with only 16% of the bioregion protected and 3% of natural habitat remaining outside protected areas.',
+      sourceIds: ['one-earth-na27'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:attwaters-prairie-chicken',
+      'species:whooping-crane',
+      'species:white-tailed-deer',
+      'species:northern-bobwhite',
+    ],
+    countryIds: ['US', 'MX'],
+    sources: ['one-earth-na27'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na28',
+    summary: {
+      value:
+        'The Southern Mixed Forests & Blackland Prairies bioregion covers 34,313 thousand hectares across the forests of eastern Texas surrounded by Blackland prairie, including the Sabine River drainage. The iconic American bison once ranged across its piney woods, savannas, and blackland prairies. One Earth reports a conservation target of 28% with a protection level of 2.',
+      sourceIds: ['one-earth-na28'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'forests through eastern Texas surrounded by Blackland prairie',
+        'includes the Sabine River',
+        'spans the East Central Texas Savanna-Woodland, Piney Woods Forests, and Texas Blackland Prairies',
+      ],
+      sourceIds: ['one-earth-na28'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from humid subtropical to subhumid warm temperate climates.',
+      },
+      sourceIds: ['one-earth-na28'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'piney woods and bottomland forests',
+        'oak savanna-woodland and tallgrass blackland prairie',
+      ],
+      sourceIds: ['one-earth-na28'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the Sabine River as an important drainage',
+        'frequent fire and bison grazing maintaining the original blackland prairies',
+      ],
+      sourceIds: ['one-earth-na28'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 28% with a protection level of 2, with most of the original blackland prairie and savanna converted to pasture, cropland, and urban area.',
+      sourceIds: ['one-earth-na28'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:american-bison',
+      'species:houston-toad',
+      'species:wild-turkey',
+      'species:northern-bobwhite',
+      'species:eastern-fox-squirrel',
+      'species:attwaters-prairie-chicken',
+      'species:white-tailed-deer',
+    ],
+    countryIds: ['US'],
+    sources: ['one-earth-na28'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na29',
+    summary: {
+      value:
+        'The Sierra Madre Forests & Mexican Drylands bioregion covers 116,853 thousand hectares from the upper half of Mexico into Arizona, New Mexico, and Texas, dominated by deserts and dry shrublands with pine-oak forests on the eastern and western Sierra Madre ranges. The Mexican wolf is the iconic species of this eight-ecoregion bioregion, which includes the Chihuahuan Desert, Meseta Central Matorral, and Tamaulipan matorrals. One Earth reports a conservation target of 43% with a protection level of 2.',
+      sourceIds: ['one-earth-na29'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'dominated by deserts and dry shrublands',
+        'pine-oak forests on the eastern and western Sierra Madre ranges',
+        'spans the upper half of Mexico plus Arizona, New Mexico, and Texas',
+      ],
+      sourceIds: ['one-earth-na29'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from arid subtropical deserts to cooler montane pine-oak forests.',
+      },
+      sourceIds: ['one-earth-na29'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'desert and dry shrublands',
+        'pine-oak forests on the eastern and western Sierra Madre ranges',
+        'Tamaulipan matorral and the mesquite grassland of the Tamaulipan Mezquital',
+      ],
+      sourceIds: ['one-earth-na29'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'eight ecoregions spanning the Sierra Madre forests to the Chihuahuan and Sonoran deserts',
+        'an important range for endemics such as the thick-billed and maroon-fronted parrots, Allen\u2019s squirrel, and the Mexican prairie dog',
+      ],
+      sourceIds: ['one-earth-na29'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 43% with a protection level of 2 across the eight component ecoregions.',
+      sourceIds: ['one-earth-na29'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:mexican-wolf',
+      'species:thick-billed-parrot',
+      'species:maroon-fronted-parrot',
+      'species:ocelot',
+      'species:jaguar',
+      'species:collared-peccary',
+      'species:mexican-prairie-dog',
+    ],
+    countryIds: ['MX', 'US'],
+    sources: ['one-earth-na29'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na30',
+    summary: {
+      value:
+        'The Baja California & Southern Deserts bioregion covers 45,428 thousand hectares across most of the Baja Peninsula and the scorching deserts of southern California and western Mexico, including the Baja California, Gulf of California, Mojave, and Sonoran deserts. The endemic Baja California rock squirrel is the iconic species of these four desert and scrub ecoregions, which border marine areas of the Gulf of California and Pacific Ocean. One Earth reports a conservation target of 56% with a protection level of 6.',
+      sourceIds: ['one-earth-na30'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'includes most of the Baja Peninsula and the scorching deserts of southern California',
+        'four desert and scrub ecoregions spanning Baja California to the Sonoran Desert',
+        'adjacent marine areas in the Gulf of California and Pacific Ocean',
+      ],
+      sourceIds: ['one-earth-na30'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from extremely arid subtropical deserts such as the Mojave to the milder Pacific coastal desert of Baja California.',
+      },
+      sourceIds: ['one-earth-na30'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'desert scrub from creosote bush flats to cactus deserts and Joshua tree woodlands',
+        'oases and islands with endemic plants and reptiles',
+      ],
+      sourceIds: ['one-earth-na30'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'a shared desert lineage from the Mojave to Baja California',
+        'endemic mammals and reptiles such as the Baja California rock squirrel and gray thrasher across the peninsula',
+      ],
+      sourceIds: ['one-earth-na30'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 56% with a protection level of 6, with extensive protected reserves including Mexico\u2019s largest, the El Vizcaino Biosphere Reserve.',
+      sourceIds: ['one-earth-na30'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:baja-california-rock-squirrel',
+      'species:desert-tortoise',
+      'species:chuckwalla',
+      'species:gray-thrasher',
+      'species:costas-hummingbird',
+      'species:elf-owl',
+      'species:gila-woodpecker',
+      'species:cactus-wren',
+    ],
+    countryIds: ['MX', 'US'],
+    sources: ['one-earth-na30'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na31',
+    summary: {
+      value:
+        'The Greater California bioregion covers 22,944 thousand hectares of Mediterranean chaparral and woodlands between the Pacific Coast and the Lower California mountains, from the Sierra Nevada and Central Valley to the coastal, montane, and interior chaparral ecoregions. The monarch is the iconic species of a region that inspired John Muir and the US National Parks system, with the Sierra Nevada holding ancient sequoias and the Central Valley among the most productive agricultural regions in the world. One Earth reports a conservation target of 33% with a protection level of 4.',
+      sourceIds: ['one-earth-na31'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'defined by Mediterranean chaparral and woodlands between the Pacific Coast and Lower California mountains',
+        'the Sierra Nevada with ancient sequoias',
+        'the Central Valley, one of the most productive agricultural regions in the world',
+      ],
+      sourceIds: ['one-earth-na31'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions share a Mediterranean climate with dry summers and winter rainfall.',
+      },
+      sourceIds: ['one-earth-na31'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Mediterranean chaparral and coastal sage scrub',
+        'Sierra Nevada conifer forests with giant sequoia',
+        'Central Valley grasslands and oak woodlands',
+      ],
+      sourceIds: ['one-earth-na31'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'a region that inspired John Muir and the US National Parks system',
+        'six ecoregions spanning Mediterranean chaparral and woodlands, montane forests, and valley grasslands',
+        'an important monarch migration area',
+      ],
+      sourceIds: ['one-earth-na31'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 33% with a protection level of 4, with heavily converted Central Valley grasslands balanced by extensive protected montane areas.',
+      sourceIds: ['one-earth-na31'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:monarch',
+      'species:yosemite-toad',
+      'species:yellow-billed-magpie',
+      'species:tule-elk',
+      'species:alameda-whipsnake',
+      'species:california-condor',
+      'species:california-gnatcatcher',
+      'species:white-eared-pocket-mouse',
+    ],
+    countryIds: ['US', 'MX'],
+    sources: ['one-earth-na31'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au3',
+    summary: {
+      value:
+        'East Australian Temperate Forests & Mountain Shrublands (AU3) spans 56,635 thousand hectares along Australia\u2019s east coast including Tasmania, with six ecoregions of temperate broadleaf forest and a pocket of alpine grasslands atop the Australian Alps, fronted by the Tasman Sea. One Earth sets a 33% conservation target with a protection level of 6; iconic inhabitants include the corroboree frog and superb lyrebird.',
+      sourceIds: ['one-earth-au3'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'covers the full east coast of Australia including Tasmania',
+        'temperate broadleaf forests with a pocket of alpine grasslands on the Australian Alps',
+        'adjacent marine areas in the Tasman Sea',
+        'mountain ranges, coastal plains, and tablelands',
+      ],
+      sourceIds: ['one-earth-au3'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from warm coastal temperate forests to cool alpine highlands, with wet rainforests and cold, snowy alps at higher elevations.',
+      },
+      sourceIds: ['one-earth-au3'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'warm and cool temperate rainforests and tall wet eucalypt forests',
+        'dry sclerophyll forests and eucalypt woodlands',
+        'Tasmanian alpine heathlands, cushion plants, and bolster moorlands',
+        'Australian Alps snow gum woodlands and montane grasslands',
+      ],
+      sourceIds: ['one-earth-au3'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'island isolation and endemism in Tasmania',
+        'high-elevation alpine processes on the Australian Alps',
+        'fire-shaped eucalypt forest dynamics',
+      ],
+      sourceIds: ['one-earth-au3'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 33% with a protection level of 6, with over 50 protected areas including the Tasmanian Wilderness World Heritage Area, Blue Mountains, Border Ranges, and Willi Willi National Parks.',
+      sourceIds: ['one-earth-au3'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:corroboree-frog',
+      'species:superb-lyrebird',
+      'species:tasmanian-devil',
+      'species:swift-parrot',
+      'species:spotted-tailed-quoll',
+      'species:eastern-quoll',
+    ],
+    countryIds: ['AU'],
+    sources: ['one-earth-au3'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au4',
+    summary: {
+      value:
+        'East Australian Mediterranean Woodlands & Temperate Savannas (AU4) occupies 76,438 thousand hectares between the coastal forests and interior deserts, including Kangaroo Island, in four ecoregions of mulga shrubland, temperate savanna, and mallee woodland. One Earth sets a 67% conservation target with a protection level of 1; the yellow-footed rock-wallaby is the iconic species.',
+      sourceIds: ['one-earth-au4'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'situated between the coastal forests of the east and the interior deserts of the west',
+        'includes Kangaroo Island',
+        'adjacent marine areas in Long Bay',
+      ],
+      sourceIds: ['one-earth-au4'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions share semiarid to temperate climates, largely Mediterranean woodland biome tightly interconnected with the southeastern temperate savanna.',
+      },
+      sourceIds: ['one-earth-au4'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'mulga and acacia shrublands',
+        'temperate savanna and grassy woodlands',
+        'Murray-Darling river red gum woodlands and mallee',
+        'Naracoorte and Coorong woodlands',
+      ],
+      sourceIds: ['one-earth-au4'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'semi-arid rain-and-drought cycles',
+        'shared lineages between Mediterranean woodland and temperate savanna biomes',
+        'rivermouth and coastal process along Long Bay',
+      ],
+      sourceIds: ['one-earth-au4'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 67% with a protection level of 1, reflecting cleared temperate woodlands and fragmented habitat across the Murray-Darling Basins and Fleurieu region.',
+      sourceIds: ['one-earth-au4'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:yellow-footed-rock-wallaby',
+      'species:southern-hairy-nosed-wombat',
+      'species:major-mitchells-cockatoo',
+      'species:short-beaked-echidna',
+      'species:emu',
+    ],
+    countryIds: ['AU'],
+    sources: ['one-earth-au4'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au5',
+    summary: {
+      value:
+        'South Australian Mediterranean Forests, Woodlands & Scrub (AU5) spans 61,867 thousand hectares along the southern and western coastline from St. Vincent Gulf to Shark Bay, in eight ecoregions of mallee, jarrah-karri forest, and heathland scrub bordering the Great Australian Bight and Indian Ocean. One Earth sets a 54% conservation target with a protection level of 3; the sandhill dunnart is the iconic species.',
+      sourceIds: ['one-earth-au5'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'southern and western coastline from St. Vincent Gulf to Shark Bay',
+        'adjacent marine areas in the Great Australian Bight and Indian Ocean',
+        'Great Western Woodlands, Nullarbor margin, and Flinders-Lofty ranges',
+      ],
+      sourceIds: ['one-earth-au5'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions share a Mediterranean climate of cool wet winters and hot dry summers, grading to aridity inland.',
+      },
+      sourceIds: ['one-earth-au5'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'mallee and heathland formations',
+        'jarrah-karri tall forests of the southwest',
+        'Eyre and Yorke mallee and woodlands',
+        'Coolgardie and Hampton woodlands on the desert margin',
+      ],
+      sourceIds: ['one-earth-au5'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Mediterranean fire regimes',
+        'one of the world\u2019s great biodiversity hotspots in southwest Western Australia',
+        'coastal dune and bight processes',
+      ],
+      sourceIds: ['one-earth-au5'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 54% with a protection level of 3, with important reserves protecting the high endemism of the southwest Australian biodiversity hotspot and southern mallee systems.',
+      sourceIds: ['one-earth-au5'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sandhill-dunnart',
+      'species:malleefowl',
+      'species:southern-hairy-nosed-wombat',
+      'species:tammar-wallaby',
+      'species:red-tailed-black-cockatoo',
+    ],
+    countryIds: ['AU'],
+    sources: ['one-earth-au5'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au6',
+    summary: {
+      value:
+        'West Australian Dry Coastal Shrublands (AU6) cover 26,377 thousand hectares of the west coast from Shark Bay to the Eighty Mile Beach, in just two ecoregions of spinifex and acacia shrubland fronting the Indian Ocean. One Earth sets a 91% conservation target with a protection level of 1; the Pilbara olive python is the iconic species.',
+      sourceIds: ['one-earth-au6'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'west coast from Shark Bay to Eighty Mile Beach in the northwest',
+        'adjacent marine areas in the Indian Ocean',
+        'scrub-covered plains and ranges of the Pilbara and Carnarvon regions',
+      ],
+      sourceIds: ['one-earth-au6'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are semi-arid to arid with episodic summer rainfall inland and winter-moderated coastal conditions.',
+      },
+      sourceIds: ['one-earth-au6'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'spinifex hummock grasslands',
+        'acacia mulga and mixed shrublands',
+        'coastal samphire and saltbush communities',
+      ],
+      sourceIds: ['one-earth-au6'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'episodic cyclonic rainfall and drought',
+        'fire-driven spinifex dynamics',
+        'coastal upwelling and marine nutrients',
+      ],
+      sourceIds: ['one-earth-au6'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 91% with a protection level of 1, a high target reflecting the extensive intact rangelands of the Pilbara and Carnarvon regions with low current protection.',
+      sourceIds: ['one-earth-au6'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:pilbara-olive-python',
+      'species:thorny-devil',
+      'species:pilbara-leaf-nosed-bat',
+      'species:sand-goanna',
+    ],
+    countryIds: ['AU'],
+    sources: ['one-earth-au6'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au7',
+    summary: {
+      value:
+        'Greater Australian Interior Desert & Shrublands (AU7) is the vast 325,462 thousand-hectare desert heart of the continent, centered on Uluru and spanning eight ecoregions of hummock grassland, sandy desert, and gibber plains. One Earth sets an 83% conservation target with a protection level of 3; the black-flanked rock-wallaby is the iconic species.',
+      sourceIds: ['one-earth-au7'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a huge expanse of desert and dry shrublands centered on Uluru/Ayers Rock',
+        'sandy dunefields, stony gibber plains, and mulga ranges',
+        'Nullarbor solution plains and the Simpson\u2019s parallel dunes',
+      ],
+      sourceIds: ['one-earth-au7'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are among the most arid in Australia, with low and erratic rainfall and high summer temperatures.',
+      },
+      sourceIds: ['one-earth-au7'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'spinifex and hummock grassland deserts',
+        'mulga and chenopod shrublands',
+        'gibber and claypan communities',
+        'native cypress pine and desert oak woodlands',
+      ],
+      sourceIds: ['one-earth-au7'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'boom-and-bust responses to episodic rainfall',
+        'fire dynamics in spinifex grasslands',
+        'Uluru and Kata Tjuta as sacred Indigenous sites',
+      ],
+      sourceIds: ['one-earth-au7'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 83% with a protection level of 3, with vast low-productivity interior lands retaining much natural habitat and important reserves such as Uluru-Kata Tjuta and Simpson Desert National Parks.',
+      sourceIds: ['one-earth-au7'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:black-flanked-rock-wallaby',
+      'species:greater-bilby',
+      'species:thorny-devil',
+      'species:rufous-hare-wallaby',
+      'species:long-tailed-dunnart',
+      'species:emu',
+    ],
+    countryIds: ['AU'],
+    sources: ['one-earth-au7'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au8',
+    summary: {
+      value:
+        'North Australian Tropical Savannas (AU8) occupy 168,381 thousand hectares across the north of the continent, from the Kimberley to the Gulf of Carpentaria, in six ecoregions of monsoon woodland and tropical savanna fronting the Timor Sea. One Earth sets an 82% conservation target with a protection level of 2; the golden bandicoot is the iconic species.',
+      sourceIds: ['one-earth-au8'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the northern arc of Australia from the Kimberley to the Gulf of Carpentaria',
+        'savanna plains, sandstone escarpments, and coastal floodplains',
+        'adjacent marine areas in the Timor Sea and Gulf of Carpentaria',
+      ],
+      sourceIds: ['one-earth-au8'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions share a monsoonal wet-dry tropical climate with intense summer rainfall and long dry winters.',
+      },
+      sourceIds: ['one-earth-au8'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'tropical eucalypt savanna woodlands',
+        'paperbark wetlands and monsoon forests',
+        'spinifex and tussock grasslands',
+        'Mitchell grass downs plains',
+      ],
+      sourceIds: ['one-earth-au8'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'annual fire regimes maintained by Aboriginal burning practices',
+        'big wet-season riverine and floodplain pulses',
+        'migratory shorebird and waterbird flyways',
+      ],
+      sourceIds: ['one-earth-au8'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 82% with a protection level of 2, with extensive intact savanna and large protected areas including Kakadu and Nitmiluk National Parks.',
+      sourceIds: ['one-earth-au8'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:golden-bandicoot',
+      'species:gouldian-finch',
+      'species:estuarine-crocodile',
+      'species:northern-bettong',
+      'species:wedge-tailed-eagle',
+    ],
+    countryIds: ['AU'],
+    sources: ['one-earth-au8'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au9',
+    summary: {
+      value:
+        'Queensland Tropical Rainforests & Savannas (AU9) span 56,869 thousand hectares along the northeast coast including Cape York, with three ecoregions of tropical rainforest and tropical savanna fronting the Coral Sea and the Great Barrier Reef offshore. One Earth sets a 77% conservation target with a protection level of 2; the bridled nailtail wallaby is the iconic species.',
+      sourceIds: ['one-earth-au9'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'northeast coast from Cape York to the tropics, along the Coral Sea coastline',
+        'pockets of coastal rainforest within vast tropical savanna',
+        'offshore Great Barrier Reef with 400 corals, 30 cetacean species, and over 1,500 fish species',
+      ],
+      sourceIds: ['one-earth-au9'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are tropical with monsoon rainfall and a pronounced dry season inland, wetter on the coastal rainforest strip.',
+      },
+      sourceIds: ['one-earth-au9'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Queensland tropical rainforests including the Wet Tropics World Heritage Area',
+        'brigalow acacia scrub and woodlands',
+        'Cape York eucalypt savanna woodlands',
+      ],
+      sourceIds: ['one-earth-au9'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'some of Australia\u2019s oldest continuously surviving rainforest lineages',
+        'reef-savanna connections with the Great Barrier Reef',
+        'cyclone disturbance along the Coral Sea coast',
+      ],
+      sourceIds: ['one-earth-au9'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 77% with a protection level of 2, with Wet Tropics and Cape York protected areas and the adjacent Great Barrier Reef Marine Park.',
+      sourceIds: ['one-earth-au9'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:southern-cassowary',
+      'species:bridled-nailtail-wallaby',
+      'species:spectacled-hare-wallaby',
+      'species:northern-hairy-nosed-wombat',
+      'species:palm-cockatoo',
+      'species:koala',
+    ],
+    countryIds: ['AU'],
+    sources: ['one-earth-au9'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au10',
+    summary: {
+      value:
+        'Coral Sea & New Caledonia Islands (AU10) spans New Caledonia\u2019s Grande Terre and adjacent islets in the Melanesian subrealm, uniting two ecoregions of exceptional plant endemism. Humid rainforests and threatened dry forests shelter the flightless kagu, the tool-using New Caledonian crow, and a wealth of endemic reptiles, with roughly 18.4 million hectares of island habitat.',
+      sourceIds: ['one-earth-au10'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'New Caledonia\u2019s Grande Terre highlands and leeward coasts',
+        'New Caledonia Rainforests and New Caledonia Dry Forests ecoregions',
+        'UNESCO-listed lagoon systems bordering forested uplands',
+      ],
+      sourceIds: ['one-earth-au10'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; humid trade-wind tropical conditions prevail on the wet east, with a pronounced seasonal dry regime in the dry forests of the leeward west.',
+      },
+      sourceIds: ['one-earth-au10'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'rainforest with roughly 2,500 endemic plants and iconic Araucaria stands',
+        'highly threatened dry forest on leeward coasts',
+        'sclerophyll and maquis formations on ultramafic soils',
+      ],
+      sourceIds: ['one-earth-au10'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'ancient Gondwanan lineage isolation on Grande Terre',
+        'nickel mining, logging, and invasive species driving habitat loss',
+        'orographic rainfall sustaining mountain rainforest',
+      ],
+      sourceIds: ['one-earth-au10'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports that no conservation target or protection level is given for this bioregion; active pressures from nickel mining, logging, fire, and invasive rats and cats nonetheless threaten its endemic forest fauna and flora.',
+      sourceIds: ['one-earth-au10'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:kagu',
+      'species:new-caledonian-crow',
+      'species:new-caledonian-giant-gecko',
+      'species:new-caledonian-flying-fox',
+      'species:new-caledonian-lorikeet',
+    ],
+    countryIds: ['NC', 'AU'],
+    sources: ['one-earth-au10'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au11',
+    summary: {
+      value:
+        'Vanuatu Islands (AU11) comprises the wet, cyclone-prone volcanic archipelago of the western Pacific, represented by a single rainforest ecoregion. Many small endemic populations are scattered across individual islands, supporting species such as the Vanuatu megapode and Fele\u2019s imperial pigeon amid significant deforestation.',
+      sourceIds: ['one-earth-au11'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'single Vanuatu Rainforests ecoregion across the archipelago',
+        'wet volcanic islands from Espiritu Santo to Efate',
+        'reserves on the larger islands and scattered community lands',
+      ],
+      sourceIds: ['one-earth-au11'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the underlying ecoregion is tropical maritime, wet year-round, seasonally variable, and cyclone-prone.',
+      },
+      sourceIds: ['one-earth-au11'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'tropical rainforest with endemic Viola and Cyrtandra plants',
+        'island-restricted endemic populations on volcanic slopes',
+        'deforested and agricultural landscapes on accessible islands',
+      ],
+      sourceIds: ['one-earth-au11'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'cyclone disturbance shaping island forest structure',
+        'fragmentation of small island endemic populations',
+        'rats and feral pigs pressuring nesting and regeneration',
+      ],
+      sourceIds: ['one-earth-au11'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 37% with a protection level of 2. Expanding the protected area network, controlling logging and agricultural encroachment, and managing invasive rats and feral pigs are the central challenges.',
+      sourceIds: ['one-earth-au11'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:vanuatu-megapode',
+      'species:feles-imperial-pigeon',
+      'species:vanuatu-flying-fox',
+      'species:vanuatu-white-eye',
+      'species:vanuatu-kingfisher',
+    ],
+    countryIds: ['VU'],
+    sources: ['one-earth-au11'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au12',
+    summary: {
+      value:
+        'Solomon Islands (AU12) unites the wet equatorial archipelago in a single rainforest ecoregion distinguished by exceptionally high endemism and many island-restricted populations. Industrial logging and oil palm expansion threaten the lowland forest habitat of the prehensile-tailed skink, Sanford\u2019s sea eagle, and other distinctive endemics.',
+      sourceIds: ['one-earth-au12'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'single Solomon Islands Rainforests ecoregion across the archipelago',
+        'wet equatorial islands with island-restricted populations',
+        'forest reserves and community conservation areas',
+      ],
+      sourceIds: ['one-earth-au12'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the underlying ecoregion is tropical equatorial, very wet year-round with roughly 2,000\u20134,000 mm rainfall.',
+      },
+      sourceIds: ['one-earth-au12'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'lowland and hill rainforest with numerous endemic Begonia and Pipturus',
+        'high floristic and faunal endemism across the archipelago',
+        'lowland forest under threat from palm oil conversion',
+      ],
+      sourceIds: ['one-earth-au12'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'archipelagic isolation fostering island-restricted endemics',
+        'active industrial logging concessions across the lowlands',
+        'strengthening community-based forest management',
+      ],
+      sourceIds: ['one-earth-au12'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 32% with a protection level of 4. Reducing industrial logging impacts, strengthening community-based forest management, and protecting remaining lowland forest from palm oil conversion are the key actions.',
+      sourceIds: ['one-earth-au12'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sanfords-sea-eagle',
+      'species:prehensile-tailed-skink',
+      'species:solomon-islands-flying-fox',
+      'species:island-imperial-pigeon',
+      'species:ducorps-cockatoo',
+    ],
+    countryIds: ['SB'],
+    sources: ['one-earth-au12'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au13',
+    summary: {
+      value:
+        'New Guinea & Surrounding Islands (AU13) is the vast heart of Melanesia, uniting twenty-one ecoregions from New Guinea\u2019s great lowland and montane rainforests to its savannas, mangroves, and offshore islands. The bioregion spans an exceptional breadth of endemic fauna\u2014cassowaries, crowned pigeons, birds-of-paradise, and tree-kangaroos\u2014over roughly 786 million hectares.',
+      sourceIds: ['one-earth-au13'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'twenty-one ecoregions across New Guinea and surrounding islands',
+        'the world\u2019s largest contiguous tropical montane forests',
+        'wetlands, savannas, mangroves, and island archipelagos',
+      ],
+      sourceIds: ['one-earth-au13'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; climates range from humid tropical lowlands and wetlands to cool montane and subalpine cloud forest across the central cordillera.',
+      },
+      sourceIds: ['one-earth-au13'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'lowland and montane rainforest across the central ranges',
+        'freshwater swamp forest, savanna-grassland, and extensive mangroves',
+        'cloud forest and subalpine grassland above treeline',
+      ],
+      sourceIds: ['one-earth-au13'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'critically important watershed and flood-regulation functions',
+        'extraordinary avian and mammalian endemism across elevational gradients',
+        'significant carbon storage in lowland forest and mangroves',
+      ],
+      sourceIds: ['one-earth-au13'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 34% with a protection level of 1, reflecting the very high proportion of unprotected habitat. Logging, mining, oil palm, and road development are the principal pressures across the bioregion.',
+      sourceIds: ['one-earth-au13'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:southern-cassowary',
+      'species:northern-cassowary',
+      'species:victoria-crowned-pigeon',
+      'species:king-of-saxony-bird-of-paradise',
+      'species:vogelkop-bowerbird',
+      'species:ribbon-tailed-astrapia',
+      'species:estuarine-crocodile',
+      'species:palm-cockatoo',
+    ],
+    countryIds: ['ID', 'PG'],
+    sources: ['one-earth-au13'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au14',
+    summary: {
+      value:
+        'Sulawesi & Maluku Islands (AU14) spans the Wallacean transition where the striking endemism of Sulawesi meets the archipelagic faunas of the Maluku islands across six ecoregions. Extraordinary primate, bird, and mammal radiations, from the maleo and babirusa to the salmon-crested cockatoo, depend on forest facing logging, mining, and oil palm pressures.',
+      sourceIds: ['one-earth-au14'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'six ecoregions across Sulawesi and the Maluku islands',
+        'large K-shaped island and archipelagic island groups',
+        'national parks such as Lore Lindu and Aketajawe-Lolobata',
+      ],
+      sourceIds: ['one-earth-au14'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; climates are wet tropical with montane cloud forest on higher islands and a seasonal dry period in the Banda Sea islands.',
+      },
+      sourceIds: ['one-earth-au14'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'lowland and montane rainforest on Sulawesi and the Maluku islands',
+        'moist deciduous forest on the Banda Sea islands',
+        'cloud forest and endemic-rich montane zones',
+      ],
+      sourceIds: ['one-earth-au14'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Wallacean isolation driving exceptional endemism',
+        'Pleistocene refugia in montane zones',
+        'deforestation from agriculture, logging, and oil palm',
+      ],
+      sourceIds: ['one-earth-au14'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 37% with a protection level of 4. Logging, mining, oil palm conversion, and illegal wildlife trade are the dominant threats across the bioregion.',
+      sourceIds: ['one-earth-au14'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:maleo',
+      'species:babirusa',
+      'species:sulawesi-black-macaque',
+      'species:salmon-crested-cockatoo',
+      'species:wallaces-standardwing',
+      'species:anoa',
+    ],
+    countryIds: ['ID'],
+    sources: ['one-earth-au14'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:au15',
+    summary: {
+      value:
+        'Southeast Indonesian Dry Forest Islands (AU15) unite the monsoon-influenced deciduous forests of the Lesser Sundas, Sumba, and Timor-Wetar across three ecoregions in the driest portion of Wallacea. Dry-adapted endemics such as the Komodo dragon, yellow-crested cockatoo, and iris lorikeet persist where fire and clearing have heavily reduced forest cover.',
+      sourceIds: ['one-earth-au15'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'three ecoregions across the Lesser Sundas, Sumba, and Timor-Wetar',
+        'monsoon-influenced islands with pronounced dry seasons',
+        'Komodo, Manupeu-Tanah Daru, and other national parks',
+      ],
+      sourceIds: ['one-earth-au15'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are tropical with pronounced seasonal drought, monsoon influence, and the most xeric conditions in the mountains of Timor.',
+      },
+      sourceIds: ['one-earth-au15'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'dry deciduous and semi-evergreen forest with high endemism',
+        'Casuarina and Eucalyptus savannas replacing cleared forest',
+        'scattered monsoon forest patches on the driest islands',
+      ],
+      sourceIds: ['one-earth-au15'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'pronounced seasonal drought structuring dry-forest communities',
+        'fire and historical sandalwood logging reducing forest',
+        'island isolation driving high regional endemism',
+      ],
+      sourceIds: ['one-earth-au15'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 37% with a protection level of 3. Burning for grassland, clearing for agriculture, logging, and invasive species are the dominant pressures across these dry islands.',
+      sourceIds: ['one-earth-au15'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:komodo-dragon',
+      'species:yellow-crested-cockatoo',
+      'species:iris-lorikeet',
+      'species:sumba-hornbill',
+      'species:timor-green-pigeon',
+    ],
+    countryIds: ['ID', 'TL'],
+    sources: ['one-earth-au15'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa2',
+    summary: {
+      value:
+        'Iceland (PA2) is a single ecoregion on the Mid-Atlantic Ridge, where Gulf Stream-moderated coasts give way to a glacial arctic-desert interior in the Scandinavia & West Boreal Forests subrealm. The island supports a small native fauna led by the pink-footed goose, arctic fox, and snowy owl, and hosts the world’s largest pink-footed goose breeding grounds at Thjorsarver.',
+      sourceIds: ['one-earth-pa2', 'one-earth-eco-711'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'single ecoregion of roughly 9 million ha spanning Iceland',
+        'volcanic island being pulled apart along the Mid-Atlantic Ridge',
+        'interior arctic desert with glaciers including Vatnajökull, Europe’s largest ice cap',
+        'lowland boreal birch forest and alpine tundra',
+      ],
+      sourceIds: ['one-earth-pa2', 'one-earth-eco-711'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregion is subarctic with Gulf Stream-moderated lowlands that remain relatively mild for their latitude, a cold, windy interior, and severe-storm winds that can exceed 50 m/s.',
+      },
+      sourceIds: ['one-earth-pa2', 'one-earth-eco-711'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'fragmented lowland boreal birch woodland',
+        'subalpine and alpine dwarf-shrub heath',
+        'wetland and lake-fringe sedge communities',
+        'arctic desert, glacial outwash, and lava fields',
+      ],
+      sourceIds: ['one-earth-pa2', 'one-earth-eco-711'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'active volcanism and rifting reshaping the island at about 1 cm per year',
+        'Gulf Stream moderating frost despite high latitude',
+        'glacial meltwaters and wetlands supporting dense breeding aggregations of waterfowl and seabirds',
+      ],
+      sourceIds: ['one-earth-pa2', 'one-earth-eco-711'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 71% with a protection level of 2. Volcanic activity and erosion, wetland drainage for agriculture, introduced American mink, tourism, and offshore oil and gas exploration are the dominant pressures across the island.',
+      sourceIds: ['one-earth-pa2', 'one-earth-eco-711'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:pink-footed-goose',
+      'species:arctic-fox',
+      'species:reindeer',
+      'species:snowy-owl',
+      'species:atlantic-puffin',
+      'species:horned-grebe',
+    ],
+    sources: ['one-earth-pa2', 'one-earth-eco-711'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa3',
+    summary: {
+      value:
+        'Scandinavian Birch & Coastal Conifer Forests (PA3) spans Norway, Sweden, and Finland across two ecoregions in the Scandinavia & West Boreal Forests subrealm, from the humid coastal conifer belt to the treeline birch forests and mountain grasslands of the highlands. The bioregion supports the Norway lemming, Arctic fox, and golden eagle, with Hardangervidda, Kaldoaivi, and the Laponian Area among its notable protected lands.',
+      sourceIds: ['one-earth-pa3', 'one-earth-eco-708', 'one-earth-eco-780'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'two ecoregions totaling more than 26 million ha',
+        'coastal conifer belt from Flekkefjord to Senja with hillsides rising to 1,350 m',
+        'treeline birch woodland and mountain plateau reaching Galdhøpiggen at 2,469 m',
+        'Hardangervidda National Park, Kaldoaivi Wilderness Area, and the Laponian Area World Heritage Site',
+      ],
+      sourceIds: ['one-earth-pa3', 'one-earth-eco-708', 'one-earth-eco-780'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are humid and oceanic along the Norwegian coast, grow more continental in the east, and support cold upland and treeline climates in the Scandinavian mountains.',
+      },
+      sourceIds: ['one-earth-pa3', 'one-earth-eco-708', 'one-earth-eco-780'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'temperate and boreal coastal rainforest with rich lichen communities',
+        'Scots pine and spruce forests of the coastal conifer belt',
+        'downy-birch treeline forest with trees only 2-3 m tall at the highest points',
+        'crowberry, reindeer lichen, and cloudberry ground layers',
+      ],
+      sourceIds: ['one-earth-pa3', 'one-earth-eco-708', 'one-earth-eco-780'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'lemming population booms every 3-5 years driving predator cycles',
+        'oceanic west-to-continental east climate gradient',
+        'recent glaciation limiting endemism and shaping mountain flora',
+      ],
+      sourceIds: ['one-earth-pa3', 'one-earth-eco-708', 'one-earth-eco-780'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 72% with a protection level of 4. Intensive reindeer herding, tourism and cabin construction, and climate change threatening white-wintering species are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa3', 'one-earth-eco-708', 'one-earth-eco-780'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:norway-lemming',
+      'species:moose',
+      'species:brown-bear',
+      'species:gray-wolf',
+      'species:eurasian-lynx',
+      'species:wolverine',
+      'species:red-deer',
+      'species:rock-ptarmigan',
+    ],
+    countryIds: ['NO'],
+    sources: ['one-earth-pa3', 'one-earth-eco-708', 'one-earth-eco-780'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa5',
+    summary: {
+      value:
+        'East Eurasian Coastal Tundra (PA5) gathers the Chukchi Peninsula, Russian Bering, and Wrangel Island ecoregions into about 78 million ha in the Sea of Okhotsk & Bering Tundra-Taiga subrealm. This Beringian stronghold hosts the Siberian bighorn sheep, polar bear, and spoon-billed sandpiper, with Wrangel Island supporting some of the world’s largest polar-bear denning and walrus rookery sites.',
+      sourceIds: ['one-earth-pa5', 'one-earth-eco-772', 'one-earth-eco-779', 'one-earth-eco-783'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'three ecoregions totaling approximately 78 million ha',
+        'coastal tundra from the Kolyma rivermouth to Cape Dezhnev',
+        'Wrangel Island, an unglaciated Quaternary refugium with arctic-desert terrain',
+        'Chaunskaya Guba Zakaznik and Koryak State Nature Reserve among named protected areas',
+      ],
+      sourceIds: ['one-earth-pa5', 'one-earth-eco-772', 'one-earth-eco-779', 'one-earth-eco-783'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are cold Arctic and subarctic, with low annual precipitation of roughly 140-340 mm, long winters, and mean monthly temperatures of about -31°C to 11.5°C.',
+      },
+      sourceIds: ['one-earth-pa5', 'one-earth-eco-772', 'one-earth-eco-779', 'one-earth-eco-783'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'low Arctic tundra, dwarf-shrub heath, and tussock communities',
+        'Siberian dwarf-pine and green-alder thickets of the Beringian lowlands',
+        'Wrangel Island arctic desert with exceptionally rich glacially isolated flora',
+      ],
+      sourceIds: ['one-earth-pa5', 'one-earth-eco-772', 'one-earth-eco-779', 'one-earth-eco-783'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Beringian land-bridge history promoting species formation and endemism',
+        'polar-bear denning and massive seabird and walrus colonies',
+        'Wrangel Island escaping Quaternary glaciation and preserving relict diversity',
+      ],
+      sourceIds: ['one-earth-pa5', 'one-earth-eco-772', 'one-earth-eco-779', 'one-earth-eco-783'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 92% with a protection level of 1. Mining, oil and gas prospecting, poaching, overfishing, and oil-spill risk from coastal shipping are the dominant pressures facing the bioregion.',
+      sourceIds: ['one-earth-pa5', 'one-earth-eco-772', 'one-earth-eco-779', 'one-earth-eco-783'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:siberian-bighorn-sheep',
+      'species:polar-bear',
+      'species:arctic-fox',
+      'species:reindeer',
+      'species:spoon-billed-sandpiper',
+      'species:great-knot',
+      'species:walrus',
+    ],
+    countryIds: ['RU'],
+    sources: ['one-earth-pa5', 'one-earth-eco-772', 'one-earth-eco-779', 'one-earth-eco-783'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa6',
+    summary: {
+      value:
+        'Sea of Okhotsk Coastal Taiga, Meadows & Tundra (PA6) spans Kamchatka, the Commander and Kurile islands, and Sakhalin across five ecoregions of the Sea of Okhotsk & Bering Tundra-Taiga subrealm. It is a stronghold for the tundra wolf, Steller’s sea eagle, and brown bear, anchored by some of the world’s greatest salmon spawning runs at Kuril Lake.',
+      sourceIds: ['one-earth-pa6', 'one-earth-eco-712', 'one-earth-eco-713', 'one-earth-eco-715', 'one-earth-eco-716', 'one-earth-eco-773'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'five ecoregions totaling more than 75 million ha',
+        'volcanic Kamchatka peninsula with peaks to Klyuchevskaya Sopka at 4,750 m',
+        'Sakhalin Island, a 948 km-long island separating the Sea of Okhotsk from the Sea of Japan',
+        'giant meadows, sparse forests, and southern Arctic tundra above about 1,200 m',
+      ],
+      sourceIds: ['one-earth-pa6', 'one-earth-eco-712', 'one-earth-eco-713', 'one-earth-eco-715', 'one-earth-eco-716', 'one-earth-eco-773'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are cold maritime and continental, with high annual precipitation of about 635-1,400 mm, mean annual temperatures near -0.8°C to 2°C, and Pacific-influenced winters with heavy snow.',
+      },
+      sourceIds: ['one-earth-pa6', 'one-earth-eco-712', 'one-earth-eco-713', 'one-earth-eco-715', 'one-earth-eco-716', 'one-earth-eco-773'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'relict Yeddo spruce, Dahurian larch, and white-birch forests of central Kamchatka',
+        'giant meadow communities with Angelica and Parasenecio over 3 m tall',
+        'southernmost Arctic tundra above about 1,200 m',
+        'relict cold-adapted floras on Sakhalin and the Kurile islands',
+      ],
+      sourceIds: ['one-earth-pa6', 'one-earth-eco-712', 'one-earth-eco-713', 'one-earth-eco-715', 'one-earth-eco-716', 'one-earth-eco-773'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'subduction and active volcanism at 80-100 mm per year shaping the land',
+        'immense Pacific salmon spawning runs supporting brown bear, eagle, and sea-otter populations',
+        'island isolation producing endemism and giant-plant lineages',
+      ],
+      sourceIds: ['one-earth-pa6', 'one-earth-eco-712', 'one-earth-eco-713', 'one-earth-eco-715', 'one-earth-eco-716', 'one-earth-eco-773'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 86% with a protection level of 1. Poaching, illegal salmon fishing, expansion of offshore oil and gas operations, logging without reforestation, and introduced predators are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa6', 'one-earth-eco-712', 'one-earth-eco-713', 'one-earth-eco-715', 'one-earth-eco-716', 'one-earth-eco-773'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:tundra-wolf',
+      'species:sockeye-salmon',
+      'species:brown-bear',
+      'species:stellers-sea-eagle',
+      'species:siberian-grouse',
+      'species:reindeer',
+      'species:siberian-musk-deer',
+    ],
+    countryIds: ['RU'],
+    sources: ['one-earth-pa6', 'one-earth-eco-712', 'one-earth-eco-713', 'one-earth-eco-715', 'one-earth-eco-716', 'one-earth-eco-773'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa7',
+    summary: {
+      value:
+        'Siberian Boreal Forests & Mountain Tundra (PA7) joins six ecoregions of the Siberia & East Boreal Forests subrealm, covering nearly 769 million ha of larch taiga, mountain tundra, and vast peatlands from the Yenisei to the Pacific. Species such as the wolverine, Amur lemming, and Baikal bush warbler mark a fauna that also includes Siberian musk deer, moose, reindeer, and brown bear.',
+      sourceIds: ['one-earth-pa7', 'one-earth-eco-710', 'one-earth-eco-714', 'one-earth-eco-718', 'one-earth-eco-720', 'one-earth-eco-771', 'one-earth-eco-782'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'six ecoregions totaling nearly 769 million ha',
+        'vast larch taiga over deep permafrost, among the largest forests on Earth',
+        'mountain massifs of the Verkhoyansk, Cherskiy, Kolyma, and Trans-Baikal uplands',
+        'Lake Baikal at the southern margin of the bioregion',
+      ],
+      sourceIds: ['one-earth-pa7', 'one-earth-eco-710', 'one-earth-eco-714', 'one-earth-eco-718', 'one-earth-eco-720', 'one-earth-eco-771', 'one-earth-eco-782'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are extreme continental, including some of the coldest inhabited places on Earth with mean monthly temperatures down to about -46°C, low annual precipitation of roughly 175-572 mm, and a more maritime influence on the Okhotsk coast.',
+      },
+      sourceIds: ['one-earth-pa7', 'one-earth-eco-710', 'one-earth-eco-714', 'one-earth-eco-718', 'one-earth-eco-720', 'one-earth-eco-771', 'one-earth-eco-782'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Siberian and Dahurian larch taiga with spruce and birch',
+        'dark-needled conifer forest meeting light-needled larch taiga and Daurian steppe in the Trans-Baikal mountains',
+        'relict steppe fragments in the Yana and Indigirka basins',
+        'high-elevation tundra belts and nival bare-rock zones above treeline',
+      ],
+      sourceIds: ['one-earth-pa7', 'one-earth-eco-710', 'one-earth-eco-714', 'one-earth-eco-718', 'one-earth-eco-720', 'one-earth-eco-771', 'one-earth-eco-782'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'permafrost-dependent ecosystems spanning northern forests and tundra',
+        'one of the world’s most extensive peatland complexes in the West Siberian lowlands',
+        'mountain ranges acting as refugia and dispersal corridors for tundra biota',
+        'extreme cold and short summers shaping slow-growing, fire-prone forests',
+      ],
+      sourceIds: ['one-earth-pa7', 'one-earth-eco-710', 'one-earth-eco-714', 'one-earth-eco-718', 'one-earth-eco-720', 'one-earth-eco-771', 'one-earth-eco-782'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 88% with a protection level of 1. Illegal logging, mining pollution, oil and gas exploitation, poaching, and climate-driven wildfire are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa7', 'one-earth-eco-710', 'one-earth-eco-714', 'one-earth-eco-718', 'one-earth-eco-720', 'one-earth-eco-771', 'one-earth-eco-782'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:wolverine',
+      'species:siberian-musk-deer',
+      'species:gray-wolf',
+      'species:brown-bear',
+      'species:moose',
+      'species:reindeer',
+      'species:amur-lemming',
+      'species:baikal-bush-warbler',
+    ],
+    countryIds: ['RU', 'CN'],
+    sources: ['one-earth-pa7', 'one-earth-eco-710', 'one-earth-eco-714', 'one-earth-eco-718', 'one-earth-eco-720', 'one-earth-eco-771', 'one-earth-eco-782'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa8',
+    summary: {
+      value:
+        'Ural Mountains & West Eurasian Taiga Forests (PA8) spans Russia, Finland, Sweden, and Norway across two ecoregions of the Scandinavia & West Boreal Forests subrealm, uniting Europe’s largest ecoregion with the great Urals montane belt. The bioregion shelters the sable, Finnish forest reindeer, and Saimaa ringed seal, with the Virgin Komi Forests World Heritage Site guarding its northern taiga.',
+      sourceIds: ['one-earth-pa8', 'one-earth-eco-717', 'one-earth-eco-719'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'two ecoregions totaling more than 233 million ha',
+        'the largest ecoregion in Europe spanning Scandinavia and northern Russia',
+        'the Ural Mountains, a 2,000 km north-south range dividing two continents',
+        'one of Europe’s densest lake and bog landscapes, with peatlands covering up to half the land in the north',
+      ],
+      sourceIds: ['one-earth-pa8', 'one-earth-eco-717', 'one-earth-eco-719'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are cool and humid, with pronounced continentality in the east, greater maritime influence in Scandinavia, and continental temperature extremes that intensify north to south and west to east across the Urals.',
+      },
+      sourceIds: ['one-earth-pa8', 'one-earth-eco-717', 'one-earth-eco-719'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'boreal spruce and Scots pine taiga mixed with downy and silver birch',
+        'distinctive Russian larch within the European Russian taiga',
+        'Siberian fir, Siberian pine, and mixed deciduous forest with oak and linden in the southern Urals',
+      ],
+      sourceIds: ['one-earth-pa8', 'one-earth-eco-717', 'one-earth-eco-719'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'one of the most extensive continuous taiga and peatland systems in Europe',
+        'the Urals acting as a north-south migration corridor and continental divide',
+        '20th-century clear-cutting reshaping a formerly old-growth forest matrix',
+      ],
+      sourceIds: ['one-earth-pa8', 'one-earth-eco-717', 'one-earth-eco-719'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 52% with a protection level of 2. Hunting pressure on large predators, clear-cut logging, metallurgy and pollution in the southern Urals, and climate-driven treeline rise are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa8', 'one-earth-eco-717', 'one-earth-eco-719'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:sable',
+      'species:brown-bear',
+      'species:eurasian-lynx',
+      'species:moose',
+      'species:wolverine',
+      'species:finnish-forest-reindeer',
+      'species:capercaillie',
+    ],
+    countryIds: ['RU', 'NO'],
+    sources: ['one-earth-pa8', 'one-earth-eco-717', 'one-earth-eco-719'],
+    status: 'authored',
+  },
 ];
