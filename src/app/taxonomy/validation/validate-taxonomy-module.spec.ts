@@ -73,4 +73,30 @@ describe('validateTaxonomyModule', () => {
       'missing-visual-token',
     );
   });
+
+  it('validates ownership and provenance for cross-taxonomy relations', () => {
+    const invalid = defineTaxonomy({
+      ...syntheticTaxonomy,
+      crossTaxonomyRelations: [
+        {
+          id: 'broken-edge',
+          source: { datasetId: 'another-dataset', target: { kind: 'entry', id: 'sample' } },
+          target: {
+            datasetId: syntheticTaxonomy.meta.id,
+            target: { kind: 'related-entity', id: 'country:DE' },
+          },
+          relation: 'originates-in',
+          provenance: { kind: 'derived' },
+        },
+      ],
+    });
+
+    expect(validateTaxonomyModule(invalid).issues.map(({ code }) => code)).toEqual(
+      expect.arrayContaining([
+        'foreign-relation-source',
+        'invalid-relation-target-dataset',
+        'missing-relation-provenance',
+      ]),
+    );
+  });
 });

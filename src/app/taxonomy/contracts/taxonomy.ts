@@ -462,6 +462,36 @@ export type EntityReference =
       readonly valueId: string;
     };
 
+/** A stable reference to an entity owned by another taxonomy dataset. */
+export interface CrossTaxonomyEntityReference {
+  readonly datasetId: string;
+  readonly target: EntityReference;
+}
+
+export type CrossTaxonomyRelationKind =
+  | 'originates-in'
+  | 'brewed-in'
+  | 'occurs-in'
+  | 'associated-with'
+  | 'contains'
+  | 'influenced-by';
+
+export interface CrossTaxonomyRelationProvenance {
+  readonly kind: 'declared' | 'derived' | 'curated';
+  readonly sourceIds?: readonly string[];
+  readonly method?: string;
+  readonly note?: string;
+}
+
+/** A typed edge between independently valid taxonomy datasets. */
+export interface CrossTaxonomyRelation {
+  readonly id: string;
+  readonly source: CrossTaxonomyEntityReference;
+  readonly target: CrossTaxonomyEntityReference;
+  readonly relation: CrossTaxonomyRelationKind;
+  readonly provenance: CrossTaxonomyRelationProvenance;
+}
+
 export interface TaxonomyContentBundle {
   readonly profileExtensions?: Readonly<Record<string, readonly ProfileSectionViewModel[]>>;
   readonly media?: Readonly<Record<string, DashboardMediaDefinition>>;
@@ -499,6 +529,15 @@ export type DashboardWidgetDefinition =
       readonly id: string;
       readonly kind: 'hierarchy';
       readonly title?: string;
+      readonly emptyMessage?: string;
+    }
+  | {
+      readonly id: string;
+      readonly kind: 'taxonomy-portal';
+      readonly title: string;
+      readonly targetDatasetId: string;
+      readonly relationKinds: readonly CrossTaxonomyRelationKind[];
+      readonly targetIdPrefix?: string;
       readonly emptyMessage?: string;
     };
 
@@ -546,6 +585,8 @@ export interface TaxonomyModule<
   readonly content: TaxonomyContent;
   readonly persistence?: TaxonomyPersistenceDefinition;
   readonly contentProvider?: TaxonomyContentProvider;
+  /** Typed links to entities owned by other independently loaded taxonomy datasets. */
+  readonly crossTaxonomyRelations?: readonly CrossTaxonomyRelation[];
   readonly records: {
     readonly groups: readonly TaxonomyGroup[];
     readonly entries: readonly TEntry[];

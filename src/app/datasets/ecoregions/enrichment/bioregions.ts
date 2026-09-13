@@ -1832,6 +1832,624 @@ export const bioregionEnrichment: readonly EcologicalEnrichment[] = [
     status: 'authored',
   },
   {
+    targetId: 'bioregion:na3',
+    summary: {
+      value:
+        'North Alaskan Tundra (NA3) is the northern section of the Alaska subrealm in Subarctic America, delineated by the Brooks Range, covering about 34 million hectares (33,930 thousand ha) of tundra along with adjacent marine areas of the Beaufort and Chukchi seas. Three tundra ecoregions support beluga whales, polar bears, muskox, and large migratory barren-ground caribou herds across a largely intact, permafrost-dominated landscape.',
+      sourceIds: [
+        'one-earth-na3',
+        'one-earth-eco-407',
+        'one-earth-eco-408',
+        'one-earth-eco-411',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Arctic coastal plain bounded south by the Arctic Foothills',
+        'rounded foothills and plateaus',
+        'Brooks–British mountain ranges',
+        'adjacent Beaufort and Chukchi sea margins',
+      ],
+      sourceIds: [
+        'one-earth-na3',
+        'one-earth-eco-407',
+        'one-earth-eco-408',
+        'one-earth-eco-411',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Arctic with continuous permafrost, short cool summers, and long severe winters; annual precipitation low at about 100–300 mm on the coastal plain, rising to about 350 mm in the Canadian portion of the mountains and slightly higher near the southern boundary.',
+        annualPrecipitationMm: { min: 100, max: 350 },
+      },
+      sourceIds: ['one-earth-eco-407', 'one-earth-eco-408', 'one-earth-eco-411'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'wet tundra, fens, bogs, and marshes of the coastal plain',
+        'moist herbaceous and dwarf-shrub tussock communities',
+        'sparse dwarf-shrub and alpine tundra of the mountains',
+        'protected valley spruce woodlands near the northern limit of white spruce in Canada',
+      ],
+      sourceIds: ['one-earth-eco-407', 'one-earth-eco-408', 'one-earth-eco-411'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'permafrost and thaw-lake dynamics',
+        'calving and migration of the Arctic, Central Arctic, and Porcupine caribou herds',
+        'lagoon staging for beluga whales, seals, walrus, and Pacific black brant at Kasegaluk Lagoon',
+        'glacial and periglacial processes in the mountains',
+      ],
+      sourceIds: ['one-earth-eco-407', 'one-earth-eco-408', 'one-earth-eco-411'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Protection target 96%; protection level 4 (scale 0–10). The Arctic National Wildlife Refuge, Gates of the Arctic National Park and Preserve, and Yukon’s Ivvavik National Park anchor large intact areas. High-priority threats include oil development centered at Prudhoe Bay and Utqiagvik, pipeline and highway corridor expansion, and lead and zinc mining.',
+      sourceIds: [
+        'one-earth-na3',
+        'one-earth-eco-407',
+        'one-earth-eco-408',
+        'one-earth-eco-411',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:beluga-whale',
+      'species:polar-bear',
+      'species:musk-ox',
+      'species:barren-ground-caribou',
+      'species:arctic-fox',
+      'species:gray-wolf',
+      'species:dall-sheep',
+      'species:gyrfalcon',
+    ],
+    countryIds: ['CA', 'US'],
+    sources: ['one-earth-na3', 'one-earth-eco-407', 'one-earth-eco-408', 'one-earth-eco-411'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na4',
+    summary: {
+      value:
+        'Greater Alaska Taiga & Tundra (NA4) encompasses most of the Alaska subrealm, about 110 million hectares (109,888 thousand ha, excluding icefields), divided by the Alaska Range into lowland taiga and Bering Sea coastal tundra in the upper half and Cook Inlet, Alaska Peninsula, and Aleutian alpine systems in the lower half. Ten ecoregions support Kodiak brown bears, Arctic foxes, muskox, barren-ground caribou, and among the world’s greatest salmon and seabird concentrations.',
+      sourceIds: [
+        'one-earth-na4',
+        'one-earth-eco-375',
+        'one-earth-eco-409',
+        'one-earth-eco-410',
+        'one-earth-eco-416',
+        'one-earth-eco-369',
+        'one-earth-eco-371',
+        'one-earth-eco-372',
+        'one-earth-eco-404',
+        'one-earth-eco-405',
+        'one-earth-eco-406',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'lowland taiga and Bering Sea coastal tundra in the upper half',
+        'Alaska Range, Alaska Peninsula, and Aleutian alpine systems in the lower half',
+        'Cook Inlet lowlands and Copper Plateau',
+        'Ahklun and Kilbuck uplands and Bering Sea islands',
+      ],
+      sourceIds: [
+        'one-earth-na4',
+        'one-earth-eco-375',
+        'one-earth-eco-409',
+        'one-earth-eco-410',
+        'one-earth-eco-416',
+        'one-earth-eco-369',
+        'one-earth-eco-371',
+        'one-earth-eco-372',
+        'one-earth-eco-404',
+        'one-earth-eco-405',
+        'one-earth-eco-406',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Strong continental-to-maritime gradients: short warm summers and long cold winters inland, mild maritime conditions along the Bering Sea and Alaska Peninsula–Aleutian coast; permafrost from continuous to absent; precipitation from about 170 mm in interior rain-shadow valleys to over 4,000 mm at high coastal elevations.',
+        annualPrecipitationMm: { min: 170, max: 4000 },
+      },
+      sourceIds: [
+        'one-earth-eco-375',
+        'one-earth-eco-409',
+        'one-earth-eco-410',
+        'one-earth-eco-416',
+        'one-earth-eco-369',
+        'one-earth-eco-371',
+        'one-earth-eco-372',
+        'one-earth-eco-404',
+        'one-earth-eco-405',
+        'one-earth-eco-406',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'lowland taiga of white and black spruce, aspen, birch, and poplar',
+        'Bering and Alaska Peninsula moist and wet tundra',
+        'alpine tundra and ice fields of the Alaska and St. Elias ranges',
+        'Aleutian dwarf-shrub and grass–sedge tundra',
+      ],
+      sourceIds: [
+        'one-earth-eco-375',
+        'one-earth-eco-409',
+        'one-earth-eco-410',
+        'one-earth-eco-416',
+        'one-earth-eco-369',
+        'one-earth-eco-371',
+        'one-earth-eco-372',
+        'one-earth-eco-404',
+        'one-earth-eco-405',
+        'one-earth-eco-406',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'some of the world’s largest salmon runs (Bristol Bay, Kenai, Copper rivers)',
+        'huge seabird and marine-mammal concentrations in the Bering Sea and Gulf of Alaska',
+        'lightning-fire regimes in the lowland taiga',
+        'alpine and volcanic disturbance processes across the Alaska Range and Aleutians',
+      ],
+      sourceIds: [
+        'one-earth-eco-375',
+        'one-earth-eco-409',
+        'one-earth-eco-410',
+        'one-earth-eco-416',
+        'one-earth-eco-369',
+        'one-earth-eco-371',
+        'one-earth-eco-372',
+        'one-earth-eco-404',
+        'one-earth-eco-405',
+        'one-earth-eco-406',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'As displayed on the page, protection level 97%; conservation target 4. Katmai, Denali, Lake Clark, and Wrangell-St. Elias national parks, Kodiak National Wildlife Refuge, and the Yukon-Kuskokwim refuge complex protect huge intact landscapes. Key pressures are old-growth logging (especially in the Copper River valley), oil and gas development, tourism pressure, mining, and periodic over-harvest of walrus and caribou.',
+      sourceIds: [
+        'one-earth-na4',
+        'one-earth-eco-375',
+        'one-earth-eco-409',
+        'one-earth-eco-410',
+        'one-earth-eco-416',
+        'one-earth-eco-369',
+        'one-earth-eco-371',
+        'one-earth-eco-372',
+        'one-earth-eco-404',
+        'one-earth-eco-405',
+        'one-earth-eco-406',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:arctic-fox',
+      'species:polar-bear',
+      'species:barren-ground-caribou',
+      'species:brown-bear',
+      'species:musk-ox',
+      'species:walrus',
+      'species:beluga-whale',
+      'species:trumpeter-swan',
+    ],
+    countryIds: ['CA', 'US'],
+    sources: [
+      'one-earth-na4',
+      'one-earth-eco-375',
+      'one-earth-eco-409',
+      'one-earth-eco-410',
+      'one-earth-eco-416',
+      'one-earth-eco-369',
+      'one-earth-eco-371',
+      'one-earth-eco-372',
+      'one-earth-eco-404',
+      'one-earth-eco-405',
+      'one-earth-eco-406',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na5',
+    summary: {
+      value:
+        'Far Northern Pacific Coast (NA5) pairs the northern Pacific Alaskan coastal forests with the Pacific Coastal Mountain Icefields and Tundra along the Gulf of Alaska south of the Alaska Range, about 17 million hectares (17,045 thousand ha, excluding icefields) and extending to the Dixon Entrance off central British Columbia. Coastal temperate rainforest grades into glaciated coastal mountains, supporting black-tailed deer, brown bears, bald eagles, and marbled murrelets.',
+      sourceIds: ['one-earth-na5', 'one-earth-eco-360', 'one-earth-eco-420'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'old-growth coastal temperate rainforest and islands',
+        'glaciated coastal mountain ice fields',
+        'fjords, sounds, and offshore islands of the Gulf of Alaska',
+        'adjacent marine areas including the Dixon Entrance',
+      ],
+      sourceIds: ['one-earth-na5', 'one-earth-eco-360', 'one-earth-eco-420'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Maritime North Pacific conditions tempered by the Alaska Current, with extreme precipitation of about 762–5,588 mm annually and mild winters for the latitude; alpine and glacierized climates at higher elevations with deep snow.',
+        annualPrecipitationMm: { min: 762, max: 5588 },
+      },
+      sourceIds: ['one-earth-eco-360', 'one-earth-eco-420'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Sitka spruce–western hemlock coastal rainforest',
+        'western red cedar and Alaska yellow cedar mixed forest',
+        'subalpine fir and mountain hemlock forest',
+        'alpine dwarf-shrub tundra and ice fields',
+      ],
+      sourceIds: ['one-earth-eco-360', 'one-earth-eco-420'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'one of the largest nonpolar ice fields in the world',
+        'extremely high precipitation feeding glaciers and streams',
+        'wind, landslide, and avalanche disturbance of old-growth forest',
+        'black-tailed-deer corridors linking coastal and interior populations',
+      ],
+      sourceIds: ['one-earth-eco-360', 'one-earth-eco-420'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Protection target 74%; protection level 6 (scale 0–10). Tongass and Chugach national forests, Glacier Bay and Kenai Fjords national parks, and portions of Wrangell-St. Elias and Kluane parks protect much of the region within the Kluane–Wrangell-St. Elias–Glacier Bay–Tatshenshini-Alsek UNESCO World Heritage Site. Chief threats are continued old-growth logging, especially in the Tongass, and expanding mining and associated roads.',
+      sourceIds: ['one-earth-na5', 'one-earth-eco-360', 'one-earth-eco-420'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:black-tailed-deer',
+      'species:brown-bear',
+      'species:marbled-murrelet',
+      'species:sea-otter',
+      'species:steller-sea-lion',
+      'species:bald-eagle',
+      'species:mountain-goat',
+      'species:wolverine',
+    ],
+    countryIds: ['CA', 'US'],
+    sources: ['one-earth-na5', 'one-earth-eco-360', 'one-earth-eco-420'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na6',
+    summary: {
+      value:
+        'Greater Yukon (NA6) is the mountainous cordilleran region in the far west of the Canadian Boreal subrealm, defined by a large central plateau surrounded by some of the world’s highest mountains and the source of the Yukon River, about 71 million hectares (70,883 thousand ha). Three ecoregions of taiga and alpine tundra support Dall sheep, mountain goats, grizzly bears, gyrfalcons, and the flagship common raven.',
+      sourceIds: ['one-earth-na6', 'one-earth-eco-380', 'one-earth-eco-383', 'one-earth-eco-419'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'a large central plateau surrounded by high mountains',
+        'Northern Rocky Mountains and northern Coast Mountains',
+        'source of the Yukon River',
+        'subalpine woodland and alpine tundra zones',
+      ],
+      sourceIds: ['one-earth-na6', 'one-earth-eco-380', 'one-earth-eco-383', 'one-earth-eco-419'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Boreal cordilleran to dry subarctic climates with cool summers and long cold winters; precipitation generally 225–600 mm, to 1,000 mm at high elevations in the west and about 750 mm on the Selwyn Mountains; discontinuous to continuous permafrost.',
+        annualPrecipitationMm: { min: 225, max: 1000 },
+      },
+      sourceIds: ['one-earth-eco-380', 'one-earth-eco-383', 'one-earth-eco-419'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'lower boreal white and black spruce, lodgepole pine, aspen, and birch',
+        'subalpine spruce–fir woodland',
+        'alpine dwarf-shrub and mountain-avens tundra',
+        'grasslands on south-facing slopes among the most northern in North America',
+      ],
+      sourceIds: ['one-earth-eco-380', 'one-earth-eco-383', 'one-earth-eco-419'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'post-fire succession across the boreal slopes',
+        'alpine–subalpine elevational zonation across the highlands',
+        'winter range ecology of the Porcupine caribou herd',
+        'unfrozen limestone reaches of the Ni’iinlii’njik (Fishing Branch) River supporting an autumn salmon run that attracts grizzly bears',
+      ],
+      sourceIds: ['one-earth-eco-380', 'one-earth-eco-383', 'one-earth-eco-419'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Protection target 99%; protection level 1 (scale 0–10). Key protected areas include Mount Edziza, Spatsizi Plateau Wilderness, Tatshenshini-Alsek provincial parks, Kluane National Park and Reserve, Nahanni National Park Reserve, Nááts’ihch’oh National Park Reserve, and Ni’iinlii’njik (Fishing Branch) Territorial Park. Threats include logging, hydroelectric development, mining, road-building, and habitat fragmentation near Whitehorse.',
+      sourceIds: ['one-earth-na6', 'one-earth-eco-380', 'one-earth-eco-383', 'one-earth-eco-419'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:common-raven',
+      'species:dall-sheep',
+      'species:mountain-goat',
+      'species:grizzly-bear',
+      'species:gyrfalcon',
+      'species:trumpeter-swan',
+      'species:golden-eagle',
+      'species:hoary-marmot',
+    ],
+    countryIds: ['CA', 'US'],
+    sources: ['one-earth-na6', 'one-earth-eco-380', 'one-earth-eco-383', 'one-earth-eco-419'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na7',
+    summary: {
+      value:
+        'Northwest Canadian Taiga, Lakes & Wetlands (NA7) spans the region between the Greater Yukon and the Canadian Shield, covering roughly half of the Northwest Territories, Canada, about 63 million hectares (63,082 thousand ha). It includes Great Bear Lake, one of the largest lakes in North America, and many wetlands hosting woodland caribou, wood bison, whooping cranes, and the flagship northern shrike.',
+      sourceIds: ['one-earth-na7', 'one-earth-eco-378', 'one-earth-eco-381'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'northern Interior Plains taiga',
+        'Great Bear Lake, one of the largest lakes in North America',
+        'most of the Mackenzie River Valley, the longest river system in Canada',
+        'extensive wetlands and muskeg',
+      ],
+      sourceIds: ['one-earth-na7', 'one-earth-eco-378', 'one-earth-eco-381'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Subarctic to mid and high boreal with cool to warm summers and very cold winters; precipitation 100–500 mm, mostly 250–500 mm, reaching 500 mm in the southwest; discontinuous to continuous permafrost with widespread wetlands.',
+        annualPrecipitationMm: { min: 100, max: 500 },
+      },
+      sourceIds: ['one-earth-eco-378', 'one-earth-eco-381'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'relatively tall closed aspen, white spruce, and balsam fir forest',
+        'open, stunted black spruce peatland and muskeg',
+        'mixed-wood spruce, pine, tamarack, birch, aspen, and poplar on better-drained and southern sites',
+        'bogs and wetlands covering 20–50% of typical landscapes',
+      ],
+      sourceIds: ['one-earth-eco-378', 'one-earth-eco-381'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'significant lightning fire regime',
+        'Peace-Athabasca Delta flooding of one of the world’s largest freshwater deltas',
+        'Great Slave Lake and Great Bear Lake colonial waterbird and fish communities (Great Slave Lake 614 m, the deepest in North America)',
+        'beaver engineering including the world’s longest known beaver dam',
+      ],
+      sourceIds: ['one-earth-eco-378', 'one-earth-eco-381'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Protection target 93%; protection level 1 (scale 0–10). Wood Buffalo National Park (44,807 km2), the largest national park in Canada and second largest in the world, protects the Peace-Athabasca Delta and the only natural whooping crane breeding population, while other parts of the bioregion hold no protected areas. Threats include logging, oil and gas development with seismic-line fragmentation, and mining in the Mackenzie River Valley.',
+      sourceIds: ['one-earth-na7', 'one-earth-eco-378', 'one-earth-eco-381'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:northern-shrike',
+      'species:whooping-crane',
+      'species:wood-bison',
+      'species:woodland-caribou',
+      'species:grizzly-bear',
+      'species:gray-wolf',
+      'species:wolverine',
+      'species:american-marten',
+    ],
+    countryIds: ['CA'],
+    sources: ['one-earth-na7', 'one-earth-eco-378', 'one-earth-eco-381'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na8',
+    summary: {
+      value:
+        'Mid-Canada Boreal Plains & Foothill Forests (NA8) lies between the Northern Rockies and the Canadian Shield forests, about 69 million hectares (68,982 thousand ha) of plains and foothill forest spanning the Lake Winnipeg watershed. It holds some of the highest-biodiversity breeding-bird areas of the Canadian boreal zone, with the American beaver, common loon, moose, and woodland caribou among its characteristic fauna.',
+      sourceIds: ['one-earth-na8', 'one-earth-eco-345', 'one-earth-eco-376'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'foothills of the Northern Rockies and plateau remnants',
+        'gently rolling boreal plains and foothill forests',
+        'Lake Winnipeg, one of the largest watersheds in Canada',
+        'abundant wetlands and peatlands',
+      ],
+      sourceIds: ['one-earth-na8', 'one-earth-eco-345', 'one-earth-eco-376'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Subhumid cold-temperate to mid-boreal with warm to cool summers and long, cold winters; annual precipitation 300–625 mm, fairly even across the year; permafrost largely confined to peatlands.',
+        annualPrecipitationMm: { min: 300, max: 625 },
+      },
+      sourceIds: ['one-earth-eco-345', 'one-earth-eco-376'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'lodgepole pine, quaking aspen, and white spruce foothill forest',
+        'mixed quaking aspen–balsam poplar plains forest',
+        'later-successional black spruce, white spruce, and balsam poplar',
+        'tamarack and black spruce wetlands',
+      ],
+      sourceIds: ['one-earth-eco-345', 'one-earth-eco-376'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'the highest number of breeding bird species in the entire Canadian boreal zone',
+        'frequent lightning fires generating a shifting age mosaic',
+        'fire-dominated foothill and plains ecology',
+        'wetland–forest dynamics of the Lake Winnipeg basin',
+      ],
+      sourceIds: ['one-earth-eco-345', 'one-earth-eco-376'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Protection target 64%; protection level 1 (scale 0–10). Protection is limited – only about 1–6% of the constituent ecoregions is protected, with key sites including Goose Mountain Ecological Reserve, Whitecourt Mountain Natural Area, and areas within the Lake Winnipeg watershed. Extensive forestry, logging roads and clearcuts, agriculture, road-building, oil and gas production, and mining are the chief threats.',
+      sourceIds: ['one-earth-na8', 'one-earth-eco-345', 'one-earth-eco-376'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:american-beaver',
+      'species:common-loon',
+      'species:moose',
+      'species:woodland-caribou',
+      'species:canada-lynx',
+      'species:gray-wolf',
+      'species:american-white-pelican',
+      'species:american-black-bear',
+    ],
+    countryIds: ['CA'],
+    sources: ['one-earth-na8', 'one-earth-eco-345', 'one-earth-eco-376'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:na9',
+    summary: {
+      value:
+        'Canadian Shield & Coastal Taiga-Forests (NA9) stretches great boreal and taiga forests across North America from the Northwest Territories to the Atlantic Ocean in the Canadian Boreal Forests subrealm, about 325 million hectares (325,135 thousand ha) – the largest of these bioregions – plus marine areas of James Bay, the Labrador Sea, and the Gulf of St. Lawrence. Six ecoregions on the Precambrian Shield support polar bears, woodland and barren-ground caribou, lynx, and moose.',
+      sourceIds: [
+        'one-earth-na9',
+        'one-earth-eco-370',
+        'one-earth-eco-373',
+        'one-earth-eco-374',
+        'one-earth-eco-377',
+        'one-earth-eco-379',
+        'one-earth-eco-382',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'vast Precambrian Shield boreal forest and forest-tundra',
+        'James Bay and Hudson Bay lowlands',
+        'Canadian Shield lake shorelines of Lake Superior and the interior',
+        'Labrador Sea and Gulf of St. Lawrence margins',
+      ],
+      sourceIds: [
+        'one-earth-na9',
+        'one-earth-eco-370',
+        'one-earth-eco-373',
+        'one-earth-eco-374',
+        'one-earth-eco-377',
+        'one-earth-eco-379',
+        'one-earth-eco-382',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Humid mid- to high-boreal in the south grading to low to high subarctic toward Hudson Bay, James Bay, and Ungava; very cold winters and frequent lightning fires; precipitation about 200–625 mm, rising to 1,000 mm in the southeast (about 300–400 mm near Ungava Bay); permafrost continuous in the north and absent in the south.',
+        annualPrecipitationMm: { min: 200, max: 1000 },
+      },
+      sourceIds: [
+        'one-earth-eco-370',
+        'one-earth-eco-373',
+        'one-earth-eco-374',
+        'one-earth-eco-377',
+        'one-earth-eco-379',
+        'one-earth-eco-382',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'black spruce-dominated boreal and taiga forest',
+        'jack pine and paper birch fire forests',
+        'forest–tundra transitions and Hudson Bay peatlands',
+        'balsam fir and white spruce mixed forest in the southeast',
+      ],
+      sourceIds: [
+        'one-earth-eco-370',
+        'one-earth-eco-373',
+        'one-earth-eco-374',
+        'one-earth-eco-377',
+        'one-earth-eco-379',
+        'one-earth-eco-382',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'large periodic lightning fires covering vast areas',
+        'some of the world’s largest caribou herd migrations',
+        'the highest post-glacial rebound in North America emerging new coastlines',
+        'one of the world’s largest peat accumulations in the Hudson Bay Lowland, a huge carbon sink',
+      ],
+      sourceIds: [
+        'one-earth-eco-370',
+        'one-earth-eco-373',
+        'one-earth-eco-374',
+        'one-earth-eco-377',
+        'one-earth-eco-379',
+        'one-earth-eco-382',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'Protection target 97%; protection level 1 (scale 0–10). Protection is low across the constituent ecoregions (about 4–11%), anchored by Pukaskwa National Park and Ontario’s commitment to protect more than half of the southern Hudson Bay region. Threats include extensive logging, mining and mineral exploration, hydroelectric development, and proposals for massive peat mining.',
+      sourceIds: [
+        'one-earth-na9',
+        'one-earth-eco-370',
+        'one-earth-eco-373',
+        'one-earth-eco-374',
+        'one-earth-eco-377',
+        'one-earth-eco-379',
+        'one-earth-eco-382',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:polar-bear',
+      'species:woodland-caribou',
+      'species:barren-ground-caribou',
+      'species:canada-lynx',
+      'species:gray-wolf',
+      'species:arctic-fox',
+      'species:american-black-bear',
+      'species:moose',
+    ],
+    countryIds: ['CA'],
+    sources: [
+      'one-earth-na9',
+      'one-earth-eco-370',
+      'one-earth-eco-373',
+      'one-earth-eco-374',
+      'one-earth-eco-377',
+      'one-earth-eco-379',
+      'one-earth-eco-382',
+    ],
+    status: 'authored',
+  },
+  {
     targetId: 'bioregion:at14',
     summary: {
       value:
@@ -3944,6 +4562,222 @@ export const bioregionEnrichment: readonly EcologicalEnrichment[] = [
       'one-earth-eco-130',
       'one-earth-eco-131',
     ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:an1',
+    summary: {
+      value:
+        'Continental Antarctica (AN1) comprises the Antarctic continent except the Antarctic Peninsula, including ice-covered land, glaciers, coastal ice sheets, and coastal tundra habitats. Its 11 tundra ecoregions run from Adélie Land, Dronning Maud Land, and Enderby Land through East Antarctica to North and South Victoria Land and the Transantarctic, Ellsworth, and Marie Byrd Land tundras, while adjacent Southern Ocean waters shelter penguins, blue whales, orcas, colossal squids, fur seals, and many endemic fish species, and provide nesting ground for over 100 million birds.',
+      sourceIds: [
+        'one-earth-an1',
+        'one-earth-eco-117',
+        'one-earth-eco-119',
+        'one-earth-eco-120',
+        'one-earth-eco-121',
+        'one-earth-eco-122',
+        'one-earth-eco-123',
+        'one-earth-eco-124',
+        'one-earth-eco-125',
+        'one-earth-eco-128',
+        'one-earth-eco-132',
+        'one-earth-eco-134',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'the entirety of the Antarctic continent, with the exception of the Antarctic Peninsula',
+        'ice-covered land, glaciers, and coastal ice sheets',
+        'a variety of coastal tundra habitats important for biodiversity',
+        'component terrestrial sectors such as Adélie Land, Dronning Maud Land, Enderby Land, Wilkes Land, and Marie Byrd Land',
+        'adjacent marine areas of the Southern Ocean',
+      ],
+      sourceIds: [
+        'one-earth-an1',
+        'one-earth-eco-117',
+        'one-earth-eco-119',
+        'one-earth-eco-120',
+        'one-earth-eco-121',
+        'one-earth-eco-122',
+        'one-earth-eco-123',
+        'one-earth-eco-124',
+        'one-earth-eco-125',
+        'one-earth-eco-128',
+        'one-earth-eco-132',
+        'one-earth-eco-134',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Polar continental, with no explicit regional temperature or precipitation figures reported; conditions range from relatively mild coastal tundra margins to the cold, dry high polar interior.',
+      },
+      sourceIds: [
+        'one-earth-eco-117',
+        'one-earth-eco-119',
+        'one-earth-eco-120',
+        'one-earth-eco-121',
+        'one-earth-eco-122',
+        'one-earth-eco-123',
+        'one-earth-eco-124',
+        'one-earth-eco-125',
+        'one-earth-eco-128',
+        'one-earth-eco-132',
+        'one-earth-eco-134',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'coastal tundra habitats of lichens, mosses, and sparse vascular plants',
+        'lichen-dominated communities on nunataks and ice-free coastal oases',
+        'moss banks and moss-dominated communities in moister low-lying sites',
+        'ice-covered landscapes with limited terrestrial vegetation',
+      ],
+      sourceIds: [
+        'one-earth-eco-117',
+        'one-earth-eco-119',
+        'one-earth-eco-120',
+        'one-earth-eco-121',
+        'one-earth-eco-122',
+        'one-earth-eco-123',
+        'one-earth-eco-124',
+        'one-earth-eco-125',
+        'one-earth-eco-128',
+        'one-earth-eco-132',
+        'one-earth-eco-134',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'coastal ice-free oases acting as habitat islands within a vast ice sheet',
+        'marine nutrient transfer to land through seabird and seal colonies',
+        'strong katabatic winds from the cold interior shaping ice-free habitats',
+        'nesting ground for over 100 million birds',
+        'adjacent Southern Ocean waters sheltering penguins, blue whales, orcas, colossal squids, fur seals, and many endemic fish species',
+      ],
+      sourceIds: [
+        'one-earth-an1',
+        'one-earth-eco-117',
+        'one-earth-eco-119',
+        'one-earth-eco-120',
+        'one-earth-eco-121',
+        'one-earth-eco-122',
+        'one-earth-eco-123',
+        'one-earth-eco-124',
+        'one-earth-eco-125',
+        'one-earth-eco-128',
+        'one-earth-eco-132',
+        'one-earth-eco-134',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports no explicit protection target or protection level for the bioregion. Protection is delivered through the Antarctic Treaty System with a network of Antarctic Specially Protected Areas, though these cover only a small fraction of Antarctic species and territory; priority actions across the component ecoregions include managing the human footprint of research and tourism, incorporating climate science into protected-area management, and systematic conservation planning.',
+      sourceIds: [
+        'one-earth-an1',
+        'one-earth-eco-117',
+        'one-earth-eco-119',
+        'one-earth-eco-120',
+        'one-earth-eco-121',
+        'one-earth-eco-122',
+        'one-earth-eco-123',
+        'one-earth-eco-124',
+        'one-earth-eco-125',
+        'one-earth-eco-128',
+        'one-earth-eco-132',
+        'one-earth-eco-134',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:snow-petrel',
+      'species:adelie-penguin',
+      'species:antarctic-petrel',
+      'species:emperor-penguin',
+      'species:south-polar-skua',
+    ],
+    countryIds: ['AQ'],
+    sources: [
+      'one-earth-an1',
+      'one-earth-eco-117',
+      'one-earth-eco-119',
+      'one-earth-eco-120',
+      'one-earth-eco-121',
+      'one-earth-eco-122',
+      'one-earth-eco-123',
+      'one-earth-eco-124',
+      'one-earth-eco-125',
+      'one-earth-eco-128',
+      'one-earth-eco-132',
+      'one-earth-eco-134',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:an3',
+    summary: {
+      value:
+        'The Subantarctic Indian Ocean Islands (AN3) bioregion consists of four island groupings in the South Indian Ocean, roughly halfway between the Cape of Good Hope in South Africa and the Antarctic mainland: Prince Edward, Crozet, Kerguelen, and Heard and McDonald Islands. A single tundra ecoregion, Southern Indian Ocean Islands Tundra (133), unifies the island groups together with their surrounding marine areas.',
+      sourceIds: ['one-earth-an3', 'one-earth-eco-133'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'four island groupings in the South Indian Ocean, about halfway between the Cape of Good Hope and the Antarctic mainland',
+        'Prince Edward Islands (South Africa), Crozet and Kerguelen (France), and Heard and McDonald Islands (Australia)',
+        'a single tundra ecoregion, Southern Indian Ocean Islands Tundra, with surrounding marine areas',
+      ],
+      sourceIds: ['one-earth-an3', 'one-earth-eco-133'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'No explicit temperature or precipitation figures reported; the islands are described as cold, wet, and windy, with size and glaciation varying largely with their position relative to the Antarctic Convergence.',
+      },
+      sourceIds: ['one-earth-eco-133'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'sub-Antarctic tundra vegetation, with many vascular plants shared across the wider Southern Ocean region',
+        'endemic vascular plants including the tussock grass Poa cooki, the Kerguelen Cabbage Pringlea ascorbutica, and the fern Polystichum marionense',
+        'cushion plants such as Azorella selago alongside sub-Antarctic herbs and tussock grasses',
+      ],
+      sourceIds: ['one-earth-eco-133'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'millions of burrowing petrels nesting on the islands',
+        'some of the world’s largest concentrations of breeding albatrosses and penguins',
+        'all six species of Antarctic seals breeding in the ecoregion',
+        'high isolation promoting endemism, including the Vulnerable Eaton’s pintail',
+      ],
+      sourceIds: ['one-earth-eco-133'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports no explicit protection target or protection level for the bioregion. Many of the islands are classified as World Heritage Areas and/or Ramsar sites and are relatively well protected, but pressure from human activity and non-native species remains the biggest threat; priority actions include the prioritized eradication of invasive species and strict biosecurity, and research on invasive-species impacts.',
+      sourceIds: ['one-earth-an3', 'one-earth-eco-133'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:wandering-albatross',
+      'species:king-penguin',
+      'species:macaroni-penguin',
+      'species:antarctic-fur-seal',
+      'species:subantarctic-fur-seal',
+      'species:southern-elephant-seal',
+    ],
+    countryIds: ['AQ'],
+    sources: ['one-earth-an3', 'one-earth-eco-133'],
     status: 'authored',
   },
   {
@@ -9662,6 +10496,7 @@ export const bioregionEnrichment: readonly EcologicalEnrichment[] = [
       'species:atlantic-puffin',
       'species:horned-grebe',
     ],
+    countryIds: ['IS'],
     sources: ['one-earth-pa2', 'one-earth-eco-711'],
     status: 'authored',
   },
@@ -9726,7 +10561,7 @@ export const bioregionEnrichment: readonly EcologicalEnrichment[] = [
       'species:red-deer',
       'species:rock-ptarmigan',
     ],
-    countryIds: ['NO'],
+    countryIds: ['NO', 'SE', 'FI'],
     sources: ['one-earth-pa3', 'one-earth-eco-708', 'one-earth-eco-780'],
     status: 'authored',
   },
@@ -9919,7 +10754,7 @@ export const bioregionEnrichment: readonly EcologicalEnrichment[] = [
       'species:amur-lemming',
       'species:baikal-bush-warbler',
     ],
-    countryIds: ['RU', 'CN'],
+    countryIds: ['RU', 'CN', 'MN'],
     sources: ['one-earth-pa7', 'one-earth-eco-710', 'one-earth-eco-714', 'one-earth-eco-718', 'one-earth-eco-720', 'one-earth-eco-771', 'one-earth-eco-782'],
     status: 'authored',
   },
@@ -9982,8 +10817,3650 @@ export const bioregionEnrichment: readonly EcologicalEnrichment[] = [
       'species:finnish-forest-reindeer',
       'species:capercaillie',
     ],
-    countryIds: ['RU', 'NO'],
+    countryIds: ['RU', 'FI', 'SE', 'NO'],
     sources: ['one-earth-pa8', 'one-earth-eco-717', 'one-earth-eco-719'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa10',
+    summary: {
+      value:
+        'West European Coastal Mixed Forests (PA10) spans France, Germany, Poland, Denmark, Spain and the Pyrenees across four ecoregions of the Greater European Forests subrealm, totalling more than 62 million hectares. The bioregion shelters the critically endangered European mink, now extirpated from this ecoregion, alongside the aquatic warbler, Pyrenean desman, brown bear and Iberian lynx in a landscape of Baltic, Cantabrian, Atlantic and Pyrenean mixed forest.',
+      sourceIds: ['one-earth-pa10', 'one-earth-eco-647', 'one-earth-eco-648', 'one-earth-eco-664', 'one-earth-eco-676'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'four ecoregions totaling more than 62 million hectares',
+        'Baltic coastal mixed forest from Denmark to Poland',
+        'Cantabrian and Atlantic broadleaf forest belt from Spain to France',
+        'Pyrenees montane conifer and mixed forest',
+      ],
+      sourceIds: ['one-earth-pa10', 'one-earth-eco-647', 'one-earth-eco-648', 'one-earth-eco-664', 'one-earth-eco-676'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are oceanic to continental, with annual precipitation ranging from 600 mm in northern Poland to over 1,100 mm in the Cantabrian coast, and mean annual temperatures of 6–20°C.',
+      },
+      sourceIds: ['one-earth-pa10', 'one-earth-eco-647', 'one-earth-eco-648', 'one-earth-eco-664', 'one-earth-eco-676'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'European beech, Norway spruce and English oak mixed forest',
+        'Cantabrian oak, beech and heather woodland',
+        'Atlantic Scots pine and maritime pine coastal belt',
+        'Pyrenees holm oak, lime, maple and fir montane forest',
+      ],
+      sourceIds: ['one-earth-pa10', 'one-earth-eco-647', 'one-earth-eco-648', 'one-earth-eco-664', 'one-earth-eco-676'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'oceanic climate moderating temperatures across the Atlantic coast',
+        'Pyrenees acting as a glacial refugium with over 200 endemic plant species',
+        'Baltic coastal dune and wetland systems supporting breeding waterbirds',
+      ],
+      sourceIds: ['one-earth-pa10', 'one-earth-eco-647', 'one-earth-eco-648', 'one-earth-eco-664', 'one-earth-eco-676'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 35% with a protection level of 7. Habitat destruction, water pollution, coastal erosion from sea level rise, invasive species, road construction and forest fires are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa10', 'one-earth-eco-647', 'one-earth-eco-648', 'one-earth-eco-664', 'one-earth-eco-676'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:aquatic-warbler',
+      'species:pyrenean-desman',
+      'species:brown-bear',
+      'species:iberian-lynx',
+      'species:white-tailed-eagle',
+      'species:capercaillie',
+    ],
+    countryIds: ['PL', 'DE', 'DK', 'SE', 'ES', 'FR', 'PT', 'NL', 'BE', 'AD'],
+    sources: ['one-earth-pa10', 'one-earth-eco-647', 'one-earth-eco-648', 'one-earth-eco-664', 'one-earth-eco-676'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa11',
+    summary: {
+      value:
+        'Baltic Sea & Sarmatic Mixed Forests (PA11) is a single-ecoregion bioregion of nearly 85 million hectares in the Greater European Forests subrealm, stretching from Scandinavia across the Baltic states into western Russia. The Eurasian beaver, grey wolf, Eurasian lynx, brown bear, moose, European bison and Russian desman inhabit extensive Norway spruce, Scots pine and mixed deciduous woodland with one of Europe\'s densest freshwater networks of more than 10,000 lakes and 20,000 rivers.',
+      sourceIds: ['one-earth-pa11', 'one-earth-eco-679'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'single ecoregion totaling nearly 85 million hectares',
+        'Baltic Sea coastline and interior lowlands',
+        'one of Europe\'s densest lake and river networks',
+        'vast peatlands and raised bog complexes',
+      ],
+      sourceIds: ['one-earth-pa11', 'one-earth-eco-679'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregion is continental with maritime influence along the Baltic coastlines, with cold winters and moderate summers.',
+      },
+      sourceIds: ['one-earth-pa11', 'one-earth-eco-679'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Norway spruce and Scots pine taiga',
+        'common oak, downy birch and beech mixed forest',
+        'feather and peat moss bog communities',
+        'bilberry and heather ground layers',
+      ],
+      sourceIds: ['one-earth-pa11', 'one-earth-eco-679'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Eurasian beaver engineering wetland habitats across river systems',
+        'European bison reintroduced across the Sarmatic range',
+        'endemic Saaremaa yellow rattle and marsh orchid in Baltic island wetlands',
+      ],
+      sourceIds: ['one-earth-pa11', 'one-earth-eco-679'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 46% with a protection level of 2. Agricultural expansion, logging, grazing, peat extraction and pollution are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa11', 'one-earth-eco-679'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:eurasian-beaver',
+      'species:gray-wolf',
+      'species:eurasian-lynx',
+      'species:brown-bear',
+      'species:european-bison',
+    ],
+    countryIds: ['RU', 'SE', 'BY', 'LV', 'EE', 'LT', 'NO', 'FI'],
+    sources: ['one-earth-pa11', 'one-earth-eco-679'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa12',
+    summary: {
+      value:
+        'European Interior Mixed Forests (PA12) unites three ecoregions of the Greater European Forests subrealm across Poland, Germany, Ukraine, Belarus, Romania and Russia, totalling approximately 195.5 million hectares. The critically endangered European bison, the continent\'s heaviest land animal, is the flagship species, supported by white-backed woodpeckers, brown bears, Eurasian lynx, grey wolves and spotted sousliks in oak, hornbeam and beech woodland.',
+      sourceIds: ['one-earth-pa12', 'one-earth-eco-654', 'one-earth-eco-661', 'one-earth-eco-686'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'three ecoregions totaling approximately 195.5 million hectares',
+        'Central European oak and beech mixed forest',
+        'East European forest-steppe mosaic',
+        'Western European broadleaf forest from France to Czech Republic',
+      ],
+      sourceIds: ['one-earth-pa12', 'one-earth-eco-654', 'one-earth-eco-661', 'one-earth-eco-686'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are continental, with precipitation ranging from 1,000 mm in Jura mountain valleys to over 2,030 mm at higher elevations, and continentality becoming more pronounced toward the east.',
+      },
+      sourceIds: ['one-earth-pa12', 'one-earth-eco-654', 'one-earth-eco-661', 'one-earth-eco-686'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'European beech, silver fir and Norway spruce montane forest',
+        'oak, hornbeam and lime mixed deciduous woodland',
+        'forest-steppe mosaic with feather grass and prairie junegrass',
+        'one of Europe\'s last primeval forest fragments at Białowieża',
+      ],
+      sourceIds: ['one-earth-pa12', 'one-earth-eco-654', 'one-earth-eco-661', 'one-earth-eco-686'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'European bison reintroduction with approximately 4,500 animals in 51 free-ranging herds',
+        'only 0.2% of pristine Central European forest remaining',
+        '69% of organic matter lost in Volga region forest-steppe over the last 100 years',
+      ],
+      sourceIds: ['one-earth-pa12', 'one-earth-eco-654', 'one-earth-eco-661', 'one-earth-eco-686'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 32% with a protection level of 5. Agriculture, plantations, urbanization, logging, hunting and overstocking of game animals are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa12', 'one-earth-eco-654', 'one-earth-eco-661', 'one-earth-eco-686'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:european-bison',
+      'species:brown-bear',
+      'species:eurasian-lynx',
+      'species:gray-wolf',
+      'species:red-deer',
+      'species:roe-deer',
+    ],
+    countryIds: ['PL', 'UA', 'BY', 'DE', 'RO', 'RU', 'LT', 'CZ', 'MD', 'AT', 'BG', 'FR', 'CH', 'BE', 'LU', 'LI', 'NL'],
+    sources: ['one-earth-pa12', 'one-earth-eco-654', 'one-earth-eco-661', 'one-earth-eco-686'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa13',
+    summary: {
+      value:
+        'Alps & Po Basin Mixed Forests (PA13) covers two ecoregions of the European Mountain Forests subrealm across Italy, Austria, Switzerland, France, Slovenia and Liechtenstein, totalling more than 19 million hectares. The Alpine ibex, the bioregion\'s flagship, survives alongside Eurasian lynx, grey wolves, brown bears, red deer, chamois, marmots and the relict bearded vulture in some of Europe\'s most species-rich mountain landscapes.',
+      sourceIds: ['one-earth-pa13', 'one-earth-eco-675', 'one-earth-eco-689'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'two ecoregions totaling more than 19 million hectares',
+        'Alpine conifer and mixed forest from Mont Blanc to the Julian Alps',
+        'Po River basin wetlands and rice paddies',
+        'high-altitude glacial valleys and alpine meadows',
+      ],
+      sourceIds: ['one-earth-pa13', 'one-earth-eco-675', 'one-earth-eco-689'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from Mediterranean-influenced conditions in the southern Po plain to continental and alpine climates at high elevations, with annual precipitation from 500 mm in the lowlands to over 2,030 mm on mountain slopes.',
+      },
+      sourceIds: ['one-earth-pa13', 'one-earth-eco-675', 'one-earth-eco-689'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'mixed beech, silver fir and spruce montane forest',
+        'Alpine grasslands with Campanula, Primula, Ranunculus and Saxifraga',
+        'Po plain poplar, rice paddy and wetland vegetation',
+        'dwarf mountain pine and prostrate pine at high elevations',
+      ],
+      sourceIds: ['one-earth-pa13', 'one-earth-eco-675', 'one-earth-eco-689'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'approximately 40% of Europe\'s flora present in the Alps',
+        '4,485 vascular plant species with up to 400 endemics',
+        'Alpine ibex surviving in Gran Paradiso National Park before reintroduction',
+      ],
+      sourceIds: ['one-earth-pa13', 'one-earth-eco-675', 'one-earth-eco-689'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 48% with a protection level of 5. Winter resorts, urban sprawl, intensification of lowland agriculture, power plant construction, water pollution and climate change are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa13', 'one-earth-eco-675', 'one-earth-eco-689'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:alpine-ibex',
+      'species:eurasian-lynx',
+      'species:brown-bear',
+      'species:red-deer',
+      'species:chamois',
+      'species:bearded-vulture',
+    ],
+    countryIds: ['IT', 'CH', 'AT', 'FR', 'SI', 'DE', 'LI'],
+    sources: ['one-earth-pa13', 'one-earth-eco-675', 'one-earth-eco-689'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa14',
+    summary: {
+      value:
+        'Carpathian Mountain & Plains Mixed Forests (PA14) spans Hungary, Romania, Slovakia, Croatia, Serbia, Bosnia and Herzegovina, Austria, Slovenia, the Czech Republic, Ukraine and Poland across two ecoregions of the European Mountain Forests subrealm, totalling more than 42 million hectares. The grey wolf, the bioregion\'s flagship, presides over a landscape sheltering imperial eagles, golden eagles, brown bears, Eurasian lynx, Tatra pine voles and the endemic Carpathian newt in Pannonian lowland forest and Carpathian montane beech-spruce woodland.',
+      sourceIds: ['one-earth-pa14', 'one-earth-eco-674', 'one-earth-eco-692'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'two ecoregions totaling more than 42 million hectares',
+        'Pannonian lowland mixed forest with oak and hornbeam',
+        'Carpathian montane beech, spruce and fir forest',
+        'Gerlachovský štít at 2,655 m, the highest Carpathian peak',
+      ],
+      sourceIds: ['one-earth-pa14', 'one-earth-eco-674', 'one-earth-eco-692'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from a sheltered continental Pannonian climate to cool, humid conditions in the Carpathian montane belt, with pronounced continentality in the east.',
+      },
+      sourceIds: ['one-earth-pa14', 'one-earth-eco-674', 'one-earth-eco-692'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'turkey oak, sessile oak and pedunculated oak Pannonian woodland',
+        'European beech, silver fir and Norway spruce montane forest',
+        'mountain pine and dwarf juniper at high elevations',
+        'endemic Tatra pine vole and Carpathian newt habitat',
+      ],
+      sourceIds: ['one-earth-pa14', 'one-earth-eco-674', 'one-earth-eco-692'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'approximately 3,500 grey wolves, 2,400 Eurasian lynx and over 8,000 brown bears',
+        'Europe\'s largest remaining natural mountain beech forest outside Russia',
+        'Aggtelek cave shrimp and Pannonian snail endemism in karst systems',
+      ],
+      sourceIds: ['one-earth-pa14', 'one-earth-eco-674', 'one-earth-eco-692'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 45% with a protection level of 6. Intensive grazing, climate change, agriculture, extensive logging, invasive species including black locust, air and water pollution and tourism development are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa14', 'one-earth-eco-674', 'one-earth-eco-692'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:gray-wolf',
+      'species:golden-eagle',
+      'species:brown-bear',
+      'species:eurasian-lynx',
+      'species:red-deer',
+      'species:carpathian-newt',
+    ],
+    countryIds: ['HU', 'RO', 'SK', 'HR', 'RS', 'BA', 'AT', 'SI', 'CZ', 'UA', 'PL'],
+    sources: ['one-earth-pa14', 'one-earth-eco-674', 'one-earth-eco-692'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa15',
+    summary: {
+      value:
+        'Dinaric Mountains & Balkan Mixed Forests (PA15) joins three ecoregions of the European Mountain Forests subrealm across Bulgaria, Serbia, Romania, North Macedonia, Greece, Kosovo, Bosnia and Herzegovina, Albania, Montenegro and Croatia, totalling approximately 31.5 million hectares. The Eurasian lynx, reintroduced to the Dinaric Alps in 1973, is the flagship, sharing the landscape with brown bears, grey wolves, the near-endemic olm, capercaillie, saker falcons and 23 raptor species in Balkan and Dinaric oak, beech and spruce woodland.',
+      sourceIds: ['one-earth-pa15', 'one-earth-eco-646', 'one-earth-eco-660', 'one-earth-eco-678'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'three ecoregions totaling approximately 31.5 million hectares',
+        'Dinaric Alps karst mountain chain from Slovenia to Albania',
+        'Balkan mixed forest of oak, beech and Macedonian pine',
+        'Rhodope Mountains and Central Balkan old-growth beech forest',
+      ],
+      sourceIds: ['one-earth-pa15', 'one-earth-eco-646', 'one-earth-eco-660', 'one-earth-eco-678'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from Mediterranean-influenced coastal conditions to continental montane climates with precipitation of 600 to over 3,000 mm and winter temperatures from minus 10°C to 0°C.',
+      },
+      sourceIds: ['one-earth-pa15', 'one-earth-eco-646', 'one-earth-eco-660', 'one-earth-eco-678'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'oak, beech, spruce and silver fir montane forest',
+        'Macedonian pine and Bosnian pine relict stands',
+        'Dinaric karst polje grasslands and Mediterranean maquis',
+        'Europe\'s largest continuous area of old-growth beech forest at Central Balkan National Park',
+      ],
+      sourceIds: ['one-earth-pa15', 'one-earth-eco-646', 'one-earth-eco-660', 'one-earth-eco-678'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Eurasian lynx reintroduction expanding to approximately 140 individuals by the 2010s',
+        'olm, the near-endemic cave-dwelling aquatic salamander of Dinaric karst',
+        'Shar Mountain hosting over 2,000 plant species including 400 Balkan endemics',
+      ],
+      sourceIds: ['one-earth-pa15', 'one-earth-eco-646', 'one-earth-eco-660', 'one-earth-eco-678'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 41% with a protection level of 5. Illegal logging, climate change, forest fires, tree disease, agriculture, hunting, habitat conversion and poaching are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa15', 'one-earth-eco-646', 'one-earth-eco-660', 'one-earth-eco-678'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:eurasian-lynx',
+      'species:brown-bear',
+      'species:gray-wolf',
+      'species:olm',
+      'species:capercaillie',
+      'species:saker-falcon',
+    ],
+    countryIds: ['BG', 'RS', 'RO', 'MK', 'TR', 'GR', 'XK', 'BA', 'AL', 'ME', 'HR', 'IT'],
+    sources: ['one-earth-pa15', 'one-earth-eco-646', 'one-earth-eco-660', 'one-earth-eco-678'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa16',
+    summary: {
+      value:
+        'Pontic Steppe Grasslands (PA16) is a single-ecoregion bioregion of approximately 99.5 million hectares in the Black Sea Forests & Steppe subrealm, stretching from the Danube Delta across Ukraine and southern Russia to Kazakhstan. The critically endangered European mink, the flagship, shares the feather-grass steppe with the saiga antelope, speckled ground squirrel, sandy blind mole rat, steppe eagle and saker falcon in one of the world\'s most threatened biomes.',
+      sourceIds: ['one-earth-pa16', 'one-earth-eco-735'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'single ecoregion totaling approximately 99.5 million hectares',
+        'Pontic-Caspian feather-grass steppe',
+        'Danube Delta, Europe\'s largest reedbed and wetland',
+        'kurgan burial mounds preserving islands of steppe flora',
+      ],
+      sourceIds: ['one-earth-pa16', 'one-earth-eco-735'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregion is temperate with appreciable winter rain, and hot, dry summers with cold winters across the steppe interior.',
+      },
+      sourceIds: ['one-earth-pa16', 'one-earth-eco-735'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'feather grass, fescue and sage steppe',
+        'colourful spring ephemeral wildflower communities',
+        'Danube Delta reedbeds, the widest compact reed stands in the world',
+        'invasive Russian olive windbreak plantations in Ukraine',
+      ],
+      sourceIds: ['one-earth-pa16', 'one-earth-eco-735'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'steppe flora more destroyed than any other zonal vegetation type in Europe',
+        'Danube Delta hosting over 500,000 wintering waterfowl annually',
+        '35% of total land area converted to cropland',
+      ],
+      sourceIds: ['one-earth-pa16', 'one-earth-eco-735'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 10% with a protection level of 5. Conversion to cropland, shelterbelt afforestation, overgrazing, dam construction, electric fishing in the Danube Delta and weak legal enforcement are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa16', 'one-earth-eco-735'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:european-mink',
+      'species:saiga-antelope',
+      'species:greater-flamingo',
+      'species:steppe-eagle',
+      'species:saker-falcon',
+    ],
+    countryIds: ['RU', 'UA', 'KZ', 'RO', 'MD', 'BG'],
+    sources: ['one-earth-pa16', 'one-earth-eco-735'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa17',
+    summary: {
+      value:
+        'Black Sea, Caucasus-Anatolian Mixed Forests & Steppe (PA17) gathers seven ecoregions of the Black Sea Forests & Steppe subrealm across Russia, Georgia, Azerbaijan, Turkey, Armenia, Bulgaria, Ukraine, Romania and Moldova, totalling approximately 58.5 million hectares. The southern crested newt, the flagship, inhabits a landscape of Colchic rainforest, Caucasus mixed forest, Anatolian steppe and Crimean submediterranean woodland sheltering West Caucasian tur, bearded vultures, Caucasian salamanders, Persian leopards and endemic birch mice.',
+      sourceIds: ['one-earth-pa17', 'one-earth-eco-650', 'one-earth-eco-652', 'one-earth-eco-658', 'one-earth-eco-662', 'one-earth-eco-665', 'one-earth-eco-703', 'one-earth-eco-725'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'seven ecoregions totaling approximately 58.5 million hectares',
+        'Greater and Lesser Caucasus mountain ranges with Mount Elbrus at 5,642 m',
+        'Central Anatolian steppe and eastern Anatolian deciduous forest',
+        'Crimean submediterranean coastal enclaves',
+      ],
+      sourceIds: ['one-earth-pa17', 'one-earth-eco-650', 'one-earth-eco-652', 'one-earth-eco-658', 'one-earth-eco-662', 'one-earth-eco-665', 'one-earth-eco-703', 'one-earth-eco-725'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from humid Colchic rainforest with 1,000–2,500 mm precipitation to semi-arid continental steppe in Anatolia, with cold winters and hot, dry summers in the interior.',
+      },
+      sourceIds: ['one-earth-pa17', 'one-earth-eco-650', 'one-earth-eco-652', 'one-earth-eco-658', 'one-earth-eco-662', 'one-earth-eco-665', 'one-earth-eco-703', 'one-earth-eco-725'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Colchic temperate rainforest of oriental beech, sweet chestnut and Caucasian fir',
+        'Caucasus mixed forest of oak, hornbeam and endemic Rhododendron caucasicum',
+        'Anatolian steppe of feather grass, fescue and sage',
+        'Crimean pistachio, juniper and strawberry tree maquis',
+      ],
+      sourceIds: ['one-earth-pa17', 'one-earth-eco-650', 'one-earth-eco-652', 'one-earth-eco-658', 'one-earth-eco-662', 'one-earth-eco-665', 'one-earth-eco-703', 'one-earth-eco-725'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Colchic refugium preserving post-glacial remnant forests of global importance',
+        'Caucasus hosting some of the highest levels of endemism in the temperate world',
+        'Turkey\'s largest brown bear population legally protected since 2003',
+      ],
+      sourceIds: ['one-earth-pa17', 'one-earth-eco-650', 'one-earth-eco-652', 'one-earth-eco-658', 'one-earth-eco-662', 'one-earth-eco-665', 'one-earth-eco-703', 'one-earth-eco-725'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 26% with a protection level of 2. Uncontrolled hunting, oil and gas exploitation, overgrazing, illegal logging, dam construction, irrigation and conversion to cropland are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa17', 'one-earth-eco-650', 'one-earth-eco-652', 'one-earth-eco-658', 'one-earth-eco-662', 'one-earth-eco-665', 'one-earth-eco-703', 'one-earth-eco-725'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:west-caucasian-tur',
+      'species:bearded-vulture',
+      'species:caucasian-salamander',
+      'species:brown-bear',
+      'species:golden-jackal',
+      'species:southern-crested-newt',
+    ],
+    countryIds: ['RU', 'GE', 'AZ', 'TR', 'AM', 'UA', 'BG'],
+    sources: ['one-earth-pa17', 'one-earth-eco-650', 'one-earth-eco-652', 'one-earth-eco-658', 'one-earth-eco-662', 'one-earth-eco-665', 'one-earth-eco-703', 'one-earth-eco-725'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa18',
+    summary: {
+      value:
+        'Aegean Sea & East Mediterranean Mixed Forests (PA18) spans seven ecoregions of the Mediterranean subrealm across Greece, Turkey, Cyprus, Lebanon, Israel, Palestine, Syria, Jordan, Iraq and Saudi Arabia, totalling approximately 49.5 million hectares. The striped hyena, the flagship, inhabits Calabrian pine, Kermes oak and Eastern Mediterranean broadleaf forest sheltering grey wolves, golden jackals, Cretan wild goats, Cyprus mouflons, Eleonora\'s falcons and the endemic Cyclades blunt-nosed viper.',
+      sourceIds: ['one-earth-pa18', 'one-earth-eco-785', 'one-earth-eco-786', 'one-earth-eco-789', 'one-earth-eco-790', 'one-earth-eco-791', 'one-earth-eco-801', 'one-earth-eco-804'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'seven ecoregions totaling approximately 49.5 million hectares',
+        'Aegean and Cycladic islands with Mediterranean maquis',
+        'Taurus, Lebanon and Anti-Lebanon mountain ranges with Cedar of Lebanon',
+        'Pindus mountain chain sheltering Lake Prespa and Lake Ohrid',
+      ],
+      sourceIds: ['one-earth-pa18', 'one-earth-eco-785', 'one-earth-eco-786', 'one-earth-eco-789', 'one-earth-eco-790', 'one-earth-eco-791', 'one-earth-eco-801', 'one-earth-eco-804'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are Mediterranean, with mild, wet winters and hot, dry summers; annual precipitation ranges from under 300 mm on lowlands to over 2,000 mm at high altitudes.',
+      },
+      sourceIds: ['one-earth-pa18', 'one-earth-eco-785', 'one-earth-eco-786', 'one-earth-eco-789', 'one-earth-eco-790', 'one-earth-eco-791', 'one-earth-eco-801', 'one-earth-eco-804'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Calabrian and Aleppo pine Mediterranean forest',
+        'holm oak, carob and Phoenician juniper woodland',
+        'Cedar of Lebanon montane forests',
+        'Pindus Pallas pine, endemic Greek fir and Hungarian oak',
+      ],
+      sourceIds: ['one-earth-pa18', 'one-earth-eco-785', 'one-earth-eco-786', 'one-earth-eco-789', 'one-earth-eco-790', 'one-earth-eco-791', 'one-earth-eco-801', 'one-earth-eco-804'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'overlap with the Fertile Crescent centre of plant domestication',
+        'two of Europe\'s oldest lakes, Prespa and Ohrid, with endemic fish faunas',
+        'highest proportion of endemic species of any Mediterranean zone in the Taurus ranges',
+      ],
+      sourceIds: ['one-earth-pa18', 'one-earth-eco-785', 'one-earth-eco-786', 'one-earth-eco-789', 'one-earth-eco-790', 'one-earth-eco-791', 'one-earth-eco-801', 'one-earth-eco-804'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 14% with a protection level of 6. Urbanization, conversion to agriculture, wetland draining, pollution, overgrazing, tourism development, timber harvest, insecticide use and dams on the Euphrates and Tigris are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa18', 'one-earth-eco-785', 'one-earth-eco-786', 'one-earth-eco-789', 'one-earth-eco-790', 'one-earth-eco-791', 'one-earth-eco-801', 'one-earth-eco-804'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:striped-hyena',
+      'species:gray-wolf',
+      'species:golden-jackal',
+      'species:cretan-wild-goat',
+      'species:cyprus-mouflon',
+      'species:eleonoras-falcon',
+    ],
+    countryIds: ['GR', 'TR', 'MK', 'BG', 'CY', 'IQ', 'IL', 'JO', 'LB', 'PS', 'SA', 'SY', 'AL', 'XK'],
+    sources: ['one-earth-pa18', 'one-earth-eco-785', 'one-earth-eco-786', 'one-earth-eco-789', 'one-earth-eco-790', 'one-earth-eco-791', 'one-earth-eco-801', 'one-earth-eco-804'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa19',
+    summary: {
+      value:
+        'Adriatic Sea & Central Mediterranean Mixed Forests (PA19) joins six ecoregions of the Mediterranean subrealm across Italy, France, Croatia and Malta, totalling approximately 26 million hectares. The Corsican red deer, the flagship, survives in Corsica and Sardinia alongside the mouflon, Italian wolf, Italian chamois, bearded vultures, Eleonora\'s and lanner falcons, Dalmatian pelicans and eleven endemic amphibians in Apennine, Corsican, Illyrian and Tyrrhenian woodland.',
+      sourceIds: ['one-earth-pa19', 'one-earth-eco-644', 'one-earth-eco-788', 'one-earth-eco-794', 'one-earth-eco-795', 'one-earth-eco-802', 'one-earth-eco-806'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'six ecoregions totaling approximately 26 million hectares',
+        'Italian peninsula from the Apennines to Calabria',
+        'Corsica and Sardinia with old-growth Laricio pine',
+        'eastern Adriatic coast from Dalmatia to Albania',
+      ],
+      sourceIds: ['one-earth-pa19', 'one-earth-eco-644', 'one-earth-eco-788', 'one-earth-eco-794', 'one-earth-eco-795', 'one-earth-eco-802', 'one-earth-eco-806'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are Mediterranean with very hot, dry summers and relatively temperate, humid to subhumid winters; annual precipitation ranges from 400 to over 3,000 mm.',
+      },
+      sourceIds: ['one-earth-pa19', 'one-earth-eco-644', 'one-earth-eco-788', 'one-earth-eco-794', 'one-earth-eco-795', 'one-earth-eco-802', 'one-earth-eco-806'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Apennine beech and pine montane forest',
+        'Corsican Laricio pine, holm oak and cork oak old-growth',
+        'Illyrian Hungarian oak and downy oak deciduous forest',
+        'Italian Turkey oak, cork oak and relict bay laurel woodland',
+      ],
+      sourceIds: ['one-earth-pa19', 'one-earth-eco-644', 'one-earth-eco-788', 'one-earth-eco-794', 'one-earth-eco-795', 'one-earth-eco-802', 'one-earth-eco-806'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Italian wolf recovery from under 100 individuals after World War II',
+        'Skadar Lake hosting 280 bird species in the Dinaric karst',
+        'less than 1% of Italy remaining as primary forest',
+      ],
+      sourceIds: ['one-earth-pa19', 'one-earth-eco-644', 'one-earth-eco-788', 'one-earth-eco-794', 'one-earth-eco-795', 'one-earth-eco-802', 'one-earth-eco-806'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 26% with a protection level of 9. Coastal development, changes in agriculture, illegal killing of wolves, wolf-dog hybridization, illegal logging, fire, pollution and coastal tourism are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa19', 'one-earth-eco-644', 'one-earth-eco-788', 'one-earth-eco-794', 'one-earth-eco-795', 'one-earth-eco-802', 'one-earth-eco-806'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:corsican-red-deer',
+      'species:mouflon',
+      'species:italian-wolf',
+      'species:italian-chamois',
+      'species:bearded-vulture',
+      'species:eleonoras-falcon',
+      'species:dalmatian-pelican',
+    ],
+    countryIds: ['IT', 'FR', 'AL', 'HR', 'GR', 'BA', 'ME', 'SI', 'MT'],
+    sources: ['one-earth-pa19', 'one-earth-eco-644', 'one-earth-eco-788', 'one-earth-eco-794', 'one-earth-eco-795', 'one-earth-eco-802', 'one-earth-eco-806'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa20',
+    summary: {
+      value:
+        'Balearic Sea & West Mediterranean Mixed Forests (PA20) joins six ecoregions of the Mediterranean subrealm across Spain, Portugal and France, totalling approximately 55.5 million hectares. The critically endangered Iberian lynx, the flagship, survives with only 156 mature individuals in southwest Spain, alongside the endemic Iberian ibex, Spanish imperial eagles, Cantabrian chamois, griffon and black vultures in holm oak maquis, cork oak montados and dehesas around Doñana.',
+      sourceIds: ['one-earth-pa20', 'one-earth-eco-792', 'one-earth-eco-793', 'one-earth-eco-799', 'one-earth-eco-800', 'one-earth-eco-803', 'one-earth-eco-805'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'six ecoregions totaling approximately 55.5 million hectares',
+        'Iberian central plateau and Sierra Morena',
+        'Sierra Nevada summit at 3,482 m, the highest point in the peninsula',
+        'Doñana wetlands and Cabo de Gata volcanic coast',
+      ],
+      sourceIds: ['one-earth-pa20', 'one-earth-eco-792', 'one-earth-eco-793', 'one-earth-eco-799', 'one-earth-eco-800', 'one-earth-eco-803', 'one-earth-eco-805'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are Mediterranean with very hot, dry summers and relatively mild, subhumid to humid winters; annual precipitation ranges from under 300 mm in the southeast arid zone to 2,000 mm in the northwest mountains.',
+      },
+      sourceIds: ['one-earth-pa20', 'one-earth-eco-792', 'one-earth-eco-793', 'one-earth-eco-799', 'one-earth-eco-800', 'one-earth-eco-803', 'one-earth-eco-805'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'holm oak maquis and dehesa sylvopastoral woodlands',
+        'endemic Salzmann pine and Scots pine montane forest',
+        'cork oak and holm oak Mediterranean woodland',
+        'esparto grass, dwarf fan palms and relict sandarac in the southeast',
+      ],
+      sourceIds: ['one-earth-pa20', 'one-earth-eco-792', 'one-earth-eco-793', 'one-earth-eco-799', 'one-earth-eco-800', 'one-earth-eco-803', 'one-earth-eco-805'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Iberian lynx survival with only 156 mature individuals',
+        'Doñana hosting over 500,000 wintering waterfowl annually',
+        'Ebro Delta nesting colony of 30,000 pairs of waterbirds',
+      ],
+      sourceIds: ['one-earth-pa20', 'one-earth-eco-792', 'one-earth-eco-793', 'one-earth-eco-799', 'one-earth-eco-800', 'one-earth-eco-803', 'one-earth-eco-805'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 29% with a protection level of 10. Deforestation, intensive agriculture, forest fires, dam construction, over-intense hunting, increased drought severity, aquifer degradation and greenhouse horticulture are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa20', 'one-earth-eco-792', 'one-earth-eco-793', 'one-earth-eco-799', 'one-earth-eco-800', 'one-earth-eco-803', 'one-earth-eco-805'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:iberian-lynx',
+      'species:iberian-ibex',
+      'species:spanish-imperial-eagle',
+      'species:cantabrian-chamois',
+      'species:griffon-vulture',
+      'species:cinereous-vulture',
+    ],
+    countryIds: ['ES', 'PT', 'FR', 'IT'],
+    sources: ['one-earth-pa20', 'one-earth-eco-792', 'one-earth-eco-793', 'one-earth-eco-799', 'one-earth-eco-800', 'one-earth-eco-803', 'one-earth-eco-805'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa21',
+    summary: {
+      value:
+        'Azores Forest Islands (PA21) is a single-ecoregion bioregion of approximately 262 thousand hectares in the Mediterranean subrealm, encompassing nine volcanic islands situated more than 1,350 km west of the Portuguese coast. The Azores noctule, the only native mammal and the only bat known to hunt insects during the day, and the Azores bullfinch, once Europe\'s most endangered passerine with fewer than 300 breeding pairs, are the sole endemic vertebrates in native laurel and juniper forests sustained by the Gulf Stream.',
+      sourceIds: ['one-earth-pa21', 'one-earth-eco-645'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'single ecoregion totaling approximately 262 thousand hectares',
+        'nine volcanic islands over 1,350 km west of mainland Portugal',
+        'native laurel and juniper forest remnants',
+        'lava tunnels and basalt grottoes',
+      ],
+      sourceIds: ['one-earth-pa21', 'one-earth-eco-645'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregion is mild for its latitude due to the Gulf Stream, with year-round temperatures ranging from 16 to 25°C.',
+      },
+      sourceIds: ['one-earth-pa21', 'one-earth-eco-645'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'native laurel and juniper lowland forests',
+        'remarkable bryophytic plant diversity',
+        'introduced poplar, oak and chestnut shade trees',
+        'pastures and numerous exotic species outcompeting natives',
+      ],
+      sourceIds: ['one-earth-pa21', 'one-earth-eco-645'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Azores noctule hunting insects during the day, unique among bats',
+        'Azores bullfinch rebounding after land-use change over the past 50 years',
+        'introduced mammals threatening endemic bird species',
+      ],
+      sourceIds: ['one-earth-pa21', 'one-earth-eco-645'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 24% with a protection level of 10. Land-use change, invasive species, timber extraction of native laurel and juniper, pasture expansion and mammal introductions threatening endemic bird species are the dominant pressures across the bioregion.',
+      sourceIds: ['one-earth-pa21', 'one-earth-eco-645'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:azores-noctule',
+      'species:azores-bullfinch',
+      'species:azores-wood-pigeon',
+      'species:azores-goldcrest',
+    ],
+    countryIds: ['PT'],
+    sources: ['one-earth-pa21', 'one-earth-eco-645'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa22',
+    summary: {
+      value:
+        'Madeira Evergreen Island (PA22) is a single-ecoregion bioregion of approximately 82 thousand hectares in the North Africa subrealm, encompassing the mountainous island of Madeira. Humid laurisilva laurel forests of ancient, subtropical origin blanket its steep north-facing slopes and cloud belt, one of the most biodiverse and best-protected corners of southern Eurasia, with endemic species concentrated in the rainforest zone and drier scrub at lower elevations.',
+      sourceIds: ['one-earth-pa22', 'one-earth-eco-668'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'single ecoregion totaling approximately 82 thousand hectares',
+        'mountainous island of Madeira with Pico Ruivo at 1,861 m',
+        'steep north-facing slopes in the cloud belt',
+        'laurisilva laurel forest covering about 20 percent of the island',
+      ],
+      sourceIds: ['one-earth-pa22', 'one-earth-eco-668'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregion is temperate oceanic with an annual average around 19°C and annual precipitation of 250 to 750 mm.',
+      },
+      sourceIds: ['one-earth-pa22', 'one-earth-eco-668'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'humid laurisilva laurel forests of ancient subtropical origin',
+        'drier scrub at lower elevations and on neighbouring islands',
+        'about 1,226 vascular plant species with 66 strictly Madeiran',
+      ],
+      sourceIds: ['one-earth-pa22', 'one-earth-eco-668'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'laurisilva relict of a forest type that once spanned much of southern Europe',
+        'Zino\'s petrel breeding on six inaccessible ledges',
+        'monk seal population of 20 to 30 adults in Madeira',
+      ],
+      sourceIds: ['one-earth-pa22', 'one-earth-eco-668'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 63% with a protection level of 9. All laurisilva lies within the Madeira Natural Park, a UNESCO MaB Biosphere Reserve. Threats include invasive species, grazing, tourism and urban development, introduced herbivores, and predation on endemic avifauna by cats and rats.',
+      sourceIds: ['one-earth-pa22', 'one-earth-eco-668'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:trocaz-pigeon',
+      'species:zinos-petrel',
+      'species:mediterranean-monk-seal',
+    ],
+    countryIds: ['PT'],
+    sources: ['one-earth-pa22', 'one-earth-eco-668'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa23',
+    summary: {
+      value:
+        'South Mediterranean Mixed Woodlands and Forests (PA23) joins five ecoregions of the North Africa subrealm across Morocco, Algeria, Tunisia, Libya, Egypt and Western Sahara, totalling approximately 78.2 million hectares. The threatened Cuvier\'s gazelle, the flagship mountain gazelle of the North African Mediterranean woodlands, persists alongside Barbary macaque, aoudad and golden jackal in Atlas cedar forests, High Atlas juniper steppe, argan woodlands and Mediterranean forest, much of it converted by agriculture and grazing.',
+      sourceIds: [
+        'one-earth-pa23',
+        'one-earth-eco-701',
+        'one-earth-eco-758',
+        'one-earth-eco-796',
+        'one-earth-eco-797',
+        'one-earth-eco-798',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'five ecoregions totaling approximately 78.2 million hectares',
+        'Mediterranean coast of North Africa from Morocco to Cyrenaica in Libya',
+        'High Atlas and Tell Atlas ranges with Jbel Toubkal at 4,167 m',
+        'easternmost Canary Islands of Fuerteventura and Lanzarote',
+      ],
+      sourceIds: [
+        'one-earth-pa23',
+        'one-earth-eco-701',
+        'one-earth-eco-758',
+        'one-earth-eco-796',
+        'one-earth-eco-797',
+        'one-earth-eco-798',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are Mediterranean with hot, dry summers and mild winters, annual rainfall from about 250 mm in the driest woodlands to over 2,000 mm at high elevations.',
+      },
+      sourceIds: [
+        'one-earth-pa23',
+        'one-earth-eco-701',
+        'one-earth-eco-758',
+        'one-earth-eco-796',
+        'one-earth-eco-797',
+        'one-earth-eco-798',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Mediterranean conifer and mixed forests including Atlas cedar',
+        'High Atlas juniper steppe',
+        'acacia-argania dry woodlands and succulent thickets',
+        'Mediterranean dry woodlands and steppe with holm oak forest',
+      ],
+      sourceIds: [
+        'one-earth-pa23',
+        'one-earth-eco-701',
+        'one-earth-eco-758',
+        'one-earth-eco-796',
+        'one-earth-eco-797',
+        'one-earth-eco-798',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Cuvier\'s gazelle persistence in wooded Mediterranean steppe',
+        'Barbary macaque as one of the last rare endemic mammals',
+        'aoudad and Dorcas gazelle populations in the dry woodlands',
+        'heavy conversion by agriculture and grazing',
+      ],
+      sourceIds: [
+        'one-earth-pa23',
+        'one-earth-eco-701',
+        'one-earth-eco-758',
+        'one-earth-eco-796',
+        'one-earth-eco-797',
+        'one-earth-eco-798',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 21% with a protection level of 7. Threats include deforestation, illegal firewood collection, overgrazing, agricultural conversion, fire and political instability.',
+      sourceIds: [
+        'one-earth-pa23',
+        'one-earth-eco-701',
+        'one-earth-eco-758',
+        'one-earth-eco-796',
+        'one-earth-eco-797',
+        'one-earth-eco-798',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:cuviers-gazelle',
+      'species:barbary-macaque',
+      'species:aoudad',
+      'species:dorcas-gazelle',
+      'species:golden-jackal',
+    ],
+    countryIds: ['MA', 'DZ', 'TN', 'LY', 'EG', 'EH', 'ES'],
+    sources: [
+      'one-earth-pa23',
+      'one-earth-eco-701',
+      'one-earth-eco-758',
+      'one-earth-eco-796',
+      'one-earth-eco-797',
+      'one-earth-eco-798',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa24',
+    summary: {
+      value:
+        'Northern Sahara Deserts, Savannas and Marshes (PA24) joins seven ecoregions of the North Africa subrealm across Egypt, Algeria, Tunisia, Mauritania, Libya, Morocco, Western Sahara, Niger, Chad, Sudan and the western Canary Islands of Spain, totalling approximately 404.5 million hectares. Vast hyper-arid desert plains, ergs, hamadas and saline chotts are broken by oases and seasonal floodplains, the irrigation-fed floodplains of the Nile valley and delta, and volcanic islands holding relict dry woodland flora.',
+      sourceIds: [
+        'one-earth-pa24',
+        'one-earth-eco-744',
+        'one-earth-eco-787',
+        'one-earth-eco-822',
+        'one-earth-eco-833',
+        'one-earth-eco-839',
+        'one-earth-eco-845',
+        'one-earth-eco-745',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'seven ecoregions totaling approximately 404.5 million hectares',
+        'vast hyper-arid desert plains, regs, hamadas and erg sand seas',
+        'saline depressions and chotts of the Saharan Halophytics',
+        'Nile valley and delta floodplains carrying most of Egypt\'s cropland',
+        'western Canary Islands with relict dry woodland flora',
+      ],
+      sourceIds: [
+        'one-earth-pa24',
+        'one-earth-eco-744',
+        'one-earth-eco-787',
+        'one-earth-eco-822',
+        'one-earth-eco-833',
+        'one-earth-eco-839',
+        'one-earth-eco-845',
+        'one-earth-eco-745',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are hyper-arid with summer highs over 50°C and winter nights below freezing, annual rainfall from under 25 mm in the central Sahara to 100 to 200 mm on the Nile floodplain and up to 650 mm on the Canaries.',
+      },
+      sourceIds: [
+        'one-earth-pa24',
+        'one-earth-eco-744',
+        'one-earth-eco-787',
+        'one-earth-eco-822',
+        'one-earth-eco-833',
+        'one-earth-eco-839',
+        'one-earth-eco-845',
+        'one-earth-eco-745',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'azonal halophytic vegetation of the Saharan salt depressions',
+        'xerophytic shrubs and ephemerals of the desert plains',
+        'Nile floodplain and delta wetlands',
+        'relict dry woodland flora on the western Canary Islands',
+      ],
+      sourceIds: [
+        'one-earth-pa24',
+        'one-earth-eco-744',
+        'one-earth-eco-787',
+        'one-earth-eco-822',
+        'one-earth-eco-833',
+        'one-earth-eco-839',
+        'one-earth-eco-845',
+        'one-earth-eco-745',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Palearctic-Afrotropical bird migration and wintering across the bioregion',
+        'lesser and greater flamingo nesting at the Siwa lakes',
+        'Nubian sandstone aquifer feeding the oasis marshlands',
+        'remaining gazelle and fennec fox populations across the desert',
+      ],
+      sourceIds: [
+        'one-earth-pa24',
+        'one-earth-eco-744',
+        'one-earth-eco-787',
+        'one-earth-eco-822',
+        'one-earth-eco-833',
+        'one-earth-eco-839',
+        'one-earth-eco-845',
+        'one-earth-eco-745',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 41% with a protection level of 1. Threats include desertification from climate change, water overexploitation, expanding irrigated cropland and hunting.',
+      sourceIds: [
+        'one-earth-pa24',
+        'one-earth-eco-744',
+        'one-earth-eco-787',
+        'one-earth-eco-822',
+        'one-earth-eco-833',
+        'one-earth-eco-839',
+        'one-earth-eco-845',
+        'one-earth-eco-745',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:egyptian-tortoise',
+      'species:fennec-fox',
+      'species:dorcas-gazelle',
+      'species:dama-gazelle',
+      'species:desert-monitor',
+    ],
+    countryIds: ['EG', 'DZ', 'TN', 'MA', 'MR', 'LY', 'EH', 'NE', 'TD', 'SD', 'ES'],
+    sources: [
+      'one-earth-pa24',
+      'one-earth-eco-744',
+      'one-earth-eco-787',
+      'one-earth-eco-822',
+      'one-earth-eco-833',
+      'one-earth-eco-839',
+      'one-earth-eco-845',
+      'one-earth-eco-745',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa25',
+    summary: {
+      value:
+        'Southern Sahara Deserts and Mountain Woodlands (PA25) joins four ecoregions of the North Africa subrealm across Algeria, Mauritania, Sudan, Niger, Mali, Chad, Egypt, Western Sahara and Libya, totalling approximately 329.9 million hectares. Isolated volcanic highlands — the Aïr, Tibesti, Jebel Uweinat, Hoggar and Tassili n\'Ajjer — rise as sky islands above gravelly and sandy plains, trapping moisture for relict Mediterranean-affinity woodlands and sheltering addax, dama gazelle and the extinct-in-the-wild scimitar-horned oryx.',
+      sourceIds: [
+        'one-earth-pa25',
+        'one-earth-eco-823',
+        'one-earth-eco-842',
+        'one-earth-eco-844',
+        'one-earth-eco-846',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'four ecoregions totaling approximately 329.9 million hectares',
+        'gravelly and sandy desert crossed by scattered dry watercourses',
+        'isolated volcanic highlands of the Aïr, Tibesti, Jebel Uweinat and Hoggar',
+        'Emi Koussi at 3,415 m, the highest mountain in the Sahara',
+      ],
+      sourceIds: [
+        'one-earth-pa25',
+        'one-earth-eco-823',
+        'one-earth-eco-842',
+        'one-earth-eco-844',
+        'one-earth-eco-846',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are hyper-arid with mean annual temperatures over 30°C and summer highs exceeding 50°C, annual rainfall mostly under 100 mm but rising to 600 mm and more on the mountain tops.',
+      },
+      sourceIds: [
+        'one-earth-pa25',
+        'one-earth-eco-823',
+        'one-earth-eco-842',
+        'one-earth-eco-844',
+        'one-earth-eco-846',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'relict Mediterranean-affinity woodlands on the mountain blocks',
+        'sparse xerophytic shrubland of the surrounding lowlands',
+        'date palm and doum palm oases',
+        'gueltas supporting relict fish and reptile populations',
+      ],
+      sourceIds: [
+        'one-earth-pa25',
+        'one-earth-eco-823',
+        'one-earth-eco-842',
+        'one-earth-eco-844',
+        'one-earth-eco-846',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'addax, dama gazelle and scimitar-horned oryx characteristic of the former Saharan fauna',
+        'Saharan cheetah persisting on the mountain ranges',
+        'gueltas holding relicts such as West African crocodiles',
+        'sympatry of aoudad, Dorcas gazelle and fennec fox',
+      ],
+      sourceIds: [
+        'one-earth-pa25',
+        'one-earth-eco-823',
+        'one-earth-eco-842',
+        'one-earth-eco-844',
+        'one-earth-eco-846',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 37% with a protection level of 2. Threats include poaching, livestock poisoning of cheetah and striped hyena, oil, gold and uranium extraction, and conflict-related instability.',
+      sourceIds: [
+        'one-earth-pa25',
+        'one-earth-eco-823',
+        'one-earth-eco-842',
+        'one-earth-eco-844',
+        'one-earth-eco-846',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:addax',
+      'species:dama-gazelle',
+      'species:scimitar-horned-oryx',
+      'species:aoudad',
+      'species:saharan-cheetah',
+    ],
+    countryIds: ['DZ', 'MR', 'SD', 'NE', 'ML', 'TD', 'EG', 'EH', 'LY'],
+    sources: [
+      'one-earth-pa25',
+      'one-earth-eco-823',
+      'one-earth-eco-842',
+      'one-earth-eco-844',
+      'one-earth-eco-846',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa26',
+    summary: {
+      value:
+        'Red Sea, Arabian Deserts and Salt Marshes (PA26) joins fifteen ecoregions of the Greater Arabian Peninsula subrealm across the countries of the Arabian Peninsula and Levant, totalling approximately 332.9 million hectares. The great sand seas of the Rub\' al-Khali and an-Nafud, gravel plains, basalt lava fields, the Al-Hajar mountains, Red Sea coastal deserts and Tigris-Euphrates alluvial salt marshes support relict and endemic fauna — Arabian tahr, sand cat, houbara bustard and Socotra cormorant — alongside the reintroduced Arabian oryx.',
+      sourceIds: [
+        'one-earth-pa26',
+        'one-earth-eco-722',
+        'one-earth-eco-723',
+        'one-earth-eco-739',
+        'one-earth-eco-747',
+        'one-earth-eco-809',
+        'one-earth-eco-810',
+        'one-earth-eco-811',
+        'one-earth-eco-821',
+        'one-earth-eco-830',
+        'one-earth-eco-831',
+        'one-earth-eco-832',
+        'one-earth-eco-836',
+        'one-earth-eco-837',
+        'one-earth-eco-840',
+        'one-earth-eco-115',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'fifteen ecoregions totaling approximately 332.9 million hectares',
+        'Rub\' al-Khali Empty Quarter and an-Nafud sand seas',
+        'gravel plains and basalt lava fields of the north',
+        'Al-Hajar mountains and Hisma sandstone tablelands',
+        'Red Sea mangrove-fringed coasts and Tigris-Euphrates salt marshes',
+      ],
+      sourceIds: [
+        'one-earth-pa26',
+        'one-earth-eco-722',
+        'one-earth-eco-723',
+        'one-earth-eco-739',
+        'one-earth-eco-747',
+        'one-earth-eco-809',
+        'one-earth-eco-810',
+        'one-earth-eco-811',
+        'one-earth-eco-821',
+        'one-earth-eco-830',
+        'one-earth-eco-831',
+        'one-earth-eco-832',
+        'one-earth-eco-836',
+        'one-earth-eco-837',
+        'one-earth-eco-840',
+        'one-earth-eco-115',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are among the hottest and driest on Earth with summer temperatures exceeding 50°C, and annual rainfall mostly under 100 mm but up to 400 mm in the Al-Hajar mountains.',
+      },
+      sourceIds: [
+        'one-earth-pa26',
+        'one-earth-eco-722',
+        'one-earth-eco-723',
+        'one-earth-eco-739',
+        'one-earth-eco-747',
+        'one-earth-eco-809',
+        'one-earth-eco-810',
+        'one-earth-eco-811',
+        'one-earth-eco-821',
+        'one-earth-eco-830',
+        'one-earth-eco-831',
+        'one-earth-eco-832',
+        'one-earth-eco-836',
+        'one-earth-eco-837',
+        'one-earth-eco-840',
+        'one-earth-eco-115',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'mangrove stands of the Red Sea and Arabian-Persian Gulf coasts',
+        'acacia, ghaf and haloxylon shrublands of the gravel plains',
+        'halophytic salt marsh vegetation of the inland depressions',
+        'juniper and montane woodlands of the Arabian highlands',
+      ],
+      sourceIds: [
+        'one-earth-pa26',
+        'one-earth-eco-722',
+        'one-earth-eco-723',
+        'one-earth-eco-739',
+        'one-earth-eco-747',
+        'one-earth-eco-809',
+        'one-earth-eco-810',
+        'one-earth-eco-811',
+        'one-earth-eco-821',
+        'one-earth-eco-830',
+        'one-earth-eco-831',
+        'one-earth-eco-832',
+        'one-earth-eco-836',
+        'one-earth-eco-837',
+        'one-earth-eco-840',
+        'one-earth-eco-115',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Arabian oryx reintroduction into protected reserves after extinction in the wild',
+        'sooty falcon and Socotra cormorant breeding colonies along the coasts',
+        'world\'s second-largest dugong population off Hawar Island',
+        'Palearctic-Afrotropical bird migration and wintering across the deserts',
+      ],
+      sourceIds: [
+        'one-earth-pa26',
+        'one-earth-eco-722',
+        'one-earth-eco-723',
+        'one-earth-eco-739',
+        'one-earth-eco-747',
+        'one-earth-eco-809',
+        'one-earth-eco-810',
+        'one-earth-eco-811',
+        'one-earth-eco-821',
+        'one-earth-eco-830',
+        'one-earth-eco-831',
+        'one-earth-eco-832',
+        'one-earth-eco-836',
+        'one-earth-eco-837',
+        'one-earth-eco-840',
+        'one-earth-eco-115',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 44% with a protection level of 1. Threats include overgrazing, hunting and off-road driving, oil and gas exploration, and coastal development.',
+      sourceIds: [
+        'one-earth-pa26',
+        'one-earth-eco-722',
+        'one-earth-eco-723',
+        'one-earth-eco-739',
+        'one-earth-eco-747',
+        'one-earth-eco-809',
+        'one-earth-eco-810',
+        'one-earth-eco-811',
+        'one-earth-eco-821',
+        'one-earth-eco-830',
+        'one-earth-eco-831',
+        'one-earth-eco-832',
+        'one-earth-eco-836',
+        'one-earth-eco-837',
+        'one-earth-eco-840',
+        'one-earth-eco-115',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:arabian-tahr',
+      'species:arabian-oryx',
+      'species:sand-cat',
+      'species:arabian-gazelle',
+      'species:socotra-cormorant',
+      'species:houbara-bustard',
+    ],
+    countryIds: ['BH', 'EG', 'IR', 'IQ', 'IL', 'JO', 'KW', 'OM', 'PS', 'QA', 'SA', 'SD', 'SY', 'TR', 'AE', 'YE'],
+    sources: [
+      'one-earth-pa26',
+      'one-earth-eco-722',
+      'one-earth-eco-723',
+      'one-earth-eco-739',
+      'one-earth-eco-747',
+      'one-earth-eco-809',
+      'one-earth-eco-810',
+      'one-earth-eco-811',
+      'one-earth-eco-821',
+      'one-earth-eco-830',
+      'one-earth-eco-831',
+      'one-earth-eco-832',
+      'one-earth-eco-836',
+      'one-earth-eco-837',
+      'one-earth-eco-840',
+      'one-earth-eco-115',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa27',
+    summary: {
+      value:
+        'Zagros Mountain Forests and East Anatolian Steppe (PA27) joins two ecoregions of the Persian Deserts and Forests subrealm across Iran, Iraq, Turkey, Armenia, Georgia and Azerbaijan, totalling approximately 56.7 million hectares. The great mountain arc from eastern Anatolia across the Kurdish-Zagros ranges joins cold continental montane steppe with oak-dominated forest-steppe, supporting wild goat, Gmelin\'s mouflon, goitered gazelle, Syrian brown bear and striped hyena.',
+      sourceIds: ['one-earth-pa27', 'one-earth-eco-688', 'one-earth-eco-727'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'two ecoregions totaling approximately 56.7 million hectares',
+        'Zagros arc from southeast Turkey across northern Iraq into western Iran',
+        'Mount Ararat at 5,317 m and Kuh-e-Dinar at 4,276 m',
+        'Lake Van and Lake Urmia saline lakes ringed by steppe',
+      ],
+      sourceIds: ['one-earth-pa27', 'one-earth-eco-688', 'one-earth-eco-727'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are continental with extremely cold winters and semi-arid to arid summers, annual precipitation of 400 to 800 mm in the Zagros and extreme cold on the Eastern Anatolian montane steppe.',
+      },
+      sourceIds: ['one-earth-pa27', 'one-earth-eco-688', 'one-earth-eco-727'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'oak-dominated forest-steppe of the Zagros',
+        'juniper-almond woodlands with pistachio-rose understory',
+        'steppes of feather grasses, fescues and sea-lavenders',
+        'saline steppes around Lake Van and Lake Urmia',
+      ],
+      sourceIds: ['one-earth-pa27', 'one-earth-eco-688', 'one-earth-eco-727'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'wild relatives of domesticated crops in the Zagros',
+        'Gmelin\'s mouflon as an ancestral wild sheep',
+        'transhumant herding shaping the steppe-forest mosaic for millennia',
+        'retaliatory killing and trapping threatening carnivores',
+      ],
+      sourceIds: ['one-earth-pa27', 'one-earth-eco-688', 'one-earth-eco-727'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 8% with a protection level of 6. Threats include overgrazing, poaching and trapping, retaliatory killing of carnivores, dam construction and water overexploitation.',
+      sourceIds: ['one-earth-pa27', 'one-earth-eco-688', 'one-earth-eco-727'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:gmelins-mouflon',
+      'species:syrian-brown-bear',
+      'species:persian-leopard',
+      'species:wild-goat',
+      'species:goitered-gazelle',
+    ],
+    countryIds: ['IR', 'IQ', 'TR', 'AM', 'GE', 'AZ'],
+    sources: ['one-earth-pa27', 'one-earth-eco-688', 'one-earth-eco-727'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa28',
+    summary: {
+      value:
+        'South Caspian Coastal and Mountain Mixed Forests (PA28) joins two ecoregions of the Persian Deserts and Forests subrealm across Iran and Azerbaijan, totalling approximately 11.9 million hectares. The Hyrcanian broadleaf forests, a UNESCO World Heritage site, hold relict species such as Persian ironwood, silk tree and Caucasian zelkova, grading upward into the Elburz range forest-steppe and alpine steppe — the Iranian stronghold of the Persian leopard and Syrian brown bear.',
+      sourceIds: ['one-earth-pa28', 'one-earth-eco-649', 'one-earth-eco-695'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'two ecoregions totaling approximately 11.9 million hectares',
+        'narrow wet green band along the south Caspian shore and Elburz mountains',
+        'Mount Damavand at 5,766 m, Iran\'s highest peak',
+        '800 km belt of deciduous forest on the northern Elburz slopes',
+      ],
+      sourceIds: ['one-earth-pa28', 'one-earth-eco-649', 'one-earth-eco-695'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are semi-subtropical and humid near the Caspian, grading to arid with extreme winter cold and 150 to 300 mm annual precipitation on the Elburz slopes.',
+      },
+      sourceIds: ['one-earth-pa28', 'one-earth-eco-649', 'one-earth-eco-695'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Hyrcanian broadleaf mixed forest with Persian ironwood, silk tree and Caucasian zelkova',
+        'oak, cypress and juniper woodland of the Elburz forest-steppe',
+        'alpine steppe at high elevations',
+        'post-Pleistocene refuge forests known as the mother of European forests',
+      ],
+      sourceIds: ['one-earth-pa28', 'one-earth-eco-649', 'one-earth-eco-695'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Persian leopard stronghold in Iran with about 20 individuals in Golestan National Park',
+        'Syrian brown bear refuge with 500 to 1,000 individuals in Iran',
+        'relict species surviving from the post-Pleistocene forest refuge',
+        'unsustainable agriculture and felling clearing the forests',
+      ],
+      sourceIds: ['one-earth-pa28', 'one-earth-eco-649', 'one-earth-eco-695'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 20% with a protection level of 6. Threats include unsustainable agriculture, felling, urban development, road construction, illegal hunting and retaliatory killing.',
+      sourceIds: ['one-earth-pa28', 'one-earth-eco-649', 'one-earth-eco-695'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:syrian-brown-bear',
+      'species:persian-leopard',
+      'species:red-deer',
+      'species:wild-goat',
+      'species:goitered-gazelle',
+    ],
+    countryIds: ['IR', 'AZ'],
+    sources: ['one-earth-pa28', 'one-earth-eco-649', 'one-earth-eco-695'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa29',
+    summary: {
+      value:
+        'Persian Deserts and Mountain Woodlands (PA29) joins four ecoregions of the Persian Deserts and Forests subrealm across Iran, Pakistan, Afghanistan and Iraq, totalling approximately 133.9 million hectares. The Dasht-e Kavir and Dasht-e Lut, among the hottest and driest deserts on Earth, ringed by dry mountain ranges, support the last wild Asiatic cheetah in Iran alongside the Iranian ground jay, onager and goitered gazelle.',
+      sourceIds: [
+        'one-earth-pa29',
+        'one-earth-eco-757',
+        'one-earth-eco-820',
+        'one-earth-eco-838',
+        'one-earth-eco-841',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'four ecoregions totaling approximately 133.9 million hectares',
+        'Dasht-e Kavir and Dasht-e Lut desert basins',
+        'Kuh Rud and eastern Iran montane woodlands',
+        'Registan-North Pakistan sandy desert',
+        'South Iran Nubo-Sindian desert reaching the Gulf of Oman',
+      ],
+      sourceIds: [
+        'one-earth-pa29',
+        'one-earth-eco-757',
+        'one-earth-eco-820',
+        'one-earth-eco-838',
+        'one-earth-eco-841',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are continental deserts with extreme temperatures, surface readings known to reach 70°C, and annual rainfall from under 100 mm to about 400 mm.',
+      },
+      sourceIds: [
+        'one-earth-pa29',
+        'one-earth-eco-757',
+        'one-earth-eco-820',
+        'one-earth-eco-838',
+        'one-earth-eco-841',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'salt flats, gravel plains and sweeping sand seas',
+        'pistachio-almond and juniper woodland on the mountain fringes',
+        'Nubo-Sindian shrubland of Euphorbia larica along the shores',
+        'dwarf scrub, saltworts and saxaul in the central basins',
+      ],
+      sourceIds: [
+        'one-earth-pa29',
+        'one-earth-eco-757',
+        'one-earth-eco-820',
+        'one-earth-eco-838',
+        'one-earth-eco-841',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'last wild Asiatic cheetah populations surviving in Iran',
+        'Iranian ground jay and onager persistence in the basins',
+        'goitered gazelle remaining despite hunting pressure',
+        'overgrazing and illegal hunting pressure across the plateau',
+      ],
+      sourceIds: [
+        'one-earth-pa29',
+        'one-earth-eco-757',
+        'one-earth-eco-820',
+        'one-earth-eco-838',
+        'one-earth-eco-841',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 25% with a protection level of 3. Threats include overgrazing, illegal hunting, road mortality of cheetah, water diversion and dam construction.',
+      sourceIds: [
+        'one-earth-pa29',
+        'one-earth-eco-757',
+        'one-earth-eco-820',
+        'one-earth-eco-838',
+        'one-earth-eco-841',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:asiatic-cheetah',
+      'species:iranian-ground-jay',
+      'species:onager',
+      'species:goitered-gazelle',
+      'species:striped-hyena',
+      'species:caracal',
+    ],
+    countryIds: ['IR', 'PK', 'AF', 'IQ'],
+    sources: [
+      'one-earth-pa29',
+      'one-earth-eco-757',
+      'one-earth-eco-820',
+      'one-earth-eco-838',
+      'one-earth-eco-841',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa30',
+    summary: {
+      value:
+        'Afghan-Balochistan Drylands, Mountain Meadows and Conifer Forests (PA30) joins eight ecoregions of the Persian Deserts and Forests subrealm across Afghanistan, Pakistan, Turkmenistan, Uzbekistan, Tajikistan and Iran, totalling approximately 78.0 million hectares. Highland meadows, relict juniper and cedar conifer forests, dry steppe and desert support urial, markhor, the marbled polecat and a rich montane avifauna, long shaped by pastoralism and increasingly threatened by drought, overgrazing and conflict-related degradation.',
+      sourceIds: [
+        'one-earth-pa30',
+        'one-earth-eco-813',
+        'one-earth-eco-834',
+        'one-earth-eco-807',
+        'one-earth-eco-752',
+        'one-earth-eco-816',
+        'one-earth-eco-694',
+        'one-earth-eco-766',
+        'one-earth-eco-814',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'eight ecoregions totaling approximately 78.0 million hectares',
+        'Badghyz and Karabil semi-deserts of the Turkmen-Afghan borderlands',
+        'Paropamisus xeric woodlands and Hindu Kush foothills',
+        'Sulaiman Range alpine meadows and Balochistan xeric woodlands',
+        'relict juniper and Chilgoza pine forests',
+      ],
+      sourceIds: [
+        'one-earth-pa30',
+        'one-earth-eco-813',
+        'one-earth-eco-834',
+        'one-earth-eco-807',
+        'one-earth-eco-752',
+        'one-earth-eco-816',
+        'one-earth-eco-694',
+        'one-earth-eco-766',
+        'one-earth-eco-814',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are cold semi-arid to desert with winter minima below -11°C and summer maxima over 40°C, annual precipitation from 225 mm to over 500 mm.',
+      },
+      sourceIds: [
+        'one-earth-pa30',
+        'one-earth-eco-813',
+        'one-earth-eco-834',
+        'one-earth-eco-807',
+        'one-earth-eco-752',
+        'one-earth-eco-816',
+        'one-earth-eco-694',
+        'one-earth-eco-766',
+        'one-earth-eco-814',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'relict juniper and cedar conifer forests',
+        'dry steppe and alpine meadow vegetation',
+        'savanna-like wild pistachio plateaus',
+        'Amygdalus semi-desert shrublands',
+      ],
+      sourceIds: [
+        'one-earth-pa30',
+        'one-earth-eco-813',
+        'one-earth-eco-834',
+        'one-earth-eco-807',
+        'one-earth-eco-752',
+        'one-earth-eco-816',
+        'one-earth-eco-694',
+        'one-earth-eco-766',
+        'one-earth-eco-814',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'marbled polecat persistence across the steppes',
+        'urial and markhor populations in the mountain systems',
+        'pastoralism shaping the landscape for millennia',
+        'drought, overgrazing and conflict-related degradation',
+      ],
+      sourceIds: [
+        'one-earth-pa30',
+        'one-earth-eco-813',
+        'one-earth-eco-834',
+        'one-earth-eco-807',
+        'one-earth-eco-752',
+        'one-earth-eco-816',
+        'one-earth-eco-694',
+        'one-earth-eco-766',
+        'one-earth-eco-814',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 8% with a protection level of 2. Threats include drought, overgrazing, illegal logging and fuelwood collection, conflict-related degradation and weak protected-area effectiveness.',
+      sourceIds: [
+        'one-earth-pa30',
+        'one-earth-eco-813',
+        'one-earth-eco-834',
+        'one-earth-eco-807',
+        'one-earth-eco-752',
+        'one-earth-eco-816',
+        'one-earth-eco-694',
+        'one-earth-eco-766',
+        'one-earth-eco-814',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:marbled-polecat',
+      'species:afghan-urial',
+      'species:kabul-markhor',
+      'species:chiltan-markhor',
+      'species:sind-ibex',
+      'species:snow-leopard',
+    ],
+    countryIds: ['AF', 'PK', 'TM', 'UZ', 'TJ', 'IR'],
+    sources: [
+      'one-earth-pa30',
+      'one-earth-eco-813',
+      'one-earth-eco-834',
+      'one-earth-eco-807',
+      'one-earth-eco-752',
+      'one-earth-eco-816',
+      'one-earth-eco-694',
+      'one-earth-eco-766',
+      'one-earth-eco-814',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa31',
+    summary: {
+      value:
+        'The Tian Shan-Pamir Grasslands, Mountain Steppe & Conifer Forests (PA31) joins five ecoregions of the Tien Shan Mountains subrealm in the Central Eurasia realm across China, Kyrgyzstan, Kazakhstan, Uzbekistan, Tajikistan, Turkmenistan and Afghanistan, totaling more than 73 million hectares. Spruce-dominated montane conifer forests, open woodlands, foothill arid steppe and montane steppe support the saiga antelope, Siberian ibex, argali and snow leopard along the latitudinal spine of the range.',
+      sourceIds: [
+        'one-earth-pa31',
+        'one-earth-eco-709',
+        'one-earth-eco-721',
+        'one-earth-eco-730',
+        'one-earth-eco-740',
+        'one-earth-eco-767',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'five ecoregions totaling more than 73 million hectares',
+        '2,500 km Tian Shan range of spruce-dominated montane conifer forest',
+        'Gissaro-Alai open woodlands and Tian Shan foothill arid steppe',
+        'montane steppe and meadow belts of the high Tien Shan',
+      ],
+      sourceIds: [
+        'one-earth-pa31',
+        'one-earth-eco-709',
+        'one-earth-eco-721',
+        'one-earth-eco-730',
+        'one-earth-eco-740',
+        'one-earth-eco-767',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are cold and continental, with the Tian Shan forest band limited to a 1,500-2,700 m belt and the Alai-Western Tian Shan steppe averaging about 13.6C annually with about 329 mm of rainfall.',
+      },
+      sourceIds: [
+        'one-earth-pa31',
+        'one-earth-eco-709',
+        'one-earth-eco-721',
+        'one-earth-eco-730',
+        'one-earth-eco-740',
+        'one-earth-eco-767',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'spruce-dominated montane conifer forests of the Tian Shan',
+        'open woodlands of the Gissaro-Alai',
+        'foothill arid steppe and montane steppe',
+        'alpine meadow communities of the high Tien Shan',
+      ],
+      sourceIds: [
+        'one-earth-pa31',
+        'one-earth-eco-709',
+        'one-earth-eco-721',
+        'one-earth-eco-730',
+        'one-earth-eco-740',
+        'one-earth-eco-767',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'saiga antelope as the iconic species of the steppes',
+        'Siberian ibex and argali as snow leopard prey',
+        'golden eagle, steppe eagle and bearded vulture raptor community',
+        'overgrazing and unsustainable hunting as the main pressures',
+      ],
+      sourceIds: [
+        'one-earth-pa31',
+        'one-earth-eco-709',
+        'one-earth-eco-721',
+        'one-earth-eco-730',
+        'one-earth-eco-740',
+        'one-earth-eco-767',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 37% with a protection level of 2. Threats include unsustainable hunting, overgrazing at higher elevations and steppe degradation across the montane belt.',
+      sourceIds: [
+        'one-earth-pa31',
+        'one-earth-eco-709',
+        'one-earth-eco-721',
+        'one-earth-eco-730',
+        'one-earth-eco-740',
+        'one-earth-eco-767',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:saiga-antelope',
+      'species:siberian-ibex',
+      'species:snow-leopard',
+      'species:golden-eagle',
+      'species:bearded-vulture',
+      'species:argali',
+      'species:steppe-eagle',
+    ],
+    countryIds: ['CN', 'KG', 'KZ', 'UZ', 'TJ', 'TM', 'AF'],
+    sources: [
+      'one-earth-pa31',
+      'one-earth-eco-709',
+      'one-earth-eco-721',
+      'one-earth-eco-730',
+      'one-earth-eco-740',
+      'one-earth-eco-767',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa32',
+    summary: {
+      value:
+        'The Central Asian Deserts & Riparian Woodlands (PA32) joins four ecoregions of the Caspian Sea & Central Asian Deserts subrealm in the Central Eurasia realm across Kazakhstan, Uzbekistan, Kyrgyzstan and Turkmenistan, totaling approximately 200 million hectares. Northern and southern deserts, the Kazakh semi-desert and the riparian woodlands of the great river valleys support the toadhead agama, saiga antelope, goitered gazelle and sand cat.',
+      sourceIds: [
+        'one-earth-pa32',
+        'one-earth-eco-817',
+        'one-earth-eco-818',
+        'one-earth-eco-819',
+        'one-earth-eco-828',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'four ecoregions totaling approximately 200 million hectares',
+        'the vast Central Asian northern and southern deserts',
+        'Kazakh semi-desert transition belt',
+        'riparian woodlands along the great river valleys',
+      ],
+      sourceIds: [
+        'one-earth-pa32',
+        'one-earth-eco-817',
+        'one-earth-eco-818',
+        'one-earth-eco-819',
+        'one-earth-eco-828',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are cold, continental deserts and semi-deserts with low precipitation, while the riparian woodlands depend on river flooding.',
+      },
+      sourceIds: [
+        'one-earth-pa32',
+        'one-earth-eco-817',
+        'one-earth-eco-818',
+        'one-earth-eco-819',
+        'one-earth-eco-828',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'saxaul and scrub of the northern and southern deserts',
+        'Kazakh semi-desert vegetation',
+        'tugai riparian woodland of the river valleys',
+        'salt flats and desert margins',
+      ],
+      sourceIds: [
+        'one-earth-pa32',
+        'one-earth-eco-817',
+        'one-earth-eco-818',
+        'one-earth-eco-819',
+        'one-earth-eco-828',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'toadhead agama as the iconic species',
+        'saiga antelope, goitered gazelle and desert-dormouse in the desert steppes',
+        'sand cat and corsac fox desert carnivores',
+        'Pallas\u2019s fish eagle associated with the riparian woodlands',
+      ],
+      sourceIds: [
+        'one-earth-pa32',
+        'one-earth-eco-817',
+        'one-earth-eco-818',
+        'one-earth-eco-819',
+        'one-earth-eco-828',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 52% with a protection level of 0. Threats include desertification, overgrazing, water diversion and the loss of tugai woodland.',
+      sourceIds: [
+        'one-earth-pa32',
+        'one-earth-eco-817',
+        'one-earth-eco-818',
+        'one-earth-eco-819',
+        'one-earth-eco-828',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:toadhead-agama',
+      'species:desert-dormouse',
+      'species:saiga-antelope',
+      'species:sand-cat',
+      'species:goitered-gazelle',
+      'species:pallas-fish-eagle',
+      'species:corsac-fox',
+    ],
+    countryIds: ['KZ', 'UZ', 'KG', 'TM'],
+    sources: [
+      'one-earth-pa32',
+      'one-earth-eco-817',
+      'one-earth-eco-818',
+      'one-earth-eco-819',
+      'one-earth-eco-828',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa33',
+    summary: {
+      value:
+        'The Caspian Sea, Coastal Deserts & Kopet Dagh Mountain Woodlands (PA33) joins four ecoregions of the Caspian Sea & Central Asian Deserts subrealm in the Central Eurasia realm across Turkmenistan, Iran, Azerbaijan, Georgia, Kazakhstan and Russia, totaling approximately 41.5 million hectares. The iconic Caspian seal shares the basin with the Kopet Dagh juniper woodlands of Persia and leopard, while coastal desert and shrub steppe hold urial, onager and goitered gazelle.',
+      sourceIds: [
+        'one-earth-pa33',
+        'one-earth-eco-756',
+        'one-earth-eco-812',
+        'one-earth-eco-815',
+        'one-earth-eco-829',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'four ecoregions totaling approximately 41.5 million hectares',
+        'the Caspian basin and its coastal lowland desert',
+        'Kopet Dagh mountain woodlands and forest steppe',
+        'Azerbaijan shrub desert and steppe',
+      ],
+      sourceIds: [
+        'one-earth-pa33',
+        'one-earth-eco-756',
+        'one-earth-eco-812',
+        'one-earth-eco-815',
+        'one-earth-eco-829',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from Caspian coastal desert and semi-desert to the mountain woodland climate of the Kopet Dagh.',
+      },
+      sourceIds: [
+        'one-earth-pa33',
+        'one-earth-eco-756',
+        'one-earth-eco-812',
+        'one-earth-eco-815',
+        'one-earth-eco-829',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Kopet Dagh juniper woodlands and forest steppe',
+        'Caspian lowland desert vegetation',
+        'Azerbaijan shrub desert and steppe',
+        'semi-desert scrub of the Kopet Dagh foothills',
+      ],
+      sourceIds: [
+        'one-earth-pa33',
+        'one-earth-eco-756',
+        'one-earth-eco-812',
+        'one-earth-eco-815',
+        'one-earth-eco-829',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Caspian seal as the iconic species of the Caspian basin',
+        'Persian leopard and wild goat in the Kopet Dagh',
+        'urial and onager in the desert steppes',
+        'sand cat and goitered gazelle of the lowland deserts',
+      ],
+      sourceIds: [
+        'one-earth-pa33',
+        'one-earth-eco-756',
+        'one-earth-eco-812',
+        'one-earth-eco-815',
+        'one-earth-eco-829',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 44% with a protection level of 1. Threats include overgrazing, hunting, habitat fragmentation and pressures on the Caspian ecosystem.',
+      sourceIds: [
+        'one-earth-pa33',
+        'one-earth-eco-756',
+        'one-earth-eco-812',
+        'one-earth-eco-815',
+        'one-earth-eco-829',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:caspian-seal',
+      'species:sand-cat',
+      'species:goitered-gazelle',
+      'species:persian-leopard',
+      'species:urial',
+      'species:onager',
+      'species:wild-goat',
+    ],
+    countryIds: ['TM', 'IR', 'AZ', 'GE', 'KZ', 'RU'],
+    sources: [
+      'one-earth-pa33',
+      'one-earth-eco-756',
+      'one-earth-eco-812',
+      'one-earth-eco-815',
+      'one-earth-eco-829',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa36',
+    summary: {
+      value:
+        'The Sayan Mountains & Siberian Forest Steppe (PA36) joins four ecoregions of the Altai-Sayan Mountains subrealm in the Central Eurasia realm across Russia and Mongolia, totaling approximately 63.5 million hectares. Montane conifer forests, intermontane steppe, forest steppe and alpine meadows and tundra support the great grey owl, snow leopard, Siberian ibex and argali at the meeting of taiga and steppe.',
+      sourceIds: [
+        'one-earth-pa36',
+        'one-earth-eco-707',
+        'one-earth-eco-736',
+        'one-earth-eco-738',
+        'one-earth-eco-764',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'four ecoregions totaling approximately 63.5 million hectares',
+        'Sayan montane conifer forests',
+        'intermontane steppe and south Siberian forest steppe',
+        'alpine meadows and tundra of the high Sayan',
+      ],
+      sourceIds: [
+        'one-earth-pa36',
+        'one-earth-eco-707',
+        'one-earth-eco-736',
+        'one-earth-eco-738',
+        'one-earth-eco-764',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from montane taiga and alpine tundra to the cold, continental intermontane steppe.',
+      },
+      sourceIds: [
+        'one-earth-pa36',
+        'one-earth-eco-707',
+        'one-earth-eco-736',
+        'one-earth-eco-738',
+        'one-earth-eco-764',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'montane conifer forest of the Sayan ranges',
+        'intermontane and forest steppe vegetation',
+        'alpine meadows and tundra communities',
+        'wetland vegetation of the intermontane basins',
+      ],
+      sourceIds: [
+        'one-earth-pa36',
+        'one-earth-eco-707',
+        'one-earth-eco-736',
+        'one-earth-eco-738',
+        'one-earth-eco-764',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'great grey owl as the iconic species',
+        'snow leopard and Siberian ibex in the mountains',
+        'argali and Mongolian marmot in the steppe belts',
+        'Pallas\u2019s cat at the forest-steppe edge',
+      ],
+      sourceIds: [
+        'one-earth-pa36',
+        'one-earth-eco-707',
+        'one-earth-eco-736',
+        'one-earth-eco-738',
+        'one-earth-eco-764',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 49% with a protection level of 3. Threats include logging, overgrazing, poaching and habitat fragmentation.',
+      sourceIds: [
+        'one-earth-pa36',
+        'one-earth-eco-707',
+        'one-earth-eco-736',
+        'one-earth-eco-738',
+        'one-earth-eco-764',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:great-grey-owl',
+      'species:snow-leopard',
+      'species:siberian-ibex',
+      'species:mongolian-marmot',
+      'species:pallas-cat',
+      'species:argali',
+    ],
+    countryIds: ['RU', 'MN'],
+    sources: [
+      'one-earth-pa36',
+      'one-earth-eco-707',
+      'one-earth-eco-736',
+      'one-earth-eco-738',
+      'one-earth-eco-764',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa37',
+    summary: {
+      value:
+        'The Altai Mountains & Ermin Valley (PA37) joins four ecoregions of the Altai-Sayan Mountains subrealm in the Central Eurasia realm across Mongolia, Russia, China and Kazakhstan, totaling approximately 38.1 million hectares. Montane forest and forest steppe, steppe and semi-desert, the Emin Valley steppe and alpine meadow and tundra support the iconic Altai argali, snow leopard and Siberian ibex.',
+      sourceIds: [
+        'one-earth-pa37',
+        'one-earth-eco-690',
+        'one-earth-eco-724',
+        'one-earth-eco-728',
+        'one-earth-eco-749',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'four ecoregions totaling approximately 38.1 million hectares',
+        'Altai montane forest and forest steppe',
+        'Altai steppe and semi-desert with the Emin Valley steppe',
+        'alpine meadow and tundra of the high Altai',
+      ],
+      sourceIds: [
+        'one-earth-pa37',
+        'one-earth-eco-690',
+        'one-earth-eco-724',
+        'one-earth-eco-728',
+        'one-earth-eco-749',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are cold and continental, from montane forest to semi-desert under a strongly seasonal regime.',
+      },
+      sourceIds: [
+        'one-earth-pa37',
+        'one-earth-eco-690',
+        'one-earth-eco-724',
+        'one-earth-eco-728',
+        'one-earth-eco-749',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'montane forest and forest steppe of the Altai',
+        'steppe and semi-desert vegetation',
+        'Emin Valley steppe grassland',
+        'alpine meadow and tundra communities',
+      ],
+      sourceIds: [
+        'one-earth-pa37',
+        'one-earth-eco-690',
+        'one-earth-eco-724',
+        'one-earth-eco-728',
+        'one-earth-eco-749',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Altai argali as the iconic species',
+        'snow leopard and Siberian ibex in the mountains',
+        'demoiselle crane, dalmatian pelican and ferruginous duck of the steppe wetlands',
+        'Pallas\u2019s cat and steppe avifauna',
+      ],
+      sourceIds: [
+        'one-earth-pa37',
+        'one-earth-eco-690',
+        'one-earth-eco-724',
+        'one-earth-eco-728',
+        'one-earth-eco-749',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 46% with a protection level of 3. Threats include overgrazing, hunting and steppe conversion.',
+      sourceIds: [
+        'one-earth-pa37',
+        'one-earth-eco-690',
+        'one-earth-eco-724',
+        'one-earth-eco-728',
+        'one-earth-eco-749',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:argali',
+      'species:pallas-cat',
+      'species:siberian-ibex',
+      'species:snow-leopard',
+      'species:demoiselle-crane',
+      'species:dalmatian-pelican',
+      'species:ferruginous-duck',
+    ],
+    countryIds: ['MN', 'RU', 'CN', 'KZ'],
+    sources: [
+      'one-earth-pa37',
+      'one-earth-eco-690',
+      'one-earth-eco-724',
+      'one-earth-eco-728',
+      'one-earth-eco-749',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa38',
+    summary: {
+      value:
+        'The Junggar & Alashan Semi-deserts (PA38), in the East Asian Deserts subrealm of Eastern Eurasia, joins the Alashan Plateau Semi-Desert and the Junggar Basin Semi-Desert across China, Mongolia and Kazakhstan, totaling approximately 98 million hectares. Its iconic species is Przewalski\u2019s horse, and the semi-deserts support black stork, goitered gazelle, Asiatic wild ass and the rare Gobi bear.',
+      sourceIds: ['one-earth-pa38', 'one-earth-eco-808', 'one-earth-eco-827'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'two ecoregions totaling approximately 98 million hectares',
+        'Alashan Plateau semi-desert of the southern Gobi fringe',
+        'Junggar Basin semi-desert of northern Xinjiang',
+        'dune fields, oases and gravel plains of the two basins',
+      ],
+      sourceIds: ['one-earth-pa38', 'one-earth-eco-808', 'one-earth-eco-827'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are cold, continental semi-deserts with low and variable precipitation.',
+      },
+      sourceIds: ['one-earth-pa38', 'one-earth-eco-808', 'one-earth-eco-827'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'semi-desert scrub and saxaul communities',
+        'steppe-like grassland of the Alashan plateau',
+        'Junggar basin ephemeral and salt-fringe vegetation',
+        'oasis and riparian vegetation along the basin margins',
+      ],
+      sourceIds: ['one-earth-pa38', 'one-earth-eco-808', 'one-earth-eco-827'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Przewalski\u2019s horse as the iconic species',
+        'black stork and goitered gazelle in the semi-deserts',
+        'Gobi bear and Asiatic wild ass of the wider Gobi',
+        'snow leopard and Mongolian marmot at the montane fringe',
+      ],
+      sourceIds: ['one-earth-pa38', 'one-earth-eco-808', 'one-earth-eco-827'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 69% with a protection level of 2. Threats include water diversion, overgrazing, mining and infrastructure development across the semi-desert basins.',
+      sourceIds: ['one-earth-pa38', 'one-earth-eco-808', 'one-earth-eco-827'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:przewalskis-horse',
+      'species:black-stork',
+      'species:goitered-gazelle',
+      'species:gobi-bear',
+      'species:asiatic-wild-ass',
+      'species:mongolian-marmot',
+      'species:snow-leopard',
+    ],
+    countryIds: ['CN', 'MN', 'KZ'],
+    sources: ['one-earth-pa38', 'one-earth-eco-808', 'one-earth-eco-827'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa39',
+    summary: {
+      value:
+        'The Taklimakan Desert & Lowland Forests (PA39), in the East Asian Deserts subrealm of Eastern Eurasia, joins the Taklimakan Desert and the Tarim Basin deciduous forests and steppe of China, totaling approximately 79.8 million hectares. Its iconic species, the endemic Xinjiang ground jay, shares the basin with the wild Bactrian camel, goitered gazelle and gray wolf along the Tarim riparian corridor.',
+      sourceIds: ['one-earth-pa39', 'one-earth-eco-684', 'one-earth-eco-843'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'two ecoregions totaling approximately 79.8 million hectares',
+        'the Taklimakan Desert, one of the largest sand seas on Earth',
+        'Tarim Basin deciduous forests and steppe along the Tarim river',
+        'oases and desert margins of the Tarim basin',
+      ],
+      sourceIds: ['one-earth-pa39', 'one-earth-eco-684', 'one-earth-eco-843'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions are hyper-arid desert with cold winters and an extreme continental regime.',
+      },
+      sourceIds: ['one-earth-pa39', 'one-earth-eco-684', 'one-earth-eco-843'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'the shifting sand seas of the Taklimakan',
+        'Tarim basin lowland deciduous forest and steppe',
+        'desert scrub of the basin margins',
+        'oasis and riparian vegetation of the Tarim corridor',
+      ],
+      sourceIds: ['one-earth-pa39', 'one-earth-eco-684', 'one-earth-eco-843'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Xinjiang ground jay as the endemic flagship',
+        'wild Bactrian camel and goitered gazelle of the desert basins',
+        'gray wolf and argali of the Tarim margins',
+        'lowland forest dependent on river flow and ground water',
+      ],
+      sourceIds: ['one-earth-pa39', 'one-earth-eco-684', 'one-earth-eco-843'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 68% with a protection level of 3. Threats include water diversion, desertification and grazing pressure at the desert margins.',
+      sourceIds: ['one-earth-pa39', 'one-earth-eco-684', 'one-earth-eco-843'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:xinjiang-ground-jay',
+      'species:wild-bactrian-camel',
+      'species:goitered-gazelle',
+      'species:gray-wolf',
+      'species:argali',
+    ],
+    countryIds: ['CN'],
+    sources: ['one-earth-pa39', 'one-earth-eco-684', 'one-earth-eco-843'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa40',
+    summary: {
+      value:
+        'The Greater Tibetan Plateau (PA40), part of the Tibetan Plateau subrealm in the Eastern Eurasia realm, joins seven ecoregions totaling more than 202 million hectares across the plateau of China and into India. Its iconic Tibetan gazelle shares the high plateau with the Tibetan antelope, wild yak, blue sheep and snow leopard, while the Qilian Mountains hold conifer forests and the Qaidam basin a semi-desert core.',
+      sourceIds: [
+        'one-earth-pa40',
+        'one-earth-eco-705',
+        'one-earth-eco-750',
+        'one-earth-eco-759',
+        'one-earth-eco-763',
+        'one-earth-eco-765',
+        'one-earth-eco-768',
+        'one-earth-eco-835',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'seven ecoregions totaling more than 202 million hectares',
+        'central Tibetan Plateau alpine steppe and Kunlun alpine desert',
+        'Qilian Mountains conifer forests and subalpine meadows',
+        'Qaidam Basin semi-desert and southeastern Tibet shrublands',
+      ],
+      sourceIds: [
+        'one-earth-pa40',
+        'one-earth-eco-705',
+        'one-earth-eco-750',
+        'one-earth-eco-759',
+        'one-earth-eco-763',
+        'one-earth-eco-765',
+        'one-earth-eco-768',
+        'one-earth-eco-835',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from alpine steppe and desert to the semi-desert of the Qaidam Basin, all under the cold, high-altitude continental regime of the Tibetan Plateau.',
+      },
+      sourceIds: [
+        'one-earth-pa40',
+        'one-earth-eco-705',
+        'one-earth-eco-750',
+        'one-earth-eco-759',
+        'one-earth-eco-763',
+        'one-earth-eco-765',
+        'one-earth-eco-768',
+        'one-earth-eco-835',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'alpine steppe and shrublands of the central plateau',
+        'alpine desert of the Kunlun and Qaidam semi-desert',
+        'Qilian conifer forest and subalpine meadow',
+        'southeastern Tibet shrublands and meadows',
+      ],
+      sourceIds: [
+        'one-earth-pa40',
+        'one-earth-eco-705',
+        'one-earth-eco-750',
+        'one-earth-eco-759',
+        'one-earth-eco-763',
+        'one-earth-eco-765',
+        'one-earth-eco-768',
+        'one-earth-eco-835',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Tibetan gazelle as the iconic species',
+        'Tibetan antelope and wild yak herds of the high plateau',
+        'blue sheep and white-lipped deer with snow leopard predator',
+        'bar-headed goose among the plateau wetland avifauna',
+      ],
+      sourceIds: [
+        'one-earth-pa40',
+        'one-earth-eco-705',
+        'one-earth-eco-750',
+        'one-earth-eco-759',
+        'one-earth-eco-763',
+        'one-earth-eco-765',
+        'one-earth-eco-768',
+        'one-earth-eco-835',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 66% with a protection level of 5. Threats include poaching, overgrazing, mining and the impacts of climate change on the plateau.',
+      sourceIds: [
+        'one-earth-pa40',
+        'one-earth-eco-705',
+        'one-earth-eco-750',
+        'one-earth-eco-759',
+        'one-earth-eco-763',
+        'one-earth-eco-765',
+        'one-earth-eco-768',
+        'one-earth-eco-835',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:tibetan-gazelle',
+      'species:tibetan-antelope',
+      'species:blue-sheep',
+      'species:white-lipped-deer',
+      'species:wild-yak',
+      'species:snow-leopard',
+      'species:bar-headed-goose',
+    ],
+    countryIds: ['CN', 'IN'],
+    sources: [
+      'one-earth-pa40',
+      'one-earth-eco-705',
+      'one-earth-eco-750',
+      'one-earth-eco-759',
+      'one-earth-eco-763',
+      'one-earth-eco-765',
+      'one-earth-eco-768',
+      'one-earth-eco-835',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa41',
+    summary: {
+      value:
+        'The Himalayan-Pamir Alpine Shrub & Meadows (PA41), part of the Tibetan Plateau subrealm in the Eastern Eurasia realm, joins eight ecoregions across China, India, Bhutan, Nepal, Myanmar, Afghanistan, Pakistan, Tajikistan, Kyrgyzstan and Uzbekistan, totaling approximately 63.7 million hectares. Its iconic snow leopard is the apex predator of a vast alpine arena holding blue sheep, Himalayan tahr, Siberian ibex, markhor and the woolly flying squirrel.',
+      sourceIds: [
+        'one-earth-pa41',
+        'one-earth-eco-702',
+        'one-earth-eco-751',
+        'one-earth-eco-753',
+        'one-earth-eco-754',
+        'one-earth-eco-760',
+        'one-earth-eco-762',
+        'one-earth-eco-769',
+        'one-earth-eco-770',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'eight ecoregions totaling approximately 63.7 million hectares',
+        'the deepest river valley on Earth in the Zangbo Gorge',
+        'upper Indus catchment and Karakoram-West Tibetan alpine steppe',
+        'the cold-desert plateau of the northwestern Himalaya and Pamir',
+      ],
+      sourceIds: [
+        'one-earth-pa41',
+        'one-earth-eco-702',
+        'one-earth-eco-751',
+        'one-earth-eco-753',
+        'one-earth-eco-754',
+        'one-earth-eco-760',
+        'one-earth-eco-762',
+        'one-earth-eco-769',
+        'one-earth-eco-770',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from monsoon-fed eastern alpine shrub and meadows to the cold deserts of the northwestern Himalaya, Karakoram and Pamir.',
+      },
+      sourceIds: [
+        'one-earth-pa41',
+        'one-earth-eco-702',
+        'one-earth-eco-751',
+        'one-earth-eco-753',
+        'one-earth-eco-754',
+        'one-earth-eco-760',
+        'one-earth-eco-762',
+        'one-earth-eco-769',
+        'one-earth-eco-770',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'monsoon-fed alpine shrub and meadows of the eastern Himalaya',
+        'cold-desert scrub of the northwestern Himalaya and Pamir',
+        'alpine steppe of the Karakoram and upper Indus',
+        'arid steppe of the Yarlung Zangbo valley',
+      ],
+      sourceIds: [
+        'one-earth-pa41',
+        'one-earth-eco-702',
+        'one-earth-eco-751',
+        'one-earth-eco-753',
+        'one-earth-eco-754',
+        'one-earth-eco-760',
+        'one-earth-eco-762',
+        'one-earth-eco-769',
+        'one-earth-eco-770',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'snow leopard as the iconic apex predator',
+        'blue sheep, Himalayan tahr, Siberian ibex and markhor ungulates',
+        'woolly flying squirrel, the largest gliding mammal, at the eastern edge',
+        'alpine avifauna including Himalayan griffon and snowcocks',
+      ],
+      sourceIds: [
+        'one-earth-pa41',
+        'one-earth-eco-702',
+        'one-earth-eco-751',
+        'one-earth-eco-753',
+        'one-earth-eco-754',
+        'one-earth-eco-760',
+        'one-earth-eco-762',
+        'one-earth-eco-769',
+        'one-earth-eco-770',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 39% with a protection level of 5. Threats include overgrazing, livestock-predator conflict, poaching and glacial retreat.',
+      sourceIds: [
+        'one-earth-pa41',
+        'one-earth-eco-702',
+        'one-earth-eco-751',
+        'one-earth-eco-753',
+        'one-earth-eco-754',
+        'one-earth-eco-760',
+        'one-earth-eco-762',
+        'one-earth-eco-769',
+        'one-earth-eco-770',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:snow-leopard',
+      'species:blue-sheep',
+      'species:siberian-ibex',
+      'species:woolly-flying-squirrel',
+      'species:himalayan-tahr',
+      'species:argali',
+      'species:markhor',
+    ],
+    countryIds: ['CN', 'IN', 'BT', 'NP', 'MM', 'AF', 'PK', 'TJ', 'KG', 'UZ'],
+    sources: [
+      'one-earth-pa41',
+      'one-earth-eco-702',
+      'one-earth-eco-751',
+      'one-earth-eco-753',
+      'one-earth-eco-754',
+      'one-earth-eco-760',
+      'one-earth-eco-762',
+      'one-earth-eco-769',
+      'one-earth-eco-770',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa42',
+    summary: {
+      value:
+        'The Ordos Plateau Steppe & Mountain Conifer Forests (PA42), part of the Mongolian Grasslands subrealm in the Eastern Eurasia realm, joins the Helanshan Montane Conifer Forests and the Ordos Plateau Steppe of China, totaling approximately 24 million hectares. Its iconic silver pika survives only on the Helanshan crest, while the relict gull of the Ordos Bojiang basin is the flagship of the steppe.',
+      sourceIds: ['one-earth-pa42', 'one-earth-eco-696', 'one-earth-eco-761'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'two ecoregions totaling approximately 24 million hectares',
+        'the sky-island Helanshan range rising above the steppe',
+        'Ordos Plateau within the Great Bend of the Huang He',
+        'Hobq and Mu\u2019us desert sands on the plateau',
+      ],
+      sourceIds: ['one-earth-pa42', 'one-earth-eco-696', 'one-earth-eco-761'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions have a semi-arid steppe-to-montane climate with 100-400 mm of precipitation, mostly in summer.',
+      },
+      sourceIds: ['one-earth-pa42', 'one-earth-eco-696', 'one-earth-eco-761'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'montane conifer forests of the Helanshan crest',
+        'steppe grassland of the Ordos Plateau',
+        'desert communities of the Hobq and Mu\u2019us sands',
+        'wetland vegetation of the Bojiang basin',
+      ],
+      sourceIds: ['one-earth-pa42', 'one-earth-eco-696', 'one-earth-eco-761'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'silver pika, iconic and globally restricted to the Helanshan crest',
+        'relict gull flagship of the Ordos Bojiang basin',
+        'snow leopard, blue sheep and argali of the Helanshan',
+        'Przewalski\u2019s horse, Asiatic wild ass and wild Bactrian camel formerly on the Ordos, now extirpated',
+      ],
+      sourceIds: ['one-earth-pa42', 'one-earth-eco-696', 'one-earth-eco-761'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 10% with a protection level of 8. Threats include water scarcity, wetland shrinkage, poaching and encroachment on the reserves.',
+      sourceIds: ['one-earth-pa42', 'one-earth-eco-696', 'one-earth-eco-761'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:silver-pika',
+      'species:snow-leopard',
+      'species:blue-sheep',
+      'species:argali',
+      'species:relict-gull',
+      'species:black-stork',
+    ],
+    countryIds: ['CN'],
+    sources: ['one-earth-pa42', 'one-earth-eco-696', 'one-earth-eco-761'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa43',
+    summary: {
+      value:
+        'The Mongolian Desert Steppes (PA43), in the East Asian Desert subrealm of Eastern Eurasia, joins the Eastern Gobi Desert Steppe, the Gobi Lakes Valley Desert Steppe and the Great Lakes Basin Desert Steppe across Mongolia, China and Russia, totaling nearly 58 million hectares. Its iconic black stork contrasts with a desert-steppe fauna of Mongolian gazelle, goitered gazelle and snow leopard.',
+      sourceIds: [
+        'one-earth-pa43',
+        'one-earth-eco-824',
+        'one-earth-eco-825',
+        'one-earth-eco-826',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'three ecoregions totaling nearly 58 million hectares',
+        'the Eastern Gobi desert steppe',
+        'Gobi Lakes Valley and Great Lakes Basin steppe depressions',
+        'dune fields and oases of the southern Gobi',
+      ],
+      sourceIds: [
+        'one-earth-pa43',
+        'one-earth-eco-824',
+        'one-earth-eco-825',
+        'one-earth-eco-826',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions have a cold desert-steppe climate with low precipitation and extreme continentality.',
+      },
+      sourceIds: [
+        'one-earth-pa43',
+        'one-earth-eco-824',
+        'one-earth-eco-825',
+        'one-earth-eco-826',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'desert steppe grassland of the Eastern Gobi',
+        'Gobi lakes valley and Great Lakes Basin steppe',
+        'saxaul and scrub of the southern Gobi',
+        'oasis vegetation of the Gobi lake basins',
+      ],
+      sourceIds: [
+        'one-earth-pa43',
+        'one-earth-eco-824',
+        'one-earth-eco-825',
+        'one-earth-eco-826',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'black stork as the iconic species',
+        'Mongolian gazelle herds and goitered gazelle',
+        'snow leopard and Siberian ibex in the Gobi massifs',
+        'Mongolian marmot and Pallas\u2019s fish eagle of the steppe wetlands',
+      ],
+      sourceIds: [
+        'one-earth-pa43',
+        'one-earth-eco-824',
+        'one-earth-eco-825',
+        'one-earth-eco-826',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 62% with a protection level of 1. Threats include mining, infrastructure, overgrazing and water extraction.',
+      sourceIds: [
+        'one-earth-pa43',
+        'one-earth-eco-824',
+        'one-earth-eco-825',
+        'one-earth-eco-826',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:snow-leopard',
+      'species:mongolian-gazelle',
+      'species:siberian-ibex',
+      'species:goitered-gazelle',
+      'species:black-stork',
+      'species:mongolian-marmot',
+      'species:pallas-fish-eagle',
+    ],
+    countryIds: ['CN', 'MN', 'RU'],
+    sources: [
+      'one-earth-pa43',
+      'one-earth-eco-824',
+      'one-earth-eco-825',
+      'one-earth-eco-826',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa44',
+    summary: {
+      value:
+        'The Mongolian Grasslands, Alpine Meadows & Forest Steppe (PA44), part of the Mongolian Grasslands subrealm in the Eastern Eurasia realm, joins six ecoregions across Mongolia, Russia and China, totaling approximately 139 million hectares. Its iconic Mongolian marmot stands for a grassland world where Mongolian gazelle herds, six crane species, red deer and snow leopard span the forest steppe, the Daurian steppe, the Mongolian-Manchurian grassland and the Khangai alpine meadow.',
+      sourceIds: [
+        'one-earth-pa44',
+        'one-earth-eco-700',
+        'one-earth-eco-726',
+        'one-earth-eco-734',
+        'one-earth-eco-737',
+        'one-earth-eco-743',
+        'one-earth-eco-755',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'six ecoregions totaling approximately 139 million hectares',
+        'the Mongolian-Manchurian grassland, one of the largest intact grasslands on Earth',
+        'Khangai mountains with conifer forest and alpine meadow',
+        'Daurian forest steppe wetlands and the Nenjiang river grassland',
+      ],
+      sourceIds: [
+        'one-earth-pa44',
+        'one-earth-eco-700',
+        'one-earth-eco-726',
+        'one-earth-eco-734',
+        'one-earth-eco-737',
+        'one-earth-eco-743',
+        'one-earth-eco-755',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page states land-area statistics only; the component ecoregions range from the strongly continental forest steppe to the alpine meadow of the central Khangai.',
+      },
+      sourceIds: [
+        'one-earth-pa44',
+        'one-earth-eco-700',
+        'one-earth-eco-726',
+        'one-earth-eco-734',
+        'one-earth-eco-737',
+        'one-earth-eco-743',
+        'one-earth-eco-755',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'boreal larch forest and forest steppe',
+        'Mongolian-Manchurian steppe grassland',
+        'Daurian meadow steppe and wetlands',
+        'alpine meadow of the central Khangai',
+      ],
+      sourceIds: [
+        'one-earth-pa44',
+        'one-earth-eco-700',
+        'one-earth-eco-726',
+        'one-earth-eco-734',
+        'one-earth-eco-737',
+        'one-earth-eco-743',
+        'one-earth-eco-755',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Mongolian marmot as the iconic species',
+        'Mongolian gazelle herds exceeding a million animals',
+        'six crane species, the Siberian crane staging in the Nenjiang grassland',
+        'snow leopard and red deer at the forest-steppe and mountain margins',
+      ],
+      sourceIds: [
+        'one-earth-pa44',
+        'one-earth-eco-700',
+        'one-earth-eco-726',
+        'one-earth-eco-734',
+        'one-earth-eco-737',
+        'one-earth-eco-743',
+        'one-earth-eco-755',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 33% with a protection level of 3. Threats include overgrazing, agricultural conversion, mining and climate impacts on the wetlands.',
+      sourceIds: [
+        'one-earth-pa44',
+        'one-earth-eco-700',
+        'one-earth-eco-726',
+        'one-earth-eco-734',
+        'one-earth-eco-737',
+        'one-earth-eco-743',
+        'one-earth-eco-755',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:mongolian-marmot',
+      'species:white-naped-crane',
+      'species:mongolian-gazelle',
+      'species:siberian-ibex',
+      'species:pallas-cat',
+      'species:snow-leopard',
+      'species:red-deer',
+    ],
+    countryIds: ['MN', 'RU', 'CN'],
+    sources: [
+      'one-earth-pa44',
+      'one-earth-eco-700',
+      'one-earth-eco-726',
+      'one-earth-eco-734',
+      'one-earth-eco-737',
+      'one-earth-eco-743',
+      'one-earth-eco-755',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa45',
+    summary: {
+      value:
+        'The Dzhagdy Mountain Conifer Forests bioregion is located in the Northeast Asian forests subrealm of Eastern Eurasia (eastern Palearctic) and contains one single ecoregion, the Da Hinggan-Dzhagdy Mountains Conifer Forests, totaling nearly 25 million hectares. Its Dahurian-larch-dominated conifer forest supports the Siberian salamander flagship together with moose, sable, wolverine, northern lynx and Asiatic black bear across permafrost-affected valleys.',
+      sourceIds: ['one-earth-pa45', 'one-earth-eco-693'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Northeast Asian forests subrealm of Eastern Eurasia',
+        'Dahurian-larch-dominated conifer forest',
+        'Dzhagdy mountain ranges spanning China and Russia',
+      ],
+      sourceIds: ['one-earth-pa45', 'one-earth-eco-693'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page provides no climate field; the single component ecoregion experiences a cold continental climate with most of its modest annual precipitation falling in summer and permafrost in the coldest places.',
+      },
+      sourceIds: ['one-earth-pa45', 'one-earth-eco-693'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'Dahurian larch conifer forests',
+        'Daurian flora transitional between Siberian and Manchurian vegetations',
+      ],
+      sourceIds: ['one-earth-pa45', 'one-earth-eco-693'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'summer-dominated precipitation regime',
+        'permafrost influencing the coldest valleys',
+        'post-fire forest regeneration following 1987 wildfires',
+      ],
+      sourceIds: ['one-earth-pa45', 'one-earth-eco-693'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 23% with a protection level of 4. Key sites are the Hanma Biosphere Reserve (over 2,000 km2) and Huzhong National Nature Reserve (1,940 km2), the only nature reserve in China’s taiga forest zone. Priority actions control hunting and poaching, restore habitat connectivity between Hanma and Huzhong, and develop an effective fire management scheme.',
+      sourceIds: ['one-earth-pa45', 'one-earth-eco-693'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:siberian-salamander',
+      'species:siberian-musk-deer',
+      'species:sable',
+      'species:moose',
+      'species:wolverine',
+      'species:eurasian-lynx',
+      'species:asiatic-black-bear',
+      'species:hazel-grouse',
+    ],
+    countryIds: ['CN', 'RU'],
+    sources: ['one-earth-pa45', 'one-earth-eco-693'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa46',
+    summary: {
+      value:
+        'The Manchuria-Ussuri Mixed Forests & Meadow Steppes bioregion lies in the Northeast Asian forests subrealm of Eastern Eurasia (eastern Palearctic) and unites six ecoregions from the Changbai Mountains to the Suiphun-Khanka lowlands, totaling about 118.5 million hectares. Its fauna includes the iconic Amur or Siberian tiger together with Amur leopards, scaly-sided mergansers, red-crowned and white-naped cranes, Blakiston’s fish owls and the kaluga sturgeon.',
+      sourceIds: [
+        'one-earth-pa46',
+        'one-earth-eco-656',
+        'one-earth-eco-669',
+        'one-earth-eco-673',
+        'one-earth-eco-685',
+        'one-earth-eco-741',
+        'one-earth-eco-746',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Northeast Asian forests subrealm of Eastern Eurasia',
+        'mixed montane and plain forests of Manchuria and Ussuri',
+        'meadow steppes and lake lowlands of the Amur basin',
+      ],
+      sourceIds: [
+        'one-earth-pa46',
+        'one-earth-eco-656',
+        'one-earth-eco-669',
+        'one-earth-eco-673',
+        'one-earth-eco-685',
+        'one-earth-eco-741',
+        'one-earth-eco-746',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page provides no climate field; component ecoregions experience cold continental winters with a monsoon-influenced summer wet season and precipitation that varies from plain steppes to coastal meadows.',
+      },
+      sourceIds: [
+        'one-earth-pa46',
+        'one-earth-eco-656',
+        'one-earth-eco-669',
+        'one-earth-eco-673',
+        'one-earth-eco-685',
+        'one-earth-eco-741',
+        'one-earth-eco-746',
+      ],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'mixed conifer and broadleaf forests',
+        'deciduous forests of the Northeast China Plain',
+        'meadow steppe and lake-margin wetlands',
+      ],
+      sourceIds: [
+        'one-earth-pa46',
+        'one-earth-eco-656',
+        'one-earth-eco-669',
+        'one-earth-eco-673',
+        'one-earth-eco-685',
+        'one-earth-eco-741',
+        'one-earth-eco-746',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'transboundary tiger and leopard range across China, Russia and the Koreas',
+        'largest breeding population of red-crowned cranes in the world',
+        'wetland and meadow connectivity for migratory birds',
+      ],
+      sourceIds: [
+        'one-earth-pa46',
+        'one-earth-eco-656',
+        'one-earth-eco-669',
+        'one-earth-eco-673',
+        'one-earth-eco-685',
+        'one-earth-eco-741',
+        'one-earth-eco-746',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 28% with a protection level of 4. Component ecoregions are anchored by protected areas including Changbaishan Biosphere Reserve, the Sikhote-Alin World Heritage Site and the Khanka wetland reserves, and renewed transboundary cooperation supports tiger and leopard recovery. Priorities across the bioregion include expanding protected-area coverage, controlling poaching of flagship large carnivores, and maintaining wetland connectivity for cranes and migratory birds.',
+      sourceIds: [
+        'one-earth-pa46',
+        'one-earth-eco-656',
+        'one-earth-eco-669',
+        'one-earth-eco-673',
+        'one-earth-eco-685',
+        'one-earth-eco-741',
+        'one-earth-eco-746',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:amur-tiger',
+      'species:amur-leopard',
+      'species:scaly-sided-merganser',
+      'species:red-crowned-crane',
+      'species:blakistons-fish-owl',
+      'species:baers-pochard',
+      'species:kaluga-sturgeon',
+      'species:white-naped-crane',
+    ],
+    countryIds: ['CN', 'RU', 'KP', 'KR'],
+    sources: [
+      'one-earth-pa46',
+      'one-earth-eco-656',
+      'one-earth-eco-669',
+      'one-earth-eco-673',
+      'one-earth-eco-685',
+      'one-earth-eco-741',
+      'one-earth-eco-746',
+    ],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa48',
+    summary: {
+      value:
+        'The Korean Peninsula Mixed Forests bioregion spans the deciduous hardwood and southern evergreen forests of South and North Korea, totaling approximately 12 million hectares in the Northeast Asian forests subrealm. Its iconic Tristram’s woodpecker (Dryocopus javensis richardsi) shares remnant old-growth forests with white-bellied black woodpeckers, fairy pittas, ring-necked pheasants, Siberian roe deer and endangered red-crowned and white-naped cranes.',
+      sourceIds: ['one-earth-pa48', 'one-earth-eco-655', 'one-earth-eco-681'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Northeast Asian forests subrealm of Eastern Eurasia',
+        'deciduous hardwood forests with evergreen conifers at higher elevations',
+        'Korean Demilitarized Zone and Baekdudaegan range',
+      ],
+      sourceIds: ['one-earth-pa48', 'one-earth-eco-655', 'one-earth-eco-681'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page provides no climate field; component ecoregions experience a monsoon-influenced climate with cold, generally dry winters and warm wet summers across the peninsula.',
+      },
+      sourceIds: ['one-earth-pa48', 'one-earth-eco-655', 'one-earth-eco-681'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'deciduous hardwood forests',
+        'warm-temperate evergreen broadleaf forest',
+        'soon-to-be old-growth forest largely reduced by land-use history',
+      ],
+      sourceIds: ['one-earth-pa48', 'one-earth-eco-655', 'one-earth-eco-681'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'large predators mostly extirpated from the peninsula',
+        'endangered crane populations using remnant lowlands',
+        'Tristram’s woodpecker loss tied to old-growth decline',
+        'DMZ functioning as a little-disturbed refuge',
+      ],
+      sourceIds: ['one-earth-pa48', 'one-earth-eco-655', 'one-earth-eco-681'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 20% with a protection level of 4. The Korean Demilitarized Zone could be maintained as a Korea Peace Bioreserve and nominated as a UNESCO World Heritage Natural Site, while the Baekdudaegan range anchors the ecological axis. Priorities are promoting the DMZ as a protected natural area, protecting remnant forest habitat, and establishing connectivity to conservation axes.',
+      sourceIds: ['one-earth-pa48', 'one-earth-eco-655', 'one-earth-eco-681'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:tristrams-woodpecker',
+      'species:white-bellied-black-woodpecker',
+      'species:ring-necked-pheasant',
+      'species:fairy-pitta',
+      'species:siberian-roe-deer',
+      'species:chinese-water-deer',
+      'species:red-crowned-crane',
+      'species:white-naped-crane',
+    ],
+    countryIds: ['KR', 'KP'],
+    sources: ['one-earth-pa48', 'one-earth-eco-655', 'one-earth-eco-681'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa49',
+    summary: {
+      value:
+        'The Loess Plateau & Huang He Plain Mixed Forests bioregion is located in the Central East Asian forests subrealm of Eastern Eurasia (eastern Palearctic) and contains three ecoregions from the loess plateau and Huang He plain to the Bohai Sea saline meadow, totaling nearly 81 million hectares. Its iconic Amur leopard (Panthera pardus orientalis) inhabits riverine plain and plateau woodlands that also host great bustards, whooper swans and a rich waterbird fauna of cranes, storks and gulls.',
+      sourceIds: ['one-earth-pa49', 'one-earth-eco-653', 'one-earth-eco-667', 'one-earth-eco-742'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Central East Asian forests subrealm of Eastern Eurasia',
+        'deep loess plateau and Huang He floodplain',
+        'Bohai Sea saline meadow and river delta',
+      ],
+      sourceIds: ['one-earth-pa49', 'one-earth-eco-653', 'one-earth-eco-667', 'one-earth-eco-742'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page provides no climate field; component ecoregions range from a seasonally dry, drought-prone loess plateau to a warm, moist riverine plain and a coastal delta with monsoon influence.',
+      },
+      sourceIds: ['one-earth-pa49', 'one-earth-eco-653', 'one-earth-eco-667', 'one-earth-eco-742'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'deciduous and mixed forests on the loess plateau',
+        'broadleaved deciduous and evergreen conifer floodplain forest',
+        'Suaeda saline meadow at the Yellow River Delta',
+      ],
+      sourceIds: ['one-earth-pa49', 'one-earth-eco-653', 'one-earth-eco-667', 'one-earth-eco-742'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'severe loess erosion and ancient agricultural landscapes',
+        'Yellow River sediment accretion at the Bohai delta',
+        'remnant habitat islands and relic forest patches',
+        'waterbird breeding and staging along the delta',
+      ],
+      sourceIds: ['one-earth-pa49', 'one-earth-eco-653', 'one-earth-eco-667', 'one-earth-eco-742'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 6% with a protection level of 7. Protected sites include the Taishan and Song Shan UNESCO World Heritage Sites, the Li Shan and Luya Mountain nature reserves, and the Yellow River Delta National Nature Reserve. Priorities range from protecting remnant habitat islands and wetlands on the Huang He plain to managing the Yellow River Delta for waterbird breeding.',
+      sourceIds: ['one-earth-pa49', 'one-earth-eco-653', 'one-earth-eco-667', 'one-earth-eco-742'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:amur-leopard',
+      'species:red-crowned-crane',
+      'species:siberian-crane',
+      'species:oriental-stork',
+      'species:saunderss-gull',
+      'species:relict-gull',
+      'species:great-bustard',
+      'species:hooded-crane',
+    ],
+    countryIds: ['CN'],
+    sources: ['one-earth-pa49', 'one-earth-eco-653', 'one-earth-eco-667', 'one-earth-eco-742'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa50',
+    summary: {
+      value:
+        'The Chang Jiang Plain Evergreen Forests bioregion is part of the Central East Asian forests subrealm in the Eastern Eurasia realm (eastern Palearctic) and contains the Changjiang Plain Evergreen Forests and Yellow Sea Saline Meadow, totaling approximately 44.5 million hectares. Its iconic Yangtze alligator is joined by a diverse floodplain fauna of Siberian and white-naped cranes, swan geese, Chinese water deer, the Yangtze finless porpoise and the recovering black-faced spoonbill.',
+      sourceIds: ['one-earth-pa50', 'one-earth-eco-657', 'one-earth-eco-748'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Central East Asian forests subrealm of Eastern Eurasia',
+        'Yangtze floodplain with seasonal lakes',
+        'Yellow Sea saline meadow and coastal wetlands',
+      ],
+      sourceIds: ['one-earth-pa50', 'one-earth-eco-657', 'one-earth-eco-748'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page provides no climate field; component ecoregions combine a floodplain evergreen-forest climate with humid to semi-humid monsoon conditions along the Yellow Sea coast.',
+      },
+      sourceIds: ['one-earth-pa50', 'one-earth-eco-657', 'one-earth-eco-748'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'broadleaved evergreen forests on floodplain and mountain remnants',
+        'seasonal-lake wetland vegetation around Poyang',
+        'coastal saline meadow and emerging marine wetland',
+      ],
+      sourceIds: ['one-earth-pa50', 'one-earth-eco-657', 'one-earth-eco-748'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'about 80% of the global Siberian crane population overwintering here',
+        'about 40% of the world’s remaining red-crowned cranes breeding on the coast',
+        'huge seasonal water-level fluctuation of Poyang Lake',
+        'Three Gorges dam hydrological alterations',
+      ],
+      sourceIds: ['one-earth-pa50', 'one-earth-eco-657', 'one-earth-eco-748'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 15% with a protection level of 4. Key sites include the Anhui Chinese Alligator Nature Reserve and the Yancheng Biosphere Reserve, which protects the Yellow Sea saline meadow under Ramsar. Priorities are protecting seasonal-lake habitat, restoring degraded hill-slope forest, and mitigating the hydrological effects of the Three Gorges dam and sea-level rise.',
+      sourceIds: ['one-earth-pa50', 'one-earth-eco-657', 'one-earth-eco-748'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:yangtze-alligator',
+      'species:black-faced-spoonbill',
+      'species:red-crowned-crane',
+      'species:siberian-crane',
+      'species:swan-goose',
+      'species:white-naped-crane',
+      'species:chinese-water-deer',
+      'species:yangtze-finless-porpoise',
+    ],
+    countryIds: ['CN'],
+    sources: ['one-earth-pa50', 'one-earth-eco-657', 'one-earth-eco-748'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa51',
+    summary: {
+      value:
+        'The Sichuan Basin & Central Mountain Forests bioregion is located in the Central East Asian forests subrealm of Eastern Eurasia (eastern Palearctic) and contains three ecoregions from the Daba and Qin Ling mountains to the Sichuan Basin, totaling approximately 39 million hectares. Its iconic Hubei golden snub-nosed monkey (Rhinopithecus roxellana hubeiensis) shares these woodlands with giant pandas, takin, red pandas, golden pheasants, clouded leopards and the world’s largest Chinese giant salamander populations.',
+      sourceIds: ['one-earth-pa51', 'one-earth-eco-659', 'one-earth-eco-677', 'one-earth-eco-680'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Central East Asian forests subrealm of Eastern Eurasia',
+        'Daba and Qin Ling mountain forests',
+        'densely populated Sichuan Basin river plain',
+      ],
+      sourceIds: ['one-earth-pa51', 'one-earth-eco-659', 'one-earth-eco-677', 'one-earth-eco-680'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page provides no climate field; component ecoregions span a transitional subtropical-to-temperate mountain climate and a humid basin climate with warm hazy summers and chilly winter fog.',
+      },
+      sourceIds: ['one-earth-pa51', 'one-earth-eco-659', 'one-earth-eco-677', 'one-earth-eco-680'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'evergreen broadleaf and mixed forests of central China',
+        'temperate deciduous forest transitional to subtropical with high bamboo diversity',
+        'remnant old-growth at sacred peaks and religious sites',
+      ],
+      sourceIds: ['one-earth-pa51', 'one-earth-eco-659', 'one-earth-eco-677', 'one-earth-eco-680'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'species-museum richness with more than 600 vertebrate species in Shennongjia',
+        'Qinling panda recognized as a distinct brown-furred subspecies',
+        'extirpation of giant panda, Asian elephant and Javan rhinoceros from the basin',
+        'panda corridor and wildlife-connectivity planning',
+      ],
+      sourceIds: ['one-earth-pa51', 'one-earth-eco-659', 'one-earth-eco-677', 'one-earth-eco-680'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 10% with a protection level of 7. Shennongjia Nature Reserve protects the entire wild population of hubeiensis golden snub-nosed monkeys, while Foping, Zhouzhi and Tangjiahe are key panda refuges. Priorities include extending panda corridors, conserving remnant old-growth at religious sites, and managing tourism pressure.',
+      sourceIds: ['one-earth-pa51', 'one-earth-eco-659', 'one-earth-eco-677', 'one-earth-eco-680'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:hubei-golden-snub-nosed-monkey',
+      'species:giant-panda',
+      'species:takin',
+      'species:red-panda',
+      'species:clouded-leopard',
+      'species:chinese-goral',
+      'species:chinese-giant-salamander',
+      'species:emei-shan-liocichla',
+    ],
+    countryIds: ['CN'],
+    sources: ['one-earth-pa51', 'one-earth-eco-659', 'one-earth-eco-677', 'one-earth-eco-680'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa52',
+    summary: {
+      value:
+        'The Guizhou & Yunnan Subtropical Forest Plateaus bioregion is located in the Central East Asian forests subrealm of Eastern Eurasia (eastern Palearctic) and contains two ecoregions of karst plateau and highland evergreen forest, totaling approximately 51 million hectares. Its iconic black-crested gibbon (Nomascus concolor) coexists with Guizhou snub-nosed monkeys, François’ leaf monkeys, Assamese macaques, forest musk deer and clouded and common leopards across the plateaus.',
+      sourceIds: ['one-earth-pa52', 'one-earth-eco-642', 'one-earth-eco-643'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'Central East Asian forests subrealm of Eastern Eurasia',
+        'South China Karst plateau at 1,000-1,400 m riddled with caves and sinkholes',
+        'Yunnan Plateau at 1,800-2,400 m with temperate cloud forests',
+      ],
+      sourceIds: ['one-earth-pa52', 'one-earth-eco-642', 'one-earth-eco-643'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page provides no climate field; component ecoregions are subtropical with few sunny days on the karst plateau and a mild monsoon regime with a dry season from November to April on the Yunnan Plateau.',
+      },
+      sourceIds: ['one-earth-pa52', 'one-earth-eco-642', 'one-earth-eco-643'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'subtropical broadleaf and mixed forests on karst',
+        'subtropical evergreen forest with temperate cloud forest on higher ridges',
+        'high-elevation citrus and rice cultivation',
+      ],
+      sourceIds: ['one-earth-pa52', 'one-earth-eco-642', 'one-earth-eco-643'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Fanjing Shan hosting fewer than 750 grey snub-nosed monkeys',
+        'central Yunnan black-crested gibbon population of about 250 individuals',
+        'Endemic Bird Area with two restricted-range species',
+        'karst hydrology shaped by caves and sinkholes',
+      ],
+      sourceIds: ['one-earth-pa52', 'one-earth-eco-642', 'one-earth-eco-643'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 14% with a protection level of 4. Fanjing Shan Nature Reserve, a UNESCO Biosphere Reserve and World Heritage Site, hosts fewer than 750 grey snub-nosed monkeys, while the Yunnan Plateau protects black-crested gibbon strongholds. Priorities are controlling tourism infrastructure around Fanjing Shan, restoring lake ecosystems such as Dian Chi and Er Hai, and enforcing restrictions on gibbon poaching and trafficking.',
+      sourceIds: ['one-earth-pa52', 'one-earth-eco-642', 'one-earth-eco-643'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:black-crested-gibbon',
+      'species:guizhou-snub-nosed-monkey',
+      'species:chinese-giant-salamander',
+      'species:assamese-macaque',
+      'species:francoiss-leaf-monkey',
+      'species:forest-musk-deer',
+      'species:clouded-leopard',
+      'species:common-leopard',
+    ],
+    countryIds: ['CN'],
+    sources: ['one-earth-pa52', 'one-earth-eco-642', 'one-earth-eco-643'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:pa53',
+    summary: {
+      value:
+        'The Hengduan Mountain Conifer Forests bioregion connects the southeast Tibetan Plateau with the Yunnan-Guizhou Plateau, defined by the parallel Yangtze, Mekong and Salween rivers and recognized as the Three Parallel Rivers UNESCO World Heritage Site, one of the most biologically diverse temperate regions on Earth with 6,000 plant species, 173 mammals and 417 birds. Its iconic giant panda (Ailuropoda melanoleuca) is joined by Yunnan snub-nosed monkeys, red pandas, black-necked cranes, northern slow lorises and the Myanmar snub-nosed monkey across more than 26 million hectares.',
+      sourceIds: ['one-earth-pa53', 'one-earth-eco-697', 'one-earth-eco-704', 'one-earth-eco-706'],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'parallel mountain ranges connecting the Tibetan and Yunnan-Guizhou plateaus',
+        'deep gorges of the Yangtze, Mekong and Salween rivers',
+        'Qionglai-Minshan and Hengduan conifer belts',
+      ],
+      sourceIds: ['one-earth-pa53', 'one-earth-eco-697', 'one-earth-eco-704', 'one-earth-eco-706'],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'The bioregion page provides no climate field; component ecoregions span cold, snowy subalpine forests and monsoon-temperate conifer belts with a pronounced vertical climatic gradient between deep gorges and high ridges.',
+      },
+      sourceIds: ['one-earth-pa53', 'one-earth-eco-697', 'one-earth-eco-704', 'one-earth-eco-706'],
+      derivation: 'authored-summary',
+    },
+    vegetation: {
+      value: [
+        'subalpine spruce and fir conifer forests',
+        'monsoon-temperate conifer forest with more than 40 bamboo species',
+        'forests of the Gaoligong range with most of Yunnan’s mid-elevation conifers',
+      ],
+      sourceIds: ['one-earth-pa53', 'one-earth-eco-697', 'one-earth-eco-704', 'one-earth-eco-706'],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Three Parallel Rivers gorge system bounding endemic distribution',
+        'over 1,800 wild pandas recorded in 2014',
+        'Yunnan snub-nosed monkeys feeding on foliose lichen above 4,000 m',
+        'Myanmar snub-nosed monkey discovered in 2011 with roughly 950 individuals',
+      ],
+      sourceIds: ['one-earth-pa53', 'one-earth-eco-697', 'one-earth-eco-704', 'one-earth-eco-706'],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        'One Earth reports a conservation target of 29% with a protection level of 7. Key protected areas include the Gaoligongshan and Baima Snow Mountain nature reserves and Pudacuo National Park, within the Three Parallel Rivers UNESCO World Heritage Site. Priorities are maintaining habitat connectivity across the protected-area network, carefully evaluating river damming, and monitoring climate-change effects in this vertically stratified mountain region.',
+      sourceIds: ['one-earth-pa53', 'one-earth-eco-697', 'one-earth-eco-704', 'one-earth-eco-706'],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:giant-panda',
+      'species:yunnan-snub-nosed-monkey',
+      'species:red-panda',
+      'species:clouded-leopard',
+      'species:black-necked-crane',
+      'species:northern-slow-loris',
+      'species:burmese-snub-nosed-monkey',
+      'species:eastern-hoolock-gibbon',
+    ],
+    countryIds: ['CN', 'MM'],
+    sources: ['one-earth-pa53', 'one-earth-eco-697', 'one-earth-eco-704', 'one-earth-eco-706'],
+    status: 'authored',
+  },
+  {
+    targetId: 'bioregion:nt24',
+    summary: {
+      value:
+        'Central American Isthmian & Colombian Coastal Forests (NT24) links southern Mesoamerica to the Choco-Darien of northwestern South America. Eleven ecoregions sweep from the superhumid Caribbean and Pacific lowland forests of the isthmus and the Talamancan and eastern Panamanian montane cloud forests through the Magdalena-Uraba forests to the remote Malpelo island and the fringing mangrove systems of both oceans.',
+      sourceIds: [
+        'one-earth-nt24',
+        'one-earth-eco-454',
+        'one-earth-eco-461',
+        'one-earth-eco-470',
+        'one-earth-eco-471',
+        'one-earth-eco-478',
+        'one-earth-eco-506',
+        'one-earth-eco-541',
+        'one-earth-eco-604',
+        'one-earth-eco-613',
+        'one-earth-eco-615',
+        'one-earth-eco-617',
+      ],
+      derivation: 'authored-summary',
+    },
+    landscape: {
+      value: [
+        'isthmian Caribbean and Pacific lowland forests',
+        'Talamancan and eastern Panamanian montane cloud forests',
+        'Choco-Darien superhumid lowlands',
+        'Magdalena-Uraba river valleys and coastal ranges',
+        'Malpelo island and offshore xeric scrub',
+        'Caribbean and Pacific mangrove coasts',
+      ],
+      sourceIds: [
+        'one-earth-nt24',
+        'one-earth-eco-454',
+        'one-earth-eco-461',
+        'one-earth-eco-470',
+        'one-earth-eco-471',
+        'one-earth-eco-478',
+        'one-earth-eco-506',
+        'one-earth-eco-541',
+        'one-earth-eco-604',
+        'one-earth-eco-613',
+        'one-earth-eco-615',
+        'one-earth-eco-617',
+      ],
+      derivation: 'authored-summary',
+    },
+    climate: {
+      value: {
+        character:
+          'Tropical mega-humid oceanic with heavy orographic rainfall on Caribbean-exposed slopes (some areas above 6,000 mm annually), a marked rain-shadow to the Pacific and interior, and a mild montane regime on the Talamancan and Darién cordilleras.',
+        annualPrecipitationMm: { min: 1500, max: 7000 },
+      },
+      sourceIds: [
+        'one-earth-eco-454',
+        'one-earth-eco-461',
+        'one-earth-eco-470',
+        'one-earth-eco-471',
+        'one-earth-eco-478',
+        'one-earth-eco-506',
+        'one-earth-eco-613',
+        'one-earth-eco-615',
+        'one-earth-eco-617',
+      ],
+      derivation: 'source-value',
+    },
+    vegetation: {
+      value: [
+        'superhumid lowland and foothill rainforest',
+        'premontane and montane cloud forest',
+        'submontane oak and laurel forest on the Talamancan range',
+        'semi-deciduous dry forests on Pacific and interior sides',
+        'herbaceous and wooded mangroves on both coasts',
+        'xeric scrub on Malpelo island',
+      ],
+      sourceIds: [
+        'one-earth-eco-454',
+        'one-earth-eco-461',
+        'one-earth-eco-470',
+        'one-earth-eco-471',
+        'one-earth-eco-478',
+        'one-earth-eco-506',
+        'one-earth-eco-541',
+        'one-earth-eco-604',
+        'one-earth-eco-613',
+        'one-earth-eco-615',
+        'one-earth-eco-617',
+      ],
+      derivation: 'authored-summary',
+    },
+    ecologicalProcesses: {
+      value: [
+        'Great American Biotic Interchange land-bridge connectivity',
+        'rain-shield orographic rainfall and cloud interception',
+        'migratory and elevational bird movements along the cordillera',
+        'mangrove-estuary nutrient exchange with coastal seas',
+        'seasonal dry-forest phenology and fire dynamics',
+      ],
+      sourceIds: [
+        'one-earth-nt24',
+        'one-earth-eco-454',
+        'one-earth-eco-470',
+        'one-earth-eco-506',
+        'one-earth-eco-541',
+        'one-earth-eco-613',
+        'one-earth-eco-615',
+        'one-earth-eco-617',
+      ],
+      derivation: 'authored-summary',
+    },
+    conservationContext: {
+      value:
+        "Darien National Park (Panama) and La Amistad International Park (Costa Rica-Panama) anchor the region's protected core, while extensive forest loss from cattle ranching, oil-palm expansion, and highway construction fragments the isthmus. The bioregion is critical for jaguar, Baird's tapir, great green macaw, and resplendent quetzal connectivity between North and South America.",
+      sourceIds: [
+        'one-earth-nt24',
+        'one-earth-eco-454',
+        'one-earth-eco-461',
+        'one-earth-eco-470',
+        'one-earth-eco-471',
+        'one-earth-eco-478',
+        'one-earth-eco-506',
+        'one-earth-eco-541',
+        'one-earth-eco-613',
+        'one-earth-eco-615',
+        'one-earth-eco-617',
+      ],
+      derivation: 'authored-summary',
+    },
+    characteristicSpeciesIds: [
+      'species:jaguar',
+      'species:bairds-tapir',
+      'species:harpy-eagle',
+      'species:great-green-macaw',
+      'species:resplendent-quetzal',
+      'species:keel-billed-toucan',
+    ],
+    countryIds: ['BZ', 'CO', 'CR', 'EC', 'GT', 'HN', 'MX', 'NI', 'PA', 'PE', 'SV'],
+    sources: [
+      'one-earth-nt24',
+      'one-earth-eco-454',
+      'one-earth-eco-461',
+      'one-earth-eco-470',
+      'one-earth-eco-471',
+      'one-earth-eco-478',
+      'one-earth-eco-506',
+      'one-earth-eco-541',
+      'one-earth-eco-604',
+      'one-earth-eco-613',
+      'one-earth-eco-615',
+      'one-earth-eco-617',
+    ],
     status: 'authored',
   },
 ];

@@ -13,7 +13,14 @@ import { Location, NgComponentOutlet } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AppStore } from '../../core/app.store';
 import { GenericTaxonomyProfile } from '../components/taxonomy-profile';
-import type { DashboardMediaDefinition, DashboardTargetKind } from '../contracts/taxonomy';
+import type {
+  DashboardMediaDefinition,
+  DashboardTargetKind,
+  DashboardWidgetDefinition,
+  HierarchicalProjectionDefinition,
+  TaxonomyModule,
+} from '../contracts/taxonomy';
+import { TAXONOMY_CATALOG } from '../contracts/taxonomy-provider';
 import { DashboardOverlayState } from './dashboard-overlay.state';
 import { toSignal } from '@angular/core/rxjs-interop';
 
@@ -30,6 +37,7 @@ export class TaxonomyDashboard implements OnDestroy {
   private readonly location = inject(Location);
   private readonly router = inject(Router);
   private readonly overlay = inject(DashboardOverlayState);
+  private readonly catalog = inject(TAXONOMY_CATALOG);
   private readonly params = toSignal(this.route.paramMap, {
     initialValue: this.route.snapshot.paramMap,
   });
@@ -51,6 +59,9 @@ export class TaxonomyDashboard implements OnDestroy {
     return target && 'id' in target ? target.id : this.entityId();
   });
   readonly hierarchyWidgetType = signal<Type<unknown> | null>(null);
+  readonly portalDefinitions = signal<ReadonlyMap<string, HierarchicalProjectionDefinition>>(
+    new Map(),
+  );
   readonly hierarchyWidgetInputs = computed(() => {
     const composition = this.compositionFor();
     return composition
@@ -74,10 +85,18 @@ export class TaxonomyDashboard implements OnDestroy {
         this.store.selectProfileTarget({ kind, id: this.entityId() });
     });
     effect(() => {
-      if (!this.hierarchyFor() || this.hierarchyWidgetType()) return;
+      const hasPortal = this.portalWidgets().some((widget) => this.widgetVisible(widget));
+      if ((!this.hierarchyFor() && !hasPortal) || this.hierarchyWidgetType()) return;
       void import('../components/hierarchy-widget').then(({ HierarchyWidget }) =>
         this.hierarchyWidgetType.set(HierarchyWidget),
       );
+    });
+    effect(() => {
+      const entityId = this.activeEntityId();
+      for (const widget of this.portalWidgets()) {
+        if (!this.widgetVisible(widget)) continue;
+        void this.loadPortal(widget, entityId);
+      }
     });
   }
 
@@ -103,6 +122,134 @@ export class TaxonomyDashboard implements OnDestroy {
 
   compositionFor() {
     return this.store.selectedContent()?.bundle?.livingCompositions?.[this.activeEntityId()];
+  }
+
+  portalWidgets() {
+    return (this.definition?.sections.flatMap(({ widgets }) => widgets) ?? []).filter(
+      (widget): widget is Extract<DashboardWidgetDefinition, { kind: 'taxonomy-portal' }> =>
+        widget.kind === 'taxonomy-portal',
+    );
+  }
+
+  widgetVisible(widget: DashboardWidgetDefinition): boolean {
+    return widget.kind !== 'taxonomy-portal' || !widget.targetIdPrefix ||
+      this.activeEntityId().startsWith(widget.targetIdPrefix);
+  }
+
+  portalInputs(widget: Extract<DashboardWidgetDefinition, { kind: 'taxonomy-portal' }>) {
+    const definition = this.portalDefinition(widget);
+    return definition
+      ? {
+          definition,
+          datasetId: widget.targetDatasetId,
+          widgetId: widget.id,
+          navigateEntityHandler: (entityId: string) =>
+            this.navigatePortalEntity(widget.targetDatasetId, entityId),
+        }
+      : {};
+  }
+
+  portalDefinition(widget: Extract<DashboardWidgetDefinition, { kind: 'taxonomy-portal' }>) {
+    return this.portalDefinitions().get(`${widget.id}:${this.activeEntityId()}`);
+  }
+
+  private async loadPortal(
+    widget: Extract<DashboardWidgetDefinition, { kind: 'taxonomy-portal' }>,
+    entityId: string,
+  ): Promise<void> {
+    const cacheKey = `${widget.id}:${entityId}`;
+    if (this.portalDefinitions().has(cacheKey)) return;
+    const item = this.catalog.find(({ id }) => id === widget.targetDatasetId);
+    if (!item) return;
+    const module = await item.load();
+    const definition = this.buildPortalDefinition(module, widget, entityId);
+    this.portalDefinitions.update((current) => new Map(current).set(cacheKey, definition));
+  }
+
+  private buildPortalDefinition(
+    module: TaxonomyModule,
+    widget: Extract<DashboardWidgetDefinition, { kind: 'taxonomy-portal' }>,
+    entityId: string,
+  ): HierarchicalProjectionDefinition {
+    const relations = (module.crossTaxonomyRelations ?? []).filter(
+      ({ target, relation }) =>
+        target.datasetId === this.datasetId() &&
+        target.target.kind !== 'dimension-value' &&
+        target.target.id === entityId &&
+        widget.relationKinds.includes(relation),
+    );
+    const entityByKey = new Map<string, { readonly title: string }>([
+      ...module.records.entries.map(
+        (item): [string, { readonly title: string }] => [`entry:${item.id}`, item],
+      ),
+      ...module.records.relatedEntities.map(
+        (item): [string, { readonly title: string }] => [`related-entity:${item.id}`, item],
+      ),
+    ]);
+    const relationLabels: Readonly<Record<string, string>> = {
+      'originates-in': 'Originating styles',
+      'brewed-in': 'Breweries and brands',
+    };
+    const kinds = widget.relationKinds.filter((kind) =>
+      relations.some(({ relation }) => relation === kind),
+    );
+    const rootId = `portal:${entityId}`;
+    return {
+      kind: 'hierarchical',
+      rootEntityId: rootId,
+      nodes: [
+        { id: rootId, canonicalEntityId: entityId, kind: 'portal-root', label: 'BeerChart' },
+        ...kinds.map((kind) => ({
+          id: `relation:${kind}`,
+          canonicalEntityId: `relation:${kind}`,
+          kind: 'relation-kind',
+          label: relationLabels[kind] ?? kind,
+        })),
+        ...relations.flatMap((relation) => {
+          const target = relation.source.target;
+          if (target.kind === 'dimension-value') return [];
+          const entity = entityByKey.get(`${target.kind}:${target.id}`);
+          return [{
+            id: relation.id,
+            canonicalEntityId: target.id,
+            kind: target.kind,
+            label: entity?.title ?? target.id,
+          }];
+        }),
+      ],
+      edges: [
+        ...kinds.map((kind) => ({
+          id: `portal-edge:${kind}`,
+          parentNodeId: rootId,
+          childNodeId: `relation:${kind}`,
+          relationId: kind,
+        })),
+        ...relations.map((relation) => ({
+          id: `portal-edge:${relation.id}`,
+          parentNodeId: `relation:${relation.relation}`,
+          childNodeId: relation.id,
+          relationId: relation.relation,
+        })),
+      ],
+      layers: [
+        { id: 'relation-kind', label: 'Relationship', nodeKinds: ['relation-kind'], order: 1 },
+        { id: 'linked-entity', label: 'Beer records', nodeKinds: ['entry', 'related-entity'], order: 2 },
+      ],
+      viewPresets: [{
+        id: 'country-beers',
+        label: 'Country connections',
+        layers: [
+          { id: 'relation', label: 'Relationship', defaultLayerId: 'relation-kind', allowedLayerIds: ['relation-kind'], locked: true },
+          { id: 'records', label: 'Beer records', defaultLayerId: 'linked-entity', allowedLayerIds: ['linked-entity'], locked: true },
+        ],
+      }],
+      window: { visibleDepth: 2, maxInstances: 80, overflow: 'aggregate' },
+      navigation: { expandableTerminal: 'reroot', canonicalTerminal: 'navigate' },
+    };
+  }
+
+  private navigatePortalEntity(datasetId: string, entityId: string): void {
+    globalThis.location.assign(`/atlas/${datasetId}/entry/${encodeURIComponent(entityId)}`);
   }
 
   navigateHierarchyEntity(entityId: string): void {

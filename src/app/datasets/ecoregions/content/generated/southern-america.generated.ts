@@ -222,7 +222,7 @@ export const contentBundle = {
     "ecoregion:615": {
       "ecoregionId": "ecoregion:615",
       "coverage": {
-        "flora": "draft",
+        "flora": "reviewed",
         "fauna": "draft",
         "fungi": "draft",
         "microbiome": "draft"
@@ -243,7 +243,7 @@ export const contentBundle = {
             "kind": "domain",
             "label": "Flora",
             "attributes": {
-              "coverage": "draft"
+              "coverage": "reviewed"
             }
           },
           {

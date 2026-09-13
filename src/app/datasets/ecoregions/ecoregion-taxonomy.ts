@@ -404,6 +404,21 @@ export const ecoregionTaxonomy = defineTaxonomy<EcoregionEntry>({
             },
           ],
         },
+        {
+          id: 'country-beer-portal',
+          layout: 'single',
+          widgets: [
+            {
+              id: 'country-beers',
+              kind: 'taxonomy-portal',
+              title: 'Beer traditions and brewing',
+              targetDatasetId: 'brewers-association-2026-circular-taxonomy',
+              relationKinds: ['originates-in', 'brewed-in'],
+              targetIdPrefix: 'country:',
+              emptyMessage: 'No explicit beer-country records are available for this country.',
+            },
+          ],
+        },
       ],
     },
     layout: {

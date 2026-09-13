@@ -4,6 +4,7 @@ import { beerTaxonomyEntries } from './data/entries';
 import { axisValues, entryFilterIds, RING_OPTIONS } from './interpretation/beer-interpretation';
 import { AtlasSprite, indicatorsForEntry, spriteById } from './presentation/beer-icons';
 import { beerPersistence } from './persistence/beer-persistence';
+import { beerCountryRelations } from './relations/country-relations';
 import {
   defineTaxonomy,
   RelatedEntity,
@@ -184,6 +185,7 @@ export const beerTaxonomyModule = defineTaxonomy({
     },
   },
   persistence: beerPersistence,
+  crossTaxonomyRelations: beerCountryRelations,
   records: {
     groups: [
       { id: 'beer', title: 'Beer', parentGroupId: null },

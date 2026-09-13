@@ -28,6 +28,7 @@
       @for (section of dashboard.sections; track section.id) {
         <section class="dashboard-section" [attr.data-layout]="section.layout">
           @for (widget of section.widgets; track widget.id) {
+            @if (widgetVisible(widget)) {
             <article class="dashboard-widget" [attr.data-widget-kind]="widget.kind">
               @if (widget.title) {
                 <h2>{{ widget.title }}</h2>
@@ -92,8 +93,24 @@
                     </p>
                   }
                 }
+                @case ('taxonomy-portal') {
+                  @if (portalDefinition(widget); as portal) {
+                    @if (portal.nodes.length > 1) {
+                      @if (hierarchyWidgetType(); as componentType) {
+                        <ng-container
+                          *ngComponentOutlet="componentType; inputs: portalInputs(widget)"
+                        />
+                      }
+                    } @else {
+                      <p class="content-status">{{ widget.emptyMessage }}</p>
+                    }
+                  } @else {
+                    <p class="content-status">Loading connected taxonomy…</p>
+                  }
+                }
               }
             </article>
+            }
           }
         </section>
       }

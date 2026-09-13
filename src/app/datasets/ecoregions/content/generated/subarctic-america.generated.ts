@@ -292,6 +292,325 @@ export const contentBundle = {
         ]
       }
     ],
+    "bioregion:na3": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "North Alaskan Tundra (NA3) is the northern section of the Alaska subrealm in Subarctic America, delineated by the Brooks Range, covering about 34 million hectares (33,930 thousand ha) of tundra along with adjacent marine areas of the Beaufort and Chukchi seas. Three tundra ecoregions support beluga whales, polar bears, muskox, and large migratory barren-ground caribou herds across a largely intact, permafrost-dominated landscape."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "Arctic coastal plain bounded south by the Arctic Foothills; rounded foothills and plateaus; Brooks–British mountain ranges; adjacent Beaufort and Chukchi sea margins",
+            "sourceIds": [
+              "one-earth-na3",
+              "one-earth-eco-407",
+              "one-earth-eco-408",
+              "one-earth-eco-411"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Arctic with continuous permafrost, short cool summers, and long severe winters; annual precipitation low at about 100–300 mm on the coastal plain, rising to about 350 mm in the Canadian portion of the mountains and slightly higher near the southern boundary.; 100–350 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-407",
+              "one-earth-eco-408",
+              "one-earth-eco-411"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "wet tundra, fens, bogs, and marshes of the coastal plain; moist herbaceous and dwarf-shrub tussock communities; sparse dwarf-shrub and alpine tundra of the mountains; protected valley spruce woodlands near the northern limit of white spruce in Canada",
+            "sourceIds": [
+              "one-earth-eco-407",
+              "one-earth-eco-408",
+              "one-earth-eco-411"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "permafrost and thaw-lake dynamics; calving and migration of the Arctic, Central Arctic, and Porcupine caribou herds; lagoon staging for beluga whales, seals, walrus, and Pacific black brant at Kasegaluk Lagoon; glacial and periglacial processes in the mountains",
+            "sourceIds": [
+              "one-earth-eco-407",
+              "one-earth-eco-408",
+              "one-earth-eco-411"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Protection target 96%; protection level 4 (scale 0–10). The Arctic National Wildlife Refuge, Gates of the Arctic National Park and Preserve, and Yukon’s Ivvavik National Park anchor large intact areas. High-priority threats include oil development centered at Prudhoe Bay and Utqiagvik, pipeline and highway corridor expansion, and lead and zinc mining.",
+            "sourceIds": [
+              "one-earth-na3",
+              "one-earth-eco-407",
+              "one-earth-eco-408",
+              "one-earth-eco-411"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:arctic-fox",
+            "title": "Arctic fox",
+            "subtitle": "Vulpes lagopus",
+            "description": "Vulpes lagopus"
+          },
+          {
+            "id": "species:musk-ox",
+            "title": "Musk ox",
+            "subtitle": "Ovibos moschatus",
+            "description": "Ovibos moschatus"
+          },
+          {
+            "id": "species:polar-bear",
+            "title": "Polar bear",
+            "subtitle": "Ursus maritimus",
+            "description": "Ursus maritimus"
+          },
+          {
+            "id": "species:barren-ground-caribou",
+            "title": "Barren-ground caribou",
+            "subtitle": "Rangifer tarandus groenlandicus",
+            "description": "Rangifer tarandus groenlandicus"
+          },
+          {
+            "id": "species:gray-wolf",
+            "title": "Gray wolf",
+            "subtitle": "Canis lupus",
+            "description": "Canis lupus"
+          },
+          {
+            "id": "species:beluga-whale",
+            "title": "Beluga whale",
+            "subtitle": "Delphinapterus leucas",
+            "description": "Delphinapterus leucas"
+          },
+          {
+            "id": "species:dall-sheep",
+            "title": "Dall sheep",
+            "subtitle": "Ovis dalli",
+            "description": "Ovis dalli"
+          },
+          {
+            "id": "species:gyrfalcon",
+            "title": "Gyrfalcon",
+            "subtitle": "Falco rusticolus",
+            "description": "Falco rusticolus"
+          },
+          {
+            "id": "country:CA",
+            "title": "Canada",
+            "subtitle": "CA",
+            "description": "ISO 3166-1 alpha-2: CA"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-na3",
+            "title": "North Alaskan Tundra (NA3)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/north-alaskan-tundra-na3/"
+          },
+          {
+            "id": "one-earth-eco-407",
+            "title": "Arctic Coastal Tundra",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/arctic-coastal-tundra/"
+          },
+          {
+            "id": "one-earth-eco-408",
+            "title": "Arctic Foothills Tundra",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/arctic-foothills-tundra/"
+          },
+          {
+            "id": "one-earth-eco-411",
+            "title": "Brooks-British Range Tundra",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/brooks-british-range-tundra/"
+          }
+        ]
+      }
+    ],
+    "bioregion:na5": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Far Northern Pacific Coast (NA5) pairs the northern Pacific Alaskan coastal forests with the Pacific Coastal Mountain Icefields and Tundra along the Gulf of Alaska south of the Alaska Range, about 17 million hectares (17,045 thousand ha, excluding icefields) and extending to the Dixon Entrance off central British Columbia. Coastal temperate rainforest grades into glaciated coastal mountains, supporting black-tailed deer, brown bears, bald eagles, and marbled murrelets."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "old-growth coastal temperate rainforest and islands; glaciated coastal mountain ice fields; fjords, sounds, and offshore islands of the Gulf of Alaska; adjacent marine areas including the Dixon Entrance",
+            "sourceIds": [
+              "one-earth-na5",
+              "one-earth-eco-360",
+              "one-earth-eco-420"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Maritime North Pacific conditions tempered by the Alaska Current, with extreme precipitation of about 762–5,588 mm annually and mild winters for the latitude; alpine and glacierized climates at higher elevations with deep snow.; 762–5588 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-360",
+              "one-earth-eco-420"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "Sitka spruce–western hemlock coastal rainforest; western red cedar and Alaska yellow cedar mixed forest; subalpine fir and mountain hemlock forest; alpine dwarf-shrub tundra and ice fields",
+            "sourceIds": [
+              "one-earth-eco-360",
+              "one-earth-eco-420"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "one of the largest nonpolar ice fields in the world; extremely high precipitation feeding glaciers and streams; wind, landslide, and avalanche disturbance of old-growth forest; black-tailed-deer corridors linking coastal and interior populations",
+            "sourceIds": [
+              "one-earth-eco-360",
+              "one-earth-eco-420"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Protection target 74%; protection level 6 (scale 0–10). Tongass and Chugach national forests, Glacier Bay and Kenai Fjords national parks, and portions of Wrangell-St. Elias and Kluane parks protect much of the region within the Kluane–Wrangell-St. Elias–Glacier Bay–Tatshenshini-Alsek UNESCO World Heritage Site. Chief threats are continued old-growth logging, especially in the Tongass, and expanding mining and associated roads.",
+            "sourceIds": [
+              "one-earth-na5",
+              "one-earth-eco-360",
+              "one-earth-eco-420"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:wolverine",
+            "title": "Wolverine",
+            "subtitle": "Gulo gulo",
+            "description": "Gulo gulo"
+          },
+          {
+            "id": "species:black-tailed-deer",
+            "title": "Black-tailed deer",
+            "subtitle": "Odocoileus hemionus columbianus",
+            "description": "Odocoileus hemionus columbianus"
+          },
+          {
+            "id": "species:sea-otter",
+            "title": "Sea otter",
+            "subtitle": "Enhydra lutris",
+            "description": "Enhydra lutris"
+          },
+          {
+            "id": "species:mountain-goat",
+            "title": "Mountain goat",
+            "subtitle": "Oreamnos americanus",
+            "description": "Oreamnos americanus"
+          },
+          {
+            "id": "species:marbled-murrelet",
+            "title": "Marbled murrelet",
+            "subtitle": "Brachyramphus marmoratus",
+            "description": "Brachyramphus marmoratus"
+          },
+          {
+            "id": "species:brown-bear",
+            "title": "Brown bear",
+            "subtitle": "Ursus arctos",
+            "description": "Ursus arctos"
+          },
+          {
+            "id": "species:steller-sea-lion",
+            "title": "Steller sea lion",
+            "subtitle": "Eumetopias jubatus",
+            "description": "Eumetopias jubatus"
+          },
+          {
+            "id": "species:bald-eagle",
+            "title": "Bald eagle",
+            "subtitle": "Haliaeetus leucocephalus",
+            "description": "Haliaeetus leucocephalus"
+          },
+          {
+            "id": "country:CA",
+            "title": "Canada",
+            "subtitle": "CA",
+            "description": "ISO 3166-1 alpha-2: CA"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-na5",
+            "title": "Far Northern Pacific Coast (NA5)",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/bioregions/far-northern-pacific-coast-na5/"
+          },
+          {
+            "id": "one-earth-eco-360",
+            "title": "Northern Pacific Alaskan Coastal Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/northern-pacific-alaskan-coastal-forests/"
+          },
+          {
+            "id": "one-earth-eco-420",
+            "title": "Pacific Coastal Mountain Icefields and Tundra",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/pacific-coastal-mountain-icefields-and-tundra/"
+          }
+        ]
+      }
+    ],
     "ecoregion:417": [
       {
         "kind": "markdown",
@@ -501,6 +820,639 @@ export const contentBundle = {
           }
         ]
       }
+    ],
+    "ecoregion:360": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Northern Pacific Alaskan Coastal Forests sweep islands and mainland from southeastern Alaska around Prince William Sound to northeastern Kodiak Island, about 6.4 million hectares of the largest area of old-growth temperate rainforest in the world – nearly one-third of the global total. The Alaska Current makes the climate surprisingly mild, with extreme precipitation (annual average 2,450 mm, ranging 762–5,588 mm) supporting Sitka black-tailed deer, brown bears, and some of the highest known concentrations of bald eagles and marbled murrelets."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "narrow swath of islands and mainland from southeastern Alaska to northeastern Kodiak Island; glacially carved coasts, sounds, and fjords; rainforest lowlands rising into mountain slopes; glaciation refugia including Dall Island, the outer coast of Glacier Bay, and Kodiak Island",
+            "sourceIds": [
+              "one-earth-eco-360"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Surprisingly mild for its latitude due to the Alaska Current, which also brings extreme precipitation; annual average 2,450 mm, ranging 762–5,588 mm depending on rain-shadow and topographic effects.; 762–5588 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-360"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "coastal rainforest dominated by Sitka spruce and western hemlock; shore pine, mixed conifer, western hemlock–western red cedar, western hemlock–Alaska yellow cedar, and mountain hemlock; alders, black cottonwood, and paper birch along rivers",
+            "sourceIds": [
+              "one-earth-eco-360"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "fire almost entirely absent; wind, landslides, avalanches, floods, and glaciation as main disturbances; anadromous salmon and steelhead runs; endemic subspecies persistence in glaciation refugia",
+            "sourceIds": [
+              "one-earth-eco-360"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Among the wildest and best-protected regions of North America outside arctic tundra and northern taiga; much lies within Tongass National Forest, Chugach National Forest, and Glacier Bay National Park (conservation target 66%; protection level 6). It holds the largest area of old-growth temperate rainforest in the world. Continued logging of old-growth forests, especially in the Tongass, is a major international conservation issue.",
+            "sourceIds": [
+              "one-earth-eco-360"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:marbled-murrelet",
+            "title": "Marbled murrelet",
+            "subtitle": "Brachyramphus marmoratus",
+            "description": "Brachyramphus marmoratus"
+          },
+          {
+            "id": "species:brown-bear",
+            "title": "Brown bear",
+            "subtitle": "Ursus arctos",
+            "description": "Ursus arctos"
+          },
+          {
+            "id": "species:bald-eagle",
+            "title": "Bald eagle",
+            "subtitle": "Haliaeetus leucocephalus",
+            "description": "Haliaeetus leucocephalus"
+          },
+          {
+            "id": "species:sitka-black-tailed-deer",
+            "title": "Sitka black-tailed deer",
+            "subtitle": "Odocoileus hemionus sitkensis",
+            "description": "Odocoileus hemionus sitkensis"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-360",
+            "title": "Northern Pacific Alaskan Coastal Forests",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/northern-pacific-alaskan-coastal-forests/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:407": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Arctic Coastal Tundra forms most of the northern coastline of Alaska, a low (0–150 m) coastal plain along the Beaufort Sea bounded south by the Arctic Foothills Tundra, about 5 million hectares with thaw lakes covering up to 50% of the ecoregion. Kasegaluk Lagoon supports thousands of belugas, seals, and walrus and is a critical staging area for Pacific black brant, while three caribou herds migrate here to breed alongside polar bears, muskox, and Alaska’s only snow goose breeding sites."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "low, gradually rising coastal plain 0–150 m; thaw lakes covering up to 50% of the ecoregion; continuous, thick permafrost with ice wedges and pingos; mostly unglaciated in the Pleistocene, part of the Bering Sea Pleistocene Refugium",
+            "sourceIds": [
+              "one-earth-eco-407"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Arctic; continuous, thick permafrost with very high ice content, abundant ice wedges, and pingos; summer growing season mid-June through August with mean temperatures around 4.5°C; winter mean daily minimum –30°C and daily maximum 8°C; annual precipitation low, 100–300 mm, higher near the southern boundary.; 100–300 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-407"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "wet tundra, fens, bogs, and marshes of grasses, sedges, and mosses; dwarf shrub communities (dwarf birch, willow, alder, northern Labrador tea) on higher, better-drained sites",
+            "sourceIds": [
+              "one-earth-eco-407"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "thaw-lake formation dominating the landscape; caribou calving and migration of the Arctic, Central Arctic, and Porcupine herds; lagoon staging for belugas, spotted seals, walrus, and Pacific black brant; permafrost and ice-wedge dynamics",
+            "sourceIds": [
+              "one-earth-eco-407"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Poorly protected overall – only about 4% within protected areas (conservation target 83%; protection level 0) with 91% of the area outside protected areas intact. A portion of the Arctic National Wildlife Refuge, the largest US wildlife refuge, lies within it, and it is the center of muskox distribution in Alaska; high priority for expanded protection given the threat of increased oil development, centered at Utqiagvik and Prudhoe Bay, the largest oil field in North America and origin of the Trans-Alaska Pipeline.",
+            "sourceIds": [
+              "one-earth-eco-407"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:musk-ox",
+            "title": "Musk ox",
+            "subtitle": "Ovibos moschatus",
+            "description": "Ovibos moschatus"
+          },
+          {
+            "id": "species:polar-bear",
+            "title": "Polar bear",
+            "subtitle": "Ursus maritimus",
+            "description": "Ursus maritimus"
+          },
+          {
+            "id": "species:barren-ground-caribou",
+            "title": "Barren-ground caribou",
+            "subtitle": "Rangifer tarandus groenlandicus",
+            "description": "Rangifer tarandus groenlandicus"
+          },
+          {
+            "id": "species:walrus",
+            "title": "Walrus",
+            "subtitle": "Odobenus rosmarus",
+            "description": "Odobenus rosmarus"
+          },
+          {
+            "id": "species:gray-wolf",
+            "title": "Gray wolf",
+            "subtitle": "Canis lupus",
+            "description": "Canis lupus"
+          },
+          {
+            "id": "species:snow-goose",
+            "title": "Snow goose",
+            "subtitle": "Anser caerulescens",
+            "description": "Anser caerulescens"
+          },
+          {
+            "id": "species:arctic-ground-squirrel",
+            "title": "Arctic ground squirrel",
+            "subtitle": "Urocitellus parryii",
+            "description": "Urocitellus parryii"
+          },
+          {
+            "id": "species:beluga-whale",
+            "title": "Beluga whale",
+            "subtitle": "Delphinapterus leucas",
+            "description": "Delphinapterus leucas"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-407",
+            "title": "Arctic Coastal Tundra",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/arctic-coastal-tundra/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:408": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Arctic Foothills Tundra is a transitional belt of rounded hills and plateaus between the Arctic Coastal Plain and the steep Brooks and British ranges, about 13 million hectares with better-defined drainage, less-saturated soils, and fewer thaw lakes than the coast. Averaging slightly warmer than neighboring ecoregions, it is a migration route for three caribou herds and hosts the Colville River bluffs – important gyrfalcon, peregrine falcon, and rough-legged hawk nest sites."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "rounded hills and plateaus in transition between coastal plain and mountains; better-defined drainage and less-saturated soils; fewer thaw lakes than the coastal tundra; much of it unglaciated in the Pleistocene (Bering Sea Pleistocene Refugium)",
+            "sourceIds": [
+              "one-earth-eco-408"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Arctic, averaging slightly warmer than neighboring ecoregions; continuous thick permafrost with an active layer averaging about 1 m; winter daily temperatures –29 to –20°C and summer 1–15°C; freezing can occur any time of year, but July and August are normally frost-free; annual precipitation about 140 mm, about twice that in the Noatak Valley.; 140–280 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-408"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "moist herbaceous and dwarf shrub communities – tussock-forming sedges (cottongrass), dwarf Arctic birch, crowberry, narrow-leaf Labrador tea, mountain cranberry, mosses and lichens; mat-forming Dryas shrubs and heath shrubs; open low scrub of alder and willow; white spruce forest in the Noatak River Valley",
+            "sourceIds": [
+              "one-earth-eco-408"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "migration corridors for the Western Arctic, Central Arctic, and Porcupine caribou herds; gyrfalcon, peregrine falcon, and rough-legged hawk nest sites on the Colville River bluffs; permafrost active-layer dynamics; Pleistocene refugium biogeography",
+            "sourceIds": [
+              "one-earth-eco-408"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "About 99% intact – 20% within protected areas and 79% outside (conservation target 96%; protection level 2). The Trans-Alaska Pipeline and Pan-American (Dalton) Highway pass through, and corridor development is likely to increase; coal and mineral mining are a threat, especially in the west.",
+            "sourceIds": [
+              "one-earth-eco-408"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:arctic-fox",
+            "title": "Arctic fox",
+            "subtitle": "Vulpes lagopus",
+            "description": "Vulpes lagopus"
+          },
+          {
+            "id": "species:musk-ox",
+            "title": "Musk ox",
+            "subtitle": "Ovibos moschatus",
+            "description": "Ovibos moschatus"
+          },
+          {
+            "id": "species:polar-bear",
+            "title": "Polar bear",
+            "subtitle": "Ursus maritimus",
+            "description": "Ursus maritimus"
+          },
+          {
+            "id": "species:barren-ground-caribou",
+            "title": "Barren-ground caribou",
+            "subtitle": "Rangifer tarandus groenlandicus",
+            "description": "Rangifer tarandus groenlandicus"
+          },
+          {
+            "id": "species:gray-wolf",
+            "title": "Gray wolf",
+            "subtitle": "Canis lupus",
+            "description": "Canis lupus"
+          },
+          {
+            "id": "species:american-black-bear",
+            "title": "American black bear",
+            "subtitle": "Ursus americanus",
+            "description": "Ursus americanus"
+          },
+          {
+            "id": "species:grizzly-bear",
+            "title": "Grizzly bear",
+            "subtitle": "Ursus arctos horribilis",
+            "description": "Ursus arctos horribilis"
+          },
+          {
+            "id": "species:gyrfalcon",
+            "title": "Gyrfalcon",
+            "subtitle": "Falco rusticolus",
+            "description": "Falco rusticolus"
+          },
+          {
+            "id": "country:CA",
+            "title": "Canada",
+            "subtitle": "CA",
+            "description": "ISO 3166-1 alpha-2: CA"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-408",
+            "title": "Arctic Foothills Tundra",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/arctic-foothills-tundra/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:411": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Brooks–British Range Tundra is a belt of mountains from the Western Brooks Range through Anaktuvuk Pass to the higher, more rugged Eastern Brooks (British and Richardson) ranges in Alaska, Yukon, and extreme northwestern Northwest Territories, about 16 million hectares at 800–2,400 m. Sparse dwarf-shrub and alpine tundra carries the migration routes of three caribou herds, Dall sheep at their northern range limit, and some of the northernmost golden eagle and gyrfalcon populations."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "belt of mountains with peaks above 1,800 m retaining Pleistocene glaciers; elevations mostly 800–2,400 m; protected valley sites with subalpine spruce woodland; sparse alpine tundra with lichens and mountain avens",
+            "sourceIds": [
+              "one-earth-eco-411"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Largely Arctic, grading to subarctic cordilleran, with short cool summers and long cold winters; at Anaktuvuk Pass (770 m) winter daily minimums average –30°C and maximums –22°C, summer average low 3°C and high 16°C, with freezing most months; mean annual precipitation 280 mm at Anaktuvuk Pass, about 350 mm in the Canadian portion (where mean annual temperature is –10°C); continuous permafrost.; 280–350 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-411"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "sparse dwarf shrub on drier sites; wet-moist grassy, sedge, willow, and moss communities; subalpine white spruce woodland in protected valleys – the northern limit of white spruce in Canada; alpine tundra of lichens, mountain avens (often 80–90% of cover), heath shrubs, and sedges/cottongrass",
+            "sourceIds": [
+              "one-earth-eco-411"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "migration routes of the Western Arctic, Central Arctic, and Porcupine caribou herds; northern range limits of white spruce and black spruce; alpine permafrost and freeze-thaw processes; northernmost raptor nesting (golden eagle, gyrfalcon)",
+            "sourceIds": [
+              "one-earth-eco-411"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "Nearly 100% of the ecoregion is intact – about 63% within protected areas and 36% outside (conservation target 100%; protection level 6). Significant protected areas include Gates of the Arctic National Park and Preserve (34,287 km2), a large portion of the Arctic National Wildlife Refuge (78,051 km2), and Ivvavik National Park (10,168 km2) in Yukon. The Trans-Alaska Pipeline, Dalton Highway, and Dempster Highway pass through; lead and zinc mining is a threat.",
+            "sourceIds": [
+              "one-earth-eco-411"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:moose",
+            "title": "Moose",
+            "subtitle": "Alces alces",
+            "description": "Alces alces"
+          },
+          {
+            "id": "species:gray-wolf",
+            "title": "Gray wolf",
+            "subtitle": "Canis lupus",
+            "description": "Canis lupus"
+          },
+          {
+            "id": "species:american-black-bear",
+            "title": "American black bear",
+            "subtitle": "Ursus americanus",
+            "description": "Ursus americanus"
+          },
+          {
+            "id": "species:grizzly-bear",
+            "title": "Grizzly bear",
+            "subtitle": "Ursus arctos horribilis",
+            "description": "Ursus arctos horribilis"
+          },
+          {
+            "id": "species:arctic-ground-squirrel",
+            "title": "Arctic ground squirrel",
+            "subtitle": "Urocitellus parryii",
+            "description": "Urocitellus parryii"
+          },
+          {
+            "id": "species:dall-sheep",
+            "title": "Dall sheep",
+            "subtitle": "Ovis dalli",
+            "description": "Ovis dalli"
+          },
+          {
+            "id": "species:gyrfalcon",
+            "title": "Gyrfalcon",
+            "subtitle": "Falco rusticolus",
+            "description": "Falco rusticolus"
+          },
+          {
+            "id": "country:CA",
+            "title": "Canada",
+            "subtitle": "CA",
+            "description": "ISO 3166-1 alpha-2: CA"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-411",
+            "title": "Brooks-British Range Tundra",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/brooks-british-range-tundra/"
+          }
+        ]
+      }
+    ],
+    "ecoregion:420": [
+      {
+        "kind": "markdown",
+        "id": "summary",
+        "title": "Overview",
+        "markdown": "Pacific Coastal Mountain Icefields and Tundra parallels the Northern Pacific Alaskan Coastal Forests from the Alaska Panhandle and adjacent British Columbia to its western terminus on the Kenai Peninsula, about 11 million hectares of steep, rugged terrain rising from sea level to over 4,500 m. It holds Mount Logan (5,959 m) and one of the largest nonpolar icefields in the world, whose deep Pacific precipitation feeds temperate rainforest river valleys that provide key habitat for black-tailed deer, mountain goats, and marbled murrelets."
+      },
+      {
+        "kind": "facts",
+        "id": "ecology",
+        "title": "Ecological character",
+        "facts": [
+          {
+            "id": "landscape",
+            "label": "Landscape",
+            "value": "high-elevation, steep, rugged mountain terrain; sea level to over 4,500 m, with peaks up to 5,175 m (King Peak) and 5,959 m (Mount Logan); one of the largest nonpolar ice fields in the world; river valleys and low coastal temperate rainforest extending up slopes",
+            "sourceIds": [
+              "one-earth-eco-420"
+            ]
+          },
+          {
+            "id": "climate",
+            "label": "Climate",
+            "value": "Transitional maritime-continental (alpine, subalpine, and maritime North Pacific cordilleran); mean annual temperature only –0.5°C, summer about 10°C and winter –11.5°C; lower coastal elevations warmer; high Pacific precipitation – 1,000 mm (east) to 2,400 mm (Fairweather Range icefields) to 3,500 mm or more on Mount Logan, falling mostly as snow in alpine areas.; 1000–3500 mm annual precipitation",
+            "sourceIds": [
+              "one-earth-eco-420"
+            ]
+          },
+          {
+            "id": "vegetation",
+            "label": "Vegetation",
+            "value": "alpine dwarf and low shrub tundra with mountain heath and other heath-family plants; subalpine forests of subalpine fir, mountain hemlock, and some Sitka spruce; denser Sitka spruce and western hemlock at lower elevations, with temperate rainforest extending up river valleys; Kenai Peninsula forests transitional between temperate rainforest and interior boreal",
+            "sourceIds": [
+              "one-earth-eco-420"
+            ]
+          },
+          {
+            "id": "processes",
+            "label": "Ecological processes",
+            "value": "ice fields and glaciers feeding marine and freshwater systems; black-tailed deer corridors connecting coastal and interior populations; marbled murrelet nesting on old-growth branches as far as 80 km inland; extreme precipitation and runoff regimes",
+            "sourceIds": [
+              "one-earth-eco-420"
+            ]
+          },
+          {
+            "id": "conservation",
+            "label": "Conservation context",
+            "value": "About 78% intact – 42% within protected areas and 36% outside (conservation target 79%; protection level 5). Important protected areas include Kenai Fjords National Park and portions of Wrangell-St. Elias, Kluane, and Glacier Bay national parks, part of the binational Kluane–Wrangell-St. Elias–Glacier Bay–Tatshenshini-Alsek UNESCO World Heritage Site designated 1979. Expansion of mining and associated roads is a major threat (gold, silver, copper, zinc, oil, coal, uranium), as are intensive recreation and tourism.",
+            "sourceIds": [
+              "one-earth-eco-420"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "related-entities",
+        "id": "ecological-references",
+        "title": "Characteristic species and countries",
+        "items": [
+          {
+            "id": "species:wolverine",
+            "title": "Wolverine",
+            "subtitle": "Gulo gulo",
+            "description": "Gulo gulo"
+          },
+          {
+            "id": "species:black-tailed-deer",
+            "title": "Black-tailed deer",
+            "subtitle": "Odocoileus hemionus columbianus",
+            "description": "Odocoileus hemionus columbianus"
+          },
+          {
+            "id": "species:sea-otter",
+            "title": "Sea otter",
+            "subtitle": "Enhydra lutris",
+            "description": "Enhydra lutris"
+          },
+          {
+            "id": "species:mountain-goat",
+            "title": "Mountain goat",
+            "subtitle": "Oreamnos americanus",
+            "description": "Oreamnos americanus"
+          },
+          {
+            "id": "species:marbled-murrelet",
+            "title": "Marbled murrelet",
+            "subtitle": "Brachyramphus marmoratus",
+            "description": "Brachyramphus marmoratus"
+          },
+          {
+            "id": "species:brown-bear",
+            "title": "Brown bear",
+            "subtitle": "Ursus arctos",
+            "description": "Ursus arctos"
+          },
+          {
+            "id": "species:steller-sea-lion",
+            "title": "Steller sea lion",
+            "subtitle": "Eumetopias jubatus",
+            "description": "Eumetopias jubatus"
+          },
+          {
+            "id": "species:harbor-seal",
+            "title": "Harbor seal",
+            "subtitle": "Phoca vitulina",
+            "description": "Phoca vitulina"
+          },
+          {
+            "id": "country:CA",
+            "title": "Canada",
+            "subtitle": "CA",
+            "description": "ISO 3166-1 alpha-2: CA"
+          },
+          {
+            "id": "country:US",
+            "title": "United States",
+            "subtitle": "US",
+            "description": "ISO 3166-1 alpha-2: US"
+          }
+        ]
+      },
+      {
+        "kind": "sources",
+        "id": "enrichment-sources",
+        "title": "Enrichment sources",
+        "sources": [
+          {
+            "id": "one-earth-eco-420",
+            "title": "Pacific Coastal Mountain Icefields and Tundra",
+            "publisher": "One Earth",
+            "url": "https://www.oneearth.org/ecoregions/pacific-coastal-mountain-icefields-and-tundra/"
+          }
+        ]
+      }
     ]
   },
   "media": {
@@ -589,11 +1541,13 @@ export const contentBundle = {
       "description": "Vulpes lagopus",
       "linkedEntryIds": [
         "ecoregion:417",
-        "ecoregion:418"
+        "ecoregion:418",
+        "ecoregion:408"
       ],
       "linkedGroupIds": [
         "subrealm:greenland",
-        "bioregion:na1"
+        "bioregion:na1",
+        "bioregion:na3"
       ]
     },
     {
@@ -602,11 +1556,14 @@ export const contentBundle = {
       "description": "Ovibos moschatus",
       "linkedEntryIds": [
         "ecoregion:417",
-        "ecoregion:418"
+        "ecoregion:418",
+        "ecoregion:407",
+        "ecoregion:408"
       ],
       "linkedGroupIds": [
         "subrealm:greenland",
-        "bioregion:na1"
+        "bioregion:na1",
+        "bioregion:na3"
       ]
     },
     {
@@ -646,6 +1603,242 @@ export const contentBundle = {
       ]
     },
     {
+      "id": "species:polar-bear",
+      "title": "Polar bear",
+      "description": "Ursus maritimus",
+      "linkedEntryIds": [
+        "ecoregion:407",
+        "ecoregion:408"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na3"
+      ]
+    },
+    {
+      "id": "species:barren-ground-caribou",
+      "title": "Barren-ground caribou",
+      "description": "Rangifer tarandus groenlandicus",
+      "linkedEntryIds": [
+        "ecoregion:407",
+        "ecoregion:408"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na3"
+      ]
+    },
+    {
+      "id": "species:walrus",
+      "title": "Walrus",
+      "description": "Odobenus rosmarus",
+      "linkedEntryIds": [
+        "ecoregion:407"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:moose",
+      "title": "Moose",
+      "description": "Alces alces",
+      "linkedEntryIds": [
+        "ecoregion:411"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:gray-wolf",
+      "title": "Gray wolf",
+      "description": "Canis lupus",
+      "linkedEntryIds": [
+        "ecoregion:407",
+        "ecoregion:408",
+        "ecoregion:411"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na3"
+      ]
+    },
+    {
+      "id": "species:american-black-bear",
+      "title": "American black bear",
+      "description": "Ursus americanus",
+      "linkedEntryIds": [
+        "ecoregion:408",
+        "ecoregion:411"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:grizzly-bear",
+      "title": "Grizzly bear",
+      "description": "Ursus arctos horribilis",
+      "linkedEntryIds": [
+        "ecoregion:408",
+        "ecoregion:411"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:wolverine",
+      "title": "Wolverine",
+      "description": "Gulo gulo",
+      "linkedEntryIds": [
+        "ecoregion:420"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na5"
+      ]
+    },
+    {
+      "id": "species:black-tailed-deer",
+      "title": "Black-tailed deer",
+      "description": "Odocoileus hemionus columbianus",
+      "linkedEntryIds": [
+        "ecoregion:420"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na5"
+      ]
+    },
+    {
+      "id": "species:sea-otter",
+      "title": "Sea otter",
+      "description": "Enhydra lutris",
+      "linkedEntryIds": [
+        "ecoregion:420"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na5"
+      ]
+    },
+    {
+      "id": "species:mountain-goat",
+      "title": "Mountain goat",
+      "description": "Oreamnos americanus",
+      "linkedEntryIds": [
+        "ecoregion:420"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na5"
+      ]
+    },
+    {
+      "id": "species:marbled-murrelet",
+      "title": "Marbled murrelet",
+      "description": "Brachyramphus marmoratus",
+      "linkedEntryIds": [
+        "ecoregion:360",
+        "ecoregion:420"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na5"
+      ]
+    },
+    {
+      "id": "species:brown-bear",
+      "title": "Brown bear",
+      "description": "Ursus arctos",
+      "linkedEntryIds": [
+        "ecoregion:360",
+        "ecoregion:420"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na5"
+      ]
+    },
+    {
+      "id": "species:snow-goose",
+      "title": "Snow goose",
+      "description": "Anser caerulescens",
+      "linkedEntryIds": [
+        "ecoregion:407"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:steller-sea-lion",
+      "title": "Steller sea lion",
+      "description": "Eumetopias jubatus",
+      "linkedEntryIds": [
+        "ecoregion:420"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na5"
+      ]
+    },
+    {
+      "id": "species:arctic-ground-squirrel",
+      "title": "Arctic ground squirrel",
+      "description": "Urocitellus parryii",
+      "linkedEntryIds": [
+        "ecoregion:407",
+        "ecoregion:411"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:bald-eagle",
+      "title": "Bald eagle",
+      "description": "Haliaeetus leucocephalus",
+      "linkedEntryIds": [
+        "ecoregion:360"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na5"
+      ]
+    },
+    {
+      "id": "species:beluga-whale",
+      "title": "Beluga whale",
+      "description": "Delphinapterus leucas",
+      "linkedEntryIds": [
+        "ecoregion:407"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na3"
+      ]
+    },
+    {
+      "id": "species:dall-sheep",
+      "title": "Dall sheep",
+      "description": "Ovis dalli",
+      "linkedEntryIds": [
+        "ecoregion:411"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na3"
+      ]
+    },
+    {
+      "id": "species:gyrfalcon",
+      "title": "Gyrfalcon",
+      "description": "Falco rusticolus",
+      "linkedEntryIds": [
+        "ecoregion:408",
+        "ecoregion:411"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na3"
+      ]
+    },
+    {
+      "id": "species:harbor-seal",
+      "title": "Harbor seal",
+      "description": "Phoca vitulina",
+      "linkedEntryIds": [
+        "ecoregion:420"
+      ],
+      "linkedGroupIds": []
+    },
+    {
+      "id": "species:sitka-black-tailed-deer",
+      "title": "Sitka black-tailed deer",
+      "description": "Odocoileus hemionus sitkensis",
+      "linkedEntryIds": [
+        "ecoregion:360"
+      ],
+      "linkedGroupIds": []
+    },
+    {
       "id": "country:GL",
       "title": "Greenland",
       "description": "ISO 3166-1 alpha-2: GL",
@@ -656,6 +1849,20 @@ export const contentBundle = {
       "linkedGroupIds": [
         "subrealm:greenland",
         "bioregion:na1"
+      ]
+    },
+    {
+      "id": "country:CA",
+      "title": "Canada",
+      "description": "ISO 3166-1 alpha-2: CA",
+      "linkedEntryIds": [
+        "ecoregion:408",
+        "ecoregion:411",
+        "ecoregion:420"
+      ],
+      "linkedGroupIds": [
+        "bioregion:na3",
+        "bioregion:na5"
       ]
     }
   ]

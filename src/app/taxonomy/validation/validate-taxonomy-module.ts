@@ -37,6 +37,33 @@ export function validateTaxonomyModule<
   duplicateIds('dimension', module.interpretation.dimensions);
   duplicateIds('facet', module.interpretation.facets);
 
+  const relationIds = new Set<string>();
+  for (const [index, relation] of (module.crossTaxonomyRelations ?? []).entries()) {
+    const path = `crossTaxonomyRelations[${index}]`;
+    if (!relation.id.trim()) error('missing-relation-id', 'Cross-taxonomy relation has no ID.', path);
+    else if (relationIds.has(relation.id))
+      error('duplicate-relation-id', `Duplicate cross-taxonomy relation ID "${relation.id}".`, path);
+    relationIds.add(relation.id);
+    if (relation.source.datasetId !== module.meta.id)
+      error(
+        'foreign-relation-source',
+        `Relation "${relation.id}" must be owned by the declaring dataset.`,
+        path,
+      );
+    if (!relation.target.datasetId.trim() || relation.target.datasetId === module.meta.id)
+      error(
+        'invalid-relation-target-dataset',
+        `Relation "${relation.id}" must target another named dataset.`,
+        path,
+      );
+    if (!relation.provenance.method?.trim() && !relation.provenance.sourceIds?.length)
+      error(
+        'missing-relation-provenance',
+        `Relation "${relation.id}" must declare a source or derivation method.`,
+        path,
+      );
+  }
+
   const dashboard = module.presentation.dashboard;
   if (module.contentProvider) {
     if (typeof module.contentProvider.resolvePartition !== 'function')
@@ -58,6 +85,15 @@ export function validateTaxonomyModule<
         if (widgetIds.has(widget.id))
           error('duplicate-dashboard-widget', `Duplicate dashboard widget ID "${widget.id}".`);
         widgetIds.add(widget.id);
+        if (widget.kind === 'taxonomy-portal') {
+          if (!widget.targetDatasetId.trim() || widget.targetDatasetId === module.meta.id)
+            error(
+              'invalid-portal-dataset',
+              `Taxonomy portal "${widget.id}" must target another named dataset.`,
+            );
+          if (!widget.relationKinds.length)
+            error('empty-portal-relations', `Taxonomy portal "${widget.id}" has no relation kinds.`);
+        }
         if (widget.kind !== 'media') continue;
         const media = [
           ...Object.values(widget.mediaByEntityId ?? {}),

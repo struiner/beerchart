@@ -7728,11 +7728,18 @@ export const contentBundle = {
         "ecoregion:639",
         "ecoregion:640",
         "ecoregion:641",
+        "ecoregion:360",
+        "ecoregion:407",
+        "ecoregion:408",
+        "ecoregion:411",
+        "ecoregion:420",
         "ecoregion:612"
       ],
       "linkedGroupIds": [
         "realm:oceania",
         "subrealm:oceanic-islands",
+        "bioregion:na3",
+        "bioregion:na5",
         "bioregion:oc11"
       ]
     }
